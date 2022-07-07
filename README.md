@@ -1,2 +1,2 @@
 # baroque-networks
-Materials relative to my PhD project
+PhD project, 2021-, Universität Potsdam (Germany)
