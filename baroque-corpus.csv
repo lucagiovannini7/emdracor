@@ -107,11 +107,11 @@ ESP	15	Calderón de la Barca, Pedro	Q170800	La vida es sueno	Q138174	DRA	1635
 ESP	16	Rojas Zorrilla, Francisco de	Q1442310	Entre bobos anda el juego	Q5834363	COM	1638
 ESP	17	Rojas Zorrilla, Francisco de	Q1442310	Lo que son mujeres	n/a	COM	1644
 ESP	18	Calderón de la Barca, Pedro	Q170800	La segunda esposa	n/a	AUTO	1648
-ESP	19	"Maldonado, Juan; de la Dueña, Diego; de Cifuentes, Jerónimo"	n/a	La mas costante mujer	n/a	COM	1658
+ESP	19	Maldonado, Juan; de la Dueña, Diego; de Cifuentes, Jerónimo	n/a	La mas costante mujer	n/a	COM	1658
 ESP	20	Moreto y Cavana, Agustín	Q399346	El desdén con el desdén	Q5824627	COM	1654
 ESP	21	Moreto y Cavana, Agustín	Q399346	El lindo don Diego	Q5825576	COM	1662
 ESP	22	Calderón de la Barca, Pedro	Q170800	Suenos hay que verdad son	n/a	AUTO	1670
-ESP	23	"Matos Fragoso, Juan de; Diamante, Juan Bautista; Vélez de Guevara, Juan"	"Q6301294; Q3187575; Q3187815"	El hidalgo de la Mancha	n/a	COM	1673
+ESP	23	Matos Fragoso, Juan de; Diamante, Juan Bautista; Vélez de Guevara, Juan	Q6301294; Q3187575; Q3187815	El hidalgo de la Mancha	n/a	COM	1673
 ESP	24	Diamante, Juan Bautista	Q3187575	El Hércules de Ocaña	n/a	COM	1673
 ESP	25	Sor Juana Inés de la Cruz	Q183074	Los empeños de una casa	Q5980840	COM	1683
 ESP	26	Montenegro y Neira, Juan de 	n/a	La toma de Buda	n/a	AUTO	1687
@@ -119,7 +119,7 @@ ESP	27	Bances y Candamo, Francisco	Q1962299	El esclavo en grillos de oro	n/a	COM
 ESP	28	Zamora, Antonio de	Q606094	Ser fino y no parecerlo	n/a	COM	1692
 ESP	29	Romero, Ferdinando	n/a	Aunque las razones basten, nunca la justicia sobra	n/a	COM	1701
 ESP	30	Zamora, Antonio de	Q606094	Duendes son los alcahuetes y el espíritu Foleto	n/a	COM	1709
-ENG	1	"Norton, Thomas; Sackville, Thomas"	"Q337443; Q670967"	Gorboduc	n/a	TRAG	1561
+ENG	1	Norton, Thomas; Sackville, Thomas	Q337443; Q670967	Gorboduc	n/a	TRAG	1561
 ENG	2	Fulwell, Ulpian	Q7879758	Like Will to Like	n/a	INT	1568
 ENG	3	Woodes, Nathaniel	n/a	The Conflict of Conscience	n/a	COM	1572
 ENG	4	Gascoigne, George	Q333528	The Glass of Government	n/a	TGC	1575
