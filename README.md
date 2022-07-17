@@ -1,2 +1,2 @@
 # baroque-networks
-PhD project, 2021-, Universität Potsdam (Germany)
+Slides and files pertaining to my PhD project at the Universität Potsdam (Germany, 2021-)
