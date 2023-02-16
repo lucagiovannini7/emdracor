@@ -1,0 +1,2835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="dracor-id" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Guysien</title>
+        <title type="sub">ou Perfidie Tyrannique</title>
+        <author>
+          <persName>
+            <forename>Simon</forename>
+            <surname>Belyard</surname>
+          </persName>
+          <idno type="wikidata">Q3484229</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Google Books</name>
+          <idno type="URL">https://books.google.de/books?id=3GJnAAAAcAAJ</idno>
+          <availability status='free'>
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Belyard, Simon: Le Guysien ou Perfidie tyrannique [...]. Troyes: Iean Moreau, 1592</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <personGrp xml:id="choeur" sex="UNKNOWN">
+            <persName>Choeur</persName>
+          </personGrp>
+          <person xml:id="epernon" sex="MALE">
+            <persName>Epernon</persName>
+          </person>
+          <personGrp xml:id="damoiselles" sex="FEMALE">
+            <persName>Damoiselles</persName>
+          </personGrp>
+          <person xml:id="archant" sex="MALE">
+            <persName>Archant</persName>
+          </person>
+          <person xml:id="nourisse" sex="FEMALE">
+            <persName>Nourisse</persName>
+          </person>
+          <person xml:id="soudard" sex="MALE">
+            <persName>Soudard</persName>
+          </person>
+          <personGrp xml:id="gards" sex="MALE">
+            <persName>Gards</persName>
+          </personGrp>
+          <person xml:id="guise" sex="MALE">
+            <persName>Guise</persName>
+          </person>
+          <person xml:id="damoiselle" sex="FEMALE">
+            <persName>Damoiselle</persName>
+          </person>
+          <person xml:id="henry" sex="MALE">
+            <persName>Henry</persName>
+          </person>
+          <person xml:id="madame" sex="FEMALE">
+            <persName>Madame</persName>
+          </person>
+          <person xml:id="alecton" sex="FEMALE">
+            <persName>Alecton</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-09-29">(LG) first formatting and editing. Removed notes and paratetexts.</change>
+        <change when="2023-02-08"> (LG) updated formatting. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1592">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+        <castList>
+          <head>Les personnages</head>
+          <castItem>ALECTON <roleDesc>furie</roleDesc></castItem>
+          <castItem>MADAME de Nemours</castItem>
+          <castItem>Et ses DAMOISELLES</castItem>
+          <castItem>La NOURISSE de madame</castItem>
+          <castItem>HENRI <roleDesc>tyran</roleDesc></castItem>
+          <castItem>Epernon.</castItem>
+          <castItem>L'ARCHANT</castItem>
+          <castItem>Et le CHŒUR DES GARDS</castItem>
+          <castItem>MONSIEUR DE GUYSE</castItem>
+          <castItem>Le SOLDAT <roleDesc>messager</roleDesc></castItem>
+          <castItem>Le CHOEUR</castItem>
+        </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head>Acte I.</head>
+        <sp who="#alecton">
+          <speaker>Alecton.</speaker>
+          <l>Moy fille de la nuit, et des eaux tenebreuses</l>
+          <l>D'acheron gemisant, par les caves ombreuses</l>
+          <l>De l‘orque sans pitié, donn'-effroy, donne-peur,</l>
+          <l>Ceint neuf fois du palus, que méme un dieu, trompeur,</l>
+          <l>Noseroit parjurer, tant il est redoutable.</l>
+          <l>Ou l’ardeur phlegeton d’un son épouventable</l>
+          <l>Bruyant, sifflant, tonnant par ses bors limonneux,</l>
+          <l>Ors, terribles, puans, obscurcis, veneneux,</l>
+          <l>Fait d'horreur frissonner les ames criminelles,</l>
+          <l>Qui endurent la-bas les peines eternelles.</l>
+          <l>Moy cherche-malencontre, ôte-paix alecton,</l>
+          <l>Ayme-pleurs, ayme-dueil, que le pere pluton</l>
+          <l>Hayt (tant ie suis méchante!) E mes sœurs avernales:</l>
+          <l>Qui fay trembler de peur les bettes infernales,</l>
+          <l>Le chien triple-gosier, le monstre triple-cors,</l>
+          <l>Du chef gorgonien les coulevures retors,</l>
+          <l>Les felons my-chenaux, les sales harpyes</l>
+          <l>Infectant l'environ, ou elles sont croupies.</l>
+          <l>Moy alecton qui scay mill’et mille façons,</l>
+          <l>Mill’ars, mille moyens, par mortelles poisons</l>
+          <l>Des mes serpens-cheveux, tous les hommes corrompre.</l>
+          <l>Et le ferme lien d'amys, et freres rompre:</l>
+          <l>Auray-ie pour-néant aujourd'huy delaissé</l>
+          <l>Le tartare en repos? Tantable chef baissé</l>
+          <l>A des-ja avallé tant d'eau a pleine gorge,</l>
+          <l>Que son gosier ardent ça dela regorge.</l>
+          <l>Titye delivré de ses penibles fers</l>
+          <l>Rechasse son vautour par les sombres enfers.</l>
+          <l>Sisyphe se repose affis dessus sa pierre.</l>
+          <l>Thefee, et pyrethois, et l'imite-tonnerre,</l>
+          <l>Et les echelles-ciel confpirent des combas</l>
+          <l>Pour ruiner les dieux, et d'en-hant, et d'en-bas</l>
+          <l>Ce pendant que ie suis fur la terre a rien faire,</l>
+          <l>Ce pendant que ie cesse a poursusyure l'affaire</l>
+          <l>Pourquoy i’y fuis venue. Il est tans aleston,</l>
+          <l>Cette trame est tissue au metier de cloton.</l>
+          <l>Sus dépesche, il est tans: or mé la main a l’œuvre,</l>
+          <l>Eparche tes venins, relache ton coulevure,</l>
+          <l>Que tu as reservé, soigneuse, de long tans;</l>
+          <l>Pour tantot te donner um soyeux paffetans:</l>
+          <l>Celuy qui fit perir la gréce florissante:</l>
+          <l>Celuy qui fit perir la grand' romme puissante</l>
+          <l>Maistresse des citez, l’honneur de l’univers,</l>
+          <l>Engendrant dans les grans des conseilz tresperners,</l>
+          <l>Suscitant par trois fois, pour ruiner leur ville,</l>
+          <l>Entre les citoyens we guerre civille.</l>
+          <l>Non, non, ie ne perdray, non ie ne perdray point</l>
+          <l>Le tans qui m'est donné. Un ver rongeard me point</l>
+          <l>De rabbattre l'orgueil de la superbe france,</l>
+          <l>De grandeur, et d'honneur la remettre en soufrance.</l>
+          <l>En-vain mes sœurs a moy auroient en leur recours,</l>
+          <l>Qui depuis tani de tuns me demandenit secours</l>
+          <l>Pour maintenir en france a jamais l'heresie,</l>
+          <l>Et sa germaine sœur la feinte bypocrisie.</l>
+          <l>Depuis dix ans megere a fait tout son devoir,</l>
+          <l>Tisiphon n'a en rien épargné son pouvoir</l>
+          <l>Pour enflammer le roy a lencontre des princes,</l>
+          <l>Les citoyens entr'eux par toutes les provinces,</l>
+          <l>De simulation et de fard artizan</l>
+          <l>Que bien sçait pratiquer le flateur courtizan.</l>
+          <l>Tant a creu dans la cour cette mortelle peste,</l>
+          <l>Qu'elle est au dernier point: maintenant il ne reste</l>
+          <l>Qu'un seul coup de ma main pour la bien mettre a chef,</l>
+          <l>Faisant tout trébucher en un tresgrand méchef.</l>
+          <l>Dieux qui tenez la-haut, par les étoillez temples</l>
+          <l>Du ciel embrasse-tout, voz demeures tres-amples,</l>
+          <l>Ou iouiffez heureux de la felicité,</l>
+          <l>Qui dure touyours une a toute eternité:</l>
+          <l>Permettez moy, grans dieux, permettez ie vous prie</l>
+          <l>D'y seulement entrer. Si tot que ma furie</l>
+          <l>Frachi la porte aura, soudain l’amour, la paix,</l>
+          <l>La joie, la concorde, et plaisir pour iamais</l>
+          <l>Quitteront des haus cieux l'agreable demeure.</l>
+          <l>Moy, seule ie feray, et en un moment d'heure,</l>
+          <l>Ce que ne peut iadis des titans inhumains</l>
+          <l>L'exercite nombreux, quand aveecque cent mains</l>
+          <l>Trois grans mons, l'un sur l'autre, en un amoncelerent,</l>
+          <l>Et furieusement le ciel ilz échelerent,</l>
+          <l>Grimpez desser olympe attonche-firmament,</l>
+          <l>Qui osse, et pelion avoit pour fondement.</l>
+          <l>Läpet, encelas, gyge, briare, cée,</l>
+          <l>Aloïdes, typhon, que la terre amassee</l>
+          <l>Des trois mons foudroyez accable de son faix,</l>
+          <l>Regneroient maintenant dedans le ciel en paix,</l>
+          <l>S'ils eussent alecton de serpens chevelue,</l>
+          <l>En ce matin complot pour leur conduite élue.</l>
+          <l>Le foudre de luppin deffendre ne pourroit</l>
+          <l>La grand troupe des dieux, qui, vite, s'enfuyro</l>
+          <l>Pelle-melle a-la-foule en extreme détresse.</l>
+          <l>Les plus fors renversant les foibles en la presse</l>
+          <l>Fuyroient deça dela sans sçauoir ou aller:</l>
+          <l>Tout ainsi que l'on voit a cors perdu voler,</l>
+          <l>Fuyant l’aigle par l'air les grand's troupes legeres:</l>
+          <l>Comme un troupeau fuyard de biches boccageres</l>
+          <l>Sentant un grand leurier qui le poursuit de-pres,</l>
+          <l>Laisse, tout-éperdu, le touffu des forês,</l>
+          <l>Et segarant ça la au milieu d'me plaine.</l>
+          <l>Peureux, de tous côtez court a perte d'haleine,</l>
+          <l>Tant qu'en fin entendant de la meute des chiens</l>
+          <l>Cy iapper les lacons, la les mollossiens,</l>
+          <l>Il fe iette, aveuglé, cherchant, pleureux, la fuite,</l>
+          <l>Dans le fer des veneurs qui en font la poursuite.</l>
+          <l>De méme, tous les dieux de frayeur tout-glacez</l>
+          <l>Pensant tousjours sentir mes serpens enlacez</l>
+          <l>A leur col, écumer leurs paisans couleurines,</l>
+          <l>Se glisser dans leurs seins, poinçonner leurs poitrines,</l>
+          <l>Les ronger, tenailler, martirer, au dedans</l>
+          <l>Leurs entrailles griller avec flambeaux ardens,</l>
+          <l>Laisseroient, éperdus, le palais des cieux vuides</l>
+          <l>Qu'ilz croiroient en tous lieux estre pleins d'eumenide,</l>
+          <l>Les plus grans enragez les demy-dieux tu’roient,</l>
+          <l>Qu s'enfuyanses mains des geans tomberoient.</l>
+          <l>Ce seroit un enfer plein de pleurs, et de larmes,</l>
+          <l>De meurtres tout sanglant, ou tousjours en alarmes;</l>
+          <l>En guerres, en discors, et en inimitié</l>
+          <l>Se battroient, furieux, l'un l'autre sans pitié.</l>
+          <l>Bref, la cruelle mort en une peine telle</l>
+          <l>Seroit le seul desir de la race immortelle.</l>
+          <l>L'enfer n'est point enfer que pourceque i'y suis:</l>
+          <l>La france en sera un, puisqu’ore se poursuis</l>
+          <l>Sa ruine totale, or' c'est fait de toy, france,</l>
+          <l>France; c'est fait de toy: ta puissance en soufrance,</l>
+          <l>Ta grandeur en rabais, ton bon-heur en mal-heur</l>
+          <l>Sera bien tot changé, et ta ioye en douleur.</l>
+          <l>L'archer donne-clarté de sa perruque blonde,</l>
+          <l>Depuis le bord indois iusque au tage, ou dans l'onde</l>
+          <l>Tous les iours il éteint son dru-brillant flambeau,</l>
+          <l>Ne voit rien de si grand, ne voit rien de si beau.</l>
+          <l>Telle ne fut iamais la gloire ausoniene,</l>
+          <l>Ny telle la grandeur agamemnoniene,</l>
+          <l>Soit en ars et sçauoir, sout en bommes vétus</l>
+          <l>Du manteau glorieux de forces, et vertus.</l>
+          <l>D'autant que le soleil les étoilles surpasse,</l>
+          <l>L'honneur du preux gaulois tout autre honneur efface.</l>
+          <l>A-ton veu autrefois tant de rares espris</l>
+          <l>Enfanter doctement tant de braves écris?</l>
+          <l>Outrepassant gaillard, la commune carriere</l>
+          <l>Un cygne vandomois iette aux yeux la poussiere</l>
+          <l>De tous ses devanciers grecs ou italiens.</l>
+          <l>Quoy? Tant de grans docteurs? De grans historiens?</l>
+          <l>Le françois bien-disant or a tant d'elegance,</l>
+          <l>Qu'il rabbat la gregeoise, et romaine arrogance:</l>
+          <l>Cela luy a causé un merveilleux honneur.</l>
+          <l>D'autrepart, il reçoit un souverain bonheur</l>
+          <l>Que va semant par-tout la vraye renommee</l>
+          <l>Vers l’est, oest, nurd, et sud de sa trompe animee.</l>
+          <l>Par tout cet univers le bras victorieux</l>
+          <l>Du grand-ame gaulois rend son nom glorieux.</l>
+          <l>Que l'on ne vante plus hector, aené, troile:</l>
+          <l>Ajax le furieux, le pié-leger achille,</l>
+          <l>Le thebain donte-monstre, ou le trozoenien,</l>
+          <l>Les nautonniers d'argon, leur chef aesonien.</l>
+          <l>Que l'on ne vante plus les lauriers d'alexandre,</l>
+          <l>Un cesar trionfant, son infortuné gendre.</l>
+          <l>Un des princes lorrains, lorrains guerriers trespreux,</l>
+          <l>Les devance d'autant, par ses fais genereux,</l>
+          <l>Qu'athlas le porte-ciel, qui cache dans les nues</l>
+          <l>Ses cimes aux mortels a iamais inconnues,</l>
+          <l>Surpasse les maisons des peuples écaillez,</l>
+          <l>Qui fendent a l'entour avec leurs dos ailez</l>
+          <l>Le marbre transparant des campaignes falees:</l>
+          <l>Surpasse des chams vers les humides dalees.</l>
+          <l>Par-tout susques au ciel vole leur grand renom,</l>
+          <l>Au cathay, au perou, et en chus est le nom</l>
+          <l>Des guysars reveré, ie forcéne: i'enrage:</l>
+          <l>Tant ce guysard me fait a toute heure d'outrage.</l>
+          <l>Luy seul, des ce tans-là qu'un crépelu cotton</l>
+          <l>Ne vétoit de son or son fosselu menton,</l>
+          <l>A prudent, renversé toutes mes entreprises,</l>
+          <l>Rien ne vaut luy dresser fraudes, dolz, et surprises.</l>
+          <l>Ie pensois que l'ayeul, et pere de cettuy</l>
+          <l>Estant mort, rien n'estoit qui me peut faire ennuy,</l>
+          <l>Quand soudain i’apperceu le fis aux siens prospere</l>
+          <l>Surpasser la vertu de l'ayenho, et du pere.</l>
+          <l>Encore, i'esperois qu'un iour par la vertu</l>
+          <l>Au milieu des combas il mouroit abbatu.</l>
+          <l>Ie luy traverser en-vain d’un plom la iouë,</l>
+          <l>Dequoy plus animé de ma force il se iouë.</l>
+          <l>Comme un ieune lion d'un coeur, et brave, et haut</l>
+          <l>Ayant receu un coup d'un toreau, qu'il assaut</l>
+          <l>Le premier, delaissant son antre, et son bocage.</l>
+          <l>A un autre combat il accroit son courage</l>
+          <l>Tousjours plus et tousjours son cueur grossit plus fort</l>
+          <l>Connoissant ce que peut de son hoste l'effort.</l>
+          <l>Cet herôs guysien par ce coup-la, de-méme</l>
+          <l>Enhardy davantage, a un honneur supreme</l>
+          <l>Dessur moy remporté et null’et mille fois.</l>
+          <l>Encore, i'ay long tans esperé toutesfois</l>
+          <l>Qu'en suscitant tousjours quelque nouvelle guerre</l>
+          <l>Le luy ferois en-bref couché mordre la terre.</l>
+          <l>Mais plus en-cain i'atten; plus il est florissant,</l>
+          <l>Plus sortent de rameaux de ce gros tronc croissant.</l>
+          <l>Crete me fut iamais tant-de fois decorée</l>
+          <l>Par les accouchemens de la grand mere rhée,</l>
+          <l>Que la france reçoit de princes seigneurs,</l>
+          <l>De braves chevaliers, de braves gouverneurs,</l>
+          <l>De compagnons de roz, et majesté souvraine,</l>
+          <l>Qui nasisent tous les cours de la race loraine,</l>
+          <l>Semblable au saule verd, qui tant plus est tondu.</l>
+          <l>Tant plus il en rejette in grand bois étendu.</l>
+          <l>Il faut qu'entierement i'extirpe cette race,</l>
+          <l>Pour regner par le france avec le dieu de thrace.</l>
+          <l>Enyon conduira de notre char roulant</l>
+          <l>Les feroces moreaux, teins au sang tard-coulant</l>
+          <l>Des hommes massacrez en tous lieux par la france.</l>
+          <l>Sus, i-coup, ie le veux, qu'on se batte a outrance.</l>
+          <l>Faites tous, se be veux, faites mal a-qui-mieux.</l>
+          <l>Or i'un, or l'autre foit tantot victorieux.</l>
+          <l>Que la colere n'ait ou fin ou honte aucune.</l>
+          <l>Tousjours soient enflammez de l'aveugle rancune,</l>
+          <l>Et fureur, les espris des hommes forcenez.</l>
+          <l>Les arriere-neveux, qui ne sont encor nez,</l>
+          <l>Gardent de pere en fis tousjours l'ardente rage</l>
+          <l>De leurs predeceseurs, et d'un bouillant courage</l>
+          <l>Facent cent nouveaux maux voulant m viel venger.</l>
+          <l>Que l'on voye les grans de fortune changer,</l>
+          <l>Contrains de quitter tout par force, et violence,</l>
+          <l>A quelque crocheteur regorgeant d'insolence.</l>
+          <l>Aucun ne puisse hair le meffet ja passé,</l>
+          <l>Mais qu'il soit par plus grans coup-a-coup effacé.</l>
+          <l>Qu'on ne puisse empécher que la fureur, et l’ire,</l>
+          <l>Ne face a son plaisir tout ce qu'elle desire.</l>
+          <l>Allez, vites, devant, allez mes couleureaux:</l>
+          <l>Glissez vous dans le cueur du roy, et ses boureaux</l>
+          <l>Qui attendent le iour pour commancer cet oeuvre.</l>
+          <l>Le chateau a senti l’entree de couleuvre:</l>
+          <l>Il croule tout d'horreur par son attouchement.</l>
+          <l>Ilz desirent ja tons de boire avidement</l>
+          <l>Le sang des demy-dieux de la loraine race.</l>
+          <l>Tout n'est que trop bien fait. Ie vay, suyvant la trace</l>
+          <l>Que i'ay faite venant des grouffres tenebreux,</l>
+          <l>Renouveller la-bas aux tartares ombreux</l>
+          <l>Des impies damnez les eternelles peines.</l>
+          <l>Tout est fait. L'apperçoy ja par mille inhumaines</l>
+          <l>Et mille cruautez le guysard atterré,</l>
+          <l>De mille et mile cous de poignard enferré,</l>
+          <l>Sanglantant lenviron, qui es-vain s'evertue</l>
+          <l>Contre la grand’fureur du meurtrier qui le tue.</l>
+          <l>Comme le gros taureau, qu'on veut sacrifier</l>
+          <l>A macors, ou neptun, tâche se délier:</l>
+          <l>Tâche bien, mais en vain, rompre sa forte attache,</l>
+          <l>Ayant receu un coup de la pesante hache.</l>
+          <l>Il retourne ça-la, d' un affreux muglement</l>
+          <l>Témoignant, demy-mort, son mécontentement.</l>
+          <l>En-vain se horriblant al refrappe la nue,</l>
+          <l>Et des piés fait voler la poussiere menue:</l>
+          <l>Jusqu'en fin chancelant qu'en son sang tombe mort,</l>
+          <l>Ie guyssen repousse ainsi la proche mort.</l>
+          <l>Le voy son frere aupres ( ame a dieus consacrer)</l>
+          <l>Reteindre dans son sang sa grand robe pourpree.</l>
+          <l>Te voy là renfermer dans l'obscure prison</l>
+          <l>Tous les autres encor qui font de la maison.</l>
+          <l>Cela ne méjouit senon d'autant qu'il cause</l>
+          <l>Un tumulte, qui m'est plus-que toute autre chose</l>
+          <l>Agréable, et plaisant. Ie voy les uns s'armer</l>
+          <l>Pour ce meurtre vanger les autres animer</l>
+          <l>Leur courage selon pour le tyran deffendre.</l>
+          <l>Ie voy de part et d'autre a létendard se rendre</l>
+          <l>Le soudard partial. L'oy les felons chevaux,</l>
+          <l>Voyans le sang bumain, se plaire en leurs travaux.</l>
+          <l>Ie voy tout ruiné par les méchans gens d'armes.</l>
+          <l>Le voy de toutes pars étinceler leurs armes.</l>
+          <l>I'enten de sur leur dos les cuirasses craquer.</l>
+          <l>Le les voy rudement hardis s'entrechoquer.</l>
+          <l>I'oy les canons tonnans, par leur salpétre foudre,</l>
+          <l>Mettre des grand’s cités les murailles en poudre.</l>
+          <l>Le sens l'aigu clairon l'oreille me raser.</l>
+          <l>Ie voy les chevaliers les piétons écraser</l>
+          <l>Sou leurs chevaux naurez. I'oy le cris lamentable</l>
+          <l>Des vaincus, des vainqueurs i’oy le bruit delectable.</l>
+          <l>Ie voy le fer tranchant les mors amonceler.</l>
+          <l>Le voy le sang fumeux par le cam ruisseler:</l>
+          <l>Le voy dedans l'enclôt des plus puissantes villes,</l>
+          <l>Regner seditions, meurtres, guerres civilles.</l>
+          <l>Le voy regner discorde entre les plus amys.</l>
+          <l>Le voy les freres estre ensembles ennemys:</l>
+          <l>La sœur hair la sœur, hair sa propre mere:</l>
+          <l>Et le gendre, et l'enfans n'estre feurs de leur</l>
+          <l>Le pere n’estre seur, de ses propres enfans:</l>
+          <l>Les pervers glorieux. De se voir trionfans</l>
+          <l>De leurs proches parens, rechanter leur victoire,</l>
+          <l>Et du fait detestable acquerir de la gloire.</l>
+          <l>Ie voy le feu raser en tous lieux les maisons.</l>
+          <l>Ie voy le feu raser par les chams les moissons.</l>
+          <l>Bref ie voy enyon a brides avallees</l>
+          <l>La france ravager, par mons et par vallees</l>
+          <l>Remplissant tout deffroy, remplissant tout d'horreur,</l>
+          <l>Remplissant tout de cris, de plaintes et terreur.</l>
+          <l>Le soleil, pour ne voir ces desastreux encombres,</l>
+          <l>Cachera ses rayons dessou les tristes ombres.</l>
+        </sp>
+        <sp who="#choeur">
+          <speaker>Choeur.</speaker>
+          <l>Chose n'est perdurable,</l>
+          <l>Comme a chanté fort bien</l>
+          <l>La lyre veritable</l>
+          <l>Du prestre thracien,</l>
+          <l>Suyui des rocs, et bois,</l>
+          <l>Oreiliez par sa voix.</l>
+          <l>Qui tourna vers leurs sources</l>
+          <l>Les fleuves violens:</l>
+          <l>Qui attira les courses</l>
+          <l>Des peuples haut-volans:</l>
+          <l>Qui fléchit de l'enfer</l>
+          <l>Les cueurs munis de fer.</l>
+          <l>Retourné sur la terre</l>
+          <l>Aux gétes il disoit,</l>
+          <l>Sonnant de la guiterre,</l>
+          <l>Que iuppin disposoit</l>
+          <l>Alternativement</l>
+          <l>Tout sur cet element</l>
+          <l>Que la cruelle parque</l>
+          <l>Devuydant son fuseau,</l>
+          <l>Nous traine dans la barque</l>
+          <l>Del’infernal ruisseau:</l>
+          <l>Que tout cela qui vit</l>
+          <l>Et par la mort ravit.</l>
+          <l>Meint ruiné trophee</l>
+          <l>Du gregois reveré,</l>
+          <l>Nous fait croire d'orthee</l>
+          <l>Ce chant trop averé</l>
+          <l>Quand il cede au romain,</l>
+          <l>Vaincu, sa langue et main.</l>
+          <l>Sur la rome puissante,</l>
+          <l>Nous quittant son bon-heur,</l>
+          <l>La france florissante</l>
+          <l>A remporté l'honneur:</l>
+          <l>Rome quitte au gaulois</l>
+          <l>Les armes, et les lois.</l>
+          <l>La seure destinee,</l>
+          <l>Du fis d'hector recoux</l>
+          <l>De troye ruinee,</l>
+          <l>Est accomplie en nous,</l>
+          <l>Tous rois estans vaincus</l>
+          <l>Par les hoirs de francus.</l>
+          <l>Le crain que notre france</l>
+          <l>Ne perisse a son tour:</l>
+          <l>Soudaine est l'inconstance,</l>
+          <l>Tardif est le retour,</l>
+          <l>Du fort bon et heureux,</l>
+          <l>Du fort malencontreux.</l>
+          <l>Grand dieu ie te pri’ clove,</l>
+          <l>D'un clou diamatin,</l>
+          <l>Sa trop roulante rouë,</l>
+          <l>Par ces estas, affin</l>
+          <l>Que nous gardions en paix,</l>
+          <l>Ce bon-heur a iamais.</l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>Acte ii.</head>
+        <stage>Madame, la nourisse.</stage>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>O dieu, qu'ay-ie songé? Dieu, ie te pri’ grand dieu,</l>
+          <l>De détourner, benin, cet encombre autre lieu.</l>
+          <l>Dies, qui fis tout de rien, qui as toute puissance:</l>
+          <l>Toy, gus as de noz fais, pensers connossances</l>
+          <l>Toy, qu as racheté de son sang les humains,</l>
+          <l>Fay, se te pri', mon dieu, que ces songes soyent vains.</l>
+          <l>I'ay le sang tout glacé, de frayeur ie suis pleine,</l>
+          <l>Sans force, sans couleur, sans cueur, et sans haleine:</l>
+          <l>Une froide sueur, ruisselant de mon front</l>
+          <l>Par mes membres gelez, me lave tout-du-long</l>
+          <l>Quantesfois m'en revient la fascheuse memoire.</l>
+          <l>La teneur de noz maux me les fait presque croire.</l>
+          <l>La fin du mal passé est le commancement</l>
+          <l>D'autres maux advenir. Il semble proprement</l>
+          <l>Que ie vive ça-bas pour endurer miseres.</l>
+          <l>Il semble que du ciel les astres non prosperes</l>
+          <l>Ayent tous conjuré alencontre de moy,</l>
+          <l>D'un cours malencontreux, pour me combler démoy;</l>
+          <l>Pour mal-heurer les miens par mauvaise influence.</l>
+          <l>Vous, qui du souv'rain bien avez la iouissance,</l>
+          <l>Au ciel veuf de souci, troisfors heureux espris,</l>
+          <l>Entendez ces clameurs, entendez ces miens cris.</l>
+          <l>Si le ciel, couroucé pour noz fautes commises,</l>
+          <l>Prepare décocher quelque fléches, ja mises</l>
+          <l>Sur son roide arc, luné alencontre de nous,</l>
+          <l>Débandez contre moy seule votre couroux:</l>
+          <l>Contre moy, que desja la pesante viellesse</l>
+          <l>Rend inutile au monde: une morne paresse</l>
+          <l>Debilite mes ners, ie ne puis presque voir,</l>
+          <l>L’ymoire de mes dens a en hebene noir</l>
+          <l>Echangé sa candeur, les rhumes, et cathares</l>
+          <l>Encor m'en ont fauché tant qu'elles sont bien rares:</l>
+          <l>Le ne suis plus sinon qu'une fauche, qu'un trone,</l>
+          <l>Au métier d'atropos tant plus mon fil est long</l>
+          <l>D'autant plus i'ay de mal. Otez moy ie vous prie:</l>
+          <l>Otez moy, portez moy en votre alme patrie,</l>
+          <l>Et reservez, benins, mes fis pour secourir</l>
+          <l>La france que ie voy devoir bien-tot perir.</l>
+          <l>Las helas! Ie prevoy des mal-heurs en grand nombres</l>
+          <l>Une triste adventure, y desastreux encombre</l>
+          <l>Estre prest de tomber sur la france et sur moy,</l>
+          <l>Mon cueur le me predit, presque a l'œil ie le voy</l>
+          <l>Helas! Tout est perdu, si dieu ne nous preserve.</l>
+          <l>Helas! A quels grans maux dieu, gelas, nous reserve.</l>
+          <l>Helas! Mon dieu, helas! Il ne faudra, helas,</l>
+          <l>Le cruel, de ravir mon bien et mon soulas.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>A peine de phlegon, paissant es caux marines</l>
+          <l>Pres les cours de nabat, les ronflantes narines</l>
+          <l>Re-soufle de la nuit la sombre obscurité</l>
+          <l>Par la voute azuree, encores hecaté</l>
+          <l>Au sein d'endimion fis voluptés moissonne.</l>
+          <l>L'un de ceux que fut né de la couche bessonne,</l>
+          <l>N'a encor rapellé son frere des enfers.</l>
+          <l>Tous animaux recreuz, par les travaux souffers</l>
+          <l>Le iour dernier passé, au labeur se preparent</l>
+          <l>Par un profond sommeil, et leurs forces reparent.</l>
+          <l>Le doux sommeil tient tout, attendant le reveil</l>
+          <l>Du flambeau chasse-nuit, chasse-peur, chaffe-dueil:</l>
+          <l>Et vous seule desja, anetque la journee</l>
+          <l>Sur notre demy-rond a peine retournee,</l>
+          <l>Recommancez voz pleurs, et lamentables cris.</l>
+          <l>Ma fille, qu'avez vous? Ramassez voy espris.</l>
+          <l>Chasez moy tout ce dueil, toute cette tristesse</l>
+          <l>Qui vous ronge le cueur, qui vous geine sans cesse.</l>
+          <l>Serenez vostre front, repremez voz regrés:</l>
+          <l>Etousez ces soupirs, et tant d'ennuis segrés.</l>
+          <l>Gemissant leur cryx, des alcionienes,</l>
+          <l>Gemillant leur itis, des pandionienes</l>
+          <l>Les pleurs ne pourroient pas les votres égaler,</l>
+          <l>Qu'incessamment l'on voit dans votre sein rouler:</l>
+          <l>Faisant do voz beaux yeux une eternelle bonde</l>
+          <l>De larmes, ou plustot une mer tres profonde.</l>
+          <l>Ces durs gemissemens n'auront ilz iamais fin?</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Quand le ciel par la mort favorable, et benin,</l>
+          <l>Aura de sa prison mon ame relachee</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Vous parlez de la mort? Quelle cause cachee</l>
+          <l>Dans votre triste cueur, a peu tant vous troubler?</l>
+          <l>De larmes, et de pleurs a peu tant vous combler?</l>
+          <l>Pourroit-il avenir chose tant miserable?</l>
+          <l>Pourroit-ib avenir chose tant deplorable</l>
+          <l>A la mere d'enfans, qui semblent en leurs mainis</l>
+          <l>La fortune tenir, le cueur des humains?</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Que poursuit en tout lieu la maratre fortune.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Qu'elle fuit en tout lieu prospere, et opportune.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Ie n'aten plus que l'heure (elle est venue hélas!)</l>
+          <l>Que sor tour ennemy nous renverse au plus-bas:</l>
+          <l>Nous donnant un grand saut: ainsi elle se roüe</l>
+          <l>Tournant comme elle veut son inconstante roüe:</l>
+          <l>Inconstante vray’ment qu'on ne peut arrester.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Vostre fis le plus grand qui a peu resister,</l>
+          <l>Soutenir, repousser meint assaut, et traverse,</l>
+          <l>Pourra bien l'empécher qu'elle ne le renverse</l>
+          <l>Du plus-haut de son globe, on vertu la haussé</l>
+          <l>Maintenant en faveur: le cube estant placé</l>
+          <l>(cube mercurien) aupres de cette boule,</l>
+          <l>Constant, empéchera tousjours qu'elle ne roule.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Ha! Nourisse ie crain, ie crain.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Qué craignez-vous</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Ie crain.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Mais dites quoy?</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Las! Ie crain que de nous</l>
+          <l>Ie sort malencontreux ne se rie or prospere,</l>
+          <l>Pour bien-tot nous combler de malheur, et misère.</l>
+          <l>Cette faveur trompeuse elle nous fait expres,</l>
+          <l>Pour nous plus molester, nuire par aptes.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Comment? Vous ne devez craindre son inconstance:</l>
+          <l>Yous avez un hercul, qui a tant de puissance:</l>
+          <l>Qu'ay-ie dit, un hercul? Tous voz autres enfans,</l>
+          <l>En prudence et vertu sont herculz trionfans.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Les grands forces d'hercul ne peurent faire en-forte,</l>
+          <l>Qu'en-fin ne succombast a sa puissance forte.</l>
+          <l>Hecube vit iadis pendant le sac troyen</l>
+          <l>Mourir les cent enfans tout l'honneur asien.</l>
+          <l>De sept couples d'enfans la thebeine empierree</l>
+          <l>S'ef veüe en un seul iour vefue, et toute éplouree,</l>
+          <l>Ayant encor perdu amphion son époux,</l>
+          <l>Ses membres s'endurcir en larmoyans caillous.</l>
+          <l>Helas! Si ce tyran cruel, et hypocrite,</l>
+          <l>Assouvissoit sur eux sa cruauté maudite!</l>
+          <l>He! Mon dieu, que ie crain cette apprehension!</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Mais d’ou vous peut venir cette conception?</l>
+          <l>Voz enfanz sont remis avec le roy en grace.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Il cache une rancueur sou sa riante face.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>On n'a iamais trouvé tel vice en cueur royal.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Il a tousjours esté perfide et déloyal.</l>
+          <l>La foy ny loyauté n'est avec l'heresie.</l>
+          <l>Ha, ie le connoy bien. Sa feinte hypocrisie</l>
+          <l>Me trame quelque mal. Ie le voy de mes yeux,</l>
+          <l>Ie le sens de l'esprit. Mémes aussy les dieux</l>
+          <l>M'enyoyent chaque nuit des presages par songe.</l>
+          <l>Dieux faites ie vous pry que ce soit par mensonge:</l>
+          <l>Encore ce matin (las quelle vision!)</l>
+          <l>Il me sembloit dormant voir en l'effusion</l>
+          <l>Du sáng. Nourisse helas, soutenez moy nourisse.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Madame, ayex bon cueur. De nuir en nous se glisse</l>
+          <l>Avecque le sommeil mainte vaine terreur.</l>
+          <l>Ny adjoutez point foy, c'est une grande erreur.</l>
+          <l>Mais dites voir que c'est.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Ma nourisse ma amie,</l>
+          <l>Ma nourisse mon cueur: plus d'une heure et demie</l>
+          <l>Las i’ay senti nouër mon lit dedans le sang,</l>
+          <l>Le sang qui ruisselott, qui ruisseloit du flanc</l>
+          <l>Des mes enfans helas! Ausquels git l'esperance,</l>
+          <l>La vie, le support de moy et de la france.</l>
+          <l>Helas! Mes chers enfans mes chers enfans helas!</l>
+          <l>Ie vous tenois helas! Sanglans entre mes bras,</l>
+          <l>Sanglans helas; meurdris, couvers de sang, et crasse,:</l>
+          <l>Pâles, baves, dessais. Ou estoit cette grace,</l>
+          <l>Cette grace divine? Ou cette grand’beauté?</l>
+          <l>Ce front siege d'amour? Ce cueur de loyauté,</l>
+          <l>D'honneur de majesté, pieté et prudence,</l>
+          <l>De forces, de vertu, de foy, et de constance?</l>
+          <l>Las! Aulieu de cela vox yeux estoient cavez,</l>
+          <l>Voz beaux corps tout saigneux, et voz membres, lavez</l>
+          <l>Au sang des ennemys, qui nous faisoient la guerre</l>
+          <l>Pour nous ôter la foy, noz biens, et notre terre.</l>
+          <l>I'ay eu telle frayeur de cela, qu'en sursaut</l>
+          <l>L'ay rompu mon sommeil, faisant un cris bien!</l>
+          <l>Ce songe mes ennuys, et tristesses redouble.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Quoy? Vous permette donc qu'un vain songe vous trouble</l>
+          <l>C'est une illusion et fantome trompeur.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Cettuy-là seulement ne me trouble de peur.</l>
+          <l>De cette vision encores éperdue,</l>
+          <l>Sans aucun mouvement comme morte étendue,</l>
+          <l>L’estomac pantelant, les cheveux herissez,</l>
+          <l>Sans parolle, sans poux, les nombres tout-glacez.</l>
+          <l>Le plourois tendrement cette triste avanture</l>
+          <l>Que le songe m'avois montree d'avanture:</l>
+          <l>Ie plourois: cependant un bien perit sommeil</l>
+          <l>Se glisse doucement dans moy fillant mon œil:</l>
+          <l>Mon œil enflé des plens du dueil qui me consomme:</l>
+          <l>Mon œil qui meintes nuis n'a point receu le somme.</l>
+          <l>Et voley que ie voy, devant mon lit moiteux,</l>
+          <l>L'ombre de mon mary affreux, pâle, piteux,</l>
+          <l>Tout tel que ie le vy mettre dessou la lame,</l>
+          <l>Par le coup peletron quand il eut rendu l'ame.</l>
+          <l>Il me sembloit sortir d'un charongneux cercueil,</l>
+          <l>Affublé tristement d'un blanchissant linceuil.</l>
+          <l>Apres plusieurs soupirs et larmes ruisselantes</l>
+          <l>Par sa face, il me dit ces parolles doulantes.</l>
+          <l>Vefue do vous vos fis, comme de votre époux,</l>
+          <l>Vous dormant sans avoir aucun souci de nous!</l>
+          <l>Dormez et reposez maintenant a votre aise,</l>
+          <l>Vous veillerez bien-tot regorgeant de malaise,</l>
+          <l>De sanglos, de soupirs, de triste ses, de pleurs,</l>
+          <l>D'infortunes, d'ennuis, d'encombres de douleurs.</l>
+          <l>Vous n'aura plus d'enfans. Or la blafarde envie</l>
+          <l>Du tyran inhumain leur ôtera la vie.</l>
+          <l>Encor mon affovuy quand il les verra mors,</l>
+          <l>Il ne vous permettra d'ensevelir leurs cors.</l>
+          <l>Ils me viendront trouver au ciel, pleins de boffes;</l>
+          <l>Vous delaissant seulette en regrés et tristesses.</l>
+          <l>Atant se tent plourant, et me disant adies,</l>
+          <l>Se renvola soudain en son céleste lieu.</l>
+          <l>Voulant le retenir trois-fois en-vain i’enlace</l>
+          <l>Le vuide dans mes bras, trois-fois en vain embrasse</l>
+          <l>Son idole fuyarde, encor trois-fors en-vain</l>
+          <l>Ie l'appelle, et trois-fois pris il fuit de ma main</l>
+          <l>A-coup une tremeur, desserrant ma paupiere,</l>
+          <l>Me fit revoir du iour la moleste lumiere</l>
+          <l>Qui fend mon cueur en dueil, qui fond mon œil en planes,</l>
+          <l>Renouvellant tousjours mes ennuis, et douleurs.</l>
+          <l>O sejour de vertu, o amé valeureuse,</l>
+          <l>Quand rejointe avec vous viuraya-ie bien-heureuse</l>
+          <l>Aux champs elysiens. Dieu face que cloton</l>
+          <l>Tranche en-bref de mes iours le trop long peloton.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Delaissez tout ce duel que votre cueur entame,</l>
+          <l>Et n'avancez le mal par la crainte, madame,</l>
+          <l>Meme le mal present par crainte est redoublé.</l>
+          <l>Un fantome trompeur a votre espris troublé,</l>
+          <l>Representant lobjet du penser qu vous renge</l>
+          <l>Ce qu'on pense de-ieur volontiers on en songe</l>
+          <l>Rien n'est encor a craindre. Il n'y a point de mal</l>
+          <l>Hommes aucun n'a le cueur tant feroce, et brutal</l>
+          <l>Pourquoy d'un tel mal-heur une cause très-vaine</l>
+          <l>Engendre dedant vous une douleur certaine?</l>
+          <l>Or soit que le destin (ce qui n'avienne, o dieux,</l>
+          <l>Cet augure soit vain, et converti en mieux)</l>
+          <l>Que le destin changé prepare a notre france</l>
+          <l>Quelque trouble, e mal-heur mettez votre esperance</l>
+          <l>En celuy, qui regit le sort et le destin.</l>
+          <l>Non, il ne faut point craindre, ainçois des ce matin</l>
+          <l>Plustot nous en aller faire a dieu sacrifice,</l>
+          <l>Pour son ire apaiser, et le rendre propice.</l>
+          <l>Dieu n'est inexorable. Il se fléchit par vœux,</l>
+          <l>Mademe, pour cela toutes-fois ie ne veux</l>
+          <l>Qu'ayez opinion qu'aucun mal i’eu attende.</l>
+          <l>He dieu! Combien de-fois (ô vanité trop grande!)</l>
+          <l>Tel fantome trompeur, ayant songé la nuit,</l>
+          <l>M'a fait craindre de-méme! Aucun songe me fuit</l>
+          <l>Lamais la verité. Gardez vous bien d'y croire</l>
+          <l>Il faut avec le somme en perdre la memoire.</l>
+          <l>Les songes sont tousjours trompeurs et mensongers.</l>
+          <l>Mais qui font si hardis françois ou étrangers,</l>
+          <l>D'assailir de voz fis la vertu redoutable?</l>
+          <l>Quelle temerité, quelle hayne indoutable,</l>
+          <l>Rancueur, impieté, pourroit bien exciter</l>
+          <l>Quelque monstre cruel, pour oser attenter</l>
+          <l>A ces preux guysiens, peres de la patrie?</l>
+          <l>Asseurez votre cueur, madame, ie vous prie.</l>
+          <l>Scavez vous pas qu'il faut que tous ces courtizans,</l>
+          <l>Plaisans, flateurs, bouffons de fraudes artizans,</l>
+          <l>Sang-fues, ronges-peuple, engeance de vipere,</l>
+          <l>Coupes-jarés, meurdriers, controuves-vitupere</l>
+          <l>Aymes-dissention, chasses-paix, et amour,</l>
+          <l>Ennemys de vor fis s'en aillent de la cour?</l>
+          <l>Ceux qui cachent malins leur eternelle envie,</l>
+          <l>N'oseroient hazarder en tel peril leur vie.</l>
+          <l>La clemente, douceur, les immenses bontés</l>
+          <l>De vos fis vertueux, ont les cueurs surmontés</l>
+          <l>Des autres mal-vueillans, qui or les favorisent,</l>
+          <l>Les ayment grandement, les cherissent, les prisent.</l>
+          <l>Qui seroit le cruel, malotru, inhumain,</l>
+          <l>Qui voudroit sanglanter son outrageuse main</l>
+          <l>Dans le sang de teluy auquel il doit sa vie?</l>
+          <l>N'ont-ils pas affranchi france presque asservie</l>
+          <l>Sou le jou tyrannic ore de ses voysins,</l>
+          <l>Ore de ses enfans les huguenos mutins?</l>
+          <l>Pensez bien à cela, et otez cette crainte,</l>
+          <l>Ce soupçon, cet ennuy, cette tristesse, et plainte,</l>
+          <l>Vos songes s'en iront en fumee, et en vent,</l>
+          <l>Sans revenir la nuit vous troubler si souvent:</l>
+          <l>Madame, croyez moy, ce n'est rien que mensonge.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Ma crainte ne vient pas seulement de ce songe.</l>
+          <l>Voy-ie pas tous les iours ce tyran chucheter</l>
+          <l>Avecque ses bouffons? Quantesfois rapporter</l>
+          <l>Me vient-on tous les jours, qu’ilz ont une journee</l>
+          <l>Pour faire le massacre entre eux déterminee?</l>
+          <l>Ne faut-il craindre rien quand lon voit rire un tas</l>
+          <l>De ces coupes-jarrés cependant ces estas,</l>
+          <l>Qui ruinent du-tout cette tourbe feruille?</l>
+          <l>De-our-en-iour ma crainte accroit en cette ville;</l>
+          <l>La voyant fourmiller de nos grans ennemys.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Or vos fis sont du roy les familiers amys.</l>
+          <l>Pour la france, et vos fiz cette belle assemblee</l>
+          <l>Des estas, dedans blois a esté assemblee.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Cela ne plait au roy, ny a ses courtisans.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Il leur accorde tout, et leur fait despresens.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Otez moy ces presens: c'est des traitres la ruse.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Cela qui m'est util iamais ie ne refuse.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>C'est cela qu'il faut craindre: au miel git le venin.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Dieu nous soit favorable, et le ciel plus benin.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Cependant qu'il montroit sa hayne manifeste,</l>
+          <l>Ie n'ay iamais en-rien redouté cette peste:</l>
+          <l>Nous estions assés fors pour les tous ruiner.</l>
+          <l>Mal-heureux qui desire en terre dominer:</l>
+          <l>Plus la grandeur accroit, tant plus accroit la crainte.</l>
+          <l>La terre des indois n'a esté iamais peinte</l>
+          <l>Si matin des rayons du soleil éclairant,</l>
+          <l>Qu'il ne m'ait appercevuë adveillee plourant.</l>
+          <l>Iamais il n'a si tard en l'iberiene onde</l>
+          <l>Baigné son char ardent, qu'il ait veuë la bonde</l>
+          <l>De mes deux yeux tarie. O que c'est un grand bien</l>
+          <l>De vivre, retiré, seurement de son bien!</l>
+          <l>Les vices n'entrent point dedans me humble case.</l>
+          <l>L'or boit souvent dans l'or, et non pas dans le vase</l>
+          <l>Fait de bois, la poison. La tousjours sans danger,</l>
+          <l>Non son in toit doré, lon peut son pain manger.</l>
+          <l>Plus heureuse que moy est la simple bergere.</l>
+          <l>Si son coffre n'est plein de richesse étrangere,</l>
+          <l>Ses membres revétus de soye et de velours.</l>
+          <l>Si sa basse maison n'a des superbes tours:</l>
+          <l>Il ne faut point aussy des gardes a sa porte,</l>
+          <l>Elle dort sans frayeur.toute grandeur apporte</l>
+          <l>Avec soy un gros cam d'ennuys et de douleurs.</l>
+          <l>Les grans avec le lait suçent mille douleurs:</l>
+          <l>L'en parle vrayement, et par experience.</l>
+          <l>Mes enfans ont perdu dés leur tendrette enfance</l>
+          <l>Leur pere genereux. Ilz ont dedans poitiers,</l>
+          <l>Bien jounes, soutenu les durs affans guerriers</l>
+          <l>De l’ost des huguenoz presque maitres de france.</l>
+          <l>Ils furent là-dedans en extreme souffrance,</l>
+          <l>Assaillis vivement, ayans bien-peu de pain,</l>
+          <l>Pour sustanter leurs cors presque mourans de faim.</l>
+          <l>Quel mal n'ont ils souffert au cam de la rochelle?</l>
+          <l>Au cam de saint-denys? En la guerre cruelle</l>
+          <l>Suans sou le harnois pour deffendre leur roy?</l>
+          <l>Quand paris assiegé fut tout-remply d'effroy,</l>
+          <l>Voyant prés de les murs braver par la campaigne;</l>
+          <l>Les françois ennemys, les peuples d'alemaigne,</l>
+          <l>Des souisses gourmans les bigarrez cantons,</l>
+          <l>Poitevins, limosins, anglois, flandrois, bretons.</l>
+          <l>L'ainel n'est-il marqué d'une balle meurtriere?</l>
+          <l>Quoy? Au cam de poitou? Quoy encor a la fere?</l>
+          <l>Nagueres en la guyenne? A roc-roy? A sedan?</l>
+          <l>Quoy contre l'aleman, qui passé a son dam</l>
+          <l>Iusques au gatinois, avoit quitté sa terre,</l>
+          <l>Pour habiter, vaincueur, notre france par guerre?</l>
+          <l>Et quoy dedans paris a cantonné détrangers?</l>
+          <l>Si apres tant de maux, de peines, et dangers,</l>
+          <l>Quelque proche mal-heur encore nous menace,</l>
+          <l>Dieu tout-bon, tout-puissant, fay, fay moy cette grace</l>
+          <l>De commencer sur moy a jetter ton couroux,</l>
+          <l>Ou bien, pere benin, pren pitié de nous tous.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Madame concevez quelque chose meilleure.</l>
+          <l>Il y a trop long tans desja que votre œil pleure,</l>
+          <l>Le bien suit le mal-heur comme l'hyver l'éte.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Plus proche est le mal-heur que la prosperité.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>L'affligé a ce mal, que iamais il ne pense,</l>
+          <l>Contre cela qu'il craint, pouvoir trouver deffense.</l>
+          <l>Il croit tousjours plustot un mal-heur, qu'un bon-heur.</l>
+          <l>Tout se portera bien, chassez cette douleur.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>O dieu le vueille ainsy. Toutesfors, ma nourisse,</l>
+          <l>Allon vers mon henry l'advertir du supplice,</l>
+          <l>Qu'on ma dit tant-de-fois luy estre preparé:</l>
+          <l>L'en auray par-apres le cueur plus assevré.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Quand l'on craint, il ne nuit de veiller sur sa garde,</l>
+          <l>Ainsi de l’ennemy l'on n'est pris par mégarde.</l>
+        </sp>
+        <sp who="#choeur">
+          <speaker>Choeur.</speaker>
+          <l>Celuy aux grans dieux est égal,</l>
+          <l>Paroissant sur la race humaine,</l>
+          <l>Qui ne craint point du sort fatal,</l>
+          <l>Ny desire l'heure incertainė.</l>
+          <l>Il n'a ambicieux</l>
+          <l>Le cueur brulé d'envie,</l>
+          <l>Et avaricieux</l>
+          <l>Il n'est onc en sa vie:</l>
+          <l>Il ne craint aucun roy,</l>
+          <l>Ny d'un foudre l’effroy.</l>
+          <l>Seur il voit le soleil lacher</l>
+          <l>Son ray qui toute chose éclaire:</l>
+          <l>Seur il le voit le recacher:</l>
+          <l>Constant il se rit du vulgaire.</l>
+          <l>Ensuivant son desir</l>
+          <l>Au gazouil qui murmure,</l>
+          <l>Il dort a son plaisir</l>
+          <l>Sur l'herbe qui emmure</l>
+          <l>Dans leurs bors verdoyans</l>
+          <l>Les ruisseaux ondoyans.</l>
+          <l>Des alouettes, des serins</l>
+          <l>Des rossignoles, et linottes,</l>
+          <l>Et autres chantres äerins,</l>
+          <l>Les fredons et mignardes nottes,</l>
+          <l>En accors doucereux</l>
+          <l>Luy contentent l'oreille,</l>
+          <l>Non le clairon affreux</l>
+          <l>Qui, éclatant, reveille</l>
+          <l>Les hommes en sursaut,</l>
+          <l>Quand il sonne l’assaut.</l>
+          <l>Il sent le foef-odorant flair</l>
+          <l>Que repand la deesse flore,</l>
+          <l>Quand le printans embâme l'air,</l>
+          <l>Et de fleurs la terre colore:</l>
+          <l>Puis il tond des gueres</l>
+          <l>La perruque crettee,</l>
+          <l>Et, battant sa cerés</l>
+          <l>Dessus l'aire apprettee,</l>
+          <l>Voit le grain petillant</l>
+          <l>Sou les fleaux tressaillant.</l>
+          <l>Quel plaisir! Voir bacchus fumeux,</l>
+          <l>Irrité qu'on l'enferme aux tonnes,</l>
+          <l>Bouillonner des muis écumeux</l>
+          <l>Durant les incertains automnes.</l>
+          <l>Du tronc par luy planté</l>
+          <l>Il cueille le fruitage</l>
+          <l>Que luy-méme a ente:</l>
+          <l>Il mange du laitage;</l>
+          <l>Sans craindre la poison</l>
+          <l>En aucune saison.</l>
+          <l>Qui pour ces més bons et plaisans</l>
+          <l>Non-achetez, auroit envie</l>
+          <l>De manger des pans, et phaisans,</l>
+          <l>Et changer cette heureuse vie?</l>
+          <l>O que n'est-il permis</l>
+          <l>A son gré de tous vivre,</l>
+          <l>Mes vaincus ennemys</l>
+          <l>I'on ne verroit me suyure:</l>
+          <l>Le ne desirerois</l>
+          <l>Les grandeurs des grans roys.</l>
+          <l>Ie viurois es chams portes-fleurs,</l>
+          <l>Et sou les gracieux ombrages,</l>
+          <l>Exent d'ennuis et de douleurs,</l>
+          <l>Errant selon les molz rivages.</l>
+          <l>Là lon effuit tout-iour</l>
+          <l>Toute chose moleste,</l>
+          <l>En la crainte et l'amour</l>
+          <l>Du grand pere celeste:</l>
+          <l>Là de villains pechez</l>
+          <l>Les cueurs ne sont tachez</l>
+          <l>Là tousjours regne verité</l>
+          <l>Foy, lustice, æquite, clemence</l>
+          <l>Simplesse, douceur, charité,</l>
+          <l>Chasteté, sincere innocence.</l>
+          <l>Là tousjours en repos</l>
+          <l>Ne nuisant a personne,</l>
+          <l>Quand la vielle atropos</l>
+          <l>Le crin viral moissonne,</l>
+          <l>Un petit doux sommeil</l>
+          <l>De l'homme fille l’œil.</l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>Acte iii.</head>
+        <stage>Henry. Epernon. @Archant.</stage>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Quoy? Fait-neant, couard, mal, enervé, sans cueur,</l>
+          <l>Et, ce qu’encor ie pense en un roy gouverneur</l>
+          <l>De la fleur de l'europe apporter plus de honte,</l>
+          <l>Qui n'es encor cangé de celuy qui te donte,</l>
+          <l>Qui te tient en tutelle, et donne meint ennuz.</l>
+          <l>Il faut donc qu'un roy vive au iugement d'autruy?</l>
+          <l>C’est ja trop enduréd’un vassal la puissance.</l>
+          <l>Le cheval genereux, qui a la connoisance</l>
+          <l>Par nature, sans plus de l'heur de liberté,</l>
+          <l>Secouë le dur frein: le iou n’est supporté</l>
+          <l>Des puissans traines-soc, sinon que par contraintes</l>
+          <l>Et tu vivras tousjouts et en peine et en crainte,</l>
+          <l>N'osant aux vœux d'un homme en rien contrevenir?</l>
+          <l>Toy? Duquel les ayeux ont peu entretenir</l>
+          <l>Contre les plus grans roys non seulement leurs terres,</l>
+          <l>Mais les leurs acquerir par martiales guerres?</l>
+          <l>Tu degeneres donc successeur de nom roys?</l>
+          <l>Fis de ce grand henry, neveux du grand françois?</l>
+          <l>Qui as eu tel credit, tel honneur, et puissance,</l>
+          <l>Grand chef de l'ost françois dés ton adolessance?</l>
+          <l>Toy, a qui s'est soumis, de propre volonté,</l>
+          <l>T’élisant pour son roy, le grand peuple indonté,</l>
+          <l>Qui laboure les chams, ou les bouches irees</l>
+          <l>Des ébranles-rochers, et geles-tout borees,</l>
+          <l>Effarouchent les cueurs les rendent durs et fiers,</l>
+          <l>Des hôtes polonnois, martiaux, carnasiers?</l>
+          <l>Quand reveilleras-tu ta vertu ocieuse</l>
+          <l>Pour raser en un coup l’hydre pernicieuse,</l>
+          <l>Monstre centfois tétu, tout le sang guysien,</l>
+          <l>Severes controleur d’un roy valesien?</l>
+          <l>O couard, aujourd'huy l'aurore saffranee</l>
+          <l>Ne devoit ramener cette heureuse iournee,</l>
+          <l>Bigarrant tout le ciel voilé d'un fer rouillé,</l>
+          <l>Que de tous mes ennuys ne fusse dépouillé:</l>
+          <l>Que ie n'eusse remply la france de gens-darmes.</l>
+          <l>Du feu la flame ardente, et la lueur des armes</l>
+          <l>Devoit rendre le iour avant que le soleil;</l>
+          <l>Pour reprendre l'aurore, eust dessilé son œil.</l>
+          <l>Et ie la voy desja, de ces tours aërees</l>
+          <l>Les pointes redorant, des voutes etherees</l>
+          <l>Biaiser le plancher, gallopper ses roussins,</l>
+          <l>Poursuyuant la deesse aux dois longués-rosins.</l>
+          <l>C'est trop tarder, c'est trop: la nuit obscure et brune</l>
+          <l>Estoit plusque le iour a ce fait opportune.</l>
+          <l>Pour cela neant moins il ne faut differer:</l>
+          <l>Nous ne pourions iamais l'heure recuperer,</l>
+          <l>S'il avoit éventé cette notre entreprise.</l>
+          <l>Il ne faut mépriser l'heur qui nous favorise.</l>
+          <l>Le le veux attraper pendant qu'il nen sçait rien.</l>
+          <l>Ie ne sçaurois avoir iamais un iour de bien,</l>
+          <l>Iusques il ayt rendu le sang ensemble, et l'ame.</l>
+          <l>Il faut que luy ou moy son la cendreuse lame</l>
+          <l>Re-ferré, laisse en paix l'autre en france regner.</l>
+          <l>Le le me veux de son sang teindre, fouiller, baigner.</l>
+          <l>Quiconque soit celuy qui le voudra deffendre,</l>
+          <l>Qui voudra, épousant cette cause, se rendre</l>
+          <l>Mon ennemy mortel, ie veux qu'il soit soudain</l>
+          <l>Delivré sur-le-cham au massacre inhumain.</l>
+          <l>Le grand qui a receu d'un petit quelque offence,</l>
+          <l>Et ne s'en sçait vanger par faute de prudence,</l>
+          <l>Il n'est digne vray’ment, il n'est digne d'avoir</l>
+          <l>L'heur, duquel il a pleu aux dieux de le pourvoir.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Monarque souverain, que le lis environne</l>
+          <l>L'honneur de tous les roys qui ont porté couronne</l>
+          <l>Sur le bas element soutenu de son poix:</l>
+          <l>Qui estes par dessus et les drois, et les loix,</l>
+          <l>Qui en ce monde avel puissance souveraine,</l>
+          <l>Et de vie, et de mort, dessus la race humaine:</l>
+          <l>Comme ce grand iuppin qu'on dit la haut es cieux</l>
+          <l>Ecrouller l’univers par un clin de ses yeux.</l>
+          <l>Vous avez departy ensemble tout le monde:</l>
+          <l>Il tient le ciel vouté, et vous la terre ronde.</l>
+          <l>Puisques estes égal en domination.</l>
+          <l>Soyez aussy égal a luy en action.</l>
+          <l>Sire ne voyez-vous, ne voyez-vous pas, sire,</l>
+          <l>Que s'il est offensé, comme suyuant son ire</l>
+          <l>Il darde son tonnerre, et romt tempestueux</l>
+          <l>Le sacrilege chef d'un éclat tortueux:</l>
+          <l>Il l'acravante tout, il le reduit en poudre:</l>
+          <l>Et non contant encor, il fait bruire son foudre,</l>
+          <l>Et briller ses éclairs, par les airs spacieux,</l>
+          <l>Pour effrayer, puissant, et la terre, et les cieux,</l>
+          <l>Affin d'entretenir en son obeissance</l>
+          <l>Les hommes, car les dieux qui font fou sa puissance.</l>
+          <l>Pourquoy de toutes pars estes vous enfermez</l>
+          <l>D'hommes puissans, et fors, de pié-en-cap armez?</l>
+          <l>A quell'fin portez-vous au coté cette épee,</l>
+          <l>Sinon a celle fin qu'ell soit par vous trampee</l>
+          <l>Au sang de tous ceux-la qui vous ont irritté?</l>
+          <l>Des coutelas tranchans la drillante clarté,</l>
+          <l>Soit l'éclair flamboyant, qui brillant par l'air vole.</l>
+          <l>Le casse-membres plom que vomit la pistole,</l>
+          <l>L'escoupette, arquebuse, et les canons tonnans,</l>
+          <l>Soient léclat grommelant des foudres étonnans.</l>
+          <l>Il me souvient encor que i'ay entendu dire</l>
+          <l>Que tousjours luppiter méme foudre ne tire</l>
+          <l>Sur tous également le bras-nu pyracmon,</l>
+          <l>Brontes le frape-dru, le luysant forgeron</l>
+          <l>En battent de trois forte' en l'isle de lipare,</l>
+          <l>Que le boiteux vulcan a son pere prepare.</l>
+          <l>Cettuy est plein de feu, éclattant, tournoyant,</l>
+          <l>Soufreux, grandant, volant, qui va tout foudroyant.</l>
+          <l>Le haut tonnant lança cettuy de sur la troupe</l>
+          <l>Des freres pies-serpens, qui grimpez sur la croupe</l>
+          <l>Du mont double troisfois, vouloient le ciel forcer,</l>
+          <l>L'assaillant a l'envy pour les dieux en chasser.</l>
+          <l>Quand au second, il est presque de méme sorte,</l>
+          <l>Sa violence n'est toutesfois si tresforte:</l>
+          <l>Il en brise les oz, sans entamer la chair</l>
+          <l>Qu'il noircit seulement, quand pour se défacher</l>
+          <l>Il punit le meffet par un leger supplice,</l>
+          <l>Misericordieux, non selon la malice,</l>
+          <l>L'autre n'a tant de feu tant d'ire, et de courroux:</l>
+          <l>Sans en blesser aucun, iuppin par dessur nous</l>
+          <l>Le fait bruire, gronder, tonner, rouler grand-erre</l>
+          <l>Pour estre remeré des hôtes de la terre.</l>
+          <l>Foudroyez yoz hayneus comme luy sans pitié.</l>
+          <l>Punillez seulement les autres a-moitié</l>
+          <l>Pour les faire amander connoissant votre grace</l>
+          <l>Pour effrayer aussy, et rabbattre l'audace</l>
+          <l>Du trop sedicieux mais simple populas,</l>
+          <l>Faites luyre par-tout léclatant coutelas,</l>
+          <l>Cliqueter, flamboyer. Que votre ire desserre</l>
+          <l>Or sa force, couroux, et destructeur tonnerre</l>
+          <l>Sur le chef odieux de tous vozs ennemys,</l>
+          <l>Comme il est arrété qu'ilz soient tous a mort mis.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Mais ce n'est pas assez. Ie ne scay quelle peine</l>
+          <l>Pourra effre assez grande, et assez inhumaine.</l>
+          <l>Le veux qu'il soit commis si grande cruauté</l>
+          <l>Envers tous ces ligueux, que la posterité</l>
+          <l>Ne l'approuve iamais, mais tousjours la memoire</l>
+          <l>En demeure en son cueur. Ie ne veux autre gloire:</l>
+          <l>Ie ne veux autre bonneur: autrement ie ne veux</l>
+          <l>Qu'il soit de moy parlé par nos futurs neveux.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Il ne faut disposer qu'on fera de la prise,</l>
+          <l>Qu'elle ne soit premier dedans nos filez prise.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Ha sire ie vous pry, sire, n'ayez soucy</l>
+          <l>Qu'il ne soit bien puny, quand il sera icy</l>
+          <l>Tantot entre mes mains. Ainsi le haut ciel face</l>
+          <l>Méclairer a iamais de votre bonne grace</l>
+          <l>Se soleil radieux, auquel git tout mon heur,</l>
+          <l>Mon bien, vœux, et desirs, ma vie, et mon honneur.</l>
+          <l>Cette main séjouit, et tressaut toute d'aise,</l>
+          <l>Qu’ore elle assoupira cette ardente fournaise,</l>
+          <l>Pule ciel ennemy forge tous vox ennuys,</l>
+          <l>Yo soucys, et mal-heurs. Desja plus de trois nuis</l>
+          <l>Entieres ne m'ont veu penser a autre chose,</l>
+          <l>Pendant que tout trempé de sommeil se repose.</l>
+          <l>Le meru’ray ainsi: ainsi ie frapperay:</l>
+          <l>Ainsi mon roide bras sur eux rameneray:</l>
+          <l>Ainsi ie planteray dans leurs ordes poitrines,</l>
+          <l>Pour en déprisonner leur ames viperines,</l>
+          <l>Pour mon poignard aceré: lequel se soulera</l>
+          <l>De leur sang russelant, qui sur moy coulera.</l>
+          <l>Il rit, presque il ne peut se contenir, tant ayse</l>
+          <l>Il sera dépuiser de sang leur peau punaise,</l>
+          <l>Ouy, ie retrancheray encor a belles dens</l>
+          <l>De leurs cors respirans les testes, au-dedans</l>
+          <l>Desquelles s'est forgé meinte et meinte entreprise</l>
+          <l>Contre vous et celuy qui bon vous favorise.</l>
+          <l>Certes te le seray, affin que tout-sanglant,</l>
+          <l>Leur sang dedans mon sein de ma bouche coulant,</l>
+          <l>Le puisse mécrier a la tourbe étonnee:</l>
+          <l>Or notre roy est roy. Liberté retournee</l>
+          <l>Aux fidelles au roy, les fera desormais</l>
+          <l>Vivre a leur volonté et plaisir a iamais.</l>
+          <l>Noz cruelz ennemys de leur robe mortelle</l>
+          <l>Dépouillez, nous ont mis hors de garde et tutelle.</l>
+          <l>Regalistes, prenez vox plaisirs et ébas:</l>
+          <l>Ilz ont mordu la terre, ilz sont allez la-bas</l>
+          <l>Raconter a pluton leur dolente aventure.</l>
+          <l>Alors ie suis content derendre a la nature</l>
+          <l>Le tribut ordonné par notre fatal sort:</l>
+          <l>Très volontiers alors s'endureray la mort.</l>
+          <l>Bien-heureux est celuy qui pour son roy deffendre</l>
+          <l>Par ve belle mort peut tout son sang dépendre.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Sire, a quoy pensez-vous? Qu'est-ce que ramassez</l>
+          <l>Songeard en vostre esprit? N'est-ce pas là assez?</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Le prevoy un grand mal ja menacer ma téte,</l>
+          <l>Une grande borasque, une grande tempéte,</l>
+          <l>Un orage effroyable, un goufre de mal-heurs</l>
+          <l>Une moisson d'assaus, une mer de douleurs:</l>
+          <l>Le voy ja un revolt en toutes mes provinces,</l>
+          <l>Si ie fay aujourd'huy assasiner ces princes.</l>
+          <l>Le peuple s’armera a lencontre de moy.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Qui en fera le chef? Que osera son roy</l>
+          <l>Par armes assailir? La puissance royalle</l>
+          <l>A ce grand bien sur tous, que la tourbe vassale</l>
+          <l>Est contrainte endurer, supporter, advoüer</l>
+          <l>Tout ce que veut son roy, et tous les fais loüer.</l>
+          <l>Bien qu'il ne fut ainsi: sachez que la victoire</l>
+          <l>Qui nous vient sans danger n'apporte point de gloire.</l>
+          <l>Les beaux lauriers sont vers comme est grand le danger.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Ilz voudront parles loix cet assasin vanger.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Les loix sont seulement pour le peuple ordonnées.</l>
+          <l>Affin de reprimer ses forces effrenees,</l>
+          <l>Et folles passions: et non pas pour les roys :</l>
+          <l>Les roys qui font la loy, qui discernent les drois.</l>
+          <l>Il suffit que le roy tienne au peuple la bride,</l>
+          <l>Et quil suyue le trac ou son desir le guide.</l>
+          <l>Le roy qui veut garder la rigueur de la loy</l>
+          <l>N'a seulement en luy que le vain nom de roy.</l>
+          <l>Sainteté pieté, foy, iustice, clemence</l>
+          <l>Doivent estre en un roy sans plus en apparence:</l>
+          <l>Il ne luy est besoin que le nom en avoir,</l>
+          <l>Pour tenir par douceur le peuple en son devoir.</l>
+          <l>Que si seditieux, il romt l'obeissance</l>
+          <l>Qu'il dort tousjours garder, arriere la clemence,</l>
+          <l>Arriere la lustice, arriere pieté,</l>
+          <l>Arriere la douceur, arriere sainteté.</l>
+          <l>Il faut que des grans roys la main soit si pesante</l>
+          <l>Que le sujet rebel tres vivement le sente.</l>
+          <l>Endurez, patient, le tore qu'il vous fera</l>
+          <l>Aujourd’huy, dés demain el recommancera,</l>
+          <l>L'injure pardonnee incite a faire injure.</l>
+          <l>Telle est de tous-méchans la perverse nature:</l>
+          <l>Vous l'avez bien connu depuis dix ou douze ans.</l>
+          <l>Que vous ont tousjours fart ces ducs idumeans?</l>
+          <l>Laisson tous les ennuys, laisson toutes bravades</l>
+          <l>Que faites ilz vous ont: que fit aux baricades</l>
+          <l>Ce guysard balafré? Vous ay chasser de paris?</l>
+          <l>Massacrer tous vox gens? O! Fil vous eust surpris.</l>
+          <l>Vous n'avez esté roy un iour en asseurance:</l>
+          <l>Commancez il est tans d'en prendre la vengeance.</l>
+          <l>Que tardez-vous encor,? Pourquoy hefitez-vous</l>
+          <l>Quand le tans opportun, et les dieux sont pour nous?</l>
+          <l>Vous faillez au besoin, l'occasion perdue</l>
+          <l>Une-fois, ne nous est iamais apres rendue.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>I'ay bien la volonté, mais ie ne voy comment.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>He! Que vous y allez aujourd'huy froidement?</l>
+          <l>Encor hier vous deviez renverser ciel et terre:</l>
+          <l>Le foible populas maintenant vous déterre.</l>
+          <l>Ou est ce brave cueur d'un belliqueur gaulois?</l>
+          <l>Ou est cette vertu des herculz de valois?</l>
+          <l>Dont tousjours vous nuira cette harpye de guyse</l>
+          <l>Pauvre aveugle phiné? Ma main est cy requise.</l>
+          <l>Il faut que ie vous sois un zethe et calaïs,</l>
+          <l>Pour ce monstre exiler de tout votre païs.</l>
+          <l>Dites moy, de quell'mort voulez-vous qua-cett’heure</l>
+          <l>Le lenvoye la-bas, en la triste demeure</l>
+          <l>Des bourbiers stygiens au goufre plutonin?</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Ce n'est ce que ie veux. Tu parles de la fin</l>
+          <l>De ses peines, et maux: moy, ie cherche des peines,</l>
+          <l>Qui soient pour ses fais presque assez inhumaines.</l>
+          <l>Que le tyran craintif face soudain maurir</l>
+          <l>Ses hayneus: quand a moy ie veux faire souffrir</l>
+          <l>Aux miens des cruaute et geines miserables.</l>
+          <l>Lon aura dessou moy, (les peines desirables</l>
+          <l>Des méchans aux tormens) une foudaine mort!</l>
+          <l>Elle est des affligez le très desirp port</l>
+          <l>Pieté, si dans moy quelquefois t'es trouvee,</l>
+          <l>Vite, retire toy. Là tourbe reprouvee</l>
+          <l>Des rages, et fureurs, des discors et debas,</l>
+          <l>Des monstres inhumains qui tempétent la-bas,</l>
+          <l>Vien loger dedans moy. Vien alecton bourelle,</l>
+          <l>Ameine tes deux sœurs: de ta flamme cruelle</l>
+          <l>Enflamme mon courage, enflamme tout mon cueur</l>
+          <l>De hayne, cruauté de mortelle rancueur.</l>
+          <l>D'un feu assez ardent mon cueur ne boult encores:</l>
+          <l>Ie veux qu'il soit bouffy d'un monstre plus grand ores.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Penson tant seulement de tirer le poisson</l>
+          <l>Qui a depuis trois iours avallé l’hameçon.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Le ne sens rien en moy de colere commune.</l>
+          <l>Les peines ne me font toutes assez pour une.</l>
+          <l>Mon cueur estrene peut de cruauté repeu.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Par fer?</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Ce n'est assez.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Par feu?</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>C'est encor peu.</l>
+          <l>Un tumulte bouïllant mes entrailles renverse,</l>
+          <l>Ravage dedans moy, mes espris bouleverse.</l>
+          <l>La fureur me transporte, a quoy se ne scay pas:</l>
+          <l>Mais elle me transporte, et me fuit pas-a-pas.</l>
+          <l>I'enten iusques au fond mugir sou moy la terre.</l>
+          <l>Par le serain du ciel a grondé le tonnerre.</l>
+          <l>Le soleil s'est caché d'un manteau tout rouillé.</l>
+          <l>De nuages épais le ciel s'est tout brouille.</l>
+          <l>Ce chateau a craqué, comme si en ruyne</l>
+          <l>Il tomboit renversé par une creuse mine.</l>
+          <l>Soit fait, soit fait cela que vous craignez, o dieux:</l>
+          <l>Soit fait, puisqu'il vous est horrible, et odieux.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Quel massacre nouveau, et cruauté barbare</l>
+          <l>Votre cueur forcené a ces traitres prépare?</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Ie ne sçay de quel feu est mon cueur allumé:</l>
+          <l>Il grossit, il bouffit: il n'est accoutumé</l>
+          <l>De s’elever ainsi. Méme ma dextre n'ose,</l>
+          <l>Trop couarde, entreprendre un tel fait, cette chose</l>
+          <l>Est grande; elle faut bien. Sus courage, mon cueur,</l>
+          <l>Commance maintenant d'exercer ta rancueur,</l>
+          <l>Surpassant la fureur en forces enflamees</l>
+          <l>Des tygres, onces, lous, des ourses affamees.</l>
+          <l>Là, comme quelque mal qui soit digne de toy.</l>
+          <l>C'est bien: c'est plus que bien. Que n'est-il devant moy?</l>
+          <l>Sus, pourquoy est ma main si long tans innocente?</l>
+          <l>Tousgours devant mes yeux tousjours se represente</l>
+          <l>Du massacre cruel lobjet ça-là rodant.</l>
+          <l>Le voy, ze voy le feu gloutonnement ardent,</l>
+          <l>Que de morceaux saigneux il faut que ie repaisse.</l>
+          <l>Quoy? Mon cueur tu crains donc? Couard, tu te rebaisse?</l>
+          <l>Courage, il faut oser: sus.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Mais par quelz appas</l>
+          <l>Amorcé, mettra-til le pié dedans noz lacs?</l>
+          <l>Il n'a sur votre foy mis iamais asseurance.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Il viendra, il viendra, n’ayes foin. L’esperance</l>
+          <l>Qu'il a d’estre premier en la france apres moy,</l>
+          <l>Et quelque iour encor en fin en estre roy;</l>
+          <l>Comme dernierement ie luy en fit promesse</l>
+          <l>En ferment sollemnel attestant par sa messe:</l>
+          <l>Cette esperance là le fera bien venir;</l>
+          <l>La crainte de la mort de len peut retenir.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Cet espoir le feroit aller par mer et terre,</l>
+          <l>Au devant de iuppin luy dardant son tonnerre.</l>
+          <l>Cet espoir le feroit traverser de la mer</l>
+          <l>Les bans arrétes-naux ou lon ne peut ramer:</l>
+          <l>Luy feroit traverser les scylles aboyantes:</l>
+          <l>Et du monstre ætnean les ondes effroyantes:</l>
+          <l>Luy feroit traverser les mons cyaneans.</l>
+          <l>Cet espoir le fera s'acheminer ceans.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Il est attedié de tousjours ainsy vivre</l>
+          <l>En discord avec moy: il pense estre delivre</l>
+          <l>Ces estas estans cloz, et demeurer en paix,</l>
+          <l>Sans plus porter de mars le trespenible faix.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Mille combas en france, et en terre étrangere,</l>
+          <l>Luy ont rendu de mars le peine treslegere.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Tu t'abuses: le sens des maux déjour-en-iour.</l>
+          <l>Accroit dedans tout homme, et saugmente toutjour.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Endurer pour un tans est chose assez facilez</l>
+          <l>Mais tousjours endurer chose tresdifficile.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Mon cueur s'appiase: aussz ce devroit estre faite.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Envoyez-le querir.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Mais gardez que du fait,</l>
+          <l>Par votre mesager il n'ait la connoissance.</l>
+          <l>Le visage changeant, et le peu d'asseurance</l>
+          <l>Découvre bien-souvent les secrés plus cachez.</l>
+          <l>Les mieux avisez sont encor bien empéchez</l>
+          <l>De bien dissimuler en un si grand affaire.</l>
+        </sp>
+        <sp who="#epernon">
+          <speaker>Epernon.</speaker>
+          <l>Il ne le scaura pas.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Souvienne toy de faire</l>
+          <l>Ton devoir seulement, quand il fera venu;</l>
+          <l>Et gardes que le fait ne soit par toy connu.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>De cela m'adverti assez lamour et crainte:</l>
+          <l>Mais encor plus la foy que i'ay au ceur empreinte.</l>
+        </sp>
+        <sp who="#choeur">
+          <speaker>Choeur.</speaker>
+          <l>Iuppiter a mis deux muis</l>
+          <l>Devant l’huis</l>
+          <l>De fa demeure celeste:</l>
+          <l>Dans l'on est clos le bon-heur,</l>
+          <l>De mal-heur</l>
+          <l>L'autre tout homme moleste.</l>
+          <l>Ciche, il nous donne les biens</l>
+          <l>Terriens</l>
+          <l>Avecque la main senestre,</l>
+          <l>Il nous comble de meins maux</l>
+          <l>Et travaux,</l>
+          <l>Prodigue, avecque la dextre.</l>
+          <l>Memes nous voyons aussy,</l>
+          <l>Le foucy</l>
+          <l>Mellé parmy la liesse:</l>
+          <l>Car du mal large-donnenr</l>
+          <l>Au hon-heur</l>
+          <l>Il parseme la tricheffe.</l>
+          <l>Mais peu-souvent laigre fel,</l>
+          <l>De doux miel</l>
+          <l>Tempere for amertume.</l>
+          <l>Nous avons en notre tons</l>
+          <l>Par vingt ans</l>
+          <l>Trop connu cette coutume.</l>
+          <l>Le feu de lede opportun</l>
+          <l>De neptun</l>
+          <l>Calme la plaine orageuse,</l>
+          <l>Ou la nef gauloise estoit,</l>
+          <l>Qui flotoit</l>
+          <l>Dedans la scylle outrageuse.</l>
+          <l>Maintenant poussee a bord,</l>
+          <l>Dans le port</l>
+          <l>Elle est fermement ancree:</l>
+          <l>Si ces etas ont le cours</l>
+          <l>Que ces jours</l>
+          <l>A ordonné l'assemblee.</l>
+          <l>Toy grand dieu qui tiens les cieux</l>
+          <l>Spacieux,</l>
+          <l>Fay que par cette mer coye</l>
+          <l>Quelque tumultueux vent</l>
+          <l>Se levant</l>
+          <l>Ne retrouble notre joye.</l>
+          <l>Encore voicy le iour,</l>
+          <l>Qui toutajour</l>
+          <l>Saint nous fera, doit estre:</l>
+          <l>Auquel le notre sauveur,</l>
+          <l>La faveur</l>
+          <l>Du grand pere, voulut naitre.</l>
+          <l>Tout le peuple iô criant,</l>
+          <l>Et riant,</l>
+          <l>Loyeux, d'une féte telle,</l>
+          <l>Dois estre exent de douleur,</l>
+          <l>Et mal-heur</l>
+          <l>Qui nous attriste, et martelle.</l>
+          <l>Le crain que le mal, venant</l>
+          <l>Maintenant</l>
+          <l>En ce double heur, ne redouble:</l>
+          <l>Permé de nous réjouir,</l>
+          <l>Et jouir</l>
+          <l>D'un bien qu'aucun mal ne trouble.</l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>Acte iv.</head>
+        <stage>Mons. De guyse. Madame de nemovrs.</stage>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Se on ne me priez point: ne men vay le trouver.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Voulez-vous mon conseil tellement reprouver?</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Madame, excusez moy: i’y vay, puisqu'il me made,</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Vous ne m'octroyez pas ce que ie vous demande?</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>La crainte me tenir? C'est trop grand deshonneur.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>La crainte aporte a meins souvet quelque bon-heur.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>La crainte ne se trouve en l'ame genereuse.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Quoy? Vous y allez seul: que ie suis mal-heureuse.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Cecy ne vous doit pas faire telle estimer.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Las! Ny allez point seul, ou vous allez armer.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Le luy rafréchirois sa colere passee</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Gardez vous: elle n'est encortoute effacee.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Mais armes luy don'roient mauvaise opinion.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Vostre mere vous prie en grande affliction.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Quoy? Doques vous voudriez que se croye a un songe</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>No: mais qu'ayez égard au dueil qui mon cueur ronge</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Ce dueil vous vêt d'un songe, et d'une vaine peur.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Faites cela pour moy iaçoit qu'il soit trompeur.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Cela peut m'infamer d'honte perpetuelle.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Cela peut vous sauver d'une mort trescruelle.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Ma mere ne craignez.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Mon fis cessez d'oser:</l>
+          <l>Si vous voulez du tout mon conseil refuser,</l>
+          <l>Sans en rien soulager et ma crainte, et mes plaintes:</l>
+          <l>Soyez donques émeu des parolles non-feintes</l>
+          <l>Que meins hommes de bien me racontent toysjours.</l>
+          <l>Ily a pour le moins desja deux ou trois jours</l>
+          <l>Qu'homme digne de foy m'a bien acertenee</l>
+          <l>De la mort qui vous est pour ce iour ordonnee,</l>
+          <l>Par ce dissimulé que vous allez trouver.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Aysement il a peu tout cela controuver.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Le bruit en est constant par toute cette ville.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Vous avez donc égard a un tel vaudeuille.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Il peut bien estre vray.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Faux il peut estre aussy.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>I’ayme meux qu'il soit faux, qu'il en adviene ainsy</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Souvent le bruit conmun, tout semblable a voz soges,</l>
+          <l>Au lieu de verité ne dit rien que mensonges.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Souvent nous pensons faux tel advertissement,</l>
+          <l>Qui se fait bien paroitre en peu d'heure autrement</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Le ne croiray iamais qu'en un ame royalle</l>
+          <l>Loge la perfidie, e hayne deloyalle.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Par-ce-que votre esprit, semblable aux immortelz,</l>
+          <l>Est net, vous estimez les autres estre telz.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Il ne faut point iuger de la chose incertaine.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Il ne le faut ietter en la mort trescertaine.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>En qui nous firons-nous sinon en noz amis?</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Qui craindrons nous aussy sinon noz ennemis??</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Ma mere ie vous pri’, ie vous prie ma miere,</l>
+          <l>Chassez de votre cueur cette douleur amere.</l>
+          <l>S’il a eu contre nous quelque hayne et rancueur,</l>
+          <l>Tout or est rappaisé. Iamais iamais grand cueur,</l>
+          <l>Lamais cueur genereux n'a tenu sa colere.</l>
+          <l>Souvenez-vous un peu quel a esté son pere:</l>
+          <l>Quels ses deux freres roys: et quez tous ses ayeux;</l>
+          <l>Amateur de la foy, protecteurs en tous lieux</l>
+          <l>De la religion catholique et romaine;.</l>
+          <l>Le sejour d'amitié, et douceur humaine.</l>
+          <l>Il a, par un serment tresfaint et sollennel,</l>
+          <l>Luré dessur le cors du grand dieu eternel,</l>
+          <l>Consacré par la voix des prestres a la messe,</l>
+          <l>Qu'il ne romproit iamais envers moy sa promesse.</l>
+          <l>Qu'est-ce que lhomme a plus que ja foy et ferment?</l>
+          <l>Mémes des ce iour-la qu'il m'alloit affermant</l>
+          <l>De conserver tousjours la foy inviolable,</l>
+          <l>Et chasser de la cour cette peste damnable:</l>
+          <l>Il les envoya tous, du-moins les plus méchans.</l>
+          <l>Que s'ilz ne se sont pas encore mis aux chams;</l>
+          <l>La saison est mal propre: il faut un peu attendre.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Leur retard est douteux: gardez-vous de meprendre.</l>
+          <l>La saison est tousjours propre pour se garder:</l>
+          <l>Vous sçauéz qu'il ne faut pas trop le hazarder.</l>
+          <l>Ilz cherchent, diligens, tous moyens de vous nuire,</l>
+          <l>Le roy enforcelé ne les peut éconduire.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Le ne les crains en rien: tous leurs effors sont veins.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Le roy vous veut livrer possible entre leurs mains.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Quand faire il le devroit, si m'en vay-ie a cette heure.</l>
+          <l>A-dieu ie m'en y vay: trop icy ie demeure.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Vous estes obstiné a vous faire mourir.</l>
+          <l>La mort vient assez tot: vous ne devez courir</l>
+          <l>Au devant attendez.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Que l'ame cazaniere,</l>
+          <l>Couarde, fait-neante, infirme, buiffonniere</l>
+          <l>Craigne le dard cruel de l’incertaine mort:</l>
+          <l>Tout homme genereux ne craint point for effort,</l>
+          <l>Et principalement lorsque la conscience</l>
+          <l>Est sans aucun peché: la forte pacience</l>
+          <l>Ne le delaisse point s'il luy vient quelque mal.</l>
+          <l>Ainsi par tant-de-fois, apié et a cheval,</l>
+          <l>Ir n'a pains craint la mort au milieu des gens d'armes</l>
+          <l>Qui tournaient contre moy la pointe de leurs armes.</l>
+          <l>Ainsi i’ay terrassé meins escadrons guerriers.</l>
+          <l>I'ay remporte meins glorieux lauriers.</l>
+          <l>Ainsi mon nom est craint de l'audace turquesque.</l>
+          <l>Ainsi i'ay fait sentir a l’armee tudesque</l>
+          <l>Mon bras victorieux avecque grand honneur.</l>
+          <l>Ainsi i'ay tousjours eu en tout lieu ce bon-heur</l>
+          <l>De tousjours remporter l'honorable victoire,</l>
+          <l>Dont mon nom et gravé au temple de memoire.</l>
+          <l>Tant-de-fois ie n'ay craint des canons étonnans</l>
+          <l>Les foudres tout-broyans, effroyans, haut-tonnans.</l>
+          <l>Ie n'ay point crain leffroy des tabours, et trompettes:</l>
+          <l>Ie ore ie craindray les parolles foiblettes</l>
+          <l>D'une femme peureuse?</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Il y a du dánger:</l>
+          <l>Mon fis n'y allez point.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Que diroit l'étranger?</l>
+          <l>Ce guysard renommé, qui nous est redoutable :</l>
+          <l>Ce guysard renommé que lon dit indontable:</l>
+          <l>Que lon dit estre un dieu des guerres, et combas;</l>
+          <l>Et les sanglans affaus avoir pour doux ebas:</l>
+          <l>Craint, démentant son nom, les songes d'une femme.</l>
+          <l>Le ne voudrois pour rien encourir tel diffame,</l>
+          <l>Perdant en un moment l'honneur que i'ay acquis</l>
+          <l>Avec tant de sueurs. Celuy qui a conquis</l>
+          <l>Le terroir palestin avec fortes armees,</l>
+          <l>Se couronnant, vainqueur, des palmes idumees:</l>
+          <l>Ce brave godefroy ayeul des guysiens,</l>
+          <l>De honte rougiroit aux chams elysiens,</l>
+          <l>Voyant sel deshonneur imprimé dans sa race.</l>
+          <l>Ce grand conte flandrois, baudouyn, et eustace</l>
+          <l>Ne voudroient m'avouer pour l'un de leurs neveux.</l>
+          <l>Pour ne deshonorer mes ancestres ie veux,</l>
+          <l>Le veux plustot, ie veux, ma dame que la vie</l>
+          <l>Me soit par cinq cens fois cruellement ravie.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Mes pleurs doque n'ont poit envers vous de pouvoir?</l>
+          <l>Ma priere ne peut votre cueur émouvoir?</l>
+          <l>Cueurs trois fois empierré! La roche marpesie</l>
+          <l>N'a tant de dureté. Ou est la courtoisie?</l>
+          <l>Le secours? Le devoir? La crainte? L'amitié?</l>
+          <l>Le filial amour? La douceur, et pitié?</l>
+          <l>Si de noz preux ayeux avez la sapience,</l>
+          <l>La force, la vertu, le cueur, la patience,</l>
+          <l>La prudence, l'esprit, et le bon iugement;</l>
+          <l>Chassez-moy la rigueur de vous pareillement,</l>
+          <l>Exerçant ace coup en moy cette clemence,</l>
+          <l>Qu’apres eux vous sçavez conjoindre a la prudence.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Madame ie voudrois pour vous la mort souffrir</l>
+          <l>Pour vous a tous dangers ie me voudrois offrir.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Evitez donc pour moy le danger, et la peine.</l>
+          <l>Evitez donc pour moy une mort inhumaine</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Quelle peine, et danger? Quelle mort, dites vous?</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Que le tyran prepare et a vous, et a nous.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Mais quelle opinion, mais quelle fantaisie,</l>
+          <l>Vous genant tellement tient votre ame saisie?</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Que de ses ennemis il fait bon se garder.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Votre dueil, votre pleur me contraint accorder</l>
+          <l>Ce que me demandez: d'autre part la puissance</l>
+          <l>Au mandement du roy de rendre obeisance.</l>
+          <l>Le fuis comme un vaisseau sur les enflez sillons,</l>
+          <l>Que l'oest tempestueux de rouans tourbillons,</l>
+          <l>Par l'effort violent de sa grand'bouche enflee,</l>
+          <l>Agite ça dela fur l'onde boursoufles</l>
+          <l>Tantot contre un rocher, tantot contre un amas</l>
+          <l>De fable amoncelé sou l'eau: vogant sans mas,</l>
+          <l>Sans rames, et sans voile; au gré du froid boree;</l>
+          <l>De l'autan orageux, et de la bouche iree</l>
+          <l>D’eure l'agite-mer, au vaisseau importun,</l>
+          <l>Qui fend le larga dos du viel pere neptun.</l>
+          <l>Tout ainsi d'une pars le pleur, et pleinte amere,</l>
+          <l>La crainte, la douleur, que vous avez, ma mere:</l>
+          <l>D'autre part me contraint le mandement du roy.</l>
+          <l>En ce chemin coupé deça dela ie voy,</l>
+          <l>Etranger voyageur, une voye inconnue,</l>
+          <l>Sans sçauoir bien laquelle or' doit estre tenue.</l>
+          <l>Vous ne cesserez point de triste, vous douloir,</l>
+          <l>Si iy vay maintenant contre votre vouloir.</l>
+          <l>Si pour vous obeir ie n' vay a cette heure,</l>
+          <l>L'offenceray le roy par ma longue demeure.</l>
+          <l>Mais en bref ne pourray dechasser votre ennuy</l>
+          <l>Quand soin me reverez. Si j'irite aujourd’huy</l>
+          <l>Le roy, qui courroucé est du tout imployable,</l>
+          <l>Il me fera tousjours irreconciliable:</l>
+          <l>Se hayne durerois contre moy a iamais.</l>
+          <l>Or il vaut mieux mourir que vivre desormais,</l>
+          <l>Comme par cy devant, en discord, et en crainte.</l>
+          <l>Notre france a esté assez de son sang teinte</l>
+          <l>Depuis vint et ring uns par les seditions</l>
+          <l>Des françois divisez en plusieurs factions.</l>
+          <l>Dans la ville de blois, les trois etas de france</l>
+          <l>Sont icy assemblez or pour sa delivrance.</l>
+          <l>Si unefois ils font rompuz, un si grand feu</l>
+          <l>Par la france allumé, comme en un bois touffu</l>
+          <l>Et les petiz buissons et les grans pins moissonne,</l>
+          <l>Courant de tous cotez ne laissera personne.</l>
+          <l>Le ne feray iamais cause d'un tel malheur.</l>
+          <l>Or le dé est ietté. Cessez votre douleur.</l>
+          <l>Quand ie devrois mourir: ce que dieu ne permette.</l>
+          <l>Celuy qui, vertueux, a la course parfaite</l>
+          <l>De la vie ça-bas, ne peut trop-tot mourir:</l>
+          <l>Mais bien-souvent trop-tard, avec le cors pourir</l>
+          <l>Lamais ne peut son nom dans une sale biere.</l>
+          <l>Mourir ainsi c'est vivre.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>He! Donque ma priere n'aura point dessur vous maintenant de credits?</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Ne craignez rien, madame: adieu, c'est assez dit.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Donc attendez un peu: un peu de pacience.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Ce dieu, qui a de tout la seure prescience,</l>
+          <l>Ne pouroit maintenant me divertir; adieu.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Helas, grand dieu, helas! Il s'en vat, o mon dieu</l>
+          <l>Si ie vous ay iamais presenté sacrifice;</l>
+          <l>Qui vous ait pleut, mon dieu, las soyez luy propice.</l>
+          <l>Gardez la pauvre france, et son assevré port,</l>
+          <l>Et du mal, que ie voy, sauvé tout mon confort.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Monsieur de guyse </speaker><stage>seul.</stage>
+          <l>Soleil honneur du ciel, qui de sa lampe claire</l>
+          <l>Par la vaste rondeur, qui t'est soumise éclaire,</l>
+          <l>Ore notre horizon, ore les anticthons:</l>
+          <l>Qui revoys tous les jours les terrestres cantons:</l>
+          <l>As-tu iamais rien veu d'athlas iusques au ganges,</l>
+          <l>De thule iusque au nil, plus digne de louange</l>
+          <l>Que la france guerriere? Honneur de l’univers</l>
+          <l>En vertu, pieté, sciences, ars divers?</l>
+          <l>Mais la paix luy deffaut: paix la bonne deesse</l>
+          <l>Que i'ay de toutes pars recherchee sans cesse.</l>
+          <l>Ace coup, a ce coup dieu benin, pere doux,</l>
+          <l>Eteindra le brasier de son iuste courroux ;</l>
+          <l>Et nous la renvoy'ra, avecque la lustice,</l>
+          <l>Le foy, et piete: lesquelles par le vice</l>
+          <l>Des hommes dereiglez, d'heresie abrevez</l>
+          <l>Hypocrites, cruelz, en-tout très depravez.</l>
+          <l>Chassees de cy bas s'en estoient renvolees</l>
+          <l>Vers le grand dieu leur pere, aux voutes étoillees,</l>
+          <l>Quand ie les reverray en france reflourir,</l>
+          <l>Très volontiers, mon dieu, ie suis prés de mourir.</l>
+          <l>Mon dieu si des etas, par ta sainte clemence,</l>
+          <l>La teneur suyt tousjours ainsi qu'elle commance,</l>
+          <l>L'espere que bien-tot toute sedition</l>
+          <l>Du huguenot maudit, et sa religion</l>
+          <l>Trompeuse, vicieuse, apostee, inhumaine,</l>
+          <l>Cedera a la foy de l'eglise romaine.</l>
+          <l>Mais d'ou vient ce frisson? Voy! Mon cueur tressaillant</l>
+          <l>Me bat dans l'estomac sans cesse pantelant.</l>
+          <l>Le sens ie ne scay quoy, qui dans moy tourne-vire</l>
+          <l>Mes entrailles, ainsi qu'un gouffre le navire.</l>
+          <l>En sortant ie me suis par troisafois trébuché.</l>
+          <l>Cela predit-il point quelque mal-heur caché?</l>
+          <l>Cela feroit trembler tout notre roy de crainte:</l>
+          <l>Mais ie n'ay eu iamais encore l'ame atteinte</l>
+          <l>De superstition, ny ne l'auray encor.</l>
+          <l>He! Si c'estoit cela que l'on me disoit or?</l>
+          <l>Ie ne sçay: que ce soit. Toy grand dieu, qui disposes</l>
+          <l>Toutes noz actions; toy, qui sçais toutes choses,</l>
+          <l>Détournes ie te pry' tout mal-heur de mon chef:</l>
+          <l>Et gardes ce pais d'infortune et méchef.</l>
+          <l>Le m'en vay.il faudra que le roy ie reveille;</l>
+          <l>Il n'est encor leve, ou bien c'est grand merveille.</l>
+          <l>Le messager m'a dit toutesfois qu'il estoit,</l>
+          <l>Et, pour aller aux chams, desja il s'apprétoit.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>L'archant </speaker><stage>seul.</stage>
+          <l>Voire, il est ja botté pour coucher a la ville.</l>
+          <l>Sans ruse, la vertu est du-tout inutile.</l>
+          <l>Tout nous vient a souhait. Non ne pensions jamais</l>
+          <l>Avoir cil qui ne peut nous fuir desormais.</l>
+          <l>Ore que nous vons d'me ruse bien faite,</l>
+          <l>La proye dans noz rey de soy méme se iette.</l>
+          <l>Cette ville de blois tient clos dans ses rempars</l>
+          <l>Le guysard, et les siens bouclez de toutes pars.</l>
+          <l>Ils font pris a ce coup. Nous ferons par la france</l>
+          <l>Tout ce qu'il nous plaira. Qui fera resistance,</l>
+          <l>Ces guysard, le support du peuple, en un tombeau</l>
+          <l>Tantot estans renclos? Ha! Mort bien, ie tout-beau:</l>
+          <l>Il faut estre avisé en un si grand affaire.</l>
+          <l>Si ne puis-je pourtant contenir ma colere.</l>
+          <l>Le me sens transporter: tout ainsi qu’un lumier,</l>
+          <l>Qui est par les fores de broller coutumier:</l>
+          <l>Quand refleurant la terre il recherche la trace,</l>
+          <l>Et de loin, refrongnant son gros mufle, il pourchasse</l>
+          <l>Es bocages espaix le herissé sanglier,</l>
+          <l>Son homme il ne contraint de son col delier,</l>
+          <l>Ains assez pacient cherche tousjours sa quéte.</l>
+          <l>Mais si tot que de prés il approche la béte,</l>
+          <l>Qu'il la sent, qu'il la voit : il recourbe le col :</l>
+          <l>Il tourne, il se debat pour rompre son licol:</l>
+          <l>Il entraine ça-la son homme: il gronde, il iappe,</l>
+          <l>Tant que de ses liens par forces il s'eschappe.</l>
+          <l>Tout de-méme mon cueur se début dedans moy</l>
+          <l>Contre ma volonté, pour-autant que ie voy</l>
+          <l>La proye s'approcher. O cohorte gentille,</l>
+          <l>Le voicy, soyez prés. Cettuy-cy fill’-a-fille</l>
+          <l>Ameine dans noz res le credule poisson</l>
+          <l>Qui a depuis trois jours avalle l’hameçon.</l>
+          <l>Cettuy-cy a mangé, ie croy, de l'endormie:</l>
+          <l>Comme il vient chancelant! Ia la parque blémie</l>
+          <l>Tranche son fil fatal.</l>
+          <l>Le voicy, avancez. Sus fus, atpretez-vous, et fidelles pensez</l>
+          <l>De vous bien disposer pour ce gros brochet prendre</l>
+          <l>Qui tous les autres mange. Il ne faut plus attendre:</l>
+          <l>Tirez, vites, si-tot qu'il sera enretté.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Vous estes bon pécheur. Que fait la majesté?</l>
+          <l>Est il desja levé.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Il y a plus d'une heure,</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Trouve-til point mauvais que long-tans ie demeure?</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Non certes, monseigneur.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Mais ou veut il aller?</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Payer son vœu.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Quel vœu? Ie n'ay ouy parler</l>
+          <l>Qu'il ait fait quelque vœu.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Le ne scaurois que dire:</l>
+          <l>Voylà ce que i'en sçay. Mais ie sçay qu'il desire</l>
+          <l>Parler un mot a vous par-avant.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Ie ne veux</l>
+          <l>Ses bons voeus retarder: ie m'en.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Voyla ses væux.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Ha mon dieu, ie.</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>Voyla ce que bien tu merites.</l>
+          <l>Roy parisien.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Las!est-ce pour mes merites?</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>Nous avons notre tour.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>O!</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>Tu as eu le tien.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Mon dieu mercy.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Guysard, ore te voilà bien.</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>Crye mercy au roy.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>Au roy?</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Ton arrogance</l>
+          <l>Est or' bien rabbatue.</l>
+        </sp>
+        <sp who="#guise">
+          <speaker>Guise.</speaker>
+          <l>O dieu, ie vous.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>La france</l>
+          <l>N’a maintenant qu'un roy.</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>Tu voulois commander.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Il te failloit vray’ment des etas demander</l>
+          <l>A ton roy, t'égallant a sa grande puissance.</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>Il est mort.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Redoublez</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>Ha! Cap de dioux, ie pense</l>
+          <l>Quil ne no' veut pas mordre.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Il a ce qu'il luy faut.</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>No' luy avons fait faire un tresbeau sobre-saut.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>En fin il faut tousjours que le déloyal meure,</l>
+          <l>Qui offence son roy. Impuni ne demeure</l>
+          <l>Lamais aucun mal-fait ou du foible ou du sort.</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>Il ne respire plus: il pâlit: il est mort.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Le vay le dire au roy, pour le tirer de peine.</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>Qu'ell peine?que crain-til?</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>La fortune incertaine,</l>
+          <l>Qui luy a tant-de-fois cy devant rit en-vain.</l>
+        </sp>
+        <sp who="#gards">
+          <speaker>Choeur.</speaker>
+          <l>De ce qu'entreprenons l'effet est tout certain.</l>
+        </sp>
+        <sp who="#archant">
+          <speaker>Archant.</speaker>
+          <l>Trainez-le la dedans.c'est bien chose asseuree,</l>
+          <l>Que notre recompense est desja prepáree.</l>
+        </sp>
+        <sp who="#choeur">
+          <speaker>Choeur.</speaker>
+          <l>Bien heureux pourpris</l>
+          <l>De la vertu, ô glorieuse france,</l>
+          <l>Sur tout pais en grandeur et puissance,</l>
+          <l>Qui as gaigné le pris:</l>
+          <l>Quel astre mal-heureux</l>
+          <l>A envié ton honneur, et ta gloire:</l>
+          <l>Pour effacer l'eternelle memoire</l>
+          <l>De tes fais genereux.</l>
+          <l>Ia-desja par vint-fois</l>
+          <l>Le cynthien a veu le cheure-corne,</l>
+          <l>Qui de l’an rond frappans l'huis de sa corne</l>
+          <l>Renouvelle les mois:</l>
+          <l>Depuis que le mal-heur</l>
+          <l>N'a point cessé de tousjours te poursuyvre.</l>
+          <l>Or que tu pense encor' estre delivre,</l>
+          <l>Il double ta douleur.</l>
+          <l>O trop trompeur espoir</l>
+          <l>De tous mortelz, ô trop vaine esperance!</l>
+          <l>Tu as perdu, esperant mieux, ô france,</l>
+          <l>Tout ton bien et pouvoir.</l>
+          <l>Le duc guysard est mort,</l>
+          <l>Guysard l’honneur des combas, et larmes:</l>
+          <l>Son-toy en pleurs, france, son-toy en larmes,</l>
+          <l>Gemissant cette mort.</l>
+          <l>La terre, l’air, les cieux,</l>
+          <l>La nuit, le iour brouillé des nues sombres;</l>
+          <l>Espris du ciel, vous infernales ombres,</l>
+          <l>Gemissez a-qui-mieux.</l>
+          <l>Ia vint ans sont passez,</l>
+          <l>Que l'on n'a veu qu’outrages sur outrages:</l>
+          <l>Que mors sur mors ; carnages sur carnages</l>
+          <l>: las! N'est-se pas assez?</l>
+          <l>Le trop cruel destin</l>
+          <l>Ravis tousjours les ames vertueuses</l>
+          <l>Devant leur iour, laissant les vicieuses</l>
+          <l>Regner susque a leur fin.</l>
+          <l>Or' plouron desormais:</l>
+          <l>Nous voyons bien quelle de dieu est l'ire,</l>
+          <l>Puisque les bons avecque soy il retire:</l>
+          <l>Sus plouron a-iamais.</l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>Acte v.</head>
+        <stage>Madame, la nourisse.</stage>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Ma frissonnante horreur tousjours tousjours redouble.</l>
+          <l>Ma ba-battante peur tousjours tousjours me trouble,</l>
+          <l>Tousjours plus la tremeur, mon esprit agitant,</l>
+          <l>Sé pend par tout mon cors de frayeur tremblotant.</l>
+          <l>Ia crainte, avec douleur dans mon cueur prisonniere,</l>
+          <l>Debattent qui sera dedans moy la derniere,</l>
+          <l>Mon cueur tout-re-serré fourmille tressaillant,</l>
+          <l>Dedans mon estomac pantois, et desaillant.</l>
+          <l>Mon sang est tout glacé dedans mes froides veines:</l>
+          <l>Et mon foye éperdu accroit tousjours mes peines.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Quelle terreur nouvelle augmente voz douleurs?</l>
+          <l>Monseigneur essuyra a-cett'-heure voz pleurs.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Ha nourisse ie crain: ie crain helas, nourisse,</l>
+          <l>Qu'il n'en revienne pas: trop grande est la malice</l>
+          <l>Du tyran enragé. Le chateau est fermé</l>
+          <l>Ou il est entré seul, hélas, et desarmé.</l>
+          <l>Il est perdu, helas! Il est perdu.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Madame. Il est encor matin.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Helas! Pourquoy mon ame</l>
+          <l>Demeure si long-tans en ce cors mal-heureux,</l>
+          <l>Pour me faire endurer le sort mal-encontreux,</l>
+          <l>Qui malheur sur malheur, et dueil sur dueil me donnes?</l>
+          <l>Parque, coupez mon fil, coupez mon fil, selonne:</l>
+          <l>Qu'attens-tu? Envoy moy la-bas vers mon époux.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Le voy là un soldat, qui vient parlant vers nous ;</l>
+          <l>Sorty de ce chateau: entendon sa parolle.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Le sçay qu'il ne dire chose qui me console:</l>
+          <l>Il est tout-effrayé: il est tout-éperdu.</l>
+          <l>Helas! Mon fis est mort: helas! Tour est perdu,</l>
+        </sp>
+        <sp who="#soudard">
+          <speaker>Soudard.</speaker>
+          <l>Globe rond, qui contiens dans ton sein enferme,</l>
+          <l>Du stygien iuppin la maison enserre:</l>
+          <l>Ou l'effroy, et la peur logent incessamment:</l>
+          <l>La tristesse, la nuit, les cris, le hurlement:</l>
+          <l>Les pleurs, ennuis, regrés, les bourelles furies:</l>
+          <l>L'horreur, crainte, terreur, et autres diableries:</l>
+          <l>Les génes des damnez cruellement liez.</l>
+          <l>Toy massif element, qui stabeau de noz pies</l>
+          <l>Portes de toutes pars de ta rondeur pesante,</l>
+          <l>Un cam d'hommes méthans, sur ta face gifante,</l>
+          <l>Ouvre ton sein beant, pour, goulu, engloutir</l>
+          <l>Les hommes vicieux, et leur faire sentir,</l>
+          <l>Que dans le ciel vouté, qui toute chose embrasse,</l>
+          <l>Regne un dieu iusticier, pour les bons, plein de grace:</l>
+          <l>Et des crimes méchans severe punisseur.</l>
+          <l>Ouvre toy, englouty au fond de ta grosseur</l>
+          <l>Tous les hommes vivans, qui regorgent de vices,</l>
+          <l>Très énormes, très fors, tres-dignes des suplices,</l>
+          <l>Tortures, et serpens, pour le vice ordonnez,</l>
+          <l>Que souffrent aux enfers tous mal-heureux damnez.</l>
+          <l>Là, terre, que par-tout en gouffres creux ouverte,</l>
+          <l>Nous montrant de pluton la maison découverte,</l>
+          <l>Tu nous confonde tous, et renverse dedans</l>
+          <l>Ses grans laqs ensoufrez de tourbillons ardens.</l>
+          <l>Que ne nous noye-tu es eaux tenarienes?</l>
+          <l>Que ne nous couvre-tu es bourbes stygienes?</l>
+          <l>Pourquoy n'arrache-tu cette ville de blois?</l>
+          <l>Pourquoy n'ecroule-tu tout le terroir gaulois?</l>
+          <l>Nous devrions tous errer, entre les tristes ombres,</l>
+          <l>Que tisiphon poursuit par les tartares sombres.</l>
+          <l>Bouleverse cela qui du haut ciel est clos,</l>
+          <l>Es derechef le brouille en l'ancien chaos.</l>
+          <l>Entreine avecque toy cette ronde machine:</l>
+          <l>Accable le tyran sou la grande ruine.</l>
+          <l>Tout ce monde, rompu, brisé, et fracassé,</l>
+          <l>Soit de dessus ton dos pour iamais effacé.</l>
+          <l>Cache nous sou le cours des pleurs acherontides,</l>
+          <l>Et dessou phlegeton, ou les trois eumenides,</l>
+          <l>Nous poursuyuent tousjours, armees de gros foués,</l>
+          <l>De tres-puans flambeaux, de couleureaux noués</l>
+          <l>Qui horriblent leurs chefs. Sus, terre, en-bref amasse</l>
+          <l>Tout ce monde aux enfers: tu n'es plus qu'une masse,</l>
+          <l>Et un faix inutile. Vertu, humanité,</l>
+          <l>Foy, clemence, amitié, iustice, pieté,</l>
+          <l>T'ont quittee aujourd'huy: en la place desquelles</l>
+          <l>Regneront a-iamais fraudes perpetuelles,</l>
+          <l>Dissimulations, traisons, déloyautés,</l>
+          <l>Haines, meurtres, discors, assasins, cruautés.</l>
+          <l>O vie des humains très méchante, et trompeuse!</l>
+          <l>O foy, sans loyautés, ô foy cent-fois douteuse!</l>
+          <l>O feinte majesté! O front dissimulé!</l>
+          <l>O cueur d'hypocrisie, et d'envie brulé!</l>
+          <l>O devotion feinte; ô feinte penitence!</l>
+          <l>O feinte pieté! O trop feinte clemence!</l>
+          <l>O feinte sainteté, qui sur un grave front</l>
+          <l>Apparois, recelant un esprit sale, et promt</l>
+          <l>Aux vices les plus grans! Douceur cache l'audace,</l>
+          <l>Continence, impudence; et vérité falace.</l>
+          <l>Le fol mygdonien est un sage platon.</l>
+          <l>Le mol sardanapal un severe caton.</l>
+          <l>Ce dévot penitent, ce bon, chaste hermite;</l>
+          <l>Ce simple, ce courtois, ce saint hieronimite</l>
+          <l>A commis aujourd'huy si grande cruauté,</l>
+          <l>Si grande barbarie: et que le ciel vouté,</l>
+          <l>Et les astres, et l'air, et les eaux, et la terre</l>
+          <l>En fremissent d'horreur: le soleil en re-ferre,</l>
+          <l>Sou un manteau nueux, ses yeux pour ne le voir,</l>
+          <l>Quoy? Il ne t’a suffit, tyran, de luy avoir</l>
+          <l>Oté, par mille cous, sa treshonnéte vie?</l>
+          <l>Cela n'a assouvy ta trescruelle envie?</l>
+          <l>Quel monstre sans raison quel seinis, phalaris?</l>
+          <l>Quel procrust outrageux, quel méchant busiris,</l>
+          <l>N’a point esté contant, quand l'ame prisonniere</l>
+          <l>Du cors, estoit entree en la barque legere,</l>
+          <l>Qui frelle, et trop chargee, hume la bourbeuse eau,</l>
+          <l>Sans cesse traversant le larmoyant ruisseau?</l>
+          <l>O nos peres heureux, de leur flame vitale</l>
+          <l>Veufs, qui ne voyent pas cette rage brutale:</l>
+          <l>Plus que brutal’encor. Le lion genereux,</l>
+          <l>Herissé de courroux, et d'yeux ardens affreux,</l>
+          <l>Se contente de voir son mortel adversaire</l>
+          <l>Couché devant ses pies, sans autre mal luy faire,</l>
+          <l>Encor les ours vilains, tygres, lous enragez</l>
+          <l>N’ont point outre la mort leurs hostes outragez.</l>
+          <l>Quel malheureux destin traine encore ma vie,</l>
+          <l>Pour voir apres la mort, qu'il n'avoit dé servie,</l>
+          <l>Le pourpris de vertu, l’honneur des bons guerriers,</l>
+          <l>Bourellé, massacré, par impies meurtriers?</l>
+          <l>Estre encor assaile de vilaines injures,</l>
+          <l>Que vomissent sur luy les enragé perjures,</l>
+          <l>Refrappant mille-fais le cors apres la mort?</l>
+          <l>Ainsi d'un fort lion, qui est-là couché mort,</l>
+          <l>Les lapereaux fuyers, et les timides lievres,</l>
+          <l>Arrachent la moustache, et mordillent les lèvres,</l>
+          <l>Mais encor (ô horreur! O terre creve toy,</l>
+          <l>Devore ce tyran, meurtrier et non-pas roy)</l>
+          <l>Le tyran inhumain avec le glaive sonde,</l>
+          <l>Pour sçauoir la quelle est des plages plus profonde:</l>
+          <l>Affin de guerdonner le trop impie auteur,</l>
+          <l>Qui aura fait les cous de plus grande hauteur:</l>
+          <l>Tançant ceux qui ont fait les playes moins-cruelles</l>
+          <l>Ha! Ce n'est encor tout. Puissances eternelles,</l>
+          <l>Qui du ciel le voyez, vangez ce grand meffet:</l>
+          <l>Acharné de fureur, non contens de ce fet,</l>
+          <l>De l'un de ses mignons ayant prise lépee,</l>
+          <l>Il l'a par plusieurs-fois au noble sang trampee</l>
+          <l>Du cors là étendu fur le pavé sanglant.</l>
+          <l>Il monte apres dessus, et des pies te foulant</l>
+          <l>S'écrie: ie suis roy, ie suis roy de la france:</l>
+          <l>On ne m'oseroit plus faire de resistance:</l>
+          <l>Le fauteur des mutins, et soz parisiens,</l>
+          <l>Git mort dessou mes piés, l'ainel des guysiens.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Ie l'ay tousjours bien dit.helas! Voyla mon songe.</l>
+          <l>Helas! Voyla ma crainte. Il ny a du mensonge,</l>
+          <l>Es songes mal-heureux, ains aux bons seulement.</l>
+          <l>Helas, helas!</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Monsieur, helas dites comment,</l>
+        </sp>
+        <sp who="#soudard">
+          <speaker>Soudard.</speaker>
+          <l>Dedans son cabinet, la canaille enrages,</l>
+          <l>A passé cette nuit, sombre, epoisse, ombragee,</l>
+          <l>Avecque le tyran, au damnable conseil,</l>
+          <l>Pour faire ce masacre au lever du soleil.</l>
+          <l>A-peine il estoit iour, et l'aurore perleuse</l>
+          <l>Commançoit de chasser l'obscurité falcheuse:</l>
+          <l>Il envoye un garson appeller monseigneur:</l>
+          <l>Il n'est si tot venu, que tous (et quel mal-heur!)</l>
+          <l>Tous ses coupes-jarés, boureaux pleins de furie,</l>
+          <l>Cache de tous côtez de la tapisserie,</l>
+          <l>Se iettent, enragez, ensemble dessur luy:</l>
+          <l>Massacrent de la france, et l'honneur, et l'appuy,</l>
+          <l>A grans cous de poignard, que millefois ils plantent</l>
+          <l>Dans les membres saisiz, qui le pavé sanglantent</l>
+          <l>De leur pourpre vermeil, qui jaillit bou-bouillant,</l>
+          <l>Monseigneur, ses meurtriers, et tout le lieu fouillant.</l>
+          <l>Alors de cette mort, pax un traitre homicide,</l>
+          <l>Soudain est adverty l’atheiste perfide.</l>
+          <l>Il n'ose pas sortir toutesfois le poltron,</l>
+          <l>Jusqu'il fust fait certain par son aymé mignon,</l>
+          <l>Qu'il y envoye expres. Lors tremblant, le parjure</l>
+          <l>Commet cent cruautés, et meinte impie injure.</l>
+          <l>Et le cueur, et le iour plustot me deffaudroit,</l>
+          <l>Que toutes raconter ie les puisse or'-endroit.</l>
+          <l>Apres mille fureurs, mille bourelleries,</l>
+          <l>Apres mille brocars, et mille moqueries:</l>
+          <l>Il fait venir aussy les autres guysiens,</l>
+          <l>Et tous ceux qu'il sçavoit ne s'accorder aux siens.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Helas helas! Mon dieu; helas! Mon dieu sa rage</l>
+          <l>A encor redoublé cet outrageux carnage?</l>
+        </sp>
+        <sp who="#soudard">
+          <speaker>Soudard.</speaker>
+          <l>Non: il les fait garder, et retient prisonniers.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Madame entendez-vous?</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>O cruelz buifsonniers,</l>
+          <l>Tous mes enfans sont mors?</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Entendez-vous, madame, il les tient seulement.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Helas! Tous mors? Ie pâme.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Filles soutenez-là.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>O tygres! O fiers lous!</l>
+          <l>Tous mors? Mon dieu, tous mors?</l>
+        </sp>
+        <sp who="#soudard">
+          <speaker>Soudard.</speaker>
+          <l>Non-pas, entendez-vous?</l>
+          <l>Il les tient prisonniers. Madame, sus courage.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Las! Te croy qu'elle meurt.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>O dieu! Quel grand outrage?</l>
+          <l>Par tous mes membres frois se coule un dur rocher:</l>
+          <l>Filles, soutenez-moy; ie ne puis plus marcher.</l>
+          <l>Mal-heureuse trop plus que n'a esté niobe,</l>
+          <l>Le me change comme elle en m larmoyant globe.</l>
+        </sp>
+        <sp who="#nourisse #damoiselles">
+          <speaker>La nour. Et les damoisel.</speaker>
+          <l>Madame, helas,</l>
+          <l>Madame: helas! Ne tombez pas.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Ie ché.</l>
+        </sp>
+        <sp who="#nourisse">
+          <speaker>Nourisse.</speaker>
+          <l>Soutenez-là par-dessou les deux bras.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Ah! Mort, ô dure mort, vien, vien, et me conforte.</l>
+        </sp>
+        <sp who="#soudard">
+          <speaker>Soudard.</speaker>
+          <l>Porton-là sur son lit.</l>
+        </sp>
+        <sp who="#nourisse #damoiselles">
+          <speaker>La nour. Et les damoisel.</speaker>
+          <l>Las! Ie croy qu'elle est morte.</l>
+        </sp>
+        <sp who="#choeur">
+          <speaker>Choeur.</speaker>
+          <l>O fortune inconstante,</l>
+          <l>Qui n'es iamais contante,</l>
+          <l>Si tu n'as sou tes mains</l>
+          <l>Tous les humains</l>
+          <l>Donc tu as a la france,</l>
+          <l>Tant et tant de puissance,</l>
+          <l>Pour soy exterminer,</l>
+          <l>Voulu donner.</l>
+          <l>Combien es tu injuste,</l>
+          <l>Deprimant l'homme iuste,</l>
+          <l>Pour l’impie honorer,</l>
+          <l>Et bien-heurer!</l>
+          <l>Et trop perfide, encores,</l>
+          <l>Les méchans tu decores</l>
+          <l>De l’heur grandeur, et bien,</l>
+          <l>Des gens de bien.</l>
+          <l>Est-il homme, plus digne,</l>
+          <l>Que le guysard insigne,</l>
+          <l>Pour en france regner,</l>
+          <l>Et dominer?</l>
+          <l>Est-il en ce monde ame,</l>
+          <l>Plus méchante, et infame,</l>
+          <l>Que henry de valois,</l>
+          <l>Roy des gaulois?</l>
+          <l>Et ore, trop maline.</l>
+          <l>Les guysars tu ruine,</l>
+          <l>Pour plaire a ce lou fier,</l>
+          <l>Tyran, meurtrier.</l>
+        </sp>
+        <sp who="#damoiselle">
+          <speaker>Damoiselle.</speaker>
+          <l>Qui voudra voir comment le fort mal-encontreux</l>
+          <l>Trouble tousjours les bons d'accidens défastreux.</l>
+          <l>Qui voudra voir, combien peu-seurement se fonde,</l>
+          <l>Qui mettra son appuy fur les biens de ce monde.</l>
+          <l>Que voudra voir, combien est vain, et inconstant</l>
+          <l>Le bon-heur, que fortune a tous va promettant,</l>
+          <l>Et combien la faveur au bien-heureux peu dure:</l>
+          <l>Combien l'infortuné de miseres endure:</l>
+          <l>France, te vienne voir. Lamais, iamais vray’ment,</l>
+          <l>Le sort n'a point montré si appert argument</l>
+          <l>Du soudain changement, et fuite trop-legere</l>
+          <l>De l’aveugle deesse, en bon-heur mensongere:</l>
+          <l>Qui long-tans noz espris d'un vain espoir repait,</l>
+          <l>Trompeuse, nous riant: puis elle nous pait,</l>
+          <l>Changee tout-a-coup, de notre grand’sotise,</l>
+          <l>Par quelque grand mal-heur nous montrant sa feintise.</l>
+          <l>Alors que nous pensions vivre tousjours en paix,</l>
+          <l>Et, puissans, maintenir cet honneur a-iamais,</l>
+          <l>En vertu, et grandeur d'estre a tous redoutables:</l>
+          <l>L'ornement de la france (ô choses deplorables!)</l>
+          <l>La force, le support, l'ainel des guysiens,</l>
+          <l>Par sa cruelle mort causé la mort aux siens:</l>
+          <l>Par sa cruelle mort il dépouille la france</l>
+          <l>De bon-heur, de grandeur, d’honneur, force, et puissance</l>
+          <l>Las! Ce noble guysard, duquel le grand renom</l>
+          <l>Lamais ne peut mourir: du quel l'illustre nom</l>
+          <l>Fait les peuples trembler, qui plus cruelz en guerre,</l>
+          <l>Du cairain iusque en fez, habitent sur la terre.</l>
+          <l>Hors de notre terroir son invincible main</l>
+          <l>A tant-de-fois chassé le barbare germain:</l>
+          <l>Poignardé maintenant il est la moquerie</l>
+          <l>Du tyran, et meurtriers, traitres pleins de furie.</l>
+          <l>Helas! Donc failloit-i, puisque ses ennemis</l>
+          <l>Pallissoient a son nom, qu'il fust or a mort mis</l>
+          <l>Par celuy, pour lequel, et la terre deffendre</l>
+          <l>Son sang par-tant-de-fois il a voulu répendre?</l>
+          <l>Failloit-il que la france eust un si grand honneur,</l>
+          <l>Pour ramir a foy-meme ala fin son bon-heur?</l>
+          <l>O tyran, qu'as-tu fait? Tyran, trois-fois infame,</l>
+          <l>Tu massacre aujourd’huy meite et meite sainte ame</l>
+          <l>En la mort de ce prince. Helàs! Quelles douleurs</l>
+          <l>Peut madame souffrir, pâmee dans ses pleurs!</l>
+          <l>O meurtrier. Ie le voy, qui remâche son ire,</l>
+          <l>O cruel: l’un voit bien que son cueur me respire</l>
+          <l>Rien sinon que le sang: il a loeil menaçant,</l>
+          <l>Et marche, enflé d'orgueil, d' un pas tout-indecent.</l>
+          <l>Mais, helas, le voicy: a-tant ie me retire</l>
+          <l>Pour madame advertir, qui languit en martire.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Aux astres clairs égal ie marche triomphant,</l>
+          <l>Et d'un chef elevé auz poles hans touchant,</l>
+          <l>Ie voy dessou mes piés tout les roys de la terre,</l>
+          <l>Par ou thetis le iour nous découvre, et re-ferre.</l>
+          <l>Le porte maintenant en pompeuse grandeur</l>
+          <l>Ce beau sceptre royal, et comble de grand heur,</l>
+          <l>Ayant pris au devant la fortune prospere,</l>
+          <l>Le massié, reveré, au throne de mon pere.</l>
+          <l>Gouvernez votre ciel, dieux (s'il en est la haut)</l>
+          <l>Ie n'en suis envieux: du ciel il ne me chaut,</l>
+          <l>I’ay fiché mon garot au but de mon attente:</l>
+          <l>I'ay le fruit de mes vœux: ore ie me contente.</l>
+          <l>Venez mes serviteurs, venez gentis royaux</l>
+          <l>Tousjours a votre roy fidelles, et loyaux:</l>
+          <l>Prenez la liberté tant-de-fois desiree,</l>
+          <l>Qui susques aujourd'huy s'estoit loin retiree.</l>
+          <l>Ce guysard balafré, chef de noz ennemys,</l>
+          <l>Qui a tant harassé, et moy et mes amys,</l>
+          <l>A receu maintenant la recompense digne</l>
+          <l>De sa déloyauté, et arrógance insigne.</l>
+          <l>Venez, venez-le voir, en son lang répandu,</l>
+          <l>Dedans mon cabinet gisant mort étendu.</l>
+          <l>Hercule fut fait dieu pour avoir de la masse</l>
+          <l>Quelques monstres dontez combien en cette masse;</l>
+          <l>Que ie ne peu iamais a mon point façonner;</l>
+          <l>Combien ay-ie en un coup peu d'hydres tronçonner?</l>
+          <l>Assommer de lions? De gros sangliers sauvages?</l>
+          <l>De monstres tres cruelz, que faisoient meins ravages</l>
+          <l>A mes fidels subjés, par le terroir gaulois,</l>
+          <l>Et a noz alliez allemans, et anglois?</l>
+          <l>Cest bien: ce m'est assez: i’ay ce que le desire.</l>
+          <l>Mais pourquoy est-ce allez? R’allume-toy, mon ire</l>
+          <l>Pour le reste racler de mes haineus mortelz.</l>
+          <l>Le voudroy-bien tenir encor ces immortelz,</l>
+          <l>Que l'on dit habiter sur les voute brillantes</l>
+          <l>De petis feus dorez, et detoilles drillantes.</l>
+          <l>Ore ie les voudroy en mes prisons tenir,</l>
+          <l>Pour voir s'ilz oseroient deffendre, et soutenir</l>
+          <l>Mes ennemys guysars, qui les prient sans cesse</l>
+          <l>De les tous delivrer de ma main vangeresse.</l>
+          <l>L'éprouveroy vray’ment si de la triste mort,</l>
+          <l>Sur ces dieux. Comme on dit, est vain et nul l'effort.</l>
+          <l>Qui est celle qui vient a moy? Ha! C'est la mere.</l>
+          <l>Il faut voir quels propos, sa plainte tresamere</l>
+          <l>Vomira les premiers: quel teint, quelle couleur,</l>
+          <l>Quels signes ell’ montra de sa grande douleur.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Tyran dénature, infame creature,</l>
+          <l>Qui fis peur en naissant a la mere nature:</l>
+          <l>Hypocrite, meurtrier, atheiste, vilain,</l>
+          <l>Cloaque d'infamie, et d'impieté plein,</l>
+          <l>Gouffre d'iniquité, bourbier de vilannie,</l>
+          <l>Sejour de cruaute, manoir de tyrannie,</l>
+          <l>Quoy? Est-ce là l'accord? Est-ce là l'amitié</l>
+          <l>De consanguinite? Est-ce là la pitié</l>
+          <l>D'un fidelle chretien? Est-ce lá la promesse,</l>
+          <l>Est-ce la foy iuree a la tressainte messe?</l>
+          <l>O impie, enragė, est-ce la le ferment</l>
+          <l>De paix, que tu nous fis sur le saint sacrement!</l>
+          <l>Poltron, effeminé, vaisseau de paillardise,</l>
+          <l>Mange-peuple larron, ennemy de l'eglise,</l>
+          <l>Pourquoy, méchant, pourquoy as-tu fait massacrer</l>
+          <l>Celuy que tu devrois cherir et honorer?</l>
+          <l>Dumoins ren moy le cors que ie l'enseulice.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Il n'a encor assez enduré de supplice.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Quoy? Bourreau inhumai. Dy moy, n e t-il pas mort</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Ouy: mais ie veux t’oter tout moyen de confor</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Tien, meurtrier enragé, tien, pren-moy cette épee,</l>
+          <l>Qu'elle soit mille-fois dans mon sang retrampee.</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>Ainsi ie mettroy fin a res grieves douleurs,</l>
+          <l>Ie te veux prolonger tes regrés, et tes pleurs:</l>
+          <l>Affin que retenant ta miserable vie,</l>
+          <l>Tu meure mille-fois le iour, ayant envie,</l>
+          <l>Pour finir ta langueur, de les sujure la bas,</l>
+          <l>Par une heureuse mort, mais aitant tu verras</l>
+          <l>Ton cardinal meutre, et un sanglant carnage</l>
+          <l>De tous tes autres fiz tu verras davantage</l>
+          <l>Le feu gloutonnement se puitre des monceaux,</l>
+          <l>De leurs membres saigneux tronçonnez in morceaux;</l>
+          <l>Puis estans consommez en poussieres menues,</l>
+          <l>Ie les feray porter a l’autun par les nues.</l>
+          <l>Affin de davantage encor t’adveiller,</l>
+          <l>Et pour mon cueur enflé de cruauté souller,</l>
+          <l>Ie me reserveray quelque téte sanglante,</l>
+          <l>Sale de sang caillé, et cervelle coulante</l>
+          <l>Dessur son front crasseux, dedans les yeux pourris,</l>
+          <l>Dont ie veux que les miens soient tous lesiours nourris.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Quel farouche heniach du deserté cancesect</l>
+          <l>Quel hoste sans pitié des rivages du phafe?</l>
+          <l>Quel barbare gelon? Et quel sarmate inhumain,</l>
+          <l>Ayant ensanglanté sa trop cruelle main</l>
+          <l>Au sang de l'ennemy guerrier de grand courage</l>
+          <l>A exercé encor telle brutale vage?</l>
+          <l>Ce crime a surpassé toute autre cruauté.</l>
+          <l>Est-ce le grand-mercy de cette royauté</l>
+          <l>Que tu as eu par luy? Tu es trop-plus farouche,</l>
+          <l>Furieux, violent, que la gelante bouche</l>
+          <l>D'aquilon l'impiteux: tu es encor cent-fois</l>
+          <l>Plus barbare, et cruel que l'hoste polonnois,</l>
+          <l>Qui erre par les chams de la froide scythie</l>
+          <l>Frissonnante tousjours, sou l'époux d'orithie:</l>
+          <l>Ou il te fut querir pour en france regner</l>
+          <l>Or qu'il t'eust offencé tu devrois l'epargner,</l>
+          <l>Méchant, pour ce bien-fait: tu las fait par des traitres,</l>
+          <l>Meurtrir en ce chateau bâte par les ancéires:</l>
+          <l>Las! L'ont-ils fait pour perdre or leur posterité:</l>
+          <l>Par toy? O quel lien de consanguinité?</l>
+        </sp>
+        <sp who="#henry">
+          <speaker>Henry.</speaker>
+          <l>En faveur que le sang, et race guysienne,</l>
+          <l>A esté alliee a la valesiene,</l>
+          <l>Pour assouvir mon ire, et animé courroux,</l>
+          <l>Ton cardenal pourpré n'aura que mille cous.</l>
+          <l>Des fers lons, et quarrez des grandes hullebardes,</l>
+          <l>Que porte devant moy la troupe de mes gardes:</l>
+          <l>Puis encore trambant devoré par le feu;</l>
+          <l>Ou ietté aux corbeaux pour en estre repeu.</l>
+          <l>O! Qu'il me fait encor que t'en es advertie:</l>
+          <l>Ie t'eusse fait manger leur charongne rotie:</l>
+          <l>Affin que ce tien, ventre, ou ils furent conceux</l>
+          <l>Fust tombeau des enfans qui de lui font issus.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Luppiter, qui en-vain les haus rochers poudroye,</l>
+          <l>Darde sur ce méchant ton souffre, et le foudroye.</l>
+          <l>O iuste lance-foudre acravante le chef</l>
+          <l>Du barbare tyran, pour manger ce méchef.</l>
+          <l>Epargne de rhodop les croupes nuageuses</l>
+          <l>D'athos voisine-ciel, et des raches negeues</l>
+          <l>Du grand mont iette-feu le tombeau d'encelas:</l>
+          <l>Epargne les coupeaux du sourcelleux athlas:</l>
+          <l>Iette tout en vie coup ton éclatant tonnerre,</l>
+          <l>Sur l'indigne tyran de vivre sur la terre;</l>
+          <l>Digne de tous les maux qui la-bas sont souffers</l>
+          <l>Et s'il en est encor de plus griefs qu'eux enfers.</l>
+          <l>O tyran endiablé! O vilain hypocrite!</l>
+          <l>Meurtrier, qui des damnez vous les tormens merite</l>
+          <l>Ha, tu t'en vas, larron: va témoigne en tout lieu</l>
+          <l>Que là ou tu seras il ny a point de dieu</l>
+          <l>Tu as fait mettre a mort celuy, en que le france</l>
+          <l>Avoit mis son confort, et sa ferme asseuranace.</l>
+          <l>Cette mort la fera confondre tante en pleurs</l>
+          <l>Cette mort me fera consommer de douleurs</l>
+          <l>Plouron filles, plourun: fondon nos yeux en larmes</l>
+          <l>Pour la mort de mon fis la gloire des alarmes.</l>
+        </sp>
+        <sp who="#damoiselles">
+          <speaker>Choeur des damoiselles</speaker>
+          <l>Ce ne nous est chose nouvelle</l>
+          <l>De plourer: sus, qu'on renouvelle</l>
+          <l>Les larmes, les cris, et le dueil,</l>
+          <l>De la france toute éplouree,</l>
+          <l>Depuis qu'elle mit adveilles</l>
+          <l>Henry second dans le cercueil.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Sus, fus, mes compagnes fidelles,</l>
+          <l>Sus, sus plouron jeunes pucelles:</l>
+          <l>Arrachon toutes noz cheveux :</l>
+          <l>Martelon de cous notre face:</l>
+          <l>Que notre dueil tout dueil surpasse,</l>
+          <l>Plourant mon henry vertueux.</l>
+        </sp>
+        <sp who="#damoiselles">
+          <speaker>Choeur.</speaker>
+          <l>Pour toy henry, grand duc de guyse,</l>
+          <l>Notre support, notre franchise,</l>
+          <l>Tousjours romprons noz vétemens:</l>
+          <l>Pour toy, l'honneur de la noblesse,</l>
+          <l>Cri’rons, et plourerons sans cesse,</l>
+          <l>Tousjours redoublant noz tourmens.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Que votre cris par tout resonne:</l>
+          <l>Qu'echon des autres le re-sonne,</l>
+          <l>Non comme ell’a accoutumé.</l>
+          <l>Le veux qu'enture elle redise</l>
+          <l>La mort d'un cardinal de guyse,</l>
+          <l>Qui sera au feu consumé.</l>
+        </sp>
+        <sp who="#damoiselles">
+          <speaker>Choeur.</speaker>
+          <l>Pour toy, ame sainte, et sacree,</l>
+          <l>Demeure de la belle astree,</l>
+          <l>Faisons retentir noz clameurs,</l>
+          <l>De la terre iusques aux astres,</l>
+          <l>Voyant tomber mille desastres</l>
+          <l>Sur noz tétes puisque tu meurs.</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Tournon noz pleurs dessus nous-mémes;</l>
+          <l>Plouron noz miseres extremes:</l>
+          <l>Helas! Helas! Qu'ils sont heureux:</l>
+          <l>Ilz ne verront par notre france,</l>
+          <l>Ravager les lous a outrance,</l>
+          <l>Des brebis le troupeau peureux.</l>
+        </sp>
+        <sp who="#damoiselles">
+          <speaker>Choeur.</speaker>
+          <l>Vinvz au ciel, ames tressaintes:</l>
+          <l>Vivez veuves des pleurs et plaintes,</l>
+          <l>Qu'ici nous aurons desormais.</l>
+          <l>Par votre absence desastreuse,</l>
+          <l>O france trois-fois malheureuse,</l>
+          <l>France malheureuse a iamais,</l>
+        </sp>
+        <sp who="#madame">
+          <speaker>Madame.</speaker>
+          <l>Que tardons-nous icy? Allon, allon en pleurs</l>
+          <l>Consommer notre vie: allon. De noz malheurs,</l>
+          <l>Nous ne pouvons iamais tarder la roide courser</l>
+          <l>Nous ne pouvons iamais tarir la vive source.</l>
+          <l>Sus, ietton tant de pleurs, que noz cors epuisez</l>
+          <l>D'humeur, puissent bien-tot au tombeau composez,</l>
+          <l>Renvoyer noz espris en l'heureuse demeure.</l>
+          <l>L’homme n'est bien-heureux iusques a ce qu'il meure.</l>
+        </sp>
+      </div>
+      <trailer>Fin.</trailer>
+    </body>
+  </text>
+</TEI>

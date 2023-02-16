@@ -1,0 +1,3272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="insert_dracor_id" xml:lang="fra" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Hippolyte</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Robert</forename>
+            <surname>Garnier</surname>
+          </persName>
+          <idno type="wikidata">Q113089</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Wikisource/Google Books</name>
+          <idno type="URL">https://fr.wikisource.org/wiki/Hippolyte_(Robert_Garnier)</idno>
+          <idno type="URL">https://books.google.de/books?id=lpwZAAAAYAAJ</idno>
+          <note>Lines 1-1300 from Wikisource, lines 1300-onwards from GBooks (ortography normalised to stay consistent with Wikisource)</note>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="phèdre" sex="FEMALE">
+            <persName>PHÈDRE</persName>
+          </person>
+          <person xml:id="nourrice" sex="FEMALE">
+            <persName>NOURRICE</persName>
+          </person>
+          <person xml:id="messager" sex="MALE">
+            <persName>MESSAGER</persName>
+          </person>
+          <person xml:id="hippolyte" sex="MALE">
+            <persName>HIPPOLYTE</persName>
+          </person>
+          <person xml:id="choeur" sex="MALE">
+            <persName>CHOEUR</persName>
+          </person>
+          <person xml:id="thesee" sex="MALE">
+            <persName>THESEE</persName>
+          </person>
+          <person xml:id="phedre" sex="FEMALE">
+            <persName>PHEDRE</persName>
+          </person>
+          <person xml:id="egee" sex="MALE">
+            <persName>EGEE</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+       <change when="2022-11-10">(LG) first formatting and editing.</change>
+       <change when="2023-02-08">(LG) updating formatting.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1573">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="https://www.wikidata.org/wiki/Q3136010"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+    </front>
+    <body>
+      <div type="act">
+        <head>Acte I</head>
+        <div type="configuration">
+          <sp who="#egee">
+            <speaker>EGEE.</speaker>
+            <l>Je sors de l’Acheron, d’où les ombres des morts</l>
+            <l>Ne ressortent jamais couvertes de leurs corps:</l>
+            <l>Je sors des champs ombreux, que le flambeau du monde</l>
+            <l>Ne visite jamais courant sa course ronde:</l>
+            <l>Ains une espoisse horreur, un solitaire effroy,</l>
+            <l>Un air puant de souphre, un furieux aboy</l>
+            <l>Du portier des Enfers, Cerbere à triple teste,</l>
+            <l>Maint fantôme volant, mainte effroyable beste.</l>
+            <l>Mais l’horrible sejour de cet antre odieux,</l>
+            <l>De cet antre privé de la clairté des cieux,</l>
+            <l>M’est cent et cent fois plus agreable, et encore</l>
+            <l>Cent et cent autres fois, que toy, que je deplore,</l>
+            <l>Ville Cecropienne, et vous mes belles tours,</l>
+            <l>D’où me precipitant je terminay mes jours.</l>
+            <l>Vostre Pallas devoit, belliqueuse Deesse,		</l>
+            <l>Destourner ce mechef de vous, sa forteresse:</l>
+            <l>Et, alme, vous garder d’encombreux accidens,</l>
+            <l>Puis qu’elle a bien daigné se retirer dedans:</l>
+            <l>Et de plus en plus faicte à vostre bien proclive,</l>
+            <l>Vous orner de son nom, et de sa belle olive.</l>
+            <l>Mais quoy? c’est le destin, c’est ce mechant destin,</l>
+            <l>Que mesme Jupiter, tant il luy est mutin,</l>
+            <l>Ne sçauroit maistriser: Jupiter qui d’un foudre</l>
+            <l>Qu’il lance de sa main, peut tout broyer en poudre.</l>
+            <l>Tandis que j’ay vescu, je t’ay veu, ma Cité,		</l>
+            <l>Tousjours porter au col une captivité:</l>
+            <l>Non telle que lon voit en une ville prise,</l>
+            <l>Qu’un Roy victorieux humainement maistrise.</l>
+            <l>Mais en ta servitude, ô Athenes, le sort</l>
+            <l>Menaçoit tes enfans d’une cruelle mort:</l>
+            <l>Qui mis sous le hasard d’une ordonnance inique,</l>
+            <l>Entroyent l’an, deux fois sept au logis Dedalique,</l>
+            <l>Pour servir de pasture aux devorantes dens</l>
+            <l>Du monstre Mi-taureau qu’on nourrissoit dedans.</l>
+            <l>Et toymesme Thesee, et toy ma geniture,</l>
+            <l>Pour qui moy desja mort, la mort encor j’endure,</l>
+            <l>Ravy d’entre mes bras, le destin envieux</l>
+            <l>Te choisit pour viande à ce monstre odieux:</l>
+            <l>Ce monstre pour lequel ce poil gris qui s’allonge</l>
+            <l>Espars dessus mes yeux, se dresse quand j’y songe:		</l>
+            <l>Et ces genoux privez de chair et de chaleur,</l>
+            <l>Comme genoux d’un mort, chancellent de douleur.</l>
+            <l>Aussi fut-ce cause, il t’en souvient, Thesee,</l>
+            <l>D’accourcir de mes ans la mortelle fusee:</l>
+            <l>Bien que le vueil des Dieux, propice à ton dessain,		</l>
+            <l>Te sauvast du gosier de ce monstre humain,</l>
+            <l>Qui glouton de l’appas que ta main cauteleuse</l>
+            <l>Jetta par pelottons dans sa gorge monstrueuse,</l>
+            <l>S’abbatit au sommeil, te permettant plonger</l>
+            <l>Au travers de son cœur ton poignard estranger.</l>
+            <l>Ainsi tu te sauvas de sa felonne rage,</l>
+            <l>Puis suivant sagement l’advertissement sage</l>
+            <l>De ta bonne Ariadne, à la suitte d’un fil</l>
+            <l>Tu sors du labyrinthe au bastiment subtil.</l>
+            <l>» Mais ainsi qu’il advient que l’humaine nature</l>
+            <l>» Insatiable d’heur convoite outre mesure,</l>
+            <l>» Et jamais ne s’arreste à mediocrité:</l>
+            <l>Non bien contant d’avoir ton malheur evité,</l>
+            <l>Tu brigandes Minos, et corsaire luy pilles</l>
+            <l>Avecques ses thresors ses deux plus cheres filles.</l>
+            <l>De là tout le malheur, de là tout le mechef,		</l>
+            <l>Qui ja ja prest de cheoir penche dessur ton chef,</l>
+            <l>Prend source, mon Thesee, et de là la mort blesme</l>
+            <l>D’ailes noires vola jusques à mon cœur mesme:</l>
+            <l>Ne voulant les grands Dieux courroucez contre toy,</l>
+            <l>Te donner le plaisir d’essuyer mon esmoy:</l>
+            <l>Ains voulurent (que c’est des vengences celestes!)</l>
+            <l>Que tes heureuses nauss m’apparussent funestes,</l>
+            <l>Et que leurs voiles noirs, qui flotoient oubliez,</l>
+            <l>Me fissent eslancer dans les flots repliez,</l>
+            <l>(Miserable tombeau de ma vieillesse agee!)</l>
+            <l>Et changeassent leur nom au nom de moy Egee.</l>
+            <l>» Les Dieux aiment justice, et poursuivent à mort</l>
+            <l>» L’homme mechant, qui fait à un autre homme tort.</l>
+            <l>» Ils tiennent le parti du foible qu’on oppresse,</l>
+            <l>» Et font cheoir l’oppresseur en leur main vengeresse.</l>
+            <l>Thesee, helas Thesee, aujourd’hui le Soleil</l>
+            <l>Ne sçauroit voir malheur à ton malheur pareil:</l>
+            <l>L’enfer, bien que hideux et gesne de nous ombres,</l>
+            <l>N’ha pas en son enclos tant de mortels encombres,		</l>
+            <l>Que je t’en voy, pauvre homme! hé, qu’il te falloit bien</l>
+            <l>Entreprendre d’aller au lict Plutonien,</l>
+            <l>Pour ravir nostre Royne! hé, qu’à la mauvaise heure</l>
+            <l>Tu entrepris forcer nostre palle demeure!</l>
+            <l>Ce fut pour Pirithois, à qui les noires Sœurs</l>
+            <l>Font ja porter la peine ourdie aux ravisseurs.</l>
+            <l>Que si le bon secours du genereux Alcide</l>
+            <l>Ne t’eust ores tiré du creux Acherontide,</l>
+            <l>Tu eusses ton supplice aussi bien comme luy,</l>
+            <l>Pour avoir entrepris sur la couche d’autruy.</l>
+            <l>Mais non non, je voy bien à fin que tu endures</l>
+            <l>Pour ton mal perpetré de plus aspres tortures,</l>
+            <l>Pluton gros de vengence, et de colere gros,</l>
+            <l>Te permet de revoir avecque ce heros</l>
+            <l>Ta fatale maison: maison, où les Furies</l>
+            <l>Ont jusqu’à ton trespas fondé leurs seigneuries.</l>
+            <l>Tu y verras l’inceste, et le meurtre, et tousjours</l>
+            <l>Ton desastre croistra, comme croistront tes jours.</l>
+            <l>Tu occiras, meurtrier, ta propre geniture,</l>
+            <l>Puis l’adultere mort de ta femme parjure</l>
+            <l>Doublera tes ennuis, qui lentement mordans</l>
+            <l>Te rongeront le cœur et le soye au dedans.</l>
+            <l>En fin quand ta langueur bien longuement trainee</l>
+            <l>D’une tardive mort se verra terminee,</l>
+            <l>Et que fuyant le ciel et les celestes Dieux,</l>
+            <l>Tu penseras fuir ton tourment ennuyeux,</l>
+            <l>(Tourment qui te joindra plus estroit qu’un lierre</l>
+            <l>Ne joint estroittement les murailles qu’il serre)</l>
+            <l>Le severe Minos, et le cruel Pluton,</l>
+            <l>Tous deux tes outragez, hucheront Alecton,</l>
+            <l>Megere, Tisiphone, execrables bourrelles,</l>
+            <l>Pour ribler, forcener, ravager en tes moüelles,</l>
+            <l>T’élancer leurs serpens en cent plis renoüez,</l>
+            <l>T’ardre de leurs flambeaux, et de leurs rouges foüets</l>
+            <l>Te battre dos et ventre, aussi dru que la gresle</l>
+            <l>Craquetant, bondissant, decoupe un espi gresle.</l>
+            <l>Ja desja je te voy porter l’affliction</l>
+            <l>De quelque Promethee, ou de quelque Ixion,</l>
+            <l>D’un Tantale alteré, d’un remangé Titye,</l>
+            <l>D’un Typhon, d’un Sisyphe, et si l’horreur noircie		</l>
+            <l>De Pluton garde encore un plus aspre tourment,</l>
+            <l>L’on t’en ira gesner perpetuellement.</l>
+            <l>Or je te plain sur tout, ma chere nourriture,</l>
+            <l>Et de mes ans vieillars la plus soigneuse cure,</l>
+            <l>Hippolyte, que j’aime autant que la vertu </l>
+            <l>Luist aimable en celuy qui s’en monstre vestu.</l>
+            <l>Las! je te voy meurtry par cette Minoïde</l>
+            <l>(Si quelque bon Démon aujourd’huy ne te guide ),</l>
+            <l>Par cette Phedre icy, dont mon fils ravisseur,</l>
+            <l>Pour nostre commun mal accompagna sa sœur.</l>
+            <l>Que pleust aux Immortels, qu’un tempesteux orage</l>
+            <l>Dés le port Gnossien en eust faict le naufrage!</l>
+            <l>Et que la mer mutine, enveloppant sa nef,</l>
+            <l>Eust abysmé dedans son impudique chef!</l>
+            <l>Tu vivrois, Hippolyte, et la mort violente</l>
+            <l>N’éteindroit aujourd’huy ta jeunesse innocente.</l>
+            <l>» Mais quoy? le sort est tel. L’inexorable Sort</l>
+            <l>» Ne se peut esbranler d’aucun humain effort.</l>
+            <l>» Quand il est arresté, mon enfant, que lon meure,</l>
+            <l>» On n’y peut reculer d’une minute d’heure.</l>
+            <l>Prens en gré ta fortune: et fay que ton trespas</l>
+            <l>La gloire de ton sang ne deshonore pas.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Ja l’Aurore se leve, et Phebus qui la suit,</l>
+            <l>Vermeil, fait recacher les flambeaux de la nuict.</l>
+            <l>Ja ses beaux limonniers commencent à respandre 		</l>
+            <l>Le jour aux animaux, qui ne font que l’attendre.</l>
+            <l>Ja les monts sourcilleux commencent à jaunir</l>
+            <l>Sous le char de ce Dieu qu’ils regardent venir.</l>
+            <l>O beau Soleil luisant, belle et claire planette,</l>
+            <l>Qui pousses tes rayons dedans la nuict brunette:</l>
+            <l>O grand Dieu perruquier, qui lumineux esteins</l>
+            <l>Me decharmant les yeux, l’horreur des songes vains,</l>
+            <l>Qui ores travailloyent durant cette nuict sombre</l>
+            <l>Mon esprit combatu d’un larmoyable encombre,</l>
+            <l>Je te saluë, ô Pere, et resalüe encor,	</l>
+            <l>Toy, ton char, tes chevaux, et tes beaux rayons d’or.</l>
+            <l>Il me sembloit dormant, que j’erroy solitaire</l>
+            <l>Au creux d’une forest, mon esbat ordinaire:</l>
+            <l>Descendu dans un val, que mille arbres autour,</l>
+            <l>Le ceinturant espois, privent nostre jour.</l>
+            <l>Il y faisoit obscur, mais non pas du tout comme</l>
+            <l>En une pleine nuict, qu’accompagne le somme:</l>
+            <l>Mais comme il fait au soir, apres que le soleil</l>
+            <l>A retiré de nous son visage vermeil,</l>
+            <l>Et qu’il relaisse encore une lueur qui semble		</l>
+            <l>Estre ny jour ny nuict, mais tous les deux ensemble.</l>
+            <l>Dedans ce val ombreux estoit à droicte main</l>
+            <l>Un antre plein de mousse, et de lambruche plein,</l>
+            <l>Où quatre de mes chiens entrerent d’avanture,</l>
+            <l>Quatre Molossiens de guerriere nature.</l>
+            <l>A grand peine ils estoyent à la gueule du creux,</l>
+            <l>Qu’il se vient presenter un grand Lion affreux,</l>
+            <l>Le plus fort et massif, le plus espouventable</l>
+            <l>Qui jamais hebergeast au Taure inhospitable.</l>
+            <l>Ses yeux estoient de feu, qui flamboyent tout ainsi</l>
+            <l>Que deux larges tisons dans un air obscurci.</l>
+            <l>Son col gros et charnu, sa poitrine nerveuse,</l>
+            <l>S’enfloyent herissonnez d’une hure crineuse:</l>
+            <l>Sa gueule estoit horrible, et horribles ses dents</l>
+            <l>Qui comme gros piquets apparoissoyent dedans.</l>
+            <l>Mes chiens, bien que hardis si tost ne l’aviserent,</l>
+            <l>Que saisis de frayeur, dehors ils s’élancerent:</l>
+            <l>Accoururent vers moy tremblant et pantelant,</l>
+            <l>Criant d’une voix foible, et comme s’adeulant.</l>
+            <l>Si tost que je les voy si esperdus, je tâche</l>
+            <l>De les rencourager: mais leur courage lâche</l>
+            <l>Ne se rasseure point, et tant plus que je veux</l>
+            <l>Les en faire approcher, ils reculent peureux.</l>
+            <l>Comme un grand chef guerrier, qui voit ses gens en suitte,</l>
+            <l>Et plusieurs gros scadrons d’ennemis à leur suitte, </l>
+            <l>A beau les enhorter, les prier, supplier</l>
+            <l>De retourner visage, et de se rallier:</l>
+            <l>A beau faire promesse, a beau donner menace,</l>
+            <l>C’est en vain ce qu’il fait: ils ont perdu l’audace,</l>
+            <l>Ils sont sourds et muets, et n’ont plus autre soing	</l>
+            <l>Que de haster le pas et de s’enfuir bien loing.</l>
+            <l>J’empoigne mon espieu, dont le fer qui flamboye</l>
+            <l>Devant mon estomach, me decouvre la voye:</l>
+            <l>Je descens jusqu’au bord, où soudain j’apperçoy</l>
+            <l>Ce grand Lion patu qui décoche sur moy,</l>
+            <l>Degorgeant un tel cry de sa gueule beante,</l>
+            <l>Que toute la forest en resonne tremblante,</l>
+            <l>Qu’Hymette en retentist, et que les rocs, qui sont</l>
+            <l>Au bord Thriasien, en sourcillent le front.</l>
+            <l>Ferme je me roidis, adossé d’une souche	</l>
+            <l>Avancé d’une jambe, et à deux bras je couche</l>
+            <l>Droit à luy mon espieu, prest de luy traverser</l>
+            <l>La gorge ou l’estomach, s’il se cuide avancer.</l>
+            <l>Mais las, peu me servit cette brave asseurance!</l>
+            <l>Car luy sans faire cas du fer que je luy lance,</l>
+            <l>Non plus que d’un festu que j’eusse eu dans la main,</l>
+            <l>Me l’arrache de force, et le rompt tout soudain:</l>
+            <l>Me renverse sous luy, me trainace et me boule,</l>
+            <l>Aussi facilement qu’il eust faict d’une boule.</l>
+            <l>Ja ses griffes fondoyent dans mon estomach nu,</l>
+            <l>L’escartelant sous luy comme un poulet menu</l>
+            <l>Qu’un Milan a ravy sous l’ælle de sa mere,</l>
+            <l>Et le va deschirant de sa griffe meurtriere:</l>
+            <l>Quand vaincu de tourment je jette un cry si haut</l>
+            <l>Que j’en laisse mon songe, et m’éveille en sursaut,</l>
+            <l>Si froid et si tremblant, si glacé par la face,</l>
+            <l>Par les bras, par le corps, que je n’estoy de glace.</l>
+            <l>Je fu long temps ainsi dans mon lict estendu,</l>
+            <l>Regardant çà et là comme un homme esperdu,</l>
+            <l>Que l’esprit, la memoire, et le sens abandonne,</l>
+            <l>Qui ne sçait ce qu’il est, ne connoist plus personne,</l>
+            <l>Immobile, insensible, elourdé, qui n’ha plus</l>
+            <l>De pensement en luy qui ne soit tout confus.</l>
+            <l>Mais las! ce n’est encor tout ce qui m’espouvante,</l>
+            <l>Tout ce qui me chagrine, et mon ame tourmente,</l>
+            <l>Ce n’est pas cela seul qui me fait tellement</l>
+            <l>Craindre je ne sçay quoy de triste evenement!</l>
+            <l>J’ay le cœur trop hardy pour estre faict la proye</l>
+            <l>D’un songe deceveur, cela seul ne m’effroye.</l>
+            <l>» Le songe ne doit pas estre cause d’ennuy,</l>
+            <l>» Tant foible est son pouvoir quand il n’y a que luy.</l>
+            <l>» Ce n’est qu’un vain semblant, qu’un fantôme, une image</l>
+            <l>» Qui nous trompe en dormant, et non pas un presage.</l>
+            <l>Depuis quatre ou cinq nuicts le Hibou n’a jamais</l>
+            <l>Cessé de lamenter au haut de ce palais,( )</l>
+            <l>Et mes chiens aussi tost qu’ils sont en leurs estables,</l>
+            <l>Comme loups par les bois hurlent espouvantables:</l>
+            <l>Les tours de ce chasteau noircissent de corbeaux</l>
+            <l>Jour et nuict aperchez, sepulcraliers oiseaux,</l>
+            <l>Et n’en veulent partir, ores qu’on les dechasse,</l>
+            <l>Si ce n’est quand je sors pour aller à la chasse.</l>
+            <l>Car alors tous ensemble ils décampent des tours,</l>
+            <l>Et croassant sur moy m’accompagnent tousjours,</l>
+            <l>Bavolant çà et là, comme une espesse nuë</l>
+            <l>Qui vogue parmy l’air, du Soleil soustenuë.</l>
+            <l>J’ay faict ce que j’ay peu, à fin de destourner</l>
+            <l>Ce malheur menaçant, qui me vient estonner.</l>
+            <l>Quelles sortes de vœux, quelles sainctes manieres</l>
+            <l>D’appaiser les hauts Dieux, en leur faisant prieres,</l>
+            <l>N’ay-je encore esprouvé? à qui des Immortels</l>
+            <l>N’ay-je d’un sacrifice échauffé les autels?</l>
+            <l>Et brief que n’ay-je fait pour aller à l’encontre</l>
+            <l>Des injures du ciel et de mon malencontre?</l>
+            <l>» Mais quoy? rien ne se change, on a beau faire vœux,</l>
+            <l>» On a beau immoler des centeines de bœuss,</l>
+            <l>» C’est en vain, c’est en vain: tout cela n’a puissance</l>
+            <l>» De faire revoquer la celeste ordonnance.</l>
+            <l>Hier sacrifiant à toy pere Jupin,</l>
+            <l>Une blanche brebis, pour t’avoir plus benin:</l>
+            <l>Bien que mortellement elle fust entamee</l>
+            <l>Et qu’ardist autour d’elle une flambe allumee,</l>
+            <l>Bien qu’elle eust pieds et teste ensemblément liez,</l>
+            <l>Je la vis par trois fois dessur les quatre pieds:</l>
+            <l>Puis secouant son sang de mainte et mainte goutte,</l>
+            <l>M’en arrosa la face et l’ensanglanta toute.</l>
+            <l>Et encore, ô prodige! apres qu’on veit le feu</l>
+            <l>S’estre gloutonnement de son beau sang repeu,</l>
+            <l>Le prestre, contemplant le dedans de l’hostie,</l>
+            <l>N’y trouva point de soye en aucune partie.</l>
+            <l>O Dieux, ô Dieux du ciel qui avez soing de nous,		</l>
+            <l>Et qui ne bruslez point d’un rigoureux courroux</l>
+            <l>Contre le genre humain: Dieux qui n’estes severes</l>
+            <l>Que pour nostre forfait, soyez moy salutaires!</l>
+            <l>Conservez moy bons Dieux! et toy que j’ay tousjours</l>
+            <l>En mes adversitez imploree à secours,</l>
+            <l>Amorty ces frayeurs qui me glacent les veines,</l>
+            <l>O Delienne, et fay qu’elles demeurent vaines!</l>
+            <l>Recule tout desastre et accident mauvais</l>
+            <l>Loing de moy, ma Deesse, et loing de ce Palais!</l>
+          </sp>
+          <sp who="#choeur">
+            <speaker>CHŒUR DE CHASSEURS.</speaker>
+            <l>Deesse fille de Latone,	</l>
+            <l>De Dele le bon-heur jumeau,</l>
+            <l>Qui t’accompagneras d’un troupeau,</l>
+            <l>Que la Chasteté n’abandonne:</l>
+            <l>Si les monts herissez de bois,</l>
+            <l>Si le sein touffu d’une taille,</l>
+            <l>Si les rocs à la dure escaille</l>
+            <l>Te vont agreant quelque fois,</l>
+            <l>Quand du front passant tes pucelles,</l>
+            <l>L’arc et la trousse sur le dos,</l>
+            <l>La trompe creuse à tes aisselles,</l>
+            <l>Tu vas chassant d’un pied dispos.</l>
+            <l>O montagneuse, ô bocagere,</l>
+            <l>Aime-fonteines, porte-rets,</l>
+            <l>Guide nos pas en tes forests</l>
+            <l>Apres quelque biche legere.</l>
+            <l>Que si favoriser te chaut</l>
+            <l>Nostre chasseresse entreprise,</l>
+            <l>Nous t’appendrons de nostre prise</l>
+            <l>La despouille en un chesne haut:</l>
+            <l>Et de fleurs les temples couvertes</l>
+            <l>Sous l’arbre trois fois entovré,</l>
+            <l>Les mains pleines de branches vertes</l>
+            <l>Chanterons ton nom adoré.</l>
+            <l>Heureuse nostre dure vie,</l>
+            <l>Que la faim avare de l’or,</l>
+            <l>La haine, ny l’amour encor</l>
+            <l>N’ont à leurs poisons asservie:</l>
+            <l>Mais qui faits compagnons des Dieux,</l>
+            <l>Nous exerce à faire une queste,</l>
+            <l>Ores d’un cerf branchu de teste,</l>
+            <l>Ores d’un sanglier furieux,</l>
+            <l>Que tout expres produit Nature,</l>
+            <l>Pour servir d’ebat innocent,</l>
+            <l>Au creux d’une forest obscure,</l>
+            <l>A nous, qui les allons chassant.</l>
+            <l>Quel plaisir de voir par les landes,</l>
+            <l>Quand les mois tremblent refroidis,</l>
+            <l>Les cerss faire leur viandis,</l>
+            <l>Faute de gaignages, aux brandes?</l>
+            <l>Et recelez au plus profond</l>
+            <l>Des bois, chercher entre les hardes</l>
+            <l>De diverses bestes fuyardes L’abry du vent qui les morfond?</l>
+            <l>Puis si tost que l’an renouvelle,</l>
+            <l>A repos dedans leurs buissons,</l>
+            <l>Refaire une teste nouvelle,</l>
+            <l>Qui endurcist jusque aux moissons?</l>
+            <l>Adonc l’Amour, qui époinçonne</l>
+            <l>Toute creature à s’aimer,</l>
+            <l>Les fait du rut si fort bramer,</l>
+            <l>Que le bois d’autour en resonne.</l>
+            <l>Vous les verrez de grand courroux</l>
+            <l>Gratter de quatre pieds la terre,</l>
+            <l>Et d’une forcenante guerre</l>
+            <l>Se briser la teste de coups.	</l>
+            <l>La biche regarde, peureuse,</l>
+            <l>Incertaine lequel sera,</l>
+            <l>Que la victoire imperieuse</l>
+            <l>Pour son mary luy baillera.</l>
+            <l>Lancez par les picqueurs, ils rusent,</l>
+            <l>Ores changeant, ores croisant,</l>
+            <l>Ore à l’escart se forpaisant</l>
+            <l>D’entre les meutes qu’ils abusent:</l>
+            <l>Ore ils cherchent de fort en fort</l>
+            <l>Les autres bestes qui les doutent,</l>
+            <l>Et de force en leur lieu les boutent,</l>
+            <l>Pour se garantir de la mort.</l>
+            <l>Là se tapissant contre terre,</l>
+            <l>Les pieds, le nez, le ventre bas,</l>
+            <l>Mocquent les chiens qui vont grand erre,		</l>
+            <l>Dependant vainement leurs pas.</l>
+            <l>Tandis nous voyons d’avanture</l>
+            <l>Vermeiller dedans un pastis</l>
+            <l>Ou faire aux fraischeurs ses boutis</l>
+            <l>Un sanglier à l’horrible hure,</l>
+            <l>Qu’une autre fois, armez d’espieux,</l>
+            <l>Et de chiens compagnons fidelles,</l>
+            <l>Malgré ses defenses cruelles,</l>
+            <l>Nous combattons audacieux.</l>
+            <l>Quelquefois d’une course viste</l>
+            <l>Nous chassons les liévres soudains,</l>
+            <l>Qui plus cauts meslent à leur fuite</l>
+            <l>La ruse, pour frauder nos mains.</l>
+            <l>Quand le soir ferme la barriere</l>
+            <l>Aux chevaux establez du jour,</l>
+            <l>Et que toy Diane, à ton tour</l>
+            <l>Commences ta longue carriere:</l>
+            <l>Comme les forests, ton soucy,</l>
+            <l>Tu vas quittant à la Nuict brune,</l>
+            <l>Pour reluire au ciel, belle Lune,</l>
+            <l>Lassez nous les quittons aussi:</l>
+            <l>Nous retournons chargez de proye</l>
+            <l>En nostre paisible maison,</l>
+            <l>Où soupant d’une allegre joye,</l>
+            <l>Devorons nostre venaison.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>Acte II</head>
+        <stage>PHEDRE. NOURRICE.</stage>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>O Roine de la mer, Crete mere des Dieux,</l>
+          <l>Qui as receu naissant le grand moteur des cieux,</l>
+          <l>O la plus orgueilleuse et plus noble des isles,</l>
+          <l>Qui as le front orné de cent fameuses villes:</l>
+          <l>Demeure de Saturne, où les rivages torts,</l>
+          <l>Remparez de rochers, s’ouvrent en mille ports,</l>
+          <l>En mille braves ports qui caressez de l’onde,</l>
+          <l>Reçoivent des vaisseaux de toutes parts du monde:</l>
+          <l>Pourquoy mon cher sejour, mon cher sejour pourquoy</l>
+          <l>M’as-tu de toy bannie en eternel esmoy?</l>
+          <l>Las! pourquoy, ma patrie, as-tu voulu, cruelle,</l>
+          <l>Me faire choisir és mains d’un amant infidelle?</l>
+          <l>D’un espoux desloyal? qui parjurant sa foy</l>
+          <l>Adultere sans cesse, et ne fait cas de moy?</l>
+          <l>Me laisse desolee, helas helas! me laisse</l>
+          <l>Sur ce bord estranger languissant de tristesse?</l>
+          <l>O Dieux, qui de là haut voyez comme je suis,</l>
+          <l>Qui voyez mes douleurs, qui voyez mes ennuis:</l>
+          <l>Dieux, qui voyez mon mal, Dieus qui voyez mes peines,</l>
+          <l>Dieux qui voyez seicher mon sang dedans mes veines,</l>
+          <l>Et mon esprit rongé d’un eternel esmoy,</l>
+          <l>Bons Dieux, grands Dieux du ciel, prenez pitié de moy!</l>
+          <l>Ouvrez, je vous supply, les prisons à mon ame,</l>
+          <l>Et mon corps renversez dessous la froide lame</l>
+          <l>Pour finir mes langueurs qui recroistront tousjours		</l>
+          <l>Sans jamais prendre fin qu’en finissant mes jours.</l>
+          <l>L’espoir de ma santé n’est qu’en la tombe obscure,</l>
+          <l>Ma guarison n’est plus que d’une sepulture.</l>
+          <l>Parlé-je de mourir? hé pauvrette! mon corps</l>
+          <l>Mon corps ne meurt-il pas tous les jours mille morts?		</l>
+          <l>Helas helas, si fait: je ne suis plus en vie,</l>
+          <l>La vie que j’avoy m’est de douleur ravie.</l>
+          <l>Pour le moins si je vis, je vis en endurant</l>
+          <l>Jour et nuict les dangers qu’on endure en mourant.</l>
+          <l>O Phedre! ô pauvre Phedre! hé qu’à la mauvaise heure	</l>
+          <l>Tu as abandonné ta natale demeure!</l>
+          <l>Qu’il t’eust bien mieux valu, pauvre Princesse, alors</l>
+          <l>Que tu te mis sur mer, perir de mille morts.</l>
+          <l>Qu’il t’eust bien mieux valu tomber dessous les ondes,</l>
+          <l>Et remplir l’estomac des Phoques vagabondes,</l>
+          <l>Lors qu’à ton grand malheur une indiscrete amour</l>
+          <l>Te feit passer la mer sans espoir de retour.</l>
+          <l>Qu’il t’eust bien mieux valu, delaissee au rivage,</l>
+          <l>Comme fut Ariadne en une isle sauvage,</l>
+          <l>Ariadne ta sœur, errer seule en danger </l>
+          <l>Des lions Naxeans, qui t’eussent peu manger,</l>
+          <l>Plustost qu’adoulouree et de vivre assouvie,</l>
+          <l>Trainer si longuement ton ennuyeuse vie:</l>
+          <l>Plustost plustost que vivre en un eternel dueil,</l>
+          <l>Ne faisant jour et nuict qu’abayer au cercueil.</l>
+          <l>Voila mon beau Thesé qui, suivant sa coustume</l>
+          <l>D’estre instable en amours, d’un nouveau feu s’allume.</l>
+          <l>Voila qu’il m’abandonne, apres que le cruel</l>
+          <l>M’a faict abandonner mon sejour naturel:</l>
+          <l>Apres qu’il m’a ravie aux yeux de mon bon pere:		</l>
+          <l>Et aux embrassemens de ma dolente mere,</l>
+          <l>Fugitive, bannie, et qu’il a contenté</l>
+          <l>Son ardeur, des plaisirs de ma virginité,</l>
+          <l>Il va, de Pirithois compagnon detestable,</l>
+          <l>Enlever de Pluton l’espouse venerable.</l>
+          <l>La terre leur est vile: ils vont chercher là bas,</l>
+          <l>Sur les rivages noirs, leurs amoureux esbas.</l>
+          <l>L’enfer qui n’est qu’horreur, qui n’est que toute rage,</l>
+          <l>Qu’encombre et que tourment, ne domte leur courage.</l>
+          <l>Mais soyent tant qu’ils voudront aux infernaux palus,		</l>
+          <l>Ce n’est pas la douleur qui me gesne le plus:</l>
+          <l>Un plus aspre tourment rampe dans mes moüelles,</l>
+          <l>Qui les va remplissant de passions cruelles.</l>
+          <l>Le repos de la nuict n’allege mes travaux,</l>
+          <l>Le somme Lethean n’amortist point mes maux,</l>
+          <l>Ma douleur se nourrist et croist tousjours plus forte.</l>
+          <l>Je brûle, miserable, et le feu que je porte</l>
+          <l>Enclos en mes poumons, soit de jour ou de nuict,</l>
+          <l>De soir ou de matin, de plus en plus me cuit.</l>
+          <l>J’ay l’estomach plus chaud que n’est la chaude braise,</l>
+          <l>Dont les Cyclopes nus font rougir leur fournaise,</l>
+          <l>Quand au creux Etnean, à puissance de coups,</l>
+          <l>Ils forgent, renfrongnez, de Jupin le courroux.</l>
+          <l>Hé bons Dieux! que feray-je? auray-je tousjours pleine</l>
+          <l>La poitrine et le cœur d’une si dure peine?</l>
+          <l>Souffriray-je tousjours? ô malheureux Amour!</l>
+          <l>Que maudite soit l’heure et maudit soit le jour</l>
+          <l>Que je te fu sujette! ô quatre fois mauditte</l>
+          <l>La fleche que tu pris dans les yeux d’Hippolyte:</l>
+          <l>D’Hippolyte que j’aime, et non pas seulement</l>
+          <l>Que j’aime, mais de qui j’enrage follement.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Ne verray-je jamais hors de vostre pensee</l>
+          <l>Cruelle s’affligeant, cette amour insensee?</l>
+          <l>Languirez-vous tousjours, race de Jupiter,</l>
+          <l>Sous ce monstre d’Amour, que vous deussiez domter? </l>
+          <l>Domtez-le, ma maistresse, et par cet acte insigne</l>
+          <l>Montrez-vous, je vous pry, de vostre Thesé digne.</l>
+          <l>These est renommé par tout cet univers</l>
+          <l>Pour avoir combattu tant de monstres divers:</l>
+          <l>Et vous emportez une pareille gloire,	( )</l>
+          <l>Si de ce fier serpent vous avez la victoire.</l>
+          <l>» Amour est un serpent, un serpent voirement, l’amour serpent</l>
+          <l>» Qui dedans nostre sein glisse si doucement</l>
+          <l>» Qu’à peine le sent on: mais si lon ne prend garde</l>
+          <l>» De luy boucher l’entrée, et tant soit peu lon tarde,</l>
+          <l>» Bien tost privez d’espoir de toute guarison</l>
+          <l>» Nous aurons nostre sang infect de sa poison:</l>
+          <l>» Et alors (mais trop tard) cognoistrons nostre faute</l>
+          <l>» D’avoir laissé entrer une beste si caute.</l>
+          <l>Gardez-vous donc, Madame, et en vous efforçant,</l>
+          <l>De bonne heure estoussez cet Amour blandissant,</l>
+          <l>De peur qu’il s’enracine, et qu’apres on ne puisse,</l>
+          <l>Quand il sera trop fort, combatre sa malice.</l>
+          <l>» Celuy n’est plaint qui obstiné ne veut</l>
+          <l>» Eviter son malheur, quand eviter le peut.</l>
+          <l>» Il faut prevoir son mal, on diroit estre beste</l>
+          <l>» Cil qui plaindroit le joug qu’il s’est mis sur la teste.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Je suis preste tousjours de constamment souffrir</l>
+          <l>Tel hazard qu’aux bons Dieux il plaira de m’offrir.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>» Ce n’est pas un hasard, s’il vient un infortune</l>
+          <l>» De nostre seule faute, et non de la fortune:</l>
+          <l>» Alors est-ce hasard, s’il nous eschet d’avoir</l>
+          <l>» Quelque accident mauvais, que n’ayons peu prevoir.</l>
+          <l>Mais las! vostre malheur vous est tout manifeste.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>J’ay bonne confiance en la faveur celeste.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Pensez-vous que les Dieux favorisent nos maux?</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Appellez-vous un mal mes amoureux travaux?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Non, ce n’est pas un mal, c’est un crime execrable,</l>
+          <l>Un prodige, un forfaict, qui n’ha point de semblable.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>O puissante Venus!</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Venus n’invoquez point.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Las! Nourrice, pourquoy? c’est son fils qui me poind.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Un Dieu n’est point autheur d’un si vilain inceste.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Il embrase mon cœur.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Plustost il le deteste.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Les Dieux ne sont faschez que l’on s’aime icy bas.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Les Dieux ne sont joyeux de nos salles esbats.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Ils sont touchez d’amour aussi bien que nous sommes.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Ils ne sont point touchez des passions des hommes.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Et quoy? pour s’entre-aimer commet-on tant de mal?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Non pas pour s’entre-aimer d’un aimer conjugal.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>L’amour ne se doit borner du mariage.	</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Ce ne seroit sans luy qu’une brutale rage.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Nature ne nous fait esclaves d’un espoux.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Non, mais les saintes loix, qui sont faites pour nous.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Les hommes nos tyrans, violant la Nature,</l>
+          <l>Nous contraignent porter cette ordonnance dure,</l>
+          <l>Ce miserable joug, que ny ce que les flots</l>
+          <l>Enferment d’escaillé, ny ce qui vole enclos</l>
+          <l>Dans le vuide de l’air, ce qui loge aux campagnes,</l>
+          <l>Aux ombreuses forests, aux pierreuses montagnes,</l>
+          <l>De cruel, de bening, de sauvage, et privé,</l>
+          <l>Plus libre qu’entre nous n’a jamais esprouvé.</l>
+          <l>Là l’innocente amour s’exerce volontaire,</l>
+          <l>Sans pallir sous les noms d’inceste et d’adultere,</l>
+          <l>Sans crainte d’un mari, qui flambe de courroux</l>
+          <l>Pour le moindre soupçon qu’ait son esprit jaloux.</l>
+          <l>Et n’est-ce pas pitié qu’il faille que l’on aime</l>
+          <l>A l’appetit d’un autre, et non pas de soymesme?</l>
+          <l>» En ce monde il n’y a pire subjection,</l>
+          <l>» Que de se voir contraindre en son affection.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Que dites vous, Madame, est-ce une chose honneste</l>
+          <l>D’ainsi vous abjecter aux façons d’une beste?</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Nourrice, je me plais en leurs libres amours.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Et quelle liberté n’avez-vous eu tousjours</l>
+          <l>De vostre bon mari, qui vous prise et honore,</l>
+          <l>Vous aime et vous cherist plus que soymesme encore.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>C’est pourquoy volontiers il est absent de moy.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Pirithois l’a contraint d’aller avecques soy:</l>
+          <l>Puis qu’il avoit promis, il devoit ainsi faire.</l>
+          <l>» Qui promet quelque chose, il y doit satisfaire.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Mais il est chez Pluton pour violer son lict.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Il ne faut l’en blâmer, ce n’est pas son delict.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>» Ceux qui sont compagnons à faire un acte infâme,</l>
+          <l>» Sont compagnons aussi pour en recevoir blâme.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Ce que Thesee a faict, il l’a faict pour autruy.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Il en est d’autant plus punissable que luy.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Pirithois de sa Dame avoit l’ame embrasee.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Cela luy sert d’excuse, et non pas à Thesee.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>L’on parlera par tout d’un amy si parfaict.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>L’on parlera par tout d’un si malheureux faict.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Pluton l’avoit jadis à sa mere ravie.	</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Si Pluton a mal faict, y portent-ils envie?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Ils ne sont ravisseurs que sur un ravisseur.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Pluton l’a prise à femme, et en est possesseur.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Mais à qui se plaindra Pluton de son offense?</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Il ne s’en plaindra pas, il en prendra vengence.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Thesé, qui compagnon du grand Tirynthien,</l>
+          <l>A presque tout couru ce globe terrien,</l>
+          <l>Qui a faict, indomté, tant de braves conquestes,</l>
+          <l>Qui a tant combatu d’espouvantables bestes,</l>
+          <l>Tant domté d’ennemis, tant de monstres desfaits,</l>
+          <l>Tant meurtri de Tyrans pour leurs injustes faicts,</l>
+          <l>Aura peur volontiers des nocturnes encombres</l>
+          <l>De Pluton, qui n’est Roy que de peureuses ombres.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Mais les Démons qu’il a seront ils trop peu forts</l>
+          <l>Pour oser repousser ses outrageux efforts?</l>
+          <l>» Non, ma Nourrice, non. Les puissances humaines,</l>
+          <l>» Tant grandes qu’elles soyent, là bas demeurent vaines.</l>
+          <l>» Nul qui soit devalé sur le bord Stygieux</l>
+          <l>» N’est jamais remonté pour revoir les hauts cieux.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>» Celuy qui pour entrer à sceu forcer la porte,</l>
+          <l>» La pourra reforcer quand il faudra qu’il sorte.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>» Il est aisé d’entrer dans le palle sejour,</l>
+          <l>» La porte y est ouverte et ne clost nuit ne jour:</l>
+          <l>» Mais qui veut ressortir de la salle profonde,</l>
+          <l>Pour revoir derechef la clairté de ce monde,</l>
+          <l>» En vain il se travaille, il se tourmente en vain,</l>
+          <l>» Et tousjours se verra trompé de son dessain.</l>
+          <l>Mais seignons qu’il eschappe, et que vif il se treuve</l>
+          <l>Repassé par Charon deça le triste fleuve,</l>
+          <l>Pensez-vous qu’il sejourne une seule saison</l>
+          <l>Avec moy s’esbatant, paisible, en ma maison:</l>
+          <l>Ains qu’il n’aille aussi tost en quelque estrange terre</l>
+          <l>Chercher, impatient, ou l’amour, ou la guerre,</l>
+          <l>Me laissant miserable icy seule à jamais?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Il sera plus long temps avec vous desormais.</l>
+          <l>Mais quoy qu’il vueille faire, et quoy que sa nature,</l>
+          <l>Qui est de pourchasser tousjours quelque aventure,</l>
+          <l>L’arrache de vos bras pour le jetter bien loing,</l>
+          <l>Quoy qu’il ne prenne pas de vous assez de soing,</l>
+          <l>Et qu’il ne garde assez la foy de mariage,</l>
+          <l>Rien ne vous est pourtant octroyé d’avantage,</l>
+          <l>Pour cela ne devez vous dispenser d’avoir</l>
+          <l>Tout autant de respect à vostre sainct devoir.</l>
+          <l>» Le mal qu’un autre fait, n’est pas cause vallable</l>
+          <l>» De nous faire à l’envy commettre un mal semblable.</l>
+          <l>» Le vice ne doit pas les hommes inciter</l>
+          <l>» De le prendre à patron, à fin de l’imiter.</l>
+          <l>Voyez-vous pas les Dieux nous estre debonnaires,</l>
+          <l>Bien qu’à les offenser nous soyons ordinaires?</l>
+          <l>Voyez-vous pas le ciel perpetuer son cours,</l>
+          <l>Et le luisant Phebus faire ses mesmes tours,</l>
+          <l>Et n’estre d’un moment sa carriere plus lasche,</l>
+          <l>Bien que nostre mesfaict incessamment le fasche?</l>
+          <l>Car depuis que son œil de luire commença</l>
+          <l>Que ses premieres fleurs le Printemps amassa,</l>
+          <l>Que l’Esté nous donna ses despouilles premieres</l>
+          <l>L’Automne vendangeur ses grappes vinotieres,</l>
+          <l>Et que l’Hyver glacé fist le premier amas,</l>
+          <l>Dessur son chef grison, de neige et de frimas,</l>
+          <l>Des malheureux humains les natures fautieres</l>
+          <l>Ont les Dieux courroucez en cent mille manieres:</l>
+          <l>Et toutesfois, bons Dieux, le ciel ne laisse pas</l>
+          <l>De disposer la terre à nostre humain repas.</l>
+          <l>Vous ne nous ostez point le Soleil ordinaire,</l>
+          <l>De qui l’œil nous nourrist, nous chausse et nous esclaire. 		</l>
+          <l>Vous ne nous ostez point l’Esté ny le Printemps,</l>
+          <l>L’Automne ny l’Hyver: ils viennent en leur temps:</l>
+          <l>Seulement quelquefois, quand la monstrueuse masse</l>
+          <l>Des freres Ætneans, Titanienne race,</l>
+          <l>Entreprend de forcer le ciel etherean,	</l>
+          <l>Vous levez lors la main sur le champ Phlegrean,</l>
+          <l>Et d’un foudre sonnant bouleversez les festes</l>
+          <l>D’Osse et de Pelion sur leurs superbes testes.</l>
+          <l>:» Jamais nos cruautez ne font les Dieux cruels.</l>
+          <l>« Si nous sommes meschans, pourtant ils ne sont tels:</l>
+          <l>» Si nous sommes ingrats à leur bonté suprême,</l>
+          <l>» Si nous les oublions, ils ne font pas de mesme:</l>
+          <l>» Ainçois le plus souvent que nous meritons bien</l>
+          <l>» D’estre punis, c’est lors qu’ils nous font plus de bien.</l>
+          <l>Et ne voyons nous pas qu’au lieu de nous atteindre</l>
+          <l>De leurs foudres bruyans, ils ne font que se feindre?</l>
+          <l>Et que le traict de feu, qui grondant, aboyant,</l>
+          <l>De tempeste et d’esclairs nous va tant effroyant,</l>
+          <l>Le plus souvent ne bat que les montagnes hautes,</l>
+          <l>Et non pas nous meschans, qui commettons les fautes?</l>
+          <l>Ainsi, Madame, ainsi vous ne devez laisser</l>
+          <l>Pour Thesé vostre espoux, qui vous peut offenser,</l>
+          <l>D’avoir cher vostre honneur: et luy garder loyale,</l>
+          <l>Jusqu’au pied du tombeau, vostre amour conjugale.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Je ne sçauroy, Nourrice, et ne le dois aussi.</l>
+          <l>Aimeray-je celuy qui n’ha de moy souci?</l>
+          <l>Qui n’ha que l’inconstance, et de qui la moüelle</l>
+          <l>S’enflamme incessamment de quelque amour nouvelle?</l>
+          <l>Helene Ledeanne aussi tost il ne veit</l>
+          <l>Qu’espris de sa beauté, corsaire, il la ravit:</l>
+          <l>Depuis il eut au cœur, Hippolyte, ta mere,</l>
+          <l>Qu’il amena vainqueur d’une terre estrangere:</l>
+          <l>Puis, ô pauvre Ariadne, ô ma chetive sœur,</l>
+          <l>Tu pleus à cet ingrat, cet ingrat ravisseur,</l>
+          <l>Qui pour le bon loyer de l’avoir, pitoyable,</l>
+          <l>Sauvé du Mi-taureau, ce monstre abominable,</l>
+          <l>Sur le bord Naxean te laissa l’inhumain,</l>
+          <l>Pour estre devoree, ou pour mourir de faim.</l>
+          <l>En fin mon mauvais sort me mit en sa puissance,</l>
+          <l>Pour goûter à mon tour sa legere inconstance.</l>
+          <l>Ores soulé de moy, possible aux sombres lieux</l>
+          <l>Il cherche une beauté qui ravisse ses yeux.</l>
+          <l>Que s’il en treuve aucune, et qu’elle luy agree,</l>
+          <l>Qu’attendé-je sinon que je soy massacree</l>
+          <l>Comme fut Antiope, ou qu’il me laisse au bord 		</l>
+          <l>Où il laissa ma sœur, pour y avoir la mort?</l>
+          <l>Or allez me louer la loyauté des hommes:</l>
+          <l>Allez me les vanter. O folles que nous sommes,</l>
+          <l>O folles quatre fois, helas nous les croyons,</l>
+          <l>Et sous leurs feints soupirs indiscrettes ployons.</l>
+          <l>Ils promettent assez qu’ils nous seront fidelles,</l>
+          <l>Et que leurs amitiez nous li’ront eternelles:</l>
+          <l>Mais, ô deloyauté les faulsaires n’ont pas</l>
+          <l>Si tost nos simples cœurs surpris de leurs appas,</l>
+          <l>Si tost ils n’ont deceu nos credules pensees,</l>
+          <l>Que telles amitiez se perdent effacees:</l>
+          <l>Qu’ils nous vont dedaignant, se repentant d’avoir</l>
+          <l>Travaillé, langoureux, voulant nous decevoir.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Ostez de vostre esprit ceste rage jalouse,</l>
+          <l>Vous estes d’un grand Roy la cherissable espouse,	</l>
+          <l>Le desir et la vie: il ne vous faut penser</l>
+          <l>Que jamais pour une autre il vous doive laisser.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Il n’y a plus d’espoir, je n’y puis plus que faire,</l>
+          <l>Je porte dans les os mon cruel adversaire:</l>
+          <l>Il a forcé le mur, et planté l’estandart</l>
+          <l>Malgré ma resistance au plus haut du rampart.</l>
+          <l>Je suis en sa puissance, et quoy que je luy brasse,</l>
+          <l>Je ne puis, tant est fort, luy enlever la place.</l>
+          <l>Mes efforts tombent vains, et ne peut la raison</l>
+          <l>Me secourir maistresse, il la tient en prison. </l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Vous laissez-vous ainsi subjuguer, imbecile,</l>
+          <l>A cette passion, de toutes la plus vile?</l>
+          <l>Voulez-vous diffamer vostre nom de mesfaits,</l>
+          <l>Et vaincre vostre mere en ses lubriques faicts?</l>
+          <l>Puis ne craignez-vous point un remors miserable,		</l>
+          <l>Qui se viendra plonger en vostre esprit coupable,</l>
+          <l>Bourreau perpetuel, et qui joinct à vos os</l>
+          <l>Ne vous lairra jamais sommeiller en repos?</l>
+          <l>Reprimez, je vous pry, cette ardeur malheureuse,</l>
+          <l>Reprimez cette Amour qui ard incestueuse</l>
+          <l>Autour de vos roignons: reprimez reprimez</l>
+          <l>Avecques la raison ces desirs enflamez,</l>
+          <l>Qu’aucune nation tant barbare fut-elle,</l>
+          <l>Tant fut-elle à nos loix brutalement rebelle,</l>
+          <l>N’eut jamais en l’esprit: non les Getes espars,</l>
+          <l>Non les Scythes errans, cruels peuples de Mars,</l>
+          <l>Non les Sarmates durs, non le negeux Caucase,</l>
+          <l>Non le peuple qui boit dans l’onde du Phase.</l>
+          <l>:Voulez-vous engendrer en vostre ventre infet</l>
+          <l>De vous et vostre fils un monstre contrefait?</l>
+          <l>Voulez-vous que la mere avec son enfant couche,</l>
+          <l>Flanc à flanc accouplez en une mesme couche?</l>
+          <l>Or allez, hastez-vous, ne vous espargnez pas,</l>
+          <l>Exercez vostre saoul vos furieux esbats.</l>
+          <l>Que tardez-vous encor? pourquoy la salle ouverte		</l>
+          <l>Du monstre vostre frere est si long temps deserte?</l>
+          <l>Et pourquoy ne se va vostre race estoffant</l>
+          <l>Des membres merveilleux de quelque enorme enfant?</l>
+          <l>Les monstres trop long temps en vostre maison cessent,</l>
+          <l>Il vous faut efforcer que quelques uns y naissent.		</l>
+          <l>Sus donq, mettez y peine. Et mais quoy? n’est-ce pas,</l>
+          <l>O saincte Paphienne, un merveillable cas,</l>
+          <l>Qu’autant de fois qu’Amour poindra de sa sagette</l>
+          <l>Le cœur enamovré d’une fille de Crete,</l>
+          <l>La terre autant de fois des prodiges verra,</l>
+          <l>Nature autant de fois de son cours sortira!</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Las! Nourrice, il est vray: mais je n’y puis que faire.</l>
+          <l>Je me travaille assez pour me cuider distraire</l>
+          <l>De ce gluant Amour, mais tousjours l’obstiné</l>
+          <l>Se colle plus estroit à mon cœur butiné.</l>
+          <l>Je ne sçaurois sortir libre de son cordage,</l>
+          <l>Ma chaste raison cede à sa forçante rage:</l>
+          <l>Tant il peut dessur nous quand une fois son trait</l>
+          <l>Nous a troublé le sang de quelque beau pourtrait.</l>
+          <l>J’ay tousjours un combat de ces deux adversaires,		</l>
+          <l>Qui s’entrevont heurtant de puissances contraires.</l>
+          <l>Ores cetuy-là gaigne, et ore cetuy-cy,</l>
+          <l>Cetuy-cy perd apres, cetuy-là perd aussi:</l>
+          <l>Maintenant la raison ha la force plus grande,</l>
+          <l>Maintenant la fureur plus forte me commande:</l>
+          <l>Mais toujours à la fin Amour est le vaincueur,</l>
+          <l>Qui paisible du camp s’empare de mon cueur.</l>
+          <l>Ainsi voit-on souvent une nef passagere</l>
+          <l>Au milieu de la mer, quand elle se colere,</l>
+          <l>Ne pouvoir aborder, tant un contraire vent</l>
+          <l>Seigneuriant les flots la bat par le devant.</l>
+          <l>Les nochers esperdus ont beau caler les voiles,</l>
+          <l>Ont beau courir au mats, le desarmer de toiles,</l>
+          <l>Ont beau coucher la rame, et de tout leur effort</l>
+          <l>Tâcher malgré le vent de se trainer au port,</l>
+          <l>Leur labeur n’y fait rien: la mugissante haleine</l>
+          <l>Du Nort qui les repousse, aneantist leur peine.</l>
+          <l>La nef court eslancee, ou contre quelque banc,</l>
+          <l>Ainci cette fureur violente s’oppose</l>
+          <l>A ce que la raison salutaire propose,</l>
+          <l>Et sous ce petit Dieu tyrannise mon cueur.</l>
+          <l>C’est ce Dieu qui des Dieux et des hommes veinqueur</l>
+          <l>Exerce son empire au ciel comme en la terre:</l>
+          <l>Qui ne craint point de faire à Jupiter la guerre,</l>
+          <l>Qui domte le dieu Mars, ores qu’il soit d’armet,</l>
+          <l>De gréve et de cuirace armé jusqu’au sommet:</l>
+          <l>Qui le dieu forgeron brusle dans la poitrine</l>
+          <l>Au milieu de sa forge, où le foudre il affine:</l>
+          <l>Le pauvre Dieu Vulcan, qui tout estincelant</l>
+          <l>Aux fourneaux ensoulfrez travaille martelant,</l>
+          <l>Qui tousjours ha le front panché dans la fournaise,</l>
+          <l>Qui à bras decouverts va pincetant la braise,</l>
+          <l>Sans qu’il soit offensé de la force du feu,</l>
+          <l>De ces tisons d’Amour se defendre n’ha peu.</l>
+          <l>Il brusle en l’estomac, et tout sueux s’estonne</l>
+          <l>Qu’en luy qui n’est que feu, cet autre feu s’entonne.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Voire on a feint Amour un redoutable Dieu,</l>
+          <l>Vagabond, qui ne loge en aucun certain lieu:</l>
+          <l>Il porte, comme oiseau, le dos empenné d’æles:</l>
+          <l>Il ha le beau carquois, qui luy pend aux escelles:</l>
+          <l>Il ha tousjours les yeux aveuglez d’un bandeau,</l>
+          <l>Il ha, comme un enfant, delicate la peau,</l>
+          <l>La chair tendre et douillette, et la perruque blonde</l>
+          <l>De cheveux frisotez, comme les plis d’une onde.</l>
+          <l>Cyprine l’enfanta, qui sentist tost apres,</l>
+          <l>Blessee enragément, la rigueur de ses tréts.</l>
+          <l>Il guerroye un chacun. Car luy qui ne voit goutte,</l>
+          <l>Du sang d’un Immortel aussi souvent degoute,</l>
+          <l>Que de quelqu’un de nous: aussi le traistre enfant 		</l>
+          <l>Est du ciel, de la terre et des eaux trionfant.</l>
+          <l>Voila comment le vice, en se flatant coupable,</l>
+          <l>Couvre son appetit d’une menteuse fable.</l>
+          <l>Voila comme, excusant nos lubriques desirs,</l>
+          <l>Nous bastissons un Dieu forgeur de nos plaisirs,</l>
+          <l>Autheur de nostre honte, et n’avons peur qu’un foudre</l>
+          <l>Pour telle impieté nous broye tous en poudre.</l>
+          <l>» Quiconque s’orgueillit de sa prosperité,</l>
+          <l>» Qui ne prend sa fortune avec sobriété,</l>
+          <l>» Qui tombe de mollesse, et delicat, ne treuve</l>
+          <l>» Rien à son appetit que toute chose neuve:</l>
+          <l>» Qui ore en ses habits, ores en son manger,</l>
+          <l>» Ore en ses bastimens ne veut rien qu'estranger,</l>
+          <l>» Celuy le plus souvent en ses entrailles porte</l>
+          <l>» De l'amoureuse ardeur une pointe plus forte</l>
+          <l>» Que le pauvre commun, et son esprit troublé</l>
+          <l>» Va tousjours forcenant d'un desir dereglé.</l>
+          <l>» L'amour accoustumé luy desplaist trop vulgaire:</l>
+          <l>» Il veut s'ébatre d'un, qui ne soit ordinaire,</l>
+          <l>» Qui ne soit naturel, mais tout incestueux,</l>
+          <l>» Mais tout abominable, horrible et monstrueux.</l>
+          <l>» Tousjours tousjours les grands ont leurs ames esprises,</l>
+          <l>» Ont leur cœur enflammé de choses non permises.</l>
+          <l>» Celuy qui peut beaucoup, veut encor plus pouvoir:</l>
+          <l>» Et cil qui ha beaucoup, veut encor plus avoir.</l>
+          <l>Mais qui vous flechira ce jeune homme inflechible?</l>
+          <l>Voyez-vous pas combien il est inaccessible?</l>
+          <l>Comme l'Amour il fuit, et l'amoureux lien?</l>
+          <l>Comme il vit solitaire en Amazonien?</l>
+          <l></l>
+        </sp>
+        <sp who="#phèdre">
+          <speaker>PHÈDRE.</speaker>
+          <l>Je le suivray par tout, dans les forests ombreuses, </l>
+          <l>Sur les coupeaux blanchis de neiges paresseuses,</l>
+          <l>Sur les rochers aigus bien qu’ils touchent les cieux,</l>
+          <l>Au travers des sangliers les plus pernicieux.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE</speaker>
+          <l>II fuira devant vous comme devant une Ourse,</l>
+          <l>Qui tâche recouvrer ses petits a la course.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Je ne croy pas cela d’une si grand’beauté.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>II est encor plus dur, ce n’est que cruauté.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>» L’amour amollist tout, fust-ce un rocher sauvage.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Vous ouvrirez plustost un roc que son courage:</l>
+          <l>Puis il s’ira cacher au profond des desers.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Je le trouveray bien, et fust-il aux enfers:</l>
+          <l>Fust-il où le Soleil au soir sa teste trempe,</l>
+          <l>Fust-il où le matin il allume sa lampe.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Que vous dira Thesé, s’il retourne une fois?</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Mais moy, que luy diray-je, et à son Pirithois?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Et encor que dira vostre rigoureux pere?</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Qu’a-til dict à ma seeur? Qu’a-t-il dict à ma mere?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Par ces cheveux grisons tesmoins de mes vieux ans,</l>
+          <l>Par ce crespe estomach, chargé de soings cuisans,</l>
+          <l>Par ce col recourbé, par ces cheres mamelles,</l>
+          <l>Que vous avez pressé de vos lévres nouvelles,</l>
+          <l>Je vous supply, mon ame, et par ces tendres pleurs</l>
+          <l>Que j’espan de pitie, prevoyant vos malheurs,</l>
+          <l>Ma vie, mon souci, je vous pry à mains jointes,</l>
+          <l>Deracinez de vous ces amoureuses pointes:</l>
+          <l>Vueillez-vous, mon amour, vous mesmes secourir.</l>
+          <l>» C’est presque guarison que de vouloir guarir.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Or je n’ay pas encor despouille toute honte.</l>
+          <l>Sus, mon cruel amour, il faut que l’on te domte.</l>
+          <l>Je sçay qui te vaincra, mon honneur m’est trop cher</l>
+          <l>Pour le laisser par toy si follement tacher.</l>
+          <l>La mort te combatra: sus sus il me faut suivre</l>
+          <l>Mon desiré mary, je suis lasse de vivre.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Las, mon cher nourriçon, n’ayez-pas ce propos!</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Non non je veux mourir, la mort est mon repos.</l>
+          <l>II ne me reste plus qu’adviser la maniere,</l>
+          <l>Si je doy m’enferrer d’une dague meurtriere</l>
+          <l>Si je doy m’ estrangler d’un estouffant licol,</l>
+          <l>Ou sauter d’une tour et me briser le col.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Au secours mes amis, au secours elle est morte!</l>
+          <l>Je ne la puis sauver, je ne suis assez forte.</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>Taisez-vous, ma nourrice.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Et comment ma douceur?</l>
+          <l>Et comment ma mignonne? est-ce là le bon-heur</l>
+          <l>Que j’esperoy de vous? est -ce à la liesse</l>
+          <l>Que de vous attendoit ma tremblante vieillesse?</l>
+          <l>Laissez ce fol desir qui gaigne vos esprits</l>
+          <l></l>
+        </sp>
+        <sp who="#phedre">
+          <speaker>PHEDRE.</speaker>
+          <l>» Celuy qui de mourir a constant entrepris,</l>
+          <l>» Ne peut estre empesche par aucun qu’il ne meure:</l>
+          <l>» Si ce n’ est a l’instant, ce sera quelque autre heure.</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Hé! que voulez-vous faire? et pourquoy mourez-vous?</l>
+          <l>Rompez plustost la foy promise a vostre espous,</l>
+          <l>Et plustost mesprisez le bruit du populaire,</l>
+          <l>Mesprisez-le, mon cueur, plustost que vous mal faire.</l>
+          <l>» Le bruit du populaire erre le plus souvent,</l>
+          <l>» Louant un vicieux, blasmant un bien vivant.</l>
+          <l>II nous faut aborder cet homme solitaire,</l>
+          <l>Et tacher d ’ amollir son naturel severe:</l>
+          <l>Cela sera ma charge. Or ayez donc bon cueur,</l>
+          <l>Peut estre pourrons-nous adoucir sa rigueur.</l>
+          <l></l>
+        </sp>
+        <sp who="#choeur">
+          <speaker>CHOEUR.</speaker>
+          <l>NE verrons-nous jamais le jour</l>
+          <l>Que lon soit libre de l'amour?</l>
+          <l>Jamais ne se verra le monde</l>
+          <l>Affranchi de la dure main</l>
+          <l>De ce Dieu, qui regne, inhumain,</l>
+          <l>Au ciel, en la terre, et en l'onde?</l>
+          <l>C'est grand cas que les Dieux, qui ont</l>
+          <l>Tout pouvoir sur ce monde rond,</l>
+          <l>N'ont divinité, qui repousse</l>
+          <l>D'un Enfant les debiles coups,</l>
+          <l>Et qu'ils font naurez à tout coups</l>
+          <l>Des tréts venimeux de sa trousse!</l>
+          <l>Mais les hommes plus aigrement</l>
+          <l>Que les Dieux, sentent ce tourment.</l>
+          <l>Car les Dieux, s'ils font d'aventure</l>
+          <l>Comme nous blessez dans le cœur,</l>
+          <l>Ne souffrent pas grande langueur,</l>
+          <l>Devant que d'en avoir la cure.</l>
+          <l>Mais las! il advient rarement,</l>
+          <l>Que ceux qui font nostre tourment,</l>
+          <l>Et nostre guarison ensemble,</l>
+          <l>Soyent esmeus de quelque pitié,</l>
+          <l>Et que sous pareille amitié</l>
+          <l>Ce cruel Amour les assemble.</l>
+          <l>Car tousjours le malicieux,</l>
+          <l>A fin de nous tourmenter mieux,</l>
+          <l>Par une beauté nous attire,</l>
+          <l>Qu'il nous monstre, et ne baille pas:</l>
+          <l>Ains ne s'en sert que d'un appas</l>
+          <l>Pour nous tromper, puis la retire.</l>
+          <l>Comme on dit du vieillard chetif,</l>
+          <l>Qui dedans le coulant fuitif</l>
+          <l>D'un fleuve veut moüiller sa bouche,</l>
+          <l>Qui prompt s'est plustost retiré,</l>
+          <l>Que le miserable alteré</l>
+          <l>Du bout de ses léures y touche.</l>
+          <l>» Il n'est si mortelle poison,</l>
+          <l>» Qui ne treuve sa guarison:</l>
+          <l>» Tout, fors qu'amour, se rend curable,</l>
+          <l>» Quand Cupidon fait que celuy,</l>
+          <l>» Qui ha le remede avec luy,</l>
+          <l>» N'a la volonté secourable.</l>
+          <l>» Mainte cruelle passion</l>
+          <l>» Commande à nostre affection:</l>
+          <l>» Mais passion si furieuse</l>
+          <l>» Jamais pour nous gesner n'apprit</l>
+          <l>» Si fort tourment en nostre esprit,</l>
+          <l>» Que ceste fureur amoureuse.</l>
+          <l>Comme une eau bouillonne de chaud</l>
+          <l>Sur le feu qui plus fort l'assaut:</l>
+          <l>Nostre sang boüillonne en la sorte,</l>
+          <l>Quand il a les brasiers autour</l>
+          <l>De cest estincelant Amour,</l>
+          <l>Et que sa rage est la plus forte.</l>
+          <l>Quand Iupiter fut irrité</l>
+          <l>Contre le larron Promethé,</l>
+          <l>Pour avoir pris le feu celeste:</l>
+          <l>Entre les malheurs que sa main</l>
+          <l>Secoüa sur le genre humain,</l>
+          <l>Fut cette abominable peste.</l>
+          <l>Ceste peste nee au profond</l>
+          <l>Du Styx en neuf tours vagabond,</l>
+          <l>Pour troubler, ardante furie,</l>
+          <l>L'heur des animaux poursuivis,</l>
+          <l>Si tost qu'ell' les tient asservis</l>
+          <l>Sous les pieds de sa seigneurie.</l>
+          <l>Alcide, qui de tous costez</l>
+          <l>A tant de monstres surmontez</l>
+          <l>Et purgé le monde où nous sommes,</l>
+          <l>Eust plus merité qu'il n'a faict,</l>
+          <l>S'il eust de ce Tyran desfaict</l>
+          <l>Pour jamais delivré les hommes.</l>
+          <l>Le sanglier Erymanthean,</l>
+          <l>Le grand lion Cleonean,</l>
+          <l>Busire, Eurypyle, et Antee,</l>
+          <l>Et l'Hydre au col sept fois testu,</l>
+          <l>Qui multiplioit abbatu,</l>
+          <l>Cogneurent la force indomtee.</l>
+          <l>Et toutesfois Amour n'eut pas</l>
+          <l>Si tost roidi son tendre bras,</l>
+          <l>Pour luy decocher une fleche,</l>
+          <l>Que laschement il se laissa</l>
+          <l>Frapper du trét, qui luy perça</l>
+          <l>Le cœur d'une profonde breche.</l>
+          <l>Il devint de preux qu'il estoit,</l>
+          <l>Un vil esclave qui tortoit</l>
+          <l>De la filace enquenoüillee:</l>
+          <l>Et de la mesme main filoit,</l>
+          <l>Qui fiere auparavant souloit</l>
+          <l>Estre au sang des monstres foüillee.</l>
+          <l>Venus, et toy son cher enfant,</l>
+          <l>Qui allez des cœurs trionfant,</l>
+          <l>N'avous vengé le fait coupable</l>
+          <l>De Phebus, qui vous decela,</l>
+          <l>Sur Pasiphe qui assola</l>
+          <l>D'une amour si abominable?</l>
+          <l>Pourquoy encore espandez-vous</l>
+          <l>Vostre infatiable courroux</l>
+          <l>Sur ceste miserable dame?</l>
+          <l>Luy faisant par trop de rigueur</l>
+          <l>Rostir bourrellement le cœur</l>
+          <l>En une incestueuse flame?</l>
+          <l></l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>ACTE III.</head>
+        <div type="configuration">
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Quand romprez-vous le fil de mes heures fatales?</l>
+            <l>Quand m'aurez-vous filee, ô Vierges infernales?</l>
+            <l>Que tarde tant la mort, que d'un coup bien-heureux</l>
+            <l>Elle ne jette hors mon esprit langoureux?</l>
+            <l>Que fay-je plus au monde? et dequoy la lumiere</l>
+            <l>De nostre beau Soleil sert plus à ma paupiere?</l>
+            <l>Ah que je sens de mal, que je sens de douleurs!</l>
+            <l>Que je souffre d'angoisse, et que i'espans de pleurs!</l>
+            <l>O beau visage aimé, ma douloureuse peine!</l>
+            <l>O comble de mon heur, douce face sereine!</l>
+            <l>O beau front applany des amours le seiour!</l>
+            <l>O fourcils ebenez deux voutûres d'amour!</l>
+            <l>O beau corps composé d'une taille celeste,</l>
+            <l>Semblable au corps d'un Dieu de maintien et de geste,</l>
+            <l>Je meurs de vous trop voir! je meurs helas je meurs</l>
+            <l>De vous voir, ô beautez, semences de mes pleurs!</l>
+            <l>O venimeux Amour, que ta mere celeste</l>
+            <l>T'enfantant accoucha d'une cruelle peste!</l>
+            <l>Qu'il eust bien mieux valu, qu'elle eust grosse produit</l>
+            <l>Un millier de serpens, qu'un si malheureux fruit!</l>
+            <l>Helas tousjours ton feu, tousjours ton feu me brusle,</l>
+            <l>Soit que je m'en approche, ou que je m'en recule!</l>
+            <l>Hé Dieux qu'y faut-il faire? Hippolyte m'espoint,</l>
+            <l>Et quand il est present, et quand il n'y est point.</l>
+            <l>Ainsi voit-on souvent une biche sauvage,</l>
+            <l>Qu'un berger Cressien blesse dans un bocage</l>
+            <l>D'un garrot decoché, qui luy coust les poumons,</l>
+            <l>Traverser à la course et les bois et les monts,</l>
+            <l>Voulant fuir son mal: mais tousjours la pauvrette</l>
+            <l>Porte dedans le flanc la mortelle fagette.</l>
+            <l>Hippolyte mon cœur, n'aurez-vous point pitié</l>
+            <l>De me voir trespasser serve en vostre amitié?</l>
+            <l>Me laissez-vous plonger aux ondes de Cocyte?</l>
+            <l>Me laissez-vous mourir pour vous, mon Hippolyte?</l>
+            <l>Ah Phedre! ah pauvre Phedre! où as-tu mis ton cœur?</l>
+            <l>Tu ne dois esperer le tirer de langueur.</l>
+            <l>Tu brusles follement en une beauté digne</l>
+            <l>Non pas de ton amour, mais d'une amour divine:</l>
+            <l>Tu brusles follement, volontiers ses beaux yeux</l>
+            <l>Sont des Nymphes aimez, qui le meritent mieux.</l>
+            <l>Je ne sçauroy penser, pucelle Cynthienne,</l>
+            <l>Que ton Endymion desormais te retienne:</l>
+            <l>Hippolyte plus cher tes doux baisers reçoit</l>
+            <l>Au lieu de ce dormeur qui ton col embrassoit.</l>
+            <l>Je ne croy pas aussi, Tithonienne Aurore,</l>
+            <l>Que tu baises le sein de ton Cephale encore:</l>
+            <l>Au moins si quelquefois en respandant le jour,</l>
+            <l>Baissant les yeux à bas tu as veu mon amour.</l>
+            <l>O vous creuses forests qui recelez ma vie,</l>
+            <l>Qui bien jalousement je vous porte d'envie!</l>
+            <l>O vous coustaux pierreux, qui l'allez esprouvant</l>
+            <l>A la suitte d'un Cerf, ou d'un Sanglier bavant,</l>
+            <l>Que je vous suis despite! O vous aussi fontaines,</l>
+            <l>Qui allez ondelant par les herbeuses plaines,</l>
+            <l>Et par tortis cavez, roulez tousjours à val,</l>
+            <l>Que je vous veux helas! que je vous veux de mal!</l>
+            <l>C'est vous qu'il va baisant, quand lassé de la chasse,</l>
+            <l>Degoutant de fueur et d'une honneste crasse,</l>
+            <l>Couché sur vostre bord tout plat il va lavant</l>
+            <l>Ses lévres et sa foif en vostre eau l'abreuvant.</l>
+            <l>Où courés-vous mon cœur? les Dieux ont-ils fait naistre</l>
+            <l>Tant de beautez en vous pour vous faire champestre</l>
+            <l>Citoyen des forests? les forests, mon souci,</l>
+            <l>Sont indignes de vous, et les rochers aussi.</l>
+            <l>Laissez-les donc mon cœur! hé voulez-vous despendre</l>
+            <l>En un labeur si dur, vostre jeunesse tendre?</l>
+            <l>Où courez-vous, mon cœur? mon cœur où courez-vous?</l>
+            <l>Laissez les bois deserts, les villes sont pour nous,</l>
+            <l>Cupidon y habite avec sa douce mere</l>
+            <l>La Deesse Venus, delices de Cythere.</l>
+            <l>O mon bel Hippolyte, et ne voyez-vous pas</l>
+            <l>Que pour vous trop aimer i'approche du trespas?</l>
+            <l>Et ne voyez-vous pas que je meurs pauvre Roine,</l>
+            <l>Et que pour me fauver vous estes seul idoine?</l>
+            <l>Secourez-moy, ma vie, et ne changez à tort,</l>
+            <l>Par faute de pitié, mon amour à la mort.</l>
+            <l>Helas vous voyez bien par mon visage bléme,</l>
+            <l>Par ma palle maigreur, qu'ardemment je vous aime!</l>
+            <l>Voyez-vous pas mes yeux ne cesser larmoyans</l>
+            <l>De verser en mon sein deux ruisseaux ondoyans?</l>
+            <l>Voyez-vous pas sortir comme d'une fournaise,</l>
+            <l>Les soupirs de ma bouche aussi chauds comme braise?</l>
+            <l>Voyez-vous point mon sein panteler de sanglots,</l>
+            <l>Et tesmoigner le mal, qui me bourrelle enclos?</l>
+            <l>Soyez-moy donc benin, et tirez secourable,</l>
+            <l>De mon cœur offensé la douleur incurable:</l>
+            <l>Vous pouvez seulement d'un amoureux baiser</l>
+            <l>(Las que ce vous est peu) mes langueurs appaiser.</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>BIen-heureux est celuy, qui ne sent dans ses veines,</l>
+            <l>Comme soulfre, boüillir les amoureuses peines.</l>
+            <l>Bien-heureux, qui ne sçait que c'est de Cupidon,</l>
+            <l>Qui ne cognoist ses traits, son arc, ny son brandon.</l>
+            <l>Hà qu'il est outrageux ce petit Dieu qui vole!</l>
+            <l>Hà que cruellement nos esprits il assole!</l>
+            <l>Je n'eusse pas cuidé que ceste passion</l>
+            <l>Peust commander, si forte, à nostre affection.</l>
+            <l>Voyez comme elle boust en ceste pauvre Dame,</l>
+            <l>Comme ell' luy a tiré la raison hors de l'ame.</l>
+            <l>Elle va forcenee, ores pour s'outrager,</l>
+            <l>Ores pleine d'espoir se semble encourager.</l>
+            <l>Le feu luy fort des yeux, et bien qu'elle s'efforce</l>
+            <l>De cacher sa fureur, elle échappe de force.</l>
+            <l>La clairté luy desplaist, et ne demande plus,</l>
+            <l>Morne, qu'à se cacher dans quelque lieu reclus.</l>
+            <l>Rien ne luy sçauroit plaire, elle s'assied dolente,</l>
+            <l>Puis elle se releve, ou se couche, inconstante,</l>
+            <l>Se pourmene ore viste, et ore lentement,</l>
+            <l>Tantost elle pallist, et tout soudainement</l>
+            <l>La couleur luy rehausse: elle tremble fiéureuse,</l>
+            <l>Et puis brusle à l'instant d'une ardeur chaleureuse.</l>
+            <l>Elle espere, elle craint, son esprit agité,</l>
+            <l>Comme la mer du vent, n'a plus rien d'arresté.</l>
+            <l>Elle ne mange point, la viande apperceüe</l>
+            <l>Devant que d'y gouster luy offense la veüe.</l>
+            <l>Il ne luy chaut de vivre, et n'a pour tout confort,</l>
+            <l>Jour et nuict lamentant, que l'espoir de la mort:</l>
+            <l>La mort luy est sa vie, et l'appelle à toute heure</l>
+            <l>Pour la precipiter en la palle demeure.</l>
+            <l>Le jour, quand Phebus marche, elle voudroit la nuit,</l>
+            <l>Et la nuit, le Soleil luy tarde qu'il ne luit.</l>
+            <l>Le sommeil, qui nourrist tout ce qui vit au monde,</l>
+            <l>Ne peut clorre les yeux, arrofez de son onde.</l>
+            <l>Car soit ou que le jour face son large cours,</l>
+            <l>Soit que la nuict chemine, elle veille tousjours.</l>
+            <l>Miferable princesse, aujourdhuy ne soupire</l>
+            <l>Rien en si grand malheur, que le tien ne soit pire!</l>
+            <l>Quand la nuict tend son voile, et qu'elle embrunist l'ær,</l>
+            <l>Tout sent l'oublieux somme en ses membres couler:</l>
+            <l>Le silence est par tout, tout est coy par le monde</l>
+            <l>Fors qu'en ton ame seule, où l'amour fait la ronde.</l>
+            <l>Elle est si foible aussi, que ja le plus fouvant</l>
+            <l>La force à ses genous defaut en se levant.</l>
+            <l>Elle chancelle toute, et ses bras imbeciles</l>
+            <l>Battant à ses costez, luy pendent inutiles.</l>
+            <l>Cette belle couleur de roses, et de lis</l>
+            <l>N'honore plus sa jote et son front appallis.</l>
+            <l>Ses beaux yeux soleillez, qui la faisoyent paroistre</l>
+            <l>Vray tige lumineux de Phebus son ancestre,</l>
+            <l>N'ont plus rien de divin, comme ils souloyent avoir:</l>
+            <l>Ains, tous chargez d'humeurs, ne cessent de pleuvoir</l>
+            <l>Le long de son visage, et d'une eau qui chemine,</l>
+            <l>Goutte à goutte roulant luy lavent la poitrine.</l>
+            <l>Ainsi qu'aucunefois on voit sur le coupeau</l>
+            <l>Du Taure inaccessible une pluvieuse eau</l>
+            <l>Tomber humidement du centre de la nuë</l>
+            <l>Et la neige escouler de sa teste chenve.</l>
+            <l>O que c'est grand pitié! Mais ne la voy-je pas,</l>
+            <l>Croisant les mains au ciel dresser ici ses pas?</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>PHEDRE. NOURRICE. HYPPOLITE.</stage>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>LAs! qui a veu jamais peine si douloureuse? </l>
+            <l>Las! qui a veu jamais douleur si outrageuse?</l>
+            <l>O amour! o amour!</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Que vous servent ces cris?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Je sens ce feu dans moy plus chaudement espris.</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Les plaintes n'y font rien, plustost d'une priere</l>
+            <l>Humble sollicitez la vierge forestiere.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>O Royne des forests, qui habites les monts,</l>
+            <l>Diane à triple forme, invoquee en trois noms,</l>
+            <l>Qui commandes aux bois et aux montagnes sombres,</l>
+            <l>Qui là bas aux enfers regnes entre les ombres,</l>
+            <l>Et qui grande lumiere en nostre ciel reluis,</l>
+            <l>Effaçant la noirceur des sommeilleuses nuits,</l>
+            <l>Hecate Triviane, O saincte chafferesse,</l>
+            <l>Escoute ma priere, et m'exauce, Deesse:</l>
+            <l>Ouure le cœur glacé d'Hippolyte, et luy mets</l>
+            <l>Les tifons de l'amour dans ses os enflamez:</l>
+            <l>Que desormais il aime, et comme moy resente</l>
+            <l>De l'amoureux brandon l'ardeur impaciente:</l>
+            <l>Qu'il se monstre facile, et chaffe de son cueur,</l>
+            <l>Par toy, Vierge, attendry, toute austere rigueur.</l>
+            <l>Fay cela, ma Deesse: ainsi tousjours luisante</l>
+            <l>Puisses-tu decorer la voûte brunissante:</l>
+            <l>Ainsi quand tu seras au ciel pour l'esclairer,</l>
+            <l>Nul chant magicien ne t'en puisse tirer:</l>
+            <l>Ainsi jamais l'obscur d'une ennuyeuse nuë</l>
+            <l>Ne voile la beauté de ta face cornuë.</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Madame c'est assez, elle oit vostre oraison:</l>
+            <l>Taisez-vous, je le voy sortir de la maison.</l>
+            <l>Retirez-vous à part, l'heure m'est opportune.</l>
+            <l>C'est luy, c'est luy sans doute, et si n'a suitte aucune.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Où dressez-vous vos pas, Nourrice? et quel souci</l>
+            <l>Trouble vostre visage et l'appallist ainsi?</l>
+            <l>Madame est-elle saine? et sa plus chere cure,</l>
+            <l>Ses deux petits enfans, Royale nourriture?</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>La maison, le Royaume, et Phedre, et ses enfans,</l>
+            <l>La grace des bons Dieux, florissent trionfans:</l>
+            <l>Mais vous qui deuriez ore, honnestement follâtre,</l>
+            <l>De cent divers plaisirs vostre jeunesse esbatre,</l>
+            <l>Vous la chetivez toute, et vuide de douceurs</l>
+            <l>La laissez escouler en des dogues chasseurs,</l>
+            <l>Dans l'obscur des forests, sombre, morne, sauvage,</l>
+            <l>Ne monstrant presque rien d'humain que le visage.</l>
+            <l>Laissez ce vain labeur, qui vous consomme ainsi.</l>
+            <l>Ceux que le fort contraint doivent vivre en souci:</l>
+            <l>Mais ceux que la fortune embrasse favorable,</l>
+            <l>S'ils se vont affligeant d'un vivre miserable,</l>
+            <l>Et volontairement l'abandonnent au mal,</l>
+            <l>Doivent perdre le bien, dont ils usent si mal.</l>
+            <l>Donnez-vous à l'amour, passez vostre jeunesse</l>
+            <l>Ce pendant qu'elle dure, en joyeuse liesse.</l>
+            <l>Egayez vostre esprit, vous n'aurez pas le temps</l>
+            <l>Quand vous serez plus vieil, commode au passetemps.</l>
+            <l>» Toute chose ha son propre et naturel office.</l>
+            <l>» Ce qui sied bien à l'une, à l'autre est souvent vice.</l>
+            <l>» L'allegresse convient au front du jouvenceau,</l>
+            <l>» Et non pas du vieillard qui se ride la peau:</l>
+            <l>» Au contraire le soin, et la rigueur honneste</l>
+            <l>» Honore l'homme vieil, qui blanchist par la teste.</l>
+            <l>Ne laissez donc perir le plus beau de vos jours</l>
+            <l>Ainsi austerement sans gouster aux amours,</l>
+            <l>Au plaisir de la dance, et de la liqueur douce,</l>
+            <l>Dont Bacchus nous detriste et nos soucis repousse.</l>
+            <l>La mort sans se monstrer vient à nous à grand pas</l>
+            <l>Nous trancher, journaliers, la vie et les esbats.</l>
+            <l>Puis quand nous trouverons, palles, sur le rivage</l>
+            <l>Du bourbeux Acheron, de Pluton le partage,</l>
+            <l>Où l'ennuy, les regrets, les soupirs, et les pleurs</l>
+            <l>Avec les passions, naissent au lieu de fleurs:</l>
+            <l>Lors nous repentirons de n'avoir en ce monde</l>
+            <l>Autant pris de douceur comme il y en abonde,</l>
+            <l>Tandis que le Destin nous donnoit le loisir,</l>
+            <l>Et l'opportunité de vivre en tout plaisir.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Les monts et les forests me plaisent solitaires,</l>
+            <l>Plus que de vos citez les troubles sanguinaires.</l>
+            <l>Telle façon de vivre avoyent du premier temps</l>
+            <l>Nos peres vertueux, qui vivoyent si contens.</l>
+            <l>» Et certes celuy-là, qui s'escartant des villes</l>
+            <l>» Se plaist dans les rochers des montagnes steriles,</l>
+            <l>» Et dans les bois fueillus, ne se voit point faisir,</l>
+            <l>» Comme les bourgeois font, d'un auare desir.</l>
+            <l>» L'inconstante faveur des peuples et des Princes,</l>
+            <l>» L'appetit de paroistre honorable aux provinces</l>
+            <l>» Ne luy gesne le cœur, ny l'envieuse dent,</l>
+            <l>» Des hommes le poison, ne le va point mordant.</l>
+            <l>Il vit libre à son aise exempt de servitude,</l>
+            <l>N'estant de rien contraint que de son propre estude,</l>
+            <l>Que de son franc vouloir, ne tremblant de souci</l>
+            <l>Pour la crainte d'un Roy, qui fronce le sourci.</l>
+            <l>Il ne sçait, innocent, que c'est d'un tas de vices</l>
+            <l>Bourgeonnans aux citez qui en font les nourrices.</l>
+            <l>Il ne se couvre point le chef ambicieux</l>
+            <l>D'un bastiment doré qui menace les cieux</l>
+            <l>Il n'a mille valets, qui d'une pompe fiere</l>
+            <l>L'accompagnent espois et devant et derriere.</l>
+            <l>Sa table n'a le dos chargé de mille plats,</l>
+            <l>Exquisement fournis de morceaux delicats.</l>
+            <l>Il ne blanchist les champs de cent troupeaux à laine,</l>
+            <l>De cent couples de bœuss il n'escorche la plaine:</l>
+            <l>Mais paisible il jouist d'un air tousjours serain,</l>
+            <l>D'un paisage inegal, qu'il descouvre loingtain.</l>
+            <l>Il s'amuse à courir ou la Biche peureuse,</l>
+            <l>Ou l'Ours, ou le Sanglier à la dent escumeuse.</l>
+            <l>Tantost las il se couche ou sur le bord d'une eau,</l>
+            <l>Ou dans un creux rocher d'où pend maint arbrisseau.</l>
+            <l>Le doux sommeil le prend entre mille fleurettes,</l>
+            <l>Au bruit d'une fontaine et de ses ondelettes,</l>
+            <l>Qui gargouillent autour, ou d'un coudre mouëlleux,</l>
+            <l>Ou d'un faule qui send son chemin graueleux.</l>
+            <l>Quel plaisir ce luy est, quand la foif le tourmente,</l>
+            <l>Boire au creux de sa main de la belle eau courante:</l>
+            <l>Et contenter sa faim des bons fruits favoureux,</l>
+            <l>Qu'il abbat en hochant, d'un arbre plantureux?</l>
+            <l>Or vive qui voudra d'une plus molle vie,</l>
+            <l>Quant à moy, qui suis bien, je n'en ay point d'envie:</l>
+            <l>Je ne veux point changer mon vivre accoustumé,</l>
+            <l>Pour un plus delicat que je n'ay oncque aimé.</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Voulez-vous donc laisser vivant ainsi sauvage,</l>
+            <l>De goûter aux faveurs de l'amoureux breuvage?</l>
+            <l>Iupiter le grand Dieu, prevoyant sagement</l>
+            <l>Que le monde faudroit, destruit entierement,</l>
+            <l>Si comme d'heure en heure il nous perd miserables</l>
+            <l>Par divers accidens, et trespas variables,</l>
+            <l>Il n'estoit repeuplé d'autant de nouveaux corps,</l>
+            <l>Que le destin en jette incessamment dehors,</l>
+            <l>Nous a donné l'amour, pour laisser une race</l>
+            <l>Qui nous survive morts, et tienne nostre place.</l>
+            <l>Si Venus une fois quitte cet univers,</l>
+            <l>Vous le verrez bien tost gesir mort à l'envers.</l>
+            <l>La mer, vuide, perdra ses escailleuses troupes,</l>
+            <l>Sans peuples se verront les montagneuses croupes,</l>
+            <l>Dans le ciel defaudront les oiseaux duveteux,</l>
+            <l>Et l'air n'aura finon des tourbillons venteux.</l>
+            <l>Combien d'hommes voit-on engloutir en ce monde</l>
+            <l>Par le fer, par la faim, par la rage de l'onde?</l>
+            <l>Or sus laissez-vous prendre au cordage amoureux,</l>
+            <l>Frequentez-moy la ville, et vivez plus heureux:</l>
+            <l>Il vous faut une amie, et cueillir avec elle</l>
+            <l>Les doux fruits, où l'amour tendrement vous appelle.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Je ne sçaurois aimer vostre sexe odieux,</l>
+            <l>Je ne puis m'y contraindre, il est trop vicieux.</l>
+            <l>Il n'est mechanceté que n'invente une femme,</l>
+            <l>Il n'est fraude et malice où ne plonge son ame.</l>
+            <l>Nous voyons tous les jours tant de braves citez</l>
+            <l>Flamber, rouges de sang, pour leurs lubricitez:</l>
+            <l>Tant fumer de palais, tant de tours orgueilleuses</l>
+            <l>Renverfer jusqu'au pied pour ces incestueuses:</l>
+            <l>Tant d'Empires destruits, qui (possible) seroyent</l>
+            <l>Encore en leur grandeur, qui encor fleuriroyent.</l>
+            <l>Je ne veux que Medee et ses actes infames</l>
+            <l>Pour montrer quelles font toutes les autres femmes.</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Pourquoy pour le peché de quelqu'une de nous,</l>
+            <l>Qui a peu s'oublier, toutes nous blasmez-vous?</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Je ne sçay pourquoy c'est, toutes je les deteste,</l>
+            <l>Je les ay en horreur plus que je n'ay la peste.</l>
+            <l>Soit railon, soit fureur, soit tout ce qu'on voudra,</l>
+            <l>Jamais de les aimer vouloir ne me prendra.</l>
+            <l>Plustost le feu naistra dans la mer escumeuse,</l>
+            <l>Plustost fera le jour une nuict tenebreuse,</l>
+            <l>Plustost nostre Soleil commencera son cours</l>
+            <l>A la mer Espagnole, où se cachent nos jours,</l>
+            <l>Et plustost fera l'Aigle aux Pigeons sociable,</l>
+            <l>Que je serve une femme, esclave miserable.</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>» Amour domte le cœur des hommes et des Dieux,</l>
+            <l>Et les contraint aimer ce qu'ils ont odieux.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Je n'ay pas peur qu'Amour corrompe mon courage,</l>
+            <l>Fuyant la volupté, le poison de nostre âge.</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Il n'y a point d'espoir, autant vaudroit prescher</l>
+            <l>Le sourd entendement d'un caverneux rocher.</l>
+            <l>Voyez qu'il est hautain, et qu'il fait peu de conte</l>
+            <l>De nous et de l'Amour, qui toute chose domte.</l>
+            <l>Je ne le voy non plus esmeu de mes propos,</l>
+            <l>Qu'un grand roc rivager n'est esbranlé des flots.</l>
+            <l>Amour te puisse nuire, arrogant, et te face</l>
+            <l>Brufler d'une qui soit, comme tu es, de glace.</l>
+            <l>Mais ne voy-je pas Phedre? helas que son beau teint</l>
+            <l>De cinabre et de lis, est pallement desteint!</l>
+            <l>Helas qu'elle est desfaitte! hà hà ce n'est plus elle,</l>
+            <l>Ce n'est plus elle, non, comment elle chancelle!</l>
+            <l>Helas elle est tombee! hé bons Dieux qu'est-ce ci?</l>
+            <l>Ma maistresse m'amie. Elle a le cœur transi,</l>
+            <l>Le visage luy glace, ô passion maudite!</l>
+            <l>Madame, esveillez-vous, voici vostre Hippolyte:</l>
+            <l>Voulez-vous pas le voir? vous n'aurez plus d'ennuy,</l>
+            <l>Sus sus ouvrez les yeux et devisez à luy.</l>
+          </sp>
+          <stage>PHEDRE. NOURRICE. HIPPOLYTE.</stage>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Vi m'a rendu mes pleurs et mes cruelles plaintes?</l>
+            <l>Qui m'a renouvelé mes passions esteintes?</l>
+            <l>Qui m'a remis en vie? hà que n'ay- je joüy</l>
+            <l>Plus long temps du repos qu'on goûte esuanoüy?</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Pourquoy refuyez-vous cette clairté rendue?</l>
+            <l>Pourquoy pallissez-vous au besoin esperdue?</l>
+            <l>Pourquoy hesitez-vous? est-ce ore qu'il vous faut</l>
+            <l>Coulardement troubler dés le premier assaut?</l>
+            <l>» Qui froidement demande à quelqu'un, il l'advise</l>
+            <l>» De luy faire refus de la chose requise.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>» Mais quiconque requiert quelcun de deshonneur,</l>
+            <l>» A grand' peine qu'il soit bien hardy requereur.</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Ce n'est ores qu'il faut succomber à la honte:</l>
+            <l>Elle vous prend trop tard, il n'en faut tenir conte.</l>
+            <l>Lors que premierement amour vous vint faisir</l>
+            <l>Il estoit bon de rompre va si mauvais desir,</l>
+            <l>Et d'une chaste honte armer vostre poitrine,</l>
+            <l>Mais ore il est trop tard, amour a pris racine.</l>
+            <l>Desormais qu'il ne peut estre en vous abbatu,</l>
+            <l>Vous convient efforcer qu'il puisse estre esbatu.</l>
+            <l>Possible (et que sçait-on) cet amoureux outrage</l>
+            <l>Se pourra convertir en un bon mariage.</l>
+            <l>» Maintefois d'un grand mal il s'est fait un grand bien.</l>
+            <l>» Le temps corrige tout, quand on le conduist bien.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Nourrice le voy-cy.</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Monstrez vostre asseurance.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Efforce toy, mon cœur, aye bonne esperance,</l>
+            <l>Commence à l'aborder. Aurez-vous le loisir</l>
+            <l>De m'entendre parler de ce que i'ay desir?</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Dites ce qu'il vous plaist, je suis prest de l'entendre.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Si ce n'est en secret je ne veux l'entreprendre.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Personne n'est icy, qui vous puisse escouter.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>La peur fait mes propos sur ma langue arrester.</l>
+            <l>Le desir est bien fort, mais la honte est plus forte.</l>
+            <l>Dieux vous sçavez pourquoy je suis en ceste forte!</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Auez-vous de la peine à dire quelque cas?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Helas i'en ay beaucoup plus que ne croiriez pas!</l>
+            <l>» Les plus petits ennuis qui dans nos cœurs se treuvent, </l>
+            <l>» Se descouvrent assez, mais les plus grands ne peuvent.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Ma mere fiez-vous à moy de vos ennuis.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Laissez ce nom de mere, Hippolyte, je suis</l>
+            <l>Vostre sœur, et encore, humble, je me contante</l>
+            <l>De n'avoir desormais que le nom de servante,</l>
+            <l>De servante voirment: je vous feray l'honneur</l>
+            <l>Que doit une servante à son propre seigneur.</l>
+            <l>Je vous suivray par tout, fust-ce au travers des ondes,</l>
+            <l>Fust-ce au haut des rochers, dans les neiges profondes,</l>
+            <l>Fust-ce au travers du feu gloutonnement ardant,</l>
+            <l>Et fust-ce pour m'aller, perissable, dardant,</l>
+            <l>Le visage baissé, dans le fer de cent piques,</l>
+            <l>Fust-ce et fust-ce au profond des caves Plutoniques.</l>
+            <l>Prenez le sceptre en main, mettez-vous sur le front</l>
+            <l>Le royal diadéme, ainsi que les Rois font:</l>
+            <l>Tenez, je vous le donne: il est bien plus honneste</l>
+            <l>Que vous plustost que moy, le portiez sur la teste.</l>
+            <l>Vous estes en la fleur de vostre âge: et combien</l>
+            <l>Que Thesé soit chery du peuple Athenien,</l>
+            <l>Vous l'estes d'avantage, et vostre belle grace</l>
+            <l>Son nom moins desiré de sa memoire efface.</l>
+            <l>Or regnez, noble Prince, et prenez le souci</l>
+            <l>De moy dolente veufue, et de ce peuple ici.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Le grand Dieu Iupiter, et le pere Neptune</l>
+            <l>Nous vueille preserver de si grande infortune:</l>
+            <l>Vous reverrez mon pere à peu de jours d'ici.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Pluton, Dieu qui commande au Royaume noirci,</l>
+            <l>Ne le permettra pas, s'il n'est si debonnaire</l>
+            <l>De laisser eschaper de son lict l'adultere.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Les bons Dieux de là haut qui ont cure de luy,</l>
+            <l>Le feront retourner, n'en ayez point d'ennuy.</l>
+            <l>Mais tandis qu'il fera dans ces lieux solitaires</l>
+            <l>Je prendray le souci de vos enfans, mes freres,</l>
+            <l>Et vous honoreray, comme celle qui est</l>
+            <l>De mon pere l'espouse, et qui seule luy plaist.</l>
+            <l>Je vous tiendray sa place, et par notable preuve</l>
+            <l>Tascheray de monstrer que vous n'estes pas veufue,</l>
+            <l>Je vous seray mary.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>O desiré propros,</l>
+            <l>Dont la faulse douceur m'empoisonne les os!</l>
+            <l>O propos decevable! ô parolle trompeuse!</l>
+            <l>O esperance vaine! ô chetive amoureuse!</l>
+            <l>Il me sera mary? pouvoit-il mieux parler,</l>
+            <l>Et plus ouvertement pour me faire assoler?</l>
+            <l>Il faut me descouvrir, mais le cœur me pantele,</l>
+            <l>Un frisson me faisist d'une crainte nouvelle.</l>
+            <l>Pleust à Dieu, mon amy, que vous sceussiez ouvrir</l>
+            <l>Les secrets de mon cœur, sans vous les decouvrir:</l>
+            <l>Je m'efforce à les dire, et je ne puis de honte.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Laissez la honte là.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Mais elle me surmonte.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Quel mal est-ce si grand que n'osiez deceler?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>C'est un mal, que jamais on ne veit devaller</l>
+            <l>Au cœur d'une marâtre.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Encor ne puis-je entendre</l>
+            <l>Vos propos ambigus: faites les moy apprendre</l>
+            <l>En termes plus ouverts.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>L'amour consomme enclos</l>
+            <l>L'humeur de ma poitrine et desseche mes os,</l>
+            <l>Il rage en ma moüelle, et le cruel m'enflamme</l>
+            <l>Le cœur et les poumons d'une cuisante flamme.</l>
+            <l>Le brasier estincelle, et flamboye asprement,</l>
+            <l>Comme il fait quand il rampe en un vieil bastiment</l>
+            <l>Couvert de chaume sec, s'estant en choses feches</l>
+            <l>Elevé si puissant de petites flammeches.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>C'est l'amour de Thesé, qui vous tourmente ainsi.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Helas! voire, Hippolyte, helas! c'est mon souci.</l>
+            <l>j'ay miserable, i'ay la poitrine embrasee</l>
+            <l>De l'amour que je porte aux beautez de Thesee,</l>
+            <l>Telles qu'il les avoit lors que bien jeune encor</l>
+            <l>Son menton cotonnoit d'une frisure d'or,</l>
+            <l>Quand il veit, estranger, la maison Dedalique</l>
+            <l>De l'homme Mi-toreau, nostre monstre Cretique.</l>
+            <l>Helas que sembloit-il? ses cheveux crespelez,</l>
+            <l>Comme soye retorce en petits aneletz,</l>
+            <l>Luy blondissoyent la teste, et sa face estoilee</l>
+            <l>Estoit entre le blanc, de vermeillon meslee.</l>
+            <l>Sa taille belle et droite avec ce teint divin</l>
+            <l>Ressembloit, esgalee, à celle d'Apollin,</l>
+            <l>A celle de Diane, et sur tout à la vostre,</l>
+            <l>Qui en rare beauté surpassez l'un et l'autre.</l>
+            <l>Si nous vous eussions veu, quand vostre geniteur</l>
+            <l>Vint en l'ifle de Crete, Ariadne ma sœur</l>
+            <l>Vous eust plustost que luy, par son fil salutaire</l>
+            <l>Retiré des prisons du Roy Minos mon pere.</l>
+            <l>Or quelque part du ciel que ton astre plaisant</l>
+            <l>Soit, ô ma chere foeur, à cette heure luisant,</l>
+            <l>Regarde par pitié moy ta pauvre germaine</l>
+            <l>Endurer comme toy cette amoureuse peine.</l>
+            <l>Tu as aimé le pere, et pour luy tu desfis</l>
+            <l>Le grand monstre de Gnide, et moy i'aime le fils.</l>
+            <l>O tourment de mon cœur, Amour qui me consommes!</l>
+            <l>O mon bel Hippolyte, honneur des jeunes hommes,</l>
+            <l>Je viens la larme à l'œil me jetter devant vous,</l>
+            <l>Et d'amour enyuree, embrasser vos genous,</l>
+            <l>Princesse miserable, avec constante envie</l>
+            <l>De borner à vos pieds mon amour, ou ma vie:</l>
+            <l>Ayez pitié de moy.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>O grand Dieu Iupiter,</l>
+            <l>Peus-tu voir une horreur si grande, et l'escouter?</l>
+            <l>Où est ton foudre ardant, qu'ireux tu ne le dardes</l>
+            <l>Tout rougissant d'esclairs, sur les temples paillardes</l>
+            <l>De cette malheureuse! Es- tu si paresseux,</l>
+            <l>O Pere, es-tu si lent à nous lancer tes feux?</l>
+            <l>Que le ciel, esclatant au bruit de ton tonnerre,</l>
+            <l>Iusques aux fondemens ne renverse la Terre?</l>
+            <l>Et n'abysme le jour, tout sanglant, au plus creux</l>
+            <l>Et au gouffre plus noir des enfers tenebreux?</l>
+            <l>Mais toy, Soleil, qui luis par tout ce grand espace</l>
+            <l>Peux-tu voir sans pallir les crimes de ta race?</l>
+            <l>Cache toy vergongneux, quitte à la nuit ton cours,</l>
+            <l>Destourne tes chevaux gallopant à rebours.</l>
+            <l>Plonge toy, lance toy le chef bas sous les ondes,</l>
+            <l>Et ta torche noircis en tenebres profondes.</l>
+            <l>Que tardes tu aussi, pere Saturnien,</l>
+            <l>Que tu ne vas ruant ton foudre Olympien</l>
+            <l>Sur ma coupable teste, et que tu ne la broyes</l>
+            <l>Plus menu que fablon, que tu ne la foudroyes?</l>
+            <l>N'ay-je assez merité, n'ay-je forfaict assez</l>
+            <l>Pour sentir la fureur de tes dards eslancez,</l>
+            <l>De plaire à ma marâtre, et de luy sembler propre</l>
+            <l>Entre tous les mortels, seul, à si lasche opprobre?</l>
+            <l>O femme detestable! ô femme dont le cueur</l>
+            <l>Est en mechancetez de son sexe vaincueur!</l>
+            <l>O pire mille fois et d'ardeur plus enorme,</l>
+            <l>Que ta mere qui eut un monstre si difforme!</l>
+            <l>Ce ventre t'a porté qui s'enfla grossissant</l>
+            <l>Du germe convoité d'un Taureau mugissant.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Helas, c'est le destin de nostre pauvre race!</l>
+            <l>Venus nous est cruelle, et sans cesse nous brasse</l>
+            <l>Une amour dereglee. Et que peut nostre effort</l>
+            <l>Encontre une Deesse, et encontre le fort?</l>
+            <l>Derechef, ô cruel, à vos pieds je me jette,</l>
+            <l>Prenez compassion de moy vostre suiette.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Retirez-vous de moy, ne me venez toucher,</l>
+            <l>Ne me touchez le corps, de peur de me tacher.</l>
+            <l>Comment? elle m'embrasse? Il faut que mon espee,</l>
+            <l>Vengeant si grand forfaict, soit de son sang trempee.</l>
+            <l>Jamais, chaste Diane, à ton nom immortel</l>
+            <l>Un sang mieux consacré n'humecta ton autel.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>C'est ce que je demande. A ceste heure, Hippolyte,</l>
+            <l>Piteux, mettrez vous fin à ma douleur despite.</l>
+            <l>Hippolyte, il ne peut m'arriver plus grand heur,</l>
+            <l>Que mourant par vos mains conserver mon honneur.</l>
+          </sp>
+          <sp who="#hippolyte">
+            <speaker>HIPPOLYTE.</speaker>
+            <l>Allez, vivez infame, et que jamais cet arme,</l>
+            <l>Pollue en vous touchant, le chaste corps ne m'arme.</l>
+            <l>En quel Tigre, en quel Gange, en quel gouffre aboyant,</l>
+            <l>En quelle ondeuse mer m'iray- je nettoyant?</l>
+            <l>Non le grand Ocean, avecques toute l'onde,</l>
+            <l>Dont il lave en flottant ceste grand' maffe ronde,</l>
+            <l>Ne me sçauroit laver. O rochers esgarez!</l>
+            <l>O coûtaux! ô vallons! ô bestes! ô forests!</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Nostre faute est cogneuë: et bien et bien, mon ame,</l>
+            <l>Il faut le prevenir, et luy donner le blâme,</l>
+            <l>Accusons-le luy-mesme, et par nouveau mesfaict</l>
+            <l>Couvrons habilement celuy qu'avons ja faict.</l>
+            <l>» C'est un acte prudent d'avancer une iniure,</l>
+            <l>» Quand nous sommes certains que lon nous la procure.</l>
+            <l>Et qui ne jugera que ce n'ait esté luy</l>
+            <l>Qui ait commis le crime, et puis l'en soit enfuy?</l>
+            <l>Personne n'est pour luy, qui tesmoigner s'efforce.</l>
+            <l>Accourez mes amis, au secours, à la force,</l>
+            <l>On force vostre Royne, accourez, le mechant</l>
+            <l>Luy presse le gofier avec le fer trenchant.</l>
+            <l>Il s'enfuit, il s'enfuit, poursuivez-le à la trace:</l>
+            <l>Il a jetté d'effroy son espee en la place:</l>
+            <l>Il n'a pas eu loisir de l'engainer, au moins</l>
+            <l>Nous avons un bon gage, à faute de tesmoins.</l>
+            <l>Helas! confolez-la, voyez comme elle pleure,</l>
+            <l>Ne touchez à son chef, il vaut mieux qu'il demeure</l>
+            <l>Tout meslé comme il est, pour enfeigne du tort</l>
+            <l>De ce monstre impudique, et de son lasche effort.</l>
+            <l>Appaisez-vous, Madame, et prenez patience,</l>
+            <l>Las! que pouviez-vous faire à telle violence?</l>
+            <l>Laissez cette tristesse, helas! que gaignez-vous</l>
+            <l>De vous plomber ainsi la poitrine de coups?</l>
+            <l>D'outrager vostre face, et par impatience</l>
+            <l>Offenser vos cheveux qui n'ont point faict d'offense?</l>
+            <l>» Celle n'est point blessee en sa pudicité</l>
+            <l>» Qui est prise d'aucun contre la volonté.</l>
+            <l>» On peut forcer le corps, mais l'ame qui est pure,</l>
+            <l>» Maugré le rauisseur est exempte d'iniure.</l>
+          </sp>
+          <sp who="#choeur">
+            <speaker>CHOEUR.</speaker>
+            <l>ALlons faire au temple priere</l>
+            <l>A Pallas la vierge guerriere,</l>
+            <l>Des genoux la terre pressant,</l>
+            <l>Les deux mains vers le ciel dressant:</l>
+            <l>Et penchez devers la Deesse,</l>
+            <l>La supplions que nostre chef</l>
+            <l>Elle vueille garder d'oppresse,</l>
+            <l>Et nostre Cité de mechef.</l>
+            <l>Si les Dieux, les bons Dieux, n'ont cure</l>
+            <l>De conserver leur creature,</l>
+            <l>Et si toy, Minerve, sur tous</l>
+            <l>Ne prens quelque souci de nous:</l>
+            <l>Je prevoy ja mainte tempeste</l>
+            <l>Et maint orage menaçant,</l>
+            <l>Pour nous accravanter la teste,</l>
+            <l>S'aller dessur nous eslançant.</l>
+            <l>» Qu'une femme, que jalousie,</l>
+            <l>» Que haine, ou qu'amour ont faisie,</l>
+            <l>» Est redoutable! et que son cœur</l>
+            <l>» Couve de fielleuse rancœur!</l>
+            <l>» Le trét ensoulfré du tonnerre,</l>
+            <l>» Que Iupin darde, colereux,</l>
+            <l>» Sur une crimineuse terre,</l>
+            <l>» Ne tombe pas si dangereux.</l>
+            <l>» La mer, quand elle escume, enflee,</l>
+            <l>» Du Nort et d'Aquilon soufflee,</l>
+            <l>» Le feu rongeant une Cité,</l>
+            <l>» La peste infectant un Esté,</l>
+            <l>» Et la guerre qui tout saccage,</l>
+            <l>» Sont bien à craindre: et toutesfois</l>
+            <l>» D'une femme l'horrible rage</l>
+            <l>» L'est encore plus mille fois.</l>
+            <l>» Comme une Menade troublee,</l>
+            <l>» Hûlant d'une voix redoublee,</l>
+            <l>» Fait, yure, mille ardans effors,</l>
+            <l>» Des pieds, des mains, de tout le corps,</l>
+            <l>» Le jour qu'à Bacchus le bon pere,</l>
+            <l>» Portant au poing le Thyrse aimé,</l>
+            <l>» Elles vont au haut de Cythere,</l>
+            <l>» Faire l'Orgie accoustumé.</l>
+            <l>» Celle-là forcene en la sorte,</l>
+            <l>» Voire d'une fureur plus forte,</l>
+            <l>Qui dedaignee en son amour,</l>
+            <l>» Porte au cœur la haine à son tour.</l>
+            <l>» Elle ne brasse que vengence,</l>
+            <l>» La vengence la joint tousjours:</l>
+            <l>» Et quoy qu'elle discoure et pense,</l>
+            <l>» Ce ne font que sanglans discours.</l>
+            <l>» Elle tourne et retourne en elle</l>
+            <l>» Mainte mensongere cautelle,</l>
+            <l>» Ardant de venger son refus:</l>
+            <l>» Son esprit regarde confus</l>
+            <l>» Entre mille rufes fardees,</l>
+            <l>» Et là, peschant abondamment,</l>
+            <l>» Y prend, les ayant regardees,</l>
+            <l>» La meilleure à son jugement.</l>
+            <l>» » Puis faulse sous un faux visage</l>
+            <l>» Vomist le fiel de son courage,</l>
+            <l>» Plus mortel que n'est le venin</l>
+            <l>» De quelque serpent Getulin.</l>
+            <l>» De voix, de soupirs et de larmes</l>
+            <l>» Couvre, coupable, son forfaict,</l>
+            <l>» Et avecques les mesmes armes</l>
+            <l>» De son ennemy se desfaict.</l>
+            <l>Iadis l'amante Sthenobee,</l>
+            <l>De pareil dedain enflambee,</l>
+            <l>A son mary Proete accusa</l>
+            <l>Bellerophon, qui refusa,</l>
+            <l>Trop chaste, sa flamme infidelle:</l>
+            <l>Et du regret, qui la servt,</l>
+            <l>De le voir vivre, eschappé d'elle,</l>
+            <l>La cruelle à la mort courut.</l>
+            <l>Du mesme danger fut suivie</l>
+            <l>De Pelé l'innocente vie,</l>
+            <l>Par Acaste Magnesien.</l>
+            <l>Maint et maint heros ancien,</l>
+            <l>Comme toy, bon Amazonide,</l>
+            <l>Voguant en ceste mesme mer,</l>
+            <l>A conneu le cœur homicide</l>
+            <l>Des femmes qu'on ne daigne aimer.</l>
+            <l>Mais s'il y a là haut encore</l>
+            <l>Quelque deïté qu'on adore,</l>
+            <l>S'il y a des Dieux ayans soing</l>
+            <l>D'assister les bons au besoing,</l>
+            <l>Ils permettront que la malice</l>
+            <l>Contre ta vertu rebouchant,</l>
+            <l>Recherra dessur son authrice,</l>
+            <l>Bourreau de son crime mechant.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ACTE IIII.</head>
+        <stage>THESEE. NOURRICE.</stage>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>JE vien du creux sejour des eternelles nuits,</l>
+          <l>Et de la triste horreur des Enfers pleins d'ennuis:</l>
+          <l>A grand' peine mes yeux à paupieres ouvertes,</l>
+          <l>Peuvent voir du beau jour les clairtez decouvertes.</l>
+          <l>Ja la belle Eleusis coupe en ce bouillant mois</l>
+          <l>Les presens de Cerés pour la quatriesme fois,</l>
+          <l>Depuis que sous la voûte horriblement profonde</l>
+          <l>Je pleure mort et vif la perte de ce monde.</l>
+          <l>Encor seroy-je errant dans le Royaume noir</l>
+          <l>Sans Hercul' qui m'osta de ce triste manoir,</l>
+          <l>Tirant le chien portier de sa caverne creuse,</l>
+          <l>Qui m'empeschoit d'ouvrir la porte Stygieuse.</l>
+          <l>Mais je n'ay plus la force et la brave vigueur</l>
+          <l>Qu'auparavant i'avois indomtable de cœur:</l>
+          <l>Mes genoux assoiblis vont tremblant, et à peine</l>
+          <l>Peuvent plus supporter mon corps, leur dure peine.</l>
+          <l>Quel labeur m'a esté, d'avoir depuis le fond</l>
+          <l>De l'enfer, sceu monter jusques icy à mont?</l>
+          <l>D'avoir sceu eviter la mort en la mort mesme,</l>
+          <l>Et de te suivre, Alcide à la force supréme?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Hà maison desolee!</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Hé! quel bruit est-ce là?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Que la mort n'ay-je au cœur!</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Que veut dire cela?</l>
+          <l>Quel tonnerre est-ce cy? quels soupirs? quels encombres?</l>
+          <l>Suis-je encore aux enfers entre les cris des ombres?</l>
+          <l>D'où vient un si grand trouble? est-ce un dueil fait exprés </l>
+          <l>Pour me mieux recevoir me sçachant icy prés?</l>
+          <l>Voyla, voyla vraiment une tempeste deuë</l>
+          <l>A un hoste infernal pour sa premiere veuë.</l>
+          <l>Nourrice, quel tumulte entendé-je entre vous?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Phedre se veut défaire, et ne luy chaut de nous</l>
+          <l>Qui la reconfortons, et qui à chaudes larmes</l>
+          <l>La prions de jetter de sa dextre les armes.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Qui peut à mon retour causer ce deconfort?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>C'est pour vostre retour qu'elle haste sa mort.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Elle veut donc mourir pour me revoir en vie?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Non, mais vostre retour luy en accroist l'envie.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Prend elle desplaisir que je foy' revenu?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Vostre absence luy est un regret continu.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Qui luy cause la mort sçachant bien ma presence?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Je ne sçay, mais je voy que c'est ce qui l'offence.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Quelle nouvelle rage est entree en son cœur?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Un despit, qui la ronge, une triste langueur.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Vos propos ambigus couvrent quelque grand' chose.</l>
+          <l>Dites moy clairement. Qu'a Phedre mon espose?</l>
+          <l></l>
+        </sp>
+        <sp who="#nourrice">
+          <speaker>NOURRICE.</speaker>
+          <l>Elle ne le dit point: elle veut emporter</l>
+          <l>Au tombeau la douleur qui la fait lamenter.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Entrons soudainement, entrons, il n'est pas heure</l>
+          <l>De faire, en perdant temps, icy longue demeure.</l>
+          <l></l>
+        </sp>
+        <div type="configuration">
+          <stage>THESEE. PHEDRE.</stage>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>QUOY? ma chere compagne, est-ce ainsi qu'il vous faut</l>
+            <l>Recevoir vostre espoux? est-ce ainsi qu'il vous chaut </l>
+            <l>De son heureux retour? et que vous prenez joye</l>
+            <l>De le voir eschappé de la mortelle voye?</l>
+            <l>Quelle chaude fureur allez-vous remaschant?</l>
+            <l>Que fait en vostre main ce coutelas tranchant?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Magnanime Thesé, je vous prie à mains jointes</l>
+            <l>Par cet acier luisant pitoyable à mes plaintes,</l>
+            <l>Par le sceptre Royal de vostre empire craint,</l>
+            <l>Par vos enfans aimez le doux soing qui m'estraint,</l>
+            <l>Par vostre heureux retour de la palle demeure,</l>
+            <l>Et par ma cendre aussi, permettez que je meure.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Quelle cause vous meut de desirer la mort?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Si je vous la disois, je perirois à tort,</l>
+            <l>Et le fruict periroit que de la mort i'espere.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Ne le dites qu'à moy je le sçauray bien taire.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>» Ce qu'on veut que quelcun taise fidellement</l>
+            <l>» Le faut soymesme taire, il est sceu autrement.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>» Mais un loyal mary vers sa femme qu'il aime</l>
+            <l>» N'est pas un estranger, c'est un autre elle mesme.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>» Une femme ne doit conter à son mary</l>
+            <l>» chose dont il puisse estre en le sçachant marry.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Que me peut-on conter, qui plus de dueil me cause</l>
+            <l>Que de vous voir mourir sans en sçavoir la cause?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Si de me voir mourir vous prenez quelque esmoy</l>
+            <l>Il n'amoindrira pas quand vous sçaurez pourquoy.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Que me peut proffiter ceste tristesse teuë?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Que vous peut proffiter ceste tristesse sceuë?</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>On remedie au mal quand on le peut sçavoir.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>A celuy que i'endure il n'y a point d'espoir.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Que vous sert donc la mort de tous les maux le pire?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>La mort fait terminer tout angoisseux martyre.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Il n'est rien plus horrible aux hommes que la mort.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Elle est aux affligez un desirable port,</l>
+            <l>Comme à moy qui suis tant de ce monde assouvie,</l>
+            <l>Autrement il fait mal de laisser ceste vie.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Je ne permettray pas que vous donniez la mort.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Vous ne sçauriez qu'y faire avec tout vostre effort.</l>
+            <l>» La mort jamais ne manque à ceux qui la desirent.</l>
+            <l>Ses homicides arcs contre nous tousjours tirent.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Quel mal digne de mort avez-vous doncque fait?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>De vivre si long temps, c'est mon plus grand forfait.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>N'aurez-vous point pitié de ma douleur future?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Rompez vostre douleur dessous ma sepulture.</l>
+            <l>» La mort est moins à craindre, et donne moins d'esmoy</l>
+            <l>» Quand on laisse mourant quelque regret de foy.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Elle ne veut rien dire, il faut que ceste vieille,</l>
+            <l>Il faut que sa nourrice ou vueille, ou ne le vueille,</l>
+            <l>Me le dise en son lieu. Sus qu'on la ferre au corps,</l>
+            <l>Et qu'à force de coups on luy sacque dehors</l>
+            <l>Avec les fouetz sanglans, les secrets de sa Dame.</l>
+            <l>Qu'on ne la laisse point qu'elle n'ait rendu l'ame. </l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Je vous conteray tout, laissez-la, demeurez.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Que pleurez-vous ainsi? qu'est-ce que vous pleurez,</l>
+            <l>Ma mignonne? et pourquoy ne me voulez-vous dire</l>
+            <l>La cause du tourment que vostre cœur soupire?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>O Gouverneur du ciel, qui de ton thrône saint</l>
+            <l>Vois au fond de nos cœurs ce qu'il y a de feint:</l>
+            <l>Et toy alme Soleil, qui la voûte azuree</l>
+            <l>Enlustres au matin de ta lampe doree,</l>
+            <l>Et qui d'un œil veillant perces par le travers</l>
+            <l>Des nuax espoissis tout ce vague univers:</l>
+            <l>Je vous invoque ô Dieux! ô Dieux je vous appelle</l>
+            <l>Tesmoings de mon outrage, et de ma mort cruelle!</l>
+            <l>Les prieres n'ont peu ma constance esmouvoir,</l>
+            <l>Le fer et la menace ont esté sans pouvoir,</l>
+            <l>Le corps a toutesfois endvré violence:</l>
+            <l>Mais de mon chaste sang i'en laveray l'offense.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Qui est le malheureux qui a souillé mon lict?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Un que ne croiriez pas commettre un tel delict.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Qui est-ce? dites tost: Dieux immortels i'affole</l>
+            <l>Que je ne j'ay desia! Sus, en une parolle,</l>
+            <l>Qui est-il? d'où est-il? où va -til le mechant?</l>
+            <l>Viste qu'on coure apres.</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Ce coutelas tranchant</l>
+            <l>Qu'il laissa de frayeur au bruit du populaire,</l>
+            <l>Le voyant vous fera connoistre l'adultere.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>O terre qu'est-ce cy? quel monstre Stygieux,</l>
+            <l>Quel Démon infernal se decouvre à mes yeux?</l>
+            <l>Cette garde doree, et sa riche pommelle</l>
+            <l>Entamee au burin d'une graveure belle,</l>
+            <l>Ont la marque ancienne, et les armes aussi</l>
+            <l>De nos premiers ayeulx qui regnerent icy.</l>
+            <l>Mais où s'est-il fauvé?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Vos gens l'ont veu naguiere</l>
+            <l>Courir palle d'effroy dessus cette poudriere.</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>O sacré geniteur des hommes et des Dieux,</l>
+            <l>O Neptune adoré des flots audacieux,</l>
+            <l>D'où me vient ceste peste en mon lignage, infame?</l>
+            <l>D'où me vient à ma race une si mauditte ame?</l>
+            <l>O ciel! qui bruis souvent la menace, et jamais</l>
+            <l>Ne punis les meschans de foudres abysmés:</l>
+            <l>O ciel, iniuste ciel, qui pardonnes les crimes,</l>
+            <l>Et aux mechancetez, indulgent, nous animes,</l>
+            <l>Que te sert le tonnerre et ce devorant feu,</l>
+            <l>Qui grondant si terrible execute si peu?</l>
+            <l>Mais que te sert encor de perdre ta tempeste,</l>
+            <l>Comme tu fais, battant l'invulnerable teste</l>
+            <l>Des rochers infensez? s'il advient quelque fois</l>
+            <l>Que tu lasches ta foudre apres ses longs abois,</l>
+            <l>Le front et le fourcy des montagnes tes buttes,</l>
+            <l>A tort font outragez de tes tempestes cheutes:</l>
+            <l>Veu qu'ils n'irritent point par mesfaits comme nous,</l>
+            <l>Comme nous malheureux, le celeste courroux.</l>
+            <l>Deuriez-vous, Immortels, souffrir un malefice</l>
+            <l>Si horrible à vos yeux, sans en faire justice?</l>
+            <l>Ne devoit-il pas ardre et tomber tout ardant</l>
+            <l>Au plus creux des enfers, la terre se fendant?</l>
+            <l>O Dieux lens à punir, vous n'advisez qu'aux fautes</l>
+            <l>Qu'on fait entreprenant sur vos magestez hautes!</l>
+            <l>Tu vis monstreux enfant, tu vis donque impuny,</l>
+            <l>Apres m'avoir, ton pere, en ma couche honny?</l>
+            <l>Tu vis, tu vis barbare, et la lampe celeste</l>
+            <l>Aussi claire qu'à moy reluist à ton inceste?</l>
+            <l>Tu vis, tu vis barbare, et n'as point de souci</l>
+            <l>Des Dieux qui font là haut, ny des hommes aussi?</l>
+            <l>Les bestes des forests que tu cours, sanguinaire,</l>
+            <l>Vivent plus chastement en leur brutal repaire.</l>
+            <l>Car bien qu'en leur poitrine il n'entre que fureur,</l>
+            <l>Elles ont toutesfois un tel erime en horreur,</l>
+            <l>Et sans loix et raison qui guident leur courage,</l>
+            <l>Elles portent respect aux degrez du lignage.</l>
+            <l>Mais toy serpent infect, sembles avoir tasché</l>
+            <l>D'assembler mal sur mal, peché dessur peché,</l>
+            <l>Forfaict dessur forfaict, ne pouvant ta luxure</l>
+            <l>Prendre contentement que d'une horrible iniure.</l>
+            <l>Tu t'es fait en un coup coupable triplement,</l>
+            <l>D'adultere, d'inceste, et de violement.</l>
+            <l>O Dieux! vous monstrez bien que vous n'avez plus cure </l>
+            <l>De nous, ny de ce monde errant à l'avanture!</l>
+            <l>Si le soing vous touchoit des affaires humains,</l>
+            <l>S'il vous challoit de nous, ouvrage de vos mains,</l>
+            <l>Ce traistre incestueux, ce violeur de femme,</l>
+            <l>Remply d'impieté, cest adultere infame</l>
+            <l>Ne vivroit à ceste heure, et n'iroit glorieux</l>
+            <l>Si long temps sans trouver la vengence des Cieux.</l>
+            <l>Helas que nostre vie est de fallace pleine!</l>
+            <l>Que de deguisemens en la poitrine humaine!</l>
+            <l>Que les hommes sont feints, et que leurs doubles cœurs </l>
+            <l>Se voilent traistrement de visages mocqueurs!</l>
+            <l>Ce triste forestier, ce chasseur solitaire,</l>
+            <l>En geste, en contenance, et en propos severe,</l>
+            <l>Retiré de plaisirs, fuyant oisiveté,</l>
+            <l>D'un visage rassis sentant sa maiesté,</l>
+            <l>D'un pudique regard, d'un sourci venerable,</l>
+            <l>A le cœur impudent, lascif, abominable.</l>
+            <l>Or cour où tu voudras, traverse vagabond,</l>
+            <l>Les terres et les mers de ce grand monde rond:</l>
+            <l>Cour delà le Sarmate, où le venteux Boree</l>
+            <l>Blanchist le chef grison du froid Hyperboree:</l>
+            <l>Cour jusqu'au Garamante, où les torches d'enhaut</l>
+            <l>Font jaunir le fablon estincelant de chaud:</l>
+            <l>Tu ne sçaurois fuir les vengeresses peines</l>
+            <l>De ton impieté, qui te suivront soudaines:</l>
+            <l>Tu ne sçaurois fuir mes homicides trets,</l>
+            <l>Qui te viendront surprendre aux lieux les plus secrets.</l>
+            <l>Mes trets font inconneus, ils font inevitables,</l>
+            <l>Ils décochent par tout, et blessent incurables:</l>
+            <l>Rien ne leur est couvert, efloigné, destourné,</l>
+            <l>Et d'aucune distance ils n'ont leur coup borné.</l>
+            <l>Cour doncque où tu voudras, tu ne sçaurois tant faire</l>
+            <l>Qu'evites de ton mal le merité falaire.</l>
+            <l>Je te suivray par tout d'un cœur plus animeux</l>
+            <l>Que n'est pour ses petits le sanglier escumeux</l>
+            <l>Apres le caut chasseur, qui d'une main accorte</l>
+            <l>Les a prins en son fort, et larron les emporte.</l>
+            <l>Ne sçais-tu pas, chetif, que Neptune le Roy</l>
+            <l>Des marinieres eaux soumises à sa loy,</l>
+            <l>M'a promis en jurant par les eaux Stygiennes,</l>
+            <l>M'octroyer par trois fois, trois des demandes miennes?</l>
+            <l>O grand Dieu marinier, c'est ores que je veux</l>
+            <l>Te presenter, dolent, le dernier de mes vœux.</l>
+            <l>Fay mon cher geniteur, fay que tout à cette heure</l>
+            <l>En quelque part que soit Hippolyte, il y meure:</l>
+            <l>Qu'il descende aux enfers, appaifant la rancœur</l>
+            <l>Qu'irrité contre luy, je porte dans le cœur.</l>
+            <l>Ne me refuse point, grand Dieu: car ma priere,</l>
+            <l>Bien qu'elle te semble estre (ainsi qu'elle est) meurtriere,</l>
+            <l>Est juste toutefois, et de cerveau rassis</l>
+            <l>Je te requiers en don le meurtre de mon fils.</l>
+            <l>Je n'entreprendroy pas de te faire demande</l>
+            <l>De ce troifiesme vou, que pour chose bien grande:</l>
+            <l>Et si je ne sentoy mon esprit angoissé</l>
+            <l>D'extremes passions extremement pressé.</l>
+            <l>Tu sçais qu'estant là bas aux pieds de Rhadamante,</l>
+            <l>Prisonnier de Pluton sous la voûte relante,</l>
+            <l>T'ay tousjours espargné ce vou, que langoureux</l>
+            <l>Je despens aujourd'huy contre ce malheureux.</l>
+            <l>Souvienne toy, grand Dieu, de ta saincte promesse,</l>
+            <l>Trouble toute la mer, un seul vent ne relaisse</l>
+            <l>Au creux Eolien, mutine avec les flots</l>
+            <l>Tes grans troupeaux monstreux que la mer tient enclos.</l>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <l>Maison desolee! ô maison miserable!</l>
+            <l>O chetive maison, maison abominable!</l>
+            <l>O Phedre infortunee! ô credule Thesé!</l>
+            <l>O trop chaste Hippolyte à grand tort accusé!</l>
+            <l>O moy sur tout cruelle, et digne d'une peine</l>
+            <l>La plus griefue qui soit en l'infernale plaine!</l>
+            <l>C'est par toy, ma Maistresse, et pour couvrir ton mal,</l>
+            <l>Que je tramé sur luy ce crime capital.</l>
+            <l>Hé! le pauvre jeune homme, il est par ma malice</l>
+            <l>Comme le simple agneau qu'on meine au sacrifice.</l>
+            <l>Face des immortels la puissante bonté,</l>
+            <l>Que pour ton faux mesfaict faussement raconté,</l>
+            <l>Ton pere forcenant d'une rage jalouse</l>
+            <l>Ne se fouille en ton sang, trompé de son espuse.</l>
+            <l>Que c'est de nostre vie, helas bons Dieux que c'est</l>
+            <l>Des choses de ce monde, où n'y a point d'arrest!</l>
+            <l>N'aguieres il n'estoit sur la masse terreuse,</l>
+            <l>Famille qui fust tant que cette-cy heureuse,</l>
+            <l>Et aujourd'huy fortune habile en changement,</l>
+            <l>Culbutee à l'envers, l'accable en un moment.</l>
+            <l>Allez Rois, et pensez que l'instable Fortune</l>
+            <l>Ne vous soit comme à nous une crainte commune:</l>
+            <l>Allez, et estimez que la felicité</l>
+            <l>De vos sceptres tant craints, dure en eternité:</l>
+            <l>Vous trebuchez souvent d'une plus grand' ruine,</l>
+            <l>D'autant que vostre main plus puissante domine.</l>
+            <l>» Les grands Rois de ce monde aupres du peuple bas,</l>
+            <l>» Sont comme les rochers, qui vont levant les bras</l>
+            <l>» Si hauts et si puissans sur la planiere terre:</l>
+            <l>» Mais qui souvent aussi sont battus du tonnerre.</l>
+            <l>Hà lugubre maison, aujourd'huy ta grandeur</l>
+            <l>Tombe sous le tifon d'une amoureuse ardeur!</l>
+            <l>Hà Royne desolee! auras-tu le courage</l>
+            <l>De voir faire à ton cœur, à ton cher cœur outrage?</l>
+            <l>De voir innocemment, et par ton faux rapport</l>
+            <l>Ce chaste jouvenceau soupirer à la mort?</l>
+            <l>Et toy pauvre vieillotte, authrice malheureuse</l>
+            <l>D'un esclandre si grand pour ta Dame amoureuse,</l>
+            <l>Pourras-tu regarder le sainct thrône des Dieux!</l>
+            <l>Pourras-tu plus lever la face vers les Cieux,</l>
+            <l>Et tes sanglantes mains, coupables de l'outrage</l>
+            <l>De ce jeune seigneur au plus beau de son âge?</l>
+            <l>Il me semble desia, que les flambeaux ardans</l>
+            <l>Des filles de la Nuict, me bruslent au dedans:</l>
+            <l>Il me semble desia sentir mille tenailles,</l>
+            <l>Mille serpens retors morceler mes entrailles.</l>
+            <l>le porte, ains que je tombe en l'aveugle noirceur</l>
+            <l>Du rivage infernal, mon tourment punisseur.</l>
+            <l>Sus sus descen, meurtriere, en l'Orque avecque celles</l>
+            <l>Qui sont pour leurs mesfaicts en gesnes eternelles.</l>
+          </sp>
+          <sp who="#choeur">
+            <speaker>CHOEUR.</speaker>
+            <l>C'Est aux Dieux, qui connoissent bien</l>
+            <l>Si nous faisons ou mal ou bien:</l>
+            <l>C'est aux Dieux, c'est aux Dieux celestes,</l>
+            <l>Quand on commet quelques mesfaits,</l>
+            <l>De sçavoir ceux qui les ont faits,</l>
+            <l>Et de les rendre manifestes.</l>
+            <l>Leurs yeux percent par le travers</l>
+            <l>De ce lourd-terrestre univers,</l>
+            <l>Et jusque au fond de nos poitrines</l>
+            <l>Descouvrent du plus haut des Cieux,</l>
+            <l>Le dessein artificieux</l>
+            <l>De nos entreprises malignes.</l>
+            <l>Pourquoy donques, Porte-trident,</l>
+            <l>Ne rens-tu ce crime evident?</l>
+            <l>Es-tu seul des Dieux qui ne sçaches</l>
+            <l>Ce qu'au dedans les hommes font,</l>
+            <l>Ignorant que trompeurs ils ont</l>
+            <l>Au cœur maintes secrettes caches?</l>
+            <l>Courrouce toy contre celuy</l>
+            <l>Qui est cause de tout l'ennuy:</l>
+            <l>Poursuy-le seul, et ne te laisse</l>
+            <l>Surmonter, ô juste Neptun,</l>
+            <l>Au cry de ton fils importun,</l>
+            <l>Qui te somme de ta promesse.</l>
+            <l>» La promesse obliger ne doit,</l>
+            <l>» Quand elle est faite contre droit:</l>
+            <l>» Et celuy n'offense, pariure,</l>
+            <l>» Qui refuse le don promis,</l>
+            <l>» Où il s'est librement soubmis,</l>
+            <l>» Si c'est de commettre une iniure.</l>
+            <l>» C'est se decevoir seulement</l>
+            <l>» Que promettre, et fust-ce en ferment,</l>
+            <l>» Quand on engage sa parolle</l>
+            <l>» D'autre chose qu'on ne cuidoit:</l>
+            <l>» Si c'est promesse, elle se doit</l>
+            <l>» Appeller promesse friuole.</l>
+            <l>Qui seroit de si folle erreur,</l>
+            <l>Que lors qu'une ardente fureur</l>
+            <l>Son ami forcené maistrise,</l>
+            <l>De luy bailler s'euertûroit</l>
+            <l>Une dague, qui le tûroit,</l>
+            <l>Sous couleur de l'avoir promise?</l>
+            <l>Ores, Neptune, que Thesé</l>
+            <l>Brusle trop d'ire attisé,</l>
+            <l>D'escouter la voix ne t'avance,</l>
+            <l>De peur qu'à son meurtrier dessein,</l>
+            <l>Trop prompt, ne luy verses au sein</l>
+            <l>Une eternelle repentance.</l>
+            <l>» L'ire defloge la raison</l>
+            <l>» De nostre cerveau sa maison:</l>
+            <l>» Puis y bruit l'ayant delogee,</l>
+            <l>Comme un feu dans un chaume espars,</l>
+            <l>» Ou un regiment de soudars</l>
+            <l>» En une ville saccagee.</l>
+            <l>» Tout ce qui se voit de serpens</l>
+            <l>» Aux deserts d'Afrique rampans,</l>
+            <l>» Des monstres le fameux repaire:</l>
+            <l>» Tout ce qu'aux Hyrcaniques mons</l>
+            <l>» Loge de Tigres vagabons,</l>
+            <l>» N'est tant à craindre qu'un colere:</l>
+            <l>» Qu'un colere, qui maintefois</l>
+            <l>» A tant faict lamenter de Rois,</l>
+            <l>» Despouillez de sceptre et d'Empire:</l>
+            <l>» Qui de tant de braves Citez</l>
+            <l>» A les murs par terre jettez,</l>
+            <l>» Et tant faict de Palais destruire.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ACTE V.</head>
+        <stage>MESSAGER. THESEE.</stage>
+        <sp who="#messager">
+          <speaker>MESSAGER.</speaker>
+          <l>La triste adventure! ô le malheureux sort!</l>
+          <l>O</l>
+          <l>O desastre! ô mechef! ô deplorable mort!</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Il parle d'Hippolyte. O Dieu je te rens grace,</l>
+          <l>Je voy bien que ma voix a eu de l'efficace.</l>
+          <l></l>
+        </sp>
+        <sp who="#messager">
+          <speaker>MESSAGER.</speaker>
+          <l>Las! ne m'avoit assez malhevré le destin,</l>
+          <l>D'avoir veu de mes yeux si pitoyable fin,</l>
+          <l>Sans qu'il me faille encore (ô Fortune cruelle!)</l>
+          <l>Sans qu'il me faille encore en porter la nouvelle?</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Ne crain point, Messager, je veux sçavoir comment</l>
+          <l>Ce mal est advenu, conte-le hardiment.</l>
+          <l></l>
+        </sp>
+        <sp who="#messager">
+          <speaker>MESSAGER.</speaker>
+          <l>Le parler me defaut, et quand je m'y effaye</l>
+          <l>Ma langue lors muette en ma bouche begaye.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Pren courage, et me dy sans ton ame troubler,</l>
+          <l>Quel desastre nouveau vient mon mal redoubler.</l>
+          <l></l>
+        </sp>
+        <sp who="#messager">
+          <speaker>MESSAGER.</speaker>
+          <l>Hippolyte (ô regret! ) vient de perdre la vie.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>I'estoy bien assevré qu'ell' luy feroit ravie,</l>
+          <l>Comme il m'avoit rauy ma femme, ses amours.</l>
+          <l>Mais nonobstant fay moy de sa mort le discours.</l>
+          <l></l>
+        </sp>
+        <sp who="#messager">
+          <speaker>MESSAGER.</speaker>
+          <l>Si tost qu'il fut sorti de la ville fort blesme,</l>
+          <l>Et qu'il eut attelez ses limonniers luy-mesme,</l>
+          <l>Il monte dans le char, et de la droitte main</l>
+          <l>Leve le fouet sonnant, et de l'autre le frein.</l>
+          <l>Les chevaux sonne-pieds d'une course esgalee</l>
+          <l>Vont gallopant au bord de la plaine falee:</l>
+          <l>La poussiere s'esleve, et le char balancé</l>
+          <l>Volle dessus l'essieu comme un trait eslancé.</l>
+          <l>Il se tourne trois fois vers la Cité fuyante,</l>
+          <l>Detestant coleré sa luxure mechante,</l>
+          <l>Sa fraude et trahison, jurant ciel, terre et mer</l>
+          <l>Estre innocent du mal dont on le vient blâmer.</l>
+          <l>Il vous nomme souvent, priant les Dieux celestes,</l>
+          <l>Que les tors qu'on luy fait deviennent manifestes,</l>
+          <l>Et que la verité vous soit cogneuë, à fin</l>
+          <l>Que vous donniez le blasme au coupable à la fin:</l>
+          <l>Quand voicy que la mer soudainement enflee,</l>
+          <l>Sans se voir d'aucun vent comme autrefois soufflee,</l>
+          <l>Mais calme et sommeilleuse, et sans qu'un seul flot d'eau</l>
+          <l>Se pourmenant mutin, luy fist rider la peau:</l>
+          <l>Se hausse jusqu'au ciel, se dresse montagneuse,</l>
+          <l>Tirant tousjours plus grosse à la rive areneuse.</l>
+          <l>Jamais le froid Boree armé contre le Nort,</l>
+          <l>Et le Nort contre luy, ne l'enflerent si fort,</l>
+          <l>Bien qu'ils la troublent toute, et que de la grand' rage</l>
+          <l>Qu'ils la vont boursoufflant, tremble tout le rivage,</l>
+          <l>Que Leucate en gemisse, et que les rocs esmeus</l>
+          <l>Blanchissent tempestez d'orages escumeux.</l>
+          <l>Cette grand' charge d'eau seulement n'espouvante</l>
+          <l>Les vaisseaux mariniers, mais la terre pesante:</l>
+          <l>Elle s'en vient roulant à grands bonds vers le bord,</l>
+          <l>Qui fremist de frayeur d'un si vagueux abord:</l>
+          <l>Nous restons esperdus, redoutant la venuë</l>
+          <l>Et la moitte fureur de ceste ondeuse nuë,</l>
+          <l>Quand nous voyons paroistre ainsi qu'un grand rocher</l>
+          <l>Qui se va fourcilleux dans les astres cacher,</l>
+          <l>La teste avec le col d'un monstre si horrible,</l>
+          <l>Que pour la seule horreur il feroit incredible.</l>
+          <l>Il nage à grand' secousse, et la vague qu'il fend</l>
+          <l>Bouillonnant dans le ciel, comme foudre descend:</l>
+          <l>L'eau se creuse au dessous en une large fosse,</l>
+          <l>Et de flots recourbez tout alentour se bosse:</l>
+          <l>Elle boust, elle escume, et fuit en mugissant</l>
+          <l>Ce monstre, qui se va sur le bord eflançant.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Quelle figure avoit ce monstre si enorme?</l>
+          <l></l>
+        </sp>
+        <sp who="#messager">
+          <speaker>MESSAGER.</speaker>
+          <l>Il avoit d'un Taureau la redoutable forme,</l>
+          <l>De couleur azvré, son col estoit couvert</l>
+          <l>Iusques au bas du front d'une hure à poil vert:</l>
+          <l>Son oreille estoit droitte, et ses deux cornes dures</l>
+          <l>Longues se bigarroyent de diverses peintures:</l>
+          <l>Ses yeux estinceloyent, le feu de ses naseaux</l>
+          <l>Sortoit en respirant comme de deux fourneaux:</l>
+          <l>Son estomac espois luy herissoit de mousse,</l>
+          <l>Il avoit aux costez une grand' tache rousse:</l>
+          <l>Depuis son large col qu'il eslevoit crineux,</l>
+          <l>Il monstroit tout le dos doublement espineux.</l>
+          <l>Il avoit au derriere une monstreuse taille,</l>
+          <l>Qui s'armoit juqu'au bas, d'une pierreuse escaille.</l>
+          <l>Le rivage trembla, les rochers qui n'ont peur</l>
+          <l>Du feu de Iupiter, en fremirent au cœur:</l>
+          <l>Les troupeaux espandus laisserent les campagnes,</l>
+          <l>Le berger palissant s'enfuit dans les montagnes,</l>
+          <l>Le chasseur effroyé quitta cordes et rets,</l>
+          <l>Et courut se tapir dans le sein des forests</l>
+          <l>Sans doute des sangliers ny des Ours, car la crainte</l>
+          <l>Du monstre, a dans leur cœur toute autre peur esteinte.</l>
+          <l>Seul demeure Hippolyte, à qui la peur n'estreint</l>
+          <l>L'estomac de froideur, et le front ne desteint.</l>
+          <l>Il tient haute la face, et graue d'assevrance,</l>
+          <l>De mon pere, dist-il, c'est l'heur et la vaillance</l>
+          <l>D'affronter les Taureaux, je veux en l'imitant</l>
+          <l>Aller à coup de main cettuy-cy combatant.</l>
+          <l>Il empoigne un espieu (car pour lors d'avanture</l>
+          <l>Le bon Heros n'estoit equippé d'autre armure)</l>
+          <l>Et le veut aborder, mais ses chevaux craintiss</l>
+          <l>S'acculant en arriere, et retournant retiss</l>
+          <l>Son char malgré sa force et adroitte conduitte,</l>
+          <l>Tout pantelans d'effroy se jetterent en suitte.</l>
+          <l>Ce Taureau furieux court apres plus leger</l>
+          <l>Qu'un tourbillon de vent, quand il vient saccager</l>
+          <l>L'espoir du laboureur, que les espis il veautre</l>
+          <l>Pelle-mesle couchez dans le champ l'un sur l'autre.</l>
+          <l>Il les fuit, les devance, et dans un chemin creux</l>
+          <l>Fermé de grands rochers se retourne contre eux,</l>
+          <l>Fait sonner son escaille, et roüant en la teste</l>
+          <l>Ses grands yeux enflambez, annonce la tempeste.</l>
+          <l>Comme quand en Esté le ciel se courrouçant</l>
+          <l>Noircist, esclaire, bruit, les hommes menaçant,</l>
+          <l>Le pauvre vigneron presagist par tels signes,</l>
+          <l>S'outrageant l'estomac, le malheur de ses vignes.</l>
+          <l>Aussi tost vient la grefle ainsi que drageons blancs</l>
+          <l>Batre le sainct Bacchus à la teste et aux flancs:</l>
+          <l>Le martelle de coups, et boutonne la terre</l>
+          <l>De ses petits raisins enviez du tonnerre.</l>
+          <l>Ainsi faisoit ce monstre, apprestant contre nous</l>
+          <l>En son cœur enfielé la rage et le courrous.</l>
+          <l>Il s'irrite soymesme, et de sa queuë entorce</l>
+          <l>Se battant les costez, se colere par force.</l>
+          <l>Comme un jeune Taureau, qui bien loing dans un val</l>
+          <l>Voit jaloux sa Genice avecque son rival</l>
+          <l>Errer parmy la plaine, incontinant i beugle</l>
+          <l>Forcenant contre luy d'une fureur aveugle.</l>
+          <l>Mais premier que le joindre il s'effaye au combat,</l>
+          <l>Luitte contre le vent, se fasche, se debat,</l>
+          <l>Pousse du pied l'arene, et dedans une fouche</l>
+          <l>Ses cornes enfonçant, luy mesme s'écarmouche.</l>
+          <l>Lors le preux Hippolyt, qui avecques le fouët,</l>
+          <l>Avecques la parolle et les resnes avoit</l>
+          <l>Retenu ses chevaux, comme un sçavant Pilote</l>
+          <l>Retient contre le vent son navire qui flotte:</l>
+          <l>Ne sçauroit plus qu'y faire, il n'y a si bon frain,</l>
+          <l>Bride, resne, ny voix, qui modere leur train.</l>
+          <l>La frayeur les maistrise, et quoy qu'il s'évertue,</l>
+          <l>Il ne leur peut oster cette crainte testue:</l>
+          <l>Ils se dressent à mont, et de trop grand effort</l>
+          <l>L'escume avec le sang de la bouche leur fort.</l>
+          <l>Ils soufflent des naseaux, et n'ont aucune veine,</l>
+          <l>Nerf ny muscle sur eux qui ne tende de peine.</l>
+          <l>Comme à les arrester il se travaille ainsi,</l>
+          <l>Et qu'eux à reculer se travaillent aussi,</l>
+          <l>Voicy venir le monstre, et à l'heure et à l'heure</l>
+          <l>Les chevaux esperdus rompent toute demeure:</l>
+          <l>S'eflancent de travers, grimpent au roc pierreux,</l>
+          <l>Pensant tousjours l'avoir en suitte derriere eux.</l>
+          <l>Hippolyte au contraire essaye à toute force</l>
+          <l>D'arrester leur carriere, et en vain s'y efforce:</l>
+          <l>Il se penche la teste, et à force de reins,</l>
+          <l>Tire vers luy la bride avecques les deux mains,</l>
+          <l>La face luy degoute, eux que la crainte presse</l>
+          <l>Au lieu de l'arrester, redoublent leur vistesse,</l>
+          <l>Il est contraint de cheoir, et de malheur advient</l>
+          <l>Qu'une longue laniere en tombant le retient,</l>
+          <l>Il demeure empestré, le neud tousjours se ferre,</l>
+          <l>Et les chevaux ardans le trainent contre terre</l>
+          <l>A travers les halliers et les buissons touffus,</l>
+          <l>Qui le vont deschirant avec leurs doigts griffus:</l>
+          <l>La teste luy bondist et reffaute sanglante,</l>
+          <l>De ses membres saigneux la terre est rougissante,</l>
+          <l>Comme on voit un limas qui rampe advantureux</l>
+          <l>Le long d'un fep tortu laisser un trac glaireux.</l>
+          <l>Son estomac ouvert d'un tronc pointu, se vuide</l>
+          <l>De ses boyaux trainez sous le char homicide:</l>
+          <l>Sa belle ame le laisse, et va conter là bas,</l>
+          <l>Passant le fleuve noir, son angoisseux trespas.</l>
+          <l>De les yeux etherez la luisante prunelle</l>
+          <l>Morte se va couvrant d'une nuit eternelle.</l>
+          <l>Nous que la peur avoit dés le commencement</l>
+          <l>Separez loing de luy, accourons vistement</l>
+          <l>Où le sang nous guidoit d'une vermeille trace,</l>
+          <l>Et là nous arrivons à l'heure qu'il trespasse.</l>
+          <l>Car les liens de cuir, qui le ferroyent si fort,</l>
+          <l>Rompirent d'advanture usez de trop d'effort,</l>
+          <l>Et le laisserent prest de terminer la peine,</l>
+          <l>Qu'il retenoit encore avec un peu d'haleine.</l>
+          <l>Ses chiens autour de luy piteusement hurlans</l>
+          <l>Se monstroyent du malheur de leur maistre dolens:</l>
+          <l>Nous qui l'avons servi, nous jettons contre terre,</l>
+          <l>Nous deschirons la face, et chacun d'une pierre</l>
+          <l>Nous plombons la poitrine, et de cris esclatans,</l>
+          <l>Palles et desormez, l'allons tous lamentans.</l>
+          <l>Les uns luy vont baisant les jambes desia roides,</l>
+          <l>Les autres l'estomac, les autres ses mains froides:</l>
+          <l>Nous luy disons adieu, maudissant le destin,</l>
+          <l>Le char, les limmonniers, et le monstre marin,</l>
+          <l>Causes de son malheur: puis dessur nos espaules</l>
+          <l>L'apportons veuf de vie estendu sur des gaules.</l>
+          <l>Or je me suis hasté pour vous venir conter</l>
+          <l>Ce piteux accident, qu'il vous convient domter.</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>J'ay pitié de son mal, bien qu'un cruel supplice</l>
+          <l>Ne soit digne vengence à si grand malefice.</l>
+          <l></l>
+        </sp>
+        <sp who="#messager">
+          <speaker>MESSAGER.</speaker>
+          <l>Si vous avez voulu qu'il mourust, et pourquoy</l>
+          <l>De sa mort poursuivie avez-vous de l'esmoy?</l>
+          <l></l>
+        </sp>
+        <sp who="#thesee">
+          <speaker>THESEE.</speaker>
+          <l>Je ne suis pas dolent qu'il ait perdu la vie,</l>
+          <l>Mais seulement dequoy je la luy ay ravie.</l>
+          <l></l>
+        </sp>
+        <sp who="#messager">
+          <speaker>MESSAGER.</speaker>
+          <l>Dequoy sert vostre dueil? soit bien fait, ou mal fait,</l>
+          <l>Il ne peut desormais qu'il ne demeure fait.</l>
+          <l>Prenez donc patience, et faites qu'on luy dresse</l>
+          <l>La pompe d'un tombeau digne de sa noblesse.</l>
+          <l></l>
+        </sp>
+        <div type="configuration">
+          <stage>PHEDRE. THESEE.</stage>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>Malheureuse Royne entre celles qui font</l>
+            <l>O Regorgeant de malheurs par tout ce monde rond!</l>
+            <l>O mechante homicide! ô detestable femme!</l>
+            <l>O cruelle! ô traistresse! ô adultere infame!</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Quelle nouvelle rage entre en vous maintenant?</l>
+            <l>Pour quel nouveau desastre allez-vous forcenant?</l>
+            <l>Dites, ma douce Amie, avez-vous receu ores</l>
+            <l>Quelque nouvel ennuy, que je poursuive encores?</l>
+          </sp>
+          <sp who="#phedre">
+            <speaker>PHEDRE.</speaker>
+            <l>O credule Thesee, et par mon faux rapport</l>
+            <l>Faict coupable du sang de ce pauvre homme mort!</l>
+            <l>Apprenez de ne croire aux plaintes sanguinaires,</l>
+            <l>Que vous font mechamment vos femmes adulteres.</l>
+            <l>Hippolyte Hippolyte, helas! je romps le cours,</l>
+            <l>Par une ardante amour, de vos pudiques jours.</l>
+            <l>Pardonnez-moy, ma vie, et sous la sepulture</l>
+            <l>N'enfermez indigné cette implacable iniure:</l>
+            <l>Je suis vostre homicide, Hippolyte, je suis</l>
+            <l>Celle qui vous enferme aux infernales nuits:</l>
+            <l>Mais de mon sang lascif je vay purger l'offense</l>
+            <l>Que i'ay commise à tort contre vostre innocence.</l>
+            <l>O Terre! créue toy, créue toy, fends ton sein,</l>
+            <l>Et m'englouti cruelle en un gouffre inhumain.</l>
+            <l>Et toy porte-trident Neptune Roy des ondes,</l>
+            <l>Que n'as-tu dechaisné tes troupes vagabondes</l>
+            <l>Contre mon traistre chef, plustost que par un vœu</l>
+            <l>Faict d'un homme credule, occire ton nepueu?</l>
+            <l>Je suis seule coupable, et suis la malheureuse</l>
+            <l>Qui t'ay faict despouiller cette ame vertueuse.</l>
+            <l>Que pleust aux justes Dieux, que jamais du Soleil</l>
+            <l>Naissant je n'eusse veu le visage vermeil!</l>
+            <l>Ou si je l'eusse veu, qu'une rousse Lionne</l>
+            <l>M'eust petite engloutie en sa gorge felonne,</l>
+            <l>A fin que devoree en cet âge innocent</l>
+            <l>Je ne fusse aujourd'huy ce beau corps meurtrissant!</l>
+            <l>O moy pire cent fois que ce Monstre mon frere,</l>
+            <l>Ce monstre Homme-toreau deshonneur de ma mere!</l>
+            <l>Thesé s'en peut garder, mais de mon cœur malin</l>
+            <l>Vous n'avez, Hippolyte, evité le venin.</l>
+            <l>Les bestes des forests, tant fussent-elles fieres,</l>
+            <l>Les Sangliers, les Lions, les Ourfes montagneres</l>
+            <l>N'ont peu vous offenser, et moy d'un parler feint</l>
+            <l>Irritant vostre pere, ay vostre jour esteint.</l>
+            <l>Las! où est ce beau front? où est ce beau visage,</l>
+            <l>Ces beaux yeux martyrans, nostre commun dommage?</l>
+            <l>Où est ce teint d'albastre, où est ce brave port,</l>
+            <l>Helas helas! où font ces beautez, nostre mort?</l>
+            <l>Ce n'est plus vous, mon cœur, ce n'est plus Hippolyte:</l>
+            <l>Las! avecques sa vie est sa beauté destruite.</l>
+            <l>Or recevez mes pleurs, et n'allez reboutant</l>
+            <l>La chaste affection de mon cœur repentant:</l>
+            <l>Recevez mes soupirs, et souffrez que je touche</l>
+            <l>De ce dernier baiser à vostre tendre bouche.</l>
+            <l>Belle ame, si encor vous habitez ce corps,</l>
+            <l>Et que tout sentiment n'ayez tiré dehors,</l>
+            <l>S'il y demeure encor de vous quelque partie,</l>
+            <l>Si vous n'estes encor de luy toute partie,</l>
+            <l>Je vous prie, ombre sainte, avec genous pliez,</l>
+            <l>Les bras croisez sur vous, mes fautes oubliez.</l>
+            <l>Je n'ay point de regret de ce que je trespasse,</l>
+            <l>Mais dequoy trespassant je n'ay pas vostre grace:</l>
+            <l>La mort m'est agreable, et me plaist de mourir.</l>
+            <l>Las! et que puis-je moins qu'ore à la mort courir</l>
+            <l>Ayant perdu ma vie, et l'ayant, malheureuse,</l>
+            <l>Perdue par ma faute en ardeur amoureuse?</l>
+            <l>Le destin envieux et cruel n'a permis</l>
+            <l>Que nous puissions vivans nous embrasser amis:</l>
+            <l>Las! qu'il permette aumoins que de nos ames vuides</l>
+            <l>Nos corps se puissent joindre aux sepulchres humides.</l>
+            <l>Ne me refusez point, Hippolyte, je veux</l>
+            <l>Amortir de mon sang mes impudiques feux.</l>
+            <l>Mes propos ne font plus d'amoureuse destresse,</l>
+            <l>Je n'ay rien de lascif qui vostre ame reblesse:</l>
+            <l>Oyez-moy hardiment, je veux vous requerir</l>
+            <l>Pardon de mon mesfait, devant que de mourir.</l>
+            <l>O la plus belle vie, et plus noble de celles</l>
+            <l>Qui pendent aux fuseaux des fatales Pucelles!</l>
+            <l>O digne, non de vivre en ce rond vicieux,</l>
+            <l>Mais au ciel nouvel astre entre les demy-Dieux!</l>
+            <l>Las vous estes esteinte, ô belle et chere vie,</l>
+            <l>Et plustost qu'il ne faut vous nous estes ravie!</l>
+            <l>Comme une belle fleur, qui ne faisant encor</l>
+            <l>Qu'entr'ouvrir à demy son odoreux thresor,</l>
+            <l>Atteinte d'une grefle à bas tombe fanie</l>
+            <l>Devant que d'estaller sa richeffe espanie.</l>
+            <l>Or sus flambante espee, or sus appreste toy,</l>
+            <l>Fidelle à ton seigneur, de te venger de moy:</l>
+            <l>Plonge toy, trempe-toy jusques à la pommelle</l>
+            <l>Dans mon sang, le repas de mon ame bourrelle.</l>
+            <l>Mon cœur, que trembles-tu? quelle soudaine horreur,</l>
+            <l>Quelle horreur frissonnant allentist ta fureur?</l>
+            <l>Quelle affreuse Megere à mes yeux se presente?</l>
+            <l>Quels serpens encordez, quelle torche flambante?</l>
+            <l>Quelle rive escumeuse, et quel fleuve grondant,</l>
+            <l>Quelle rouge fournaise horriblement ardant?</l>
+            <l>Hà ce font les Enfers, ce les font, ils m'attendent,</l>
+            <l>Et pour me recevoir leurs cavernes ils fendent.</l>
+            <l>Adieu Soleil luisant, Soleil luisant adieu,</l>
+            <l>Adieu triste Thesee, adieu funebre lieu:</l>
+            <l>Il est temps de mourir, sus que mon sang ondoye</l>
+            <l>Sur ce corps trespassé, courant d'une grand' playe.</l>
+          </sp>
+          <sp who="#choeur">
+            <speaker>CHOEUR.</speaker>
+            <l>FAisons, ô mes compagnes,</l>
+            <l>Retentir les montagnes,</l>
+            <l>Et les rochers secrets,</l>
+            <l>De nos regrets.</l>
+            <l>Que la mer, qui arrive</l>
+            <l>Vagueule à nostre rive,</l>
+            <l>Face rider les flots</l>
+            <l>De nos sanglots.</l>
+            <l>Que les larmes roulantes</l>
+            <l>De nos faces dolentes,</l>
+            <l>Des fablonneux ruisseaux</l>
+            <l>Enflent les eaux.</l>
+            <l>Et toy Soleil, lumiere</l>
+            <l>Du monde journaliere,</l>
+            <l>Cache ton œil honteux</l>
+            <l>D'un ciel nuiteux.</l>
+            <l>Nos fortunes funebres</l>
+            <l>Se plaisent aux tenebres,</l>
+            <l>Commodes font les nuits</l>
+            <l>A nos ennuis.</l>
+            <l>Dequoy plus nostre vie</l>
+            <l>Sçauroit avoir envie</l>
+            <l>En ce funeste dueil,</l>
+            <l>Que du cercueil?</l>
+            <l>Ville Mopsopienne,</l>
+            <l>Ta grandeur ancienne</l>
+            <l>Sent du sort inhumain</l>
+            <l>La dure main.</l>
+            <l>Iupiter nostre pere</l>
+            <l>Jamais de main feuere</l>
+            <l>Ne combla tant Cité</l>
+            <l>D'adversité.</l>
+            <l>Or ces corps, dont la Parque</l>
+            <l>L'ame et la vie embarque,</l>
+            <l>Honorons de nos pleurs</l>
+            <l>Au lieu de fleurs.</l>
+            <l>Les pleurs doivent sans cesse,</l>
+            <l>Tombant en pluye espesse,</l>
+            <l>Témoigner la langueur</l>
+            <l>De nostre cœur.</l>
+            <l>Plombons nostre poitrine</l>
+            <l>D'une dextre mutine,</l>
+            <l>Et nous faisons de coups</l>
+            <l>L'estomac roux.</l>
+            <l>Que sçaurions-nous mieux faire,</l>
+            <l>Voyant le ciel contraire</l>
+            <l>Ruer tant de mechef</l>
+            <l>Sur nostre chef?</l>
+          </sp>
+          <sp who="#thesee">
+            <speaker>THESEE.</speaker>
+            <l>Ciel! ô Terre mere! ô profonde caverne</l>
+            <l>O Des Démons enfoulfrez, inevitable Auerne!</l>
+            <l>O Rages! ô Fureurs! ô Dires, les esbats</l>
+            <l>Des coupables esprits, qui devalent là bas!</l>
+            <l>Erebe, Phlegethon, et toy pleureux Cocyte,</l>
+            <l>Qui te traines errant d'une bourbeuse fuite.</l>
+            <l>Vous Serpens, vous Dragons, vous Pestes, et vous tous</l>
+            <l>Implacables bourreaux de l'infernal courroux,</l>
+            <l>Naurez, battez, bruslez mon ame criminelle,</l>
+            <l>De fer, de foüets sonnans, et de flamme eternelle.</l>
+            <l>J'ay mechant parricide, aveuglé de fureur,</l>
+            <l>Faict un mal, dont l'enfer auroit mesmes horreur.</l>
+            <l>j'ay meurtry mon enfant, mon cher enfant (ô blasme!)</l>
+            <l>Pour n'avoir pleu, trop chaste, à ma mechante femme!</l>
+            <l>pere miserable! ô pere malheureux!</l>
+            <l>O pere infortuné, chetif et langoureux!</l>
+            <l>Hé hé! que fay-je au monde? et que sous moy la terre</l>
+            <l>Ne se fend, et tout vif en ses flancs ne m'enserre?</l>
+            <l>Peut bien le ciel encore, et ses hostes les Dieux,</l>
+            <l>Me souffrir regarder le Soleil radieux?</l>
+            <l>Peut bien le Dieu tonnant, le grand Dieu qui nous lance</l>
+            <l>La foudre et les esclairs, me laisser sans vengence?</l>
+            <l>Las! que ne suis-je encore, où i'estois, aux enfers,</l>
+            <l>Enfermé pieds et mains d'insupportables fers?</l>
+            <l>Et pourquoy de Pluton m'as-tu recous, Alcide,</l>
+            <l>Pour rentrer plus coupable, au creux Acherontide?</l>
+            <l>Eac' ne te tourmente, encores que je sois</l>
+            <l>Eschapé de ta geole, où vif je languissois,</l>
+            <l>Je porte mon martyre: et pour changer de place</l>
+            <l>Je n'ay changé mon dueil, qui me fuit à la trace.</l>
+            <l>Je suis comblé d'angoisse, et croy que tout le mal</l>
+            <l>Des esprits condamnez n'est pas au mien egal.</l>
+            <l>Puis je vay redescendre, attrainant dans l'abysme</l>
+            <l>Ma femme et mon enfant, devalez par mon crime:</l>
+            <l>le meine ma maison, que i'estois tout exprés</l>
+            <l>Venu precipiter, pour trebucher aprés.</l>
+            <l>Sus, que tardes-tu donc? une crainte couarde</l>
+            <l>Te rend elle plus mol que ta femme paillarde?</l>
+            <l>Craindras-tu de t'ouvrir d'une dague le flanc?</l>
+            <l>Craindras -tu de vomir une mare de sang,</l>
+            <l>Où tu laves ta coulpe, et l'obseque tu payes</l>
+            <l>Au corps froid d'Hippolyte, et rechausses ses playes?</l>
+            <l>Non, tu ne dois mourir: non non tu ne dois pas</l>
+            <l>Expier ton forfait par un simple trespas.</l>
+            <l>Mais fi, tu dois mourir, à fin que tu endures</l>
+            <l>Plustost sous les Enfers tes miseres futures.</l>
+            <l>Non, tu ne dois mourir: car peut estre estant mort,</l>
+            <l>Ton beau pere Minos excuseroit ton tort,</l>
+            <l>Et sans peine et destresse irois de ton offence</l>
+            <l>Boire en l'oublieux fleuve une longue oubliance.</l>
+            <l>Il vaut donc mieux survivre, il me vaut donques mieux</l>
+            <l>Que je vive en langueur tant que voudront les Dieux.</l>
+            <l>Il vaut mieux que je vive, et repentant je pleure,</l>
+            <l>Je sanglotte et gemisse, et puis en fin je meure.</l>
+            <l>En quel roc caverneux, en quel antre escarté</l>
+            <l>(Que ne dore jamais la celeste clarté)</l>
+            <l>Porteray-je ma peine? en quel desert sauvage</l>
+            <l>Useray- je l'ennuy de mon sanglant veuvage?</l>
+            <l>Je veux choisir un lieu commode à mon tourment,</l>
+            <l>Où le mortel Hibou lamente incessamment:</l>
+            <l>Où n'arrive personne, où tousjours l'hiver dure,</l>
+            <l>Où jamais le Printemps ne feme sa verdure:</l>
+            <l>Que tout y soit funebre, horrible et furieux,</l>
+            <l>Et que tousjours mon mal se presente à mes yeux.</l>
+            <l>Là pour sur moy venger, et sur le bleu Neptune,</l>
+            <l>Mon fils par nous meurtry d'une faute commune:</l>
+            <l>Diane, puisses-tu faire sortir dehors</l>
+            <l>De tes bois un Lion, qui derompe mon corps,</l>
+            <l>Et mes membres moulus cuise dans ses entrailles,</l>
+            <l>Indignes d'autre tombe, et d'autres funerailles.</l>
+            <l>Or adieu mon enfant, que bien tost puisses-tu</l>
+            <l>Voir les champs Elysez, loyer de ta vertu.</l>
+            <l>Que puisses-tu bien tost dedans l'onde oublieuse</l>
+            <l>Ensevelir mon crime, et ta mort outrageuse.</l>
+            <l>Adieu mon fils adieu, je m'en vay langoureux</l>
+            <l>Consommer quelque part mon âge malheureux </l>
+          </sp>
+        </div>
+        <trailer>FIN DE LA TRAGEDIE D'HYPPOLITE</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>
