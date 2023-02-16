@@ -1,0 +1,4115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="dracor-id" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La más costante mujer</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Juan</forename>
+            <surname>Maldonado</surname>
+          </persName>
+          <idno type="wikidata">Q114664654</idno>
+          <idno type="pnd"/>
+        </author>
+        <author>
+          <persName>
+            <forename>Juan</forename>
+            <surname>de la Dueña</surname>
+          </persName>
+          <idno type="wikidata">Q114664534</idno>
+          <idno type="pnd"/>
+        </author>
+        <author>
+          <persName>
+            <forename>Jerónimo</forename>
+            <surname>de Cifuentes</surname>
+          </persName>
+          <idno type="wikidata">Q114664727</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Biblioteca Áurea Digital</name>
+          <idno type="URL">https://dadun.unav.edu/bitstream/10171/59633/1/BIADIG61_DADUN.pdf</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-NC 3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by-nc/3.0/de/legalcode"
+                >Licence</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>Maldonado, Juan, de la Dueña, Diego, y Jerónimo de Cifuentes: La más costante mujer. In: Carlos Mata Induráin (coord.): Antología de la literatura burlesca del Siglo de Oro. Volumen 8. Comedias burlescas. [BIADIG 61]. Pamplona: Servicio de Publicaciones de la Universidad de Navarra, 2020.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="serón" sex="MALE">
+            <persName>SERÓN</persName>
+          </person>
+          <person xml:id="flora" sex="FEMALE">
+            <persName>FLORA</persName>
+          </person>
+          <person xml:id="rosaura" sex="FEMALE">
+            <persName>ROSAURA</persName>
+          </person>
+          <person xml:id="carlos" sex="MALE">
+            <persName>CARLOS</persName>
+          </person>
+          <person xml:id="duque" sex="MALE">
+            <persName>DUQUE</persName>
+          </person>
+          <person xml:id="laura" sex="FEMALE">
+            <persName>LAURA</persName>
+          </person>
+          <person xml:id="isabel" sex="FEMALE">
+            <persName>ISABEL</persName>
+          </person>
+          <person xml:id="conde" sex="MALE">
+            <persName>CONDE</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-10-14">(LG) first formatting and encoding.</change>
+        <change when="2023-02-08"> (LG) updated formatting. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1659">
+        <desc/>
+      </event>
+      <event type="premiere" when="1658">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>PERSONAS</head>
+        <castItem>CARLOS ESFORCIA</castItem> 
+        <castItem>EL DUQUE DE MILÁN</castItem>
+        <castItem>ROSAURA, <roleDesc>su hermana</roleDesc></castItem>
+        <castItem>LAURA, <roleDesc>criada</roleDesc></castItem>
+        <castItem>ISABEL BORROMEO</castItem>
+        <castItem>FLORA, <roleDesc>criada</roleDesc></castItem>
+        <castItem>SERÓN, <roleDesc>gracioso</roleDesc></castItem>
+        <castItem>EL CONDE DE PUZOL</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head>JORNADA PRIMERA</head>
+        <stage>Salen Isabel, Flora y Serón, deteniendo a Carlos.</stage>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No has de salir, ¡vive el cielo!,</l>
+          <l>sin darme satisfación</l>
+          <l>primero desta partida.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Déjame, Isabel, que estoy</l>
+          <l>para dar un estallido.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿De qué?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>De comer arroz.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué es dejarte?, ¿soy yo boba?</l>
+          <l>Ayúdame tú, Serón.</l>
+          <l>Tenle, Flora.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>No me atrevo.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Pues si no podéis los dos,</l>
+          <l>decidle a mi repostero</l>
+          <l>que me traiga un tenedor.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <stage>Aparte.</stage>
+          <l>(Ella le quiere trinchar.)</l>
+          <l>¡Pobre Carlos, si topó</l>
+          <l>coyuntura para hacer</l>
+          <l>platillo de su razón!</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¡Suelta, corchete del alma;</l>
+          <l>suelta, alguacil del amor!</l>
+          <l>Llévame como a hombre honrado,</l>
+          <l>que ya me doy a prisión.</l>
+          <l>Suelta y verasme en las nubes</l>
+          <l>y en ese ardiente farol</l>
+          <l>volar como un jabalí</l>
+          <l>y correr como un halcón.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Si valen algo contigo,</l>
+          <l>Carlos, el hipo y la tos,</l>
+          <l>verdades de Perogrullo</l>
+          <l>y mentiras de Muñoz,</l>
+          <l>dime, ¿dónde vas así?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Adónde? A tomar el sol.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué te ha sucedido para</l>
+          <l>tan gran desesperación?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Que te gané ayer al truque</l>
+          <l>y te he vuelto a perder hoy.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Perderme a mí?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Para siempre.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Quién esa suerte juzgó?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Mi desdicha fue, sin duda...</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Mi dicha dijera yo.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Declárate más.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>No puedo.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Dilo con el corazón</l>
+          <l>si no puedes con la boca,</l>
+          <l>que por señas se explicó,</l>
+          <l>si no puede de otra suerte,</l>
+          <l>agonizando el amor.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Pues digo...</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No digas más.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Jesús, qué grande hablador!</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Quien habla mucho, el adagio</l>
+          <l>dice que todo lo erró.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Vuelve a decirme la causa,</l>
+          <l>Carlos, que se me olvidó.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Es que tu padre te casa</l>
+          <l>con el conde de Punzón,</l>
+          <l>y es un conde tan agudo</l>
+          <l>que jura, a fee de quien soy,</l>
+          <l>que te ha de hacer un ojete</l>
+          <l>en medio del corazón.</l>
+          <l>Por esto y porque no quiero,</l>
+          <l>Isabela, verlo, no,</l>
+          <l>que no eres tú tan de cera</l>
+          <l>ni tan de pabilo yo</l>
+          <l>que en ti no haga señal</l>
+          <l>y en mi no haga impresión.</l>
+          <l>Por esto de la cabaña</l>
+          <l>me ausento, digo me voy</l>
+          <l>o me mudo, pues te mudas</l>
+          <l>a la cabaña de Antón.</l>
+          <l>¿No es bastante causa?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Sí.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Luego, ¿bien he dicho?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Pues qué he de hacer?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué? Callar</l>
+          <l>como en misa o en sermón,</l>
+          <l>y llégate por un lado</l>
+          <l>diciéndome: «Una de dos,</l>
+          <l>o casarte con tu padre</l>
+          <l>o echarme la bendición».</l>
+          <l>Que si yo no respondiere,</l>
+          <l>Carlos, muy a tu sabor,</l>
+          <l>entonces te podrás ir</l>
+          <l>a cantar a un facistol.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Qué importa?, si para hablarte</l>
+          <l>he mudado ya la voz</l>
+          <l>y el amor que nació en tiple</l>
+          <l>es ya contrabajo amor.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿No hay un papel?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Vale caro,</l>
+          <l>y un papel lleva en rigor</l>
+          <l>las lágrimas, las congojas,</l>
+          <l>las penas y el fuego atroz</l>
+          <l>de un suspiro que se abrasa</l>
+          <l>si hace un poco de calor.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Pues dime aquí lo que pasa</l>
+          <l>y habla recio, porque estoy</l>
+          <l>teniente de aqueste oído</l>
+          <l>y deste corregidor.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Va de cuento, ¿estamos solos?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No lo sé, pero Serón</l>
+          <l>y Flora podrán decirlo.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Tan solos estáis, ¡por Dios!,</l>
+          <l>que si Góngora (que fue</l>
+          <l>quien Soledades amó)</l>
+          <l>os hallara así, os hiciera</l>
+          <l>espárragos del amor.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Pues digo que, como sabes</l>
+          <l>de tus rayos guardasol,</l>
+          <l>por librarme de las chispas</l>
+          <l>que despide tu eslabón</l>
+          <l>en mi sufrimiento, que es</l>
+          <l>de Rupelo mi valor.</l>
+          <l>Y sabes también los chismes</l>
+          <l>que Estéfano Cervellón</l>
+          <l>publicó en Grecia, en Arabia,</l>
+          <l>en Galicia y Extremo?,</l>
+          <l>de donde se fabricaron</l>
+          <l>los bandos que lloran hoy</l>
+          <l>Esforcias y Bórrameos</l>
+          <l>en uno y otro rincón,</l>
+          <l>haciendo dos mil pucheros</l>
+          <l>pues con fiero torcedor</l>
+          <l>barro les dan a la mano</l>
+          <l>a todos en Alcorcón.</l>
+          <l>Aquesto supuesto, digo</l>
+          <l>que el Duque ayer me contó</l>
+          <l>(que gusta de andar en cuentos)</l>
+          <l>que tu padre le pidió,</l>
+          <l>por palabras de presente</l>
+          <l>como por amor de Dios,</l>
+          <l>que te casase en Jarama</l>
+          <l>con el mismo que heredó</l>
+          <l>al toro de las dos madres</l>
+          <l>y en tan gran confusión</l>
+          <l>para casarte, Isabel,</l>
+          <l>le dio la plaza mayor.</l>
+          <l>Quedó contento y pagado</l>
+          <l>tu padre.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Y qué respondió?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Respondió: «Dominus tecum»</l>
+          <l>cuando el Duque estornudó</l>
+          <l>el dote con que te hizo</l>
+          <l>sin ninguna intercesión</l>
+          <l>señora de horca y cuchillo</l>
+          <l>para juez pesquisidor.</l>
+          <l>Esto es lo que me congoja</l>
+          <l>y que también añadió:</l>
+          <l>«Como no le deis Esforcia,</l>
+          <l>dadle a Juan de Espera en Dios».</l>
+          <l>Pero no es esto lo más,</l>
+          <l>Isabel, que lo peor</l>
+          <l>es que quiere hacer Rosaura</l>
+          <l>al Duque margaritón</l>
+          <l>para que te case, y que</l>
+          <l>me vaya a espulgar yo al sol.</l>
+          <l>Si hablo al Duque, está empeñado</l>
+          <l>por otro en un bodegón;</l>
+          <l>si a Rosaura, se hace sorda</l>
+          <l>porque un moño no la doy;</l>
+          <l>si a tu padre, está tan viejo</l>
+          <l>que apenas oirá mi voz;</l>
+          <l>si callo, quedo por puertas;</l>
+          <l>si hablo, ¿para qué son</l>
+          <l>tanta flecha y tantos rayos,</l>
+          <l>y tanto severo arpón?</l>
+          <l>Mejor es morir cantando</l>
+          <l>con licencia del dotor</l>
+          <l>o curarme por ensalmo</l>
+          <l>aunque el remedio es atroz.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>De suerte he quedado, si,</l>
+          <l>de suerte he quedado, no,</l>
+          <l>que a penas y a glorias anda</l>
+          <l>por el aire el corazón.</l>
+          <l>¡Ah, más altas son mis alas,</l>
+          <l>Luzbel de mi presunción!</l>
+          <l>Pero aunque es grande la pena</l>
+          <l>que me llena el fiel de amor,</l>
+          <l>no importa, que para todo</l>
+          <l>le he hurtado yo afición.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Daste por vencida ya</l>
+          <l>deste que sí que es?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No doy.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Pues qué has de hacer?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Basta, Carlos,</l>
+          <l>que es vergüenza, ¡vive Dios!,</l>
+          <l>que un hombre con tantas barbas</l>
+          <l>quiera hacerse tundidor.</l>
+          <l>Cuando yo contra los vientos</l>
+          <l>y tormentas que formó</l>
+          <l>tu imaginación soy roca</l>
+          <l>de lana, no de algodón,</l>
+          <l>que a los embates de un padre,</l>
+          <l>de un tirano, de un señor</l>
+          <l>tan fija estoy que me tienen</l>
+          <l>por un tudesco amador,</l>
+          <l>tú pides cuartel y dejas</l>
+          <l>la plata por el vellón.</l>
+          <l>Yo te doy, aunque prestado,</l>
+          <l>que el Duque con gran furor</l>
+          <l>dé en aquesta bobería</l>
+          <l>y que mi padre, te doy,</l>
+          <l>venga en ello, porque hogaño</l>
+          <l>es aquí el padre prior</l>
+          <l>y ajustándose con él</l>
+          <l>me case una vez u dos,</l>
+          <l>¿qué viene a importar, si sabes,</l>
+          <l>Carlos, que estás (¡muerta soy!)</l>
+          <l>tan bien recibido en</l>
+          <l>la república de amor</l>
+          <l>que todos siete sentidos</l>
+          <l>por su rey te aclaman hoy?</l>
+          <l>¿Por qué así te has de rendir</l>
+          <l>ni te escarba la conciencia</l>
+          <l>el gallo de mi pasión.</l>
+          <l>Que por no llegar a vieja,</l>
+          <l>que es la desdicha mayor,</l>
+          <l>me he de morir de dos años</l>
+          <l>o ser moza de mesón,</l>
+          <l>donde con mis manos libres</l>
+          <l>te cantaré a mi labor.</l>
+          <stage>Cantando.</stage>
+          <l>Cautivo y desesperado,</l>
+          <l>cantáis, jilguero, al albor.</l>
+          <l>No cantéis, que es escusado,</l>
+          <l>que quien canta enamorado</l>
+          <l>o burla de su cuidado</l>
+          <l>o no sabe qué es amor.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Señora...</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>La gurullada</l>
+          <l>y el Duque con ciento y dos</l>
+          <l>alguaciles de la villa</l>
+          <l>vienen por el corredor.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Y todos vienen rabiando</l>
+          <l>buscando un saludador.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¡Aprisa, aprisa, que salen!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Que te quedas?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Que me voy.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Ve diciendo «Aparta, aparta»,</l>
+          <l>no des algún tropezón.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Por cierto que eres discreta.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Eso juráralo yo.</l>
+        </sp>
+        <stage>Salen el Conde, Rosaura, el Duque y acompañamiento.</stage>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Yo la tengo de dotar,</l>
+          <l>digáselo vuecelencia.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Tened, Conde, más paciencia</l>
+          <l>y aprenderéis a danzar.</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Esa respuesta es crüel.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <stage>Aparte.</stage>
+          <l>Carlos a serlo me inclina,</l>
+          <l>y me ha dicho una vecina</l>
+          <l>que estoy muriendo por él.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <stage>Aparte.</stage>
+          <l>(Si son ya las doce dadas,</l>
+          <l>pondré mi amor en olvido.)</l>
+          <l>¿Cómo, Isabel, has venido</l>
+          <l>hoy tan tarde?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Con paradas.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <stage>Aparte.</stage>
+          <l>Amor encubre mi fuego,</l>
+          <l>duélete de mi niñez</l>
+          <l>que aún no he echado, no, la pez</l>
+          <l>y ya me entienden el juego.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Muy buena vienes, por cierto.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Vengo así escarapelada.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>A fee que estás bien tocada.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿Quién te tocó?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Filiberto.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>El Conde triste y perplejo</l>
+          <l>dice que por ella muere.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¿Pues él para qué la quiere?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Para quitarla el pellejo.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¡Disparate desollado!,</l>
+          <l>y ¿qué piensa hacer del buche?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Cuatro bolsas, un estuche</l>
+          <l>y un adrezo pespuntado.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Esa es muy grande indecencia.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Porque si esta intercesión</l>
+          <l>me ha valido...</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¿Qué?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>... un doblón...</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Pues perdone vuecelencia.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>... yo cumplí mi obligación.</l>
+          <l>Perdonad, que no hay qué daros.</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>¿Pues qué he de hacer?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Conformaros</l>
+          <l>y hacer luego otra elección.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <stage>Aparte.</stage>
+          <l>No pudiera responder</l>
+          <l>si yo en el Duque estuviera,</l>
+          <l>Rosaura, de otra manera</l>
+          <l>digo a mi mal parecer.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>Aparte.</stage>
+          <l>Parece, según responde</l>
+          <l>el Duque, a este conde de Irlos</l>
+          <l>que va a buscar chirlos mirlos</l>
+          <l>y que el Duque los esconde.</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Señor, dadme siquiera</l>
+          <l>en estando demediada.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Ya la tengo remediada.</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>¿Con quién, señor?</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Con cualquiera.</l>
+          <l>Dicese, Conde, de un gato</l>
+          <l>que una gatilla crió,</l>
+          <l>de quien él se enamoró</l>
+          <l>por su hermosura y buen trato,</l>
+          <l>que otro gato que ignoraba</l>
+          <l>este amor, a mi entender,</l>
+          <l>se la pidió por mujer,</l>
+          <l>mas como el otro la amaba</l>
+          <l>le respondió a lo que oí</l>
+          <l>enojado...</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Bien está.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>«Señor mío, nadie da</l>
+          <l>lo que quiere para sí.»</l>
+          <l>Yo este gato vengo a ser,</l>
+          <l>Isabel aquesta gata.</l>
+          <l>Ella de amores me mata</l>
+          <l>y no os puedo obedecer.</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Pues yo la quiero dejar</l>
+          <l>a pesar del tiempo vario.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Dejadla por el vicario</l>
+          <l>pues no la podréis sacar,</l>
+          <l>y pues no puedo sufrirlo</l>
+          <l>y hago mal en declararme,</l>
+          <l>de Carlos he de ampararme,</l>
+          <l>pero no quiero decirlo.</l>
+          <l>Ven conmigo, porque quiero</l>
+          <l>hacerte dilevecorre,</l>
+          <l>ven volando.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Eso se borre</l>
+          <l>o se quede en el tintero.</l>
+        </sp>
+        <stage>Vanse el Duque y Carlos Esforáa.</stage>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Su alteza, aunque con trabajo,</l>
+          <l>porque estés fresca en verano,</l>
+          <l>quiere darte un novio enano.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No quiero cuarto tan bajo.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Ya he entendido la aleluya;</l>
+          <l>¿querías ser conda?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No,</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>que cúya soy me mandó</l>
+          <l>que no diga que soy suya.</l>
+          <l>Muy bien le guardas los fueros;</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿y baste con él aclarado?</l>
+          <l>Sí.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿Cómo?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Habiendo pasado</l>
+          <l>la voz por siete morteros.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Bien hayas tú, pues que sabes</l>
+          <l>declararte y (¡ay de mí!)</l>
+          <l>que en mi vida conseguí</l>
+          <l>poderle fiar las llaves.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Tu pena, Rosaura, es mucha.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Amor consigo me apoye.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Es sordo cuando te oye?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>No es sordo, pero no escucha.</l>
+          <stage>Aparte.</stage>
+          <l>(Ahora bien, yo soy mujer</l>
+          <l>y para quedar ufana,</l>
+          <l>me he de declarar mañana.)</l>
+          <l>Aqueste es mi parecer,</l>
+          <l>Isabel, esto ha de ser:</l>
+          <l>escucha en este rincón</l>
+          <l>que he de romper la prisión,</l>
+          <l>y a pesar de la cadena</l>
+          <l>te quiero decir mi pena</l>
+          <l>en una comparación.</l>
+          <l>¿Viste una zorra valiente,</l>
+          <l>más ligera que una pluma,</l>
+          <l>levantando blanca espuma</l>
+          <l>cuando huye de la gente?</l>
+          <l>¿La cola larga y copiosa,</l>
+          <l>el cuello corto y pelado,</l>
+          <l>con más roña que un cuñado,</l>
+          <l>en el pisar cuidadosa?</l>
+          <l>¿Que en acechar se desvela</l>
+          <l>saltando de cerro en cerro</l>
+          <l>con una cara de perro</l>
+          <l>recatando diente y muela?</l>
+          <l>¿Que a tomar el sol se asienta</l>
+          <l>mirando desde un repecho</l>
+          <l>cómo puede hacer su hecho</l>
+          <l>sin que ninguno la sienta?</l>
+          <l>¿Y que sale descuidado</l>
+          <l>el gazapillo inocente</l>
+          <l>a hacer en el prado y fuente</l>
+          <l>lo que el padre le ha enseñado?</l>
+          <l>¿Y que apenas pone el pie</l>
+          <l>en la esmeralda bruñida</l>
+          <l>para remendar su vida</l>
+          <l>cuando la zorra le ve?</l>
+          <l>¿Y veloz como rapante,</l>
+          <l>golosa y menos astuta</l>
+          <l>como si comiera fruta</l>
+          <l>se le traga sin trinchante?</l>
+          <l>¿Y es tan aprisa alimento</l>
+          <l>que cuando a huir se provoca</l>
+          <l>como su aposento es boca</l>
+          <l>piensa que está en su aposento?</l>
+          <l>¿Y tan aprisa bajó</l>
+          <l>que busca con pies y manos</l>
+          <l>otros dos o tres hermanos</l>
+          <l>que reposando dejó?</l>
+          <l>Pues así yo (¡qué desvelo!)</l>
+          <l>miraba al duque de Ursino</l>
+          <l>y para un largo camino</l>
+          <l>no me pareció ir en pelo.</l>
+          <l>Un hombre vi tan galán</l>
+          <l>(¡oh, nunca visto le hubiera!)</l>
+          <l>que me dejó la pollera</l>
+          <l>en el puro cordobán.</l>
+          <l>Conque has visto y ajustado</l>
+          <l>que dejó sin resistillo</l>
+          <l>el sol por el gazapillo</l>
+          <l>como la zorra en el prado,</l>
+          <l>mas con una diferencia:</l>
+          <l>que allí merendó la zorra</l>
+          <l>porque supo meter gorra</l>
+          <l>y para mi fue abstinencia,</l>
+          <l>yo la zorra, el Duque el sol,</l>
+          <l>Carlos el triste conejo</l>
+          <l>por quien vivo en el reflejo</l>
+          <l>de su encendido farol.</l>
+          <l>Mira si es causa (¡ay de mí!)</l>
+          <l>para que él muera de harto</l>
+          <l>y que tú mueras de parto</l>
+          <l>cuando lo digas por mí.</l>
+          <l>Vuélveme a decir quién era</l>
+          <l>la sabandija que viste</l>
+          <l>cuando zorra te volviste</l>
+          <l>para hacerte madriguera.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Carlos Esforcia.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>Aparte.</stage>
+          <l>Esto es hecho.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿No ha sido linda invención?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Sí, pero no es ocasión.</l>
+          <stage>Aparte.</stage>
+          <l>(¡Por Dios que tira derecho!)</l>
+          <l>Por eso digo que fui</l>
+          <l>como la zorra en rigor.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No es digno de tu valor,</l>
+          <l>mejor era para mí.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Yo no te vengo a pedir</l>
+          <l>consejo si no es remedio.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Como estás pared en medio,</l>
+          <l>esto te quise advertir.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Sí, pero no estés tan lacia,</l>
+          <l>porque darme ahora quiero</l>
+          <l>a los duques por dinero,</l>
+          <l>pero a los Carlos de gracia.</l>
+          <l>Y así luego le dirás,</l>
+          <l>supuesto que eres hermosa,</l>
+          <l>que yo quiero ser su esposa,</l>
+          <l>Isabel, sin más ni más.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>Aparte.</stage>
+          <l>¿Yo pedir a Carlos celos</l>
+          <l>y finezas para ella?</l>
+          <l>¿Que ella salga de doncella</l>
+          <l>y a mí que me papen duelos?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿Qué dices?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Que le diré</l>
+          <l>hoy la merced que le haces.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Con eso me satisfaces</l>
+          <l>y yo te lo serviré.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Qué locura!</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¡Qué contento!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Qué frialdad!</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¡Qué gran calor!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Qué fineza!</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¡Qué rigor!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Qué buen trato!</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¡Qué tormento!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Voyme por no detenerme.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Yo me voy porque me voy.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Y yo porque muerta estoy.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <stage>Aparte.</stage>
+          <l>Harto he hecho en no perderme.</l>
+          <l>Éntranse y $Salen Carlos y Serón.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Si no hallares a Isabel,</l>
+          <l>tráeme de Flora una oreja</l>
+          <l>para que lleve a su ama,</l>
+          <l>aunque viejas, estas nuevas.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Ambas juntas se han perdido</l>
+          <l>saliendo de la comedia</l>
+          <l>por un hombre que pasaba</l>
+          <l>pregonando ratoneras,</l>
+          <l>y aunque la casa he corrido,</l>
+          <l>parado a carrera abierta,</l>
+          <l>con ayuda de vecinos</l>
+          <l>en dos postas de escopeta,</l>
+          <l>y no he dejado vasija</l>
+          <l>que no haya quebrado en ella</l>
+          <l>hasta un vasar en que estaban</l>
+          <l>cominos, alcarabea,</l>
+          <l>mastuerzo, azafrán, cilantro,</l>
+          <l>hinojo, azúcar, pimienta,</l>
+          <l>lantejas, puerros, garbanzos,</l>
+          <l>jenjibre, clavos, canela,</l>
+          <l>perejil, ajos, cebollas,</l>
+          <l>orégano, yerbabuena,</l>
+          <l>sal, mostaza y otras muchas</l>
+          <l>cosas que no se me acuerdan;</l>
+          <l>y solo topé una enana</l>
+          <l>que, toda pies y cabeza,</l>
+          <l>me dijo que te dijese...</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Qué te dijo? Dilo apriesa.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>... que Rosaura y ella estaban</l>
+          <l>urdiendo una brava tela</l>
+          <l>y ya estaba en buen estado.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¡Qué lindo rato la espera</l>
+          <l>cuando la diga que el Duque</l>
+          <l>la quiere hacer lanzadera</l>
+          <l>para tramar sus amores</l>
+          <l>y echar una sempiterna</l>
+          <l>haciéndola su mujer</l>
+          <l>o por lo menos su deuda!</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Pues eres tú su marido</l>
+          <l>para mandar que a otro quiera?</l>
+          <l>Déjete casar y luego</l>
+          <l>podrás tú mandar en ella.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Eso está puesto en razón;</l>
+          <l>mas ya han abierto la puerta</l>
+          <l>y han salido.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Quién, señor?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Blancaflor y Filomena.</l>
+        </sp>
+        <stage>Sale Isabel Borromeo.</stage>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>Aparte.</stage>
+          <l>¡Oh, qué bien se conoce,</l>
+          <l>Carlos, a tiro de piedra</l>
+          <l>que buscas a quien te huye</l>
+          <l>y huyes de quien te encuentra!</l>
+        </sp>
+        <stage>Sale el Duque.</stage>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¡Qué bien duerme quien bien ama!</l>
+          <l>¡Fuego de Dios en la bestia</l>
+          <l>que no se quiere mover</l>
+          <l>si no es sintiendo la espuela!</l>
+          <l>Carlos, ahora vi bajar</l>
+          <l>a Isabel por la escalera.</l>
+          <l>Llega y dile que la quiero,</l>
+          <l>y por si no se te acuerda</l>
+          <l>ve diciendo: «Amor y Duque»</l>
+          <l>como quien va por especias.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>«Amor y Duque», sí haré.</l>
+          <stage>Aparte.</stage>
+          <l>(¡Qué dos cosas tan opuestas!)</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Pues mira en el vestuario.</l>
+          <l>Te espero con la respuesta.</l>
+        </sp>
+        <stage>Éntrase el Duque y sale Rosaura.</stage>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¡Isabel!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Por qué lo dices?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Dígolo porque lo entiendas.</l>
+          <l>A Carlos he visto ahora,</l>
+          <l>que viene por la estafeta.</l>
+          <l>Dile a cuantas ha de hallar</l>
+          <l>el pliego de mis finezas</l>
+          <l>y por si se te olvidare,</l>
+          <l>ve cantando aquesta letra:</l>
+          <stage>Cantando.</stage>
+          <l>Para la memoria</l>
+          <l>dicen que es buena</l>
+          <l>almendrada de celos</l>
+          <l>con su pimienta.</l>
+        </sp>
+        <stage>Vase.</stage>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>Aparte.</stage>
+          <l>¡A quién le habrá sucedido...</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <stage>[%Aparte.]</stage>
+          <l>¡A quién, si mal se me acuerda...</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>[%Aparte.]</stage>
+          <l>... en lance tan apretado!</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <stage>[%Aparte.]</stage>
+          <l>... haberle dado con ella!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>[%Aparte.]</stage>
+          <l>Pero si ha de ser, ¿qué aguardo?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <stage>[%Aparte.]</stage>
+          <l>Pero si ha de ser, ¿qué espera?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Carlos.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Isabel.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué haces?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Escribiendo una comedia</l>
+          <l>de disparates estaba.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Y será muy grande empresa?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>No, porque solo es hacer</l>
+          <l>una y mala de una y buena.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Oh, si tú supieses cuánto</l>
+          <l>tus disparates me cuestan!</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Más me tiene a mi de costa.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No puede ser.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>A la prueba.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Rosaura quiere (¡ay de mí!)</l>
+          <l>que te diga (¡gran flaqueza!)</l>
+          <l>que quiere engordar contigo</l>
+          <l>en entrando en montanera.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Hay más que darle bellota?</l>
+          <l>Se pondrá como una puerca.</l>
+          <l>Ese no es grande embarazo</l>
+          <l>si yo, Isabel, te dijera</l>
+          <l>que el Duque te quiere dar...</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>[%Aparte.]</stage>
+          <l>¡Grave dolor!</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <stage>[%Aparte.]</stage>
+          <l>¡Grave pena!</l>
+          <l>... con cuchillo de damasco,</l>
+          <l>porque remedio no tenga,</l>
+          <l>un corte de terciopelo</l>
+          <l>para hacerte una pollera,</l>
+          <l>¿qué dijeras?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Que es mayor</l>
+          <l>tu pena que no mi pena.</l>
+          <l>Yo me muero sin remedio,</l>
+          <l>que fuera grande tibieza</l>
+          <l>con celos tan declarados</l>
+          <l>no morirme a rienda suelta.</l>
+          <l>Esto ha de ser. Yo me muero.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¡Tente, escucha! ¡Aguarda, espera!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Inremediable es mi mal!</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>No te mueras tan apriesa,</l>
+          <l>que para todo hay remedio</l>
+          <l>sin el estender la pierna.</l>
+          <l>¿Lloras?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Sí.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Pues no haya más.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿No has visto un hombre que enferma</l>
+          <l>de puro beber y tiene</l>
+          <l>hidrópica la cabeza,</l>
+          <l>y que al paso que a la llama</l>
+          <l>le va añadiendo materia</l>
+          <l>van subiendo los vapores</l>
+          <l>que son en la chimenea</l>
+          <l>humos, efecto del fuego,</l>
+          <l>que más abajo se encierra?</l>
+          <l>¿Y que, viéndose el paciente</l>
+          <l>arder en aquesta hoguera,</l>
+          <l>agua pide a las jeringas</l>
+          <l>y halla solo ayuda en ellas?</l>
+          <l>Pues así yo me abraso</l>
+          <l>en los celos que me cuentas.</l>
+          <l>Agua les pido a mis ojos</l>
+          <l>y me la dan de canela.</l>
+          <l>¿Pero cuál es el remedio?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Huir en una litera</l>
+          <l>corriendo la posta a Flandes.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Llévame en la faltriquera</l>
+          <l>por guante o por estuche,</l>
+          <l>por lienzo o por tabaquera.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Te sabrás tener a pie</l>
+          <l>en las ancas de mi yegua?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Si tú fueres capitán,</l>
+          <l>Carlos, yo seré jineta,</l>
+          <l>y aun brida si es menester.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Bien está de esa manera.</l>
+          <l>Mas, dime, ¿cómo has tenido</l>
+          <l>todo este tiempo paciencia</l>
+          <l>disimulando tu mal?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>De una mujer, Carlos, cuentan</l>
+          <l>que habiendo nacido muda</l>
+          <l>(cosa en el mundo bien nueva)</l>
+          <l>y habiendo más de veinte años</l>
+          <l>que no hablaba ni aun por señas,</l>
+          <l>vino a la Corte y topó</l>
+          <l>al primer lance una dueña</l>
+          <l>y fue tan grande el horror,</l>
+          <l>el miedo, el susto y la pena</l>
+          <l>que le dio la novedad</l>
+          <l>y nunca vista fiereza,</l>
+          <l>que rompió el freno nativo</l>
+          <l>y, libre de las pigüelas,</l>
+          <l>después de hacerle la cruz,</l>
+          <l>«Jesús» dijo a boca abierta</l>
+          <l>y vino a enmendar el susto</l>
+          <l>lo que erró naturaleza.</l>
+          <l>Así yo que tantos años</l>
+          <l>guardé (¡atada diligencia!)</l>
+          <l>mi caduco amor y he visto</l>
+          <l>a Rosaura, que es mi dueña,</l>
+          <l>rompo el silencio y publico</l>
+          <l>aqueste dolor de muelas</l>
+          <l>que ha echado tantas raíces.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Pues ya que el huir es fuerza</l>
+          <l>porque nos quieren coger</l>
+          <l>a los dos en ratonera,</l>
+          <l>toma tu manto al instante.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Y tú toma tus chinelas.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Sin ti no quiero confites.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Sin ti no quiero gragea.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Contigo todo es pan tierno.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Contigo todo es camuesas.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Mi gusto es siempre mi gusto.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Mi voluntad es la mesma.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Pues adiós, hasta después.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Vivas la edad de una suegra.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Vive más, si te parece.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Vive a las mil y quinientas.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Vive tú y vivirá todo</l>
+          <l>para que nadie se muera.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Vive tú donde quisieres,</l>
+          <l>que yo vivo a las Vallecas.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Gracias a Dios que acabasteis</l>
+          <l>de quebrarnos la cabeza.</l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>JORNADA SEGUNDA</head>
+        <stage>Salen Flora y Serón.</stage>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Si va a decir la verdad,</l>
+          <l>yo voy de miedo cantando.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Yo y todo sin ser solfista.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Si nos han visto en palacio,</l>
+          <l>será gracioso descuido.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>No será, si no es cuidado.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>En efeto, ¿eres gallina?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>[...] Flora, paso,</l>
+          <l>que es temer pese a un moscón,</l>
+          <l>pues aunque te den mil palos</l>
+          <l>y a mí me muelan a coces</l>
+          <l>no diré...</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Gentil regalo.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>... jamás que ha estado mal hecho.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>El desembarazo alabo</l>
+          <l>para si el Duque nos coge...</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Calla, no me muelas tanto,</l>
+          <l>que aunque de burlas decía</l>
+          <l>el miedo que está brotando</l>
+          <l>esta sangre seronil,</l>
+          <l>yo haré que salga a pedazos</l>
+          <l>y por la pinta les diga</l>
+          <l>que nos saquen por el Rastro;</l>
+          <l>pero dejemos las roncas,</l>
+          <l>que me suelen dar catarro,</l>
+          <l>y hablemos de aquel negocio</l>
+          <l>que ejecutan nuestros amos.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Según sus locos acuerdos,</l>
+          <l>el yerro más acertado</l>
+          <l>es huir el bulto a todo.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>De manera que casados</l>
+          <l>amanecerán mañana.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Eso es caer en el lazo.</l>
+          <l>También, si tú me quisieras,</l>
+          <l>pudieras ser mi velado.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Qué dijiste?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¿Suena bien?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Entre tenor y contralto.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¿No eres muy bobo, Serón?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Asomos tengo de calvo,</l>
+          <l>mas bien sé por qué lo dices,</l>
+          <l>que me lo enseñó el adagio:</l>
+          <l>si quieres un rato bueno,</l>
+          <l>lleva de Lucena un frasco;</l>
+          <l>si una hora, cena bien</l>
+          <l>sin perro, dueña ni gato;</l>
+          <l>si un buen día, coge un lobo;</l>
+          <l>si una semana, un venado;</l>
+          <l>y si un mes, mata una suegra;</l>
+          <l>y si quieres un buen año,</l>
+          <l>cásate catorce veces.</l>
+          <l>Mas no quiero, que me hallo</l>
+          <l>mal hecho para sufrir</l>
+          <l>después de algunos ensalmos:</l>
+          <l>la norabuena del primo,</l>
+          <l>el parabién del cuñado,</l>
+          <l>el que la panza se llena,</l>
+          <l>ya empieza el antojo, el asco,</l>
+          <l>luego los sustos se acercan</l>
+          <l>y con el grito de a palmo</l>
+          <l>«Venga la comadre» dice;</l>
+          <l>«Voy por ella, ya la traigo»,</l>
+          <l>y a lo de saludador</l>
+          <l>la dice: «Muerda los labios»,</l>
+          <l>y «Apriete» o «Empuje», y luego</l>
+          <l>antes que salga el muchacho</l>
+          <l>solfea más de tres horas</l>
+          <l>«Muy diferente preñado»,</l>
+          <l>y por último estallido</l>
+          <l>sale un gentil renacuajo.</l>
+          <l>Conque pensando estas cosas,</l>
+          <l>en lugar de tus regalos</l>
+          <l>me embuto en un bodegón</l>
+          <l>lleno de mondongo el pancho,</l>
+          <l>galanteo a troche y moche,</l>
+          <l>brinco, aprendo a saltaenbanco,</l>
+          <l>sin andar hecho santero</l>
+          <l>por la ermita de San Marcos</l>
+          <l>pidiendo grasa en la olla,</l>
+          <l>que es la gloria de un lacayo.</l>
+          <l>Quad mihi et vobis nos dé</l>
+          <l>a los que así pregonamos</l>
+          <l>pepitoria de espolones</l>
+          <l>y de juanetes guisado.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¿Y mi amor?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Y mi testuz?</l>
+          <l>Mas chitón, porque mi amo</l>
+          <l>sale ya con tu señora.</l>
+        </sp>
+        <stage>Salen Carlos y Isabel.</stage>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Yendo, señor, en tu agrado,</l>
+          <l>no hay cosa que me acobarde.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Sacó Jubo los caballos?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>No los sacó sino agosto,</l>
+          <l>que te espera abuchomado.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Pues no invernemos aquí.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Dices bien. Al parque vamos;</l>
+          <l>mas vaya Flora primero</l>
+          <l>porque pueda aseguramos</l>
+          <l>el logro deste silencio.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¡Buen lucero han encontrado!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Pisad recio, que os escuchan.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Eso será ir a caballo.</l>
+          <stage>Llaman.</stage>
+          <l>¿No llamaron?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Sí.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Qué haremos?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No te dé, esposo, cuidado,</l>
+          <l>que algún amante será</l>
+          <l>que echa por mí los livianos.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Pues qué he de hacer?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Esconderte,</l>
+          <l>que yo le daré entre tanto</l>
+          <l>con que tenga que roer,</l>
+          <l>o si no un ponte con amo.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Yo esconderme?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Esto es forzoso.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¡Por ti, mi vida, soy Sancho!</l>
+        </sp>
+        <stage>Escóndese Carlos y Serón.</stage>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Se escondieron?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Sí.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Pues abre.</l>
+          <l>¿Por aquel postigo falso</l>
+          <l>quién entró?</l>
+        </sp>
+        <stage>Sale el Duque.</stage>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <stage>[A Isabel.]</stage>
+          <l>El Duque no menos.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>[A Flora.]</stage>
+          <l>Su pensamiento no alcanzo;</l>
+          <l>¿quién vio aprieto más gustoso?</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¿De qué extrañáis mi recato?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>[A Flora.]</stage>
+          <l>¿Qué haré si a Carlos ha visto?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <stage>[A Isabel.]</stage>
+          <l>Darle un lamedor violado.</l>
+          <l>Asómase Carlos, y Serón al paño.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¡Vive Dios, que es don Quijote!</l>
+          <l>Mis celos le den un tanto.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>[%Aparte.]</stage>
+          <l>Muerta estoy, mas no lo siento.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <stage>[%Aparte.]</stage>
+          <l>El gusto les ha turbado.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+
+          <l>Si vuestra Alteza imagina</l>
+          <l>que es lisonja el desacato,</l>
+          <l>otra vez me iré corrida,</l>
+          <l>que en el tiempo que alcanzamos</l>
+          <l>el honor es un papel</l>
+          <l>a quien el soplo delgado</l>
+          <l>de la monja más esquiva</l>
+          <l>la empaña de arriba abajo.</l>
+          <stage>[%Aparte.]</stage>
+          <l>¡Ay Carlos, por ti lo digo,</l>
+          <l>aunque al Duque se lo callo!</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Ya lo entiendo; no me tientes,</l>
+          <l>que tengo impulsos de barro.</l>
+          <l>Bien sabes, bella Isabel,</l>
+          <l>(pues te lo habrá dicho Carlos,</l>
+          <l>que se lo dije a la sombra</l>
+          <l>de un candil de garabato)</l>
+          <l>cómo por ti muero y vivo</l>
+          <l>cual cisne que suspirando</l>
+          <l>suele estar en la laguna,</l>
+          <l>cercado de algunos grajos,</l>
+          <l>que espera ver sus exequias</l>
+          <l>para darse un lindo hartazgo.</l>
+          <l>Así yo.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¡Cielos, qué escucho!</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Mas, porque sepas mi estado,</l>
+          <l>toma ese papel y mira</l>
+          <stage>Dale un papel.</stage>
+          <l>qué pasó ante un escribano.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Yo le veré.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Pues adiós.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Él me guarde muchos años.</l>
+        </sp>
+        <stage>Vase el Duque, y dice Carlos.</stage>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Puedo salir?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Sí, señor,</l>
+          <l>que ya la puerta he clavado.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Venga el papel.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Vesle ahí.</l>
+          <stage>Dásele.</stage>
+          <l>Hazle cuatro mil araños.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Eso no, porque en efeto,</l>
+          <l>aunque su dueño es tirano,</l>
+          <l>de tu gusto es dueño mío</l>
+          <l>y este billete es un rayo</l>
+          <l>que ha nacido de aquel trueno,</l>
+          <l>y yo como fiel vasallo</l>
+          <l>doyle un pellizco a la nema</l>
+          <l>y besándole la mano</l>
+          <l>empiezo con reverencia</l>
+          <l>a leerle en pie quebrado.</l>
+          <l>Dos razones dice solas.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Ya las escucho temblando.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <stage>Lee. </stage>
+          <l>«Mañana seré tu esposo.</l>
+          <l>Dios te guarde muchos años.</l>
+          <l>El Duque.»</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Grande palabra.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Por Dios que es lindo bocado.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Toma, señora, el billete.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Parece que te has holgado.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Quiérete bien, no te espantes.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Antes por eso me espanto,</l>
+          <l>pues conociendo mi fuerza</l>
+          <l>y sabiendo...</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Isabel, paso,</l>
+          <l>que ya esos piñones son</l>
+          <l>para mi sabor amargos.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Por qué causa, dueño mío?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Porque tienen mucho clavo,</l>
+          <l>y si no, escúchame ciego</l>
+          <l>y te lo diré rezado.</l>
+          <l>Acércate un poco más</l>
+          <l>por si es el último trago.</l>
+          <l>Bien ves, Isabel perdida,</l>
+          <l>que el Duque está dado al diablo</l>
+          <l>y que le tienes el pecho</l>
+          <l>más duro que unos guijarros;</l>
+          <l>que su esposa quiere hacerte,</l>
+          <l>dándole cuenta al senado,</l>
+          <l>bien esa letra lo dice</l>
+          <l>que es de su sentencia el Alio.</l>
+          <l>Yo, aunque soy de sangre fértil,</l>
+          <l>tengo flaqueza en los cascos,</l>
+          <l>conque destas competencias</l>
+          <l>en un momento me canso.</l>
+          <l>No quieras perder a un duque</l>
+          <l>por mí, que soy un menguado.</l>
+          <l>Para mi amor ya has cumplido</l>
+          <l>con darme un pastel de a cuarto.</l>
+          <l>Sé duquesa, que con eso</l>
+          <l>no te faltarán ducados.</l>
+          <l>Ea, ocúpale en tu pecho</l>
+          <l>y a mí desde aquel terrado</l>
+          <l>arrójame a una cisterna</l>
+          <l>y haz dél y de mí un emplasto.</l>
+          <l>Reina serás, yo avechucho;</l>
+          <l>tú princesa, yo lagarto;</l>
+          <l>tú señora, yo escudero</l>
+          <l>a quien podrás dar un brazo.</l>
+          <l>Y porque a escuras te miro,</l>
+          <l>con respeto soberano,</l>
+          <l>poniéndome de rodillas</l>
+          <stage>Híncase de rodillas.</stage>
+          <l>quiero parecer enano,</l>
+          <l>que no es bien que en tu presencia</l>
+          <l>sea ninguno más largo.</l>
+          <l>Sé reina, otra vez te digo,</l>
+          <l>que la corona es un plato</l>
+          <l>que a cualquiera sabe bien</l>
+          <l>y dice: «A ti suspiramos...».</l>
+          <l>Mas ya sin duda la acetas,</l>
+          <l>pues que consientes que estando</l>
+          <l>sin el sombrero en la cholla</l>
+          <l>y de oratorio el zancajo,</l>
+          <l>no me has dicho que me cubra</l>
+          <l>ni tampoco «levantaos».</l>
+          <stage>Levántese.</stage>
+          <l>Y así, mudando de gesto</l>
+          <l>y de estilo parroquiano,</l>
+          <l>pidiéndole a vuestra Alteza</l>
+          <l>licencia y un «sepancuantos»,</l>
+          <l>me vieren ir de carrera</l>
+          <l>a ponerme los mostachos,</l>
+          <l>que voy a morir de golpe</l>
+          <l>entre sabinos y galos,</l>
+          <l>entre escoceses y turcos,</l>
+          <l>o al mar donde en vuelo claro</l>
+          <l>oiré cantar las sirenas</l>
+          <l>por mi aquel tono flautado.</l>
+          <stage>Cantan.</stage>
+          <l>Después que muero, Belisa,</l>
+          <l>ausente de tu beldad,</l>
+          <l>te remito estos suspiros</l>
+          <l>que te vayan a buscar.</l>
+          <l>¡Ay, ay, ay!, que te vayan a buscar...</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>... para dar ejemplo al mundo.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Basta, señor! ¡Basta, Carlos!</l>
+          <l>No me enternezcas el alma,</l>
+          <l>que tengo un diente muy malo.</l>
+          <l>Y agora ponte el sombrero,</l>
+          <l>que aunque de codo me has dado,</l>
+          <l>tú solo has de ser mi Lope,</l>
+          <l>que soy ninfa del Parnaso,</l>
+          <l>y este que es el instrumento</l>
+          <l>que ha querido divorciamos</l>
+          <l>pagará de aquesta suerte.</l>
+          <stage>Rompe el papel.</stage>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Qué haces?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué? Hacerlo andrajos</l>
+          <l>para que el amor consulte,</l>
+          <l>si quisiere averiguarlo,</l>
+          <l>que contigo firme ha de ir</l>
+          <l>Marica a lavar sus paños.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Notable bondad, Serón.</l>
+        </sp>
+        <stage>Llaman.</stage>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Qué es aquello?, ¿no llamaron?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Este es el Duque, que vuelve,</l>
+          <l>señora.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Ya lo escuchamos.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Pues mira, si te resuelves</l>
+          <l>a ser mía, no hay atajo</l>
+          <l>como que el Duque me vea.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Antes no, que malogramos</l>
+          <l>el salir por la mañana</l>
+          <l>a darle al cura un buen rato.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Pues qué he de hacer?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Esconderte.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Eso es temblar mi bizarro</l>
+          <l>corazón.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Esposo mío,</l>
+          <l>si este conejo no alcanzo</l>
+          <l>de tu espetera, me pierdes.</l>
+        </sp>
+        <stage>Vuelven a llamar.</stage>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Aprisa, que llama el ñarro.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Señor, que te echas al [l]imbo.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué dices?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Que ya lo hago,</l>
+          <l>aunque todo el mundo diga</l>
+          <l>que soy lindo mentecato.</l>
+        </sp>
+        <stage>Éntranse y sale él Duque.</stage>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Duque, mi señor!</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¡Esposa!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>Aparte.</stage>
+          <l>Eso no será en mis años</l>
+          <l>o hasta que enviude Carloto.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>El saber en qué ha parado</l>
+          <l>mi billete me ha traído,</l>
+          <l>porque me costó trabajo.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Los casamientos de reyes</l>
+          <l>dificultad siempre hallaron,</l>
+          <l>y es que no corre parejas</l>
+          <l>con ninguno su caballo.</l>
+        </sp>
+        <stage>Carlos desde el paño.</stage>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¡Qué a mi gusto respondió!</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Tiróle lamoso tajo.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Y en fin, ¿soy tu esposo ya?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>El lindo gusto te alabo,</l>
+          <l>mas es preciso, señor,</l>
+          <l>dar primero cuenta al barrio.</l>
+          <stage>Aparte.</stage>
+          <l>(Desta suerte doy lugar</l>
+          <l>para darle un sartenazo.)</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Está bien, ¿mas no podrás</l>
+          <l>antes de irte al estrado</l>
+          <l>darme una seña de amor?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Córtate y te ataré un trapo.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Sangriento quieres que empiece.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Así aprenden los muchachos.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Ea, decidme algún secreto.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No ha venido el secretario.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Déjame, Serón, salir</l>
+          <l>a hacerle dos arrumacos.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Mira, señor, que te pierdes.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Dame siquiera un abrazo.</l>
+        </sp>
+        <stage>Sale Carlos y éntrase por medio, y dice.</stage>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>No hará mientras yo tuviere</l>
+          <l>orejas en los zapatos.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Pues, ¿cómo, traidor aleve,</l>
+          <stage>Empuña la espada.</stage>
+          <l>revestido en mojigato</l>
+          <l>ocultamente salpicas</l>
+          <l>a mi dueño empapelado?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Señor, deten la Tizona.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¡Aparta!</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¡Detente!</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Malo.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Escúchame a mí primero</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>y después dale con algo.</l>
+          <l>Muestre yo hígado, y luego,</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>mas que no me dejen bazo.</l>
+          <l>Por saber mejor su culpa</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>le doy de vida este rato.</l>
+          <l>De Carlos ya conoces la inocencia,</l>
+          <l>de mi vena ya miras la arrogancia,</l>
+          <l>de los dos nunca ignoras la elocuencia</l>
+          <l>ni de ti Altar puede la sustancia.</l>
+          <l>De todo tienes ciencia y con paciencia</l>
+          <l>has de ver este pleito puesto en Francia.</l>
+          <l>Solo ignoras la boda que has temido</l>
+          <l>siendo Carlos Esforcia mi marido.</l>
+          <l>Yace en el Apenino hermoso un vado</l>
+          <l>tan crecido de embustes y de saña,</l>
+          <l>que más de algún ratón ha murmurado</l>
+          <l>que es vivienda de moscas, no de araña, </l>
+          <l>donde jamás se ha visto un lobo atado</l>
+          <l>con haber barracheles de campaña.</l>
+          <stage>[%Aparte.]</stage>
+          <l>(¡Qué crueldad! ¡Qué rigor! ¡Qué sufrimiento!</l>
+          <l>Loca estoy, pues no digo lo que siento).</l>
+          <l>Aquí llegué a cazar y al primer tiro</l>
+          <l>por instantes un pie me bostezaba,</l>
+          <l>le ven ya divorciado del vestido</l>
+          <l>buscando libertad, alivio y puerto,</l>
+          <l>para dar con el sastre un estallido?</l>
+          <l>Pues desta suerte con valor severo</l>
+          <l>se comió las natillas de un puchero.</l>
+          <l>Desde entonces, señor, desde aquel día</l>
+          <l>le he tenido por hombre de gran suerte. </l>
+          <l>Mírele con antojos y a fee mía</l>
+          <l>que le dije una noche (¡grande suerte!)</l>
+          <l>que en estando presente le veía</l>
+          <l>y en él miraba mi propincua muerte,</l>
+          <l>de suerte que en razones militares</l>
+          <l>nos dimos uno al otro los cuajares.</l>
+          <l>Cuando llegaste tú ya el cuerpo estaba</l>
+          <l>de pascua, revestido en sempiterna,</l>
+          <l>y como amor las teclas resonaba,</l>
+          <l>hice que me mostrase media pierna.</l>
+          <l>Perdióse don Rodrigo por la Cava,</l>
+          <l>no lo pudo curar un mismo Sema,</l>
+          <l>que la herida que el pecho ha travesado</l>
+          <l>no se cura con agua de pescado.</l>
+          <l>Y así disculpa, anima, galardona,</l>
+          <l>rige, idolatra, confedera, emprende,</l>
+          <l>canta, salpica, baila la chacona,</l>
+          <l>corta, aporrea, tira, raja, hiende,</l>
+          <l>hincha, saluda, mata, escupe, encona,</l>
+          <l>vuela, corrige, estudia, apaga, enciende, </l>
+          <l>pues siempre me has de hallar de una manera,</l>
+          <l>siendo la frente Carlos, yo mollera.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Ella sigue mi opinión.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>El caso es bien apretado.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Cara ha puesto de un Nerón.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Si has de morir arrastrado,</l>
+          <l>ya tienes aquí el Serón.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¿Quién duda que has de temer</l>
+          <l>que la ponzoña te acierte?</l>
+          <l>Pues el gusto del correr</l>
+          <l>te ha de durar hasta verte</l>
+          <l>tendido en un alcacer,</l>
+          <l>y así lograr mi cuidado</l>
+          <l>pienso ya, de dos, la una,</l>
+          <l>y aunque estés acatarrado</l>
+          <l>te tengo de enviar a Osuna</l>
+          <l>a jugar al renegado.</l>
+          <l>Pero porque el sentimiento</l>
+          <l>sirva de ejemplo a la tierra,</l>
+          <l>paguen a ciento por ciento:</l>
+          <l>Isabel vaya a la guerra,</l>
+          <l>Carlos ha de ir a un convento.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Considera...</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Advierte...</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Mira...</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¿No os vais de aquí?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Qué prudente!</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Otra vez las cañas tira.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Dando está diente con diente;</l>
+          <l>de reportado delira.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Por el postigo me aguarda.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Sí haré; a desnudarme voy.</l>
+          <l>Yo soy tu perdiz lombarda.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Tu perdigón también soy.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Yo soldado de tu guarda.</l>
+        </sp>
+        <stage>Éntranse Carlos y Isabel.</stage>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Hola, Serón.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Si es a mí?</l>
+          <l>¿Mas si por mí lo dirá?</l>
+          <l>No, que otro Serón habrá,</l>
+          <l>que yo soy un quis vel qui.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Hola, Serón, ¿hasme oído?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Que me llamas ya lo sé.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>De aqueste Serón sabré</l>
+          <l>si tiene esparto cocido.</l>
+          <stage>Saca la daga el Duque.</stage>
+          <l>Confiesa aquí de contado</l>
+          <l>si ha venido tu señor</l>
+          <l>otra vez a ser dotora</l>
+          <l>donde le hallé encerrado.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¡Quién vio tan raro despejo</l>
+          <l>de meterme el pleito a bulla!</l>
+          <l>Él vino jugando al tejo</l>
+          <l>y se metió como grulla</l>
+          <l>por aquel postigo viejo.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Señor, ya llegó mi hora.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Confiesa aquí la verdad.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>No he sabido dónde mora,</l>
+          <l>y crea tu Majestad...</l>
+        </sp>
+        <stage>Sale Rosaura.</stage>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <stage>[A Serón.]</stage>
+          <l>(¡Mi hermana! ¡Calla!) ¿Señora?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Laura agora me contó</l>
+          <l>que os vio en este cuarto entrar</l>
+          <l>y el cuidado que me dio</l>
+          <l>me ha obligado a trasnochar,</l>
+          <l>con que esta noche voló.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <stage>[%Aparte.]</stage>
+          <l>(Quiero contarle a mi hermana</l>
+          <l>el gusto que he recibido</l>
+          <l>viendo mi esperanza vana,</l>
+          <l>pues lo que me ha sucedido</l>
+          <l>todo es cosa de agua y lana.)</l>
+          <l>Yo vi a Isabel y la amé</l>
+          <l>pensando que me quisiera,</l>
+          <l>pero ella tan boba file</l>
+          <l>que por Carlos allá fuera</l>
+          <l>me ha dejado.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Bueno a fee.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Él, de su amor impelido,</l>
+          <l>al verme le dio cuidado.</l>
+          <l>Salió...</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿Que estaba escondido?</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Sí, pero quedóse helado</l>
+          <l>y yo me quedé corrido.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿De modo que cierto fue?</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Sí, mas no me da fatiga.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¡Celos! A quien esto ve,</l>
+          <l>pónganle luego una liga</l>
+          <l>para sangrarle del pie.</l>
+          <l>¡Perdida estoy!</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¡Oh, qué bien</l>
+          <l>se ha conocido el dolor</l>
+          <l>que tú tienes, pues tan bien</l>
+          <l>me ayudas, le das favor</l>
+          <l>a mi furioso desdén!</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Es, hermano, de manera</l>
+          <l>mi enojo y mi furia rara,</l>
+          <l>que si agora los cogiera,</l>
+          <l>como huevos los asara</l>
+          <l>y luego me los sorbiera.</l>
+          <l>Pero ya que en este asan</l>
+          <l>los vemos escandalosos,</l>
+          <l>que a ser cartujos se van</l>
+          <l>en viéndolos religiosos,</l>
+          <l>yo he de ser su guardián.</l>
+          <l>No quede nadie en la villa</l>
+          <l>de todos nuestros vasallos</l>
+          <l>que no te vea en la silla,</l>
+          <l>donde podrás sentenciados</l>
+          <l>en entrando en la capilla.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Parece que te has vestido</l>
+          <l>tú de mi mismo color.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Siempre este lance he temido,</l>
+          <l>y si he de hablar en rigor,</l>
+          <l>yo por Carlos lo he sentido.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Tiemble el mundo en mis arrojos.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Nadie ignore mi mesura.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Buscarelos con antojos.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Yo me he de hacer levadura</l>
+          <l>con que abriré tantos ojos.</l>
+        </sp>
+        <stage>Éntranse.</stage>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Y yo, pues que me he escapado</l>
+          <l>de semejante ruina,</l>
+          <l>me voy a tender al prado</l>
+          <l>o a contarle a una vecina</l>
+          <l>todo aquesto que ha pasado.</l>
+        </sp>
+        <stage>Vase Serón y salen como de camino Carlos, Isabel y Flora.</stage>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Ya no hay, mi bien, qué temer,</l>
+          <l>pues libres del Duque estamos</l>
+          <l>y de matrimonio vamos.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No lo quisiera perder.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Solo Alta que Serón</l>
+          <l>acabe ya de llegar.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Él por fuerza ha de tardar,</l>
+          <l>porque fue a una comisión.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Mira, Flora, si ha venido</l>
+          <l>y vamos luego de aquí.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Para servirte nací.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Y entretanto, consumido</l>
+          <l>con tu hermosura estaré</l>
+          <l>pintando mi grande amor.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Es muy grande?, di, ¿es mayor</l>
+          <l>que todo mi cuerpo es?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Hoy hele puesto en la cinta</l>
+          <l>de un soneto estramhotado,</l>
+          <l>que si le ves retratado,</l>
+          <l>le has de sacar por la pinta:</l>
+          <l>Es tan grande, Isabel, el amor mío,</l>
+          <l>que el de Macias compite solamente;</l>
+          <l>Lazarillo de Torrnes es corriente</l>
+          <l>que fue respeto dél un yelo frío;</l>
+          <l>el de Amadís de Gaula, desvarío,</l>
+          <l>ni el de aquel portugués barbiponiente</l>
+          <l>que dijo: «De teus olios morro ausente,</l>
+          <l>minina, ten peidad de mi albedrío».</l>
+          <l>Él, en efeto, es causa de mi herida,</l>
+          <l>escarpín y pañal de que se infiere</l>
+          <l>que es lengua en castellano traducida</l>
+          <l>de un pollo crudo que cantando muere,</l>
+          <l>y pues la estampa ves de su medida</l>
+          <l>coca, requica, quica vel requieres.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Harto encarecido queda.</l>
+          <l>Mas oye mi pensamiento,</l>
+          <l>que otro has de ver a mi intento</l>
+          <l>que suplir el tuyo pueda:</l>
+          <l>Si contigo mi yelo ha competido,</l>
+          <l>será porque Vulcano me dio un peto,</l>
+          <l>que saliendo a reñir puso respeto</l>
+          <l>a todos cuantos fiebres han corrido.</l>
+          <l>No puede ser mayor de lo que ha sido</l>
+          <l>aunque lleve polainas y coleto.</l>
+          <l>En Granada y Sevilla fijé un reto</l>
+          <l>que la maza de Fraga lo ha sabido.</l>
+          <l>De todas mis empresas salí ufana</l>
+          <l>y convidando fui de puerta en puerta</l>
+          <l>sin sacar desta ronca ni una cana.</l>
+          <l>Con salir tres mil calvos de una espuerta,</l>
+          <l>¿no te parezco, di, muy linda rana?</l>
+          <l>Pues zurra, zorra, zorriganga muerta.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Yo me rindo desde aquí</l>
+          <l>con ser tan gran hablador.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Parece que oigo rumor.</l>
+        </sp>
+        <stage>Sale Serón.</stage>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>No te engañas, vesle ahí.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Qué hay de nuevo, Serón mío?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Mucho mal se ha congelado.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Oímelo, pues, de contado,</l>
+          <l>que de ti el secreto fío.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Oíd todo el suceso</l>
+          <l>que pasó ante un alcalde en el Repeso.</l>
+          <l>Apenas las liaste</l>
+          <l>y en las garras del Duque me dejaste,</l>
+          <l>cuando Rosaura, de ignorancia llena,</l>
+          <l>la píldora escuchó que se le ordena,</l>
+          <l>a quien el Duque, porque más te cuadre,</l>
+          <l>con una cara de probar vinagre</l>
+          <l>y el color tan adusto y macilento</l>
+          <l>que temí que ayunaba algún adviento</l>
+          <l>según en él miré los accidentes,</l>
+          <l>la contó todo el caso allá entre dientes</l>
+          <l>sin que ninguno hubiera</l>
+          <l>que la menor palabra le entendiera.</l>
+          <l>Quedó Rosaura... Pero tente, pluma,</l>
+          <l>que es hablar de la mar y de su espuma </l>
+          <l>querer pintar la pena en seguidillas,</l>
+          <l>que dentro el corazón la hizo cosquillas</l>
+          <l>aunque disimuló su afecto interno.</l>
+          <l>¿No has visto un estofado en el invierno</l>
+          <l>que del fuego apartado</l>
+          <l>queda la superficie dél helado</l>
+          <l>y por de dentro el caldo, como ha hervido,</l>
+          <l>da borbotones con un lento ruido</l>
+          <l>sirviéndole lo graso que está arriba,</l>
+          <l>medio cuajado, a un perro de atractiva </l>
+          <l>para que sin melindres de su astro</l>
+          <l>por el olor le saque por el rastro?</l>
+          <l>Pues deste mismo modo, aunque el semblante</l>
+          <l>estaba cual dotor con praticante</l>
+          <l>y a lo mojigatica,</l>
+          <l>dando de cuando en cuando una risica,</l>
+          <l>por de dentro corría (¡cosa rara!)</l>
+          <l>el dolor tan al vivo, que en la cara</l>
+          <l>de color de tomate y berenjenas</l>
+          <l>se le pudieran numerar las penas.</l>
+          <l>Mas desmintiendo su dolor tirano</l>
+          <l>conque estaba achacosa por su hermano,</l>
+          <l>le aconsejó que fuese</l>
+          <l>y que en la trena al punto le metiese,</l>
+          <l>que de Isabel quedaba a su cuidado</l>
+          <l>el guardarla y ponerla a buen recado.</l>
+          <l>Pero en llegando a ver que no os hallaban,</l>
+          <l>aunque por la ciudad os pregonaban,</l>
+          <l>y que a los dos con vuestra diligencia</l>
+          <l>dejasteis a la luna de Valencia,</l>
+          <l>tales fueron sus furias infernales</l>
+          <l>que temblaron los brutos animales.</l>
+          <l>Mira qué haría yo, que en tal confhto</l>
+          <l>estaba con el miedo tamañito.</l>
+          <l>Como gallo vencido en la pelea</l>
+          <l>del que con más orgullo galantea</l>
+          <l>la tierna polla a quien prender porfía,</l>
+          <l>y otro le quita allí la primacía</l>
+          <l>que escarbando con celos el arena</l>
+          <l>la dicha del contrario le da pena</l>
+          <l>aunque la está mirando desde un lado,</l>
+          <l>rizo de cresta, el cuello levantado,</l>
+          <l>arrojando entre enojos</l>
+          <l>víboras y centellas por los ojos</l>
+          <l>y rumiando con fúnebre graznido</l>
+          <l>que ha de tomar venganza de su olvido,</l>
+          <l>así el Duque quedó, ya le conoces,</l>
+          <l>diciendo casi a voces:</l>
+          <l>«Carlos, traidor, mozuelo sin consejo,</l>
+          <l>lleva la vaca y déjame el pellejo».</l>
+          <l>Rosaura entonces, más bufidos dando</l>
+          <l>que uno que pierde cuando está jugando,</l>
+          <l>tales moros metió y con tal desuello,</l>
+          <l>que juró de tocar luego a degüello</l>
+          <l>sin más información que la pasada,</l>
+          <l>aunque pruebes cien veces la cuartada,</l>
+          <l>despachando por cuevas y sibiles,</l>
+          <l>porteros, escribanos y alguaciles,</l>
+          <l>y prometiendo a quien te traiga preso</l>
+          <l>aceitunas de Córdoba sin güeso.</l>
+          <l>Esto es en suma lo que agora pasa</l>
+          <l>en París, en ansueña y en tu casa,</l>
+          <l>que así me lo ha contado</l>
+          <l>uno que por la posta se ha apeado.</l>
+          <l>Ahora tú consulta a tu despecho</l>
+          <l>lo que te puede entrar más en provecho,</l>
+          <l>o si no al albedrío</l>
+          <l>de buen varón lo deja, señor mío,</l>
+          <l>que en mal suceso o bueno,</l>
+          <l>al sol, al frío, al aire y al sereno,</l>
+          <l>en Francia, Ingalaterra,</l>
+          <l>en Flandes, Absterdán, Finibusterra,</l>
+          <l>has de hallarme a tu lado,</l>
+          <l>porque, aunque soy bisoño, fui soldado</l>
+          <l>en el saco de Amberes</l>
+          <l>y así siempre he de hacer lo que quisieres.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Tal he quedado (¡ay, Carlos de mi vida!),</l>
+          <l>que estoy de ese candil hecha torcida.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Y yo, Isabel, de suerte me he quedado,</l>
+          <l>que ir quiero a ser gotera de un tejado. </l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Ay, esposo!, que es medio muy corriente</l>
+          <l>y podrás convertirte todo en fuente.</l>
+          <l>Mejor es que nos vamos</l>
+          <l>a cazar unos gamos.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Y qué he de hacer si llegan a prenderme? </l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Sustentar un torneo y defenderme;</l>
+          <l>mas no, que quedaré muy arresgada</l>
+          <l>si te echan a rodar en la estacada.</l>
+          <l>Mejor es evitar nuestra fortuna</l>
+          <l>volviéndonos dos patos en laguna,</l>
+          <l>que si te pierdo allí, aunque al Duque cuadre,</l>
+          <l>quedaré güerfánita y sin compadre</l>
+          <l>cantando en dulce acento</l>
+          <l>con ronca voz al son de un instrumento:</l>
+          <stage>Canta.</stage>
+          <l>Escuchad, moradores de Pinto,</l>
+          <l>el repetido pregón</l>
+          <l>que, obediente a Rosaura y su hermano,</l>
+          <l>va publicando mi voz.</l>
+          <l>Quien hallare a Carlos, pastores,</l>
+          <l>de entrambos tendrá el favor</l>
+          <l>y obligar podrá su locura</l>
+          <l>con miserable ambición.</l>
+          <l>No menos ventura se ofrece</l>
+          <l>al que entregare a Serón,</l>
+          <l>que irritó a más iras al Duque</l>
+          <l>con la frialdad de bufón.</l>
+          <l>Inquirid de montañas y apriscos</l>
+          <l>la más oculta mansión,</l>
+          <l>que jamás un amante se encubre</l>
+          <l>donde pueda verle el sol.</l>
+          <l>Cuidado con el pregón,</l>
+          <l>que obligar de un señor la locura</l>
+          <l>es la ventura más poco segura</l>
+          <l>que dan si se juntan codicia y pasión.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>No llores ni te aflijas;</l>
+          <l>y ahora tráele, Flora, unas torrijas.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No las quiero, mi dueño,</l>
+          <l>que toda estoy cayéndome de sueño.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Pues calla ahora y duerme,</l>
+          <l>que estoy resuelto.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿En qué?</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>En dejar prenderme, </l>
+          <l>pues con esto imagina</l>
+          <l>que cesa la ruina.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué dices, mi señor?, que eso es matarme.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Pues, ¿no es lo mismo, dime, el desposarme?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Así es verdad, mas puesto que me adoras,</l>
+          <l>en pago te he de dar por mayo moras.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Serón, aprisa ve por el caballo;</l>
+          <l>no te detengas si has de enalbardado.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Voy corriendo, señor, vendré despacio.</l>
+          <stage>Vase.</stage>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Presto, porque me esperan en Palacio.</l>
+          <l>Y tú, bella Isabel, dame una mano.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Toma el cuerpo, que es algo más liviano.</l>
+          <l>¿Que en efeto te vas? ¡Gentil partida!</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿No lo ves, Isabela de mi vida?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Aquí el caballo tienes.</l>
+        </sp>
+        <stage>Sale Serón.</stage>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Ay, mi Serón, y qué temprano vienes!</l>
+          <l>Esto es morir, y más que es de prudencia.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>No lo siento yo poco en mi conciencia.</l>
+          <l>Sin mirarla me voy, ¡fiera fatiga!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Adiós, y cada pájaro a su espiga.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Adiós, mi dueño.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Adiós, dulces antojos.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Yo te vea durmiendo con los ojos.</l>
+        </sp>
+        <stage>Éntranse los dos, Carlos y Isabel.</stage>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Y tú qué dices, mi perdida Flora?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Que bebo de tu amor con cantimplora.</l>
+          <l>¿No me das una mano, dulce dueño?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>De tejón te la diera por mi empeño.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¡Vete con Dios! Mis penas son suaves.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Florilla, adiós, ahí te quedan las llaves.</l>
+        </sp>
+      </div>
+      <div type="act">
+        <head>JORNADA TERCERA</head>
+        <stage>Salen Rosaura, Isabel y Laura, criada.</stage>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>En fin, ¿que no sabes dél?</l>
+          <l>Ni aunque con él estuviste</l>
+          <l>y te habló, ¿tú no le viste?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>No, señora.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Pues, cruel,</l>
+          <l>¿cómo os fuisteis (¡qué rigor!)</l>
+          <l>sin decir oste ni moste?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Porque os olimos el poste</l>
+          <l>y os conocimos la flor.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Ahora bien, ya tú estás presa,</l>
+          <l>y pues te tengo en Milán,</l>
+          <l>si él es tan buen gavilán,</l>
+          <l>él volverá por la presa;</l>
+          <l>y entretanto de contado</l>
+          <l>dime lo que ha sucedido,</l>
+          <l>que porque te haya escogido</l>
+          <l>yo no he de mostrar enfado.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Pues digo...</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>No digas nada,</l>
+          <l>que ya yo me lo sabía</l>
+          <l>y es muy gran bellaquería</l>
+          <l>que con él estés casada.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué pude hacer, si su estilo</l>
+          <l>me obligó a hacer tal demanda?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>En siendo una mujer blanda,</l>
+          <l>della hacen cera y pabilo.</l>
+          <l>¿Y, en fin, se fue?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Qué donaire!</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿Dónde?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Que te dé cuidado.</l>
+          <l>¿Dónde irá un hombre casado</l>
+          <l>si no es a meterse fraile?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿Y es cierto?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Es lo que saber</l>
+          <l>de mi voluntad podrás.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Pues con eso has dicho más</l>
+          <l>de lo que era menester.</l>
+          <l>¿Mas por qué hizo tal error?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Porque tú le perseguías</l>
+          <l>y enfadado le traías</l>
+          <l>ya con tus once de amor,</l>
+          <l>y así en vano tu amor fragua</l>
+          <l>más desengaños, ¡por Dios!</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Pues yo he de ver de las dos</l>
+          <l>la que lleva el gato al agua.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Por qué, di, tu amor enreda</l>
+          <l>con Carlos embarazarme?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Isabel, es por pagarme</l>
+          <l>solo en la propia moneda.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Es crueldad.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Cuadre o no cuadre,</l>
+          <l>esto ha de ser.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Ay de mí!</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿Tienes madre?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Creo que sí.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Pues cuentáselo a tu padre.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Mi ira es mucha.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Más mi flema.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Ya es mío.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Y mío ha de ser,</l>
+          <l>y en fin yo le he de querer</l>
+          <l>porque esto me va por tema.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>El Duque viene.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Qué enfado!</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿Quién es?</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Tu hermano, señora.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Pues dejemos por agora</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>nuestro pleito comenzado.</l>
+        </sp>
+        <stage>Salen el Duque y el conde de Punzón.</stage>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Isabel, porque me quieras</l>
+          <l>yo no me pienso enojar,</l>
+          <l>que no es mi amor tan vulgar</l>
+          <l>que ande a escoger como en peras.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Yo quererte? ¿Hay tal desastre?</l>
+          <l>¿Quién te ha engañado, señor?</l>
+          <l>Antes pusiera mi amor</l>
+          <l>primero que en ti, en un sastre.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Cierto que a tanta fineza</l>
+          <l>debo estar agradecido.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Siendo Carlos mi marido,</l>
+          <l>es quebrarte la cabeza.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¿Luego con él te casaste?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Que lo preguntes me admiro.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Si file por hacerme el tiro,</l>
+          <l>por cierto, buen lance echastes;</l>
+          <l>¿pues no soy, dime, Isabel,</l>
+          <l>más galán que él otro tanto?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Que así te alabes me espanto.</l>
+          <l>Pregúntaselo tú a él,</l>
+          <l>que con su capa raída</l>
+          <l>me parece a mí mejor</l>
+          <l>que no vos, comendador,</l>
+          <l>con la vuestra guarnecida.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Pues aunque hagas más desprecios,</l>
+          <l>ya te tengo en mi poder.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Ya veo que vengo a ser</l>
+          <l>solo terrero de necios.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Tú me has de querer de hoy más.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Que des en tal desatino?</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Mira que si me entarquino...</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Ni por esas ni por más.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Déjala, porque es peor</l>
+          <l>estar rogando al villano.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Como se hace con su hermano,</l>
+          <l>si no entendiera la flor.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Tú me has de querer de balde</l>
+          <l>aunque tu gusto se tuerza.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>El amor no quiere fuerza.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>No, o so alcalde o no so alcalde.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Ese es rigor criminal.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Y esa mucha resistencia.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Y o cumplo con mi conciencia</l>
+          <l>y apelo a otro tribunal.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>No admito la apelación.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Pues yo me daré la muerte.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Esa es necedad más fuerte.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Yo tengo acá mi razón.</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Mira que ha de regalarte</l>
+          <l>y no hay cosa como un Duque.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Vuesarced no me trabuque,</l>
+          <l>que esto ha de ser por mi parte.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>En efeto, ¿no hay remedio?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Por agora, tijeretas.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Pues yo me valdré de tretas.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Ese es flojísimo medio.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Yo soy cuerdo.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Y o ignorante.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Yo apacible.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Y o impaciente.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Yo hombre el más impertinente.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Yo la mujer más constante.</l>
+          <stage>Suena dentro ruido de una caja.</stage>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¿Mas qué caja destemplada</l>
+          <l>se oye herida la baqueta?</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>La caja que así te inquieta</l>
+          <l>no es caja de mermelada.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Pues ve y sabe de su acento</l>
+          <l>cuál puede ser la ocasión.</l>
+        </sp>
+        <stage>Vase él Conde.</stage>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <stage>Aparte.</stage>
+          <l>Algo teme el corazón,</l>
+          <l>que está triste que es contento.</l>
+        </sp>
+        <stage>Dice Carlos desde adentro.</stage>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Dejadme entrar; si no, a coces</l>
+          <l>derribaré las paredes.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Calledes, buen rey, calledes;</l>
+          <l>mas decidme, ¿quién da voces?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Hétele por do viene</l>
+          <l>el mi carretero.</l>
+          <l>Con su carro y sus mulas</l>
+          <l>viene diciendo:</l>
+          <stage>Cantando.</stage>
+          <l>Yo soy carretero</l>
+          <l>y vivo rodando,</l>
+          <l>y así me lo quiero,</l>
+          <l>que yo soy carretí, carretero.</l>
+          <l>Carretero me hizo amor</l>
+          <l>del carro suyo y de Venus,</l>
+          <l>y gusto de andar rodando</l>
+          <l>aunque en el trato me pierdo;</l>
+          <l>yo vivo rodando,</l>
+          <l>y así me lo quiero</l>
+          <l>que yo soy carretí, carretero.</l>
+        </sp>
+        <stage>Sale el Conde.</stage>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Un hombre es tan reportado</l>
+          <l>que por la guarda ha rompido</l>
+          <l>y hasta tu cuarto ha venido.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¡No le hagan mal al cuitado!</l>
+          <l>Mas ¿quién es?</l>
+        </sp>
+        <stage>Sale Carlos con la espada desnuda y échase a los pies del Duque.</stage>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Y o, que a tus pies</l>
+          <l>de cansado y de rendido</l>
+          <l>me echo...</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Anduviste advertido.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>... porque me escuches.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Di pues.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Porque antes que me afrentes</l>
+          <l>(¡oh, príncipe escandaloso!,</l>
+          <l>porque afrentarme o casarme</l>
+          <l>en mi concepto es lo propio)</l>
+          <l>sepas el hombre a quien quitas</l>
+          <l>libertad y desahogos,</l>
+          <l>te diré mis travesuras</l>
+          <l>sin meterme en circunloquios,</l>
+          <l>si como me cansas mucho</l>
+          <l>quieres escucharme un poco.</l>
+          <l>Yo soy, frisado señor,</l>
+          <l>Carlos Esforcia, famoso</l>
+          <l>cazador de lobos megos,</l>
+          <l>como afirman en mi abono</l>
+          <l>los tudescos y alemanes,</l>
+          <l>que aunque alabarse es de tontos,</l>
+          <l>a veces vienen los lances</l>
+          <l>tan rodados, que es forzoso</l>
+          <l>contar uno sus hazañas,</l>
+          <l>fuera de que nadie como</l>
+          <l>quien conoce sus virtudes</l>
+          <l>puede alabarse a sí propio.</l>
+          <l>Mi madre apenas me había</l>
+          <l>a los años dieciocho</l>
+          <l>enseñado aquellas gracias</l>
+          <l>que hay de «taita» a «guarda el coco», </l>
+          <l>pues lo del «niño y con barbas»</l>
+          <l>por mí se cantó en el soto,</l>
+          <l>cuando en el cerco me hallé</l>
+          <l>de Savillán, donde solo</l>
+          <l>no me quedó vivandero</l>
+          <l>de campaña en su contorno</l>
+          <l>a quien de gorra en tres meses</l>
+          <l>no le comí el caudal todo.</l>
+          <l>Al estado de Vares</l>
+          <l>en vez de darle socorro</l>
+          <l>plato en que el pobre a ser vino</l>
+          <l>alimento de su antojo.</l>
+          <l>Pasando desde el Casar</l>
+          <l>al Pirineo, aquel rollo</l>
+          <l>de Écija por lo estirado,</l>
+          <l>aquel mojón de contorno,</l>
+          <l>aquel puntal de las nubes,</l>
+          <l>aquel gigante que el polvo</l>
+          <l>les sacude a las estrellas</l>
+          <l>y con sobrecejo tosco</l>
+          <l>al sol madruga a limpiarle</l>
+          <l>las lagañas de los ojos,</l>
+          <l>dijo un francés mal de ti;</l>
+          <l>mas yo, sacando a lo zonzo</l>
+          <l>la chica, le di tal chirlo,</l>
+          <l>que en tierra le eché redondo</l>
+          <l>el bondejo, y fue rodando</l>
+          <l>como una bola de bolos</l>
+          <l>más de una legua, de suerte</l>
+          <l>que fue al gabacho forzoso</l>
+          <l>no hablar de ti más palabra</l>
+          <l>mientras marchó con nosotros.</l>
+          <l>No tienes ciudad ni villa</l>
+          <l>que, cual ganapán en hombros,</l>
+          <l>hasta aquí no haya traído</l>
+          <l>con más trabajos que abrojos</l>
+          <l>tiene un bosque mal rozado,</l>
+          <l>un puercoespín con enojo,</l>
+          <l>un erizo en su defensa</l>
+          <l>y un vallado en su contorno.</l>
+          <l>Permíteme, ¡oh, Duque excelso!,</l>
+          <l>ahora que estamos solos,</l>
+          <l>si no quieres dar lugar</l>
+          <l>a que nos oigan los sordos,</l>
+          <l>que les pregunte a las leyes</l>
+          <l>por qué tiene un poderoso</l>
+          <l>licencia para meterse</l>
+          <l>en cualquier vedado o coto</l>
+          <l>sin permiso de su dueño.</l>
+          <l>Mas yo por ellas respondo</l>
+          <l>que no hay más ley que su gusto</l>
+          <l>y aun inferior no hay tal como</l>
+          <l>no partir con ellos peras</l>
+          <l>en invierno ni en otoño.</l>
+          <l>Dirás que fue gran locura</l>
+          <l>llevarme a cazar al soto</l>
+          <l>conmigo a Isabel, sabiendo</l>
+          <l>como mula de retomo</l>
+          <l>di la vuelta a la posada,</l>
+          <l>porque supe que mañoso</l>
+          <l>pescaste el bulto a Isabel</l>
+          <l>como al corderillo el zorro.</l>
+          <l>¡Oh, quién en esta ocasión</l>
+          <l>supiera pintarte el gozo</l>
+          <l>que tuvo con esta nueva</l>
+          <l>el pecho afligido y ronco</l>
+          <l>de un catarro que exhalaba</l>
+          <l>por boca, narices y ojos!</l>
+          <l>¿Viste, gran señor, un hombre</l>
+          <l>miserable y codicioso</l>
+          <l>que por guardar su dinero</l>
+          <l>hace en la tierra muy hondo</l>
+          <l>un hoyo y le mete dentro</l>
+          <l>pensando él, ¡mísero tonto!,</l>
+          <l>que así le tiene seguro</l>
+          <l>de hurtos, ladrones y robos?</l>
+          <l>¿Y que a este tiempo al mezquino</l>
+          <l>acechándole está otro,</l>
+          <l>y apenas vuelve la espalda</l>
+          <l>cuando llega presuroso,</l>
+          <l>alza la tierra movida,</l>
+          <l>segunda vez abre el foso,</l>
+          <l>saca el tesoro guardado,</l>
+          <l>marcha con él como un corzo,</l>
+          <l>vuelve el dueño y, viendo abierta</l>
+          <l>la jaula, el nido sin tordos,</l>
+          <l>las voces levanta al cielo,</l>
+          <l>hace estrenaos como loco</l>
+          <l>y para desesperarse</l>
+          <l>está que le falta poco?</l>
+          <l>Así yo llego a la aldea,</l>
+          <l>busco a Isabel, no la topo,</l>
+          <l>preguntólo a las vecinas,</l>
+          <l>dícenme que lio el trompo;</l>
+          <l>parto a Milán como un gamo,</l>
+          <l>hablo con un monje gordo,</l>
+          <l>cuento al padre de Isabel</l>
+          <l>cómo es mi suegro forzoso,</l>
+          <l>fia de mí sus flaquezas,</l>
+          <l>yo a servirle me acomodo,</l>
+          <l>llego al muro, calla el pueblo,</l>
+          <l>paso el río, no me ahogo,</l>
+          <l>veme Curcio y de corchete</l>
+          <l>me embiste como un demonio;</l>
+          <l>mas yo, apretando los puños,</l>
+          <l>no se me da dél un hongo,</l>
+          <l>y entrándome hasta aquí dentro</l>
+          <l>a pedirte vengo solo</l>
+          <l>que me vuelvas a Isabel,</l>
+          <l>pues ya es tiempo y basta el cómo.</l>
+          <l>Mírame y verasme el alma</l>
+          <l>verter lágrimas a chorros</l>
+          <l>como si probara el zumo</l>
+          <l>de una cebolla en agosto.</l>
+          <l>Mírame, digo otra vez,</l>
+          <l>porque estoy tan babazorro</l>
+          <l>que es imposible (según</l>
+          <l>lo que callo y lo que lloro)</l>
+          <l>que, si tus ojos me matan,</l>
+          <l>que me miren más tus ojos.</l>
+          <l>Pero si no quieres darme</l>
+          <l>el auxilio que te imploro,</l>
+          <l>saca la espada de presto</l>
+          <l>y desde la liga al moño</l>
+          <l>pásame de parte a parte</l>
+          <l>sin ruido y sin alboroto,</l>
+          <l>o entrégame a un carnicero</l>
+          <l>a que me divida en trozos</l>
+          <l>y en medio del corazón</l>
+          <l>verás un retrato al olio</l>
+          <l>de Isabel, hecho de mano</l>
+          <l>del Tiziano, tan hermoso,</l>
+          <l>que puedes, llamando al cura,</l>
+          <l>dar la palabra de esposo.</l>
+          <l>¡Ea, mátame!, ¿a qué aguardas?,</l>
+          <l>y haz de mi sangre un mondongo</l>
+          <l>para llevar por merienda</l>
+          <l>en una fiesta de toros,</l>
+          <l>que aunque todos te lo culpen,</l>
+          <l>yo solo te lo perdono</l>
+          <l>de aquí al día del juicio</l>
+          <l>in sécula seculorum.</l>
+          <l>Pues con esto cesarán</l>
+          <l>en tu tema, en mi ahogo,</l>
+          <l>los chismes, las pataratas,</l>
+          <l>los enredos, los antojos,</l>
+          <l>los embustes, las quimeras,</l>
+          <l>las cataletas y oprobios</l>
+          <l>que sufro a fuer de vasallo,</l>
+          <l>que a fuer de entendido noto</l>
+          <l>y paso a fuer de criado</l>
+          <l>de un señor de necio en fondo,</l>
+          <l>pues todo sirviendo dura</l>
+          <l>y cesa en muriendo todo.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¡Señores, que haya hombre que</l>
+          <l>haga tan gran disparate</l>
+          <l>por mujer!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué eso te mate?</l>
+          <l>Él se entiende. Dejalé.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Ya que hasta ahora has callado,</l>
+          <l>¿qué respondes?</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Que he advertido</l>
+          <l>que eres, Carlos, mal sufrido</l>
+          <l>y no eres para casado.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¡Cualquiera que lo dijere!</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Yo soy quien lo digo y honda.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Por mí el refrán te responda</l>
+          <l>del más ruin.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>El que lo fuere.</l>
+          <l>Vente tras mí.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Ya te sigo.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Y tú llévate a Isabel.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Dónde la llevas, crüel?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Ahí va en cas de un amigo.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Por si no volviere, espera,</l>
+          <l>la diré mi sentimiento.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Si le llevas a un convento,</l>
+          <l>déjamele hablar siquiera.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Yo lo haré dentro de un hora,</l>
+          <l>que ahora va, así me ensancho.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>¿Dónde?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>A ver al rey don Sancho</l>
+          <l>sobre el cerco de Zamora.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Injustos son los enojos</l>
+          <l>con que tu amor le destierra.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>¿Vuelves a mirarle, perra?</l>
+          <l>Yo te sacaré los ojos.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Ven o traedla por fuerza,</l>
+          <l>pues da en ese desvarío.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Estas cosas, señor mío,</l>
+          <l>más quieren maña que fuerza.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>No te resistas, temosa.</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>¿Por qué estás tan perezoso?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Dejar de verle es forzoso.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Dejar de hablarla no es cosa.</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Acabad de entrar los dos.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Adiós, mono.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Adiós, mi marta.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>A aquel que así nos aparta</l>
+          <l>mala pascua le dé Dios.</l>
+        </sp>
+        <stage>Métenlos como por fuerza y salen Flora y Serón.</stage>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Fuéronse, Flora?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¿Quién es?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Quién ha de ser, pese a mí,</l>
+          <l>no me conoces?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¿Yo a ti?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Pues hablo acaso francés?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¿Es Serón?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Y no de esparto.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¿Pues de qué?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>De filigrana.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¿Dónde vas tan de mañana?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>A ver a Herodes de parto.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Pues di, ¿cómo no me ofreces</l>
+          <l>un abrazo?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Lindo empleo,</l>
+          <l>porque siempre que te veo</l>
+          <l>a los diablos me pareces.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>De oírte tengo mancilla,</l>
+          <l>¿tan fea soy?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Si eso te inquieta,</l>
+          <l>contigo es niña de teta</l>
+          <l>la tarasca de la villa.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¿Por qué estás tan mal conmigo?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Porque eres puerca, chismosa,</l>
+          <l>sucia, embustera, golosa</l>
+          <l>y otras faltas que no digo.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Cierto que a tal claridad</l>
+          <l>debo estar agradecida.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Pues, Flora, en toda mi vida</l>
+          <l>he dicho mayor verdad.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Pues yo haré, aunque desesperes,</l>
+          <l>que andes tras mí.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Cómo? Di.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Yendo delante de ti</l>
+          <l>adondequiera que fueres.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Gentil friolera, por cierto.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Quiéreme.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿Que en eso des?</l>
+          <l>Más quisiera a un calabrés,</l>
+          <l>a un zurdo, a un calvo y a un tuerto.</l>
+          <l>Pero Rosaura hacia acá</l>
+          <l>y Isabel vuelven, ¡chitón!</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>¿Has de quererme, Serón?</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Ese pleito se verá.</l>
+        </sp>
+        <stage>Retíranse los dos y salen Isabel y Rosaura.</stage>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Vuélveme a contar por yerro</l>
+          <l>el pesar que te atormenta.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Pues digo que el Duque intenta</l>
+          <l>darle a Carlos pan de perro.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Cuándo?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Esta noche.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Por Dios</l>
+          <l>que es gentil impertinencia.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Y encargó esta diligencia</l>
+          <l>al Conde con otros dos.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué haga tan gran picardía</l>
+          <l>un Duque de tanto seso?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Isabel, yo te confieso</l>
+          <l>que es muy gran superchería.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Pues déjame a esos menguados,</l>
+          <l>que si me cogen de gana,</l>
+          <l>aunque ellos vengan por lana,</l>
+          <l>han de volver trasquilados.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Mira, yo le quiero bien</l>
+          <l>y, como dice el refrán,</l>
+          <l>el que bien quiere a Beltrán...</l>
+          <l>ya me entiendes.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Está bien.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Y aunque a ti te quiere a pasto,</l>
+          <l>yo entrar a la parte gusto,</l>
+          <l>pues tú serás la del gusto</l>
+          <l>y yo seré la del gasto.</l>
+          <stage>Dale una llave.</stage>
+          <l>Y ahora toma de presto</l>
+          <l>esta llave, y un broquel</l>
+          <l>y espada te dará fiel</l>
+          <l>Laura.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Y para qué es aquesto?</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Para que a Carlos le lleves</l>
+          <l>por si le quieren dar zurra.</l>
+          <l>Ve apriesa.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Que esto me aburra!</l>
+          <l>¡Demonios sois las mujeres!</l>
+          <l>Yo voy, Rosaura, volando.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Y yo me vuelvo sin ruido.</l>
+        </sp>
+        <stage>Vanse las dos y vuelven Serón y Flora.</stage>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Flora, ah, Florilla, ¿haslo oído?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Sí, Serón, y estoy temblando.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>¿De qué tiemblas?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Pena rara</l>
+          <l>que estés tan sin embarazo.</l>
+          <l>Tiemblo de algún ramalazo.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Como te alcance me holgara,</l>
+          <l>mas de cuchilladas dentro</l>
+          <l>suenan ruido.</l>
+          <stage>Suena ruido de cuchilladas y dice Isabel a voces.</stage>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¡Vil canalla,</l>
+          <l>no entréis conmigo en batalla,</l>
+          <l>que os mataré si os encuentro!</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Mi ama es. Pues, ¿a qué aguardo?</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Serón, vela a socorrer.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Voy. Mas ya no es menester,</l>
+          <l>que pelea como un Bernardo.</l>
+        </sp>
+        <stage>Sale Isabel acuchillando al Conde y otros dos.</stage>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>¡Detente, Palas cristiana!</l>
+          <l>¡Por Dios, que tira de veras!</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Huid, gallinas zorreras.</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>¿Hay mujer más inhumana?</l>
+        </sp>
+        <stage>Sale el Duque, Rosaura y soldados.</stage>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¿Quién altera mi palacio?</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Yo soy. ¡Oh, qué buena lanza!</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Envaine uzé, seor Carranza.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Ya envaino y con mucho espacio.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>¿Por qué esta pendencia ha sido?</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Yo, gran señor, no lo sé.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Pues yo te lo contaré</l>
+          <l>si escuchas con tanto oído.</l>
+          <l>Referiste que Carlos es mi esposo,</l>
+          <l>que dello estás gustoso,</l>
+          <l>que su nombre te enfada,</l>
+          <l>que lo que a ti te ofende a mí me agrada,</l>
+          <l>que intentas sin decoro</l>
+          <l>que diga que le olvido y que te adoro,</l>
+          <l>y que yo lo resisto</l>
+          <l>es cansarte, supuesto que lo has visto, </l>
+          <l>y pues lo ignoras y lo sabes todo,</l>
+          <l>vaya de cuento y digo deste modo:</l>
+          <l>a escuras en mi cuarto recogida</l>
+          <l>quedé cuando, aturdida</l>
+          <l>del riesgo de mi amante,</l>
+          <l>con más temor que un mal representante,</l>
+          <l>el rostro enharinado</l>
+          <l>como la que ha cernido o ha amasado,</l>
+          <l>me vi morir y tanta fue la pena</l>
+          <l>de imaginarme casi calvatruena</l>
+          <l>aunque estaba dormida,</l>
+          <l>que me pudo quitar ahí la vida</l>
+          <l>en duda tan incierta</l>
+          <l>el susto de pensar que estaba muerta.</l>
+          <l>Vuelta del desabril o del desmayo</l>
+          <l>como un cuero o bayo,</l>
+          <l>parto con presto vuelo,</l>
+          <l>porque en correr volando soy mochuelo,</l>
+          <l>tomo esas armas, danme cierta llave</l>
+          <l>y, hermosa, honesta y grave,</l>
+          <l>dando un paso tras otro con reposo,</l>
+          <l>a la puerta me planto de mi esposo.</l>
+          <l>Y apenas a las guardas doy un tiento</l>
+          <l>cuando los pasos siento</l>
+          <l>de esa tropa soez, ¡oh, gentecilla!,</l>
+          <l>que pretenden a Carlos dar papilla;</l>
+          <l>mas yo por escusarle tal pelmazo</l>
+          <l>saco la gualda y el escudo embrazo.</l>
+          <l>Supliqueles primero que me hicieran</l>
+          <l>merced de que a espulgarse un galgo fueran </l>
+          <l>pues tan pocos vinieron,</l>
+          <l>pero como eran sordos no lo oyeron,</l>
+          <l>y temiendo que hiciesen algún yerro,</l>
+          <l>calo la gorra y, ¡zas!, con todos cierro.</l>
+          <l>Como el cielo por mayo si se enoja</l>
+          <l>no llueve nunca aloja</l>
+          <l>ni anises confitados</l>
+          <l>sino es granizos gordos y cuajados,</l>
+          <l>así yo, espesas sobre sus espadas</l>
+          <l>como hígado, tiraba cuchilladas</l>
+          <l>tanto, que no fue en ellos bobería</l>
+          <l>temer la furia mía,</l>
+          <l>pues con todos ahilaba de tal suerte,</l>
+          <l>que huyeron como cacos de la muerte</l>
+          <l>y ninguno tan cerca se llegara</l>
+          <l>que hacia allá un «sepan cuantos» no llevara.</l>
+          <l>Cualquiera juzgará que aqueste empeño</l>
+          <l>efecto file del sueño,</l>
+          <l>pues no fue, no, soñado,</l>
+          <l>sino muy bien despierta y de pensado, </l>
+          <l>que como vi sin ser el moro Muza</l>
+          <l>que a Carlos querían dar caperuza,</l>
+          <l>su intención conociendo y malas artes,</l>
+          <l>me adelanté y les di con la del martes.</l>
+          <l>Esto pasaba cuando tú veniste,</l>
+          <l>y aunque todo fue chiste,</l>
+          <l>escucha ahora atento</l>
+          <l>que te pienso decir de una hasta ciento.</l>
+          <l>Carlos está aquí dentro y por dos veces</l>
+          <l>cascarle has pretendido ya las nueces;</l>
+          <l>ambas las he sabido</l>
+          <l>y aquesta vez por Dios que te he cogido,</l>
+          <l>y en fin, sea mi marido o sea mi amante,</l>
+          <l>él corre por mi cuenta de hoy adelante</l>
+          <l>por si tu tema o si tu amor lo ignora;</l>
+          <l>sácate allá la consecuencia ahora.</l>
+          <l>Si más espadas que un millón de viejas</l>
+          <l>tienen refranes, cuentos y consejas</l>
+          <l>a un tiempo me rogaran</l>
+          <l>que me quite, esta vez me perdonaran </l>
+          <l>porque tan desgarrada y tan cosida</l>
+          <l>a la puerta he de estar y tan fruncida,</l>
+          <l>que mirada parezca desde lejos</l>
+          <l>a unos reposteros que hay muy viejos</l>
+          <l>en algunas tabernas,</l>
+          <l>tallados de remiendos las dos piernas.</l>
+          <l>Si pretendes, señor, para el camino</l>
+          <l>de la otra vida darle ajo, comino,</l>
+          <l>el atajo más largo y más estrecho</l>
+          <l>es que le pruebe yo si está bien hecho, </l>
+          <l>pues sin romper primero este pestillo</l>
+          <l>no es fácil el entrar en su castillo.</l>
+          <l>Esta es resolución, ¡viven los cielos!,</l>
+          <l>aunque revientes de comer buñuelos,</l>
+          <l>que pues fui la primera</l>
+          <l>que te hice el buz, antes que Carlos muera,</l>
+          <l>se han de llenar sobre estas losas frías</l>
+          <l>con sangre de mis venas diez bacías.</l>
+          <l>Y así, quita de hoy más de la cabeza</l>
+          <l>tu amor o tu simpleza,</l>
+          <l>tu rencor o tu agrado,</l>
+          <l>y supuesto que estás desengañado,</l>
+          <l>que me cansas y estoy de ti ofendida,</l>
+          <l>u dame a Carlos o quítame la vida.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Pues que tan resuelta estás</l>
+          <l>no tengo que responder</l>
+          <l>sino que eres...</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>¿Qué?</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>... mujer,</l>
+          <l>y que tú me rogarás</l>
+          <l>y ahora, pues, no le mato</l>
+          <l>hasta que engorde primero.</l>
+          <l>Traédmele aquí, que quiero</l>
+          <l>darle a Isabel de barato.</l>
+        </sp>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Voy por él.</l>
+          <stage>Vase el Conde.</stage>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>No has hecho cosa</l>
+          <l>de más buen gusto y primor</l>
+          <l>que el dejarla.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Sí, señor,</l>
+          <l>que esto para vos no es cosa.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Yo lo hago por darte gusto,</l>
+          <l>aunque a mí me haya pesado</l>
+          <l>y porque sé que ha llegado</l>
+          <l>el de Ursino a darte un susto.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Pues ¿a qué viene?</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Por verte,</l>
+          <l>y a casarse, a lo que sé,</l>
+          <l>contigo.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Pues yo lo haré</l>
+          <l>solo por obedecerte.</l>
+        </sp>
+        <stage>Sale el Conde, y Carlos.</stage>
+        <sp who="#conde">
+          <speaker>CONDE</speaker>
+          <l>Carlos está aquí.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Esta vez</l>
+          <l>tomen todos escarmiento.</l>
+          <l>Dale a Isabel al momento</l>
+          <l>esa mano de almirez.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Aunque sea a mi despecho,</l>
+          <l>protesto, que soy forzado,</l>
+          <l>mas si estás desenojado,</l>
+          <l>yo quedaré satisfecho.</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Aquesto ha de ser, ¡por Dios!,</l>
+          <l>y que es mi gusto te advierto.</l>
+        </sp>
+        <sp who="#rosaura">
+          <speaker>ROSAURA</speaker>
+          <l>Acuérdate del concierto</l>
+          <l>en que quedamos las dos.</l>
+        </sp>
+        <sp who="#isabel">
+          <speaker>ISABEL</speaker>
+          <l>Soy muy flaca de memoria,</l>
+          <l>mas con duquesas no arguyo.</l>
+          <l>Yo soy tuya.</l>
+        </sp>
+        <sp who="#carlos">
+          <speaker>CARLOS</speaker>
+          <l>Y yo soy tuyo.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Aquí paz y después gloria;</l>
+          <l>y a mí y a Flora, ¿a qué esperas</l>
+          <l>en premiar nuestros intentos?</l>
+        </sp>
+        <sp who="#duque">
+          <speaker>DUQUE</speaker>
+          <l>Yo os mandaré ducientos</l>
+          <l>y que os echen a galeras.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Otros tantos sabañones</l>
+          <l>tengas en pies y en orejas,</l>
+          <l>y se te pelen las cejas</l>
+          <l>de achaque de unas unciones.</l>
+        </sp>
+        <sp who="#flora">
+          <speaker>FLORA</speaker>
+          <l>Tuya soy, Serón, y cese</l>
+          <l>tanto rigor, por mi fee.</l>
+        </sp>
+        <sp who="#serón">
+          <speaker>SERÓN</speaker>
+          <l>Calla, que yo te echaré</l>
+          <l>a una noria, aunque te pese.</l>
+          <l>Y aquí, ¡oh, senado!, burlada</l>
+          <l>La más constante mujer,</l>
+          <l>fin a venido a tener.</l>
+          <l>Perdonad si no os agrada.</l>
+        </sp>
+        <trailer>FIN</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

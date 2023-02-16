@@ -1,0 +1,5133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="dracor-id" xml:lang="esp" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La traición en la amistad</title>
+        <author>
+          <persName>
+            <forename>María de</forename>
+            <surname>Zayas Sotomayor</surname>
+            <idno type="wikidata">Q2905689</idno>
+          </persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La traición en la amistad</title>
+          <author>María de Zayas y Sotomayor</author>
+          <editor>Teresa Ferrer Valls</editor>
+          <idno type="URL">https://emothe.uv.es/biblioteca/textosXML/EMOTHE0545_LaTraicionEnLaAmistad.xml</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY 4.0</ab>
+              <ref target="https://creativecommons.org/licenses/by/4.0/"
+                >Lizenzvertrag</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="gerardo">
+            <persName>GERARDO</persName>
+          </person>
+          <person sex="MALE" xml:id="lauro">
+            <persName>LAURO</persName>
+          </person>
+          <person sex="FEMALE" xml:id="lucia">
+            <persName>LUCÍA</persName>
+          </person>
+          <person sex="MALE" xml:id="fabio">
+            <persName>FABIO</persName>
+          </person>
+          <person sex="MALE" xml:id="juan">
+            <persName>DON JUAN</persName>
+          </person>
+          <person sex="MALE" xml:id="felis">
+            <persName>FELIS</persName>
+          </person>
+          <person sex="MALE" xml:id="leon">
+            <persName>LEÓN</persName>
+          </person>
+          <person sex="MALE" xml:id="antonio">
+            <persName>ANTONIO</persName>
+          </person>
+          <person sex="MALE" xml:id="liseo">
+            <persName>LISEO</persName>
+          </person>
+          <person sex="FEMALE" xml:id="marcia">
+            <persName>MARCIA</persName>
+          </person>
+          <person sex="FEMALE" xml:id="fenisa">
+            <persName>FENISA</persName>
+          </person>
+          <person sex="FEMALE" xml:id="belisa">
+            <persName>BELISA</persName>
+          </person>
+          <person sex="FEMALE" xml:id="laura">
+            <persName>LAURA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle"></term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/"></classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-11-18">(DS/LG) conversion from source and editing.</change>
+        <change when="2023-02-08">(LG) update formatting.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written" when="1630">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>LOS QUE HABLAN EN ELLA</head>
+        <castItem>
+          <role>MARCIA</role>
+        </castItem>
+        <castItem>
+          <role>FENISA</role>
+        </castItem>
+        <castItem>
+          <role>BELISA</role>
+        </castItem>
+        <castItem>
+          <role>LAURA</role>
+        </castItem>
+        <castItem>
+          <role>FELIS</role>
+        </castItem>
+        <castItem>
+          <role>LISEO</role>
+        </castItem>
+        <castItem>
+          <role>GERARDO</role>
+        </castItem>
+        <castItem>
+          <role>DON JUAN</role>
+        </castItem>
+        <castItem>
+          <role>LAURO</role>
+        </castItem>
+        <castItem>
+          <role>LEÓN</role>
+        </castItem>
+        <castItem>
+          <role>ANTONIO</role>
+        </castItem>
+        <castItem>
+          <role>FABIO</role>
+        </castItem>
+        <castItem>
+          <role>[LUCÍA]</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head>Jornada I</head>
+        <stage>Salen MARCIA y FENISA.</stage>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Vi, como digo, a Liseo</l>
+          <l>en el Prado el otro día,</l>
+          <l>con más gala que Narciso,</l>
+          <l>más belleza y gallardía.</l>
+          <l>Puso los ojos en mí</l>
+          <l>y en ellos mismos me invía</l>
+          <l>aquel veneno que dicen</l>
+          <l>que se bebe por la vista.</l>
+          <l>Fueron los míos las puertas,</l>
+          <l>pues con notable osadía</l>
+          <l>se entró por ellos al alma,</l>
+          <l>sin respetar a sus niñas.</l>
+          <l>Siguiome y supo mi casa,</l>
+          <l>y por la nobleza mía</l>
+          <l>apareció el ciego lazo,</l>
+          <l>que solo la muerte quita.</l>
+          <l>Solicitome amoroso,</l>
+          <l>hizo de sus ojos cifras</l>
+          <l>de las finezas del alma,</l>
+          <l>ya por mil partes perdida.</l>
+          <l>Yo, Fenisa, enamorada,</l>
+          <l>tanto como agradecida,</l>
+          <l>estimo las de Liseo</l>
+          <l part="I">más de lo justo.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">Me admira,</l>
+          <l>Marcia, de tu condición.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>No te admires, sino mira,</l>
+          <l>Fenisa, que amor es dios,</l>
+          <l>cuya grandeza ofendida</l>
+          <l>con mi libre voluntad</l>
+          <l>de esta suerte me castiga.</l>
+          <l>Ya hizo el alma su empleo,</l>
+          <l>ya es impusible que viva</l>
+          <l>sin Liseo, que Liseo</l>
+          <l>es prenda que el alma estima;</l>
+          <l>y mientras mi padre asiste,</l>
+          <l>como ves, en Lombardía,</l>
+          <l>en esta guerra de amor</l>
+          <l>he de emplearme atrevida.</l>
+          <l>Si tú pretendes que crea</l>
+          <l>que eres verdadera amiga,</l>
+          <l>no me aconsejes que deje</l>
+          <l>esta impresa a que me obliga,</l>
+          <l>no la razón, sino amor.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Mal dices, siendo mi amiga,</l>
+          <l>poner duda en mi amistad,</l>
+          <l>mas, si a lo cierto te animas,</l>
+          <l>justo será, Marcia amada,</l>
+          <l>que temas y no permitas</l>
+          <l>arrojar al mar de amor</l>
+          <l>tu mal regida barquilla.</l>
+          <l>Considera que te pierdes,</l>
+          <l>y a las penas que te obligas</l>
+          <l>en mar de tantas borrascas,</l>
+          <l>confusiones y desdichas.</l>
+          <l>¿Qué piensas sacar de amar</l>
+          <l>en tiempo que no se mira</l>
+          <l>ni belleza, ni virtudes,</l>
+          <l>solo la hacienda se estima?</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Naide puede sin amor</l>
+          <l part="I">vivir.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">Confieso; mas mira,</l>
+          <l>bella Marcia, que te enredas</l>
+          <l>sin saber por do caminas.</l>
+          <l>El laberinto de Creta,</l>
+          <l>la casa siempre maldita</l>
+          <l>del malicioso Atalante,</l>
+          <l>el jardín de Falerina,</l>
+          <l>no tienen más confusión.</l>
+          <l>¡Lástima tengo a tu vida!</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Espantada estoy de verte,</l>
+          <l>Fenisa, tan convertida.</l>
+          <l>¿Haste confesado acaso?</l>
+          <l>Ya me cansa tu porfía.</l>
+          <l part="I">¿No aman las aves?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">Sí aman,</l>
+          <l>y no te espante que diga</l>
+          <l>lo que escuchas, pues amor</l>
+          <l>esta ciencia me pratica.</l>
+          <l>Ya sé que la dura tierra</l>
+          <l>tiene amor y que se crían</l>
+          <l>con amor todos sus frutos,</l>
+          <l>pues sabe amar aunque es fría.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Pues, ¿por qué ha de ser milagro</l>
+          <l>que yo ame, si me obliga</l>
+          <l>toda la gala que he visto?</l>
+          <l>Y para que no prosigas,</l>
+          <l>verás en aqueste naipe</l>
+          <l>un hombre donde se cifran</l>
+          <l>todas las gracias del mundo.</l>
+          <l>Él responda a tu porfía.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <stage>(Aparte.)</stage>
+          <l>(¡Ay de mí!)</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">¿Ya te suspendes?</l>
+          <l>Dime ahora, por tu vida,</l>
+          <l>¿qué pierdo en ser de unos ojos,</l>
+          <l>cuyas agradables niñas</l>
+          <l>tienen cautivas más almas</l>
+          <l>que tiene arenas la Libia,</l>
+          <l>estrellas el claro cielo,</l>
+          <l>rayos el sol, perlas finas</l>
+          <l>las margaritas preciosas,</l>
+          <l>plata las fecundas minas,</l>
+          <l part="I">oro Arabia...?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <stage>(Aparte.)</stage>
+          <l>(¡Ay, Dios! ¿Qué he visto?</l>
+          <l>¿Qué miras, alma, qué miras?</l>
+          <l>¿Qué amor es este o qué hechizo?</l>
+          <l>¡Tente, loca fantasía!</l>
+          <l>¡Qué máquina, qué ilusión!</l>
+          <l>¡Marcia y yo somos amigas!</l>
+          <l>Fuerza es morir. ¡Ay, amor!,</l>
+          <l>¿por qué pides que te siga?</l>
+          <l>¡Ay, ojos de hechizos llenos!)</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Suspensa estás, ¿qué imaginas?</l>
+          <l>Fenisa, ¿no me respondes?</l>
+          <l part="I">¿No hablas?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">¿Llamas, amiga?</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>No estoy muy bien empleada.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <stage>(Aparte.)</stage>
+          <l>(Yo le vi, por mi desdicha,</l>
+          <l>pues he visto con mirarle</l>
+          <l>el fin de mi triste vida.)</l>
+          <l>Digo, Marcia, que es galán.</l>
+          <l>Mas cuando pensé que habías</l>
+          <l>hecho a Gerardo tu dueño,</l>
+          <l>¿olvidas lo que te estima?</l>
+          <l>¿No estimas lo que te adora,</l>
+          <l part="I">siendo obligación?</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">No digas,</l>
+          <l>que a nadie estoy obligada</l>
+          <l part="I">sino a mi gusto.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <stage>(Aparte.)</stage>
+          <l>(Perdida</l>
+          <l>estoy por Liseo. ¡Ay, Dios!</l>
+          <l>Fuerza será que le diga</l>
+          <l>mal de él porque le aborrezca.)</l>
+          <l>¿Cuidado de tantos días,</l>
+          <l>como el del galán Gerardo,</l>
+          <l>por el que hoy empieza, olvidas?</l>
+          <l>Demás, de aqueste puedes,</l>
+          <l>fingiendo amor, cortesía,</l>
+          <l>estimación y finezas,</l>
+          <l>burlarte; y es más justicia</l>
+          <l>estimar a quien te quiere,</l>
+          <l part="I">más que a quien quieres.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">Que digas</l>
+          <l>razones tan enfadosas...</l>
+          <l>Alguna cosa te obliga</l>
+          <l>a darme, Fenisa, enojos.</l>
+          <l>¿Qué pensamientos te animan?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="I">No te enojes.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">¿Cómo pides</l>
+          <l>que no me enoje si quitas</l>
+          <l>a mis deseos las alas,</l>
+          <l>a mi amor la valentía,</l>
+          <l>a mis ojos lo que adoran</l>
+          <l>y a mi alma su alegría?</l>
+          <l part="I">¿Quiéresle acaso?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">¿Yo, Marcia?</l>
+          <l>¡No está mala la malicia!</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>No es malicia, sino celos.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¿Por qué el retrato me quitas?</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Muestra que tú de Liseo</l>
+          <l>valor ni parte no estimas</l>
+          <l>y, si le estimas, ¿procuras</l>
+          <l part="I">que yo le aborrezca?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">Amiga</l>
+          <l>Marcia, escucha, no te vayas.</l>
+          <l>¡Aguarda, por vida mía!</l>
+          <l>¡Oye, por tu vida, escucha!</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Muy enojada me envías.</l>
+          <l>Quien dice mal de Liseo</l>
+          <l>pierda de Marcia la vista.</l>
+        </sp>
+        <stage>(Vase.)</stage>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Pierda la vista de Marcia</l>
+          <l>quien piensa ganar la vista</l>
+          <l>de la gala de Liseo.</l>
+          <l>¿Hay más notable desdicha?</l>
+          <l>¿Soy amiga? Sí. Pues, ¿cómo</l>
+          <l>pretendo contra mi amiga</l>
+          <l>tan alevosa traición?</l>
+          <l>Amor, de en medio te quita.</l>
+          <l>¡Jesús!, el alma te abrasa.</l>
+          <l>¿Dónde, voluntad, caminas</l>
+          <l>contra Marcia tras Liseo?</l>
+          <l>¿No miras que vas perdida?</l>
+          <l>El amor y la amistad</l>
+          <l>furiosos golpes se tiran.</l>
+          <l>Cayó el amistad en tierra</l>
+          <l>y amor vitoria apellida.</l>
+          <l>¡Téngala yo, ciego dios,</l>
+          <l>en tan dudosa conquista!</l>
+        </sp>
+        <stage>(Sale DON JUAN.)</stage>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Marcia me dijo, Fenisa,</l>
+          <l>que estabas aquí, y así</l>
+          <l>a ver tus ojos subí.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Siempre el corazón avisa</l>
+          <l>el bien y el mal, y así a mí</l>
+          <l>el corazón me decía,</l>
+          <l>mi don Juan, con su alegría</l>
+          <l>que tú llegabas aquí.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Bien mi voluntad merece</l>
+          <l>tu favor, Fenisa mía,</l>
+          <l>mas el alma desconfía,</l>
+          <l>con que mil penas padece.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <stage>(Aparte.)</stage>
+          <l>(Aunque a don Juan digo amores,</l>
+          <l>el alma en Liseo está,</l>
+          <l>que en ella posada habrá</l>
+          <l>para un millón de amadores.</l>
+          <l>Mas quiérole preguntar</l>
+          <l>quién es este por quien muero</l>
+          <l part="I">nuevamente.)</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">Pues no quiero</l>
+          <l>verte así contigo hablar,</l>
+          <l>si no es que a ti te enamoras,</l>
+          <l>porque yo no te merezco.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="I">¿Celos, don Juan?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">Yo padezco,</l>
+          <l>y tú mi dolor ignoras.</l>
+          <l>Maldiciones de Fenisa</l>
+          <l>son estas. Tú pagas mal</l>
+          <l part="I">mi amor.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">¿Y tú, desleal,</l>
+          <l>eso dices a Fenisa,</l>
+          <l>a quien por quererte ha sido</l>
+          <l>una piedra helada y fría</l>
+          <l part="I">con los hombres?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">Una harpía,</l>
+          <l>un desamor, un olvido,</l>
+          <l>dirás, Fenisa, mejor.</l>
+          <l>Ya sé tus tretas, sirena,</l>
+          <l>que ya en tu engaño y mi pena</l>
+          <l>hace sus suertes amor,</l>
+          <l part="I">y eres...</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">¡Basta! No haya más,</l>
+          <l>que estás en quejarte extraño.</l>
+          <stage>(Aparte.)</stage>
+          <l>(De esta manera le engaño.</l>
+          <l>¡Ay, Liseo! ¿Dónde estás?)</l>
+          <l>Que yo te diré en qué estaba,</l>
+          <l>como viste, divertida.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>¡Dilo presto, por tu vida,</l>
+          <l>que la mía se me acaba!</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¿Tú muerto? Mil años vivas.</l>
+          <l>Di, ¿conoces a un galán</l>
+          <l>en quien cifradas están</l>
+          <l>las pretensiones altivas</l>
+          <l>de las damas de esta corte?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>¿Qué dices? ¿Qué es lo que veo?</l>
+          <l>¿Respondes a mi deseo,</l>
+          <l>mas quieres que pague el porte?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Escucha, así Dios te guarde,</l>
+          <l>que yo te diré el deseo</l>
+          <l>que me mueve y es Liseo</l>
+          <l part="I">su nombre.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">¡Ay, amor cobarde,</l>
+          <l>qué presto desmayas! Fiera,</l>
+          <l>¿tal me preguntas a mí?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>No pienses, don Juan, que en ti</l>
+          <l>hay causa de tal quimera.</l>
+          <l>¿De ti mismo desconfías,</l>
+          <l>cuando tus partes están,</l>
+          <l>por gentilhombre y galán,</l>
+          <l part="I">venciendo damas?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">¿Porfías</l>
+          <l>en darme la muerte, ingrata?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <stage>(Aparte.)</stage>
+          <l>(Mejor, don Juan, lo dijeras,</l>
+          <l>triste de mí, si supieras</l>
+          <l>que este Liseo me mata.</l>
+          <l>Mas amor manda que calle;</l>
+          <l part="I">desimular quiero.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">A fe</l>
+          <l>que ya en tus ojos se ve,</l>
+          <l>fiera, que debes de amalle.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Tu engaño, don Juan, me obliga</l>
+          <l>a descubrirte el secreto,</l>
+          <l>por lo que quise saber</l>
+          <l>quién es el galán Liseo.</l>
+          <l>Pretende de Marcia bella</l>
+          <l>el dichoso casamiento,</l>
+          <l>siendo, por fuerza de estrellas,</l>
+          <l>conformes en los deseos.</l>
+          <l>Quíseme informar de ti</l>
+          <l>si es noble, porque discreto</l>
+          <l>y galán, ella me ha dicho</l>
+          <l>que es de aquesta corte espejo;</l>
+          <l>y tú, sin mirar que soy</l>
+          <l>la que te estima por dueño,</l>
+          <l>estás con celos pesado,</l>
+          <l>pidiendo sin causa celos.</l>
+          <l>No me verás en tu vida</l>
+          <l>y, pues celos de Liseo</l>
+          <l>te obligan a esta locura,</l>
+          <l>yo haré que tus pensamientos</l>
+          <l>tengan, por locos, castigos,</l>
+          <l>pues de hoy más quererle pienso.</l>
+          <l>Y así servirá a los hombres</l>
+          <l>tu castigo de escarmiento,</l>
+          <l>que no se ha de despertar</l>
+          <l>a las mujeres del sueño</l>
+          <l>que firmes y descuidadas</l>
+          <l>dulcemente están durmiendo.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="I">¡Aguarda!</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">No hay que aguardar.</l>
+          <l part="I">De Liseo soy.</l>
+          <stage>(Aparte.)</stage>
+          <l>(El cielo</l>
+          <l part="I">lo haga.)</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">Tras ti voy, fiera,</l>
+          <l>que por amarte me has muerto.</l>
+        </sp>
+        <stage>(Vanse, y sale LISEO y LEÓN, lacayo.)</stage>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Contento vienes, como si ya fueras</l>
+          <l>señor del mundo, por haberte dicho</l>
+          <l>la bella Marcia que te adora y quiere.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿No te parece que de un bello ángel</l>
+          <l>se han de estimar favores semejantes</l>
+          <l>y engrandecer el alma porque en ella</l>
+          <l>quepa la gloria de merced tan grande?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Si va a decir verdad, como no busco</l>
+          <l>amor de mantequillas ni alfeñique,</l>
+          <l>ni andarme casquivano y boquiabierto,</l>
+          <l>de día viendo damas melindrosas,</l>
+          <l>de noche requebrando cantarillas,</l>
+          <l>de las que llenas de agua en las ventanas</l>
+          <l>ponen a serenar por los calores;</l>
+          <l>pues a cabo un cuidado de quebrarse</l>
+          <l>la cabeza, no hará sino caerse</l>
+          <l>y romperle los cascos cuando menos.</l>
+          <l>¡Pesie a quien me parió, que no hay tal cosa</l>
+          <l>como las fregoncillas que estos años</l>
+          <l part="I">en la Corte se usan!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">Mi alegría</l>
+          <l>escucharte me manda. Dime al punto</l>
+          <l>cómo son las fregonas que se usan.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Si preguntas, señor, de las gallegas,</l>
+          <l>rollizas, carihartas y que calzan</l>
+          <l>doce puntos o trece por lo menos;</l>
+          <l>dos varas de cintura, tres de espalda;</l>
+          <l>que se alquilan por meses y preguntan</l>
+          <l>si acaso hay niños, viejos o escaleras;</l>
+          <l>de las que sacan de partido un día</l>
+          <l>y hurtan cada día algunas horas;</l>
+          <l>buscan sus cuyos cuando salen fuera,</l>
+          <l>y venimos a serlo los lacayos</l>
+          <l>por nuestra desventura y mala estrella;</l>
+          <l>llevan su medio espejo y salserilla</l>
+          <l>y, entrando en el portal que está más cerca,</l>
+          <l>se jalbegan las caras como casas,</l>
+          <l>y se ponen almagre como ovejas;</l>
+          <l>y tras de esto, buscando su requiebro,</l>
+          <l>se vuelven hiedras a su tronco asidas;</l>
+          <l>llevan sabrosas lonjas de tocino</l>
+          <l>y, en pago de esto, vuelven a sus casas</l>
+          <l>con un niño lacayo en la barriga,</l>
+          <l>o mozo de caballos por lo menos.</l>
+          <l>Nosotros paseamos por su calle,</l>
+          <l>haciendo piernas y escupiendo fuerte,</l>
+          <l>hasta que llega la olorosa hora</l>
+          <l>en que quieren verter el... ya me entiendes,</l>
+          <l>alcahuete discreto de fregonas,</l>
+          <l>cuyo olor nos parece más suave</l>
+          <l>que el de la algalia, y aun decirte puedo</l>
+          <l>que alguna vez le tuve por más fino.</l>
+          <l>Estas, como te he dicho, son gallegas,</l>
+          <l>fruta para nosotros solamente;</l>
+          <l>que de las fregoncillas cortesanas</l>
+          <l>no hay que decir, pues ellas mismas dicen</l>
+          <l>que son joyas de príncipes y grandes,</l>
+          <l>y aun hay muchos que humillan su grandeza</l>
+          <l>al estropajo de estas bellas ninfas,</l>
+          <l>que te puedo jurar que he visto una</l>
+          <l>que tal vez no estimó de un almirante</l>
+          <l>cien escudos, señor, por solo dalle</l>
+          <l>la paz al uso de la bella Francia.</l>
+          <l>Con estas se regala y entretiene</l>
+          <l>el gusto, y más cuando se van al río,</l>
+          <l>que allí mientras la ropa le jabonan,</l>
+          <l>ellas se dan un verde y dos azules;</l>
+          <l>y no estas damas hechas de zalea</l>
+          <l>que atormentan a un hombre con melindres</l>
+          <l>y siempre están diciendo: «¡Dame, dame!».</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¡Ay, mi León! Que en sola Marcia veo</l>
+          <l>un todo de hermosura, un sol, un ángel,</l>
+          <l>una Venus hermosa en la belleza,</l>
+          <l>una galana y celebrada Elena,</l>
+          <l>un sacro Apolo en la divina gracia,</l>
+          <l>un famoso Mercurio en la elocuencia,</l>
+          <l>un Marte en el valor, una Diana</l>
+          <l part="I">en castidad...</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">Parece que estás loco.</l>
+          <l>¿Para qué quieres castas ni Dianas?</l>
+          <l>Anda, señor, pareces boquirrubio.</l>
+          <l>¿Para qué quiero yo mujeres castas?</l>
+          <l>Mejor me hallara si castiza fuera.</l>
+          <l>Por aquesto reniego de Penélope,</l>
+          <l>y a Lucrecia maldigo; ensalzo y quiero</l>
+          <l>a la Porcia sin par, que solo Bruto,</l>
+          <l>si acaso en el amor te parecía,</l>
+          <l>pudo hacer desatino semijante.</l>
+          <l>¡Por vida de mis mozas!, que si fuera</l>
+          <l>mujer, que había de ser tan agradable</l>
+          <l>que no había de llamarme naide esquiva.</l>
+          <l>Dar gusto a todo el mundo es bella cosa,</l>
+          <l>bien sabe en eso el cielo lo que hizo.</l>
+          <l>Tengo estas barbas, que si no, yo creo</l>
+          <l>que fuera linda pieza. ¡Oh, si tuviera</l>
+          <l>una famosa bota como digo</l>
+          <l part="I">verdad en esto!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">¡Calla!, que parece</l>
+          <l>que vienes como sueles, pues no miras</l>
+          <l>que, con tu lengua, la virtud ofendes</l>
+          <l>más estimada y de mayor grandeza.</l>
+          <l>Mas eres tonto, no me espanto de esto.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Perdona si te digo que tú eres</l>
+          <l>el tonto si de castas te aficionas.</l>
+          <l>Mas que si Marcia esa quimera hace</l>
+          <l>que te ha de aborrecer; que las mujeres,</l>
+          <l>aunque sean Lucrecias, aborrecen</l>
+          <l>los hombres encogidos y se pierden</l>
+          <l>por los que ven graciosos, desenvueltos,</l>
+          <l>y más si al «dame, dame» son solícitos.</l>
+          <l>Si no, mira el ejemplo: a cierta dama</l>
+          <l>cautivaron los moros y, queriendo</l>
+          <l>tratar de su rescate su marido,</l>
+          <l>respondió libremente que se fuesen,</l>
+          <l>que ella se hallaba bien entre los moros;</l>
+          <l>que era muy abstinente su marido</l>
+          <l>y no podía sufrir tanta Cuaresma;</l>
+          <l>que los moros el viernes comen carne</l>
+          <l>y su marido solo los domingos,</l>
+          <l>y an este día solo era grosura,</l>
+          <l>y el tal manjar ni es carne ni pescado.</l>
+          <l>¿Entiendes esto? Pues si Marcia sabe</l>
+          <l>que eres tan casto, juzgará que tienes</l>
+          <l>la condición de aqueste que quitaba</l>
+          <l>a esta pobre señora sus raciones,</l>
+          <l>o entenderá que eres capón, que basta.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Ya parece, León, que desvarías.</l>
+          <l>Pero mira al balcón, ¿es Marcia aquella?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>No es sino Fenisa, amiga suya.</l>
+        </sp>
+        <stage>(Sale FENISA al balcón.)</stage>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="I">León, llama a Liseo.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">Señor, llega,</l>
+          <l>que la hermosa Fenisa quiere hablarte.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Dichosa es la que merece amarte.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿Qué mandáis, Fenisa hermosa?</l>
+          <l>Pues por mi dicha merezco</l>
+          <l>que de Marcia hermosa el alma</l>
+          <l>tenga de hablarme deseo.</l>
+          <l>Hablad, señora, ¡por Dios!,</l>
+          <l>y no tengáis más suspenso</l>
+          <l>a quien os adora a vos</l>
+          <l>por estrella de su cielo.</l>
+          <l>Y si sois de aquella diosa</l>
+          <l part="I">en quien adoro...</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(¿Qué espero?</l>
+          <l>Dejé a Marcia con don Juan</l>
+          <l>y vengo llena de miedo</l>
+          <l>a ver de mi dulce ingrato</l>
+          <l>la gala que no merezco,</l>
+          <l>hurtando a Marcia sus glorias,</l>
+          <l>las cortas horas al tiempo.</l>
+          <l>Escribí un papel, y en él</l>
+          <l>mi amor y ventura he puesto.</l>
+          <l>Enojada me fingí,</l>
+          <l>y con este engaño dejo</l>
+          <l>a don Juan pidiendo a Marcia</l>
+          <l>que de esta paz sea tercero,</l>
+          <l>y aunque a mi don Juan adoro,</l>
+          <l>quiero también a Liseo,</l>
+          <l>porque en mi alma hay lugar</l>
+          <l>para amar a cuantos veo.</l>
+          <l>Perdona, amistad, que amor</l>
+          <l>tiene mi gusto subjeto</l>
+          <l>sin que pueda la razón</l>
+          <l>ni mande el entendimiento.</l>
+          <l>Tantos quiero cuantos miro</l>
+          <l>y, aunque a ninguno aborrezco,</l>
+          <l>este que miro me mata.)</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Fenisa, ¿tanto silencio?</l>
+          <l>No dilates más mis glorias.</l>
+          <l>Dime si traes de mi dueño</l>
+          <l>algún divino mensaje.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(Amistad santa, no puedo</l>
+          <l>dejar de seguir a Amor.)</l>
+          <l>De aqueste papel, Liseo,</l>
+          <l>sabrás lo que me preguntas;</l>
+          <l>léele, que te prometo</l>
+          <l>que me cuesta harto cuidado</l>
+          <l>la travesura que he hecho,</l>
+          <l part="I">y queda, a Dios.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">¿Ya te vas?</l>
+          <l part="I">¡Aguarda, por Dios!</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">No puedo.</l>
+          <stage>[Aparte.]</stage>
+          <l>(¡Ay, ojos, en cuyas niñas</l>
+          <l>puso su belleza el cielo!)</l>
+          <l part="I">A Dios.</l>
+        </sp>
+        <stage>(Vase.)</stage>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">Id con él, señora.</l>
+          <l>Dulce papel de mi dueño,</l>
+          <l>no carta de libertad,</l>
+          <l>sino de más cautiverio.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¿Es ligno en crucis acaso?</l>
+          <l>¿Es de alguna santa el hueso</l>
+          <l>lo que te dio aquella dama?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿Por qué lo preguntas, necio?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Bésasle tan tiernamente</l>
+          <l>que no es mucho si sospecho</l>
+          <l>que es reliquia haber papel.</l>
+          <l>¡Ahora sí que estás bueno!</l>
+          <l>¡Mas, si fuera Marcia casta,</l>
+          <l>no granjeara en aquesto!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Si merezco, papel mío,</l>
+          <l>saber lo que tienes dentro,</l>
+          <l>romperé para gozarlo</l>
+          <l>aqueste divino sello.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¡Acaba! ¿Qué estás dudando,</l>
+          <l>si no temes que los griegos</l>
+          <l>del gran caballo troyano</l>
+          <l>trae metidos en su centro?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿No es esta letra de Marcia?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Y vendrá a ser, por lo menos,</l>
+          <l>de la fregona de casa.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Calla, que leerle quiero.</l>
+          <l>Oíd la boca de Marcia:</l>
+          <l>«Supe, gallardo Liseo,</l>
+          <l>tu nobleza, tu valor</l>
+          <l>y tu gran merecimiento.</l>
+          <l>En tu retrato miré</l>
+          <l>las partes que te dio el cielo,</l>
+          <l>y al fin por ojos y oídos</l>
+          <l>me dio el amor su veneno,</l>
+          <l>y aunque entiendo quien te adora,</l>
+          <l>hoy a quererte me atrevo,</l>
+          <l>que amor no mira amistades,</l>
+          <l>ni respeta parentescos.</l>
+          <l>Dirás que fuera mejor</l>
+          <l>morir, pues tú me has muerto.</l>
+          <l>No se queda sin castigo</l>
+          <l>mi amoroso atrevimiento;</l>
+          <l>y si quieres de más cerca</l>
+          <l>oír mis locos deseos,</l>
+          <l>escuchar mis tristes quejas</l>
+          <l>y amorosos pensamientos,</l>
+          <l>vivo a San Ginés. ¡Ay, Dios!,</l>
+          <l>si no vivo, ¿cómo miento?</l>
+          <l>Vivo solo donde estás,</l>
+          <l>porque donde no estás muero.</l>
+          <l>En unos hierros azules</l>
+          <l>dadas las doce te espero,</l>
+          <l>donde perdones los míos,</l>
+          <l>pues vienen de amor cubiertos».</l>
+          <l>¿Qué dices de esto, León?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¿Qué he de decir? Que eres necio</l>
+          <l>si no gozas la ocasión,</l>
+          <l>pues te ofrece sus cabellos.</l>
+          <l>Esta sí que me da gusto,</l>
+          <l>que descubre sin extremos</l>
+          <l>los que tiene allá en el alma.</l>
+          <l>Parece que estás suspenso.</l>
+          <l>¡Ventura tienes, por Dios!</l>
+          <l>Di, ¿sabes encantamentos?,</l>
+          <l>¿con qué hechizas esta gente?,</l>
+          <l>¿traes algún grano de helecho?</l>
+          <l>Marcia te adora y estima;</l>
+          <l>Fenisa, por ti muriendo.</l>
+          <l part="I">¿Y Laura?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">¡Calla, borracho!</l>
+          <l>Si sabes que la aborrezco,</l>
+          <l>¿por qué me nombras su nombre?</l>
+          <l part="I">¡Vive Dios!</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">¡Jesús! ¿Tan presto</l>
+          <l>te enojas? Detén la mano,</l>
+          <l>que ya la paso en silencio;</l>
+          <l>mas dime en qué ha de parar</l>
+          <l>esta quimera, que creo</l>
+          <l>que te has de volver Gran Turco.</l>
+          <l part="I">Di, ¿qué pretendes?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">Pretendo</l>
+          <l>darte cien espaldarazos.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Dios te guarde, que yo pienso</l>
+          <l>que no te verás por dar</l>
+          <l>a puertas de monasterios,</l>
+          <l>y si das, son mojicones,</l>
+          <l>cosa que, aunque por momentos</l>
+          <l>los des, no les quitarás</l>
+          <l>la herencia a tus herederos;</l>
+          <l>mas si pasas adelante</l>
+          <l>con estas cosas, sospecho</l>
+          <l>que han de reñir y arañarse,</l>
+          <l>que esto y más pueden los celos.</l>
+          <l>Las fregonas por nosotros</l>
+          <l>cada día hacen esto;</l>
+          <l>mas las damas, no es razón.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿Quieres callar, majadero?</l>
+          <l>Ya me cansan tus frialdades.</l>
+          <l>Ya de escucharte me ofendo.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¡Casto dice, y tiene tres!</l>
+          <l>Éreslo como mi abuelo,</l>
+          <l>que no dejaba doncellas</l>
+          <l>ni aun las casadas, sospecho.</l>
+          <l>Era cura de un lugar</l>
+          <l>y, en lo que tocaba al sexto,</l>
+          <l>curaba muy bien su gusto,</l>
+          <l>pues el día de su entierro</l>
+          <l>iban diciendo «¡ay, mi padre!»</l>
+          <l>todos los niños del pueblo.</l>
+          <l>Algunos mormuradores</l>
+          <l>al obispo le dijeron</l>
+          <l>que tenía doce hijos,</l>
+          <l>sin los demás encubiertos.</l>
+          <l>Vino el obispo al lugar</l>
+          <l>a castigar tantos yerros,</l>
+          <l>y él le salió a recebir,</l>
+          <l>desimulado y secreto.</l>
+          <l>Dijo el obispo: «¡Traidor!,</l>
+          <l>¿cuántos hijos tenéis?». «Pienso</l>
+          <l>-respondió- que he de tener,</l>
+          <l>si no me engaño y es cierto,</l>
+          <l>tantos como useñoría,</l>
+          <l>y aun sospecho que uno menos».</l>
+          <l>Llegaron con esto a casa</l>
+          <l>y, al entrar en ella, vieron</l>
+          <l>los doce niños vestidos</l>
+          <l>de un leonado terciopelo</l>
+          <l>y con hachas en las manos.</l>
+          <l>Quedó el obispo suspenso,</l>
+          <l>mirando con atención</l>
+          <l>los muchachos. Y mi abuelo</l>
+          <l>dijo: «¿Qué mira, señor?</l>
+          <l>¿Estos doce candeleros?</l>
+          <l>Pues yo le juro que todos</l>
+          <l>dentro de casa se hicieron».</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="I">¿Acabaste?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">No, señor,</l>
+          <l>que se me acuerda otro cuento</l>
+          <l>tan gracioso como este otro.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Lo que has hablado no creo,</l>
+          <l>que habla más un papagayo.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Dábale mucho contento</l>
+          <l>tener las criadas mozas,</l>
+          <l>y habiendo por fuerza hecho</l>
+          <l>que tuviese una ama vieja</l>
+          <l>de a cincuenta años, fue puesto</l>
+          <l>en la mayor confusión</l>
+          <l>en que no se vio en su tiempo.</l>
+          <l>Y para poder medir</l>
+          <l>con su gusto el mandamiento,</l>
+          <l>tomó dos de a veinte y cinco,</l>
+          <l>que fue el más famoso cuento.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="I">¡Calla ya, por Dios!</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">¿Te ofendes</l>
+          <l>de tan graciosos subcesos,</l>
+          <l>y de eso estás enfadoso?</l>
+          <l>¡Por Cristo que no te entiendo!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Divina Marcia, perdona</l>
+          <l>si en no ser leal te ofendo,</l>
+          <l>que a Fenisa voy a ver,</l>
+          <l>y aun a engañarla si puedo.</l>
+          <l>Si no te viere esta noche,</l>
+          <l>no te enojes, que el que pierdo</l>
+          <l>soy yo, que pierdo tu vista.</l>
+          <l part="I">Vamos, León.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">Ya está hecho.</l>
+          <l>Vamos, y el cielo permita</l>
+          <l>que algún fregonil subjeto</l>
+          <l>haya en casa, porque yo</l>
+          <l>reciba algún pasatiempo.</l>
+        </sp>
+        <stage>(Vanse, y sale GERARDO.)</stage>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Goce su libertad el que ha tenido</l>
+          <l>voluntad y sentidos en cadena;</l>
+          <l>y el condenado en la amorosa pena</l>
+          <l>el dudoso favor que ha pretendido</l>
+          <l>en dulces lazos, pues leal ha sido;</l>
+          <l>de mil gustos de amor el alma llena,</l>
+          <l>el que tuvo su bien en tierra ajena,</l>
+          <l>triunfe de ausencia, sin temor de olvido;</l>
+          <l>viva el amado sin favor celoso,</l>
+          <l>y venza su desdén el despreciado;</l>
+          <l>logre sus esperanzas el que espera,</l>
+          <l>con su dicha se alegre el venturoso,</l>
+          <l>y con su amada el vencedor amado,</l>
+          <l>y el que busca imposibles, cual yo, muera.</l>
+        </sp>
+        <stage>(Salen ANTONIO y FABIO con sus instrumentos.)</stage>
+        <sp who="#fabio">
+          <speaker>FABIO</speaker>
+          <l>¿Mandas, señor, que cantemos?</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Fabio, Antonio, bienvenidos</l>
+          <l part="I">seáis.</l>
+        </sp>
+        <sp who="#antonio">
+          <speaker>ANTONIO</speaker>
+          <l part="F">Cuidados perdidos</l>
+          <l part="I">son los tuyos.</l>
+        </sp>
+        <sp who="#fabio">
+          <speaker>FABIO</speaker>
+          <l part="F">¿Qué diremos?</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Mi pasión podéis cantar.</l>
+        </sp>
+        <sp who="#fabio">
+          <speaker>FABIO</speaker>
+          <l>Será muy triste canción.</l>
+          <l>¡Que en siete años de afición</l>
+          <l>no te acabes de cansar!</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Cual Jacob, querré otros siete</l>
+          <l>si he de gozar a Raquel.</l>
+        </sp>
+        <sp who="#antonio">
+          <speaker>ANTONIO</speaker>
+          <l>Aquí no hay suegro cruel,</l>
+          <l>ni Lía que te subjete.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Unas endechas me di.</l>
+        </sp>
+        <sp who="#fabio">
+          <speaker>FABIO</speaker>
+          <l part="I">¿Endechas?</l>
+        </sp>
+        <sp who="#antonio">
+          <speaker>ANTONIO</speaker>
+          <l part="F">¿Endechas quieres?</l>
+          <l>¿Amante de endechas eres?</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>¡Ay, Fabio! ¡Ay, Antonio, sí!</l>
+          <l>Cantad, pues, y no templéis,</l>
+          <l>basta mi tristeza fiera.</l>
+        </sp>
+        <sp who="#fabio">
+          <speaker>FABIO</speaker>
+          <l part="I">¡Bravo amor!</l>
+        </sp>
+        <sp who="#antonio">
+          <speaker>ANTONIO</speaker>
+          <l part="F">¡Brava quimera!</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Ea, cantad si queréis.</l>
+          <stage>(Cantan y GERARDO se pasea.)</stage>
+          <l>¿Por qué, divina Marcia,</l>
+          <l>de mis ojos te ausentas</l>
+          <l>y en tanto desconsuelo</l>
+          <l>triste sin ti me dejas?</l>
+          <l>Si leona no eres,</l>
+          <l>si no eres tigre fiera,</l>
+          <l>duélete, desdén mío,</l>
+          <l>de mis rabiosas penas.</l>
+        </sp>
+        <stage>(A la ventana BELISA y MARCIA.)</stage>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Llega, querida prima,</l>
+          <l>así tus años veas</l>
+          <l>logrados y empleados</l>
+          <l>en quien más te merezca.</l>
+          <l>Escucha cómo cantan.</l>
+        </sp>
+        <stage>(Cantan.)</stage>
+        <sp who="#fabio">
+          <speaker>FABIO</speaker>
+          <l>¡Ay, celoso tormento!</l>
+          <l>¡Ay, traidora sospecha!</l>
+          <l>Ya que me olvida Marcia,</l>
+          <l>¿por qué tú me atormentas?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¡Oh, prima de mis ojos!</l>
+          <l>Buena ocasión es esta.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Calla, que me disgustas,</l>
+          <l>o diré que eres necia.</l>
+        </sp>
+        <stage>(Cantan.)</stage>
+        <sp who="#fabio">
+          <speaker>FABIO</speaker>
+          <l>Amigo pensamiento,</l>
+          <l>tras esta ingrata vuela,</l>
+          <l>dulce sueño que el alma</l>
+          <l>tanta pasión le cuesta.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>En el balcón hay gente.</l>
+          <l>¿Será mi Marcia bella?</l>
+          <l>Mas no soy tan dichoso</l>
+          <l>que tal favor merezca.</l>
+        </sp>
+        <stage>[Cantan.]</stage>
+        <sp who="#fabio">
+          <speaker>FABIO</speaker>
+          <l>¡Ay!, que a mi ingrata bella</l>
+          <l>más la endurecen mis rabiosas penas.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Amada prima mía...</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>¿Que me vaya deseas,</l>
+          <l>pues en esto me hablas?</l>
+        </sp>
+        <stage>(Vase.)</stage>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>No te vayas, espera.</l>
+          <stage>[A GERARDO.]</stage>
+          <l>Sabe el cielo, Gerardo,</l>
+          <l>cuánto el veros me pesa</l>
+          <l>en tan grande desdicha.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>¿Sois vos, Belisa bella?</l>
+          <l>¿Y mi Marcia divina?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Aquí estaba, y roguela</l>
+          <l>que tu pasión mirase,</l>
+          <l>mas cruel persevera.</l>
+          <l>Mas no es justo desmayes</l>
+          <l>que, aunque más me aborrezca,</l>
+          <l>he de hacer vuestras partes.</l>
+          <l>Tened, señor, paciencia.</l>
+        </sp>
+        <stage>(Vase.)</stage>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>¡Ay, señora, así vivas,</l>
+          <l>mi desdicha remedia!</l>
+          <l>Y vosotros, dejadme</l>
+          <l>solo con mis tristezas.</l>
+        </sp>
+        <sp who="#fabio">
+          <speaker>FABIO</speaker>
+          <l>¡Triste mancebo! Antonio,</l>
+          <l>miedo tengo que muera.</l>
+        </sp>
+        <sp who="#antonio">
+          <speaker>ANTONIO</speaker>
+          <l>Dejémosle que a solas</l>
+          <l>pasa mejor sus penas.</l>
+        </sp>
+        <stage>(Vanse los dos.)</stage>
+        <sp who="#gerardo">
+          <speaker>[GERARDO]</speaker>
+          <l>¡Oh, Dafne fugitiva,</l>
+          <l>y aun más ingrata que ella,</l>
+          <l>pues huyes de tu amante</l>
+          <l>cuando amarle debieras!</l>
+          <l>Plegue a Dios que el que amares</l>
+          <l>te deje cual me dejas,</l>
+          <l>pues a mí, que te adoro,</l>
+          <l>desdeñosa desprecias.</l>
+          <l>De mi pasión se duelen</l>
+          <l>hasta las duras piedras,</l>
+          <l>y de ella enternecidas</l>
+          <l>ablandan su dureza.</l>
+          <l>Mis lágrimas son tantas</l>
+          <l>que el reino que gobierna</l>
+          <l>el sagrado Neptuno</l>
+          <l>no tiene más arenas.</l>
+          <l>Dejad los hilos de oro,</l>
+          <l>en que ensartáis las perlas,</l>
+          <l>y ayudadme llorando,</l>
+          <l>del mar bellas sirenas.</l>
+          <l>Plegue a los cielos, Marcia,</l>
+          <l>pues mi pasión te alegra,</l>
+          <l>que ante tus fieros ojos</l>
+          <l>muerto a Gerardo veas.</l>
+        </sp>
+        <stage>([Vase]. Salen LAURA y FELIS, paje.)</stage>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l>Dímelo, así Dios te guarde.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¿Qué te tengo de decir?</l>
+          <l>Que soy, Felis, desdichada,</l>
+          <l>que sin ventura nací.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l>No es sin causa esta pasión,</l>
+          <l>fíate, Laura, de mí,</l>
+          <l>que si puedo remediarla,</l>
+          <l>lo haré aunque entienda morir.</l>
+          <l>Mil días ha que te veo</l>
+          <l>desconsolada vivir.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¿Vivir? Si viviera feliz,</l>
+          <l part="I">no fuera malo.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="F">¿Es así?</l>
+          <l>¿Qué tienes, señora mía?</l>
+          <l>Bien me lo puedes decir,</l>
+          <l>que contado el mal se alivia.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="I">Es verdad, escucha.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="F">Di.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Ya conoces a Liseo,</l>
+          <l>pues de aqueste, Felis, fui</l>
+          <l>requebrada y pretendida.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="I">¿Eso no más?</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="F">¡Ay de mí!</l>
+          <l part="I">Amele.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="F">Pues que le ames,</l>
+          <l part="I">¿por eso pierdes?</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="F">Perdí</l>
+          <l>en amarle, Felis mío,</l>
+          <l part="I">más que piensas.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="F">Eso di.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Diome palabra de esposo,</l>
+          <l>y con esto me rendí</l>
+          <l part="I">a entregarle...</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="F">No te pares.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="I">Dile...</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="M">Prosigue.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="F">¡Ay de mí!,</l>
+          <l>mi honra le entregué, Felis,</l>
+          <l>joya hermosa, y que nací</l>
+          <l>solo obligada a guardarla,</l>
+          <l>y con esto me perdí.</l>
+          <l>Cuando pretendió mi amor,</l>
+          <l>amante y tierno le vi,</l>
+          <l>cuanto ahora desdeñoso,</l>
+          <l>pues no se acuerda de mí.</l>
+          <l>Dime, ¿qué será la causa</l>
+          <l>que, si acaso viene aquí,</l>
+          <l>es cuando luego me dice:</l>
+          <l>«Laura, yo voy a dormir»?</l>
+          <l>Si ve mis ojos llorosos</l>
+          <l>y el gusto para morir,</l>
+          <l>ni me pregunta la causa</l>
+          <l>ni la consiente decir.</l>
+          <l>Cuando le escribo y me quejo</l>
+          <l>de ver que me trata así,</l>
+          <l>no responde, antes se enfada</l>
+          <l>de verme siempre escribir.</l>
+          <l>Si busco lugar de darle</l>
+          <l>el favor que ya le di,</l>
+          <l>regatea el recebirle</l>
+          <l>y él queda conmigo aquí.</l>
+          <l>Dormido anoche en mis brazos,</l>
+          <l>con ansia empezó a decir:</l>
+          <l>«Marcia y Fenisa me adoran».</l>
+          <l>¡Oh, amor, y lo que sentí!</l>
+          <l>Y al fin, asiendo sus manos,</l>
+          <l>llorando, le estremecí</l>
+          <l>diciendo: «Amado Liseo,</l>
+          <l>mira que estás junto a mí.</l>
+          <l>Si a Marcia y Fenisa quieres,</l>
+          <l>mira, ingrato, que por ti</l>
+          <l>a mí misma me aborrezco</l>
+          <l>desde el día que te vi».</l>
+          <l>Respondiome airado: «Laura,</l>
+          <l>ya no te puedo sufrir.</l>
+          <l>De todo tienes sospechas,</l>
+          <l>presto quieres ver mi fin».</l>
+          <l>Esta noche le aguardaba,</l>
+          <l>Felis. Pues no viene aquí,</l>
+          <l>alguna dama le tiene,</l>
+          <l>más dichosa que yo fui.</l>
+          <l>Estos son, Felis, mis males,</l>
+          <l>aquesto me tiene así,</l>
+          <l>atormentándome el alma,</l>
+          <l>sin descansar ni dormir.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l>De esa suerte, hermosa Laura,</l>
+          <l>muy bien te puedo decir.</l>
+          <l>Las tres de la noche han dado,</l>
+          <l>mi señora, y no dormís.</l>
+          <l>Sentid, pues fuistes la causa,</l>
+          <l>el dolor que os da a sentir</l>
+          <l>aquel corazón de piedra</l>
+          <l>cruel, pues os trata así.</l>
+          <l>Llorad, bellísimos ojos.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Mi Felis, harelo así</l>
+          <l>hasta que acabe la vida,</l>
+          <l>que presto será su fin.</l>
+          <l>Pluviera al cielo, Liseo,</l>
+          <l>dura piedra para mí,</l>
+          <l>que fuera el fin de mis días</l>
+          <l>el día que yo te vi.</l>
+          <l>¡Piadoso cielo, duélete de mí,</l>
+          <l>que amando aborrecida muero al fin!</l>
+        </sp>
+        <stage>(Llora.)</stage>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l>Baste, mi señora, baste,</l>
+          <l>no quieras tratar así</l>
+          <l>aquesos bellos luceros</l>
+          <l>que, aunque yo muera por ti,</l>
+          <l>en cuanto basten mis fuerzas,</l>
+          <l>me tienes siguro aquí.</l>
+          <l>Suspende tu pena ahora,</l>
+          <l>acuéstate y fía de mí,</l>
+          <l>que yo sabré por qué causa</l>
+          <l>Liseo te trata así;</l>
+          <l>que la deuda que a tus padres</l>
+          <l>tengo desde que nací</l>
+          <l>fuera negarla si ahora</l>
+          <l>te desamparara a ti.</l>
+          <l>Queda en buenhora, que el cielo,</l>
+          <l>cansado ya de sufrir,</l>
+          <l>te vengará de este ingrato,</l>
+          <l>que yo le voy a seguir.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¡Piadoso cielo, duélete de mí,</l>
+          <l>que amando aborrecida muero al fin!</l>
+          <stage>(Vase FELIS.)</stage>
+          <l>Que muera yo, Liseo, por tus ojos</l>
+          <l>y que gusten tus ojos de matarme;</l>
+          <l>que quiera con tus ojos alegrarme</l>
+          <l>y tus ojos me den cien mil enojos.</l>
+          <l>Que rinda yo a tus ojos por despojos</l>
+          <l>mis ojos, y ellos en lugar de amarme,</l>
+          <l>pudiendo con sus rayos alumbrarme,</l>
+          <l>las flores me convierten en abrojos.</l>
+          <l>Que me maten tus ojos con desdenes,</l>
+          <l>con rigores, con celos, con tibieza,</l>
+          <l>cuando mis ojos por tus ojos mueren.</l>
+          <l>¡Ay, dulce ingrato!, que en los ojos tienes</l>
+          <l>tan grande deslealtad como belleza</l>
+          <l>para unos ojos que a tus ojos quieren.</l>
+        </sp>
+        <stage>(Vase LAURA, con que se da fin a la primera jornada.)</stage>
+      </div>
+      <div type="act">
+        <head>Jornada II</head>
+        <stage>Sale MARCIA, sola.</stage>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Amar el día, aborrecer el día,</l>
+          <l>llamar la noche y despreciarla luego;</l>
+          <l>temer el fuego y acercarse el fuego,</l>
+          <l>tener a un tiempo pena y alegría;</l>
+          <l>estar juntos valor y cobardía,</l>
+          <l>el desprecio cruel y el blando ruego;</l>
+          <l>temor valiente y entendimiento ciego,</l>
+          <l>atada la razón, libre osadía;</l>
+          <l>buscar lugar donde aliviar los males</l>
+          <l>y no querer del mal hacer mudanza;</l>
+          <l>desear sin saber qué se desea;</l>
+          <l>tener el gusto y el disgusto iguales,</l>
+          <l>y todo el bien librado en esperanza:</l>
+          <l>si aquesto no es amor, no sé qué sea.</l>
+        </sp>
+        <stage>(Sale BELISA.)</stage>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="I">¿Búscasme, prima?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Una dama</l>
+          <l>bizarra y de lindo talle</l>
+          <l>te quiere hablar. ¿Quieres dalle</l>
+          <l>licencia? Que es de la fama,</l>
+          <l>y muestra su gallardía</l>
+          <l part="I">ser hermosa.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">Pues, ¿qué quiere?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="I">Marcia, hablarte.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">Sea quien fuere,</l>
+          <l>dile que entre, prima mía.</l>
+          <l part="I">¿Viene sola?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Un escudero,</l>
+          <l>una silla, mucha seda,</l>
+          <l>buen brío, y tan cerca queda</l>
+          <l>que con su presencia espero</l>
+          <l>sacarte de confusión.</l>
+          <l>Entrad, gallarda señora.</l>
+        </sp>
+        <stage>(Sale LAURA con manto.)</stage>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>No sale, prima, el aurora</l>
+          <l>con tan grande presunción.</l>
+          <l>¡Buen talle! Seáis bienvenida.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="I">Y vos, señora...</l>
+          <stage>[Aparte.]</stage>
+          <l>(¡Ay, amor!</l>
+          <l>ya el ánimo y la color</l>
+          <l>tengo de verla perdida.)</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(Parece que se ha turbado,</l>
+          <l>Belisa, en solo mirarme.)</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Marcia hermosa, perdonarme</l>
+          <l>que es vuestro talle estremado,</l>
+          <l>me ha turbado y casi estoy</l>
+          <l>muerta de amores en veros.</l>
+          <l>No hay más bien que conoceros,</l>
+          <l>dichosa en miraros soy.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Para serviros será,</l>
+          <l>que lo haré, así Dios me guarde.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(¿Qué tiemblo? ¿Qué estoy cobarde?)</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <stage>[Aparte a BELISA.]</stage>
+          <l>(Confusa, Belisa, está.)</l>
+          <l>Descubríos, que los ojos</l>
+          <l>me tienen enamorada.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Solo en el ser desgraciada</l>
+          <l>soy hermosa, y si en despojos</l>
+          <l>el alma, señora, os doy,</l>
+          <l>tomad el rostro también.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="I">Hermosa sois.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">No hay más bien</l>
+          <l>que ver, cuando viendo estoy,</l>
+          <l>tal belleza. El cielo os dé</l>
+          <l>la ventura cual la cara.</l>
+          <l>Si hombre fuera, yo empleara</l>
+          <l>en vuestra afición mi fe.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Bésoos, señora, las manos.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Señora, pues me buscáis,</l>
+          <l>razón será que digáis</l>
+          <l part="I">quién sois.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="F">Pues las tres estamos</l>
+          <l>solas, quien soy os diré,</l>
+          <l part="I">y a lo que vengo.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">¿Os llamáis?</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="I">Laura.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Con razón tomáis</l>
+          <l>tal nombre, pues ya estaré</l>
+          <l>segura que a Dafne veo</l>
+          <l>hoy en laurel convertida.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Laura bella, por mi vida,</l>
+          <l>que no tengáis mi deseo.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Mas confieso, Marcia bella,</l>
+          <l>¿es esta dama Fenisa?</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>No, Laura, porque es Belisa,</l>
+          <l part="I">mi prima.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="F">Ya mi amor sella</l>
+          <l>con mis brazos su amistad.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Soy vuestra servidora,</l>
+          <l>y a fe que, desde esta hora,</l>
+          <l>cautiváis mi voluntad.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Yo la aceto, y porque está</l>
+          <l>suspensa, Marcia, os diré</l>
+          <l part="I">a lo que vengo.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">Estaré</l>
+          <l part="I">atenta.</l>
+          <stage>[Aparte.]</stage>
+          <l>(¡Ay, Dios!, ¿qué será?)</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Sabed, bellísimas primas,</l>
+          <l>cuyos años logre el cielo,</l>
+          <l>cómo nací en esta corte</l>
+          <l>y es noble mi nacimiento.</l>
+          <l>Mis padres, que el cielo gozan,</l>
+          <l>me faltaron a tal tiempo</l>
+          <l>que casi no conocí</l>
+          <l>a los que vida me dieron.</l>
+          <l>Quedé niña, sola y rica,</l>
+          <l>con un noble caballero</l>
+          <l>que tuvo gusto en criarme</l>
+          <l>por ser de mi madre deudo.</l>
+          <l>Puso los ojos en mí</l>
+          <l>un generoso mancebo,</l>
+          <l>tan galán como alevoso,</l>
+          <l>desleal y lisonjero.</l>
+          <l>Como mi esposo alcanzó</l>
+          <l>los favores, con que pienso</l>
+          <l>que, si tuve algún valor,</l>
+          <l>sin honra y sin valor quedo.</l>
+          <l>Cuando entendí que mi amante</l>
+          <l>trataba de casamiento,</l>
+          <l>trató, Marcia, de emplearse</l>
+          <l>en otros cuidados nuevos.</l>
+          <l>Yo, sintiendo su tibieza</l>
+          <l>y mi desdicha sintiendo,</l>
+          <l>le hice seguir los pasos</l>
+          <l>para averiguar mis celos.</l>
+          <l>A pocos lances hallé</l>
+          <l>que este mi tirano dueño,</l>
+          <l>Nerón cruel que a mi alma</l>
+          <l>puso como a Roma incendio,</l>
+          <l part="I">¡ay, Marcia!, supe...</l>
+        </sp>
+        <stage>(Llora.)</stage>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">Pues dilo,</l>
+          <l>y deja ese sentimiento.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Ya no sirve enternecerte.</l>
+          <l>¿Lágrimas viertes? ¿Qué es esto?</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¿No quieres, divina Marcia,</l>
+          <l part="I">que tema el decir?</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">¡Ay, cielo!</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Laura, confusa me tienes.</l>
+          <l>Aquí no te conocemos</l>
+          <l part="I">si es vergüenza.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="F">No es vergüenza,</l>
+          <l>sino pensar que me pierdo.</l>
+          <l part="I">Solo digo...</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">Acaba, amiga.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Supe, Marcia, que Liseo,</l>
+          <l>que este es el traidor ingrato</l>
+          <l>que en tal ocasión me ha puesto,</l>
+          <l>te adora a ti. Esta es</l>
+          <l>la causa porque temiendo</l>
+          <l>estaba de declararme.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Laura, si tu sentimiento</l>
+          <l>es ese, puedo jurarte</l>
+          <l>que no le he dado a Liseo</l>
+          <l>favor que no pueda al punto</l>
+          <l>quitársele. Yo confieso</l>
+          <l>que le tengo voluntad:</l>
+          <l>mas, Laura hermosa, sabiendo</l>
+          <l>que te tiene obligación,</l>
+          <l>desde aquí de amarle dejo,</l>
+          <l>en mi vida le veré.</l>
+          <l>¿Eso temes? Ten por cierto</l>
+          <l>que soy mujer principal</l>
+          <l>y que aqueste engaño siento.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Espera, amiga, que hay más,</l>
+          <l>que es justo, porque tomemos</l>
+          <l>venganza las dos, que sepas</l>
+          <l>que este cruel lisonjero,</l>
+          <l>si a mí me desprecia, a ti</l>
+          <l>te engaña, pues sé por cierto</l>
+          <l>que ama a Fenisa, tu amiga,</l>
+          <l>que a ti te engaña cumpliendo</l>
+          <l>con traiciones, que Fenisa</l>
+          <l>es su gusto y pasatiempo.</l>
+          <l>Desde que sale en Oriente</l>
+          <l>el rubio señor de Delo</l>
+          <l>hasta que sale Lucina,</l>
+          <l>está en su casa Liseo,</l>
+          <l>embebecido, hechizado</l>
+          <l>y, de muy amante, necio.</l>
+          <l>Bien sé, Marcia, que contigo</l>
+          <l>era solo pasatiempo</l>
+          <l>lo que el ingrato trataba,</l>
+          <l>mas con Fenisa, yo pienso,</l>
+          <l>que pasa más que a servirla.</l>
+          <l>Marcia, dame tu consejo,</l>
+          <l>que si Liseo se casa,</l>
+          <l>bien ves cuán perdida quedo.</l>
+          <l part="I">¡Ay, bella Marcia!</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">No llores,</l>
+          <l>que ya he pensado el remedio,</l>
+          <l>tal que he de dar a Fenisa</l>
+          <l>lo que merece su intento.</l>
+          <l>¿Podrás quedarte comigo?</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Sí, amiga, porque no quiero</l>
+          <l>vida, hacienda y gusto, honor,</l>
+          <l>si a mi dueño ingrato pierdo.</l>
+          <l>Mas para que con mi honra</l>
+          <l>pueda cumplir, Marcia, quiero</l>
+          <l>que digas que eres mi deuda,</l>
+          <l>y que en ese monesterio</l>
+          <l>me has conocido, y Leonardo,</l>
+          <l>creyendo ser parentesco,</l>
+          <l>me dejará que contigo</l>
+          <l>viva, señora, algún tiempo.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Pues, Laura, quítate el manto,</l>
+          <l>sosiega y éntrate dentro,</l>
+          <l>que no quiero que te vea</l>
+          <l>que estás comigo Liseo,</l>
+          <l>y déjame el cargo a mí.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Déjame besar el suelo</l>
+          <l>adonde pones las plantas.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Alza, amiga, que no quiero</l>
+          <l>que gastes tanta humildad,</l>
+          <l>que no es razón. Mas pensemos,</l>
+          <l>si Liseo te buscase,</l>
+          <l>qué has de decir a Liseo.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>[LAURA]</speaker>
+          <l>Yo le escribiré un papel</l>
+          <l>y en él le diré que quiero,</l>
+          <l>cansada de sus crueldades,</l>
+          <l>ser religiosa, y con esto</l>
+          <l>yo sé que su poco amor</l>
+          <l>dará lugar a mi enredo.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Bien haya tu discreción.</l>
+          <l part="I">¿Qué dices, prima?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Que pierdo</l>
+          <l>el juicio imaginando</l>
+          <l>tal traición y que, si puedo,</l>
+          <l>le he de quitar a don Juan,</l>
+          <l>mi antiguo y querido dueño,</l>
+          <l>que también le persuadió</l>
+          <l part="I">a que no me viese.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="F">¡Ay, cielo!</l>
+          <l>¿También tú estás agraviada?</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Muy fácil está el remedio.</l>
+          <l>Procura, prima, que vuelva</l>
+          <l>a su pasado deseo,</l>
+          <l>que fácil será de hacer</l>
+          <l>con persuasiones y ruegos.</l>
+          <l>Vamos, Laura. ¡Y tal maldad!</l>
+          <l>¿Así paga los extremos</l>
+          <l>de mi voluntad Fenisa?</l>
+          <l>¡Mal haya quien en tal tiempo</l>
+          <l part="I">tiene amigas!</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Don Juan viene.</l>
+          <l>Vete, por Dios, que si puedo</l>
+          <l>he de intentar mi venganza.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Vamos, que sus pasos siento.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>La traición en la amistad</l>
+          <l>puede llamarse este cuento.</l>
+        </sp>
+        <stage>(Vanse MARCIA y LAURA, y queda BELISA sola.)</stage>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Quien no sabe qué es celos, no se alabe</l>
+          <l>que ha tenido dolor ni descontento,</l>
+          <l>porque basta un celoso pensamiento</l>
+          <l>para matar a quien sufrir no sabe.</l>
+          <l>¡Oh, yugo del amor dulce y suave!,</l>
+          <l>solo por ti se tiene sufrimiento,</l>
+          <l>que celos es tirano tan violento</l>
+          <l>que atemoriza con su aspecto grave.</l>
+          <l>No sé, Amor, cómo el verle no te espanta,</l>
+          <l>siendo como eres niño y temeroso,</l>
+          <l>antes le tienes por leal amigo;</l>
+          <l>mas es sirena que cantando encanta,</l>
+          <l>que para ti Cupido es amoroso</l>
+          <l>cuanto cruel y desleal conmigo.</l>
+          <l>Sea de esto testigo</l>
+          <l>la crueldad con que me das tormento,</l>
+          <l>fuego rabioso en que abrasarme siento.</l>
+          <l>Y si alguno pregunta</l>
+          <l>de qué son mis desvelos,</l>
+          <l>le pueden responder que tengo celos.</l>
+        </sp>
+        <stage>(Sale DON JUAN.)</stage>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>¿Será preguntar locura</l>
+          <l>a tu divina hermosura,</l>
+          <l>discretísima Belisa,</l>
+          <l>si está con Marcia Fenisa?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Es tal tu desenvoltura</l>
+          <l>que no me espanto que a mí</l>
+          <l>llegues a mostrar que fuiste</l>
+          <l>quien... con saber que por ti</l>
+          <l>vivo congojosa y triste</l>
+          <l>de lo que no merecí;</l>
+          <l>que si yo fuera mujer</l>
+          <l>que a tu ingrato proceder</l>
+          <l>hubiera dado el castigo,</l>
+          <l>no tuvieras, enemigo,</l>
+          <l>tal libertad y poder.</l>
+          <l>¿Por Fenisa me preguntas,</l>
+          <l>tirano, y no miras juntas</l>
+          <l>mi ofensa y libertad?</l>
+          <l>¿No conoces tu maldad</l>
+          <l>y mi rigor no barruntas?</l>
+          <l>Solicitaste mi amor</l>
+          <l>y, cuando de su favor</l>
+          <l>eras, ingrato, admitido,</l>
+          <l>me trataste con olvido,</l>
+          <l>propio pago de traidor.</l>
+          <l>Mudo estás, tienes razón.</l>
+          <l>Pero ya de tu traición</l>
+          <l>el cielo y tu infame prenda,</l>
+          <l>mi agravio y tu olvido venga.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="I">Escucha.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">¿Por qué razón?</l>
+          <l>Si escuchándote perdí</l>
+          <l>la libertad que era en mí,</l>
+          <l>libre, exenta y no pechera,</l>
+          <l>pues, ¿por qué quieres que muera</l>
+          <l>tornándote a escuchar? Di.</l>
+          <l>¡Déjame, no me detengas!,</l>
+          <l>que aunque no quieres, me vengas</l>
+          <l>tú mismo, traidor, de ti.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>¿Pues cómo, señora, así</l>
+          <l part="I">me tratas?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Ya tus arengas</l>
+          <l>para mí son invenciones.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>¡Oh, amor, qué ocasión me pones!</l>
+          <l>¡Que por mi culpa perdiese</l>
+          <l part="I">tu gracia!</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Si yo te viese</l>
+          <l>tan cercado de pasiones,</l>
+          <l>enemigo, como estoy...</l>
+          <l>Mas ¿por qué tan necia soy</l>
+          <l>que, pudiendo yo vengarme,</l>
+          <l>dejo que torne a engañarme</l>
+          <l part="I">tu maldad?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">Si yo te doy</l>
+          <l>enojos, Belisa mía,</l>
+          <l part="I">mátame.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Yo bien querría.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Con tus ojos, pues que soy</l>
+          <l part="I">su esclavo.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">¡Qué hechicería!</l>
+          <l>Calla, alevoso perjuro,</l>
+          <l>y no irrites mi venganza,</l>
+          <l>sino mira tu mudanza,</l>
+          <l>y que con razón procuro</l>
+          <l part="I">tu muerte.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">¡Qué hermosa estás!</l>
+          <l>Parece que con enojos</l>
+          <l>hacen más tus bellos ojos,</l>
+          <l>con que la muerte me das,</l>
+          <l>llevando el alma en despojos.</l>
+          <l>Mira que muero por ti.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¿Eso me dices ansí,</l>
+          <l>cuando adoras a Fenisa,</l>
+          <l>por quien mi gusto perdí,</l>
+          <l>y enamoras a Belisa?</l>
+          <l>Véngueme el cielo de ti.</l>
+          <l>Mas ella te habrá encerrado,</l>
+          <l>pues, mientras tú descuidado,</l>
+          <l>otro sus umbrales pisa</l>
+          <l>y engaña con falsa risa</l>
+          <l>a quien a mí me ha engañado.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>No sé qué tienen tus ojos</l>
+          <l>que en esas hermosas niñas</l>
+          <l>parece que miro el alba,</l>
+          <l>cuando hermosa, crespa y linda,</l>
+          <l>por los balcones de Oriente,</l>
+          <l>nos muestra su hermosa risa.</l>
+          <l>Fenisa tiene la culpa,</l>
+          <l>mas, si me agravia Fenisa,</l>
+          <l>vengada quedas, señora;</l>
+          <l>yo, ofendido como pintas.</l>
+          <l>Mas dime quién es el hombre</l>
+          <l>solo para que le diga</l>
+          <l>que solo tus ojos bellos</l>
+          <l>son los que don Juan estima.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Basta, don Juan, ¿qué me tienes</l>
+          <l>por necia, pues, que a mí misma</l>
+          <l>me preguntas esas cosas</l>
+          <l>y en que las diga porfías?</l>
+          <l>¿Hante picado los celos</l>
+          <l>y quieres, por causa mía,</l>
+          <l>vengarte del que te ofende?</l>
+          <l>Harto donaire sería.</l>
+          <l>No tienes que preguntarme,</l>
+          <l>ni presumas que me obligas</l>
+          <l>con tus engaños, pues bastan</l>
+          <l>tus falsas hechicerías.</l>
+          <l>Vete con Dios, que me cansas;</l>
+          <l>que rosas y perlas finas</l>
+          <l>para Fenisa las guarda,</l>
+          <l>a quien con gusto te inclinas.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>¿Por qué te vas de esa suerte?</l>
+          <l>Aguarda, señora mía,</l>
+          <l>fenis, cielo, primavera</l>
+          <l>cuando abril sus campos pisa.</l>
+          <l>Acidente fue el querer</l>
+          <l>a esa mujer. Mi desdicha</l>
+          <l>me obligó a tales locuras,</l>
+          <l>mas ya el alma arrepentida</l>
+          <l>a ti, que es su centro, vuelve.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¡Tente, don Juan, no prosigas!,</l>
+          <l>que parece que es verdad</l>
+          <l>tus palabras y es mentira,</l>
+          <l>y podrá ser que me venzas,</l>
+          <l>que la mujer más altiva</l>
+          <l>rendirá fuertes de honor</l>
+          <l>si acaso escucha caricia.</l>
+          <l>Goza tu prenda, que es justo,</l>
+          <l>que ella misma te castiga,</l>
+          <l>pues te paga con engaños</l>
+          <l>la verdad con que la estimas.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Si a Fenisa no aborrezco,</l>
+          <l>aquí se acabe mi vida,</l>
+          <l>aquí me destruya un rayo,</l>
+          <l>aquí el cielo me persiga,</l>
+          <l>aquí me mate mi amigo</l>
+          <l>y con esta espada misma,</l>
+          <l>y aquí me desprecies tú,</l>
+          <l>y aquí me quiera Fenisa.</l>
+          <l>Dame de amiga la mano,</l>
+          <l>rosa hermosa, clavellina,</l>
+          <l>y te la daré de esposo</l>
+          <l>a tus plantas, de rodillas.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¿Cómo te podrá creer</l>
+          <l>quien teme que tu malicia,</l>
+          <l>como primero, me engaña?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>No digas eso, Belisa.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <stage>(Aparte.)</stage>
+          <l>(¡Ay, mi don Juan, que en mirarte</l>
+          <l>casi me tienes rendida!)</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Amor te doy por fiador</l>
+          <l>y a tu hermosura divina.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¿Qué me dices, pensamiento?</l>
+          <l>¿Qué pides, afición mía?</l>
+          <l>¿Qué me dices, voluntad?,</l>
+          <l>que parece que [te] inclinas,</l>
+          <l>porque al fin todas las cosas</l>
+          <l>vuelven a lo que solían.</l>
+          <l>Los ojos se van tras ti,</l>
+          <l>la boca a decir se inclina,</l>
+          <l>mi don Juan, que yo soy tuya,</l>
+          <l>mientras yo tuviera vida.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Por este favor te beso</l>
+          <l>las manos, prenda querida.</l>
+          <l>Vamos, mi señora, adentro,</l>
+          <l>que quiero ver a tu prima.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Vamos, que ya estoy vengada.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="I">¿Contenta estás?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Así vivas</l>
+          <l>los años que yo deseo.</l>
+          <stage>[Aparte.]</stage>
+          <l>(¡Cómo temo tus mentiras!</l>
+          <l>Mas porque Fenisa pierda</l>
+          <l>la gloria que en ti tenía,</l>
+          <l>vuelvo de nuevo a engolfarme.)</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(No más engaños, Fenisa.)</l>
+        </sp>
+        <stage>(Vanse, y sale LISEO y LEÓN.)</stage>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¿Cansada Laura ya de tus tibiezas,</l>
+          <l>quiere escoger tan recoleta vida,</l>
+          <l>aborreciendo el mundo y sus grandezas?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Es Marcia de mi amor prenda querida,</l>
+          <l>y Fenisa adorada en tal manera</l>
+          <l>que está mi voluntad loca y perdida.</l>
+          <l>Laura ya no es mujer, es una fiera;</l>
+          <l>Marcia es un ángel; mi Fenisa, diosa:</l>
+          <l>estas vivan, León, y Laura muera.</l>
+          <l>Marcia está a mis requiebros amorosa;</l>
+          <l>Fenisa a mi afición está rendida;</l>
+          <l>Marcia será, León, mi amada esposa.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¡Bueno eres para turco! ¡Linda vida</l>
+          <l>si con media docena te casaras!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Marcia en eso será la preferida.</l>
+          <l>Tiene hermosura y perfecciones raras:</l>
+          <l>su hacienda, su nobleza, su hermosura,</l>
+          <l part="I">su raro entendimiento.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">¿Y no reparas</l>
+          <l>ya, señor, que de Laura no te acuerdas?</l>
+          <l>¿Cómo Fenisa tiene tal locura</l>
+          <l part="I">que piensa ser tu esposa?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">¡No me pierdas</l>
+          <l>el respecto, borracho, y me des ira!</l>
+          <l>¡Lindo, por Dios, qué bien templadas cuerdas!</l>
+          <l>León, si yo a Fenisa galanteo,</l>
+          <l>es con engaños, burlas y mentiras,</l>
+          <l>no más de por cumplir con mi deseo;</l>
+          <l>a sola Marcia mi nobleza aspira.</l>
+          <l>Ella ha de ser mi esposa, que Fenisa</l>
+          <l part="I">es burla.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">Acaba y ese papel mira.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿Qué he de verle, León, si en él me avisa</l>
+          <l>las cansadas quimeras con que suele?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Tu condición, por Dios, me mueve a risa.</l>
+          <l>¡Que te tenga apetito de esa suerte!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Papel, solo en mirarte me das muerte.</l>
+          <stage>(Lee.)</stage>
+          <p>«Cansada de sufrir tus sinrazones y viendo que ya en ellas no habrá enmienda, estoy determinada a cerrar los ojos al mundo y abrirlos para Dios. Y así hoy me voy a un monesterio fuera de la corte para dejar que goces en ella tus nuevos empleos y estorbar que lleguen a tus oídos nuevas de mi nombre, ni a los míos las de tu libertad».</p>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Laura escoge lo mejor.</l>
+          <l>Vive el cielo, que en el alma</l>
+          <l>siento, señor, sus desdichas,</l>
+          <l>nacidas de tu mudanza.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Pues yo, León, olvidado</l>
+          <l>por su condición pesada</l>
+          <l>de la obligación que tengo,</l>
+          <l>sus penas estimo en nada.</l>
+          <l>Viva mi amada Fenisa,</l>
+          <l>estime mis penas Marcia</l>
+          <l>y haga de sí lo que dice</l>
+          <l>la ya aborrecida Laura.</l>
+          <l>No haya miedo que la estorbe</l>
+          <l>elición tan justa y santa,</l>
+          <l>que fuera delito feo.</l>
+          <l>Hoy para conmigo acaba,</l>
+          <l>y así este papel y ella</l>
+          <l>quedarán por esta causa</l>
+          <l>borrados de mi memoria,</l>
+          <l>como escritos en el agua.</l>
+        </sp>
+        <stage>(Rómpele.)</stage>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¡Tente, señor, por tu vida!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¡Majadero, allá te aparta!</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Pues, ¿por esta niñería</l>
+          <l>me das aquesta puñada?</l>
+          <l>¿No digo yo que tus manos</l>
+          <l>son dadivosas y francas</l>
+          <l>para puñadas y coces?</l>
+        </sp>
+        <stage>(Sale FENISA.)</stage>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¿Es acaso de la dama?</l>
+          <l>¡Si será tanta crueldad...!</l>
+          <l>¿Así sus favores rasgas?</l>
+          <l>Coge, León, los pedazos.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Solo aquesto me faltaba</l>
+          <l>de la ración. ¿Es, por Dios,</l>
+          <l>la cuenta barba borrasca?</l>
+          <l>Alterado sale el mar,</l>
+          <l>tormenta nos amenaza.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Fino alcahuete sois vos.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¿En qué te ofenden mis barbas</l>
+          <l>que así a mesarlas te atreves?</l>
+          <l>¿He de pagar yo tu rabia?</l>
+          <l>Mal haya el lacayo, amén,</l>
+          <l>cuando en tal oficio anda,</l>
+          <l>para excusar estas fiestas</l>
+          <l>como fraile no se rapa.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¡Cuánto diera vuesarced</l>
+          <l>porque al salir se cegaran</l>
+          <l>mis ojos y no le vieran!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Basta, mi Fenisa, basta,</l>
+          <l>no te enojes, que por ti,</l>
+          <l>por tu hermosura y tus gracias,</l>
+          <l>hoy papel y dueño mueren.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¡Aparta, cruel, aparta!</l>
+          <l>Parida leona soy</l>
+          <l>cuando sus hijos le faltan.</l>
+          <l>Pues es Marcia la que estimas,</l>
+          <l>déjame y vete con Marcia.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¡Ah, Circe! ¡Ah, fiera Medea!</l>
+          <l>¡Más que Anajareta ingrata!</l>
+          <l>Deja a Marcia, no la culpes,</l>
+          <l>pues que no ha sido la causa.</l>
+          <l>Coge, ingrata, los pedazos,</l>
+          <l>y en ellos verás que Laura</l>
+          <l>-mujer que no la merezco,</l>
+          <l>ni con ninguna se iguala-,</l>
+          <l>cansada de mis tibiezas</l>
+          <l>y de mi rigor cansada,</l>
+          <l>me dice que a Dios escoge</l>
+          <l>y de mi rigor se aparta;</l>
+          <l>y a servirle en un convento</l>
+          <l>del mundo engañoso escapa,</l>
+          <l>valiéndose en tal sagrado</l>
+          <l>del rigor con que la tratas;</l>
+          <l>que tú eres la causa de esto</l>
+          <l>y de que yo mi palabra</l>
+          <l>quiebre a Dios, a Laura, al mundo.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(¡Pobre León, y cuál andas,</l>
+          <l>mojicón y remesones,</l>
+          <l>sin respetar a mi cara!</l>
+          <l>¡Eso sí, escupamos muelas!</l>
+          <l>Dete Dios tan buenas pascuas</l>
+          <l>como regalos me das</l>
+          <l>servida aquesta tarasca,</l>
+          <l>guardando la calle al tonto</l>
+          <l>a quien la fengida engaña.)</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¿Qué habláis, pícaro, entre dientes?</l>
+          <l>Amiga soy yo de gracias.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Mejor dijera entre muelas,</l>
+          <l>pues ya me has quitado tantas...</l>
+          <l>Una, dos, ¡por Jesucristo!,</l>
+          <l>que ya cincuenta me faltan.</l>
+          <l>Mete los dedos, verás</l>
+          <l>que está la boca sin nada.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Llegad, pues a fe que os rompa</l>
+          <l>las muelas y las quijadas.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(¡Ah, triste de ti, León!,</l>
+          <l>desde hoy comeremos gachas.</l>
+          <l>Señores, ¿saben si acaso,</l>
+          <l>pues hay quien incubra calvas,</l>
+          <l>habrá quien adobe muelas?)</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿Qué es esto, Fenisa amada?</l>
+          <l>¿No merezco que me creas?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(¡Ay, muelas de mis entrañas!</l>
+          <l>¡Ay, quijadas de mis ojos!)</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿Qué es esto, mi bien? ¿No hablas,</l>
+          <l>no basta lo que he jurado?</l>
+          <l>Acaba, no seas pesada.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Por fuerza habré de creer.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>No hayas miedo que se vaya,</l>
+          <l>que es dotor que dice «no»</l>
+          <l>y luego la mano alarga.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Véncenme al fin tus porfías.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(¡Gracias a Dios!)</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">No te cansas</l>
+          <l>de matarme, pues tus ojos</l>
+          <l>con su belleza me matan.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(¡Pluviera a Dios te murieras</l>
+          <l>y que el diablo te llevara!</l>
+          <l>Ved aquí, ya están en paz,</l>
+          <l>y yo cual niño que mama.</l>
+          <l>Así medran los terceros,</l>
+          <l>de esta suerte me regalan.</l>
+          <l>¡Mal haya, amén, el oficio!)</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¡Qué tibiamente me abrazas!</l>
+          <l>¿Estás también enojado?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(¡Ah, sirena, cómo encantas!</l>
+          <l>Pues a fe que yo no llegue,</l>
+          <l>que eres de mano pesada.)</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Tiénesme muy ofendido,</l>
+          <l>y así en tus brazos desmaya</l>
+          <l>el amor, mas estoy loco.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(¡Mal haya quien no te ata!)</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="I">¿Somos amigos?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">¿Pues no?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="I">¿Y Marcia?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">Deja ahora a Marcia.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="I">¿Y a Laura?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">Por Dios, señora,</l>
+          <l>si la nombras que me vaya.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(¿Hay borrachera como esta?</l>
+          <l>Entre muelas derribadas,</l>
+          <l>retozando está la risa.)</l>
+          <l>¡Qué de terneza que gastas!</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Esta noche voy al Prado.</l>
+          <l>Allá, Liseo, me aguarda.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="I">¿Dónde?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">A la huerta del duque</l>
+          <l>me hallarás, mi bien, sentada.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>En Santa Cruz hay gran fiesta.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Pues verela de pasada.</l>
+          <l>Vete, porque la merienda</l>
+          <l>a prevenirla me llama.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>A Dios, dulce dueño mío.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>A Dios, señor de mi alma.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(A Dios, diablo arañador</l>
+          <l>y engarrafadora gata.</l>
+          <l>¡Cata la cruz! ¡Guarda, afuera!</l>
+          <l>¡No vuelvo más a esta casa,</l>
+          <l>aunque mirando a la cea,</l>
+          <l>zura mala, en piedra caigas!)</l>
+        </sp>
+        <stage>(Vanse LISEO y LEÓN.)</stage>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Gallarda condición, Cupido, tengo,</l>
+          <l>muchos amantes en mi alma caben;</l>
+          <l>mi nuevo amartelar todas alaben,</l>
+          <l>guardando la opinión que yo mantengo:</l>
+          <l>hombres, así vuestros engaños vengo.</l>
+          <l>Guárdenos de las necias que no saben,</l>
+          <l>aunque más su firmeza menoscaben,</l>
+          <l>entretenerse como me entretengo.</l>
+          <l>Si un amante se ausenta, enoja o muere,</l>
+          <l>no ha de quedar la voluntad baldía,</l>
+          <l>porque es la ociosidad muy civil cosa.</l>
+          <l>Mal haya la que solo un hombre quiere,</l>
+          <l>que tener uno solo es cobardía.</l>
+          <l>Naturaleza es va[ri]a y es hermosa.</l>
+        </sp>
+        <stage>(Sale LUCÍA, criada.)</stage>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Gerardo está allá fuera y quiere hablarte,</l>
+          <l>y Lauro ha más de una hora que te aguarda.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Sean muy bienvenidos. Di, Lucía,</l>
+          <l>que entre Gerardo y me aguarde Lauro.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>¿Tanto estimas la vista de estos hombres?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Solo porque me aguardan no te digo,</l>
+          <l>Lucía, lo que estimo su presencia.</l>
+          <l>Anda, no aguarden. Di a Gerardo que entre.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Notable condición, señora, tienes.</l>
+          <l>Mas no te he dicho cómo -cuando estabas</l>
+          <l>hablando con Liseo- vino Celia,</l>
+          <l part="I">la criada de Marcia.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">Y bien, ¿qué dijo?</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Saber la causa porque estás extraña</l>
+          <l part="I">en visitarla.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">No me espanto de eso.</l>
+          <l>Bien parece, Lucía, que la ofendo,</l>
+          <l>pues nunca he vuelto a verla desde el día</l>
+          <l part="I">que le quité a Liseo.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l part="F">Mal has hecho.</l>
+          <l>Mucho disimularas si la vieras.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>No tengo cara para ver su cara.</l>
+          <l>Demás de esto, Liseo me ha mandado</l>
+          <l>que cuanto pueda su visita excuse.</l>
+          <l part="I">¿Qué le dijiste a Celia?</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l part="F">Que dormías</l>
+          <l>la siesta y que más tarde te vería.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Dijiste bien. Pues, ¿cómo no ha venido</l>
+          <l part="I">don Juan desde antenoche?</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l part="F">¿Si está malo?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Bien puede ser. Irás a visitarle,</l>
+          <l>mas no esta noche. Bastará mañana,</l>
+          <l>que me quiero ir al Prado aquesta noche.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Sea como mandares. Bravamente</l>
+          <l part="I">entretienes tu gusto.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">¡Es linda cosa!</l>
+          <l>Los amantes, Lucía, han de ser muchos.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Así decía mi agüela, que Dios haya,</l>
+          <l>que había de ser en número infinitos,</l>
+          <l>tantos como los ajos que, puniendo</l>
+          <l>muchos en un mortero reunidos,</l>
+          <l>salte aquel que saltare, que otros quedan;</l>
+          <l>que si se va o se muere, nunca falte.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¡Brava comparación! Llama a Gerardo,</l>
+          <l>que si puedo he de hacerle mi cofrade,</l>
+          <l>sin que Lauro se escape de lo mismo.</l>
+          <stage>[Vase LUCÍA.]</stage>
+          <l>¿En qué parará, Amor, tan loco embuste?</l>
+          <l>Diez amantes me adoran y yo a todos</l>
+          <l>los adoro, los quiero, los estimo,</l>
+          <l>y todos juntos en mi alma caben,</l>
+          <l>aunque Liseo como rey preside.</l>
+          <l>Estos llamen desde hoy, quien los supiere,</l>
+          <l>los mandamientos de la gran Fenisa,</l>
+          <l>tan bien guardados que en ninguno peca,</l>
+          <l>pues a todos los ama y los adora.</l>
+        </sp>
+        <stage>[Entra LUCÍA.]</stage>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Entrad, que aquí os aguarda mi señora.</l>
+        </sp>
+        <stage>(Entra GERARDO.)</stage>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Alma de aquella alma ingrata</l>
+          <l>que en penas mi alma tiene,</l>
+          <l>a ti me vengo a quejar,</l>
+          <l>si de mi dolor te dueles;</l>
+          <l>a ti, estrella de aquel sol;</l>
+          <l>a ti, pues su amiga eres,</l>
+          <l>pido que a mi Marcia ingrata</l>
+          <l>mi fiero dolor le cuentes;</l>
+          <l>a ti, Fenisa, que miras</l>
+          <l>continuo su rostro alegre,</l>
+          <l>porque a mí no quiere oírme;</l>
+          <l>a ti, que tanto te quiere,</l>
+          <l>te escuchará más piadosa.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Enternecida me tienes.</l>
+          <l>¿Conoces que Marcia ingrata</l>
+          <l>disgusto recibe en verte</l>
+          <l>y que en otro gusto ha puesto</l>
+          <l>el gusto que a ti te debe?</l>
+          <l>¿Sabes que a Liseo adora</l>
+          <l>y con él casarse quiere,</l>
+          <l>y tú pasas a su causa</l>
+          <l>esa pasión que encareces?</l>
+          <l>Mil veces, Gerardo, he dicho,</l>
+          <l>y tú escucharme no quieres,</l>
+          <l>que padezco por tu causa</l>
+          <l>lo que por Marcia padeces;</l>
+          <l>y por esos ojos juro</l>
+          <l>adorarte si me quieres,</l>
+          <l>regalarte si me estimas,</l>
+          <l>mirar por tu gusto siempre;</l>
+          <l>que decirle yo a esa ingrata</l>
+          <l>que tu cuidado remedie</l>
+          <l>es pedir al sol tinieblas,</l>
+          <l>luz a las tinieblas fuertes.</l>
+          <l>Yo te quiero, señor mío.</l>
+          <l>¿Por qué, mi bien, no pretendes</l>
+          <l>olvidarla y de mi amor</l>
+          <l>recibir lo que te ofrece?</l>
+          <l>Sea, mi Gerardo, yo</l>
+          <l>el templo santo a do cuelgues</l>
+          <l>la cadena con que escapas</l>
+          <l>de prisiones tan crueles.</l>
+          <l>¡Acaba, dame esos brazos!</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>¡Calla, lengua de serpiente!</l>
+          <l>¡Calla, amiga de estos tiempos!</l>
+          <l>¡Calla, desleal, y advierte</l>
+          <l>que he de adorar a aquel ángel!</l>
+          <l>¡Jamás mi fe se arrepiente!</l>
+          <l>De un ángel, de un serafín,</l>
+          <l>¿con aquesa lengua aleve</l>
+          <l>osas hablar, y yo escucho</l>
+          <l>tal sin cortarla mil veces?</l>
+          <l>Por ser mujer Marcia bella</l>
+          <l>y deber a las mujeres</l>
+          <l>solo por ellas respeto,</l>
+          <l>será mejor que te deje.</l>
+        </sp>
+        <stage>[Vase GERARDO.]</stage>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¡Gerardo, Gerardo, escucha!</l>
+          <l>¡Óyeme, señor, y vuelve,</l>
+          <l>que con aquesas injurias</l>
+          <l>amartelada me tienes!</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Señora, ¿por qué haces esto,</l>
+          <l>y sin mirar lo que pierdes?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Tienes razón. ¡Ay, Lucía,</l>
+          <l>enredo notable es este!</l>
+          <l>¡Traición en tanta amistad!</l>
+          <l>Mas, discurso sabio, tente,</l>
+          <l>que no hay gloria como andar</l>
+          <l>engañando pisaverdes.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Mira que Laura te aguarda.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="I">Vamos.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l part="F">Temeraria eres.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Calla, que en esto he de ser</l>
+          <l>estremo de las mujeres.</l>
+        </sp>
+        <stage>(Vanse, y sale MARCIA, BELISA y LAURA.)</stage>
+        <sp who="#belisa">
+          <speaker>[BELISA]</speaker>
+          <l>¡Bravos subcesos, prima, por mi vida!</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>[MARCIA]</speaker>
+          <l>Y tales que parecen que las fábulas</l>
+          <l>del fabuloso Isopo se han venido.</l>
+          <l>Liseo, que mis partes pretendía,</l>
+          <l>en la mar de Fenisa sumergido,</l>
+          <l>debiendo a Laura su nobleza y honra...</l>
+          <l>Déjalo estar, que si mi poder basta...</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¡Ay, Marcia! ¡Ay, mi señora, mi mal mira!</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Calla, amiga, no llores. Calla, amiga,</l>
+          <l>no has de quedar perdida si yo puedo.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>De don Juan, a lo menos, tú no dudes,</l>
+          <l>que si quiero casarme aquesta noche,</l>
+          <l>ajustará su gusto con el mío.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="I">¿Ya tan grato le tienes?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Bueno es eso.</l>
+          <l>Dice que ya me adora y que reniega</l>
+          <l>del tiempo que Fenisa y sus engaños</l>
+          <l part="I">le tuvieron tan ciego.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">Al fin te quiere.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Me adora, me requiebra y pide humilde</l>
+          <l>le perdone el delito cometido</l>
+          <l>contra el amor que a mi firmeza debe.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¡Dichosa tú que tal ventura alcanzas!</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Yo espero que has de ser también dichosa.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Mucho gusto me has dado, así yo viera,</l>
+          <l>pues don Juan te merece, que le quieras,</l>
+          <l>para que cuando Laura con Liseo</l>
+          <l>se casen, tú y don Juan hagáis lo mismo.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Basta, que piensa mi cruel Liseo</l>
+          <l>que eres tú, bella Marcia, la que habla</l>
+          <l part="I">cada noche en la reja.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">Yo te juro</l>
+          <l>que él caiga de tal suerte, si yo puedo,</l>
+          <l>que en lazo estrecho de Liseo goces.</l>
+          <l>Ya te digo, Belisa, a don Juan ama.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Prima, don Juan fue siempre de mi gusto,</l>
+          <l>y así es fuerza que siga tras mi estrella.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>¿Sabes, prima, que siento y que me tiene</l>
+          <l>cuidadosa de ver que no parece</l>
+          <l>el discreto Gerardo? Que te juro</l>
+          <l>que me siento en estremo descontenta,</l>
+          <l>porque viendo, Belisa, los engaños</l>
+          <l>de los hombres de agora, y conociendo</l>
+          <l>que ha siete años que este mozo noble</l>
+          <l>me quiere, sin que fuerza de desdenes</l>
+          <l>hayan quitado su afición tan firme,</l>
+          <l>ya como amor su lance había hecho</l>
+          <l>en mi alma, en Liseo trasformada,</l>
+          <l>conociendo su engaño, en lugar suyo</l>
+          <l>aposento a Gerardo, y así tiene</l>
+          <l>el lugar que merece acá en mi idea.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¡Oh, prima mía! ¡Oh, mi señora! Dadme,</l>
+          <l>en nombre de Gerardo, los pies tuyos.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>El parabién te doy, divina Marcia.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Alza del suelo, mi querida prima,</l>
+          <l>y cree que Gerardo está en mi alma.</l>
+          <l>Toma a tu cargo el que te busque y dile</l>
+          <l>que ya el amor, doliéndole su pena,</l>
+          <l>quiere darle el laurel de su vitoria,</l>
+          <l>y que el laurel es Marcia. Vamos, Laura.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Vamos, señora mía, y quiera el cielo</l>
+          <l>que goces de Gerardo muchos años.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Esos vivas, amiga, con Liseo.</l>
+        </sp>
+        <stage>(Vanse [MARCIA y LAURA].)</stage>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Dichoso dueño de tu nuevo empleo.</l>
+          <l>Gracias, Amor, a tus aras,</l>
+          <l>a tu templo, a tu grandeza,</l>
+          <l>a tu divina hermosura,</l>
+          <l>a tus doradas saetas,</l>
+          <l>pues ya Marcia de Gerardo</l>
+          <l>estima las nobles prendas.</l>
+          <l>¿Hay tal bien? ¿Hay tan ventura?</l>
+        </sp>
+        <stage>(Sale DON JUAN.)</stage>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Mi bien, mi ventura sea</l>
+          <l>ver, mi Belisa, tus ojos,</l>
+          <l>en cuyas niñas risueñas</l>
+          <l>vengo a gozar de mi gloria.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Don Juan, bienvenido seas.</l>
+          <l part="I">¿Cómo estás?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">Como tu esclavo.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="I">¿Y cómo estoy?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">Como reina</l>
+          <l>de mi alma y de mi vida</l>
+          <l>y de todas mis potencias.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Y Fenisa, mi señora,</l>
+          <l>¿no me dirás cómo queda?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Sí, amores, que a tu pregunta</l>
+          <l>es muy justo dar respuesta.</l>
+          <l>Habrá, mi Belisa, una hora</l>
+          <l>que, estando en mi casa, llega</l>
+          <l>Lucía -que de Fenisa</l>
+          <l>sabes que es fiel mensajera-</l>
+          <l>a decirme que en el Prado,</l>
+          <l>en medio de su alameda,</l>
+          <l>su señora me aguardaba,</l>
+          <l>que allí me llegase a verla.</l>
+          <l>Yo fui, no por ofenderte,</l>
+          <l>sino solo porque seas</l>
+          <l>de todo punto mi dueño,</l>
+          <l>que aún faltaba esta fineza.</l>
+          <l>Apenas vi las murallas</l>
+          <l>de la celebrada huerta</l>
+          <l>que hizo a la real Margarita</l>
+          <l>el noble duque de Lerma,</l>
+          <l>cuando vide, mi Belisa,</l>
+          <l>con Fenisa -esa Medea-</l>
+          <l>a Lauro -aquese mancebo</l>
+          <l>que con Liseo pasea-.</l>
+          <l>Como ya el señor de Delfos</l>
+          <l>daba fin a su carrera</l>
+          <l>y la luna sale tarde,</l>
+          <l>pude llegarme bien cerca.</l>
+          <l>Oíles dos mil amores,</l>
+          <l>y de sus palabras tiernas</l>
+          <l>conocí amor en el uno</l>
+          <l>y en la otra, falsas tretas.</l>
+          <l>Quise llegar -no son celos,</l>
+          <l>mi Belisa, sino venia</l>
+          <l>mas estorbolo Liseo,</l>
+          <l>que venía en busca de ella,</l>
+          <l>y con él venía León,</l>
+          <l>y sacando la merienda,</l>
+          <l>merendaron, viendo yo</l>
+          <l>hacerse dos mil finezas.</l>
+          <l>Ellos eran tres, yo solo,</l>
+          <l>y así estar quedo fue fuerza,</l>
+          <l>si bien la cólera andaba</l>
+          <l>reñiendo con la pacencia.</l>
+          <l>Como digo, merendaron,</l>
+          <l>y poco a poco dan vuelta</l>
+          <l>ellos en su compañía,</l>
+          <l>yo en su retaguardia de ella.</l>
+          <l>Antes que a casa llegasen,</l>
+          <l>veinte pasos de su puerta,</l>
+          <l>los despidió, que su madre</l>
+          <l>siempre por coco la enseña.</l>
+          <l>Así a la calva el copete</l>
+          <l>y, fingiéndole ternezas,</l>
+          <l>llegué diciendo: «Fenisa,</l>
+          <l>vengas muy enhorabuena».</l>
+          <l>Fueme a decir: «Mi don Juan».</l>
+          <l>Yo entonces, la mano puesta</l>
+          <l>en la daga, quise dalle.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Alma y corazón me tiembla.</l>
+          <l part="I">¿Dístela?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">Túvome el brazo</l>
+          <l>conocer que eras mi prenda,</l>
+          <l>y que te han de dar la culpa</l>
+          <l>sin que tú la culpa tengas.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Bien hiciste, que es crueldad,</l>
+          <l>y a las mujeres de prendas</l>
+          <l>les basta para castigo</l>
+          <l>no hacer, don Juan, caso de ellas.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Dejé sangrientas venganzas</l>
+          <l>y, para mayor afrenta,</l>
+          <l>con la mano de su cara</l>
+          <l>saqué por fuerza vergüenza</l>
+          <l>diciendo: «Así se castigan</l>
+          <l>a las mujeres que intentan</l>
+          <l>desatinos semejantes,</l>
+          <l>y que a los hombres enredan».</l>
+          <l>Y, siguiendo tras Liseo,</l>
+          <l>le hallé y metí en una iglesia,</l>
+          <l>y le conté este subceso</l>
+          <l>con razones bien resueltas.</l>
+          <l>Esto ha pasado, señora,</l>
+          <l>y pues ya Fenisa queda</l>
+          <l>como merece pagada,</l>
+          <l>seré tuyo hasta que muera.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¿Es pusible que esto has hecho?</l>
+          <l>Es mujer al fin, me pesa;</l>
+          <l>que no hiciera estas locuras,</l>
+          <l>mi don Juan, si se entendiera.</l>
+          <l>Don Juan, ninguna mujer,</l>
+          <l>si se tiene por discreta,</l>
+          <l>pone en opinión su honor,</l>
+          <l>siendo joya que se quiebra.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Pues si lo fuera Fenisa,</l>
+          <l>esos engaños no hiciera,</l>
+          <l>pues al fin pone su fama</l>
+          <l>en notables contingencias.</l>
+          <l>Nunca me quiso creer.</l>
+          <l>Siempre dije que no es buena</l>
+          <l>la fama con opiniones.</l>
+          <l>A su condición, paciencia.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>[BELISA]</speaker>
+          <l>Ya es hecho y, por los deseos</l>
+          <l>con que por vengarme fuerzas</l>
+          <l>el amor que la tuviste,</l>
+          <l>darte mil mundos quisiera,</l>
+          <l>mas pues soy pequeño mundo,</l>
+          <l>corona de él tu cabeza,</l>
+          <l>que con darte aquesta mano</l>
+          <l part="I">soy tuya.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">Gloria como esta</l>
+          <l>solo con Marcia es razón</l>
+          <l part="I">que se goce.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Y será prueba</l>
+          <l>del oro de tu afición</l>
+          <l>de mi prima la presencia,</l>
+          <l>y contarasle ese cuento,</l>
+          <l>que con donaire le cuentas.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Tú me prestas de los tuyos.</l>
+          <l part="I">Vamos, Belisa.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Quisiera</l>
+          <l>que buscaras a Gerardo,</l>
+          <l>porque mi prima desea</l>
+          <l>tratar con él ciertas cosas</l>
+          <l part="I">de importancia.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">Mi bien, entra,</l>
+          <l>y dirase por los dos:</l>
+          <l>lo de César darlo a César.</l>
+        </sp>
+        <stage>(Vanse, con que se da fin a la segunda jornada.)</stage>
+      </div>
+      <div type="act">
+        <head>Jornada III</head>
+        <stage>Sale LAURA sola.</stage>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¿Qué pecado he cometido</l>
+          <l>para tan gran penitencia?</l>
+          <l>¿Por qué acabas mi pacencia,</l>
+          <l>celos, verdugo atrevido?</l>
+          <l>Dime, ¿qué es esto, Cupido?</l>
+          <l>¿Qué gente metiste en casa</l>
+          <l>que en fiera llama me abrasa?</l>
+          <l>Bástame, Amor, la tuya.</l>
+          <l>No sé qué diga ni arguya</l>
+          <l>de tu condición escasa.</l>
+          <l>Recibite en mi posada</l>
+          <l>por verte niño y desnudo;</l>
+          <l>ya mi libertad la mudo,</l>
+          <l>con ser de mí tan amada.</l>
+          <l>Dite la casa colgada</l>
+          <l>de muy rica colgadura,</l>
+          <l>dite cama de ternura</l>
+          <l>y colchones de afición,</l>
+          <l>y mandele a la ocasión</l>
+          <l>que de ti tuviese cura.</l>
+          <l>Ha dos días que aquí entraste.</l>
+          <l>Sin mirar que huésped eras</l>
+          <l>y de mi afición las veras,</l>
+          <l>con ausencia te casaste.</l>
+          <l>Toda la casa ocupaste</l>
+          <l>con sus penas y tormentos,</l>
+          <l>que son de ausencia allegados,</l>
+          <l>hijos, parientes, criados,</l>
+          <l>que jamás están contentos.</l>
+          <l>Celos, ¿qué tienes conmigo?</l>
+          <l>¿Por qué me tratas tan mal?</l>
+          <l>Bástete verme mortal.</l>
+          <l>Déjame, fiero enemigo.</l>
+          <l>¿Qué rigor es, qué castigo</l>
+          <l>es este en que estoy metida?</l>
+          <l>Ya que estoy muerta y rendida,</l>
+          <l>¿para qué contra mí espadas,</l>
+          <l>en tu rigor afiladas,</l>
+          <l>con que me quitas la vida?</l>
+        </sp>
+        <stage>(Sale FELIS.)</stage>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="I">¿No sabes lo que pasa?</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="F">¡Ay, Felis mío!</l>
+          <l>El corazón y el alma me has turbado,</l>
+          <l>que en tu cara te veo que las nuevas</l>
+          <l>que me vienes a dar no son de gusto.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l>¡Se ha casado con Fenisa!</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¡Ay de mí, desdichada! ¡Ay de mí, triste!</l>
+          <l>Esta sospecha misma es la que siempre</l>
+          <l part="I">me atormentaba el alma.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="F">¡Desmayose!</l>
+          <l>¡Ah, Laura! ¡Ah, mi señora! Celia, Claudia,</l>
+          <l>llamad a Marcia presto, que se muere</l>
+          <l>la desdichada Laura</l>
+        </sp>
+        <stage>(Sale BELISA.)</stage>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¿Qué es esto, Felis? ¡Laura, Laura mía!</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="I">¡Ay, Belisa!</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="M">¿Qué tienes?</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="F">Muerte, rabia,</l>
+          <l>cuidados, ansias y tormento, celos</l>
+          <l>cuyo dolor, por solo que se acabe,</l>
+          <l>será pasarme el pecho el más piadoso</l>
+          <l>remedio. ¡Ay, mi Belisa! ¡Ay, que se acaba</l>
+          <l>la malograda vida que poseo!</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="I">¿Qué tiene, Laura, Felis?</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="F">¿Ya no dice</l>
+          <l>que tiene celos, cuyo mal rabioso</l>
+          <l>causa esas bascas, como al fin veneno?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="I">¿Celos? Acaba, dímelo.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l part="F">Ha sabido</l>
+          <l>que Fenisa y Liseo anoche fueron</l>
+          <l>a tomarse las manos a la audiencia</l>
+          <l part="I">del vicario.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">¡Jesús! ¡Y qué mentira!</l>
+          <l>Eso no puede ser. ¿No sabes, Laura,</l>
+          <l>lo que pasó a Fenisa con Liseo</l>
+          <l>y don Juan? No lo creas. Calla, amiga.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¡Ay, Belisa del alma! ¡Ay, que me acabo!</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>No llores, no maltrates esos ojos,</l>
+          <l>guárdalos para ver a tu Liseo</l>
+          <l>en tus brazos, pues ha de ser tu esposo.</l>
+        </sp>
+        <stage>(Sale GERARDO.)</stage>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l part="I">¿Está mi Marcia aquí?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Señor Gerardo,</l>
+          <l>seáis muy bienvenido. Vamos, Laura,</l>
+          <l part="I">y llamaré a mi prima.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="F">¡Ay, santos cielos!</l>
+          <l>¡Qué rabioso mal es el de celos!</l>
+        </sp>
+        <stage>(Vanse LAURA y BELISA, y sale MARCIA.)</stage>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Dueño del alma mía,</l>
+          <l>a darme gloria bienvenida seas.</l>
+          <l>De mi gusto alegría,</l>
+          <l>prenda del corazón que ya hermoseas,</l>
+          <l>hermosísimos ojos,</l>
+          <l>más bellos que los rayos del sol rojos,</l>
+          <l>goce yo de tus brazos,</l>
+          <l>amen mi cuello tan dichosos lazos.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Dulce Gerardo amado,</l>
+          <l>del alma gusto y de mi gusto empleo,</l>
+          <l>pues tan dichosa he estado,</l>
+          <l>gozo teniendo en ti todo el deseo.</l>
+          <l>Con mis brazos recibo</l>
+          <l>el cuerpo amado en quien por alma vivo,</l>
+          <l>y tan eternos sean</l>
+          <l>como las almas de los dos desean.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Este bien que poseo</l>
+          <l>teme perderle mi contraria suerte</l>
+          <l>y así, mi bien, deseo</l>
+          <l>que, estando como estoy, venga la muerte,</l>
+          <l>pues muriera dichoso</l>
+          <l>entre mis brazos este cuerpo hermoso.</l>
+          <l>¡Ay, divina señora,</l>
+          <l>tus pasados rigores temo agora!</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Si por haberte sido</l>
+          <l>en los tiempos pasados rigurosa</l>
+          <l>te temes de mi olvido,</l>
+          <l>no, señor, ya mi bien es otra cosa.</l>
+          <l>Ya conozco que gano</l>
+          <l>en darte como esposa aquesta mano.</l>
+          <l>No temas más enojos.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Alza a mirarme aquesos dulces ojos.</l>
+          <l>Haga eterno los cielos,</l>
+          <l>esposa amada, este dichoso lazo;</l>
+          <l>no le adelgace celos,</l>
+          <l>ni le rompa el mortal y duro plazo.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Yo la que gano he sido.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Y yo, mi bien, en ser de ti querido.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Venturosos amores.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Yo lo soy en gozar estos favores.</l>
+          <l>Si mil almas tuviera,</l>
+          <l>todas, dulce señora, en ti empleara;</l>
+          <l>si rey del mundo fuera,</l>
+          <l>el cetro y la corona te entregara;</l>
+          <l>si fuera justa cosa,</l>
+          <l>mi diosa fueras, mi querida esposa.</l>
+          <l>Quisiera ser Homero</l>
+          <l>para cantar que por amarte muero.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Para solo mirarte,</l>
+          <l>quisiera de Argos los volantes ojos.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Yo, para regalarte</l>
+          <l>y darte de riquezas mil despojos,</l>
+          <l>ya que tal bien poseo,</l>
+          <l>que el oro fuera igual a mi deseo.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Pues yo ser sol quisiera</l>
+          <l>para darte los rayos de mi esfera;</l>
+          <l>de todo ser señora</l>
+          <l>para hacerte de todo rico dueño;</l>
+          <l>por recrearte, aurora.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Yo para darte gusto mi fe empeño,</l>
+          <l>dulce amor, que quisiera</l>
+          <l>ser la fértil y hermosa primavera:</l>
+          <l>tierra para tenerte,</l>
+          <l>y cielo para siempre poseerte.</l>
+        </sp>
+        <stage>(Sale FELIS.)</stage>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l>A llamarte me envía,</l>
+          <l>divina Laura, Marcia, mi señora,</l>
+          <l>porque hablarte quería,</l>
+          <l>que de venir Liseo es ya la hora.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Vamos, Gerardo amado,</l>
+          <l>remediemos a Laura su cuidado.</l>
+        </sp>
+        <sp who="#felis">
+          <speaker>FELIS</speaker>
+          <l>Fortuna, estate queda,</l>
+          <l>y no des vuelta a tu inconstante rueda.</l>
+        </sp>
+        <stage>(Vanse, y sale LISEO.)</stage>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Vengativo eres, Amor,</l>
+          <l>no hay quien contra ti se atreva;</l>
+          <l>desdichado del que prueba</l>
+          <l>de tu venganza y furor.</l>
+          <l>Dejé a Laura, que me amaba,</l>
+          <l>traté a Marcia con engaño,</l>
+          <l>y todo sale en mi daño,</l>
+          <l>pues ya mi fingir se acaba,</l>
+          <l>pues Fenisa, más ingrata</l>
+          <l>que Medusa y más cruel,</l>
+          <l>aprieta tanto el cordel</l>
+          <l>que con tal rigor me mata.</l>
+          <l>¡Oh, Laura, tus maldiciones</l>
+          <l>me alcancen, pues sin razón</l>
+          <l>traté tan mal tu afición,</l>
+          <l>olvidando obligaciones!</l>
+          <l>¡Ay, Fenisa, fementida,</l>
+          <l>más taimada y embustera!</l>
+          <l>¡Oh, si Marcia lo supiera,</l>
+          <l>te castigara, atrevida!</l>
+          <l>¡Con qué gusto me engañaba!</l>
+          <l>¿Hay más estraño fingir?</l>
+          <l>Casi me mueve a reír</l>
+          <l>ver el engaño en que estaba.</l>
+          <l>Si Laura no hubiera dado</l>
+          <l>santo fin a su afición,</l>
+          <l>cumpliera mi obligación</l>
+          <l>a su firmeza obligado.</l>
+          <l>Ya, pues Laura se acabó,</l>
+          <l>será Marcia mi mujer,</l>
+          <l>cuyo entendimiento y ser</l>
+          <l>con estremo me agradó.</l>
+          <l>El reloj da, doce son.</l>
+          <l>En cuidado me ha metido</l>
+          <l>viendo cómo no ha salido</l>
+          <l>a esta hora a su balcón.</l>
+          <l>Mas ¿si sabe alguna cosa?</l>
+          <l>Que ya me ha dicho Fenisa</l>
+          <l>que don Juan ama a Belisa,</l>
+          <l>de mi Marcia prima hermosa.</l>
+          <l>Mas ya veo en el balcón</l>
+          <l>que mi sol hermoso sale.</l>
+          <l>Alma, adelántate y dale</l>
+          <l>nuevamente el corazón.</l>
+        </sp>
+        <stage>(Salen a la ventana MARCIA y LAURA, y MARCIA finge ser BELISA [y LAURA finge ser MARCIA].)</stage>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Ten ánimo, prima amada.</l>
+          <l>Deja esos cansados celos,</l>
+          <l>que antes de mucho los cielos</l>
+          <l>te harán de todo vengada.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l part="I">¡Ay, Marcia!</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <stage>[Aparte.]</stage>
+          <l>(Jesús, ¿qué dices?</l>
+          <l>Belisa me has de llamar.)</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Estoy tan triste que hablar</l>
+          <l part="I">no puedo.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">Mucho desdices</l>
+          <l>de quien eres. ¿Qué es aquesto?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Marcia mía, ¿cómo estás?</l>
+          <l>Habla, mi bien, que jamás</l>
+          <l>en tal confusión me has puesto.</l>
+          <l>¿Qué es esto? ¿Callando quieres</l>
+          <l>aumentar más mi cuidado?</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Lisonjas has estudiado.</l>
+          <l>Bien lo dices, lindo eres.</l>
+          <l>A Marcia habemos tenido,</l>
+          <l>por saber cierto cuidado</l>
+          <l>tuyo -que lástima ha dado</l>
+          <l>verla- una hora sin sentido.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿Cuidado mío, Belisa,</l>
+          <l>cuando el alma vive en ti?</l>
+          <stage>[Aparte.]</stage>
+          <l>(¡Ay Dios! ¿Si sabe, ay de mí,</l>
+          <l>la voluntad de Fenisa?)</l>
+          <l>Matarme será favor</l>
+          <l>en desdichas semejantes.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Nunca matan los amantes,</l>
+          <l>que es padre piadoso Amor.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Marcia mía, ¿qué pretende</l>
+          <l>tu crueldad? Dime tu pena,</l>
+          <l>que mi voluntad y espada</l>
+          <l part="I">sabrán vengarte.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>[MARCIA]</speaker>
+          <l part="F">No enfada,</l>
+          <l>que es padre que al hijo ofende.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Cansada barca mía,</l>
+          <l>pues ya a seguirte la tormenta empieza,</l>
+          <l>y tan sin alegría</l>
+          <l>surcando vas por mares de tristeza,</l>
+          <l>despídete del puerto</l>
+          <l>en quien pensaste descansar muy cierto,</l>
+          <l>y dile «A Dios, ingrato,</l>
+          <l>que no puedo sufrir tu falso trato».</l>
+          <l>De tus falsos engaños</l>
+          <l>me alejo, desleal. No quiero verte,</l>
+          <l>y en la flor de mis años</l>
+          <l>quiero rendirme a la temprana muerte.</l>
+          <l>Sigue tras tus antojos</l>
+          <l>por quien son ríos de llorar mis ojos,</l>
+          <l>que yo pienso dejarte</l>
+          <l>y recogerme a más segura parte.</l>
+          <l>Tirano, no son celos,</l>
+          <l>aunque pudiera dármelos Fenisa.</l>
+          <l>No quiero más desvelos.</l>
+          <l>Vamos, prima, de aquí. Vamos, Belisa.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Marcia divina, escucha.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>No puedo, falso, que mi pena es mucha.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Así tus años goces,</l>
+          <l>que no te aflijas, llores, ni des voces.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Cierra esa infame boca,</l>
+          <l>que no es quimera, no, traidor, mi queja.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Está de pena loca.</l>
+          <l>Prima querida, esas razones deja.</l>
+          <l>¡Basta, por vida mía!</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¡Déjame, prima, aparte te desvía!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¡Ea, mi cielo, acaba,</l>
+          <l>que miente quien te ha dicho que la amaba!</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>¡Aquesa ingrata veas</l>
+          <l>hacer favores a quien más te ofende!</l>
+          <l>De ella olvidado seas.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Hermosa Marcia, mi disculpa entiende.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Y cuando más te quiera,</l>
+          <l>muerte cruel entre tus brazos muera;</l>
+          <l>y si es aborrecida</l>
+          <l>en tu poder alcance larga vida.</l>
+        </sp>
+        <stage>(Vase.)</stage>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Tenla, hermosa Belisa.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>No la puedo tener, que va furiosa.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¡Oh, mal hayas, Fenisa,</l>
+          <l>que así estorbes mi suerte venturosa!</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Bien dijo quien decía:</l>
+          <l>«Mal haya la mujer que en hombres fía».</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Belisa, mortal quedo.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>¿En qué vendrá a parar tan loco enriedo?</l>
+          <l>Una mujer celosa</l>
+          <l>es peor que la víbora atizada.</l>
+          <l>Pero haz una cosa,</l>
+          <l>si quieres que yo pueda, confiada,</l>
+          <l>tratar aquestas paces</l>
+          <l>y decirla el favor que tú la haces.</l>
+          <l>Promete ser su esposo,</l>
+          <l>y amansarás su rostro desdeñoso,</l>
+          <l>en un papel firmado</l>
+          <l>en que diga: «Prometo yo, Liseo,</l>
+          <l>por dejar confirmado</l>
+          <l>con mi amor y firmeza mi deseo,</l>
+          <l>ser, señora, tu esposo,</l>
+          <l>pena de que me llamen alevoso»;</l>
+          <l>con que podré segura</l>
+          <l>hacer por ti lo que amor procura.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Si hiciera, mas agora</l>
+          <l>¿cómo podré escribir eso que pides?</l>
+          <l>Da una traza, señora,</l>
+          <l>pues tu favor con mis deseos mides.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Allégate a la puerta,</l>
+          <l>que por servirte al punto será abierta.</l>
+          <l>Enviarete un criado</l>
+          <l>mientras veo si Marcia se enternece,</l>
+          <l>y te dará recado</l>
+          <l>para que escribas, pues tu suerte ofrece</l>
+          <l>que dichoso poseas</l>
+          <l>en matrimonio la que más deseas.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Ve, señora, al momento,</l>
+          <l>que no me da mi pena sufrimiento.</l>
+        </sp>
+        <stage>(Vase MARCIA y sale LEÓN.)</stage>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¡Gracias a Dios que te hallo!</l>
+          <l>¡Por Dios, que vengo molido!</l>
+          <l>¿Hay quien me socorra acaso</l>
+          <l>con algún trago de vino?</l>
+          <l>Sudando estoy, ¿no me ves?</l>
+          <l>Tienta que, por Jesucristo,</l>
+          <l>que no he parado esta tarde</l>
+          <l>buscándote, señor mío.</l>
+          <l>¡Válame Dios lo que anduve!</l>
+          <l>No he dejado, ¡por Dios vivo!,</l>
+          <l>tabernas ni bodegones</l>
+          <l>donde no entrase mohíno.</l>
+          <l>Preguntaba en las despensas:</l>
+          <l>«Señores, ¿acaso han visto</l>
+          <l>entre los cueros honrados</l>
+          <l>un amo que yo he tenido?»</l>
+          <l>Llegué a casa de Fenisa</l>
+          <l>y hallela con tanto hocico,</l>
+          <l>tanto que, en solo mirarla,</l>
+          <l>dos muelas se me han caído,</l>
+          <l>que estas solas me quedaron</l>
+          <l>de cuando... ¿Que estás mohíno?</l>
+          <l>Parece que no te agrado</l>
+          <l>con estas cosas que digo.</l>
+          <l>No me habló y llegué a Lucía,</l>
+          <l>antiguo cuidado mío,</l>
+          <l>y mirome carituerta</l>
+          <l>y con el rostro torcido.</l>
+          <l>Al cabo de mil preguntas,</l>
+          <l>muy enojada me dijo</l>
+          <l>que don Juan a su señora...</l>
+          <l>¿Has el subceso sabido?</l>
+          <l>¿También estás enojado?</l>
+          <l>Si quieres al atrevido</l>
+          <l>que entre los dos le paguemos</l>
+          <l>el merecido castigo,</l>
+          <l>vamos, que yo le daré,</l>
+          <l>pues hizo tal desatino,</l>
+          <l>lo que merece. ¿Hay tal cara?</l>
+          <l>¡Miren qué ceño maldito!</l>
+          <l>¿Acábase el mundo acaso?</l>
+          <l>¿Es venido el Antecristo?</l>
+          <l>Que vive Dios que pareces</l>
+          <l>hoy al miércoles corvillo.</l>
+          <l>¡Jesús mil veces! ¿Hay tal?</l>
+          <l>¿Has el juicio perdido?</l>
+          <l part="I">¿Qué tienes?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">¡Ay, mi León!</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¡Ay, Jesús, y qué suspiro!</l>
+          <l>¡Dios me ha hecho mil mercedes</l>
+          <l part="I">de estar en la calle!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">Amigo,</l>
+          <l part="I">¿por qué causa?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">Que la casa</l>
+          <l>con él se hubiera caído.</l>
+          <l>¿Qué tienes? ¿Has hecho acaso</l>
+          <l>algún terrible delito?</l>
+          <l>¿Búscate algún alguacil?</l>
+          <l>¿Viene el día del Juicio?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¡Ay, León! ¡Ay, fiel criado,</l>
+          <l>muerto soy, yo soy perdido!</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¡Ay, señor de mis entrañas,</l>
+          <l>que me has quitado el sentido!</l>
+          <l>¿Perdido? No, que aquí estás.</l>
+          <l>¿Muerto? Yo te veo vivo.</l>
+          <l>Yo no sé lo que te tienes.</l>
+          <l>¿Dónde está tu regocijo?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Ya, León, ya se acabó.</l>
+          <l>Ya soy con todos malquisto.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Si acaso has dicho verdades,</l>
+          <l>no me espanto, que este siglo</l>
+          <l>la aborrece en todo estremo.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Marcia, León, ha sabido</l>
+          <l>la gran traición de Fenisa</l>
+          <l>y mi altanero sentido,</l>
+          <l>y más brava que leona</l>
+          <l>dos mil injurias me ha dicho,</l>
+          <l>y sin oír mi disculpa</l>
+          <l>de aquí furiosa se ha ido.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¿Eso es no más? ¡Lleve el diablo</l>
+          <l>tus terribles desatinos!</l>
+          <l>¡Vive Cristo, que en las calzas</l>
+          <l>he criado palominos!</l>
+          <l>¡Miren qué traición al rey!</l>
+          <l>¡Por Dios santo, que me río!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>[LISEO]</speaker>
+          <l>Calla, pues eres mentecato.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>[LEÓN]</speaker>
+          <l>Dime, ¿dónde está tu brío?</l>
+          <l>Hay mil mozas en la corte,</l>
+          <l>entre quince y veinte y cinco,</l>
+          <l>que solo porque las quieras</l>
+          <l>te traerán siempre en palmitos.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Aquesta sola, León,</l>
+          <l>es la que quiero y estimo.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Y si te doy un remedio,</l>
+          <l part="I">¿qué me darás?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">Cuanto estimo,</l>
+          <l>cuanto yo tengo y poseo,</l>
+          <l>y el naranjado vestido.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Pues sabe que una mujer</l>
+          <l>de aquestas que chupan niños</l>
+          <l>me dio para cierto caso</l>
+          <l>una receta de hechizos.</l>
+          <l>No sirvió porque mi moza,</l>
+          <l>muy arrepentida, vino</l>
+          <l>a rogarme una mañana</l>
+          <l>con dos lonjas de tocino.</l>
+          <l>Guardela con gran cuidado</l>
+          <l>aquí en aqueste bolsillo.</l>
+          <l part="I">Sal acá.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">¿No pareció?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Sí, los cielos sean benditos.</l>
+          <l part="I">¿Quieres oírla?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">¡Ay, León!,</l>
+          <l>si aprovechara, te digo...</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Claro está, que yo la di</l>
+          <l>en cierto caso a un amigo</l>
+          <l>que su mujer padecía</l>
+          <l>mal de madre, y ella hizo</l>
+          <l>y vio milagros con ella.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿Hay tan cruel desatino?</l>
+          <l>Pues si es para enamorar,</l>
+          <l>¿cómo sanarla ha podido?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Eso es ello, que es tan fuerte,</l>
+          <l>que aunque le costó infinito,</l>
+          <l>al fin sanó la mujer,</l>
+          <l>porque el ensalmo es divino.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Dila, aunque me cueste un mundo.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Pues está atento un poquito.</l>
+          <l>¡Ay, Dios, si te aprovechase</l>
+          <l>porque me des el vestido!</l>
+          <stage>[Lee.]</stage>
+          <l>«Un corazón de araña al sol secado,</l>
+          <l>y sacado en creciente de la luna,</l>
+          <l>tres vueltas de la rueda de fortuna</l>
+          <l>cuando tenga a un dichoso levantado.</l>
+          <l>Esto ha de ser con gran primor mojado</l>
+          <l>en el licor de aquella gran laguna</l>
+          <l>donde, por ser Salmacis importuna,</l>
+          <l>fue Eco en Hermafrodito trocado;</l>
+          <l>en sangre de Anteón muy bien cocido;</l>
+          <l>revuelto en quejas de los ruiseñores</l>
+          <l>y entre pelos de ranas conservado.</l>
+          <l>Cuando fueres tratado con olvido,</l>
+          <l>sahúma con aquesto a tus amores,</l>
+          <l>y serás de tus penas remediado».</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¡Vive Dios, que estoy por darte</l>
+          <l>cien coces! Cuando mohíno</l>
+          <l>me ves, ¿me cuentas alegre</l>
+          <l>tan terribles desatinos?</l>
+          <l>Cuando estoy desesperado,</l>
+          <l part="I">¿dices...?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">¡Vive Dios, que he sido</l>
+          <l>en todas las ocasiones</l>
+          <l>muy desgraciado contigo!</l>
+          <l>Entreténgote y te pesa.</l>
+          <l>¿No sabes que los hechizos</l>
+          <l>tienen la misma virtud</l>
+          <l>que en esta memoria has visto?</l>
+          <l>Cuando es uno desdichado</l>
+          <l>en todo tiene prodigios.</l>
+          <l>Verá el diablo por qué tanto</l>
+          <l>me veo ya despedido</l>
+          <l>de vestirme como Judas</l>
+          <l>de aquel vestido amarillo.</l>
+        </sp>
+        <stage>(Sale BELISA a la puerta.)</stage>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="I">¡Ce, Liseo!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">¡Norte mío!</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Que lo soy, cierto confío.</l>
+          <l part="I">Entra y escribe.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">Ya voy.</l>
+          <l>[Mira que] tu esclavo soy.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>No entiendo tu desvarío.</l>
+          <l>¿Entraste? Pues yo me voy,</l>
+          <l>que con calentura estoy</l>
+          <l>después que entro en una ermita,</l>
+          <l>y aquesta pasión se quita</l>
+          <l part="I">con dormir.</l>
+        </sp>
+        <stage>[Vase LEÓN.]</stage>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">De Marcia soy.</l>
+          <l>Di, Belisa, ¿qué hace ahora?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="I">¿Quién?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="M">Mi Marcia.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Gime y llora</l>
+          <l>tu engañoso proceder.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>En ella mi alma adora.</l>
+        </sp>
+        <stage>[Vase LISEO.]</stage>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Laura será tu mujer</l>
+          <l>a quien [es] tu fe deudora,</l>
+          <l>que si engañando has vivido,</l>
+          <l>y de ti engañada ha sido,</l>
+          <l>hoy tu engaño pagarás,</l>
+          <l>y por engaño serás</l>
+          <l>a tu pesar, su marido.</l>
+        </sp>
+        <stage>(Vase BELISA, y salen FENISA y LUCÍA.)</stage>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Como te cuento, he sabido</l>
+          <l part="I">este caso.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">¿Al fin don Juan</l>
+          <l>es de Belisa galán</l>
+          <l>y por ella le he perdido?</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Días y noches está</l>
+          <l>entretenido en su casa,</l>
+          <l>señal que su amor le abrasa</l>
+          <l>y que olvidándote va.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Cuando antenoche le vi</l>
+          <l>tan vengativo y furioso,</l>
+          <l>no le culpé por celoso</l>
+          <l>y porque la causa fui.</l>
+          <l>Mas viendo que no ha tornado,</l>
+          <l>conozco que fue venganza,</l>
+          <l>y más era su mudanza</l>
+          <l>que su grande desenfado.</l>
+          <l>Belisa lo mandaría</l>
+          <l>y por eso se atrevió.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Eso no lo dudo yo.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>No hay que dudar, mi Lucía.</l>
+          <l>Ya parece que Cupido</l>
+          <l>ofendido de mí está,</l>
+          <l>y a todos mandando va</l>
+          <l>que me traten con olvido.</l>
+          <l>Tres días ha que Liseo</l>
+          <l>ni me visita ni escribe,</l>
+          <l>don Juan con Belisa vive,</l>
+          <l>y sola males poseo.</l>
+          <l>¡Don Juan, con Belisa, amigo,</l>
+          <l>habiendo por mí olvidado</l>
+          <l part="I">su amistad!</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l part="F">Caso pesado,</l>
+          <l>de tu condición, castigo,</l>
+          <l>pues del amor te burlabas</l>
+          <l>y a tu servicio admitías</l>
+          <l>a todos cuantos querías,</l>
+          <l>puesto que a ninguno amabas.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¿A ninguno? ¡Por los cielos,</l>
+          <l>que a todos quiero, Lucía!</l>
+          <l>A todos juntos quería,</l>
+          <l>si no, míralo en mis celos.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Pues no te osaba decir</l>
+          <l>cómo ya Marcia y Liseo</l>
+          <l part="I">se gozan.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">¡Ay de mí! Creo</l>
+          <l>que estoy cerca de morir.</l>
+          <l>¿Marcia y Liseo? ¿Hay tal cosa?</l>
+          <l>¿Y Belisa con don Juan,</l>
+          <l>bien concertados están?</l>
+        </sp>
+        <stage>(Llora.)</stage>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Ella es historia donosa.</l>
+          <l part="I">No llores.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">Yo he de vengarme,</l>
+          <l>Lucía. No hay qué tratar.</l>
+          <l>Yo los tengo de matar.</l>
+          <l>No tienes que aconsejarme.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l part="I">¿A todos?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">A todos, pues.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l part="I">¡Jesús!</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">No te escandalices.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Mira, por Dios, lo que dices.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Calla, y lo verás después.</l>
+          <l>Dame mi manto, Lucía,</l>
+          <l>y toma el tuyo, que quiero</l>
+          <l>ver a Liseo la cara.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Míralo mejor primero,</l>
+          <l>y no te arrojes, por Dios,</l>
+          <l>que el daño después de hecho,</l>
+          <l>aunque quieren remediarle,</l>
+          <l>no tiene ningún remedio.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Trae los mantos, esto pido,</l>
+          <l>que no te pido consejos,</l>
+          <l>porque tal estoy, Lucía,</l>
+          <l>que ya no son de provecho.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Con todo quiero pedirte</l>
+          <l>que escojas uno de aquestos,</l>
+          <l>y no traigas tantos hombres</l>
+          <l>danzando tras tu deseo.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Es impusible, Lucía,</l>
+          <l>proseguir, que es desvarío</l>
+          <l>quererme quitar a mí</l>
+          <l>que no tenga muchos dueños.</l>
+          <l>Estimo a don Juan, adoro</l>
+          <l>a mi querido Liseo,</l>
+          <l>gusto de escuchar a Lauro,</l>
+          <l>y por los demás me pierdo.</l>
+          <l>Y si apartase de mí</l>
+          <l>cualquiera de estos subjetos,</l>
+          <l>quedaría despoblado</l>
+          <l>de gente y gusto mi pecho.</l>
+          <l>¡Acaba! ¿No traes el manto,</l>
+          <l>que estoy rabiando de celos?</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l part="I">Ya voy.</l>
+        </sp>
+        <stage>(Vase.)</stage>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">Camina, que amor</l>
+          <l>venganza me está pidiendo.</l>
+          <l>Si [premia] Amor un alma porque tiene</l>
+          <l>sufrimiento en sus penas y tormento,</l>
+          <l>yo, Amor, que amando a muchos, mucho siento,</l>
+          <l>no es razón que tu audiencia me condene.</l>
+          <l>Razón más justa, Amor, será que pene</l>
+          <l>la que tiene tan corto pensamiento</l>
+          <l>que no caben en él amantes ciento</l>
+          <l>y amando a todos juntos se entretiene.</l>
+          <l>Si quien solo uno ama premio espera,</l>
+          <l>con más razón mi alma le merece,</l>
+          <l>pues tengo los amantes a docenas.</l>
+          <l>Dámele, ciego Dios, y considera</l>
+          <l>[que] si con uno solo se padece,</l>
+          <l>yo padezco con tantos muchas penas.</l>
+        </sp>
+        <stage>(Sale LUCÍA.)</stage>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Lauro te quiere hablar, si gustas de ello.</l>
+          <l>¿Abriré a la puerta, que están llamando?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¡Jesús, Lucía! Pues ¿a Lauro niegas</l>
+          <l>la entrada, pues la tiene ya en mi alma?</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Como estás disgustada, yo creyera</l>
+          <l>que te faltaran gustos y desenfados</l>
+          <l>para engañar a todos como sueles.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¿Qué cosa es engañar? Ya yo te he dicho</l>
+          <l>que a todos quiero y a ninguno engaño.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Pues, ¿cómo puede ser que a todos quieras?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>No más de como es. Ve y abre a Lauro,</l>
+          <l>y no quieras saber, pues eres necia,</l>
+          <l>de qué manera a todos los estimo.</l>
+          <l>A todos cuantos quiero yo me inclino,</l>
+          <l>los quiero, los estimo y los adoro:</l>
+          <l>a los feos, hermosos, mozos, viejos,</l>
+          <l>ricos y pobres, solo por ser hombres.</l>
+          <l>Tengo la condición del mismo cielo,</l>
+          <l>que como él tiene asiento para todos,</l>
+          <l>a todos doy lugar dentro en mi pecho.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>También en el infierno hay muchas sillas</l>
+          <l>y las ocupan más que no en el cielo.</l>
+          <l>Sigún esto, serás de amor infierno,</l>
+          <l>que si allá van los hombres por delitos,</l>
+          <l>también vienen a ti estos pecadores</l>
+          <l>por los que ellos cometen cada día.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¡Deja quimeras! Llama a Lauro, necia,</l>
+          <l>que yo soy blanco del rapaz Cupido.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Entrad, Lauro. Ya viene. Al cielo ruego</l>
+          <l>que no te quedes, como pienso, en blanco.</l>
+        </sp>
+        <stage>(Entra LAURO.)</stage>
+        <sp who="#lauro">
+          <speaker>LAURO</speaker>
+          <l>¿Cómo tan sola, fenis de hermosura?</l>
+          <l>Mas será por decir que sola eres</l>
+          <l>del mundo asombro y de belleza reina.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Basta, Lauro, lisonjas. No me quieres,</l>
+          <l>pues conmigo las gastas sin pedirlas.</l>
+        </sp>
+        <sp who="#lauro">
+          <speaker>LAURO</speaker>
+          <l>Pluviera a Dios, Fenisa, no quisiera</l>
+          <l>como quiero, pues es tan sin remedio.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Pues ¿cómo sin remedio, Lauro mío?</l>
+        </sp>
+        <sp who="#lauro">
+          <speaker>LAURO</speaker>
+          <l>¿Tuyo, Fenisa? Pues si yo tuyo fuera,</l>
+          <l>no viniera a decirte lo que vengo.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¿Díceslo por Liseo? ¿No te he dicho</l>
+          <l>que pidas a Liseo que me deje?</l>
+          <l>Mas di, Lauro, a qué vienes, y perdona</l>
+          <l>que no me siento, porque estoy de paso,</l>
+          <l part="I">que voy a ver a Marcia.</l>
+        </sp>
+        <sp who="#lauro">
+          <speaker>LAURO</speaker>
+          <l part="F">No hay conmigo</l>
+          <l>cumplimientos, señora. Acá me envía</l>
+          <l>Liseo a que te diga que te cansas</l>
+          <l>con recados, mensajes y papeles,</l>
+          <l>gastando el tiempo en cosas sin remedio.</l>
+          <l>Dice que aquella noche que en el Prado</l>
+          <l>contigo estuvo, apenas te apartaste</l>
+          <l>cuando, llegando a San Felipe, llega</l>
+          <l>don Juan, un caballero que conoces,</l>
+          <l>y le pidió le oyese dos palabras,</l>
+          <l>en las cuales le dijo que tú eras</l>
+          <l>por cuyo amor dejó a Belisa, prima</l>
+          <l>de la gallarda Marcia, amiga tuya,</l>
+          <l>que de la misma suerte salteaste</l>
+          <l>a su amor, como el suyo de esta dama.</l>
+          <l>También le dijo cómo aquesta noche</l>
+          <l>en el Prado, a tu causa, perder quiso</l>
+          <l>con Liseo la vida y aun la honra;</l>
+          <l>mas viendo que la culpa tú la tienes,</l>
+          <l>tomó como tú sabes la venganza</l>
+          <l>y le contó lo que decir no quiero,</l>
+          <l>que bastan las colores de tu cara</l>
+          <l>sin que yo saque más. Al fin, Liseo</l>
+          <l>dice que te entretengas en tus gustos,</l>
+          <l>pues son tan varios, y que de él no esperes</l>
+          <l>otra cosa jamás. Yo, que te amaba,</l>
+          <l>no te aborrezco, mas al fin te dejo.</l>
+          <l>Yo voy, pues lo permiten tú y los cielos,</l>
+          <l>a llorar y sentir aquestos celos.</l>
+        </sp>
+        <stage>(Vase.)</stage>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¡Lauro, Lauro, escucha, espera!</l>
+          <l part="I">¿Fuese?</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l part="F">Sí, mas ¿qué pretendes</l>
+          <l>en tantos males hacer?</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Dame el manto y no me dejes,</l>
+          <l>que ya no puedo, Lucía,</l>
+          <l>sufrir los males presentes.</l>
+          <l>Yo me tengo de perder.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>¡Alto! Las armas previene,</l>
+          <l>que yo me pondré a tu lado</l>
+          <l>haciendo lo que tú hicieres.</l>
+          <l>Buena te ponen los hombres,</l>
+          <l>pero no es mucho que penes,</l>
+          <l>que dar gusto a tantos hombres</l>
+          <l>imposible me parece.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Deja las burlas, Lucía.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Ya veras llamarlas puedes</l>
+          <l>las que dan tanto pesar;</l>
+          <l>y si por burlas las tienes,</l>
+          <l>no hay sino tener amantes</l>
+          <l>y sufrir lo que viniere.</l>
+          <l>¡Burlas, yo las doy al diablo!</l>
+          <stage>[Aparte.]</stage>
+          <l>(Señoras, las que entretienen,</l>
+          <l>tomen ejemplo en Fenisa,</l>
+          <l>huigan de estos pisaverdes.)</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Acábate de cubrir.</l>
+          <l>Lucía, pesada eres,</l>
+          <l>cuando reventando estoy</l>
+          <l>con gracias te desvaneces.</l>
+        </sp>
+        <stage>(Vase.)</stage>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Camina, señora mía.</l>
+          <l>Digan, señoras, ¿no miente</l>
+          <l>en decir que quiere a todos?</l>
+          <l>Cosa impusible parece.</l>
+          <l>Mas no quiera una mujer,</l>
+          <l>que vive mintiendo siempre,</l>
+          <l>pedir verdad a los hombres.</l>
+          <l>Necias serán si los creen.</l>
+        </sp>
+        <stage>(Vase. Salen BELISA y LEÓN.)</stage>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="I">¿En casa y sola?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">¿Esto te ha espantado?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¿No quieres que me espante de una dama</l>
+          <l>moza, gallarda y de tan nobles partes,</l>
+          <l>día de San Miguel, y sola en casa,</l>
+          <l>cuando aun las más bobillas toman vuelo?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Mira, León, cuando una mujer ama,</l>
+          <l>ni busca fiestas, ni vesita plaza,</l>
+          <l>pasea calles, ni pretende fiestas.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Tienes razón, cuando una mujer ama...</l>
+          <l>Mas tengo para mí que no hay ninguna</l>
+          <l>y, si la hay, es sola, como fenis.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Pues esa fenis sola en mí la miras.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Está ya tal el mundo que es milagro</l>
+          <l>poder en él vivir. Está perdido,</l>
+          <l>porque ya las mujeres de estos tiempos</l>
+          <l>tienen unos de gusto y otros de gasto;</l>
+          <l>y el marido que coja clavellinas,</l>
+          <l>que cría Medellín y el Rastro cría.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Esas tales, León, no son mujeres,</l>
+          <l>sucias harpias son, confuso infierno</l>
+          <l>donde penan las almas de estos tristes.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Grandes son los pecados de estos tiempos,</l>
+          <l>si aquesos son infiernos como dices,</l>
+          <l>pues no habiendo criado Dios más que uno,</l>
+          <l>ahora vemos en el mundo tantos.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="I">¿Tantos hay?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="M">Infinitos.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">No te espantes</l>
+          <l>que, como son los gastos sin medida,</l>
+          <l>procuren las mujeres quien lo gaste.</l>
+          <l>Y si con la razón lo miras todo,</l>
+          <l>también los hombres tienen cien mujeres</l>
+          <l part="I">sin querer a ninguna.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">¿Cien mujeres?</l>
+          <l>¿Y cuál es el ladrón que tal tuviera?</l>
+          <l>¡Vive Dios, que es bastante sola una</l>
+          <l>a volver viejo un hombre!, ¿y tú me dices</l>
+          <l>que hay ninguno que tenga tanta carga?</l>
+          <l>Y si engañan, los hombres aprendieran</l>
+          <l>de los engaños que hay en las mujeres.</l>
+          <l>Cierto amigo me dijo que había dado</l>
+          <l>al desdichado Mundo por arbitrio</l>
+          <l>que pidiese en algunos memoriales</l>
+          <l>a los dioses remedien sus desdichas</l>
+          <l>y los gastos pesados que se usan.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="I">Dime aqueso, León.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">Pues ¿no lo sabes?</l>
+          <l>Aguarda y lo diré, si estás atenta.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Dame, León, de aquesas cosas cuenta.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Después que pasó</l>
+          <l>de la Edad Dorada</l>
+          <l>la santa inocencia</l>
+          <l>y la verdad santa,</l>
+          <l>cuando las encinas</l>
+          <l>la miel destilaban</l>
+          <l>y daba el ganado</l>
+          <l>hilos de oro y plata,</l>
+          <l>ofrecían los prados</l>
+          <l>finas esmeraldas,</l>
+          <l>y la gente entonces</l>
+          <l>sin malicia estaba,</l>
+          <l>en esta de hierro,</l>
+          <l>tan pobre y tan falta</l>
+          <l>de amistad, pues vive</l>
+          <l>la traición malvada,</l>
+          <l>son los males tantos,</l>
+          <l>tantas las disgracias,</l>
+          <l>que se teme el Mundo</l>
+          <l>de que ya se acaba.</l>
+          <l>En la sacra audiencia,</l>
+          <l>con su larga barba,</l>
+          <l>pidiendo justicia</l>
+          <l>entró una mañana.</l>
+          <l>El sacro auditorio</l>
+          <l>oyó su demanda,</l>
+          <l>y le dio licencia</l>
+          <l>para relatarla.</l>
+          <l>Lo primero pide</l>
+          <l>que justicia se haga</l>
+          <l>de los lisonjeros</l>
+          <l>que en la corte andan,</l>
+          <l>con esto que pide</l>
+          <l>muchos amenaza</l>
+          <l>-¡ay de los que sirven,</l>
+          <l>perderán la gracia!-;</l>
+          <l>y que a la mentira</l>
+          <l>descubran la cara,</l>
+          <l>porque el nombre usurpa</l>
+          <l>a la verdad santa,</l>
+          <l>que declare el uso</l>
+          <l>cómo y dónde halla</l>
+          <l>los diversos trajes</l>
+          <l>con que al mundo engaña:</l>
+          <l>a quien tras los cuellos,</l>
+          <l>que bosques se llaman,</l>
+          <l>tanto en la espesura</l>
+          <l>como en ser de caza;</l>
+          <l>guedejas y rizos</l>
+          <l>de las bellas damas,</l>
+          <l>puños azulados,</l>
+          <l>joyas, cintas, galas;</l>
+          <l>a los hombres dicen</l>
+          <l>que vistan botargas</l>
+          <l>como en otros tiempos</l>
+          <l>los godos usaban;</l>
+          <l>que a las damas manden</l>
+          <l>que por galas traigan</l>
+          <l>las cofias de papos</l>
+          <l>de la infanta Urraca;</l>
+          <l>que en la ropería</l>
+          <l>acorten las faldas</l>
+          <l>de aquestos jubones,</l>
+          <l>ya medio sotanas;</l>
+          <l>y que de las tiendas</l>
+          <l>las busconas salgan</l>
+          <l>para que no pelen</l>
+          <l>los que en ellas andan;</l>
+          <l>que a los coches pongan</l>
+          <l>corozas muy altas,</l>
+          <l>por encubridores</l>
+          <l>de bajezas tantas.</l>
+          <l>Pide a ciertas brujas</l>
+          <l>que, en nombre de santas</l>
+          <l>en la corte viven,</l>
+          <l>que de ella salgan,</l>
+          <l>porque solo sirven</l>
+          <l>de vender muchachas</l>
+          <l>y chupar las bolsas</l>
+          <l>con venturas falsas.</l>
+          <l>Pide a mil maridos</l>
+          <l>que miren su casa</l>
+          <l>para ver si hay</l>
+          <l>varas encantadas</l>
+          <l>con que sus mujeres</l>
+          <l>oro y tela arrastran,</l>
+          <l>dando a los botones</l>
+          <l>por honesta causa.</l>
+          <l>Pues de los poetas</l>
+          <l>mil cosas ensarta,</l>
+          <l>mas yo no me meto</l>
+          <l>en contarte nada.</l>
+          <l>¡Doy al diablo gente</l>
+          <l>que al amigo mata,</l>
+          <l>si toma la pluma</l>
+          <l>con no ser espada!</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Ya sabes, León,</l>
+          <l>que al león señalan</l>
+          <l>por rey de las fieras</l>
+          <l>que en el campo andan,</l>
+          <l>y sabrás también</l>
+          <l>que le da cuartana,</l>
+          <l>con que su fiereza</l>
+          <l>humilla y abaja.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Pues, ¿no he de saberlo,</l>
+          <l>si a su semejanza</l>
+          <l>traigo la cabeza</l>
+          <l>siempre cuartanaria?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Pues estando un día</l>
+          <l>su crueldad y rabia</l>
+          <l>al dolor rendida,</l>
+          <l>del mal humillada,</l>
+          <l>entró a visitarle</l>
+          <l>con la vista airada</l>
+          <l>el soberbio lobo</l>
+          <l>de malas entraña.</l>
+          <l>Este con la zorra</l>
+          <l>trae guerra trabada,</l>
+          <l>y así por vengarse</l>
+          <l>este enriedo traza.</l>
+          <l>«Si tu majestad,</l>
+          <l>señor, quiere, traiga</l>
+          <l>la piel de la zorra</l>
+          <l>al cuerpo pegada...».</l>
+          <l>Yendo a entrar la zorra</l>
+          <l>oyó estas palabras,</l>
+          <l>que fueron aviso</l>
+          <l>para su venganza.</l>
+          <l>Aguardó que el lobo</l>
+          <l>le dejase franca</l>
+          <l>la anchurosa cueva,</l>
+          <l>del león morada.</l>
+          <l>Con el rostro humilde</l>
+          <l>entró, mas no osaba</l>
+          <l>llegarse al león,</l>
+          <l>temerosa y cauta.</l>
+          <l>Díjole el león:</l>
+          <l>«¡Ay, amiga cara!,</l>
+          <l>esa piel me han dicho</l>
+          <l>que conmigo traiga</l>
+          <l>y tendré salud».</l>
+          <l>La zorra humillada</l>
+          <l>le dice: «Señor,</l>
+          <l>tu pena restaura,</l>
+          <l>si en este remedio</l>
+          <l>tu mal se repara.</l>
+          <l>Mas mi pellejuelo,</l>
+          <l>aunque tenga gracias,</l>
+          <l>es tan pequeñito</l>
+          <l>que a un cempié no tapa.</l>
+          <l>Si fuera el del lobo,</l>
+          <l>tiene virtud tanta</l>
+          <l>que solo en tocarle</l>
+          <l>la vida se alarga».</l>
+          <l>Dejola el león,</l>
+          <l>mas al lobo aguarda</l>
+          <l>y, en llegando cerca,</l>
+          <l>echole la garra.</l>
+          <l>Quitósele todo,</l>
+          <l>solo le dejara</l>
+          <l>la cabeza al triste</l>
+          <l>y las cuatro patas.</l>
+          <l>Salió el pobre lobo</l>
+          <l>con tan grandes ansias</l>
+          <l>que con el dolor</l>
+          <l>mil aullidos daba.</l>
+          <l>Estaba la zorra</l>
+          <l>contenta y ufana,</l>
+          <l>mirando el subceso</l>
+          <l>de una peña alta,</l>
+          <l>y con voz risueña</l>
+          <l>desenvuelta y clara</l>
+          <l>dijo: «Caballero,</l>
+          <l>vuelva acá la cara,</l>
+          <l>el de los zapatos,</l>
+          <l>guantes y celada;</l>
+          <l>si os veis otra vez</l>
+          <l>con personas altas,</l>
+          <l>contad vuestras cosas,</l>
+          <l>las demás dejaldas;</l>
+          <l>sabed que no medra</l>
+          <l>quien en corte habla».</l>
+          <l>¿Entiendes, León?</l>
+          <l>Pues si entiendes, calla.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Muy bien te he entendido,</l>
+          <l>mas ¿callar me mandas?</l>
+          <l>Tengo el arca chica,</l>
+          <l>todo me embaraza.</l>
+          <l>¡Ay, Dios, que reviento!</l>
+          <l>Si callo, me matas.</l>
+          <l>¡Qué imposible cosa!</l>
+          <l>¡Oh, qué ley pesada!</l>
+          <l>No hay torno de monjas,</l>
+          <l>con andar cual anda,</l>
+          <l>como aquesta lengua,</l>
+          <l>tan libre y tan larga.</l>
+          <l>No hubiera inorantes</l>
+          <l>si todos callaran.</l>
+          <l>Mas don Juan es este.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Pues si es don Juan, calla.</l>
+        </sp>
+        <stage>(Sale DON JUAN.)</stage>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Dulce Belisa, ¿aquí estás?</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Aquí estoy, amada prenda,</l>
+          <l>esperando a ver tus ojos.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Pues ya vengo a que me veas</l>
+          <l>y me mandes como a esclavo.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¿Quién es quien queda a la puerta?</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Gerardo, señora mía.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Gerardo, ¿por qué no entras?</l>
+        </sp>
+        <stage>[Sale GERARDO.]</stage>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Por dar lugar a don Juan.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¿No ofenderá a tus orejas</l>
+          <l>oír hablar dos amantes?</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>Antes oírlos me alegra.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Espera, ¿qué ruido es este?</l>
+        </sp>
+        <stage>[Salen LUCÍA y FENISA.]</stage>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Camina, señora, allega.</l>
+          <l>Don Juan está con Belisa.</l>
+          <l>Famosa ocasión es esta.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Traidor, ¿en aquesta casa</l>
+          <l>he de hallarte, cuando dejas</l>
+          <l>mi voluntad ofendida,</l>
+          <l>mi rostro lleno de ofensas?</l>
+          <l>¡Vive Dios, que he de quitarte</l>
+          <l>con estas manos, con estas,</l>
+          <l>esa infame y falsa vida!</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Paso, Fenisa, está queda,</l>
+          <l>que tiene en corte parientes</l>
+          <l>que por el contrato vuelvan.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Belisa, apártate a un lado,</l>
+          <l>no des lugar que te pierda</l>
+          <l>el respecto y que te diga</l>
+          <l>que fue por tu gusto hecha</l>
+          <l>en mi persona venganza.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>¡Mientes, villana grosera!</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¡Agora verás quién soy!</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Igual está la pendencia:</l>
+          <l part="I">una a una.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">¿Hay caso tal?</l>
+          <l>Esta es mucha desvergüenza,</l>
+          <l part="I">Fenisa.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l part="F">Déjalas, calla.</l>
+          <l>Diremos «viva quien venza»,</l>
+          <l>si vinieren a las manos.</l>
+          <l>Tú, Lucía, estate queda,</l>
+          <l>o vive Dios que los ojos</l>
+          <l>allá al cogote te meta</l>
+          <l part="I">de una puñada.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l part="F">Está quedo.</l>
+        </sp>
+        <stage>(Sale MARCIA.)</stage>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>¿Qué es esto? ¿Qué grita es esta?</l>
+          <l>Fenisa, ¿pues tú en mi casa</l>
+          <l>loca y atrevida llegas,</l>
+          <l>y con mi prima te pones</l>
+          <l>en iguales competencias?</l>
+          <l>Vuelve en ti, que estás sin seso.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Marcia, no puede mi ofensa</l>
+          <l part="I">dejar la venganza.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l part="F">Quita,</l>
+          <l>¿qué venganza? Si tuvieras</l>
+          <l>tú juicio ante mis ojos</l>
+          <l>en tu vida parecieras.</l>
+          <l>Quita, prima, que es infamia</l>
+          <l>que con mujer tan resuelta</l>
+          <l part="I">te pongas.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l part="F">Déjame, prima.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>¡Por Dios que, si no viniera,</l>
+          <l>ellas, con hermoso brío,</l>
+          <l>se asían de las melenas!</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Esa es discreta razón,</l>
+          <l>Marcia, que niegue tu lengua</l>
+          <l>la obligación a mi amor.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>¿Hay desvergüenza como esta?</l>
+          <l>¿Tu amistad? ¿Tu amor? No digas,</l>
+          <l>Fenisa, aquesa blasfemia,</l>
+          <l>sino dime a qué has venido.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>A quejarme que consientas</l>
+          <l>que don Juan hable a tu prima</l>
+          <l part="I">siendo mi esposo.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l part="F">¡Que mientas</l>
+          <l>en cosa que tanto importa,</l>
+          <l>por Dios, Fenisa, me pesa!</l>
+        </sp>
+        <stage>(Sale LISEO.)</stage>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Si quien viene arrepentido</l>
+          <l>tiene de hablarte licencia,</l>
+          <l>escúchame, bella Marcia.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>¿Qué es esto, mi Marcia bella?</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <stage>[Aparte a GERARDO.]</stage>
+          <l>(Ten ánimo y no desmayes,</l>
+          <l>aunque más subcesos veas.)</l>
+          <l>Liseo, ¿pues tras Fenisa</l>
+          <l>te vienes a mi presencia?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¿Yo tras Fenisa, señora?</l>
+          <l>Si tal vengo, con aquesta</l>
+          <l>espada a traición me maten.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Ya que descubierto queda</l>
+          <l>todo el engaño, Liseo,</l>
+          <l>¿por qué tus ojos me niegas?</l>
+          <l>Vuelve a mirar a Fenisa.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>De Marcia soy. No pretendas</l>
+          <l>estorbar mi casamiento.</l>
+        </sp>
+        <stage>[Sale LAURA.]</stage>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>Eso será cuando quiera</l>
+          <l>Laura la licencia darte.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>¡Cielos! ¿Qué visión es esta?</l>
+          <l>Laura, ¿no eras religiosa?</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>No, Liseo, que fue treta</l>
+          <l>de Marcia para engañarte,</l>
+          <l>y dar remedio a mi pena.</l>
+          <l>No te enfades ni te enojes.</l>
+          <l>Yo he sido la que en las rejas</l>
+          <l>te habló, fingiendo ser Marcia,</l>
+          <l>y porque mejor lo creas:</l>
+          <l part="I">¿esta firma es tuya?</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l part="F">Sí,</l>
+          <l>porque aunque negarla quiera,</l>
+          <l>es Belisa buen testigo,</l>
+          <l>pues ella me mandó hacerla.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Liseo, cosa impusible</l>
+          <l>es apartar lo que ordena</l>
+          <l>el cielo. Pues Laura es tuya,</l>
+          <l>por mí tu mano merezca.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Liseo, pues eres mío,</l>
+          <l>lo que haces considera.</l>
+          <l>Cumple con mi obligación.</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>¿Qué ha de cumplir? Calla, necia,</l>
+          <l>que solo por ser mujer</l>
+          <l>no te echo por la escalera.</l>
+          <l>¿Dudas, Liseo? ¿Qué es esto?</l>
+          <l>Pues para que ejemplo tengas,</l>
+          <l>mira cómo doy mi mano</l>
+          <l>a Gerardo, porque sea</l>
+          <l>premiada su voluntad.</l>
+        </sp>
+        <sp who="#gerardo">
+          <speaker>GERARDO</speaker>
+          <l>De rodillas en la tierra</l>
+          <l>la recibo, Marcia mía.</l>
+          <l>¡Al fin venció mi paciencia!</l>
+          <l>¡Bien empleados trabajos!</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Laura, mi ventura es esta.</l>
+        </sp>
+        <sp who="#laura">
+          <speaker>LAURA</speaker>
+          <l>No dirás sino la mía.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Esta es mi mano, y con ella</l>
+          <l>el alma, pues era tuya.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>¡Que aquesto mis ojos vean!</l>
+          <l>Dame la mano, don Juan,</l>
+          <l>pues quiere el cielo que sean</l>
+          <l>tuyas mis humildes partes.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Di a Belisa que consienta</l>
+          <l part="I">en ello.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l part="F">Solo tu gusto,</l>
+          <l>don Juan, puede hacerte fuerza.</l>
+          <l>Acaba, dame tu mano.</l>
+        </sp>
+        <sp who="#belisa">
+          <speaker>BELISA</speaker>
+          <l>Desvíate a un lado, necia,</l>
+          <l>que don Juan no ha de ser tuyo,</l>
+          <l>mientras el cielo me tenga</l>
+          <l>viva, porque es ya mi esposo.</l>
+        </sp>
+        <sp who="#juan">
+          <speaker>DON JUAN</speaker>
+          <l>Yo soy, Belisa discreta,</l>
+          <l>el que gano en tal partido.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Lucía, no te detengas,</l>
+          <l>dame de presto esa mano</l>
+          <l>que, según Fenisa queda,</l>
+          <l>pienso que ha de asir de mí,</l>
+          <l>y no quiero ser con ella</l>
+          <l>otro signo capricornuos,</l>
+          <l>pues soy León en fiereza.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Tuya soy, León amado,</l>
+          <l>pero yo no tengo hacienda,</l>
+          <l>y si eres bravo, ¿qué haremos</l>
+          <l>si no comemos arena?</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Remédialo tú si puedes.</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Yo tengo cierta receta</l>
+          <l>para hacer los bravos mansos.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Y si lo soy, ¿habrá renta?</l>
+        </sp>
+        <sp who="#lucia">
+          <speaker>LUCÍA</speaker>
+          <l>Renta, coches y criados.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Pues alto, usaremos de ella,</l>
+          <l>que en la corte no se vive</l>
+          <l>si no es con trazas como estas.</l>
+        </sp>
+        <sp who="#fenisa">
+          <speaker>FENISA</speaker>
+          <l>Todos habéis sido ingratos</l>
+          <l>a mi favor y finezas.</l>
+          <l>¡Justicia, cielos, justicia</l>
+          <l>sobre aquesta casa venga!</l>
+        </sp>
+        <sp who="#marcia">
+          <speaker>MARCIA</speaker>
+          <l>Fenisa, tus maldiciones</l>
+          <l>que nos alcancen no creas,</l>
+          <l>pues de tu mal naide tiene</l>
+          <l>la culpa, sino tú mesma.</l>
+          <l>Las amigas desleales</l>
+          <l>y que hacen estas tretas,</l>
+          <l>pocos son estos castigos.</l>
+          <l>Consuélate y ten paciencia.</l>
+        </sp>
+        <sp who="#liseo">
+          <speaker>LISEO</speaker>
+          <l>Con esto, senado ilustre,</l>
+          <l>justo será que fin tenga</l>
+          <l>La traición en la amistad,</l>
+          <l>historia tan verdadera</l>
+          <l>que no ha un año que en la corte</l>
+          <l>subcedió como se cuenta.</l>
+        </sp>
+        <sp who="#leon">
+          <speaker>LEÓN</speaker>
+          <l>Señores míos, Fenisa,</l>
+          <l>cual ven, sin amantes queda.</l>
+          <l>Si alguno la quiere, avise</l>
+          <l>para que su casa sepa.</l>
+        </sp>
+      </div>
+    </body>
+    <back/>
+  </text>
+</TEI>

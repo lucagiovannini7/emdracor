@@ -1,0 +1,3044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="dracor-id" xml:lang="esp" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Los amantes</title>
+        <author>
+          <persName>
+            <forename>Andrés</forename>
+            <surname>Rey de Artieda</surname>
+          </persName>
+          <idno type="wikidata">Q2835691</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Los amantes</title>
+          <author>Andrés Rey de Artieda</author>
+          <editor>Teresa Ferrer Valls</editor>
+          <idno type="URL">https://emothe.uv.es/biblioteca/textosXML/EMOTHE0383_LosAmantes.xml</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY 4.0</ab>
+              <ref target="https://creativecommons.org/licenses/by/4.0/"
+                >Lizenzvertrag</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="marido_sigura">
+            <persName>MARIDO de SIGURA</persName>
+          </person>
+          <person sex="MALE" xml:id="munoz">
+            <persName>MUÑOZ</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="espejo">
+            <persName>ESPEJO</persName>
+          </person>
+          <person sex="MALE" xml:id="perafan">
+            <persName>PERAFÁN</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="fama">
+            <persName>FAMA</persName>
+          </person>
+          <person sex="FEMALE" xml:id="sigura">
+            <persName>SIGURA</persName>
+          </person>
+          <person sex="MALE" xml:id="marcilla">
+            <persName>MARCILLA</persName>
+          </person>
+          <person sex="MALE" xml:id="paje_juan">
+            <persName>PAJE</persName>
+          </person>
+          <person sex="MALE" xml:id="lain">
+            <persName>LAÍN</persName>
+          </person>
+          <person sex="MALE" xml:id="padre_marcilla">
+            <persName>PADRE de MARCILLA</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="imaginacion">
+            <persName>IMAGINACIÓN</persName>
+          </person>
+          <person sex="MALE" xml:id="gonzalo">
+            <persName>DON GONZALO</persName>
+          </person>
+          <person sex="MALE" xml:id="heredia">
+            <persName>HEREDIA</persName>
+          </person>
+          <person sex="FEMALE" xml:id="eufrasia">
+            <persName>EUFRASIA</persName>
+          </person>
+          <person sex="FEMALE" xml:id="elvira">
+            <persName>DOÑA ELVIRA</persName>
+          </person>
+          <person sex="FEMALE" xml:id="ines">
+            <persName>DOÑA INÉS</persName>
+          </person>
+          <person sex="MALE" xml:id="gobernador">
+            <persName>GOBERNADOR</persName>
+          </person>
+          <person sex="MALE" xml:id="conde">
+            <persName>CONDE</persName>
+          </person>
+          <person sex="MALE" xml:id="juan">
+            <persName>DON JUAN</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-11-16">(DS/LG) conversion from source and editing.</change>
+        <change when="2023-02-15">(LG) updated formatting.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written" when="1577">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <div type="dedication">
+        <head>[Dedicatoria]</head>
+        <p>Al ilustre señor don Tomás de Vilanova<lb/>
+          <lb/>Escauro edificó el primer teatro,<lb/>y con el de Marcelo y de Pompeyo<lb/>y Balbo, los primeros fueron cuatro.<lb/>El mejor de ellos fue cabe Tarpeyo,<lb/>do a ver los juegos scénicos venía<lb/>el senador ecuestre y el plebeyo.<lb/>La scena, como verse puede hoy día,<lb/>servía de aparejo y vestuario,<lb/>do las gradas y asiento fenecía.<lb/>Con zuecos, pues, y un hábito ordinario<lb/>se recitaba al pueblo una comedia<lb/>en una fiesta o caso funerario.<lb/>Y una bota, no entera, sino media,<lb/>calzaba, y lo demás pomposo y rico,<lb/>el que representaba la tragedia;<lb/>la cual ni sufre estado humilde o chico,<lb/>ni habla jamás de cosa que no sea<lb/>verdad, o no lo llegue a ser tantico.<lb/>Y así ni en la tragedia de Medea,<lb/>ni en las demás, guardándose el decoro,<lb/>añadir o quitar fue cosa fea.<lb/>Había entre los autos coro y coro,<lb/>el cual, hablando al pueblo, despertaba<lb/>el sentimiento, lágrimas y lloro.<lb/>Pero como l[o] antiguo al fin se acaba,<lb/>diez tablas, dos tapices y una alhombra<lb/>hinchen aquella fábrica tan brava.<lb/>Ya de los coros ni hay rastro, ni sombra,<lb/>aunque impresos los vi, no ha muchos meses,<lb/>en dos Nises, que así el autor las nombra.<lb/>Mas como lo que montan, señor, peses,<lb/>volvernos a los coros es volvernos<lb/>los graves y antiquísimos arneses.<lb/>Ya no queremos tanta hebilla y pernos;<lb/>bastan los que nos sirven a la justa,<lb/>más bien garbados, llanos y modernos.<lb/>Digo que España está en su edad robusta,<lb/>y como en lengua y armas valga y pueda,<lb/>me parece gustar de lo que gusta.<lb/>Visto, pues, que un estado sube y rueda,<lb/>o si por el contrario baja, sube,<lb/>y que en un punto firme apenas queda;<lb/>por ello, y porque mil ejemplos tuve,<lb/>siguiendo el uso y plática española,<lb/>de mi tragedia hacer dos partes hube.<lb/>Pero porque cualquiera de ellas sola<lb/>cansar pudiera, la razón y el uso<lb/>(digo español) en otras dos partiola.<lb/>Con esto, si me emprenden, pues, me escuso.<lb/>En lo demás, si algún descuido o falta,<lb/>ruin lenguaje, término confuso,<lb/>si la materia dicen que no es alta<lb/>-pues para hablar de príncipes y reyes<lb/>el nombre y reino a Los Amantes falta-<lb/>miren los que ordenaron esas leyes<lb/>que sacar al teatro un Minotauro<lb/>fue mandarnos tratar con semibueyes.<lb/>Aquí no hay hidra, furia, ni centauro,<lb/>solo hay un caballero y una dama,<lb/>que pretenden ganar a Laura el lauro.<lb/>Allí si el amor triunfa de quien ama,<lb/>y después Laura de él, de ella la muerte,<lb/>y de la muerte al fin triunfa la fama.<lb/>Es la fuerza de amor encarecerte,<lb/>y fuerzas que a cualquiera de estos hace,<lb/>pues por vencerle mueren de una suerte;<lb/>y mostrar lo que importa y satisface<lb/>a la fama triunfar hoy de la Parca,<lb/>que este ñudo castísimo deshace.<lb/>Pasando por Los Triunfos de Petrarca,<lb/>con estos dos hidalgos de quien trato,<lb/>hidalgos antes de Íñigo y Abarca,<lb/>hasta el cielo tercero me arrebato,<lb/>cuando amor los emprende y acomete.<lb/>Pero, visto su término y recato,<lb/>vuelvo al cielo más bajo de los siete,<lb/>do la que lleva el arco, aljaba y cinto,<lb/>el triunfo a manos llenas les promete.<lb/>Voyme de allí a Saturno, donde pinto<lb/>el triunfo de la muerte y, en pintallo,<lb/>bajo otra vez hacia el planeta quinto.<lb/>Veo la fama estar allí a caballo,<lb/>a quien rendir procura el primer cielo,<lb/>do el año, meses, días y horas hallo.<lb/>Pues de allí, cuando al cielo empíreo vuelo,<lb/>do suele Dios lo bueno eternizarlo,<lb/>lo que siente mi espíritu, ¿direlo?<lb/>A ti en efeto quiero dedicarlo,<lb/>Barón, que del marqués de Trans deciendes,<lb/>tan favorido de Pipino y Carlo.<lb/>Por tanto, si de sátiros y duendes<lb/>silvestres y domésticos me escapo,<lb/>crean que con el sapo me defiendes.<lb/>¿Hubo corneta, estandarillo o trapo,<lb/>al principio que Francia y Austria pudo,<lb/>que por un lirio no pintase un sapo?<lb/>Por empresa lo llevas, no lo dudo,<lb/>y así lo que de veras me asigura<lb/>es ver tantos escudos en tu escudo,<lb/>y la letra que dice: In uno plura.<lb/>
+          <lb/>Ilustre señor.<lb/>
+          <lb/>Mayor servidor de V. M.<lb/>
+          <lb/>Andrés Rey de Artieda.</p>
+      </div>
+      <castList>
+        <head>INTERLOCUTORES</head>
+        <castItem>
+          <role>MARCILLA</role>
+          <roleDesc>caballero</roleDesc>
+        </castItem>
+        <castItem>
+          <role>HEREDIA</role>
+          <roleDesc>camarada de Marcilla</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PERAFÁN</role>
+          <roleDesc>criado de Marcilla poeta y músico</roleDesc>
+        </castItem>
+        <castItem>
+          <role>LAÍN</role>
+          <roleDesc>paje de Marcilla</roleDesc>
+        </castItem>
+        <castItem>
+          <role>SIGURA</role>
+          <roleDesc>dama</roleDesc>
+        </castItem>
+        <castItem>
+          <role>EUFRASIA</role>
+          <roleDesc>prima de Sigura</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MARIDO DE SIGURA</role>
+        </castItem>
+        <castItem>
+          <role>DON JUAN</role>
+          <roleDesc>primo del marido de Sigura servidor de doña Elvira</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PAJE DE DON JUAN</role>
+        </castItem>
+        <castItem>
+          <role>CONDE DE FUENTES</role>
+          <roleDesc>servidor de doña Inés</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DOÑA ELVIRA</role>
+        </castItem>
+        <castItem>
+          <role>DOÑA INÉS</role>
+          <roleDesc>hermana de doña Elvira</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MUÑOZ</role>
+          <roleDesc>servidor de doña Inés</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DON GONZALO</role>
+          <roleDesc>servidor de Eufrasia</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PADRE DE MARCILLA</role>
+        </castItem>
+        <castItem>
+          <role>GOBERNADOR DE TERUEL</role>
+        </castItem>
+        <castItem>
+          <role>[LA IMAGINACIÓN]</role>
+        </castItem>
+        <castItem>
+          <role>[LA FAMA]</role>
+        </castItem>
+        <castItem>
+          <role>ESPEJO</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head>Auto  I</head>
+        <div type="scene">
+          <head>Scena I</head>
+          <stage>[Salen MARCILLLA, HEREDIA, PERAFÁN, LAÍN.]</stage>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Pues que de aquí a Teruel no hay media milla,</l>
+            <l>y pretendo hacer alto, cuando menos</l>
+            <l>no me quite a caballo hombre la silla;</l>
+            <l>basta que del arzón cuelguen los frenos.</l>
+            <l part="I">¿Vienes cansado, Heredia?</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="F">No, Marcilla.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Con todo, quien lo tiene a cargo, denos.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Ni lo dé, ni lo pidas por tu vida:</l>
+            <l>gozaremos mejor de la comida.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Ea, pues, Perafán, ve por la posta</l>
+            <l>y, en llegando, echarás por el callizo.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>¿Cómo callizo? Antes quiero aposta</l>
+            <l>-y no será mostrarme antojadizo-</l>
+            <l>huir de barrio y callejuela angosta,</l>
+            <l>y en público mostrar lo que Dios hizo</l>
+            <l part="I">en tu favor y suyo.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Pica y vuela.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>Fíate de mi ánimo y espuela.</l>
+          </sp>
+          <stage>[Vase PERAFÁN.]</stage>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Entre tanto, Laín, mientras empiezo</l>
+            <l>a ponerme en pretina, abre y saca</l>
+            <l>aquella banda, plumas y aderezo</l>
+            <l part="I">que hice en Milán. Toma la llave.</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l part="F">Daca.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Digo, viendo tus galas, que me avezo</l>
+            <l part="I">a ser galán de veras.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Si es matraca,</l>
+            <l>dímelo y callaré, pero no quieras</l>
+            <l>darme el primer lugar, si hablas de veras.</l>
+            <l>Adórnome porque podría ser visto</l>
+            <l>de quien fue la ocasión de mi destierro.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Días ha, con razón, que me resisto,</l>
+            <l>pero agora perdóname si yerro.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Tu amistad y valor tengo previsto,</l>
+            <l>y pues sé que debajo llave encierro</l>
+            <l>lo que con brevedad quiero contarte,</l>
+            <l>hagámonos, si mandas, a una parte.</l>
+            <l>Vive junto a las casas de mi padre</l>
+            <l>Isabel de Sigura y, si hay alguna</l>
+            <l>a quien enteramente el nombre cuadre</l>
+            <l>entre cuantas nacieron de hembra, es una;</l>
+            <l>porque ni los regalos de su madre,</l>
+            <l>ni el padre que en estremo la importuna</l>
+            <l>aplicando el regalo con la fuerza,</l>
+            <l>harán que de lo justo un dedo tuerza.</l>
+            <l>Quisímonos los dos niños de teta.</l>
+            <l>Fue la ocasión vivir pared en medio,</l>
+            <l>y ser, o parecerme, tan perfeta</l>
+            <l>que para encarecerlo no hallo medio.</l>
+            <l>En la niñez la cosa fue secreta,</l>
+            <l>pero en tener edad no hobo remedio.</l>
+            <l>Entendiolo su padre y retirola,</l>
+            <l>por no tener más hijos de ella sola.</l>
+            <l>Imagina la pena que sentimos</l>
+            <l>cuando se descubrió la cosa clara,</l>
+            <l>que debajo de título de primos</l>
+            <l>disimulé hasta allí, y disimulara.</l>
+            <l>Al fin, como mejor pude, o podimos,</l>
+            <l>hurtando y descubriéndole la cara</l>
+            <l>al viejo avaro, lleno de dobleces,</l>
+            <l>nos pudimos hablar dos o tres veces;</l>
+            <l>donde, tratando de la edad pasada,</l>
+            <l>lo que alcanzamos siendo niña y niño,</l>
+            <l>lo que vine a perder cuando la espada</l>
+            <l>me ceñí -esta propria que me ciño-,</l>
+            <l>un fuego que arde, siendo nieve helada,</l>
+            <l>soledad, que Aragón llama cariño,</l>
+            <l>en brasas me dejara, a no ser fría,</l>
+            <l>cuando me helaba junto y encendía.</l>
+            <l>Al cabo resolvímonos en esto:</l>
+            <l>que ella, pues con razón, siendo quien era,</l>
+            <l>no había de escuchar más de lo honesto,</l>
+            <l>cuando acaso otra cosa le pidiera,</l>
+            <l>mi padre se pusiese luego a gesto,</l>
+            <l>y viniese a pedírsela por nuera,</l>
+            <l>como en efecto la pidió al avaro,</l>
+            <l>que un «no» le respondió redondo y claro.</l>
+            <l>Miento, que sigún finge y disimula,</l>
+            <l>y con gentiles medios y crianza,</l>
+            <l>un alma la entretiene y atribula,</l>
+            <l>diciéndole de «no», le dio esperanza;</l>
+            <l>y porque veas cuán bien lo adorne y pula</l>
+            <l>mi padre, que algo de ello se le alcanza,</l>
+            <l>mostró -sobre tener otro en el pecho-</l>
+            <l>quedar con la respuesta satisfecho.</l>
+            <l>Mostraba al parecer tan grande gusto</l>
+            <l>como si por mujer se la pidieran</l>
+            <l>en Roma Antonio, Lépido y Augusto.</l>
+            <l>Pero, como aparencias solas eran,</l>
+            <l>al cabo díjole que no era justo</l>
+            <l>casar, aunque lo valgan y se quieran,</l>
+            <l>dos niños sin prudencia ni consejo.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Respuesta fue sagaz, pero de viejo.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>[MARCILLA]</speaker>
+            <l>Mi padre, como vio que era la falta</l>
+            <l>que a la edad aplicó el poco dinero,</l>
+            <l>que, como ya en Teruel saben, le falta</l>
+            <l>para el hijo segundo y al tercero,</l>
+            <l>tiniendo su intención fundada y alta,</l>
+            <l>ni se le mostró blando ni severo:</l>
+            <l>fuese y calló, pues no esperaba fruto</l>
+            <l>del viejo melancólico y enjuto.</l>
+            <l>Lo que sentimos ella y yo, sabido</l>
+            <l>lo que por los dos viejos fue resuelto,</l>
+            <l>ni lo vio la de Sesto ni el de Abido</l>
+            <l>cuando el cielo y el mar vieron revuelto.</l>
+            <l>Perderé, no lo dudes, el sentido</l>
+            <l>si a la imaginación la rienda suelto,</l>
+            <l>y mira si llegué al postrer estremo,</l>
+            <l>que de solo pensarlo agora temo.</l>
+            <l>Visto que era el estorbo mi pobreza,</l>
+            <l>y la fe de Sigura al ojo vista,</l>
+            <l>no digo en lo aparente o la corteza,</l>
+            <l>pero do no se llega con la vista,</l>
+            <l>y que estaba por orden de su Alteza</l>
+            <l>en Palamós la armada y gente lista,</l>
+            <l>determiné, por más valer, partirme,</l>
+            <l>dejando el corazón siguro y firme;</l>
+            <l>aunque primero me ofreció Sigura</l>
+            <l>de no casarse hasta pasar siete años.</l>
+            <l>Con esta fe partí a probar ventura</l>
+            <l>do sabes, si entre bárbaros y estraños</l>
+            <l>mi nombre, aunque merece poco, tura;</l>
+            <l>tras que de perlas, oro, seda y paños</l>
+            <l>traigo cincuenta acémilas o cargas.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Ya sé que ni te encoges ni te alargas.</l>
+            <l>Pero vienes a tiempo, ¿qué te rascas?</l>
+            <l>Dime, ¿no me dirás de qué suspiras?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>¡Ay!, que de mis suspiros y mis bascas</l>
+            <l>la causa principal, que al ojo miras,</l>
+            <l>han sido las maretas y borrascas,</l>
+            <l>por las cuales, cayendo en mil mentiras,</l>
+            <l>un hora o dos pasado el plazo llego.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="I">¿Pues qué es un hora?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Mucho para luego.</l>
+            <l>Tras eso, aunque es gran burla creer en sueños,</l>
+            <l>bajo esta corrección te diré, y salva,</l>
+            <l>lo que soñé anteayer casi entre sueños,</l>
+            <l>hecha la digistión, rompiendo la alba:</l>
+            <l>que un viejo, de estos viejos zahareños,</l>
+            <l>a quien crédito dan la barba y calva,</l>
+            <l>me sacaba un anillo de este dedo.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>¿Y estabas tú, sacándotele, quedo?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Estábalo y, doliéndome infinito</l>
+            <l>ver al que se le dio estar muy ufano</l>
+            <l>y reírse de mí el viejo maldito,</l>
+            <l>ni osaba rebollirme, ni echar mano.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Pues la razón mandaba al apetito,</l>
+            <l>por culpa tuya el tiempo, calvo y cano,</l>
+            <l>la sortija le dio: digo, tu dama.</l>
+            <l>Pero, ¿qué es lo que sueña un hombre que ama?</l>
+            <l>¿Cuánto ha que no has tenido de ella nuevas?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="I">Un mes.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="F">Pues ni lo pienses ni presumas.</l>
+            <l>¡Bueno es que a un sueño dar crédito debas!,</l>
+            <l>pues, aunque fuese oráculo de Cumas,</l>
+            <l>mueva el fausto y recámara que llevas.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Ea, pues, tráiganme la banda y plumas.</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l>Helas. ¿De qué, señor, te maravillas?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>¿Pues banda negra y plumas amarillas?</l>
+            <l>Las plumas blancas pido y banda roja.</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l>Si en el mar, do cayeron, no las pesco...</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>A no ser presunción ligera y floja,</l>
+            <l>y que con sueños tiene parentesco,</l>
+            <l>de nuevo acrecentaran mi congoja</l>
+            <l part="I">la banda y plumas.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="F">Digo que estás fresco.</l>
+            <l>Si los sueños y agüeros te dan prisa,</l>
+            <l>parecerte ha mortaja la camisa.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Pero ¿qué gente es esta que ha apeado?</l>
+            <l part="I">¿Es el de Fuentes?</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l part="F">Sí, señor, el conde.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="I">¿Cómo lo sabes?</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l part="F">Hame preguntado</l>
+            <l>cómo venís los dos, a qué y de dónde.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="I">Y él, ¿sabes a qué viene?</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l part="F">Hase casado</l>
+            <l part="I">una dama en Teruel.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">¿Quién es? Responde.</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l>No lo sé, el conde mesmo a veros viene.</l>
+            <l part="I">Pregúntaselo al conde.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="F">Razón tiene.</l>
+          </sp>
+          <stage>[Sale el CONDE.]</stage>
+          <sp who="#conde">
+            <speaker>CONDE</speaker>
+            <l part="I">¿Venís buenos los dos?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Y a lo que mandes.</l>
+          </sp>
+          <sp who="#conde">
+            <speaker>CONDE</speaker>
+            <l>Pero, ¿venís tan prósperos y ricos</l>
+            <l part="I">que es bien serviros?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Ánimo es de grandes</l>
+            <l>levantar a los débiles y chicos.</l>
+          </sp>
+          <sp who="#conde">
+            <speaker>CONDE</speaker>
+            <l>Ahora, señores, aunque Italia y Flandes</l>
+            <l>andéis, España y Francia, certifícoos</l>
+            <l>que no descubriréis cómo son estas</l>
+            <l>fiestas, que las podamos llamar fiestas.</l>
+            <l>Si un hombre como yo, viejo, se atreve</l>
+            <l>a esto, y en la edad que veis remoza,</l>
+            <l>¿qué es lo que hará la mocedad que llueve</l>
+            <l>de Lérida, Valencia y Zaragoza?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>¿Por quién se hacen las fiestas? ¿Quién las mueve?</l>
+          </sp>
+          <sp who="#conde">
+            <speaker>CONDE</speaker>
+            <l>Por una hermosa dama rica y moza:</l>
+            <l part="I">Isabel...</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="M">¿Qué me cuentas?</l>
+          </sp>
+          <sp who="#conde">
+            <speaker>CONDE</speaker>
+            <l part="F">...de Sigura,</l>
+            <l>a quien hasta el menor servir procura.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>A placer tan común partamos luego.</l>
+          </sp>
+          <sp who="#conde">
+            <speaker>CONDE</speaker>
+            <l>Sí, mas pues vuestra edad a ello se aplica,</l>
+            <l>habéis de aventurar hoy en el juego</l>
+            <l>los cinco de la espada y tres de pica.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Aunque yo de mi parte no lo niego,</l>
+            <l>oye lo que Marcilla te suplica.</l>
+          </sp>
+          <sp who="#conde">
+            <speaker>CONDE</speaker>
+            <l part="I">No faltará por él.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="F">Pues calla, callo.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="I">¡Sus!, tóquese el clarín.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="F">Presto, a caballo.</l>
+          </sp>
+          <stage>[Vanse.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena II</head>
+          <stage>[Salen EUFRASIA y SIGURA.]</stage>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Si es la voz de este clarín</l>
+            <l>la luz que vio faltar Hero,</l>
+            <l>hoy el mesmo trance espero,</l>
+            <l>pues pronostica mi fin,</l>
+            <l>según nos dijo el romero.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>No dijo el romero tal.</l>
+            <l>«Cuando el cetro de metal</l>
+            <l>-dijo-, oyeres de la Fama»;</l>
+            <l>y si no es que al clarín llama</l>
+            <l>cetro, entendístele mal.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Hablábanos por figuras,</l>
+            <l>pero debajo esa letra,</l>
+            <l>quien la alma de ella penetra...</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>...descubrirá vaciaduras,</l>
+            <l>pues que ni es cetro ni cetra.</l>
+            <l>¡Qué rey don Alonso el Sabio</l>
+            <l>para tablas y astrolabio!</l>
+          </sp>
+          <stage>[Sale PERAFÁN.]</stage>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l part="I">Ce, ce.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l part="M">¿Quién nos llama?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l part="F">Un hombre</l>
+            <l>que por no acertarle el nombre</l>
+            <l>le hago notable agravio.</l>
+            <l>Corre, amiga, y dile que entre,</l>
+            <l>porque yo estoy como un hielo.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>Y él muestra tener recelo</l>
+            <l>de que a los de casa encuentre.</l>
+            <l>Pero espérate y verelo.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Si es este Perafanico,</l>
+            <l>el que a Marcilla de chico</l>
+            <l>sirve, Marcilla es venido;</l>
+            <l>digo que por el zumbido</l>
+            <l>y señas me certifico.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>En este punto ha llegado.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>¿Qué nos cuentas Perafán?</l>
+            <l part="I">¿Viene próspero?</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l part="F">Galán,</l>
+            <l>y el más bien afortunado</l>
+            <l>de cuantos de allá vernán.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l part="I">¡Jesús!</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l part="F">¿De qué te santiguas?</l>
+            <l>Mátenme si no averiguas,</l>
+            <l>tras ser empresas de ayer,</l>
+            <l>que tienen de escurecer</l>
+            <l>las suyas a las antiguas.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Cuéntannos que le dio el rey</l>
+            <l>cierto cargo en las fronteras.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>Pues mostrando allí de veras</l>
+            <l>ser hidalgo a toda ley,</l>
+            <l>le encomendó sus galeras;</l>
+            <l>que pintando agora vaya</l>
+            <l>de África el término y raya,</l>
+            <l>las sirtes o los bajíos,</l>
+            <l>puertos y bocas de ríos,</l>
+            <l>los promontorios y playa.</l>
+            <l>Tras que no está en su lugar,</l>
+            <l>es vanidad que presuma</l>
+            <l>reducirte a breve suma</l>
+            <l>lo que no puedo contar</l>
+            <l>bien sin alargar la pluma;</l>
+            <l>solo en esto no repares,</l>
+            <l>que alarbe en los aduares,</l>
+            <l>en toda la costa moro,</l>
+            <l>piedras, plata, perlas, oro,</l>
+            <l>alcujacas y almaizares,</l>
+            <l>cosa, al fin, que valer pueda</l>
+            <l>de oro, plata, estambre o seda,</l>
+            <l>hasta adargas y albornoces,</l>
+            <l>sino es algazara y voces,</l>
+            <l>otro en África no queda.</l>
+            <l>Lo demás te diré cuando</l>
+            <l>no me ponga orden ni tasa</l>
+            <l>quien para ver lo que pasa</l>
+            <l>me mandó, y está aguardando</l>
+            <l>en el camino o en casa.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>¿Y sabes que soy casada?</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>¡Como quien no dice nada!</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>¡Ah, Perafán, ve con Dios!</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>Y él os dé aliento a los dos</l>
+            <l>en tan amarga jornada.</l>
+          </sp>
+          <stage>[Vase PERAFÁN.]</stage>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Dime, por tu vida, Eufrasia,</l>
+            <l>¿quién hay que iguale a Marcilla</l>
+            <l>en Aragón y Castilla,</l>
+            <l>si hasta los términos de Asia</l>
+            <l>o fronteras maravilla?</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>No sé yo que haya persona</l>
+            <l>en toda nuestra corona,</l>
+            <l>dejada aparte esa tierra,</l>
+            <l>que le iguale en paz o en guerra.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Óyeme, Eufrasia, y perdona.</l>
+            <l>Si a los romanos y godos</l>
+            <l>sobrepuja, aunque te nombre</l>
+            <l>César y los de su nombre</l>
+            <l>y, hablando en común a todos,</l>
+            <l>en lo que toca a ser hombre,</l>
+            <l>¿qué sentirá quien lo pierde,</l>
+            <l>cuando piense o se le acuerde</l>
+            <l>lo que pudo alguna vez</l>
+            <l>niña, y tras de la niñez,</l>
+            <l>en su edad florida y verde?</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>Si no lo espera cobrar</l>
+            <l>por más que revuelva y ande,</l>
+            <l>y a su pasión propria mande,</l>
+            <l>creo que ha de reventar,</l>
+            <l>porque la pérdida es grande.</l>
+            <l>Pero di, ¿quién es la dama</l>
+            <l>que tanto le aprecia y ama</l>
+            <l>y le viene a perder hoy?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(A decirle que yo soy...)</l>
+          </sp>
+          <stage>[Dentro.]</stage>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="I">¡Hola!</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l part="M">Responde.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l part="F">¿Quién llama?</l>
+          </sp>
+          <stage>[Sale el MARIDO DE SIGURA.]</stage>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Mi señora, ¿qué haces? Mira</l>
+            <l>que de la sala te quitas,</l>
+            <l>donde acuden las visitas.</l>
+            <l>Ven, que sube doña Elvira</l>
+            <l>y otras damas infinitas.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>¿Oyes? Teodor, adereza</l>
+            <l>en un momento esa pieza.</l>
+            <l>Di Eufrasia, ¿estoy a tu gusto?</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>Ponte ese cuello más justo</l>
+            <l>y alza un poco la cabeza.</l>
+          </sp>
+          <stage>[Vanse.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena III</head>
+          <stage>[Salen el MARIDO DE SIGURA, SIGURA, EUFRASIA, DOÑA ELVIRA y DOÑA INÉS.]</stage>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="I">Hermosa viene.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l part="F">Gallarda.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>¿Don Juan todavía porfía</l>
+            <l part="I">en servirla?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l part="F">Todavía.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Eso, pues, que espera y tarda</l>
+            <l>le dará gusto algún día.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>Bésote los pies mil veces.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>A mucha cosa te ofreces.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Otras tantas te los beso.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Digo que es notable exceso,</l>
+            <l>porque en mil hay muchos dieces.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Diestramente contrapuntas.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>Pues, señora, doña Inés,</l>
+            <l>sobre un pie, no digo pies,</l>
+            <l>dirá más que las dos juntas.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Y quizá más que las tres.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>Ya que en ello nos la ganes,</l>
+            <l>para que todo lo allanes,</l>
+            <l>haz como a don Juan le rindas.</l>
+            <l>Aunque él pídelas muy lindas,</l>
+            <l>y con menos ademanes.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Pero ¿quién sigue de rastro</l>
+            <l>a una discreta, si es fea,</l>
+            <l>y quién hay que no desea</l>
+            <l>una imagen de alabastro,</l>
+            <l>por necia y torpe que sea?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>¿Quién? Los que abomina Dante,</l>
+            <l>que a ponérseles delante</l>
+            <l>lo que excede al cuerpo la alma,</l>
+            <l>dando a quien deben la palma,</l>
+            <l>en viéndote, seguirante.</l>
+            <l>Cuantimás que si tú quieres,</l>
+            <l>tras la discreción y ser,</l>
+            <l>puedes muy bien parecer,</l>
+            <l>añadiéndote alfileres.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Añadirme yo alfi[leres]?</l>
+          </sp>
+          <stage>[Sale DON JUAN.]</stage>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Debe hacerlo sobre aviso</l>
+            <l>por no querer lo que quiso,</l>
+            <l>quien sin prudencia y consejo</l>
+            <l>por mirarse hoy al espejo</l>
+            <l>hará la fin de Narciso.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Que puede ser que peligre</l>
+            <l>tanto esa dama, don Juan?</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Peligra y peligrarán</l>
+            <l>las que emprenden como tigre</l>
+            <l>despedazar un galán.</l>
+            <l>¿Riese? Pues no se ría,</l>
+            <l>que bajo de ser poesía,</l>
+            <l>puede ver cuán poco medra</l>
+            <l>la que se convirtió en piedra,</l>
+            <l>por ser encogida y fría.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>No sé, por muy grande alivio</l>
+            <l>pidió la que huyó de Apolo</l>
+            <l part="I">ser árbol.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l part="F">Por ello solo,</l>
+            <l>digo, por su pecho tibio,</l>
+            <l>si lo pidió, recaudolo.</l>
+            <l>Y esa que nombraste, y cuantas</l>
+            <l>engrandesces y levantas,</l>
+            <l>por no usar de la razón</l>
+            <l>con quien lo debieran, son</l>
+            <l>menos que piedras y plantas.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>¿Es posible que tal oya</l>
+            <l>doña Elvira y no se guarde?</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Espera el castigo tarde.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>¡Ah, si ardiese como Troya!</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Pero como don Juan arde,</l>
+            <l>porque es tanto y más esquivo</l>
+            <l>que ese otro imaginativo</l>
+            <l>el fuego que me consume,</l>
+            <l>que se engaña quien presume</l>
+            <l>que haya otro fuego más vivo.</l>
+            <stage>[Salen] ATAMBORES que publican un cartel:</stage>
+            <l>Aunque tarde a servir el conde empieza,</l>
+            <l>por lo que la tardanza le remuerde</l>
+            <l>y espera en breve hacer, sale de verde,</l>
+            <l>esmaltada su dama en la cabeza;</l>
+            <l>do el que sus flacos ojos endereza,</l>
+            <l>porque si bien lo hiciere, o mal, se acuerde</l>
+            <l>de su arnés, perderá, si acaso pierde,</l>
+            <l>o al conde ganará la mejor pieza;</l>
+            <l>lo mesmo al caballero que se atreve</l>
+            <l>alabar otra dama, se publica,</l>
+            <l>pues no hace en su presencia lo que debe;</l>
+            <l>a más de que dará una prenda rica</l>
+            <l>al que mejor emplee, y mejor cebe,</l>
+            <l>en el arnés contrario espada y pica.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>¡Que por doña Inés afije</l>
+            <l>un cartel como este el conde!</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>Si a lo que veis no responde,</l>
+            <l>responderá a lo que dije</l>
+            <l>que nos encubre y esconde.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Sobre ese particular,</l>
+            <l>me pienso en tu nombre armar,</l>
+            <l>aunque al cartel contradiga.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>Tiente solo el que se obliga</l>
+            <l>lo que puede averiguar.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Pero denle el parabién,</l>
+            <l>si le das aliento y brío.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Y aun porque de ello confío,</l>
+            <l>será el precio que me den</l>
+            <l>suyo, aunque se nombre mío.</l>
+            <l>Con tu licencia me voy.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>Ni te la niego, ni doy.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Para dármela, eso basta.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Vete, que el tiempo se gasta</l>
+            <l>que dejas de emplear hoy.</l>
+            <stage>[Vase DON JUAN.]</stage>
+            <l>Doña Elvira, entrémonos.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>La ventaja de entrar dala</l>
+            <l part="I">a Inés.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">No entraré en la sala,</l>
+            <l>si no es que paséis las dos,</l>
+            <l>o entremos las cuatro en ala.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Fuera gentil corte y medio,</l>
+            <l>si hubiera de entrar remedio,</l>
+            <l>pero juntas no podremos.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Pasen las de los estremos</l>
+            <l>y sigan las dos de en medio.</l>
+          </sp>
+          <stage>[Vanse.]</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>Auto  II</head>
+        <div type="scene">
+          <head>Scena I</head>
+          <stage>[Salen EUFRASIA, DOÑA INÉS y ELVIRA.]</stage>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>No ha de ser, pues, danzar todo,</l>
+            <l>salgamos un poco al aire.</l>
+            <l>Pero, doña Inés, el modo</l>
+            <l>con que Muñoz, por desgaire,</l>
+            <l>te asió con la mano el codo,</l>
+            <l>por mi vida, ¿fue mudanza</l>
+            <l>a las que obliga la danza,</l>
+            <l>o por dicha llegar quiso</l>
+            <l>con la mano al paraíso</l>
+            <l>que con el ánimo alcanza?</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>La cuenta que hicieres, haz,</l>
+            <l>que si la danza no obliga</l>
+            <l>a tanta unión y paz,</l>
+            <l>disculparse ha cuando siga</l>
+            <l>con otros mil un rapaz</l>
+            <l>que, aunque ciego, rige al cuerdo,</l>
+            <l>y mueve los pies al lerdo.</l>
+            <l>Así que si añade o deja,</l>
+            <l>cargando al guión la queja,</l>
+            <l>ni él por mí, ni por él pierdo.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>[EUFRASIA]</speaker>
+            <l>En efecto, fue cordura,</l>
+            <l>pues siendo osado el galán,</l>
+            <l>tiene la prenda sigura,</l>
+            <l>si es verdad que juntos van</l>
+            <l>atrevimiento y ventura.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>[DOÑA INÉS]</speaker>
+            <l>Di tú que el ánimo y brío</l>
+            <l>de ese galán, si lo es mío,</l>
+            <l>te mueve y provoca a envidia,</l>
+            <l>pues el que contigo lidia</l>
+            <l>pierde un poquito por frío.</l>
+            <l>Cayote un guante en el suelo,</l>
+            <l>él, sin ventura, fue a alzalle,</l>
+            <l>quiso dártele... ¿Dirélo?</l>
+            <l>Pero mejor es que calle.</l>
+            <l>¡En tanto amor tan gran hielo!</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>Término tan singular</l>
+            <l>nadie le pudiera usar,</l>
+            <l>sino es quien trazada fuera</l>
+            <l>dentro la tercer esfera,</l>
+            <l>o entre fuego elementar.</l>
+            <l>Porque a mi galán el tuyo</l>
+            <l>en desenvoltura venza,</l>
+            <l>que es de lo que yo más huyo,</l>
+            <l>¿atribuyes a vergüenza</l>
+            <l>lo que a buen seso atribuyo?</l>
+            <l>Si amor consiste en las manos,</l>
+            <l>por tu fe, doña Inés, danos</l>
+            <l>las tuyas, y llevaremos</l>
+            <l>quizá, por esos estremos,</l>
+            <l>lo que por términos llanos.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Sí, que el asiento y mesura</l>
+            <l>aprovecha y vale mucho.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>Pero la desenvoltura...</l>
+            <l>que es lo que dicen, y escucho.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Y quién lo averigua y jura?</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>Ce, la plática entretén,</l>
+            <l>que viene acá no sé quién.</l>
+          </sp>
+          <stage>[Salen MARCILLA, SIGURA y el MARIDO DE SIGURA.]</stage>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="I">¡Marcilla es!</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l part="F">¡Válame Dios!</l>
+            <l>¿Y son los novios los dos</l>
+            <l>a quien les da el parabién?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>...Y en particular me alegro</l>
+            <l>de que este día le veas</l>
+            <l>tan a gusto de tu suegro.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Y a ti cuanto bien deseas.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Negro, bien negro y bien negro.)</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>¿Qué es lo que dices, Marcilla?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Digo que me maravilla</l>
+            <l>ver estas damas a punto</l>
+            <l>de rendir el mundo junto,</l>
+            <l>si ante sus pies no se humilla.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Bien es que el trabajo ahorre</l>
+            <l>quien tan hermosas nos pinta,</l>
+            <l>pues por lo mesmo nos corre,</l>
+            <l>si el color sobrado o tinta</l>
+            <l>causan que, al pintar, nos borre.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Pero mandaisme estar quedo,</l>
+            <l>pues menos servir os puedo</l>
+            <l>con mi artificio y pintura,</l>
+            <l>que llegar, quien lo procura,</l>
+            <l>hasta el cielo con el dedo.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¡Será, a dicha, el cielo onceno,</l>
+            <l>según tu encarecimiento!</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>El tuyo a la fe es muy bueno,</l>
+            <l>si no más de nueve cuento,</l>
+            <l>y diez con el más sereno.</l>
+          </sp>
+          <stage>[Sale un PAJE.]</stage>
+          <sp who="#paje_juan">
+            <speaker>PAJE</speaker>
+            <l>Señor, don Juan te suplica</l>
+            <l>que por señas de la pica</l>
+            <l>le prestes hoy la celada,</l>
+            <l>porque está desenchodada</l>
+            <l>la suya, y le viene chica.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Muy bien. Marcilla, entretente,</l>
+            <l>que luego al momento vuelvo.</l>
+          </sp>
+          <stage>[Vanse el MARIDO DE SIGURA y el PAJE.]</stage>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Así que siguramente,</l>
+            <l>señoras, yo me resuelvo:</l>
+            <l>que lo bueno, lo ecelente,</l>
+            <l>de dos cosas que hizo Dios,</l>
+            <l>ángeles y hombres, las dos,</l>
+            <l>quien os considera y mira...</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Que esperamos, doña Elvira?</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>¿Esperalle? Entrémonos.</l>
+          </sp>
+          <stage>[Vanse DOÑA ELVIRA y DOÑA INÉS.]</stage>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Paso, no con tanta prisa.</l>
+            <l>Eufrasia, detén a Inés.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>No la puedo asir de risa,</l>
+            <l>porque va con tales pies,</l>
+            <l>que no huella lo que pisa.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Ea pues, ve, llámalas.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>¿Qué siguro les darás?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Di que a todo el daño salgo.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>...Y que juro como hidalgo</l>
+            <l>de no hablar sobre ello más.</l>
+          </sp>
+          <stage>[Vase EUFRASIA. Quedan MARCILLA y SIGURA.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena II</head>
+          <stage>[MARCILLA y SIGURA.]</stage>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>¿Es, ingrata Sigura,</l>
+            <l>el casamiento próspero que aguardo?</l>
+            <l>Callar será cordura,</l>
+            <l>pues de ira y desdén ardo,</l>
+            <l>y de envidia me hielo y acobardo.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>No es bien que si hablas, hable,</l>
+            <l>sigún mi gran pasión y tu gran ira,</l>
+            <l>pero la fe inviolable</l>
+            <l>ni a mis pasiones mira,</l>
+            <l>ni a lo que tú condenas por mentira.</l>
+            <l>Ella, pues lo que dije</l>
+            <l>lo reservé al salirme de la boca,</l>
+            <l>y en mis entrañas fije,</l>
+            <l>descubrirá cuán poca</l>
+            <l>razón tienes o a quién de los dos toca.</l>
+            <l>De mí sé que los años</l>
+            <l>que prometí aguardarte esperé, y días,</l>
+            <l>venciendo con engaños</l>
+            <l>las quejas y porfías</l>
+            <l>de mis cansados padres y mis tías.</l>
+            <l>De ti la fe se queja,</l>
+            <l>pues por faltar el día que ofreciste,</l>
+            <l>tu descuido me deja</l>
+            <l>tan afligida y triste,</l>
+            <l>que apenas al dolor mi alma resiste.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>No es pusible, ni creo,</l>
+            <l>que quien pasado el término en dos horas</l>
+            <l>se casó, como veo,</l>
+            <l>no quiera lo que adoras,</l>
+            <l>y llore tibiamente lo que lloras.</l>
+            <l>Porque a no darte gusto</l>
+            <l>esto, con lo que agora te acomodas,</l>
+            <l>pasado el tiempo justo</l>
+            <l>y condiciones todas,</l>
+            <l>dilataras siquiera un mes las bodas,</l>
+            <l>y lo que dilataras</l>
+            <l>dejara mi descuido averiguado,</l>
+            <l>y tus disculpas claras.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Hame sido forzado,</l>
+            <l>con probarlo hasta aquí, tomar estado,</l>
+            <l>porque mis bodas supe</l>
+            <l>cuando ya el estorballas fuera tarde.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Como el temor ocupe</l>
+            <l>un ánimo cobarde,</l>
+            <l>¿esperáis de él que fe o palabra guarde?</l>
+            <l>Que una tilde no tuerza</l>
+            <l>de lo que prometí, es caso ordinario,</l>
+            <l>pero do no me fuerza</l>
+            <l>lo que ofrecí, al contrario,</l>
+            <l>a mucho obliga un hecho voluntario.</l>
+            <l>Y así lo que aguardaste,</l>
+            <l>aunque te deje en parte disculpada,</l>
+            <l>no es disculpa que baste:</l>
+            <l>pues tu fe acelerada,</l>
+            <l>fuera la obligación, no puso nada.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Espántome que digas</l>
+            <l>que por lo voluntario más mereces</l>
+            <l>que por lo que te obligas,</l>
+            <l>pero hablemos a veces,</l>
+            <l>y verás a lo mucho que te ofreces.</l>
+            <l>Libertad ancha y larga</l>
+            <l>tiene el que ni lo debe ni promete,</l>
+            <l>mas quien de algo se encarga,</l>
+            <l>por un año o por siete,</l>
+            <l>¿quién duda que otros tantos se sujete?</l>
+            <l>Y si este se deshonra</l>
+            <l>por no satisfacer la menor cosa,</l>
+            <l>¿qué fama gana, y honra,</l>
+            <l>si en lo que ofrecer osa</l>
+            <l>tan justo va que no desmiente en cosa?</l>
+            <l>Y pues el tiempo mido</l>
+            <l>con lo que prometí, y de ello no salgo,</l>
+            <l part="I">no me pidas más.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Pido,</l>
+            <l>tras la obligación, algo</l>
+            <l>que un pecho nos descubra más hidalgo.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Digo que me resuelvo</l>
+            <l>en que, sigún del tiempo y fe mal usas,</l>
+            <l>si contra ti revuelvo,</l>
+            <l>no podrás con escusas</l>
+            <l>librarte de lo mesmo que me acusas.</l>
+            <l>Dime, tras los tesoros</l>
+            <l>que ganaste en dos años por tu brazo</l>
+            <l>en África a los moros,</l>
+            <l>¿qué estorbo o embarazo</l>
+            <l>tuviste para no llegar al plazo?</l>
+            <l>No fue sino que en verte</l>
+            <l>mozo, ilustre, galán, próspero y rico,</l>
+            <l>tuviste a mala suerte,</l>
+            <l>sigún mi estado es chico,</l>
+            <l>perder de tu fortuna y ser tantico.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>¿Qué fortuna o quimeras?</l>
+            <l>Ser tu padre, a la fe, tan avariento</l>
+            <l>que si un millón le dieras</l>
+            <l>quedara descontento,</l>
+            <l>me entretuviera hasta ganarle un cuento.</l>
+            <l>Los tesoros de Mida,</l>
+            <l>aquel deseo tan temerario y loco</l>
+            <l>que le quitó la vida,</l>
+            <l>convertir lo que toco</l>
+            <l>en oro, imaginara que era poco.</l>
+            <l>Pero partí, con todo,</l>
+            <l>y antes mucho, del término, llegara,</l>
+            <l>a no soplar de modo</l>
+            <l>un viento que, a la clara,</l>
+            <l>pronosticó lo que me das en cara.</l>
+            <l>Si al fuego, a la ruina,</l>
+            <l>a fortuna deshecha nadie basta</l>
+            <l>contrastar, imagina,</l>
+            <l>y no respondas hasta</l>
+            <l>ver quién lo que esperaba acertar gasta.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Fuérate respondiendo,</l>
+            <l>mas tras que mi marido asomar veo,</l>
+            <l>por la grita y estruendo</l>
+            <l>que siento en casa, creo</l>
+            <l>que el conde a mantener viene el torneo.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Cuán cierta es nuestra guerra,</l>
+            <l>pues nos retiran pífanos y cajas,</l>
+            <l>y cuán cierto quién yerra,</l>
+            <l>pues las manos encajas</l>
+            <l>y de vergüenza al fin los ojos bajas.</l>
+            <l part="I">Voyme.</l>
+          </sp>
+          <stage>[Vase MARCILLA. Sale el MARIDO DE SIGURA.]</stage>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="F">¿Fuese Marcilla?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Sintió la caja. Creo que tornea,</l>
+            <l>y así partió en sentilla.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Veamos la librea</l>
+            <l>del conde, quién le sirve y padrinea.</l>
+          </sp>
+          <stage>[Vanse.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena III</head>
+          <stage>[Salen MARCILLA y LAÍN.]</stage>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>¿Que se entró por ver al conde?</l>
+            <l>¿Y con su querido Apolo?</l>
+            <l>¿Esto vio Marcilla? ¡Violo!</l>
+            <l>Irme quiero, pero ¿dónde,</l>
+            <l>sino a do pueda estar solo?</l>
+            <l>Corre... -¿a quién digo?- ...Laín,</l>
+            <l>baja una silla al jardín.</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l>Y la mesa, ¿bajarela?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Mesa, libros y vihuela.</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l>Mesa y libros, ¿a qué fin?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Para atajar los asaltos</l>
+            <l>que a mi triste corazón</l>
+            <l>le da la imaginación,</l>
+            <l>con mil pensamientos altos</l>
+            <l>y otros mil que no lo son.</l>
+            <stage>[Vase LAÍN.]</stage>
+            <l>¡Cuán bien lo haré si la ocupo</l>
+            <l>en que olvide lo que supo!,</l>
+            <l>aunque sea muy gran locura</l>
+            <l>darle a entender que Sigura</l>
+            <l>no cupiese en lo que cupo.</l>
+            <l>Pero, ¿en qué la emplearemos?</l>
+            <l>¿En música? No: provoca,</l>
+            <l>solo con abrir la boca,</l>
+            <l>a decir y hacer estremos,</l>
+            <l>si en lo que imaginas toca.</l>
+            <l>¿Ocuparémosla en galas?</l>
+            <l>Sí, que faltando las alas</l>
+            <l>de parecer bien a quien</l>
+            <l>pareciste un tiempo bien,</l>
+            <l>entretiénesla y regalas.</l>
+            <l>¿En armas? No, que la injuria</l>
+            <l>siendo, como lo es, tan fresca,</l>
+            <l>si eslabón soy, será yesca,</l>
+            <l>provocándome a la furia</l>
+            <l>de que usé en la soldadesca.</l>
+            <l>Pues vale algo lo que escribo,</l>
+            <l>darele un peso excesivo,</l>
+            <l>y será traducir versos;</l>
+            <l>que entre conceptos diversos,</l>
+            <l>uno apenas queda vivo.</l>
+            <l>Ea, pues, favor y auxilio,</l>
+            <l>para emprendello de espacio</l>
+            <l>quiero traducir de Horacio,</l>
+            <l>aunque mejor es Virgilio,</l>
+            <l>y Ovidio más de palacio.</l>
+          </sp>
+          <stage>[Sale LAÍN.]</stage>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l part="I">Todo está ya a punto.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Dame,</l>
+            <l>para que en parte derrame</l>
+            <l>un pensamiento, ese libro.</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l>Si una vez de aquí me libro,</l>
+            <l>no haya miedo, aunque me llame.</l>
+            <l>Vinieran a Teruel otros,</l>
+            <l>sigún las fiestas son grandes,</l>
+            <l>si viene a mano, de Flandes,</l>
+            <l>y ¿perdémoslas nosotros?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="I">Ábrele.</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l part="F">Como lo mandes.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>¡Cuán a espacio lo desata!</l>
+            <l>¡Arrebátale, arrebata!,</l>
+            <l>y como en libro de suertes,</l>
+            <l>di lo primero que aciertes.</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l>De Píramo y Tisbe trata.</l>
+            <p>Notitiam primosque gradus vicinia fecit,
+            <lb/>tempore crevit amor, iure quoque tedae coissent,
+            <lb/>sed vetuere patres, quod non potuere vetare.</p>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>[MARCILLA]</speaker>
+            <l>¿Hay dos tan conformes casos</l>
+            <l>como estos dos? ¿Haylos? No.</l>
+            <l>Di: La vecindad causó</l>
+            <l>la primer noticia y pasos;</l>
+            <l>con el tiempo amor creció...</l>
+            <l>Solo hay ser mi ángel casada,</l>
+            <l>y que fuera abominada</l>
+            <l>por Tisbe esa ingratitud.</l>
+            <l>Hora muéstrame el laúd,</l>
+            <l>que este ejercicio me enfada.</l>
+            <stage>[Canta.]</stage>
+            <stage>Soneto</stage>
+            <l>César, después que la cabeza mira</l>
+            <l>que el rey de Egipto le mandó en presente</l>
+            <l>para encubrir dolor tan evidente,</l>
+            <l>según escrito está, llora y suspira;</l>
+            <l>y Aníbal, cuando ya se le retira</l>
+            <l>su fortuna y la falta de ella siente,</l>
+            <l>riese entre afligida y triste gente,</l>
+            <l>solo por encubrilles su gran ira.</l>
+            <l>Sucede, pues, que cada cual procura</l>
+            <l>una pasión con un cierto desvío</l>
+            <l>de la vista encubrir, clara o escura;</l>
+            <l>así que si esta vez yo canto o río,</l>
+            <l>hágolo por ser esta más sigura</l>
+            <l>manera de encubrir el dolor mío.</l>
+            <l>¡Que cuanto más huyo, toco</l>
+            <l>mi llaga, donde, si acudo,</l>
+            <l>hago el dolor más agudo!</l>
+            <l>Laín, desvíate un poco.</l>
+            <l part="I">Vete.</l>
+          </sp>
+          <sp who="#lain">
+            <speaker>LAÍN</speaker>
+            <l part="F">Despedirme pudo.</l>
+          </sp>
+          <stage>[Vase.]</stage>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Entre mil remedios que hallo,</l>
+            <l>si es desbocado un caballo,</l>
+            <l>es alargarle la rienda.</l>
+            <l>La imaginación me entienda,</l>
+            <l>que en ella quiero proballo;</l>
+            <l>que sigún con furia corre,</l>
+            <l>si la rienda aflojo y pico,</l>
+            <l>viendo que, si va tantico,</l>
+            <l>dará de ojos en la torre</l>
+            <l>que por su mal edifico,</l>
+            <l>quizá se refrenará,</l>
+            <l>vista la esquina en que da.</l>
+            <l>Y si de ella no se arriedra,</l>
+            <l>en dando en la primer piedra</l>
+            <l>con mi vida acabará.</l>
+            <l>Ea, ya está en la carrera,</l>
+            <l>descubra el pecho robusto</l>
+            <l>que, pues lo prometo, es justo</l>
+            <l>seguirla, aunque yo no quiera,</l>
+            <l>por donde le diere gusto.</l>
+            <l>Corra, ¿de qué se demuda?</l>
+            <l>Imagínela desnuda,</l>
+            <l>y visto el rostro y la palma,</l>
+            <l>dígame si en lo del alma</l>
+            <l>algo que no deba duda.</l>
+            <l>Si las dos famosas lumbres</l>
+            <l>se estremaron en la hechura</l>
+            <l>de mi angélica Sigura,</l>
+            <l>Júpiter en las costumbres</l>
+            <l>y Venus en la hermosura,</l>
+            <l>y, si como fuera mía</l>
+            <l>a venir antes un día,</l>
+            <l>la perdí porque no vine,</l>
+            <l>mi cortedad imagine,</l>
+            <l>y acabarme ha, si porfía.</l>
+          </sp>
+          <stage>[Sale PERAFÁN.]</stage>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>¿Qué haces aquí, señor, solo?</l>
+            <l>Ven, que te aguarda la cena.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>¡Qué terrible enfado y pena!</l>
+            <l part="I">¿Quién te envía aquí?</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l part="F">Mandolo</l>
+            <l>quien te la dará muy buena.</l>
+            <l>Griego y lágrima de parras,</l>
+            <l>Turia reservado en jarras;</l>
+            <l>lo demás bueno y a punto,</l>
+            <l>tu linaje ilustre junto,</l>
+            <l>yo y Laín con dos guitarras.</l>
+            <l>Pero ¿qué digo? Tu padre</l>
+            <l part="I">viene aquí.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Desvía la silla,</l>
+            <l>y apercibe una letrilla</l>
+            <l>que con mi soledad cuadre.</l>
+          </sp>
+          <stage>[Salen el PADRE DE MARCILLA, MUÑOZ y DON GONZALO.]</stage>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l>¿Qué haces solo aquí, Marcilla?</l>
+            <l>¿Viene todo el mundo a verte</l>
+            <l>y has hecho del jardín, fuerte?</l>
+            <l>Sal y recibe a tus primos.</l>
+          </sp>
+          <sp who="#munoz">
+            <speaker>MUÑOZ</speaker>
+            <l>Contigo a cenar venimos.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Téngolo a muy buena suerte.</l>
+          </sp>
+          <sp who="#gonzalo">
+            <speaker>DON GONZALO</speaker>
+            <l>Por lo que imagino, creo</l>
+            <l>que has de tornear mañana,</l>
+            <l>por dar el precio a doña Ana.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Darele, si en el torneo</l>
+            <l>quien menos lo piensa gana.</l>
+            <l>Solo por serviros salgo,</l>
+            <l>que por lo que en ello valgo,</l>
+            <l>bien me pudiera escusar.</l>
+          </sp>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l>Entrémonos a cenar,</l>
+            <l>y vosotros cantad algo.</l>
+          </sp>
+          <stage>[Vanse.]</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>Auto  III</head>
+        <div type="scene">
+          <head>Scena I</head>
+          <stage>[Salen MARCILLA, HEREDIA, PERAFÁN, DON GONZALO y MUÑOZ.]</stage>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="I">¿Hase bebido fresco, Heredia?</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="F">Fresco.</l>
+            <l>A serlo más, pues todo estremo es malo,</l>
+            <l>fuerale mal a quien vence un tudesco</l>
+            <l>como yo, que entre griegos me señalo.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Ea, pues a lo grave o lo burlesco,</l>
+            <l>siquiera porque te oiga don Gonzalo,</l>
+            <l>si alegra el vino y tan de veras brindas,</l>
+            <l>cántanos dos letrillas, pero lindas.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>Pláceme, pero nadie burle o fisbe.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="I">Fisgue dirás.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l part="M">Pues fisgue dije.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Acaba.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>Diré cómo a Leandro esperó Tisbe.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Sé que Píramo fue a quien esperaba.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>Aunque de Masinisa y Sofonisbe...</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="I">Di Sofonisba.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l part="F">...el tono y letra es brava.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Dínosla, con que sola una vez temples,</l>
+            <l>y ninguna te escuches y contemples.</l>
+          </sp>
+          <stage>[Canta PERAFÁN.]</stage>
+          <stage>Soneto</stage>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>Si porque Sofonisba te lo manda</l>
+            <l>contra Scipión revuelves, Masinisa,</l>
+            <l>siguiendo las banderas y divisa</l>
+            <l>de Aníbal, que apretando al cónsul anda,</l>
+            <l>¿por qué, di, si Cartago se desmanda</l>
+            <l>contra Scipión después, le das tal prisa,</l>
+            <l>que apenas Sofonisba el suelo pisa</l>
+            <l>sigura, cuando Roma la demanda?</l>
+            <l>Prometióme esa dama casamiento,</l>
+            <l>y porque la dio a Siface Cartago,</l>
+            <l>me le muestro tan áspero y sangriento,</l>
+            <l>y si lo que me escribe Scipión hago,</l>
+            <l>la falta de ella y mi desabrimiento,</l>
+            <l>ni merece, ni pide menor pago.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="I">Basta. ¿Qué haremos?</l>
+          </sp>
+          <sp who="#gonzalo">
+            <speaker>DON GONZALO</speaker>
+            <l part="F">Vámonos, si mandas,</l>
+            <l>de máscara y con música a las bodas.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="I">¿Con qué invención?</l>
+          </sp>
+          <sp who="#gonzalo">
+            <speaker>DON GONZALO</speaker>
+            <l part="F">Si por ver manos andas,</l>
+            <l>la de gitana es la mejor de todas.</l>
+          </sp>
+          <sp who="#munoz">
+            <speaker>MUÑOZ</speaker>
+            <l>Lo más llano es echarnos sendas bandas,</l>
+            <l>y en medio el pecho un hábito de Rodas.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Mas lo de Barcelona es más ligero:</l>
+            <l>ropa de levantar, manto y sombrero.</l>
+            <l>Digo que es bueno. Traigan cuatro mantos.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Tres bastará que traigan y tres ropas.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="I">¿No somos cuatro?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Sí, pero no tantos,</l>
+            <l part="I">pues yo no voy.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="F">Sepamos y ¿en qué topas?</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Iguala de ese manto ambos los cantos,</l>
+            <l>tus hopalandas tiende o landashopas,</l>
+            <l>y porque agora no me pidas nada,</l>
+            <l>pues pedir lo que no hay para qué, enfada.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Tu descontento veo, pero callo</l>
+            <l part="I">por no cansarte.</l>
+          </sp>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">Heredia mío, perdona,</l>
+            <l>que aunque solo [en tu] brazo fuerzas hallo,</l>
+            <l>para ir do voy no he menester persona.</l>
+            <l>Procura como yo disimulallo,</l>
+            <l>y en tanto, pues a fuer de Barcelona</l>
+            <l>disfrazados estáis, partíos delante,</l>
+            <l>que tras vosotros voy con un montante.</l>
+          </sp>
+          <stage>[Vanse HEREDIA, PERAFÁN, DON GONZALO y MUÑOZ. Queda MARCILLA.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena II</head>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Muchas cosas llevadas con prudencia</l>
+            <l>muy mejor se guiaran si con furia</l>
+            <l>lo último emprendieran de potencia,</l>
+            <l>como Pelayo lo mostró en Asturia;</l>
+            <l>que dañe una pequeña resistencia,</l>
+            <l>siendo grande la pérdida y la injuria,</l>
+            <l>danos muy clara prueba y testimonio,</l>
+            <l>sobre el arnés de Aquiles, Telamonio.</l>
+            <l>¿De qué sirvió lo que allanar pudiera,</l>
+            <l>llevarlo por retóricas y votos,</l>
+            <l>sino para ir después como una fiera</l>
+            <l>por tremedales, páramos y sotos?</l>
+            <l>Si la famosa espada revolviera,</l>
+            <l>que a los griegos dejó mil veces rotos,</l>
+            <l>y aplicara sus fuerzas varoniles,</l>
+            <l>¿perdiera el arnés trágico de Aquiles?</l>
+            <l>Si con prudencia y flojedad lo llevo,</l>
+            <l>hoy perderé mi dulce y cara prenda,</l>
+            <l>y quizá no habrá alguno, si me atrevo,</l>
+            <l>que me resista o que me la defienda.</l>
+            <l>Pero si como hidalgo hacer no debo</l>
+            <l>cosa que al honor de ella y de él ofenda,</l>
+            <l>¿he de perder, por complacerme, el nombre</l>
+            <l>que me hace ser entre los hombres hombre?</l>
+            <l>Si a la razón tantico me sujeto,</l>
+            <l>claro está que no haré cosa que valga,</l>
+            <l>pues si la he de perder por ser discreto,</l>
+            <l>¿serelo? No. Lo que saliere, salga.</l>
+            <l>Embisto por cumplir lo que prometo</l>
+            <l>con mi bajel, que entre la arena y alga</l>
+            <l>se queda, y porque tardo un hora sola,</l>
+            <l>¿acusa mi tardanza? Deseola.</l>
+            <l>Tan deseada fue como aquel día</l>
+            <l>que dio a Semíramis Nino el gobierno,</l>
+            <l>la cual para matalle le pedía,</l>
+            <l>debajo de lenguaje humilde y tierno.</l>
+            <l>Pues esta en ver que dármela podía,</l>
+            <l>so color de a su padre darle yerno,</l>
+            <l>que es el metal con que lo pule y dora,</l>
+            <l>me destruyó por no esperarme un hora.</l>
+            <l>¿Que no he de perseguir a quien me trata</l>
+            <l>con tanta ingratitud? Que la persiga.</l>
+            <l>¡Bueno es que viva una mujer ingrata</l>
+            <l>por miedo que de mí y de ella se diga!</l>
+            <l>La injuria lengua y manos me desata,</l>
+            <l>mas la razón, que a refrenar me obliga,</l>
+            <l>con tan vivas razones la disculpa</l>
+            <l>que carga sobre mí toda la culpa.</l>
+            <l>Quiero ir do está, y no porque halle masa</l>
+            <l>de ofender o dañarla en un cabello,</l>
+            <l>mas, quizá, porque viendo lo que pasa</l>
+            <l>desataré del duro yugo el cuello.</l>
+            <l>Muy bien sé los rincones de la casa.</l>
+            <l>Ayúdame también para emprendello</l>
+            <l>ver que la baraúnda y tabaola</l>
+            <l>juntamente la ocupa y deja sola.</l>
+            <l>También es hora cómoda, pues veo</l>
+            <l>que se van poco a poco las visitas.</l>
+            <l>¡Ah, Dios, ya puedes ver con quien peleo,</l>
+            <l>pues el furioso viento y mar limitas,</l>
+            <l>do sin aguja corro con el treo!</l>
+            <l>¿Qué gracias pienso darte hoy? Infinitas.</l>
+            <l>Desde aquí te las doy, Señor, si acierto</l>
+            <l>echar en breve la áncora en el puerto.</l>
+            <l>¡Qué ocasión tan gentil se me presenta!</l>
+            <l>Que entre esta gente que anda, sube y baja,</l>
+            <l>pues no puede tenerse especial cuenta,</l>
+            <l>quien no quiere encajarse, no se encaja:</l>
+            <l>quiero, pues, aunque el hábito desmienta,</l>
+            <l>entremeterme entre la gente baja.</l>
+            <l>De los demás, pues sale doña Elvira,</l>
+            <l>ninguno, envuelto en verla, en otro mira.</l>
+          </sp>
+          <stage>[Vase.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena III</head>
+          <stage>[Salen DOÑA ELVIRA, INÉS, DON JUAN y un PAJE.]</stage>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>Siendo Eufrasia nuestra amiga,</l>
+            <l>mal nos han tratado, Inés.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Lo bueno y de notar es</l>
+            <l>que, tras lo que nos castiga,</l>
+            <l>se le deslizan los pies.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l part="I">¿Y es ello?</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Fiestas y bodas.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>De ese mal morimos todas.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>¡Ah dichoso punto y hora,</l>
+            <l>si a lo que dices agora,</l>
+            <l>con quien debes te acomodas!</l>
+            <l part="I">Paje, ¿qué hora dio?</l>
+          </sp>
+          <sp who="#paje_juan">
+            <speaker>PAJE</speaker>
+            <l part="F">Las doce.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>¿Parécete que es muy tarde?</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Para quien de amores arde,</l>
+            <l>hasta que la ocasión goce,</l>
+            <l>seralo mientras aguarde.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>¿Aguárdasla, por ventura?</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Callarlo sería cordura,</l>
+            <l>si por dicha la esperase.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l part="I">¿Y si paso punto?</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l part="F">Pase,</l>
+            <l>pues quien sabes me asigura.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>Asigúrate ¿de qué?</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>De lo que promete y creo.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>¿Y si te engaña el deseo?</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Pasa de crédito y fe</l>
+            <l>lo que por mis ojos veo.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Poco a poco te descose.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l part="I">Y aun estoy por hablar.</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l part="F">Ose.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿No le consentirás que hable?</l>
+          </sp>
+          <sp who="#elvira">
+            <speaker>DOÑA ELVIRA</speaker>
+            <l>Serale más saludable</l>
+            <l part="I">el callar.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l part="F">Basta, acabóse.</l>
+          </sp>
+          <stage>[Vanse. Sale MARCILLA.]</stage>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l>Pues dentro de la casa otri no queda,</l>
+            <l>ver mi mal quiero ver de qué me vale;</l>
+            <l>que al hombre que lo sienta y verlo pueda,</l>
+            <l>si no le da por libre, acabarale.</l>
+            <l>Todo este cuarto de la casa rueda,</l>
+            <l>y al aposento de los novios sale.</l>
+            <l>Helos do vienen. ¡Sus!, voy a esconderme</l>
+            <l>tras su cama, a la parte que ella duerme.</l>
+            <l>Pero después que duerma su marido,</l>
+            <l>si por caso me alargo a darle un beso,</l>
+            <l>¿serame fácilmente concedido?</l>
+            <l>¿Cómo fácil? Negocio es de gran peso,</l>
+            <l>que aunque muestra ser poco lo que pido,</l>
+            <l>mucho nos da quien osa dar un beso;</l>
+            <l>aunque al besar se puede mostrar clara,</l>
+            <l>claramente que el beso en beso para.</l>
+          </sp>
+          <stage>[Vase.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena IV</head>
+          <stage>[Salen SIGURA y su MARIDO.]</stage>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Y así ocupada del miedo,</l>
+            <l>como no me certifico</l>
+            <l>de ello, no te lo suplico,</l>
+            <l>hasta atinar con el dedo</l>
+            <l>o rastreallo tantico.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Empacho y temor despide,</l>
+            <l>y luego tantea y mide</l>
+            <l>todo lo que valgo y puedo;</l>
+            <l>y desterrado ese miedo,</l>
+            <l>y vistas mis fuerzas, pide.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Honesto es lo que te pido,</l>
+            <l>y que puedes a placer</l>
+            <l>cumplillo. ¿Quiéreslo ver?</l>
+            <l>Una mujer lo hará. Dido</l>
+            <l>lo acabó con ser mujer.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>¿Tras que me dé muerte vas?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Muy fuera del blanco das.</l>
+            <l>Pido que como fue casta,</l>
+            <l>a serlo te esfuerces hasta...</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="I">¿Hasta?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l part="F">Mañana no más.</l>
+            <l>Mira el nombre de Scipión</l>
+            <l>cuán bien dentro España suena</l>
+            <l>por lo que hizo en Cartagena,</l>
+            <l>que hay mil otros que lo son</l>
+            <l>y este es bueno a boca llena.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Que a gloria se le atribuya</l>
+            <l>de que, pudiendo ver, huya</l>
+            <l>de una dama, ¡bien! ¿Qué hiciera,</l>
+            <l>si su rostro y beldad viera</l>
+            <l>como yo, que veo la tuya?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>¿Qué? Lo que Alejandre hizo,</l>
+            <l>vista la mujer de Darío.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Tras presumir lo contrario,</l>
+            <l>del griego me escandalizo,</l>
+            <l>casto, pero temerario.</l>
+            <l>Mas ¿para qué el tiempo gasto?</l>
+            <l>Que Alejandre fuese casto,</l>
+            <l>fue con quien serlo debía,</l>
+            <l>mas siendo tú prenda mía,</l>
+            <l>ni quiero serlo, ni basto.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Recoge un poco la rienda,</l>
+            <l>que si este don me concedes,</l>
+            <l>yo haré que mañana quedes...</l>
+            <l>Y cuando te lo defienda,</l>
+            <l>entonces tú mesmo puedes...</l>
+            <l>Hágolo, porque es decoro</l>
+            <l>-como aderezo y mejoro</l>
+            <l>el cuerpo con oro y seda-</l>
+            <l>perficionarle, pues queda</l>
+            <l>virgen más limpio que el oro;</l>
+            <l>y así, aunque del matrimonio</l>
+            <l>sea el fin lícito y justo,</l>
+            <l>dame el dilatarle gusto.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Quisiera ser lo que Antonio,</l>
+            <l>pero no soy tan robusto.</l>
+            <l>Porque tus ojos y frente,</l>
+            <l>rasgados y transparente,</l>
+            <l>la proporción, el matiz</l>
+            <l>de tus labrios y nariz</l>
+            <l>provócanme estrañamente.</l>
+            <l>Y pues me las entregaste,</l>
+            <l>visto que son prendas mías,</l>
+            <l>¿qué entrañas habrá tan frías,</l>
+            <l>o qué espíritu que baste,</l>
+            <l>a sufrir lo que desvías?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>¿Y si lo voté por hoy?</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>¿Qué vale, si no te doy</l>
+            <l>licencia? ¿No ves que el voto</l>
+            <l>por mi interés queda roto,</l>
+            <l>si eres mía y tuyo soy?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Bien, pero estoy mal dispuesta.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Mala estás, como yo malo.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Y más de lo que señalo.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Es enfermedad compuesta</l>
+            <l>de melindre y de regalo.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>A la fe, señor, causola</l>
+            <l>el estruendo y tabaola,</l>
+            <l>el calor y la estrechura.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Muestra. Para calentura</l>
+            <l>le falta una cosa sola,</l>
+            <l>y es excesivo calor.</l>
+            <l>En sequedad no reparo,</l>
+            <l>que averiguado está y claro</l>
+            <l>que no puede haber humor</l>
+            <l>dentro un pecho tan avaro.</l>
+            <l>Y quien a tal punto llega</l>
+            <l>de avaricia, que me niega</l>
+            <l>lo que me entregó a la clara,</l>
+            <l>no como quiera es avara,</l>
+            <l>pero, en su género, ciega.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>¿Y tú presumes de largo,</l>
+            <l>y al primer don que te pido</l>
+            <l>te muestras tan encogido?</l>
+            <l>Ve, que tras no serte en cargo,</l>
+            <l>siento habértele pedido.</l>
+            <l>Si en invierno te pidiera</l>
+            <l>la sazón de primavera,</l>
+            <l>y en la primavera el fruto</l>
+            <l>que da el tiempo más enjuto...</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Fuérame cosa ligera.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Son palabras embaidoras,</l>
+            <l>con que en efeto lo doras.</l>
+            <l>¿A lo imposible te obligas,</l>
+            <l>y de esperar te fatigas</l>
+            <l>lo que habrás en breves horas?</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="I">Señora...</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l part="F">No me repliques,</l>
+            <l>haz lo que imaginas luego,</l>
+            <l>que pues tu lengua es de fuego,</l>
+            <l>hará que le multipliques</l>
+            <l>si la salida le niego.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>¿Búrlaste, o hablas de veras?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l part="I">¿Burlar?</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="F">Pues si perseveras,</l>
+            <l>¿qué fuerza tengo o poder</l>
+            <l>para acabar o emprender</l>
+            <l>otro de lo que tú quieras?</l>
+            <l>Necedad será emprendello</l>
+            <l>contra tu voluntad, pues,</l>
+            <l>no digo con dos o tres,</l>
+            <l>pero con solo un cabello</l>
+            <l>me ataras manos y pies.</l>
+            <l>Y entrémonos, que de sueño</l>
+            <l>más pesado estoy que un leño.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Sí, pero ¿con qué siguro?</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Basta. A pena de perjuro</l>
+            <l>mi palabra y fe te empeño.</l>
+          </sp>
+          <stage>[Vanse.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena V</head>
+          <stage>[Sale EUFRASIA.]</stage>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>Digo que van flojamente</l>
+            <l>a la batalla amorosa,</l>
+            <l>pues ni ella espera, ni él osa.</l>
+            <l>Quizá a estar como otro a diente,</l>
+            <l>fuera diferente cosa.</l>
+            <l>¡Ah!, con qué desasosiego</l>
+            <l>corre un apetito ciego</l>
+            <l>tras mil cosas, que en haberlas,</l>
+            <l>si eran orientales perlas,</l>
+            <l>a no serlo vienen luego.</l>
+            <l>Si do esperamos regalo</l>
+            <l>sucede luego un desdén,</l>
+            <l>cuando por caso me den</l>
+            <l>mis padres a don Gonzalo</l>
+            <l>¿parecerémonos bien?</l>
+            <l>Sí, pues por lo que en él veo</l>
+            <l>diferente de otros, creo</l>
+            <l>que en el postrer punto y hora,</l>
+            <l>como en otros empeora,</l>
+            <l>terná más fuerza el deseo.</l>
+            <l>Pero entre tanto, acechemos:</l>
+            <l>maldad es, yo lo confieso,</l>
+            <l>aunque por venirme avieso</l>
+            <l>solo siento que hace estremos</l>
+            <l>el novio, por darle un beso.</l>
+            <l>Triste novio, pero guay</l>
+            <l>de ella, que en él fuerzas hay,</l>
+            <l>por más que resista y parle,</l>
+            <l>para dársele y tomarle,</l>
+            <l part="I">si se le quiere dar.</l>
+          </sp>
+          <stage>[Dentro.]</stage>
+          <sp who="#marcilla">
+            <speaker>MARCILLA</speaker>
+            <l part="F">¡Ay!</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>¡Qué suspiro tan profundo!</l>
+            <l>Si con su guadaña y hoz</l>
+            <l>Atropos lo más feroz</l>
+            <l>desarraigara del mundo,</l>
+            <l>¿formara el aire tal voz?</l>
+            <l>El cabello se me eriza,</l>
+            <l>y de color de ceniza</l>
+            <l>estoy, y estará quien mira,</l>
+            <l>que quien de esta arte suspira,</l>
+            <l>si ya no es muerto, agoniza.</l>
+            <l>¿Qué espero o en qué reparo?</l>
+            <l>Que si esto a saberlo asoma,</l>
+            <l>y en estos pasos me toma,</l>
+            <l>hará de mí el viejo avaro</l>
+            <l>lo que hizo Nerón de Roma.</l>
+            <l>Ir, pues, quiero a mi aposento,</l>
+            <l>y de acechar me arrepiento.</l>
+            <l>Mas de temor y congoja,</l>
+            <l>tan rendida estoy y floja,</l>
+            <l>que me faltan pies y aliento.</l>
+          </sp>
+          <stage>[Vase.]</stage>
+        </div>
+      </div>
+      <div type="act">
+        <head>Auto  IV</head>
+        <div type="scene">
+          <head>Scena I</head>
+          <stage>[Salen SIGURA y su MARIDO.]</stage>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>A no pretender que eres</l>
+            <l>tan diferente en obras y costumbres</l>
+            <l>de las otras mujeres</l>
+            <l>que puedes darnos lumbre,</l>
+            <l>diérame este negocio pesadumbre;</l>
+            <l>pero quien de ver echa</l>
+            <l>tu vida, que jamás desmintió en cosa,</l>
+            <l>cualquier sombra o sospecha</l>
+            <l>que tenga escandalosa</l>
+            <l>despide, y despidiéndola, reposa.</l>
+            <l>Aunque quiero, con todo,</l>
+            <l>ya que la muerte se divulgue y sepa,</l>
+            <l>que no se entienda el modo;</l>
+            <l>pues corta el vulgo y trepa,</l>
+            <l>y hace que, donde no hay malicia, quepa.</l>
+            <l>No dirá lo que pasa</l>
+            <l>quien viere que Marcilla te ha querido,</l>
+            <l>y que muere en mi casa:</l>
+            <l>por eso abre el oído,</l>
+            <l>y no muevas, sacándole, ruido.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Señor, como lo mandes.</l>
+            <l>Mira bien que la noche es breve y corta,</l>
+            <l>y en estos casos grandes</l>
+            <l>la diligencia importa.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Verdad es, mas sosiégate y reporta.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Todo está libre y quedo.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Ea, saquémosle. Pero yo solo,</l>
+            <l>como lo ves, no puedo.</l>
+            <l>Sostén, mientras le arbolo.</l>
+            <l>Pero que tú le tengas, ¿mereciolo?</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>No apuntes, señor, eso.</l>
+            <l>Basta que, porque a ti y a mí nos cuadre,</l>
+            <l>nos partamos el peso.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Aquí duerme su padre.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>¡Pues sus!, recójale su antigua madre.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Ya que se queda agora</l>
+            <l>do entenderán en darle sepultura,</l>
+            <l>volvámonos, señora,</l>
+            <l>que amanece, y procura</l>
+            <l>cubrir lo que la noche encubre oscura.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Paso, no hables palabra,</l>
+            <l>que las ventanas de su padre siento.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Pues antes que las abra,</l>
+            <l>vámonos. Prisa y tiento.</l>
+            <l>Recoge de una vez huelgo y aliento.</l>
+          </sp>
+          <stage>[Vanse.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena II</head>
+          <stage>[Salen el PADRE DE MARCILLA y PERAFÁN.]</stage>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l part="I">¿Que solo se partió, Perafán?</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l part="F">Solo.</l>
+          </sp>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l>¡Jesús! Espántome que no haya vuelto.</l>
+            <l part="I">¿Y a Heredia le encubrió el por qué?</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l part="F">Encubriólo</l>
+            <l>por ir sin él do fue más libre y suelto.</l>
+            <l part="I">Pero, señor...</l>
+          </sp>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l part="M">¿Qué dices?</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l part="M">Helo.</l>
+          </sp>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l part="F">¿Dólo?</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>¿No lo ves con su propio manto envuelto?</l>
+          </sp>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l>Corre, ve, Perafán, que tras ti bajo.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l part="I">¡Señor, señor!</l>
+          </sp>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l part="F">Quedito, habla más bajo.</l>
+          </sp>
+          <sp who="#perafan">
+            <speaker>PERAFÁN</speaker>
+            <l>Pero salga mi voz amarga y rompa</l>
+            <l>las entrañas durísimas de piedra,</l>
+            <l>pues la muerte trocó en luto su pompa,</l>
+            <l>y en fúnebre ciprés la verde hiedra.</l>
+            <l>¿Que puede ser que ataje y que interrompa</l>
+            <l>el curso, cuando más florece y medra</l>
+            <l>un mozo, en lo más dulce de la vida,</l>
+            <l>al parecer sin golpe y sin herida?</l>
+            <l>Empresas de ella son, pero tiranas,</l>
+            <l>pues contra toda ley el brazo tiende,</l>
+            <l>siendo su natural presa las canas,</l>
+            <l>donde naturaleza más se ofende.</l>
+            <l>Muerte, si por mostrarte justa allanas</l>
+            <l>cualquier edad y condición, entiende</l>
+            <l>que aunque al pobre le iguales con el rico,</l>
+            <l>yerras en acortar la edad tantico.</l>
+            <l>Todo lo que debajo el cielo nace</l>
+            <l>sujeto es a morir, pero no dudo</l>
+            <l>de que a naturaleza le desplace</l>
+            <l>ver que no llegue al término que pudo;</l>
+            <l>y así, como el discurso entero trace,</l>
+            <l>y quiera que al nacer nazca desnudo,</l>
+            <l>puesto que al rico iguale con el pobre,</l>
+            <l>no quiere que del tiempo falte o sobre.</l>
+            <l>Asaltas una edad, muerte enemiga,</l>
+            <l>que hará ventaja a todas las edades.</l>
+            <l>De las bocas del Nilo nos lo diga</l>
+            <l>hasta el famoso término de Gades</l>
+            <l>la morisma, con quien has hecho liga;</l>
+            <l>y no te escandalices ni te enfades,</l>
+            <l>que así como de término careces,</l>
+            <l>al bárbaro sin fe le favoreces.</l>
+            <l>Pero consuélame en parte y alivia</l>
+            <l>que esa fe que le muestras y te muestra,</l>
+            <l>si es que puede haber fe remisa y tibia,</l>
+            <l>como es, siendo entre bárbaros, la vuestra,</l>
+            <l>no borrarán en Mauritania y Libia</l>
+            <l>lo que hizo su famoso brazo y diestra:</l>
+            <l>pues lo que tú resuelves en ceniza,</l>
+            <l>la fama lo reviva y eterniza.</l>
+          </sp>
+          <stage>[Salen HEREDIA, MUÑOZ y DON GONZALO.]</stage>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="I">¿Qué daño es el que oigo?</l>
+          </sp>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l part="F">Irreparable.</l>
+            <l>¿Echas de ver tu buen amigo, Heredia?</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="I">¡Jesús! ¿Quién le mató?</l>
+          </sp>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l part="F">¡Haz que nos hable!</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>¡Si por milagro Dios no lo remedia!</l>
+            <l>Pero ¿que un hombre tan sagaz y afable,</l>
+            <l>que dio de la menor cosa la media,</l>
+            <l>le maten, y que muera de tal suerte</l>
+            <l>que no se alcance rastro de su muerte?</l>
+            <l>¿Quién duda? Por envidia le habrán muerto;</l>
+            <l>pero por esta espada que me ciño,</l>
+            <l>de no ceñirla, visto el hecho cierto,</l>
+            <l>si en sangre del contrario no la tiño;</l>
+            <l>y cuando no, echaré un bando abierto,</l>
+            <l>que al mozo le comprenda, viejo y niño,</l>
+            <l>porque en tan graves casos los estremos</l>
+            <l>han de seguirse, y no lo que solemos.</l>
+          </sp>
+          <sp who="#gonzalo">
+            <speaker>DON GONZALO</speaker>
+            <l>Lo mesmo te ofrecemos, señor tío;</l>
+            <l>dispón y mándanos a la venganza.</l>
+          </sp>
+          <sp who="#padre_marcilla">
+            <speaker>PADRE</speaker>
+            <l>Aunque de vuestros ánimos confío,</l>
+            <l>y veo hasta dó llega vuestra lanza,</l>
+            <l>no tengo tan poquito aliento y brío,</l>
+            <l>aunque los años y vejez me alcanza,</l>
+            <l>que quiera de las armas descargarme,</l>
+            <l>y, a los que me pretenden valer, arme.</l>
+            <l>Entrese agora el cuerpo, que en la calle</l>
+            <l>sin reverencia y cerimonia yace,</l>
+            <l>y Heredia díganos, para enterralle,</l>
+            <l>lo que Italia en tal caso ordena y hace.</l>
+            <l>Después, o se publique o que se calle,</l>
+            <l>lo que más nos conviene y satisface</l>
+            <l>acerca la venganza, si nos sobra</l>
+            <l>del día un punto, se porná por obra.</l>
+          </sp>
+          <sp who="#munoz">
+            <speaker>MUÑOZ</speaker>
+            <l>Pero llevémosle luego a San Pedro,</l>
+            <l>que yo, cuando la sangre y furor arde,</l>
+            <l>hiélome, si al querer cerrar me arriedro,</l>
+            <l>y si me voy tras ella, Dios nos guarde;</l>
+            <l>digo que como niño me desmedro,</l>
+            <l>cuando lo que le dan, se lo dan tarde.</l>
+            <l>Si por hacer las honras del difunto</l>
+            <l>dilatas lo que importa un solo punto...</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Éntrese en casa el cuerpo todavía,</l>
+            <l>que aunque Muñoz acierta en lo que dice,</l>
+            <l>y a mí por el amor que me tenía</l>
+            <l>y liga que en Italia con él hice,</l>
+            <l>me obligue a no perder parte del día,</l>
+            <l>porque no suene mal y escandalice,</l>
+            <l>armado, pues lo tuvo por costumbre,</l>
+            <l>acompáñenle clérigos y lumbre.</l>
+          </sp>
+          <stage>[Vanse.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena III</head>
+          <stage>[Salen SIGURA y el MARIDO.]</stage>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Con el cuerpo se retira</l>
+            <l>quien, si lo que ha de ver echa,</l>
+            <l>me tomará cuenta estrecha;</l>
+            <l>porque estándome a la mira,</l>
+            <l>¿qué puedo engendrar? Sospecha.</l>
+            <l>Antes que el silencio parle,</l>
+            <l>el pésame voy a darle.</l>
+            <l>Tú en este medio reposa,</l>
+            <l>y no imagines de él cosa</l>
+            <l>que te provoque a mentarle.</l>
+          </sp>
+          <stage>[Vase el MARIDO.]</stage>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l>Ya no más, pues no hay remedio,</l>
+            <l>¿sirve de algo la esperanza?</l>
+            <l>No, mi fortuna me alcanza,</l>
+            <l>y lo que está de por medio</l>
+            <l>me gana lanza por lanza;</l>
+            <l>que aunque en la silla me tuerza,</l>
+            <l>sigún se apaña y esfuerza,</l>
+            <l>doblarme tan poco vale,</l>
+            <l>que las veces que entra y sale</l>
+            <l>me quita el vigor y fuerza.</l>
+            <l>¿Rendirme en la escaramuza?</l>
+            <l>Nadie rendir se le debe,</l>
+            <l>pues el que no se le atreve,</l>
+            <l>cuando las manos le cruza,</l>
+            <l>a mayor rigor la mueve.</l>
+            <l>No, no desesperación.</l>
+            <l>Ríndase Porcia y Catón,</l>
+            <l>que yo fuerzas tengo, y puedo,</l>
+            <l>no dando lugar al miedo,</l>
+            <l>ser más de lo que ellos son.</l>
+            <l>A más que una vida amarga,</l>
+            <l>como la que siento, danos</l>
+            <l>indicios claros y llanos</l>
+            <l>de no poder ser tan larga</l>
+            <l>que haya menester las manos;</l>
+            <l>y pues no me da lugar</l>
+            <l>para haberlas de emplear,</l>
+            <l>lo que a ser la que soy debo,</l>
+            <l>gusto en ver que la que llevo,</l>
+            <l>si es vida, me ha de acabar;</l>
+            <l>y alíviame ver que a toda</l>
+            <l>España y Europa acierte</l>
+            <l>la desgracia de esta muerte,</l>
+            <l>pues que la desacomoda</l>
+            <l>de lo que le cupo en suerte;</l>
+            <l>que aunque en los sucesos buenos</l>
+            <l>no miramos los ajenos,</l>
+            <l>cualquiera pasión y mal,</l>
+            <l>si es común y general,</l>
+            <l>viene a parecernos menos.</l>
+            <l>Llore, pues, conmigo, llore</l>
+            <l>España, o díganos cómo</l>
+            <l>halle hombre de tan gran tomo</l>
+            <l>que, como doraba, dore</l>
+            <l>esta edad grave de plomo.</l>
+            <l>¡Ay, Marcilla, y a qué estremo</l>
+            <l>llego! Piénsalo, Marcilla,</l>
+            <l>que a mostrármele amarilla,</l>
+            <l>visto el hado que le temo,</l>
+            <l>volárame de la silla!</l>
+            <l>En lo que debo restribo,</l>
+            <l>y tanto aliento recibo</l>
+            <l>con tu singular ejemplo,</l>
+            <l>que junto su furia templo</l>
+            <l>y a la muerte me apercibo.</l>
+            <l>Sal de esta escura prisión,</l>
+            <l>alma. Di, ¿quién te lo veda?,</l>
+            <l>que si me dices que pueda,</l>
+            <l>lo que está en el corazón,</l>
+            <l>por darte más pena queda.</l>
+            <l>Pero ¿qué voces son estas</l>
+            <l>tan amargas y funestas?</l>
+            <l>¿Son las de su enterramiento?</l>
+            <l>Para acabarme el tormento,</l>
+            <l>¡sus! las mesas ya están puestas.</l>
+            <l>¡Y que mueres por un beso,</l>
+            <l>cosa tan ligera, y quien</l>
+            <l>no te le da lo haga bien,</l>
+            <l>paréceme grande exceso</l>
+            <l>de ingratitud y desdén!</l>
+            <l>La resistencia y contraste,</l>
+            <l>si es porque no altere y gaste</l>
+            <l>su limpieza y su renombre,</l>
+            <l>turó mientras eras hombre.</l>
+            <l>Mas, pues ya no lo eres, baste.</l>
+            <l>A dártele me resuelvo.</l>
+            <l>No el mesmo, que no ha lugar,</l>
+            <l>y así el que te pienso dar</l>
+            <l>es tal que a dártele vuelvo</l>
+            <l>en la iglesia, ante el altar.</l>
+            <l>Pero ¿qué digo? Entre tanto,</l>
+            <l>¿quién me ha traído aquí el manto?</l>
+          </sp>
+          <stage>[Sale LA IMAGINACIÓN.]</stage>
+          <sp who="#imaginacion">
+            <speaker>IMAGINACIÓN</speaker>
+            <l part="I">Yo, Sigura.</l>
+          </sp>
+          <sp who="#sigura">
+            <speaker>SIGURA</speaker>
+            <l part="F">Veo una sombra,</l>
+            <l>pero una luz, que me nombra,</l>
+            <l>y no me altero ni espanto.</l>
+            <l>Sin duda es visión de paz.</l>
+            <l>Si eres a dicha Marcilla,</l>
+            <l>responde una palabrilla.</l>
+            <l>Hiciéraslo, a ser capaz</l>
+            <l>la que tarde se te humilla.</l>
+            <l>Si hablar no te viene a pelo,</l>
+            <l>lo que pienso hacer, ¿harélo?</l>
+            <l>Desviáraslo a ser malo,</l>
+            <l>Pero, pues siento un regalo</l>
+            <l>dentro del alma, emprenderelo.</l>
+          </sp>
+          <stage>[Vanse.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena IV</head>
+          <stage>[Sale EUFRASIA.]</stage>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l>Ni acierto a ponerme broche</l>
+            <l>ni a componerme el cabello,</l>
+            <l>revolviendo a lo de anoche.</l>
+            <l>Pero, ¿quién pasa por ello,</l>
+            <l>que se componga y abroche?</l>
+            <l>Dicen que una pena afloja</l>
+            <l>ver la alba dorada y roja.</l>
+            <l>No sé mi basca y desmayos</l>
+            <l>es tal que el sol con sus rayos</l>
+            <l>acrecienta mi congoja.</l>
+            <l>¡Que esté el aposento abierto</l>
+            <l>de los novios, y ellos fuera,</l>
+            <l>paréceme desconcierto!</l>
+            <l>Yo, a lo menos, si lo fuera,</l>
+            <l>estorbáralo, por cierto.</l>
+            <l>¡Jesús! ¿Quién madruga, si ama,</l>
+            <l>teniendo al lado una dama</l>
+            <l>tan discreta, hermosa y niña,</l>
+            <l>si no es quien tan mal se aliña,</l>
+            <l>como lo muestra la cama?</l>
+            <l>Apostaré que ha dejado,</l>
+            <l>si se ha visto hoy al espejo,</l>
+            <l>su descontento y enfado.</l>
+            <l>Pero pues hallo aparejo,</l>
+            <l>quiero aliñarme el trenzado,</l>
+            <l>que si una vez se embaraza,</l>
+            <l>apenas se desenlaza</l>
+            <l>sin romperse algunas hebras.</l>
+            <l>Tente, espejo, que te quiebras.</l>
+          </sp>
+          <sp who="#espejo">
+            <speaker>ESPEJO</speaker>
+            <l part="I">Tris.</l>
+          </sp>
+          <sp who="#eufrasia">
+            <speaker>EUFRASIA</speaker>
+            <l part="F">Rompiose noramaza.</l>
+            <l>Soldad, pues, si presumís,</l>
+            <l>mil piezas, que tantas hay.</l>
+            <l>¡Ah, mis…! ¡Basta decir «mis»!</l>
+            <l>Digo que si anoche el «ay»</l>
+            <l>me alteró, me altera el «tris».</l>
+            <l>Ya de este punto Sigura</l>
+            <l>no verá más su figura,</l>
+            <l>porque si el espejo roto</l>
+            <l>llegó a su término coto</l>
+            <l>la dueña de él, por ventura,</l>
+            <l>que ha de ser tanto el enojo,</l>
+            <l>por quien niña se le dio,</l>
+            <l>que quisiera haberme yo</l>
+            <l>más presto rompido un ojo</l>
+            <l>que ser la que le rompió.</l>
+            <l>¡Mas diréis que Teruel se hunda</l>
+            <l>a voces y baraúnda!</l>
+            <l>Quiérome asomar y ver,</l>
+            <l>de los galanes de ayer,</l>
+            <l>quién y sobre qué la funda.</l>
+          </sp>
+          <stage>[Vase.]</stage>
+        </div>
+        <div type="scene">
+          <head>Scena V</head>
+          <stage>[Salen DON JUAN, SIGURA, el MARIDO DE SIGURA, MUÑOZ, HEREDIA, CONDE, GOBERNADOR DE TERUEL.]</stage>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>¿Es tu mujer la que le ha dado el beso?</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Sí. ¿Qué es lo que pretendes hacer, primo?</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Si esta injuria no sientes, yo la peso,</l>
+            <l>que, más que a todo el mundo, tu honra estimo.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Puesto que de coraje pierdo el seso,</l>
+            <l>con la razón la cólera reprimo.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>¿La razón me dirás que se atraviesa</l>
+            <l>entre el beso y el hombre que la besa?</l>
+            <l>Cobardía la llama, y no cordura,</l>
+            <l part="I">sufrir una...</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="F">Quedito, no des voces.</l>
+            <l>Mira Muñoz, que es deudo de Sigura.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>¡Dáseme por Marcillas y Muñoces!</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Quien mucho habla a mucho se aventura.</l>
+            <l>Detente, así tus caras prendas goces.</l>
+            <l>Verás que ni Marcilla me hizo tuerto,</l>
+            <l>ni Sigura besando un hombre muerto.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>Vete, que de mi casa degeneras,</l>
+            <l>hombre que no mereces solo el nombre.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Yo lo soy, refrenándome de veras,</l>
+            <l>tú, con enojo, dejas de ser hombre.</l>
+          </sp>
+          <sp who="#juan">
+            <speaker>DON JUAN</speaker>
+            <l>¡Por el sagrado hábito y veneras,</l>
+            <l>que cuando tú me nombres o te nombre,</l>
+            <l>de hoy más, mi deudo...! Basta, yo me parto.</l>
+          </sp>
+          <stage>[Vase DON JUAN.]</stage>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Vete, que a todo el mundo tienes harto.</l>
+          </sp>
+          <sp who="#munoz">
+            <speaker>MUÑOZ</speaker>
+            <l part="I">¿Qué habla don Juan?</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="F">Lo que un furioso y loco.</l>
+          </sp>
+          <sp who="#munoz">
+            <speaker>MUÑOZ</speaker>
+            <l>Pues si con su locura y furor rabia,</l>
+            <l>modérese en mis cosas, que no toco</l>
+            <l part="I">las suyas.</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="F">Un furioso a nadie agravia.</l>
+            <l>Mas para ver que, si habla, importa poco,</l>
+            <l>de una dama sagaz, discreta, sabia,</l>
+            <l>honesta sobre todo y recogida,</l>
+            <l>oye el discurso y tela de su vida.</l>
+            <l>Pasada ya la siesta, anoche fuime</l>
+            <l>a la cama y Sigura, antes que entrase,</l>
+            <l>viendo cuán mal en ella se reprime</l>
+            <l>quien la ocasión por los cabellos ase,</l>
+            <l>forzome -mas ¿qué digo?, persuadime,</l>
+            <l>que no hubo quien mi espíritu forzase-</l>
+            <l>a morir de hambre, viendo al ojo el fruto,</l>
+            <l>y tener dentro la agua el labrio enjuto.</l>
+            <l>Digo que me rogó que hasta hoy quisiese</l>
+            <l>dilatar lo que luego haber pudiera.</l>
+            <l>Rogomelo y salió con su interese,</l>
+            <l>que era quedar, como lo queda, entera.</l>
+            <l>Si merece castigo y que le pese</l>
+            <l>quien lo siguro da por lo que espera</l>
+            <l>merézcole, y no hay dolor más recio</l>
+            <l>que perder, lo que tiene hombre, por necio.</l>
+            <l>Para ver que por tal quedase, baste</l>
+            <l>saber que la perdí por complacerla.</l>
+            <l>Diome un enojo este áspero contraste,</l>
+            <l>y un sueño luego en qué soñé perderla.</l>
+            <l>Pareciome de un fino y rico engaste</l>
+            <l>caérseme entre manos una perla,</l>
+            <l>y ver donde cayó escrita una M,</l>
+            <l>y así con la congoja recordeme.</l>
+            <l>Vi a Sigura en la cama sin aliento,</l>
+            <l>y a Marcilla sin alma vi en el suelo.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l part="I">¿Cómo así, dínoslo?</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="F">Como lo cuento.</l>
+          </sp>
+          <sp who="#conde">
+            <speaker>CONDE</speaker>
+            <l part="I">¡Pues Marcilla! ¿A qué fin?</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l part="F">Oye, y direlo.</l>
+            <l>Siete años antes de este casamiento,</l>
+            <l>siendo Sigura niña y él mozuelo,</l>
+            <l>se quisieron casar, pero estorbolo</l>
+            <l>mi suegro. Fue la causa interés solo.</l>
+            <l>Viendo lo que uno pierde por ser pobre,</l>
+            <l>al rey de Túnez le hizo tantos daños,</l>
+            <l>que para que lo que ha perdido cobre,</l>
+            <l>se habrá de unir con príncipes estraños.</l>
+            <l>Todo este tiempo, sin que falte o sobre</l>
+            <l>punto, que fue por número siete años,</l>
+            <l>Sigura le juró que esperaría</l>
+            <l>su venida, y perdiola por un día.</l>
+            <l>Visto que por faltar un día de plazo,</l>
+            <l>viniendo apercebido con hacienda</l>
+            <l>con su valor ganada y por su brazo,</l>
+            <l>con la cual redimir creyó su prenda,</l>
+            <l>halló mi nuevo estorbo y embarazo.</l>
+            <l>Diole un furor que no hay quien le comprenda.</l>
+            <l>¿Qué mayor, si en mi cámara imaginas</l>
+            <l>verle, puesto detrás de las cortinas?</l>
+            <l>Allí estuvo y, en viéndome dormido,</l>
+            <l>a Sigura le dijo muy quedito:</l>
+            <l>«Por lo que te serví un beso te pido</l>
+            <l>y ese tiempo imagínale infinito».</l>
+            <l>Respondiole: «Si soy de mi marido</l>
+            <l>y te le doy, lo que es suyo le quito.</l>
+            <l>Modérate con lo que fuere justo,</l>
+            <l>y el premio no le pidas a tu gusto».</l>
+            <l>Replicóle: «Sigura, que me muero.</l>
+            <l>Dame un beso». Y negándole Sigura,</l>
+            <l>un gran suspiro dio, que fue el postrero</l>
+            <l>de su desabrimiento y desventura.</l>
+            <l>Soñando lo que ya dije primero,</l>
+            <l>desperté acaso en esta coyuntura,</l>
+            <l>que Sigura, que fue parte y testigo,</l>
+            <l>me quería contar lo que te digo.</l>
+            <l>Siéndome, pues, la cosa descubierta,</l>
+            <l>después de consultarlo una gran pieza,</l>
+            <l>le dejamos delante de su puerta,</l>
+            <l>reclinada a una piedra la cabeza.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>¡Ah, fortuna cruel, traidora, incierta!</l>
+          </sp>
+          <sp who="#marido_sigura">
+            <speaker>MARIDO</speaker>
+            <l>Oye, que la tragedia agora empieza.</l>
+          </sp>
+          <sp who="#conde">
+            <speaker>CONDE</speaker>
+            <l>¿Dirasnos que murió dándole el beso,</l>
+            <l>que se llevó Marcilla en la alma impreso?</l>
+            <l>No, más cuando en tu cámara contemplo</l>
+            <l>cuán moderado fue en pedir Marcilla,</l>
+            <l>y a Sigura después miro en el templo,</l>
+            <l>que para dar lo que pidió se humilla,</l>
+            <l>veo que ha de serviros por ejemplo</l>
+            <l>de castidad y fe pura y sencilla</l>
+            <l>lo que después de tantos años pide,</l>
+            <l>y la razón que a darle se lo impide.</l>
+            <l>Pide el beso con ansias de la muerte,</l>
+            <l>pero con lo que debe se refrena;</l>
+            <l>ella, en negarle, muestra de la suerte</l>
+            <l>que resiste a quien ama la que es buena.</l>
+            <l>Pensar después que en dársele no acierte</l>
+            <l>en la iglesia, de lumbres y hombres llena,</l>
+            <l>es burla, porque no es beso lascivo</l>
+            <l>lo que pudiera, a ser Marcilla vivo.</l>
+            <l>Beso fue piadoso, pero calle</l>
+            <l>quien no se alarga a más de lo que basto,</l>
+            <l>pero con todo piense y medios halle</l>
+            <l>con los cuales alabe amor tan casto.</l>
+          </sp>
+          <sp who="#gobernador">
+            <speaker>GOBERNADOR</speaker>
+            <l>De mármol un sepulcro, pues, se entalle</l>
+            <l>a entrambos, de común dinero y gasto.</l>
+          </sp>
+          <sp who="#heredia">
+            <speaker>HEREDIA</speaker>
+            <l>Estraño caso. ¿Quién imaginara</l>
+            <l>que los junte quien todo lo separa?</l>
+          </sp>
+          <stage>[Sale LA FAMA.]</stage>
+          <sp who="#fama">
+            <speaker>LA FAMA</speaker>
+            <l>Aunque la Parca triunfa el postrer día,</l>
+            <l>quien algo en vida fue, muerto seralo</l>
+            <l>si su valor en público señalo,</l>
+            <l>o descubro la falta que tenía;</l>
+            <l>y así, el que aspiró a la monarquía,</l>
+            <l>por el contrario, el vil Sardanapalo,</l>
+            <l>por bueno el uno, el otro por ser malo,</l>
+            <l>aunque murieron, viven todavía.</l>
+            <l>Marcilla, pues, lo mesmo es hoy que ha sido,</l>
+            <l>y Sigura tras él, como la nombre</l>
+            <l>y me prestéis atentos el oído;</l>
+            <l>pero lo que jamás hice con hombre</l>
+            <l>hago, si lo advertís, con su marido,</l>
+            <l>pues siendo la que soy callo su nombre.</l>
+          </sp>
+        </div>
+        <trailer>FIN</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

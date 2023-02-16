@@ -1,0 +1,4520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="insert here dracor-id" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La toma de Buda</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Juan</forename>
+            <surname>de Montenegro y Neira</surname>
+          </persName>
+          <idno type="wikidata">Q114763501</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Biblioteca Áurea Digital</name>
+          <idno type="URL">https://dadun.unav.edu/bitstream/10171/43471/1/BIADIG37.pdf</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY-NC 3.0</ab>
+              <ref target="http://creativecommons.org/licenses/by-nc/3.0/de/legalcode"
+                >Lizenzvertrag</ref>
+            </licence>
+          </availability>
+          <bibl type="originalSource">
+            <title>de Montenegro y Neira, Juan: La toma de Buda. Auto historial sacramental, ed. by Ignacio Arellano. [BIADIG 37]. Pamplona: Servicio de Publicaciones de la Universidad de Navarra, 2017.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="avaricia" sex="UNKNOWN">
+            <persName>AVARICIA</persName>
+          </person>
+          <person xml:id="hereje" sex="MALE">
+            <persName>HEREJE</persName>
+          </person>
+          <person xml:id="visir" sex="MALE">
+            <persName>VISIR</persName>
+          </person>
+          <person xml:id="unión" sex="UNKNOWN">
+            <persName>UNIÓN</persName>
+          </person>
+          <person xml:id="lorena" sex="MALE">
+            <persName>LORENA</persName>
+          </person>
+          <person xml:id="fe" sex="UNKNOWN">
+            <persName>FE</persName>
+          </person>
+          <personGrp xml:id="coro_2" sex="UNKNOWN">
+            <persName>CORO II</persName>
+          </personGrp>
+          <person xml:id="gula" sex="UNKNOWN">
+            <persName>GULA</persName>
+          </person>
+          <person xml:id="pereza" sex="UNKNOWN">
+            <persName>PEREZA</persName>
+          </person>
+          <personGrp xml:id="otros_dentro" sex="UNKNOWN">
+            <persName>OTROS DENTRO</persName>
+          </personGrp>
+          <person xml:id="alá" sex="MALE">
+            <persName>ALÁ</persName>
+          </person>
+          <person xml:id="ernesto" sex="MALE">
+            <persName>ERNESTO</persName>
+          </person>
+          <person xml:id="mustafá" sex="MALE">
+            <persName>MUSTAFÁ</persName>
+          </person>
+          <person xml:id="serasquier" sex="MALE">
+            <persName>SERASQUIER</persName>
+          </person>
+          <person xml:id="soberbia" sex="UNKNOWN">
+            <persName>SOBERBIA</persName>
+          </person>
+          <person xml:id="música" sex="UNKNOWN">
+            <persName>MÚSICA</persName>
+          </person>
+          <personGrp xml:id="coro_1" sex="UNKNOWN">
+            <persName>CORO I</persName>
+          </personGrp>
+          <person xml:id="serení" sex="MALE">
+            <persName>SERENÍ</persName>
+          </person>
+          <person xml:id="gusto" sex="MALE">
+            <persName>GUSTO</persName>
+          </person>
+          <person xml:id="baviera" sex="MALE">
+            <persName>BAVIERA</persName>
+          </person>
+          <person xml:id="lujuria" sex="UNKNOWN">
+            <persName>LUJURIA</persName>
+          </person>
+          <person xml:id="sultán" sex="MALE">
+            <persName>SULTÁN</persName>
+          </person>
+          <personGrp xml:id="voces_dentro" sex="UNKNOWN">
+            <persName>VOCES DENTRO</persName>
+          </personGrp>
+          <personGrp xml:id="voces_dentro_2" sex="UNKNOWN">
+            <persName>VOCES DENTRO II</persName>
+          </personGrp>
+          <person xml:id="ira" sex="UNKNOWN">
+            <persName>IRA</persName>
+          </person>
+          <person xml:id="mosén" sex="MALE">
+            <persName>MOSÉN</persName>
+          </person>
+          <person xml:id="voz_dentro_2" sex="UNKNOWN">
+            <persName>VOZ II</persName>
+          </person>
+          <person xml:id="emperador" sex="MALE">
+            <persName>EMPERADOR</persName>
+          </person>
+          <person xml:id="voz_dentro_1" sex="UNKNOWN">
+            <persName>VOZ I</persName>
+          </person>
+          <person xml:id="abdí" sex="MALE">
+            <persName>ABDÍ</persName>
+          </person>
+          <person xml:id="abdalla" sex="MALE">
+            <persName>ABDALLA</persName>
+          </person>
+          <person xml:id="envidia" sex="UNKNOWN">
+            <persName>ENVIDIA</persName>
+          </person>
+          <personGrp xml:id="mujeres" sex="FEMALE">
+            <persName>[MUJERES]</persName>
+          </personGrp>
+          <person xml:id="discordia" sex="UNKNOWN">
+            <persName>DISCORDIA</persName>
+          </person>
+          <person xml:id="prudencia" sex="UNKNOWN">
+            <persName>PRUDENCIA</persName>
+          </person>
+          <person xml:id="templanza" sex="UNKNOWN">
+            <persName>TEMPLANZA</persName>
+          </person>
+          <person xml:id="justicia" sex="UNKNOWN">
+            <persName>JUSTICIA</persName>
+          </person>
+          <person xml:id="fortaleza" sex="UNKNOWN">
+            <persName>FORTALEZA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-10-19">(LG) first encoding and formatting. Configurations manually added.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1687">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>PERSONAS QUE HABLAN EN ÉL</head>
+        <castItem>EL SEÑOR EMPERADOR</castItem>
+        <castItem>EL DUQUE DE LORENA</castItem>
+        <castItem>EL DUQUE DE BAVIERA</castItem>
+        <castItem>EL CONDE ERNESTO DE ESTAREMBERG</castItem>
+        <castItem>EL CONDE SERENÍ</castItem>
+        <castItem>DON GUSTO, <roleDesc>GRACIOSO</roleDesc></castItem>
+        <castItem>EL GRAN SULTÁN</castItem>
+        <castItem>EL GRAN VISIR</castItem>
+        <castItem>EL SERAS QUIER</castItem>
+        <castItem>ABDÍ, BAJÁ DE BUDA</castItem>
+        <castItem>MUSTAFÁ, <roleDesc>TURCO</roleDesc></castItem>
+        <castItem>ABDALLA, <roleDesc>TURCO</roleDesc></castItem>
+        <castItem>MOSÉN, <roleDesc>JUDÍO</roleDesc></castItem>
+        <castItem>UN HEREJE</castItem>
+        <castItem>LA FE</castItem>
+        <castItem>SIETE VICIOS, <roleDesc>QUE SERÁN SIETE DAMAS</roleDesc></castItem>
+        <castItem>LA DISCORDIA Y LA UNIÓN, <roleDesc>MUJERES</roleDesc></castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="configuration">
+          <stage>En medio del paño estará esta letra latina: Gloria et honore coronasti eum. Psal. 8, v. ó. Debajo della una águila con una corona entre las garras y más ahajo esta castellana:
+            <l>Sus desvelos que dan cuerpo</l>
+            <l>al alma de las historias</l>
+            <l>le coronaron de glorias</l>
+          </stage>
+          <stage>Al lado izquierdo se leerá esta letra latina: Ego dormio et cor meum vigilat. C. 5, v. 2. Y más abajo esta castellana:
+            <l>En el corazón que siente</l>
+            <l>los cuidados de su dueño</l>
+            <l>viene a ser vigilia el sueño.</l>
+          </stage>
+          <stage>Al lado derecho se leerá esta letra latina: Imperium superhumerum eius, Isaiae, c. 9, v. 6. Y más abajo esta castellana:
+            <l>El hombro que de un imperio</l>
+            <l>sustenta el peso constante</l>
+            <l>es hombro de nuevo Atlante.</l>
+          </stage>
+          <stage>Habrá otro paño que se correrá, quedando este descubierto y en medio dél sentado en una silla y dormido el señor emperador con tusón al cuello, un bufete delante y una Biblia sobre la cual descansará el brazo, y sonarán subcesivos dos coros de música.</stage>
+          <sp who="#coro_1">
+            <speaker>CORO I</speaker>
+            <l>A coronarse entre luces</l>
+            <l>de nuevos laureles llega</l>
+            <l>quien velando duerme,</l>
+            <l>quien durmiendo vela.</l>
+          </sp>
+          <sp who="#coro_2">
+            <speaker>CORO II</speaker>
+            <l>Ciñe su gloriosa frente</l>
+            <l>con inmortales diademas</l>
+            <l>quien reinando sirve,</l>
+            <l>quien sirviendo reina.</l>
+          </sp>
+          <stage>Despierta.</stage>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>«¿Quien velando duerme,</l>
+            <l>quien durmiendo vela,</l>
+            <l>quien reinando sirve,</l>
+            <l>quien sirviendo reina?».</l>
+            <l>Del traje de la enseñanza</l>
+            <l>se vistieron las cadencias,</l>
+            <l>que es servidumbre el imperio</l>
+            <l>y esclavitud la diadema.</l>
+            <l>Dígalo de mis cuidados</l>
+            <l>la continuada tarea</l>
+            <l>donde el aliento es suspiro</l>
+            <l>y la vigilancia es deuda.</l>
+            <l>Por diversión eligí</l>
+            <l>la historia más verdadera,</l>
+            <l>sacros anales que el tiempo</l>
+            <l>de siglo en siglo conserva:</l>
+            <l>desde el principio del mundo</l>
+            <l>sus narraciones empiezan</l>
+            <l>y hasta que el fuego le acabe</l>
+            <l>será su verdad perpetua.</l>
+            <l>Aquí se ven las virtudes,</l>
+            <l>las maldades, las cautelas,</l>
+            <l>la gloria de los aciertos</l>
+            <l>y de los yerros la pena,</l>
+            <l>pero deja en la memoria</l>
+            <l>sus especies tan impresas</l>
+            <l>que forma de tanto objeto</l>
+            <l>misteriosas las ideas.</l>
+            <l>Ni al labio le comunica</l>
+            <l>el alma su inteligencia</l>
+            <l>ni es instrumento capaz</l>
+            <l>de tanta expresión la lengua,</l>
+            <l>¡quién a sus alegorías</l>
+            <l>el sutil velo corriera!</l>
+          </sp>
+          <sp who="#coro_1">
+            <speaker>CORO I</speaker>
+            <l>Quien velando duerme,</l>
+            <l>quien durmiendo vela.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>¡Quién digno de tanto empeño</l>
+            <l>explicara sus sentencias!</l>
+          </sp>
+          <sp who="#coro_2">
+            <speaker>CORO II</speaker>
+            <l>Quien reinando sirve,</l>
+            <l>quien sirviendo reina.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Es la armonía de voces</l>
+            <l>oráculo que me enseña,</l>
+            <l>vocal aliento que inspira</l>
+            <l>y respiración que alienta;</l>
+            <l>tanto logra aquel a quien</l>
+            <l>su obligación le desvela...,</l>
+          </sp>
+          <sp who="#coro_1">
+            <speaker>CORO I</speaker>
+            <l>A coronarse entre luces</l>
+            <l>de nuevos laureles llega...</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>...tanto adquiere quien el cetro</l>
+            <l>como cayado maneja.</l>
+          </sp>
+          <sp who="#coro_2">
+            <speaker>CORO II</speaker>
+            <l>Ciñe su gloriosa frente</l>
+            <l>con inmortales diademas.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>¡Quién tan dichoso será</l>
+            <l>que hacer en su imperio pueda</l>
+            <l>mérito la servidumbre!</l>
+          </sp>
+          <sp who="#coro_1">
+            <speaker>CORO I</speaker>
+            <l>Quien durmiendo vela.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>¡Quién tan feliz que ajustado</l>
+            <l>de la razón a las reglas</l>
+            <l>trueque el reinar en servir!</l>
+          </sp>
+          <sp who="#coro_2">
+            <speaker>CORO II</speaker>
+            <l>Quien sirviendo reina.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>¿Luego será más feliz</l>
+            <l>quien desvelado gobierna?</l>
+          </sp>
+          <sp who="#coro_2">
+            <speaker>CORO II</speaker>
+            <l>Quien reinando sirve,</l>
+            <l>quien durmiendo vela.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Séneca y Tácito dicen</l>
+            <l>que exceden sin competencia</l>
+            <l>las tareas de un monarca</l>
+            <l>a las rústicas tareas;</l>
+            <l>dígalo yo, que afanado</l>
+            <l>en católicas empresas</l>
+            <l>si no me vencen me apuran,</l>
+            <l>si no me rinden me inquietan;</l>
+            <l>pero liberal el cielo</l>
+            <l>hace a su costa la guerra</l>
+            <l>con que yo pongo la mano</l>
+            <l>cuando su brazo la fuerza.</l>
+            <l>¡Oh, quién pudiera explicar</l>
+            <l>sus ansias! ¡Oh, quién pudiera</l>
+            <l>al calor de sus afectos</l>
+            <l>avivar cenizas muertas!</l>
+            <l>Ese enemigo común,</l>
+            <l>hidra de siete cabezas,</l>
+            <l>que al Nilo con tantas bocas</l>
+            <l>si no le sorbe le estrecha,</l>
+            <l>ese veneno con alma</l>
+            <l>que respirada centella</l>
+            <l>es un ardiente bostezo</l>
+            <l>del monstruo de las tinieblas,</l>
+            <l>cuatro años ha que inundó</l>
+            <l>del Danubio la ribera</l>
+            <l>con tempestades de brutos</l>
+            <l>y con diluvios de fieras.</l>
+            <l>En sus márgenes el río</l>
+            <l>lloró, marchitas sus hierbas,</l>
+            <l>el agravio de sus flores,</l>
+            <l>pues unas y otras se afrentan,</l>
+            <l>las hierbas de que las pacen,</l>
+            <l>las flores de que las güellan.</l>
+            <l>Con enroscadas gargantas</l>
+            <l>quiso tragarse a Viena</l>
+            <l>y fugitivo lloró</l>
+            <l>desvanecida la empresa.</l>
+            <l>Las promesas le empeñaron</l>
+            <l>de un rebelde a mi obediencia,</l>
+            <l>pero ¿cuándo de un traidor</l>
+            <l>no son vanas las promesas?</l>
+            <l>Este atrevimiento, pues,</l>
+            <l>dio motivo a la reseña</l>
+            <l>de mis tropas y al empeño</l>
+            <l>de auxiliares asistencias;</l>
+            <l>todas están prevenidas</l>
+            <l>en esa marcial palestra,</l>
+            <l>siendo el celo quien las rige</l>
+            <l>y la Fe quien las sustenta.</l>
+            <l>De mi disignio sus cabos</l>
+            <l>la resolución esperan</l>
+            <l>y a nuevo sitio de Buda</l>
+            <l>sagrado impulso me afrenta.</l>
+            <l>No la ambición de dominios</l>
+            <l>a sus asaltos me empeña,</l>
+            <l>que siempre queda vencido</l>
+            <l>el ambicioso, aunque venza;</l>
+            <l>no la ruina de sus muros,</l>
+            <l>no el botín de sus riquezas,</l>
+            <l>pues solo por repartirlas</l>
+            <l>será gusto el poseerlas.</l>
+            <l>Trofeo mayor me llama</l>
+            <l>con alegóricas señas</l>
+            <l>que en esta sagrada historia</l>
+            <l>hace al discurso la idea.</l>
+            <l>Sean pues de aleve sangre</l>
+            <l>con epitafios de piedra</l>
+            <l>fatal sepulcro los fosos,</l>
+            <l>monumento las almenas.</l>
+            <l>Vuelva la corte de Hungría</l>
+            <l>a su antiguo ser, y vuelva</l>
+            <l>a coronarse el cordero...</l>
+            <stage>Suenan por las dos partes trompetas y cajas y levante.</stage>
+            <l>Pero ya de las trompetas</l>
+            <l>el eco marcial avisa</l>
+            <l>que se ha pasado la muestra.</l>
+          </sp>
+          <stage>Salen por una puerta el duque de Lorena con tusón, y don Gusto, y por otra el de Baviera también con tusón, y el señor Emperador les quita el sombrero.</stage>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>La reseña de tus armas...</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>De mis tropas la reseña...</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>... se hizo.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>... se ejecutó.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Solo falta...</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Solo resta...</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>... que a la parte que ordenares...</l>
+            <l>vayan tropas y banderas.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>... que a la parte que eligieres</l>
+            <l>se encamine mi obediencia.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Las águilas de tu imperio</l>
+            <l>verás, señor, cómo vuelan...</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Con alas de mi deseo</l>
+            <l>espero pisar estrellas...</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>... porque impaciente el bridón</l>
+            <l>con plumas el aire peina.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>... en el instante las picas</l>
+            <l>han de ser rayo en su diestra.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Prevenido el tren, relincha...</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Preñado el bronce revienta...</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>... para que lleguen a ser...</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>... para que asombros sean...</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>... borrón del día las plumas.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>... susto del aire las piezas.</l>
+          </sp>
+          <sp who="#baviera #lorena">
+            <speaker>Los DOS</speaker>
+            <l>La orden solo esperamos.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Carlos, duque de Lorena,</l>
+            <l>Maximiliano, Atlantes</l>
+            <l>de la católica Iglesia,</l>
+            <l>cuyo garbo, cuya gloria,</l>
+            <l>cuyo brío, cuya ciencia,</l>
+            <l>ni le ha conseguido Marte,</l>
+            <l>ni la penetró Minerva,</l>
+            <l>del empeño de mis armas</l>
+            <l>al tiempo le he dado cuenta,</l>
+            <l>que es padre de los aciertos</l>
+            <l>y en la brevedad se arriesgan.</l>
+            <l>Él me persuade a que en Buda</l>
+            <l>venguen antiguas afrentas</l>
+            <l>con su cólera el salitre,</l>
+            <l>el valor con su destreza,</l>
+            <l>con sus violencias el plomo</l>
+            <l>y con su razón la fuerza,</l>
+            <l>pero conviene a mi enojo</l>
+            <l>que al rayo el trueno subceda,</l>
+            <l>y se escuche la amenaza</l>
+            <l>castigada ya la ofensa,</l>
+            <l>pues la que llaman Fortuna,</l>
+            <l>mentida deidad, se precia</l>
+            <l>de negar al que la adora,</l>
+            <l>de asistir al que la niega.</l>
+            <l>Desta verdad en sus lunas</l>
+            <l>tiene el bárbaro experiencia</l>
+            <l>pues en las plazas perdidas</l>
+            <l>si no se eclipsan se menguan,</l>
+            <l>y es política seguir</l>
+            <l>en lo próspero sus güellas</l>
+            <l>cuando propicia señala</l>
+            <l>de la conquista las sendas.</l>
+            <l>Todos mis motivos quiero</l>
+            <l>que vuestro valor los sepa,</l>
+            <l>que el saber sin preguntar</l>
+            <l>es ignorancia discreta,</l>
+            <l>y porque el discurso alumbre</l>
+            <l>lo obscuro de mis ideas</l>
+            <l>como el alba que las sombras</l>
+            <l>con giros de luz destierra</l>
+            <l>no he de admitir al oído</l>
+            <l>de lo prolijo la queja,</l>
+            <l>que en expresiones sagradas</l>
+            <l>es la dilación presteza.</l>
+            <l>En ese docto volumen,</l>
+            <l>rasgo de la omnipotencia,</l>
+            <l>cuyas cláusulas concisas</l>
+            <l>son misteriosas emblemas,</l>
+            <l>nuevos motivos hallé,</l>
+            <l>apoyos de tanta empresa.</l>
+            <l>¡Quién, como sabe sentirlos,</l>
+            <l>hoy explicarlos pudiera!</l>
+            <l>Asiento que descansaba</l>
+            <l>aquella bondad inmensa</l>
+            <l>en sí misma, una substancia</l>
+            <l>que infinita se conserva</l>
+            <l>y en tres distintas personas</l>
+            <l>sin división una esencia.</l>
+            <l>Los actos de conocer,</l>
+            <l>comprender y amar se muestra</l>
+            <l>que se ejercitan allí</l>
+            <l>en operación perfecta.</l>
+            <l>El Padre no tiene origen</l>
+            <l>y su entendimiento engendra</l>
+            <l>por fecundidad al Hijo</l>
+            <l>y de los dos se alimenta</l>
+            <l>por acto de amor la llama</l>
+            <l>que en el Espíritu reina.</l>
+            <l>No tienen las tres personas</l>
+            <l>cosa que decir se pueda</l>
+            <l>mayor ni menor, porque</l>
+            <l>en una substancia mesma</l>
+            <l>son eternamente iguales</l>
+            <l>y son igualmente eternas.</l>
+            <l>Las perfecciones allí</l>
+            <l>son mar que no se navega,</l>
+            <l>hermosura sin mudanza</l>
+            <l>y sin cuantidad grandeza.</l>
+            <l>Eterno sin tiempo, vida</l>
+            <l>sin mortalidad, presencia</l>
+            <l>sin extensión, y a quien</l>
+            <l>contra naturales reglas</l>
+            <l>ni la latitud le ensancha</l>
+            <l>ni la cortedad le estrecha</l>
+            <l>este acto de conocer.</l>
+            <l>Su ser divino se expresa</l>
+            <l>en su ciencia con el nombre</l>
+            <l>de una simple inteligencia.</l>
+            <l>Paso al labio estas noticias</l>
+            <l>no porque su duda tema</l>
+            <l>en los dos, pues ya no ignoro</l>
+            <l>que vuestra fe las venera,</l>
+            <l>sí por buscar en su origen</l>
+            <l>como en la fuente la cierva</l>
+            <l>el agua para beber</l>
+            <l>el terso cristal sin mezcla.</l>
+            <l>Estando, pues, en sí mismo,</l>
+            <l>las tres personas decretan</l>
+            <l>comunicar sus tesoros</l>
+            <l>por las acciones a dextra</l>
+            <l>como vaso puesto al fuego</l>
+            <l>que espumas derrama fuera</l>
+            <l>al calor de sus hervores.</l>
+            <l>¡Oh suma deidad, qué inquieta</l>
+            <l>te muestras al parecer</l>
+            <l>hasta franquear tus riquezas!</l>
+            <l>El orden que tuvo Dios</l>
+            <l>en formar estas ideas</l>
+            <l>en la ciencia de visión</l>
+            <l>como ejemplares se encierra.</l>
+            <l>Decretóse en un instante</l>
+            <l>que el Hijo humanado venga</l>
+            <l>como heredero inmediato</l>
+            <l>de aquella deidad que obstenta</l>
+            <l>y porque el Verbo tuviese</l>
+            <l>pueblo de quien ser cabeza</l>
+            <l>y este igual habitación</l>
+            <l>crio los cielos y la tierra.</l>
+            <l>Admiración de sí mismos</l>
+            <l>la razón los considera,</l>
+            <l>si se edujeron sus formas</l>
+            <l>de la material potencia.</l>
+            <l>La tierra le tocó al hombre,</l>
+            <l>del empirio la asistencia</l>
+            <l>a nueve sagrados coros</l>
+            <l>de puras inteligencias.</l>
+            <l>Crio a Luzbel tan hermoso</l>
+            <l>que agradado de sus prendas</l>
+            <l>se quiso obstentar Narciso</l>
+            <l>de la celestial esfera.</l>
+            <l>Las perfecciones que en él</l>
+            <l>dibujó la omnipotencia</l>
+            <l>las aplaudió como propias</l>
+            <l>sin mirarlas como ajenas.</l>
+            <l>Icaro, subir pretende</l>
+            <l>en alas de su soberbia</l>
+            <l>y al calor de la deidad</l>
+            <l>se les derritió la cera.</l>
+            <l>Encargó Dios a Miguel,</l>
+            <l>general de sus banderas,</l>
+            <l>el castigo, que dejando</l>
+            <l>la conjuración deshecha</l>
+            <l>al que se miraba luz</l>
+            <l>le precipitó pavesa.</l>
+            <l>Estrellas arroja el cielo</l>
+            <l>como tempestad espesas</l>
+            <l>y en el centro se sepultan</l>
+            <l>hechas carbón las estrellas.</l>
+            <l>Formó al hombre y luego al punto</l>
+            <l>faltó ingrato a la obediencia.</l>
+            <l>Castigóle, pero fue</l>
+            <l>con piedad por su flaqueza</l>
+            <l>teniendo por menos culpa</l>
+            <l>en las dos naturalezas</l>
+            <l>el que una hierba se seque</l>
+            <l>cuando un ángel se despeña.</l>
+            <l>Convirtióse su hermosura</l>
+            <l>de dragón en la fiereza</l>
+            <l>y las que antes fueron luces</l>
+            <l>pasaron a ser tinieblas.</l>
+            <l>Aquello que en Dios no pudo</l>
+            <l>borrar en su imagen piensa,</l>
+            <l>y contra siete virtudes</l>
+            <l>mueve otras tantas cabezas.</l>
+            <l>Todo su poder reduce</l>
+            <l>al arbitrio de una bestia</l>
+            <l>que es el bárbaro otomano,</l>
+            <l>figura a mi ver expresa:</l>
+            <l>contra el cordero sus armas</l>
+            <l>llenas de furor pelean,</l>
+            <l>mas ¿cuándo la mansedumbre</l>
+            <l>no triunfó de la soberbia?</l>
+            <l>Permitidme que los fueros</l>
+            <l>de la brevedad exceda</l>
+            <l>y estimad que tal misterio</l>
+            <l>pueda expresarle la lengua.</l>
+            <l>Ya sabéis que siendo Buda</l>
+            <l>la corte de mi ascendencia,</l>
+            <l>la traición la hizo despojo</l>
+            <l>de una bárbara diadema.</l>
+            <l>Allí se vio venerada</l>
+            <l>del cordero la grandeza,</l>
+            <l>en sus aras el incienso</l>
+            <l>y en sus altares la ofrenda.</l>
+            <l>Desterrados sus aplausos</l>
+            <l>del furor vencer se dejan,</l>
+            <l>desdicha que el tiempo casi</l>
+            <l>por siglo y medio la cuenta.</l>
+            <l>¡Oh Carlos, en cuyo nombre</l>
+            <l>leche y rocío se encierra,</l>
+            <l>este ejemplar de la gracias</l>
+            <l>y de la abundancia aquella!</l>
+            <l>¡Oh Maximiliano, en quien</l>
+            <l>glorias de pasadas eras</l>
+            <l>se hallan, pues de era viva</l>
+            <l>es anagrama Baviera!</l>
+            <l>De tanto valor mis armas</l>
+            <l>piden hoy las asistencias</l>
+            <l>porque la gracia las rija,</l>
+            <l>la abundancia las mantenga</l>
+            <l>y osbtenten de eras gloriosas</l>
+            <l>resucitadas empresas.</l>
+            <l>Vuelva a coronarse en Buda</l>
+            <l>el manso cordero, y sea</l>
+            <l>¡oh Maximiliano invicto!,</l>
+            <l>divisa de tus banderas.</l>
+            <l>¡Ea, valeroso Carlos!,</l>
+            <l>como otro Miguel pelea,</l>
+            <l>que si un Gofredo te anima</l>
+            <l>a mí un Rodulfo me alienta.</l>
+            <l>A los tres toca el empeño</l>
+            <l>como el cordero lo muestra</l>
+            <l>pendiente al cuello en los tres,</l>
+            <l>porque en acciones diversas</l>
+            <l>sea el pecho quien le abrigue</l>
+            <l>y el brazo quien le defienda.</l>
+            <l>Substituyamos a Carlos,</l>
+            <l>a quien toca por herencia</l>
+            <l>y del arca del cordero</l>
+            <l>tiene la llave maestra,</l>
+            <l>y paso a los vaticinios</l>
+            <l>que ese volumen me enseña</l>
+            <l>de lograr estos disignios,</l>
+            <l>ya en patriarcas, ya en profetas.</l>
+            <l>Mándale Dios a Moisés</l>
+            <l>que las tablas que sustentan</l>
+            <l>al tabernáculo y miran</l>
+            <l>hacia la austríaca tierra</l>
+            <l>se enlacen unas con otras.</l>
+            <l>¡Oh entendida providencia!</l>
+            <l>Esto es unir, ¡oh gran duque!,</l>
+            <l>hoy mis fuerzas con tus fuerzas.</l>
+            <l>Daniel dice que el rey de Austria</l>
+            <l>convertirá de sus penas</l>
+            <l>los suspiros en alientos</l>
+            <l>y el desmayo en fortaleza.</l>
+            <l>En apoyo del subceso</l>
+            <l>asegura Dios por Esdras</l>
+            <l>que acabará en el oriente</l>
+            <l>con dos provincias enteras</l>
+            <l>que serán, por Isaías,</l>
+            <l>posesiones de su diestra:</l>
+            <l>la Siria, la Etiopia, Egipto ,</l>
+            <l>cuanto el Nilo en sus riberas</l>
+            <l>o ya inunda en avenidas,</l>
+            <l>o ya desperdicia en perlas.</l>
+            <l>Que Dios del austro vendrá</l>
+            <l>Habacuc nos manifiesta,</l>
+            <l>y serán los orientales</l>
+            <l>esclavos de su cadena.</l>
+            <l>La puerta de una ciudad</l>
+            <l>del oriente se celebra</l>
+            <l>por Ezequiel, con la ruina</l>
+            <l>del príncipe que la impera.</l>
+            <l>Desta profecía el tiempo</l>
+            <l>¿cómo he de dudar que llega</l>
+            <l>ni que mi fuego ha de ser</l>
+            <l>el incendio desta puerta?</l>
+            <l>En el austríaco nido</l>
+            <l>el águila se recrea</l>
+            <l>dice Job; voces se escuchan</l>
+            <l>ya en el aire, ya en la tierra,</l>
+            <l>exhortaciones de duques</l>
+            <l>y clamores de trompetas</l>
+            <l>¿qué más expresa figura</l>
+            <l>del triunfo que nos espera?</l>
+            <l>Esdras un águila mira</l>
+            <l>que a soplos del aire vuela</l>
+            <l>en cuya región divide</l>
+            <l>sus glorias en tres cabezas:</l>
+            <l>¿quién duda que de los tres</l>
+            <l>son las figuradas señas</l>
+            <l>sin que el discurso se apoye</l>
+            <l>con alegóricas pruebas?</l>
+            <l>Otra águila vio Isaías</l>
+            <l>de tan disforme grandeza</l>
+            <l>que desplegando sus alas</l>
+            <l>al viento que las eleva</l>
+            <l>es matizada de plumas</l>
+            <l>ramillete de la esfera.</l>
+            <l>Esta del Líbano trujo</l>
+            <l>entre sus garras por presa</l>
+            <l>tierna medula de un cedro</l>
+            <l>que trasplantó en la eminencia</l>
+            <l>de la ciudad del comercio</l>
+            <l>y lograron sus tareas</l>
+            <l>desta medula una vid,</l>
+            <l>con cuyos sarmientos puebla</l>
+            <l>el cielo de sacrificios</l>
+            <l>y de verdores la tierra.</l>
+            <l>(En la nota de prolijo</l>
+            <l>he de incurrir, sin que pueda</l>
+            <l>sincopicar el discurso</l>
+            <l>la expresión de sus ideas.)</l>
+            <l>Es María el sacro cedro</l>
+            <l>del Líbano gloria excelsa;</l>
+            <l>de su corazón se forma</l>
+            <l>la vid que nos alimenta:</l>
+            <l>el cordero que a balidos</l>
+            <l>de nuestra omisión se queja;</l>
+            <l>ciudad de los negociantes</l>
+            <l>es Buda, pues parte della</l>
+            <l>se llama de los judíos</l>
+            <l>cuya codicia comercia</l>
+            <l>ya del árabe perfumes,</l>
+            <l>ya los tejidos del persa,</l>
+            <l>y cuanto ambiciosamente,</l>
+            <l>hidrópico de riquezas,</l>
+            <l>en piedras cuaja Ceilán,</l>
+            <l>devana Ofir en madejas.</l>
+            <l>Plantar en ella la vid,</l>
+            <l>corazón del cedro, queda</l>
+            <l>al águila reservado,</l>
+            <l>cuyas imperiales fuerzas</l>
+            <l>han de perpetuar en Buda</l>
+            <l>(mis ojos, duques, lo vean)</l>
+            <l>abundancias de la vid</l>
+            <l>y del cordero purezas.</l>
+            <l>En un trono le vio Juan</l>
+            <l>con adoraciones tiernas</l>
+            <l>y entre los cuatro animales</l>
+            <l>águila y león le veneran:</l>
+            <l>león me publica mi nombre,</l>
+            <l>divisa de mi ascendencia,</l>
+            <l>águila caudal mis armas</l>
+            <l>en tanta imperial bandera.</l>
+            <l>Pues ¿cómo puedo tener</l>
+            <l>desvanecida la idea</l>
+            <l>si la examino apoyada</l>
+            <l>de tanto sagrado emblema?</l>
+            <l>Logre el cordero sus cultos;</l>
+            <l>ruinas el bárbaro tema</l>
+            <l>ya del león en las garras,</l>
+            <l>ya del águila en las presas.</l>
+            <l>En la boca del león</l>
+            <l>fabricad hoy como abejas</l>
+            <l>a costa de las fatigas</l>
+            <l>el panal que nos sustenta.</l>
+            <l>Ya la nave de San Pedro</l>
+            <l>al viento soltó las velas</l>
+            <l>y conduce los socorros</l>
+            <l>el que su timón gobierna.</l>
+            <l>La ruina del otomano</l>
+            <l>a vuestro valor se deba</l>
+            <l>y las que son conjeturas</l>
+            <l>pasen a ser evidencias.</l>
+            <l>Triunfe la fe del insulto,</l>
+            <l>la humildad de la soberbia,</l>
+            <l>la cordura del delirio</l>
+            <l>y el celo de la blasfemia,</l>
+            <l>para que vuestros aplausos,</l>
+            <l>para que las glorias vuestras</l>
+            <l>escriba el buril en bronces,</l>
+            <l>esculpa el cincel en piedras.</l>
+          </sp>
+          <stage>Tocan clarines y trompetas.</stage>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>A tu voz agradecido,</l>
+            <l>Leopoldo invito, sin mengua</l>
+            <l>no podrá explicar mi lengua</l>
+            <l>lo que la debe el oído.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Hoy a la obediencia atentos</l>
+            <l>para que con ella marche</l>
+            <l>responde en ecos el parche,</l>
+            <l>habla el clarín en acentos.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Golpes serán los amagos.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Ruina fatal el encuentro.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Bóvedas extienda el centro</l>
+            <l>para sepultar estragos.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Hoy mis armas en los dos</l>
+            <l>me ofrecen nuevo laurel</l>
+            <l>por tenientes de Miguel</l>
+            <l>que gobierna las de Dios.</l>
+          </sp>
+          <sp who="#baviera #lorena">
+            <speaker>Los DOS</speaker>
+            <l>No es capaz nuestra flaqueza</l>
+            <l>de título tan sagrado.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Conviene a lo figurado.</l>
+            <l>Dios pondrá su fortaleza.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Que no pueda echar las cabras</l>
+            <l>a otro de lo que callo,</l>
+            <l>¡oh Gusto infeliz!, pues no hallo</l>
+            <l>con quien repartir palabras.</l>
+            <stage>Pénese de rodillas.</stage>
+            <l>Vuestra majestad es justo</l>
+            <l>honre a un soldado.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>¿Quién eres?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>El que conduce placeres.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>¿Cómo te llamas?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Don Gusto.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>¿Del don usas?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Es razón;</l>
+            <l>de antemano me le pongo,</l>
+            <l>gran señor, porque supongo</l>
+            <l>que me honrarás con un don.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Lo que yo te ofrezco aquí,</l>
+            <l>si por ti buscas la gloria</l>
+            <l>es tenerte en la memoria.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>No es decente para mí.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Pues ¿no estimas mi atención?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>En la memoria no es justo</l>
+            <l>porque deseo que el gusto</l>
+            <l>tengas en el corazón.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>El nombre me da a entender</l>
+            <l>tu humor.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Divierte a los dos.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>¿A quién sirves?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Sirvo a Dios</l>
+            <l>y a quien me llega a tener.</l>
+            <l>De mi fortuna mudanzas</l>
+            <l>hizo en mí la dura ley:</l>
+            <l>sirvía en Oran al rey,</l>
+            <l>siendo español, con dos panzas;</l>
+            <l>hoy te sirve mi humildad</l>
+            <l>poniendo al turco en huida</l>
+            <l>y en esto de la comida</l>
+            <l>me sirve su majestad.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Humor gasta.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Singular,</l>
+            <l>y discurre con primor.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Es que gasto el buen humor</l>
+            <l>por no tener qué gastar.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Mil plazas tienes.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <stage>Aparte.</stage>
+            <l>(A espacio,</l>
+            <l>dichas.) Quien tal pronunció</l>
+            <l>dure mucho más que yo</l>
+            <l>en las bodas de palacio.</l>
+          </sp>
+          <stage>Vuelven a sonar clarines y cajas.</stage>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Ea, duques, arrugadas</l>
+            <l>banderas despliegue el viento.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <stage>Aparte.</stage>
+            <l>(Huirá con eso mi aliento</l>
+            <l>a banderas desplegadas.)</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Mis brazos en fuertes lazos</l>
+            <l>estrechen de amor el nudo,</l>
+            <l>triunfe glorioso mi escudo</l>
+            <l>movido de tales brazos.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>A vencer hoy por la posta</l>
+            <l>o a morir vamos los dos.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>No feriar, espero en Dios,</l>
+            <l>Vitorias a tanta costa.</l>
+          </sp>
+          <stage>Sale el conde Ernesto de Estaremberg.</stage>
+          <sp who="#ernesto">
+            <speaker>CONDE</speaker>
+            <l>Todo el ejército puesto</l>
+            <l>en marcha con nuevas glorias</l>
+            <l>te anuncian, señor, Vitorias.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>No las dudo, conde Ernesto.</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>CONDE</speaker>
+            <l>Por más que su brío aquietes</l>
+            <l>es en escuadrón volante</l>
+            <l>rayo con alma el infante,</l>
+            <l>flecha con voz el jinete.</l>
+            <l>Mas con elocuencia muda</l>
+            <l>clarines y cajas ya</l>
+            <l>mormuran adónde va</l>
+            <l>tanta prevención.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>A Buda.</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>CONDE</speaker>
+            <l>A vista de lo pasado</l>
+            <l>recela mi buena ley.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Yo resuelvo como rey,</l>
+            <l>vos dudáis como soldado.</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>CONDE</speaker>
+            <l>Sin valerse del castillo</l>
+            <l>nuestro valor resistió.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>¿Qué bronce no se rindió</l>
+            <l>a los golpes del martillo?</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>CONDE</speaker>
+            <l>El recelo no es temor.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Es verdad, que si se apura</l>
+            <l>temer el riesgo es cordura,</l>
+            <l>vencerle después valor.</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>CONDE</speaker>
+            <l>Verás, señor, cómo subo</l>
+            <l>en el asalto primero.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Vuelva a triunfar el cordero</l>
+            <l>en el trono que antes tuvo.</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>CONDE</speaker>
+            <l>¿Luego es esa tu intención?</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Otra, Ernesto, no he tenido.</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>CONDE</speaker>
+            <l>Pues dalo por conseguido</l>
+            <l>porque el cordero es león.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <stage>Aparte.</stage>
+            <l>(Voy a machacar esparto.)</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Dios os guíe en tal conquista.</l>
+          </sp>
+          <sp who="#lorena #baviera">
+            <speaker>LORENA Y BAVIERA</speaker>
+            <l>Con su gracia nos asista.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <stage>Aparte.</stage>
+            <l>(Con qué ternura me aparto.)</l>
+          </sp>
+          <stage>Vanse. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Salen la Discordia y la Unión luchando.</stage>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Con la Discordia no pruebes</l>
+            <l>fuerzas, que saldrás vencida.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Será la Unión tu homicida,</l>
+            <l>pues a su virtud te atreves.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Es tu ruina mi blasón.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Tu fin será mi concordia.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>¿No ves que soy la Discordia?</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>¿No miras que soy la Unión?</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Suelta, que no puedo más</l>
+            <l>sufrir de tu furia estragos.</l>
+          </sp>
+          <stage>Suéltala.</stage>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Si temes a los amagos</l>
+            <l>luego a los golpes ¿qué harás?</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Labradora en la campaña</l>
+            <l>sabes que me constituyo.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Sé que el fruto es como tuyo</l>
+            <l>pues solo siembras cizaña.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Entrada con paso franco</l>
+            <l>me dieron mil corazones.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Y en ellos por más blasones</l>
+            <l>lo que tú siembras arranco.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Hoy mis aplausos sospecho</l>
+            <l>que pueden aquí agraviarte,</l>
+            <l>pues deseo desterrarte</l>
+            <l>tal vez del más noble pecho.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Tú descrédito mayor</l>
+            <l>es lo que te llego a oír,</l>
+            <l>que intentar sin conseguir</l>
+            <l>es afrenta, no valor.</l>
+            <l>A enturbiar aguas reduces</l>
+            <l>tu empeño al que está sediento,</l>
+            <l>y te da para el intento</l>
+            <l>la envidia los arcaduces.</l>
+            <l>Yo soy quien tu friego ofende,</l>
+            <l>pues si activo se derrama,</l>
+            <l>en lo voraz de la llama</l>
+            <l>apago lo que él enciende.</l>
+            <l>Tú eres un volcán extraño,</l>
+            <l>yo el agua que le mitiga,</l>
+            <l>tú la sirena enemiga,</l>
+            <l>yo el Ulises de tu engaño,</l>
+            <l>y cuando con tal desmán</l>
+            <l>previenes en tus acciones</l>
+            <l>que eres de los corazones</l>
+            <l>la sirena y el volcán,</l>
+            <l>ya que el mundo desconoce</l>
+            <l>de tu maldad el compendio</l>
+            <l>soy el agua de tu incendio</l>
+            <l>y Ulises que te conoce.</l>
+            <l>En la campaña que habitas</l>
+            <l>no has de hallar albergue alguno,</l>
+            <l>pues verás en cada uno</l>
+            <l>que en vano lo solicitas.</l>
+            <l>Tus horrores son vestiglos</l>
+            <l>en uno y otro hemisferio,</l>
+            <l>la polilla de un imperio,</l>
+            <l>la carcoma de los siglos.</l>
+            <l>Por ti padeció el vaivén</l>
+            <l>la ciudad de quien salí</l>
+            <l>cuando Antíoco por ti</l>
+            <l>triunfó de Jerusalén.</l>
+            <l>Aquel imperio blasones</l>
+            <l>formó con arte sutil</l>
+            <l>de la discordia civil</l>
+            <l>que fatigó las naciones,</l>
+            <l>luego de la suya es llano</l>
+            <l>con un gobierno tratable</l>
+            <l>que fabricó formidable</l>
+            <l>su diadema el otomano.</l>
+            <l>Del ateniense destrezas</l>
+            <l>al de Grecia minoraron</l>
+            <l>cuando advertidos hallaron</l>
+            <l>desunidas sus cabezas.</l>
+            <l>Canoniza esta opinión</l>
+            <l>Dios, dejando prevenido</l>
+            <l>que al imperio más florido</l>
+            <l>marchita la división,</l>
+            <l>que es intérprete elocuente</l>
+            <l>la lengua, si bien se apura,</l>
+            <l>del corazón asegura</l>
+            <l>el profeta penitente</l>
+            <l>pues por no llorar las menguas</l>
+            <l>de su reino y sus erarios</l>
+            <l>pedía que en sus contrarios</l>
+            <l>dividiese Dios las lenguas,</l>
+            <l>y desta traza al nivel</l>
+            <l>por arruinar enemigos</l>
+            <l>su mano grabó castigos</l>
+            <l>en la torre de Babel.</l>
+            <l>Desta muerte voluntaria</l>
+            <l>eres tú la oculta mina,</l>
+            <l>con ella fuiste la ruina</l>
+            <l>de los reyes de Samaría.</l>
+            <l>Intentaste entre la gente</l>
+            <l>del ejército imperial</l>
+            <l>todo el veneno fatal</l>
+            <l>introducir lentamente;</l>
+            <l>yo que sus dos generales</l>
+            <l>conservo en puras uniones</l>
+            <l>previne a sus corazones</l>
+            <l>remedios universales.</l>
+            <l>De Moisés y Aarón no en vano</l>
+            <l>del gobierno gustó Dios</l>
+            <l>pues siendo iguales los dos</l>
+            <l>mandaban con una mano.</l>
+            <l>Estos caudillos rigieron</l>
+            <l>aquel pueblo tan unidos</l>
+            <l>que a una mano advertidos</l>
+            <l>las resoluciones dieron.</l>
+            <l>Dios con tal unión ordena</l>
+            <l>aliviar su pesadumbre</l>
+            <l>y a la vil servidumbre</l>
+            <l>romper la dura cadena.</l>
+            <l>A preceptos de Josué</l>
+            <l>el sol se paró constante</l>
+            <l>y su obediencia brillante</l>
+            <l>motivo del triunfo fue,</l>
+            <l>mas por lograr la fortuna</l>
+            <l>del encuentro con él antes</l>
+            <l>mandó que en la mesma parte</l>
+            <l>se pare también la luna,</l>
+            <l>pues con discurso profundo</l>
+            <l>dijo en máximas secretas</l>
+            <l>Dios hizo a estos planetas</l>
+            <l>gobernadores del mundo,</l>
+            <l>y la vitoria arriesgara</l>
+            <l>(la Discordia se examine)</l>
+            <l>en que un general camine</l>
+            <l>cuando otro obediente para.</l>
+            <l>Los dos que hoy rigen expertos</l>
+            <l>hacen con unión notoria</l>
+            <l>de cada uno la gloria</l>
+            <l>siendo de dos los aciertos.</l>
+            <l>Con esta solicitud</l>
+            <l>mueren para mi blasón</l>
+            <l>las sombras de tu ambición</l>
+            <l>a rayos de mi quietud.</l>
+            <l>¿Cómo, pues, con nuevo intento</l>
+            <l>te arriesga tu vanagloria</l>
+            <l>y perdiendo la vitoria</l>
+            <l>no logras el escarmiento?</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Bien es que a la lid te aprestes</l>
+            <l>aunque me juzgues vencida,</l>
+            <l>pues yo de Roma ofendida</l>
+            <l>la castigué con tres pestes.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Contra tu bárbaro aliento</l>
+            <l>dio defensas advertido</l>
+            <l>allí un ancile fingido,</l>
+            <l>aquí cierto un sacramento.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Es verdad, mas de las leyes</l>
+            <l>rompo el nudo más estrecho</l>
+            <l>admitiéndome en su pecho</l>
+            <l>los más católicos reyes.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Mientes si piensas al ver</l>
+            <l>un aparato de guerra,</l>
+            <l>cuando política encierra</l>
+            <l>que discordia puede ser.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Las águilas no caminan</l>
+            <l>a Buda excitando enojos.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Allí verás que sus ojos</l>
+            <l>rayos al sol examinan.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Pues en tu campo te espero.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>En él me hallarás constante</l>
+            <l>con firmeza de diamante.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>A mí, con golpes de acero</l>
+            <l>sus cabos he de inquietar.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>No podrás si les asisto.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Ya tengo mi triunfo visto.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Pues vamos a pelear.</l>
+          </sp>
+          <stage>Vanse. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Descúbrese en el segundo carro el Gran Sultán, el Gran Visir y siete mujeres que son los siete vicios de que se formará un coro de música. Estará pintada Constantinopla en su frontispicio.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Publiquen en dulces salvas</l>
+            <l>del Gran Señor los trofeos,</l>
+            <l>la tierra con flores,</l>
+            <l>el aire con ecos.</l>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>Lisonjas son del oído</l>
+            <l>de vuestra voz los acentos,</l>
+            <l>¡oh, cómo de la armonía</l>
+            <l>se vale el entendimiento!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Esmalten sin competencia</l>
+            <l>la diadema de su imperio</l>
+            <l>el agua con perlas,</l>
+            <l>con rayos el fuego.</l>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>Casi todo el orbe paga</l>
+            <l>a mis erarios el feudo.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>La tierra con flores,</l>
+            <l>el aire con ecos.</l>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>Ya adornan a mi diadema</l>
+            <l>desde uno a otro hemisferio...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>El agua con perlas,</l>
+            <l>con rayos el fuego.</l>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>Las siete que miro sois</l>
+            <l>de mi voluntad los dueños,</l>
+            <l>serrallo de mi apetito,</l>
+            <l>espuela de mis deseos.</l>
+            <l>Vosotras me gobernáis:</l>
+            <l>la Soberbia mis empleos,</l>
+            <l>la Avaricia mis tesoros,</l>
+            <l>la Ira mis ardimientos,</l>
+            <l>la Lujuria mis deleites</l>
+            <l>y la Gula mis excesos,</l>
+            <l>la Pereza mis disignios</l>
+            <l>y la Envidia mis afectos.</l>
+          </sp>
+          <sp who="#soberbia #avaricia #ira #lujuria #gula #pereza #envidia">
+            <speaker>TODAS</speaker>
+            <l>Todas siete te pagamos</l>
+            <l>la atención que te debemos.</l>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>Vuestra hermosura me tiene,</l>
+            <l>si no elevado, suspenso;</l>
+            <l>por vuestras siete gargantas</l>
+            <l>respira furias mi aliento</l>
+            <l>como dragón que sañudo</l>
+            <l>se alimenta del veneno.</l>
+            <l>Mi boca insaciable tiene</l>
+            <l>todo mi poder inquieto</l>
+            <l>hasta tragarse los astros,</l>
+            <l>sorberse los elementos.</l>
+            <l>Diviértome con las flores</l>
+            <l>cuando las marchita el cierzo,</l>
+            <l>cuando el ábrego las hiere,</l>
+            <l>pero a entristecer me vuelvo</l>
+            <l>cuando el céfiro las mece,</l>
+            <l>cuando las perfuma el euro.</l>
+            <l>Aun mi grandeza me cansa,</l>
+            <l>pues entre tantos imperios</l>
+            <l>la miro como heredada</l>
+            <l>de los horrores del centro.</l>
+            <l>Dejadme, ninfas, dejadme,</l>
+            <l>idos todas...mas teneos,</l>
+            <l>que fin no tienen mis ansias.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Todos, Gran Señor, estamos</l>
+            <l>a solo tu alivio atentos.</l>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>¡Ay, gran visir, que en mis males</l>
+            <l>desesperado me veo!</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Permite, pues, que prosiga</l>
+            <l>la música.</l>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>Sea tormento</l>
+            <l>accidental de mis penas</l>
+            <l>añadido al que padezco.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Para numerar los triunfos</l>
+            <l>y del Gran Señor los reinos</l>
+            <l>solo pueden ser capaces</l>
+            <l>las estrellas en el cielo.</l>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>Mentís, acentos villanos,</l>
+            <l>mentís, ecos lisonjeros,</l>
+            <l>que es cielo, pues si le hubiera</l>
+            <l>¿ya no estuviera resuelto</l>
+            <l>en cenizas o abollado</l>
+            <l>a los golpes de mi esfuerzo?</l>
+            <stage>Aparte.</stage>
+            <l>(Desimule mi soberbia</l>
+            <l>mi propio conocimiento.)</l>
+            <l>Ese pabellón azul</l>
+            <l>es un material compendio</l>
+            <l>de luces donde la Aurora</l>
+            <l>despierta en dorado lecho,</l>
+            <l>no cielo, pero supongo</l>
+            <l>que lo fuera ese que vemos:</l>
+            <l>el cielo no tiene estrellas</l>
+            <l>si en un punto, en un momento</l>
+            <l>arrastradas de mi cola</l>
+            <l>luciente despojo fueron.</l>
+            <l>Idos,pues... pero tened,</l>
+            <l>no os vais, pues que falte temo</l>
+            <l>materia para cebarse</l>
+            <l>la llama de tanto fuego,</l>
+            <l>con que a pesar del disgusto</l>
+            <l>que me ocasionan los ecos</l>
+            <l>debo añadir esta pena</l>
+            <l>a las que estoy padeciendo.</l>
+            <l>No quiero que subcesivas</l>
+            <l>me inquieten, sino en grosero</l>
+            <l>tropel, y que todas juntas</l>
+            <l>me aflijan a un mismo tiempo.</l>
+          </sp>
+          <stage>Suena un clarín.Pero ¿qué rumor es este?</stage>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <stage>Aparte.</stage>
+            <l>(Alguna desgracia temo.)</l>
+          </sp>
+          <stage>Sale Mustafá, turco.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Caudillo de los espais,</l>
+            <l>de Buda con rendimiento</l>
+            <l>Mustafá llega a tus pies.</l>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>¿Qué se ofrece?</l>
+            <stage>Dale una carta.</stage>
+          </sp>
+          <sp who="#mustafá">
+            <speaker>MUSTAFÁ</speaker>
+            <l>En este pliego</l>
+            <l>Abdí, su bajá, da cuenta</l>
+            <l>de lo próspero y adverso.</l>
+            <stage>Dale el sultán el pliego al visir y lee.</stage>
+            <p>Gran Señor, el ejército cristiano es inundación fatal destas riberas, tan copioso en número como intolerable en arrogancia, y aunque espero castigar le por hallarme prevenido de municiones, víveres y gente, tengo por preciso un grande socorro que supla lo que faltare. Lo que yo prometo es no entregar la plaza sin la vida, no tanto por cumplir con mi obligación en el último lance de mis días cuanto por castigar el atrevimiento de los cristianos en las vanas voces que esparcen de que vienen a restituir al cordero en su antiguo trono, que no lo conseguirán mientras viviere. Abdí, bajá de Luda.</p>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>¿Hay resolución más rara?</l>
+            <l>¿Hay mayor atrevimiento?</l>
+            <l>Un Volcán tengo en los ojos</l>
+            <l>y todo un Etna en el pecho.</l>
+          </sp>
+          <sp who="#mustafá">
+            <speaker>MUSTAFÁ</speaker>
+            <l>Son tantas, señor, las tropas</l>
+            <l>de los caballos ligeros</l>
+            <l>que apuraran el Danubio</l>
+            <l>a venir todos sedientos;</l>
+            <l>son los regimientos tantos</l>
+            <l>que los bosques...</l>
+          </sp>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>Calla, necio,</l>
+            <l>no con el temor, villano,</l>
+            <l>apures mi sufrimiento.</l>
+            <l>Idos vosotros y tú</l>
+            <stage>Vanse.</stage>
+            <l>espera al visir, que luego</l>
+            <l>saldrá a darte la respuesta.</l>
+          </sp>
+          <sp who="#mustafá">
+            <speaker>MUSTAFÁ</speaker>
+            <l>Callo, señor, y obedezco.</l>
+          </sp>
+          <stage>Vase.</stage>
+          <sp who="#sultán">
+            <speaker>SULTÁN</speaker>
+            <l>No excuso acordarte que eres</l>
+            <l>lugarteniente en mi imperio,</l>
+            <l>aquel monstruo que al dragón</l>
+            <l>le bebió todo el aliento,</l>
+            <l>todo el poder a mis fuerzas,</l>
+            <l>toda la llama a mi incendio,</l>
+            <l>lóbrego parto nacido</l>
+            <l>de las aguas del Mar Negro.</l>
+            <l>Referir los beneficios</l>
+            <l>es acordar los empeños</l>
+            <l>porque las mercedes sean</l>
+            <l>de tu obligación recuerdo.</l>
+            <l>Aún más que el perder a Buda</l>
+            <stage>Aparte.</stage>
+            <l>(ya de cólera reviento)</l>
+            <l>sentiré que los cristianos</l>
+            <l>logren allí los deseos</l>
+            <l>de fabricar nuevas aras</l>
+            <l>para dar culto al cordero.</l>
+            <l>Habrá que anda desterrado</l>
+            <l>muy cerca de siglo y medio,</l>
+            <l>sin poder lograr en ella</l>
+            <l>los perfumes del incienso.</l>
+            <l>Sé que no ignoras, pues eres</l>
+            <l>archivo de mis secretos,</l>
+            <l>quién este cordero sea</l>
+            <l>y dél las noticias tengo</l>
+            <l>más por lo que significo</l>
+            <l>que por la ley que profeso.</l>
+            <l>Sabes, pues, que mi a grandeza</l>
+            <l>le usurpó los privilegios</l>
+            <l>de una hipostática unión.</l>
+            <l>Sin ella en mí todo es menos,</l>
+            <l>conque anegó mi esperanza</l>
+            <l>en los golfos de Leteo.</l>
+            <l>Mató la llama en que ardía</l>
+            <l>mi desordenado afecto</l>
+            <l>y luz se obstenta preciada</l>
+            <l>de alumbrar al universo,</l>
+            <l>conque en lugar de dominios</l>
+            <l>oscuridades poseo,</l>
+            <l>y en una profunda noche</l>
+            <l>se sepultan mis intentos.</l>
+            <l>En el valor de tu brazo</l>
+            <l>libro todo el desempeño;</l>
+            <l>aplica todas mis fuerzas</l>
+            <l>a la brevedad del tiempo</l>
+            <l>y sean en esta empresa</l>
+            <l>los alfanjes damascenos</l>
+            <l>antes que socorro estrago,</l>
+            <l>antes que alivio escarmiento,</l>
+            <l>y mira que si la pierdes</l>
+            <l>darás a un dogal el cuello,</l>
+            <l>que hiciera lo mismo yo</l>
+            <l>si fuera capaz de hacerlo.</l>
+          </sp>
+          <stage>Vase.</stage>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>¡Oh, malhaya mi fortuna,</l>
+            <l>mal haya el poder que tengo!</l>
+            <l>Al esclavo ¿qué le importa</l>
+            <l>el que le doren los hierros</l>
+            <l>de la cadena que arrastra</l>
+            <l>si no le alivian el peso?</l>
+            <l>¡Que haya de pagar mi vida</l>
+            <l>de la fortuna los ceños</l>
+            <l>y ha de ser suya y no mía,</l>
+            <l>la variedad del suceso!</l>
+            <l>Mas parece que me olvido</l>
+            <l>del papel que represento.</l>
+            <l>¿No se extienden mis poderes</l>
+            <l>desde la región del fuego</l>
+            <l>hasta el abismo que oculta</l>
+            <l>mis despojos en su centro?</l>
+            <l>Pues ¿qué teme mi furor?</l>
+            <l>Mi saña ¿qué está temiendo?</l>
+            <l>De un cordero los balidos</l>
+            <l>no temen lobos sangrientos</l>
+            <l>que siempre las mansedumbres</l>
+            <l>triunfo han sido de lo fiero.</l>
+            <l>Vamos pues a pelear,</l>
+            <l>desesperados luceros</l>
+            <l>para que sea el castigo</l>
+            <l>pena del atrevimiento.</l>
+          </sp>
+          <stage>Vase. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Salen del tercer carro (donde estará pintada Buda con sus fortificaciones) Abdí, bajá, viejo, Abdalla, Alá, turcos, y Mosén, judío. Suenan clarines y cajas.</stage>
+          <sp who="#voz_dentro_1">
+            <speaker>DENTRO I.</speaker>
+            <l>Al fortín.</l>
+          </sp>
+          <sp who="#voz_dentro_2">
+            <speaker>II.</speaker>
+            <l>Al torreón.</l>
+          </sp>
+          <sp who="#voz_dentro_1">
+            <speaker>I</speaker>
+            <l>Al foso.</l>
+          </sp>
+          <sp who="#voz_dentro_2">
+            <speaker>II.</speaker>
+            <l>A la empalizada.</l>
+          </sp>
+          <sp who="#voz_dentro_1 #voz_dentro_2">
+            <speaker>JUNTOS DENTRO</speaker>
+            <l>En torbellinos de plomo</l>
+            <l>todo el aire se desata.</l>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>¿Qué es esto, valiente Alá?</l>
+            <l>Decid, valeroso Abdalla.</l>
+            <l>Mosén, amigo, ¿qué es esto?</l>
+          </sp>
+          <sp who="#alá">
+            <speaker>ALÁ</speaker>
+            <l>Voces son articuladas</l>
+            <l>de la gente que al cuidado</l>
+            <l>de su obligación se afana.</l>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>Mucho esfuerzo y pocas voces</l>
+            <l>deseo ver en la plaza,</l>
+            <l>porque estas se desvanecen</l>
+            <l>y aquel obra cuando calla.</l>
+            <l>Generosos capitanes</l>
+            <l>cuyo valor adelanta</l>
+            <l>del tebano los empeños,</l>
+            <l>del gran Ciro las hazañas,</l>
+            <l>si la Fama por su trompa</l>
+            <l>quiso tal vez respirarlas,</l>
+            <l>vencida de tanto aliento</l>
+            <l>le faltó aliento a la Fama,</l>
+            <l>ya sabréis que habrá dos años</l>
+            <l>que del imperio las armas</l>
+            <l>resistimos; fue fortuna</l>
+            <l>lo que en ellas fue desgracia.</l>
+            <l>Aguardaba mi experiencia</l>
+            <l>que perdida la esperanza</l>
+            <l>a las águilas que obstenta</l>
+            <l>se le cayesen las alas,</l>
+            <l>y hoy vuelven sobre nosotros</l>
+            <l>a volar más remontadas</l>
+            <l>queriendo beber sedientas</l>
+            <l>rayos que las embarazan.</l>
+            <l>Vuestra fue la resistencia,</l>
+            <l>suyas son las amenazas</l>
+            <l>y quien supo resistirlas</l>
+            <l>sabrá también castigarlas.</l>
+            <l>No al despique me convida</l>
+            <l>la obligación de mis canas,</l>
+            <l>que disculparla pudieran</l>
+            <l>tibiezas de sangre helada,</l>
+            <l>sí las voces que el cristiano</l>
+            <l>por todo el campo derrama</l>
+            <l>de que en Buda a su cordero</l>
+            <l>viene a restituir las aras.</l>
+            <l>Esto aumenta más mi enojo,</l>
+            <l>esto provoca mi rabia,</l>
+            <l>locura en que mi favor</l>
+            <l>no discurre igual venganza.</l>
+            <l>De vuestro valor la fío</l>
+            <l>pues tengo bien reparadas</l>
+            <l>fosos, baluartes, recintos,</l>
+            <l>medias lunas y murallas;</l>
+            <l>en el almacén bastantes</l>
+            <l>municiones, vituallas,</l>
+            <l>cortaduras en las calles</l>
+            <l>y en el castillo bombardas.</l>
+            <l>Doce mil hombres componen</l>
+            <l>la guarnición de la plaza,</l>
+            <l>que celan del Gran Señor</l>
+            <l>la honra propia y heredada.</l>
+            <l>No tengo más que deciros</l>
+            <l>porque espera mi confianza</l>
+            <l>que vuestra fineza empiece</l>
+            <l>donde mi discurso acaba.</l>
+            <l>ABDALLA</l>
+            <l>Yo que aquí soy el aga</l>
+            <l>de genízaras escuadras</l>
+            <l>espero castigar nubes</l>
+            <l>que nuestras lunas empañan.</l>
+            <l>ALÁ</l>
+            <l>Las tropas de la milicia</l>
+            <l>a mi obediencia ajustadas</l>
+            <l>te ofrezco que en las surtidas</l>
+            <l>castiguen sus arrogancias.</l>
+            <l>MOSÉN</l>
+            <l>Yo que soy el judaismo</l>
+            <l>que en ese arrabal se explaya,</l>
+            <l>del mejor rabí te ofrezco</l>
+            <l>las asistencias sin tasa.</l>
+            <l>Contra mi pueblo ese intento</l>
+            <l>es una ofensa inmediata</l>
+            <l>que acredita posesiones</l>
+            <l>por desmentir esperanzas.</l>
+            <l>El cordero que pretende</l>
+            <l>con porfía continuada</l>
+            <l>entronizar el cristiano</l>
+            <l>es un efecto sin causa,</l>
+            <l>un discurso sin motivo</l>
+            <l>y una cosa sin sustancia.</l>
+            <l>El verdadero esperamos</l>
+            <l>que no vino, aunque ya tarda,</l>
+            <l>porque Daniel en su historia</l>
+            <l>nos le ofreció por semanas.</l>
+            <l>A un hombre, pues, que fingió</l>
+            <l>ser el cordero sin mancha,</l>
+            <l>ser el rey de los judíos</l>
+            <l>castigó nuestra prosapia,</l>
+            <l>conque a todos sus secuaces</l>
+            <l>verás, señor, a tus plantas,</l>
+            <l>que así de David entiendo</l>
+            <l>las proféticas palabras.</l>
+            <l>Necesidades no temas,</l>
+            <l>pues tendrás en abundancia</l>
+            <l>cuanto Ofir tributa en oro,</l>
+            <l>naves de Tarsis en plata.</l>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>No en vano los de tu ley,</l>
+            <l>Mosén, amigo, te aclaman</l>
+            <l>el mayor de los rabinos</l>
+            <l>en su rígida observancia.</l>
+            <stage>Suenan cajas.</stage>
+            <l>Pero ¿qué rumor es ese?</l>
+          </sp>
+          <stage>Sale Mostafá.</stage>
+          <sp who="#mustafá">
+            <speaker>MOSTAFÁ</speaker>
+            <l>Yo soy, señor, quien le causa.</l>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>Nunca menos, Mostafá,</l>
+            <l>de tu cuidado esperaba.</l>
+          </sp>
+          <sp who="#mustafá">
+            <speaker>MOSTAFÁ</speaker>
+            <l>Por obedecer tu orden</l>
+            <l>dispuso mi vigilancia</l>
+            <l>por el aire la salida,</l>
+            <l>por una mina la entrada.</l>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>¿Cómo queda el Gran Señor?</l>
+          </sp>
+          <sp who="#mustafá">
+            <speaker>MOSTAFÁ</speaker>
+            <l>Después que la corte en salvas</l>
+            <l>convirtió con su venida</l>
+            <l>en posesión la esperanza,</l>
+            <l>encargó a su gran visir</l>
+            <l>que deshiciese la trama</l>
+            <l>de una sediciosa tela</l>
+            <l>y que en prevenidas marchas</l>
+            <l>(con noticias de este sitio)</l>
+            <l>de las lunas otomanas</l>
+            <l>a introducir el socorro</l>
+            <l>al punto en persona parta,</l>
+            <l>mas de Andrinópoli trujo</l>
+            <l>la razón tan destemplada</l>
+            <l>que ya dragón se imagina,</l>
+            <l>ya en furores se arrebata</l>
+            <l>y de las tinieblas dice</l>
+            <l>que es su imperio y no el del Asia,</l>
+            <l>y en cuanto a nuestro socorro</l>
+            <l>te responde en esa carta.</l>
+            <stage>Dale una carta. Lee Abdí.</stage>
+            <p>A Abdí, bajá de Buda. Salud. El Gran Señor me manda vaya en persona a castigar el sacrilegio del ejército cristiano en querer introducir en esa ciudad los cultos de su cordero y desterrar della los del gran profeta. Parto luego al punto con grueso bastante para socorreros. Fiad de mí la ejecución como yo espero de vos la resistencia. V por adelantar el buen subceso va caminando el serasquier con siete tercios de las guardas del Gran Señor. Alá os mantenga. El Gran Visir.</p>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>Toda esta demostración</l>
+            <l>corresponde a mi confianza</l>
+            <l>y al envejecido celo</l>
+            <l>con que goberné sus armas.</l>
+            <stage>Hacia el paño.</stage>
+            <l>¡Ea, valientes musulmanes,</l>
+            <l>al arma, amigos, al arma,</l>
+            <l>que el Gran Señor os socorre</l>
+            <l>y el gran visir os ampara!</l>
+          </sp>
+          <sp who="#mosén">
+            <speaker>MOSÉN</speaker>
+            <l>Asista el Dios de Abraham,</l>
+            <l>que es el Dios de las batallas,</l>
+            <l>al alivio de su pueblo,</l>
+            <l>de su rebaño a la guarda.</l>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>Yo de mi alfanje los filos</l>
+            <l>teñiré en sangre cristiana.</l>
+          </sp>
+          <sp who="#alá">
+            <speaker>ALÁ</speaker>
+            <l>Para mi sed breve sorbo</l>
+            <l>serán arroyos de grana.</l>
+          </sp>
+          <stage>Vanse.DENTRO¡Al fortín! ¡Al torreón!¡Al foso! ¡A la empalizada!</stage>
+        </div>
+        <div type="configuration">
+          <stage>Salen del cuarto carro los duques de Lorena y Baviera, el conde de Estaremberg, el conde Serení y el Gusto, soldado; la Discordia y la Unión. Suenan clarines y cajas.</stage>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Conde ¿qué voces son estas?</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>Al turco el temor le hace</l>
+            <l>presumir de nuestra gente</l>
+            <l>cualquier soldado, gigante.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Son las voces y los gritos</l>
+            <l>aliño de sus turbantes.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Yo que los tengo por perros</l>
+            <l>nunca me admiro que ladren.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <stage>Aparte.</stage>
+            <l>(Para asistir a los duques</l>
+            <l>vine siguiendo su alcance,</l>
+            <l>porque en tan sagradas guerras</l>
+            <l>logren sus ánimos paces.</l>
+            <l>Pero la Discordia allí</l>
+            <l>lo contrario persuade,</l>
+            <l>mas ha de llorar ociosos</l>
+            <l>sus arpones penetrantes.)</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <stage>Aparte.</stage>
+            <l>(Impelida de mi enojo</l>
+            <l>siendo fiera deste valle</l>
+            <l>he de hacer las disensiones</l>
+            <l>efectos de mi coraje.</l>
+            <l>Pero la Unión, muy preciada</l>
+            <l>de ser el quitapesares</l>
+            <l>está allí; no le valdrán</l>
+            <l>inspiraciones cobardes.)</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <stage>Aparte.</stage>
+            <l>(Sin ser vista he de inspirar.)</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>[%Aparte.] </l>
+            <l>(Invisible pienso estarme.)</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Pasar puede vuestra alteza</l>
+            <l>con su discurso adelante.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Logran en mí los preceptos</l>
+            <l>de la obediencia ejemplares.</l>
+            <l>Ya dije cómo las marchas</l>
+            <l>de mis jinetes y infantes</l>
+            <l>si por el aire no fueron</l>
+            <l>las ejecuté en el aire</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Lo mismo dije también</l>
+            <l>de las del César, pues saben</l>
+            <l>volar tal vez por la tierra</l>
+            <l>sus águilas imperiales...,</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>...que el conde de Serení,</l>
+            <l>de mis tropas vigilante</l>
+            <l>caudillo, logró el hacer</l>
+            <l>de la brevedad alarde...,</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>...cómo el conde Estaremberg</l>
+            <l>que esta presente, pues antes</l>
+            <l>que se sintiesen sus güestes</l>
+            <l>se escucharon sus timbales,</l>
+            <l>que sabe templar valiente</l>
+            <l>el príncipe Luis de Badén</l>
+            <l>con obediencias del freno</l>
+            <l>las furias del acicate...,</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>...que anda el conde de Caprara</l>
+            <l>con estruendos militares</l>
+            <l>ya penetrando los montes,</l>
+            <l>ya discurriendo los valles...,</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>...que al conde de Serení</l>
+            <l>le vemos en los combates</l>
+            <l>medicina universal,</l>
+            <l>remedio de todos males.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>...que cortesanas porfías</l>
+            <l>eligí el primer ataque...,</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Vuestra alteza debe ser</l>
+            <l>el primero en todas partes...,</l>
+            <l>que al conde tocó el segundo</l>
+            <l>y a mí el tercero, por darle</l>
+            <l>a tanto valor materia</l>
+            <l>de que pueda alimentarse;</l>
+            <l>que el de Creus compone el cuarto</l>
+            <l>de escuadrones nacionales</l>
+            <l>como Ernesto añade al suyo</l>
+            <l>de Brandemburg el coraje...,</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>... que el brío de aventureros</l>
+            <l>hoy a mis tropas se añade,</l>
+            <l>ya de españoles Pelayos,</l>
+            <l>ya de franceses Roldanes...,</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>... que guarnecidos los puestos</l>
+            <l>es desaliento tan grande</l>
+            <l>para la plaza, que apenas</l>
+            <l>puede respirar el aire...,</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>... que en las obras exteriores</l>
+            <l>trabaja la fe y el arte</l>
+            <l>ofreciendo con la pala</l>
+            <l>al riesgo seguridades...,</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>... que con las minas y hornillos,</l>
+            <l>víboras artificiales,</l>
+            <l>que paren cuando revientan</l>
+            <l>y revientan cuando paren...,</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>Del arrojado salitre</l>
+            <l>son los incendios fatales</l>
+            <l>volante estrago sin alas</l>
+            <l>las bombas y los careases.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Llegábamos hasta aquí</l>
+            <l>cuando clamores cobardes</l>
+            <l>enredaron del discurso</l>
+            <l>el entretejido estambre.</l>
+            <l>Vuestra alteza me permita</l>
+            <l>que deste sitio los lances</l>
+            <l>mire como figurados</l>
+            <l>y no como materiales.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Eso es dar a las ideas</l>
+            <l>del César nuevos esmaltes</l>
+            <l>y a la empresa de sus armas</l>
+            <l>misteriosos los realces.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Es Buda la fuerte plaza</l>
+            <l>de aquel dragón insaciable,</l>
+            <l>¿quién duda que por sus vicios</l>
+            <l>son dragones los sultanes?</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Compónese su defensa</l>
+            <l>de legiones infernales,</l>
+            <l>la Ira ocupa los fosos,</l>
+            <l>la Lujuria los baluartes,</l>
+            <l>la Soberbia las murallas,</l>
+            <l>y el desorden lo restante.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Pues si vicios la defienden</l>
+            <l>hoy virtudes la contrasten</l>
+            <l>y hagamos desta verdad</l>
+            <l>alegórico el examen.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Parece que vuestra alteza</l>
+            <l>le ha bebido a mi dictamen</l>
+            <l>toda la fuerza en misterios,</l>
+            <l>todo el intento en piedades.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <stage>Aparte.</stage>
+            <l>(¡Ay de mí, que ya la Unión</l>
+            <l>unir los discursos sabe!)</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <stage>Aparte.</stage>
+            <l>(¡Albricias, cielos, que están</l>
+            <l>conformes las voluntades!)</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Los cuatro ataques gobiernen</l>
+            <l>las virtudes cardinales,</l>
+            <l>y con sus nombres no más</l>
+            <l>desde hoy lleguen a nombrarse.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Al de vuestra alteza toca</l>
+            <l>la Fortaleza, pues sabe,</l>
+            <l>substituto de Miguel,</l>
+            <l>seguir sus güellas constante.</l>
+            <l>La Justicia toque al mío</l>
+            <l>por el César, para que hallen</l>
+            <l>el castigo que merecen</l>
+            <l>rebeldes temeridades.</l>
+            <l>Al del conde la Prudencia,</l>
+            <l>con cuyo título aplauden</l>
+            <l>su valor sobre Viena</l>
+            <l>ríos de bárbara sangre.</l>
+            <l>A Serení la Templanza</l>
+            <l>que en aventureros Martes</l>
+            <l>debe cuerdo prevenir</l>
+            <l>en tanto escuadrón volante,</l>
+            <l>con que de cuatro virtudes</l>
+            <l>coronados cuatro ataques,</l>
+            <l>venciendo las resistencias</l>
+            <l>todos los vicios desarmen.</l>
+            <l>La gran bestia del visir</l>
+            <l>para socorrerlos trae</l>
+            <l>en cada soldado un monstruo,</l>
+            <l>un vicio en cada turbante.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Señales de la gran bestia</l>
+            <l>vencidas pueden juzgarse</l>
+            <l>porque en nuestra religión</l>
+            <l>virtudes vencen señales.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Vuestra alteza con su ingenio</l>
+            <l>muda a la empresa el semblante.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>A cumplir con el asumpto</l>
+            <l>mi obligación me persuade.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <stage>Aparte.</stage>
+            <l>(Por más ambición que inspiro</l>
+            <l>introducirla no es fácil.)</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <stage>Aparte.</stage>
+            <l>(Por más que hace la Discordia</l>
+            <l>son sus fatigas en balde.)</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>Yo procuraré lo mismo.</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>Yo también.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>¿No es bueno que antes</l>
+            <l>de oír estos tiquismiquis,</l>
+            <l>yo, don Severino Infante,</l>
+            <l>aposta me mudé el nombre,</l>
+            <l>y don Gusto Badulaque</l>
+            <l>me llamo porque es rumboso</l>
+            <l>para autos sacramentales?</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Pues prosigue en el intento</l>
+            <l>que el no pasar adelante</l>
+            <l>será darnos un pesar.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <stage>Aparte.</stage>
+            <l>(Volvióse el vino vinagre.)</l>
+            <l>Yo juzgué que las altezas</l>
+            <l>no dicían disparates.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>¿Cómo u por qué?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Porque el gusto</l>
+            <l>nunca puede dar pesares.</l>
+          </sp>
+          <stage>Con vetilla en la cara salen por una parte cantando a un tiempo la Justicia y Fortaleza, y por otro la Prudencia y Templanza.</stage>
+          <sp who="#justicia #fortaleza">
+            <speaker>JUSTICIA Y FORTALEZA</speaker>
+            <l>La Justicia y Fortaleza</l>
+            <l>os favorecen iguales</l>
+            <l>en selvas, en bosques,</l>
+            <l>en montes, en valles.</l>
+          </sp>
+          <sp who="#prudencia #templanza">
+            <speaker>PRUDENCIA Y TEMPLANZA</speaker>
+            <l>Con la Prudencia y Templanza</l>
+            <l>pisaréis seguridades,</l>
+            <l>el áspid sin lengua,</l>
+            <l>las flores sin áspid.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Ya veo sagrado coro</l>
+            <l>que para el favor reparte</l>
+            <l>la suavidad en las voces</l>
+            <l>y la voz en suavidades.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Sagradas ninfas, ya veo</l>
+            <l>que en acorde unión, al aire</l>
+            <l>le fiáis de nuestras dichas</l>
+            <l>tantos anuncios vocales.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>El triunfo de nuestras armas</l>
+            <l>corra ya por todas partes.</l>
+          </sp>
+          <sp who="#justicia #fortaleza">
+            <speaker>JUSTICIA Y FORTALEZA</speaker>
+            <l>En fuentes, en ríos,</l>
+            <l>en golfos, en mares.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Con tal favor nuestras tropas</l>
+            <l>a inundar al Asia pasen.</l>
+          </sp>
+          <sp who="#prudencia #templanza">
+            <speaker>PRUDENCIA Y TEMPLANZA</speaker>
+            <l>Al asirio, al persa,</l>
+            <l>al Nilo y al Ganges.</l>
+          </sp>
+          <stage>Júntame las cuatro y cantan.</stage>
+          <sp who="#prudencia #justicia #templanza #fortaleza">
+            <speaker>LAS CUATRO</speaker>
+            
+            <l>Lograréis victoriosos</l>
+            <l>triunfos y lauros,</l>
+            <l>porque contra laureles</l>
+            <l>no bastan rayos.</l>
+            <stage>Vanse.</stage>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Eso sí, ríndase Buda;</l>
+            <l>gustos con virtudes anden</l>
+            <l>espumando de torpezas</l>
+            <l>el puchero de la carne.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Ya no puedo resistir</l>
+            <l>de tanta virtud pesares.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Ya estás vencida.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Eso no.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>El tiempo te desengañe.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Con él pretendo triunfar</l>
+            <l>de tu soberbia arrogante.</l>
+          </sp>
+          <stage>Vase.</stage>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Diga el cordero a balidos</l>
+            <l>las glorias de su linaje,</l>
+            <l>herencia de padre a hijo</l>
+            <l>hablar por eternidades.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Por parte de madre tiene</l>
+            <l>ejecutoria de sangre</l>
+            <l>mas no se le hallan abuelos</l>
+            <l>por la línea de su padre.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>A los viadores asiste</l>
+            <l>con acciones liberales.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Y dispuso que el pan fuese</l>
+            <l>socorro de caminantes.</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>Con solo un bocado el hombre</l>
+            <l>que convida satisface.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Y come una infinidad</l>
+            <l>el que un bocado gustare.</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>Mas quien sin gracia le come</l>
+            <l>es reo de ajena sangre.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Ese dicen que comete</l>
+            <l>crimen lesae maiestatis.</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>Dejónos un mayorazgo</l>
+            <l>fundado de pan y carne.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Con que unas veces cordero</l>
+            <l>y otras pan suele llamarse.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>¿Quién logrará la fortuna</l>
+            <l>de colocar sus altares</l>
+            <l>en la ciudad del comercio?</l>
+            <l>DENTRO Voz</l>
+            <l>Las águilas imperiales</l>
+            <l>rompan desta vez sangrientos</l>
+            <l>del dragón los estandartes.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Oráculo file la voz</l>
+            <l>que da respuesta agradable</l>
+            <l>al oído; señas son</l>
+            <l>de que ya con sus alfanjes</l>
+            <l>intenta el visir socorro</l>
+            <l>si puede romper ataques.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Antes a lanzadas muera</l>
+            <l>el toro de las dos madres,</l>
+            <l>que la muerte de rejón</l>
+            <l>no es para bestia tan grande.</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>¡Ea, príncipes, al triunfo!</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>¡Ea, conde, a coronarse</l>
+            <l>de laureles el valor!</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Ciega la Fe va delante.</l>
+            <l>Hoy, Serení, vencerá</l>
+            <l>el espíritu a la carne.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Adentro, adentro los gustos,</l>
+            <l>afuera, afuera pesares.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>A pelear.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>A resistir...</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>Furias...</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>Horrores...</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Maldades.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Dios me guarde a vuestra alteza.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Dios a vuestra alteza guarde.</l>
+          </sp>
+          <stage>Vanse.</stage>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <stage>Aparte.</stage>
+            <l>(A los dos mis asistencias</l>
+            <l>no hacen ya falta. ¡Oh mortales!,</l>
+            <l>estimad el de la unión</l>
+            <l>por oro de más quilates.)</l>
+          </sp>
+          <stage>Vase. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Suenan clarines y cajas. Sale el Gran Visir tirando de la barba al serasquier.</stage>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Antes que miedos villanos</l>
+            <l>pagues con dogal al cuello</l>
+            <l>han de ser barba y cabello</l>
+            <l>vil despojo de mis manos.</l>
+          </sp>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l>La vida temo perder</l>
+            <l>con agravio tan crecido.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Quien tanto miedo ha tenido</l>
+            <l>ya no tiene qué temer;</l>
+            <l>¿pensarás que es grande hazaña</l>
+            <l>de tus bríos alentados</l>
+            <l>dejar ocho mil soldados</l>
+            <l>por despojo en la campaña?</l>
+            <l>Por serasquier te nombré,</l>
+            <l>lucidas tropas te di,</l>
+            <l>y hallo desmentida en ti</l>
+            <l>la que confianza fue.</l>
+            <l>Entregúete fuerte Injuria,</l>
+            <stage>Aparte.</stage>
+            <l>(¡con su memoria me irrito!)</l>
+            <l>soldados del Apetito,</l>
+            <l>banderas de la Lujuria,</l>
+            <l>el tercio de la Maldad,</l>
+            <l>las escuadras del Furor,</l>
+            <l>las guardas del Gran Señor,</l>
+            <l>que son Ira y Vanidad,</l>
+            <l>Soberbia en caballería,</l>
+            <l>Envidia que el ser la debe,</l>
+            <l>Pereza con que se mueve</l>
+            <l>el tren de la artillería...</l>
+            <stage>Aparte.</stage>
+            <l>(Mal mi enojo disimula.)</l>
+            <l>Pues llevaste por blasones</l>
+            <l>la Avaricia en batallones</l>
+            <l>y en todo el grueso la Gula...</l>
+            <l>Creciendo mis iras van,</l>
+            <l>mira la hazaña que hiciste</l>
+            <l>si en cada tercio perdiste</l>
+            <l>un tesoro del sultán,</l>
+            <l>cuando ofreciste pelear</l>
+            <l>hasta morir o vencer</l>
+            <l>y del cristiano romper</l>
+            <l>las líneas (¡fuerte pesar!).</l>
+            <l>Inténtelo con furor</l>
+            <l>vertiendo espumas mi enojo</l>
+            <l>y hallóse todo el arrojo</l>
+            <l>resistido del valor,</l>
+            <l>pues los cristianos infieles</l>
+            <l>al aviso que tuvieron</l>
+            <l>en orden me recibieron</l>
+            <l>muy fuera de sus cuarteles.</l>
+            <l>Huyó la caballería</l>
+            <l>antes que al golpe al amago</l>
+            <l>dejando a fatal estrago</l>
+            <l>expuesta la infantería.</l>
+            <l>Siete escuadrones formados</l>
+            <l>tragando vidas hambrientos</l>
+            <l>de nuestra sangre sedientos</l>
+            <l>fueron leones desatados.</l>
+            <l>El tercio de la Humildad</l>
+            <l>al de Soberbia dio muerte</l>
+            <l>y al de la Envidia más fuerte</l>
+            <l>vence el de la Caridad;</l>
+            <l>al de Ira el de Paciencia,</l>
+            <l>al de Gula el de Templanza,</l>
+            <l>y al de la Pereza alcanza</l>
+            <l>a rendir la Diligencia,</l>
+            <l>el de Largueza con furia</l>
+            <l>del de Avaricia triunfó</l>
+            <l>y el de Castidad quedó</l>
+            <l>vencedor de la Lujuria:</l>
+            <l>con estragos tan fatales</l>
+            <l>nunca mi dolor se aquiete.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>El mal es que son los siete</l>
+            <l>enemigos capitales.</l>
+          </sp>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l> Apenas en tanto mal</l>
+            <l>pude dar remedio alguno.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>¡Ay de mí, que es cada uno</l>
+            <l>un enemigo mortal!</l>
+          </sp>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l>De mi disculpa no dudes</l>
+            <l>con astros poco propicios,</l>
+            <l>si contra los siete vicios</l>
+            <l>pelearon siete virtudes.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>De tal afrenta me corro.</l>
+          </sp>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l>Borrarla podrá el ardid.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>O quedar muerto en la lid</l>
+            <l>o introducir el socorro.</l>
+            <l>Al cristiano en tanto afán</l>
+            <l>pan le falta a lo que infiero.</l>
+          </sp>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l>Pues dice que en su cordero</l>
+            <l>tiene abundancia de pan.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Acuerdóme que irritado</l>
+            <l>mi amo el dragón le engañó</l>
+            <l>y en cierta ocasión le dio</l>
+            <l>un veneno en un bocado.</l>
+          </sp>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l>Cauto para su comida</l>
+            <l>previene con feliz suerte</l>
+            <l>contra un bocado de muerte</l>
+            <l>un pan que le dé la vida.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>En su falta he de lograr</l>
+            <l>enemigo que le asalte</l>
+            <l>porque hasta que el pan le falte</l>
+            <l>no tenemos que esperar.</l>
+            <stage>Suena Música.</stage>
+            <l>Pero ¿no ves cómo apura</l>
+            <l>la música su primor</l>
+            <l>y me viene a dar favor</l>
+            <l>el tercio de la Hermosura?</l>
+          </sp>
+          <stage>Salen los Vicios.</stage>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l>SUS acciones corporales</l>
+            <l>mis ojos tienen en calma.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Por ser pasiones del alma</l>
+            <l>son las figuras morales.</l>
+          </sp>
+          <sp who="#soberbia #avaricia #ira #lujuria #gula #pereza #envidia">
+            <speaker>CANTAN LOS VICIOS</speaker>
+            <l>¡Ay de mí, triste, ay de mí!</l>
+            <l>No diga mal del bien</l>
+            <l>quien a su quebranto</l>
+            <l>llanto le consiga;</l>
+            <l>diga que es feliz</l>
+            <l>¡ay de mí, triste, ay de mí!,</l>
+            <l>que sin ojos no puedo llorar,</l>
+            <l>sin aliento no puedo gemir.</l>
+            <l>¡Ay de mí, triste, ay de mí!</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>O son estas ilusiones</l>
+            <l>o son las noticias ciertas</l>
+            <l>de que habéis quedado muertas</l>
+            <l>con vuestros siete escuadrones.</l>
+          </sp>
+          <sp who="#soberbia">
+            <speaker>CANTA I</speaker>
+            <l>NO muertas nos llores</l>
+            <l>debiendo advertir</l>
+            <l>que el vicio no muere,</l>
+            <l>quien le sigue sí.</l>
+            <l>¡Ay de mí!,</l>
+            <l>que sin ojos no puedo llorar,</l>
+            <l>sin aliento no puedo gemir.</l>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>CANTA 2</speaker>
+            <l>Segados los cuellos</l>
+            <l>de la hidra allí</l>
+            <l>otros en tu ayuda</l>
+            <l>vuelve a producir.</l>
+            <l>¡Ay de mí!,</l>
+            <l>que sin ojos no puedo llorar,</l>
+            <l>sin aliento no puedo gemir.</l>
+          </sp>
+          <sp who="#ira">
+            <speaker>CANTA 3</speaker>
+            <l>Tu venganza aliente</l>
+            <l>marchito el carmín,</l>
+            <l>sangriento el clavel,</l>
+            <l>mustio el alhelí.</l>
+            <l>¡Ay de mí!,</l>
+            <l>que sin ojos no puedo llorar,</l>
+            <l>sin aliento no puedo gemir.</l>
+          </sp>
+          <sp who="#lujuria">
+            <speaker>CANTA 4</speaker>
+            <l>Será de las siete</l>
+            <l>en dudosa lid</l>
+            <l>empeño el triunfar</l>
+            <l>de un necio embestir.</l>
+            <l>¡Ay de mí!,</l>
+            <l>que sin ojos no puedo llorar,</l>
+            <l>sin aliento no puedo gemir.</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>CANTA 5</speaker>
+            <l>Escriban venganzas</l>
+            <l>del sol el cénit,</l>
+            <l>jaspes con cincel,</l>
+            <l>bronces con buril.</l>
+            <l>¡Ay de mí!,</l>
+            <l>que sin ojos no puedo llorar,</l>
+            <l>sin aliento no puedo gemir.</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>CANTA 6</speaker>
+            <l>El color de mis plantas</l>
+            <l>borrará el carmín</l>
+            <l>sus galas al mayo,</l>
+            <l>flores al abril.</l>
+            <l>¡Ay de mí!,</l>
+            <l>que sin ojos no puedo llorar,</l>
+            <l>sin aliento no puedo gemir.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>CANTA 7</speaker>
+            <l>Del cristiano encuentros</l>
+            <l>verás resistir</l>
+            <l>golpes al diamante,</l>
+            <l>sustos al rubí.</l>
+          </sp>
+          <sp who="#soberbia #avaricia #ira #lujuria #gula #pereza #envidia">
+            <speaker>CANTAN TODAS</speaker>
+            <l>¡Ay de mí!,</l>
+            <l>que sin ojos no puedo llorar,</l>
+            <l>sin aliento no puedo gemir.</l>
+            <l>Y para que venzas</l>
+            <l>te ofrecen aquí</l>
+            <l>armas la Hermosura,</l>
+            <l>triunfos el clarín.</l>
+          </sp>
+          <stage>Vanse. Suenan clarines.</stage>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Serasquier, será cordura</l>
+            <l>el porfiar que en rigor</l>
+            <l>lo que no pueda el valor</l>
+            <l>ha de vencer la hermosura.</l>
+          </sp>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l>Rendidas a mi pesar</l>
+            <l>las lloré sin resistencia.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Es mucha la diferencia</l>
+            <l>del ver al imaginar.</l>
+          </sp>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l>Pues ya no hay que discurrir.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Empéñese mi poder.</l>
+          </sp>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l>Pues a morir o vencer.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Pues a vencer o morir.</l>
+          </sp>
+          <stage>Vanse. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Sale el duque de Lorena.</stage>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>No dudo, Señor, me ayudes</l>
+            <l>y que del riesgo me saques,</l>
+            <l>pues hoy en los cuatro ataques</l>
+            <l>dejo a las cuatro virtudes.</l>
+            <l>Pablo me da la noticia</l>
+            <l>y con aplausos pregona</l>
+            <l>que la gracia se corona</l>
+            <l>a triunfos de la justicia;</l>
+            <l>es la prudencia la ciencia</l>
+            <l>de los santos; bien lo dio</l>
+            <l>Dios a entender, pues tundo</l>
+            <l>los cielos con la prudencia;</l>
+            <l>con la templanza mil muertes</l>
+            <l>se excusan sin el rigor;</l>
+            <l>con ella da el cuerpo honor,</l>
+            <l>con ella ajusta las suertes;</l>
+            <l>la fortaleza pendiente</l>
+            <l>tiene Dios de su dosel;</l>
+            <l>comunicóla a Miguel</l>
+            <l>y Miguel a su teniente</l>
+            <l>conque mi fe no dudó</l>
+            <l>que se rindan por blasones</l>
+            <l>a virtudes y oraciones</l>
+            <l>los muros de Jericó.</l>
+            <l>Hácese con mucho asan</l>
+            <l>del trigo la conducción</l>
+            <l>y nos da la provisión</l>
+            <l>como ceniciento el pan.</l>
+            <l>Gedeón con estas señales</l>
+            <l>no quiso el triunfo dudar</l>
+            <l>estando para pelear</l>
+            <l>con los pueblos orientales.</l>
+            <l>Soñó con desvelo atento</l>
+            <l>que del cielo enternecido</l>
+            <l>caía como llovido</l>
+            <l>un pan como ceniciento;</l>
+            <l>quien lo oyó, sin ademán,</l>
+            <l>dijo con pecho sencillo:</l>
+            <l>«Ese pan es un cuchillo</l>
+            <l>de las tropas de Madián».</l>
+            <l>Símbolos del sacramento</l>
+            <l>como estos panes ningunos,</l>
+            <l>cuchillos para los unos,</l>
+            <l>para los otros sustento.</l>
+          </sp>
+          <sp who="#voces_dentro">
+            <speaker>VOCES DENTRO</speaker>
+            <l>¡Quien tal hace que tal pague!</l>
+          </sp>
+          <stage>Sale el Gusto.</stage>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Muera quien tan mal obró.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Gusto ¿qué voces son estas?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Aquí entra mi relación.</l>
+            <l>Después que el invicto César</l>
+            <l>a mí y a ti nos mandó</l>
+            <l>que atacásemos la plaza</l>
+            <l>con ese fuerte cordón</l>
+            <l>apenas asiento dimos</l>
+            <l>si bien con algún sudor</l>
+            <l>a las dos siempre imperiales</l>
+            <l>águilas de su blasón,</l>
+            <l>cuando doce de los cabos</l>
+            <l>(que es docena del señor)</l>
+            <l>se juntan a celebrar</l>
+            <l>una amorosa pasión.</l>
+            <l>Disponen, pues, una cena</l>
+            <l>en que un cordero sirvió</l>
+            <l>de satisfacción al alma,</l>
+            <l>al cuerpo de refacción.</l>
+            <l>Apenas comió un bocado</l>
+            <l>uno dellos, cuando dio</l>
+            <l>en que había de vender</l>
+            <l>de aquella fiesta al autor.</l>
+            <l>Llamado de su codicia</l>
+            <l>ejecutó la traición</l>
+            <l>que aunque fue de los llamados</l>
+            <l>de los escogidos no.</l>
+            <l>Arrepentido después</l>
+            <l>sin legítimo dolor</l>
+            <l>de obrar esta infamia, dicen</l>
+            <l>que suspenso se quedó</l>
+            <l>y toda la gente haciendo</l>
+            <l>memoria de tal acción</l>
+            <l>«quien tal hace que tal pague»</l>
+            <l>está diciendo a una voz.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>El suspenderse no es culpa;</l>
+            <l>efectos del alma son.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Yo no debo de explicarme;</l>
+            <l>es que el bobo se ahorcó.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>¿Y cómo dicen se llama?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Sobre ese punto hay cuestión;</l>
+            <l>unos el traidor Tequeli,</l>
+            <l>y otros Judas el traidor.</l>
+            <l>Su mujer tuvo la culpa.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>¿Fue casado?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Como yo,</l>
+            <l>y si por serlo lo hiciera</l>
+            <l>le sobrara la razón.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Señas del sacro colegio</l>
+            <l>son las que das.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Es que soy</l>
+            <l>fámulo indigno aunque lego</l>
+            <l>deste colegio mayor.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>La codicia de un ungüento</l>
+            <l>fue toda su perdición.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Y fue el primer despensero</l>
+            <l>que en el trato se perdió.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>De mayordomo el oficio</l>
+            <l>tuvo.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Y admirado estoy</l>
+            <l>que a vendedor se metiese</l>
+            <l>siendo solo comprador.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Rebelde a los beneficios</l>
+            <l>del rebaño se apartó.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Y movió contra su dueño</l>
+            <l>las armas del gran dragón.</l>
+            <l>VOCES DENTRO</l>
+            <l>Quien tal hace que tal pague.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Otra vez vuelve el rumor.</l>
+          </sp>
+          <stage>Sale el conde Ernesto.</stage>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>Del delito no es la vida</l>
+            <l>bastante satisfacción.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Conde ¿qué ha sido la causa</l>
+            <l>del enojo?</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>Esto es, señor,</l>
+            <l>negarle contra la fe</l>
+            <l>a un sacrilego el perdón,</l>
+            <l>porque hoy un hereje a quien</l>
+            <l>por vil herencia dejó</l>
+            <l>hoy a Calvino su seta,</l>
+            <l>hoy a Lutero su error,</l>
+            <l>supliendo la noche ausencias</l>
+            <l>de ese encendido farol</l>
+            <l>se quedó oculto en la tienda</l>
+            <l>donde en sacro panteón</l>
+            <l>se deposita el cordero</l>
+            <l>y el sacramento mayor,</l>
+            <l>y entre las obscuridades</l>
+            <l>su ceguedad no advirtió</l>
+            <l>que, ausente el sol, nos alumbra</l>
+            <l>otro más lucido sol.</l>
+            <l>Allá al amor donde reina</l>
+            <l>como el fuego en su región</l>
+            <l>y del erario del padre</l>
+            <l>robó el tesoro mejor.</l>
+            <l>Lloró el ejército el hurto</l>
+            <l>y a pocos lances halló</l>
+            <l>de aquella abrasada Troya</l>
+            <l>al sacrílego Sinón.</l>
+            <l>Condúcele a mi presencia</l>
+            <l>todo el religioso ardor.</l>
+            <l>Examino dónde tiene</l>
+            <l>el hurto de su ambición</l>
+            <l>y entorpecido confiesa</l>
+            <l>que a las aguas le arrojó.</l>
+            <l>Consolóme la memoria</l>
+            <l>del Jordán, que adoración</l>
+            <l>le dio otra vez, pues atento</l>
+            <l>aquel trasparente humor</l>
+            <l>formando en catre de plata</l>
+            <l>cristalino pabellón</l>
+            <l>mereció glorias después</l>
+            <l>trasladadas al Tabor.</l>
+            <l>Discurriendo, pues, mi enojo</l>
+            <l>castigo que por atroz</l>
+            <l>correspondiera al delito,</l>
+            <l>no le previno el furor,</l>
+            <l>conque de cuatro caballos</l>
+            <l>el impulso más veloz</l>
+            <l>desunir pudo el compuesto</l>
+            <l>de aquella vil trabazón:</l>
+            <l>cuatro capitanes fueron</l>
+            <l>a quienes la fe movió</l>
+            <l>a ser gloriosos verdugos</l>
+            <l>de tan justa ejecución.</l>
+            <l>Ganáronme por la mano,</l>
+            <l>pues ningún cuerdo dudó</l>
+            <l>que la deshonra en el siglo</l>
+            <l>es para el cielo blasón.</l>
+            <l>Ahora para el asalto</l>
+            <l>está dispuesto el valor,</l>
+            <l>ardiente en todos la llama</l>
+            <l>que este subceso avivó.</l>
+            <l>En tal insulto mis ansias</l>
+            <l>oculto, porque es la voz</l>
+            <l>corta expresión de mi pena,</l>
+            <l>breve cifra del dolor.</l>
+            <l>Preceda al asalto en todos</l>
+            <l>cristiana disposición</l>
+            <l>porque del altar depende</l>
+            <l>el vencimiento mayor.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Eso pido; empiecen ya</l>
+            <l>a lucir, sin detención,</l>
+            <l>las misas, ¡cuerpo de Cristo!,</l>
+            <l>las bombas, ¡fuego de Dios!</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Y yo esta noche pretendo</l>
+            <l>entre su lóbrego horror</l>
+            <l>registrar por mi persona</l>
+            <l>ya el infante, ya el bridón.</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>Pues sea a su gusto el nombre</l>
+            <l>que he de dar.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>«¿Quién como Dios?».</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>Ese mismo dio Miguel</l>
+            <l>a su angélico escuadrón.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>A solo ese nombre debe</l>
+            <l>la victoria que adquirió</l>
+            <l>y con él vencer pretendo</l>
+            <l>la rebelde oposición.</l>
+          </sp>
+          <stage>Vanse. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Tocan clarines y cajas a embestir y mientras tanto dicen dentro.</stage>
+          <sp who="#voces_dentro_2">
+            <speaker>DENTRO</speaker>
+            <l>Los recintos principales</l>
+            <l>ocupan los enemigos...</l>
+          </sp>
+          <sp who="#otros_dentro">
+            <speaker>OTROS DENTRO</speaker>
+            <l>De nuestro valor testigos</l>
+            <l>serán estragos fatales.</l>
+          </sp>
+          <stage>Salen el duque de Baviera y el conde Serení con espada en mano.</stage>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>La contraescarpa rendida</l>
+            <l>mi infantería ocupó.</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>Y la guarnición que dio</l>
+            <l>en su defensa la vida.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Trecientos turcos a un fuerte</l>
+            <l>saliendo por una mina</l>
+            <l>sintieron para su ruina</l>
+            <l>en cada golpe una muerte.</l>
+            <l>¡Aquí el Dios de las batallas!</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>¡Ea leones valerosos!</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Ya están por nuestros los fosos.</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>Ya se pisan las murallas.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Vamos a darles calor.</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>Yo voy a templar su exceso.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>¡Viva la fe que profeso!</l>
+          </sp>
+          <stage>Dentro lo mismo.</stage>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>¡Y viva el emperador!</l>
+          </sp>
+          <stage>Vanse. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Sale Abdí asustado.</stage>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>¡Oh heredero de Ismael!</l>
+            <l>Miente mil veces quien dijo</l>
+            <l>que eres profeta, pues niegas</l>
+            <l>tu protección al peligro.</l>
+            <l>¡Cómo no te ablanda el ruego</l>
+            <l>ni te mueven los gemidos</l>
+            <l>cuando a golpes del acero</l>
+            <l>arroja chispas el risco!</l>
+            <l>¿Unas virtudes ligeras</l>
+            <l>han de triunfar de los vicios</l>
+            <l>y obscurecer con sus luces</l>
+            <l>las glorias del apetito?</l>
+            <l>Reniego de ti mil veces,</l>
+            <l>mal vencedor de ti mismo,</l>
+            <l>pues no hallan en tus piedades</l>
+            <l>amparo los afligidos.</l>
+            <l>¿Cómo no sientes la afrenta</l>
+            <l>que te previene el destino</l>
+            <l>en ruinas de tus mezquitas</l>
+            <l>donde en cultos repetidos</l>
+            <l>el cristiano substituya</l>
+            <l>altares y sacrificios?</l>
+            <l>Pero a pesar del estrago</l>
+            <l>ha de conceder tu olvido</l>
+            <l>que fío la resistencia</l>
+            <l>del afrento que respiro.</l>
+            <l>¡Ea valientes soldados,</l>
+            <l>no desmayen vuestros bríos!</l>
+            <l>Haga el valor en vosotros</l>
+            <l>lo que el profeta no hizo.</l>
+          </sp>
+          <stage>Sale Abdalla.</stage>
+          <sp who="#abdalla">
+            <speaker>ABDALLA</speaker>
+            <l>La flor de la infantería,</l>
+            <l>regida de su caudillo</l>
+            <l>allá sobre los ataques</l>
+            <l>sin resistencia perdimos.</l>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>No importa, que reforzando</l>
+            <l>los más peligrosos sitios</l>
+            <l>suelen ofrecer victorias</l>
+            <l>los riesgos acometidos.</l>
+          </sp>
+          <sp who="#abdalla">
+            <speaker>ABDALLA</speaker>
+            <l>Al Danubio se entregó</l>
+            <l>el pueblo de los judíos,</l>
+            <l>siendo sepulcro sus aguas</l>
+            <l>de hombres, mujeres y niños.</l>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>Esa gente no hace falta;</l>
+            <l>la casualidad admiro</l>
+            <l>de que mueran bautizados</l>
+            <l>los que niegan el bautismo.</l>
+            <l>Vos, Abdalla, de los muros</l>
+            <l>defenderéis los recintos</l>
+            <l>mientras hago que con truenos</l>
+            <l>rayos escupa el castillo.</l>
+          </sp>
+          <stage>Vanse. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Sale el duque de Lorena.</stage>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Con las sombras de la noche</l>
+            <l>todo el campo he discurrido</l>
+            <l>y una armonía sin voz,</l>
+            <l>una voz sin ejercicio</l>
+            <l>envía al alma sus ecos</l>
+            <l>sin entrar por el oído.</l>
+          </sp>
+          <stage>Sale tras él cantando a sus espaldas la Fe vendados los ojos y con linterna y una cruz en la mano.</stage>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Aparte.</stage>
+            <l>(Yo soy la Fe, que invisible,</l>
+            <l>al que admite mis avisos</l>
+            <l>obstentando ceguedades</l>
+            <l>rayos de luz comunico.)</l>
+            <stage>Canta. </stage>
+            <l>La Fe gobierna tus pasos,</l>
+            <l>porque admirados los siglos</l>
+            <l>en Jerusalén la santa</l>
+            <l>te celebren peregrino.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>A las glorias de Goffedo</l>
+            <l>me mueve impulso divino</l>
+            <l>que parece que le escucho</l>
+            <l>cuando apenas le distingo.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Canta. </stage>
+            <l>La luz de su ceguedad</l>
+            <l>y de tu espada los filos,</l>
+            <l>aunque es angosta la senda,</l>
+            <l>te enseñarán el camino.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Ciega la Fe puede dar</l>
+            <l>paso franco a mis disignios,</l>
+            <l>que el laurel de las empresas</l>
+            <l>se forma de los peligros.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Canta. </stage>
+            <l>No temas, Carlos, no temas,</l>
+            <l>pues llevas la Fe contigo</l>
+            <l>ni enjugues las esperanzas</l>
+            <l>al aire de los suspiros.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Que no tema me persuaden</l>
+            <l>acentos mal entendidos</l>
+            <l>cuando al temor como riesgo,</l>
+            <l>no como infamia, le miro.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Canta. </stage>
+            <l>En Buda conseguirás</l>
+            <l>el premio de tus servicios</l>
+            <l>y con lunas eclisadas</l>
+            <l>triunfarás del basilisco.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Si el basilisco se mira</l>
+            <l>en un espejo, rendido</l>
+            <l>pierde la vida, y espero</l>
+            <l>que me suceda lo mismo</l>
+            <l>con este bárbaro Abdí,</l>
+            <l>pues destemplado el nocivo</l>
+            <l>veneno de su furor</l>
+            <l>en las lunas que previno</l>
+            <l>el gran visir en su ayuda,</l>
+            <l>viendo menguantes sus giros</l>
+            <l>el espejo empañará</l>
+            <l>con el último gemido,</l>
+            <l>pero ¿cómo me embarazo</l>
+            <l>en discursos tan distintos</l>
+            <l>del empeño que me obliga</l>
+            <l>al examen deste sitio?</l>
+            <l>Cerremos al pensamiento</l>
+            <l>la puerta de los sentidos</l>
+            <l>negándole por ahora</l>
+            <l>de sus actos el registro.</l>
+          </sp>
+          <stage>Paséase. Anda siempre la Fe a sus espaldas y sale por otra puerta un hereje.</stage>
+          <sp who="#hereje">
+            <speaker>HEREJE</speaker>
+            <stage>Aparte.</stage>
+            <l>(Con industria supe el nombre</l>
+            <l>en un ataque enemigo</l>
+            <l>de que usan sus centinelas</l>
+            <l>deste noche en el abismo,</l>
+            <l>pero ¿qué dudas no vence</l>
+            <l>un maestro de Calvino?)</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Un hombre mueve los pasos.</l>
+            <l>¿Quién va? Deténgase.</l>
+          </sp>
+          <sp who="#hereje">
+            <speaker>HEREJE</speaker>
+            <l>Amigos.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Diga el nombre.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Al oído. Considera</stage>
+            <l>cómo le pronuncia tibio.</l>
+          </sp>
+          <sp who="#hereje">
+            <speaker>HEREJE</speaker>
+            <l>Dios ¿quién como?</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <stage>Aparte.</stage>
+            <l>(Este es hereje</l>
+            <l>pues que aunque el nombre me ha dicho</l>
+            <l>alterando las sustancias</l>
+            <l>le explica con otros visos.)</l>
+            <l>No es ese el nombre.</l>
+          </sp>
+          <sp who="#hereje">
+            <speaker>HEREJE</speaker>
+            <l>Ninguno</l>
+            <l>puede dudar que es el mismo,</l>
+            <l>«¿Quién como Dios?» es el tuyo;</l>
+            <l>«Dios ¿quién como?» le repito</l>
+            <l>y sin que le falte letra</l>
+            <l>encierra el propio sentido.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Tú eres hereje, sin duda.</l>
+          </sp>
+          <sp who="#hereje">
+            <speaker>HEREJE</speaker>
+            <l>Que soy puritano afirmo.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>No te mato por si acaso</l>
+            <l>de tu error arrepentido</l>
+            <l>debes a la Fe sus luces.</l>
+          </sp>
+          <sp who="#hereje">
+            <speaker>HEREJE</speaker>
+            <l>Verdades son las que sigo,</l>
+            <l>y pues católico eres,</l>
+            <l>el fin con que aquí he venido</l>
+            <l>es el salir de una duda</l>
+            <l>que en tu religión previno</l>
+            <l>mi discurso.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Aunque este puesto</l>
+            <l>en los ataques del sitio</l>
+            <l>es más para cuchilladas</l>
+            <l>que no para silogismos</l>
+            <l>has de conseguir el fin</l>
+            <l>si no niegas los principios.</l>
+          </sp>
+          <sp who="#hereje">
+            <speaker>HEREJE</speaker>
+            <l>Decís que en el sacramento</l>
+            <l>que es vuestro mayor prodigio</l>
+            <l>del pan la substancia pasa</l>
+            <l>a la del cuerpo de Cristo.</l>
+            <l>Con ese pan consagrado</l>
+            <l>supongo que mantenido</l>
+            <l>un hombre sin comer otro</l>
+            <l>puede conservarse vivo,</l>
+            <l>si del cuerpo en la substancia</l>
+            <l>la del pan se ha convertido.</l>
+            <l>El cuerpo no es elemento</l>
+            <l>ni los accidentes mismos</l>
+            <l>lo pueden ser, luego entonces</l>
+            <l>no negaréis convencidos</l>
+            <l>que es la substancia del pan</l>
+            <l>quien conserva el individuo,</l>
+            <l>y que no hubo conversión</l>
+            <l>en la del cuerpo de Cristo.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>De tu argumento me cuesta</l>
+            <l>cada palabra un suspiro,</l>
+            <l>por presumirte obstinado</l>
+            <l>aunque te halles respondido.</l>
+            <l>La conversión es milagro,</l>
+            <l>natural lo subcesivo.</l>
+            <l>El cuerpo de Cristo allí</l>
+            <l>que no es alimento, digo,</l>
+            <l>mas cuando los accidentes</l>
+            <l>se pasan a corrompidos</l>
+            <l>entonces nueva substancia</l>
+            <l>la naturaleza es visto</l>
+            <l>que de alimento introduzga</l>
+            <l>acción propia de su oficio,</l>
+            <l>o el mismo Dios, que es agente</l>
+            <l>natural, fin y principio</l>
+            <l>de las subcesivas formas</l>
+            <l>previstas del ser divino,</l>
+            <l>con que sustentado el hombre</l>
+            <l>con las especies que has dicho</l>
+            <l>digo que naturalmente</l>
+            <l>podrá conservarse vivo</l>
+            <l>sin que el sustento dependa</l>
+            <l>de lo que es cuerpo de Cristo</l>
+            <l>ni de la del pan sustancia,</l>
+            <l>sino de otra que previno</l>
+            <l>la naturaleza o Dios</l>
+            <l>como agente del prodigio.</l>
+          </sp>
+          <sp who="#hereje">
+            <speaker>HEREJE</speaker>
+            <l>Perplejo estoy.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Con el tiempo</l>
+            <l>se ha de ablandar.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Porque he visto</l>
+            <l>señas en ti de que cuerdo</l>
+            <l>has de admitir los auxilios</l>
+            <l>el paso te dejo libre,</l>
+            <l>que aunque el nombre has confundido</l>
+            <l>para que mejor lo sepas</l>
+            <l>quiero enseñarte el camino.</l>
+          </sp>
+          <stage>Vase el hereje por la puerta donde está el duque y sale el de Baviera.</stage>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Los cuarteles registré</l>
+            <l>por excusar el perjuicio</l>
+            <l>de que pasen a cuidados</l>
+            <l>descuidos no prevenidos,</l>
+            <l>y aunque esparce perezoso</l>
+            <l>su beleño entorpecido</l>
+            <l>el sueño, las centinelas</l>
+            <l>son Argos en los peligros.</l>
+            <l>Un bulto hacia aquella parte</l>
+            <l>confusamente distingo.</l>
+            <l>Pedirá, si hace la posta</l>
+            <l>el nombre. ¡Ah del recinto!</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>¿Quién llama?</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Soy un soldado.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Diga el nombre.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Ya lo he dicho,</l>
+            <l>pues el de soldado ahora</l>
+            <l>es mi nombre y apellido.</l>
+            <l>Con él, pues, he de pasar.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Que no es fácil, imagino,</l>
+            <l>el pasar con ese nombre.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <stage>Aparte.</stage>
+            <l>(El soldado tiene bríos.)</l>
+            <l>Yo estoy resuelto a pasar.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Si lo intentas atrevido</l>
+            <l>por esta boca de fuego</l>
+            <l>te responderá el rastrillo.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <stage>Aparte.</stage>
+            <l>(¡Oh católico valor!)</l>
+            <l>¿Quién como Dios?</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Bien has dicho,</l>
+            <l>pues con ese nombre puedes</l>
+            <l>rendir a tus enemigos</l>
+            <l>y, como dicen, pasar</l>
+            <l>por las picas sin peligro.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>¿Duque?</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Señor, vuestra alteza</l>
+            <l>ejemplares me da vivos</l>
+            <l>de lo que yo debo hacer.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>En vuestra alteza los miro</l>
+            <l>cumpliendo su obligación.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Por la mayor califico</l>
+            <l>la de un general prudente;</l>
+            <l>por eso el común estilo</l>
+            <l>a los puestos de la guerra</l>
+            <l>llama cargos advertido</l>
+            <l>porque sepa que en el suyo</l>
+            <l>todo es peso, nada alivio.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Aparte.</stage>
+            <l>(Sobre estos dos polos fondo</l>
+            <l>las basas de mi edificio,</l>
+            <l>arruinando del dragón</l>
+            <l>los mal fondados dominios.)</l>
+          </sp>
+          <stage>Sale el Gusto con horquilla, mosquete al hombro y cuerda calada.</stage>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <stage>Aparte.</stage>
+            <l>(La posta vine a mudar</l>
+            <l>volando, como muy hombre,</l>
+            <l>pues con las alas del nombre</l>
+            <l>el gusto suele volar.</l>
+            <l>El mosquete me encajó</l>
+            <l>y aunque la arenga prevengo</l>
+            <l>él me dio con la del Rengo</l>
+            <l>y el peso me derrengó.</l>
+            <l>Pero el mosquete al mirar</l>
+            <l>la cambra dijo a los dos</l>
+            <l>«Hombres, dejadme, por Dios,</l>
+            <l>y no me hagáis reventar».</l>
+            <l>Yo que de pullas no sé</l>
+            <l>dije ajustando la cuenta,</l>
+            <l>«Pues si el mosquete revienta,</l>
+            <l>yo que le tengo ¿qué haré?».</l>
+            <l>Confieso que esta vajilla</l>
+            <l>quiere esta noche enfadarme</l>
+            <l>y es cosa para ahorcarme</l>
+            <l>ya la cuerda, ya la horquilla.</l>
+            <l>Allí dos bultos intentan</l>
+            <l>reventarme; fuerte susto.</l>
+            <l>¡Bueno quedará don Gusto</l>
+            <l>si dos bultos le revientan!</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Una posta se divisa.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Lleguemos a registrarla.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <stage>Aparte.</stage>
+            <l>(Si ellos no admiten la parla</l>
+            <l>me han de dejar en camisa,</l>
+            <l>pero habrá palo y más palo</l>
+            <l>y ya al mosquete previene</l>
+            <l>la cuerda.)</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>¿Quién va?</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>¿Quién viene?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <stage>Aparte.</stage>
+            <l>(¿Idas y venidas? Malo.)</l>
+            <l>El nombre digan los dos.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>No hay tiro que nos asombre.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Pues si no decís el nombre</l>
+            <l>os mato en nombre de Dios.</l>
+            <stage>Apúntalos.</stage>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Hacer a un tiempo dos ruinas</l>
+            <l>fueran sucesos sebees.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Quien lo hace con las perdices</l>
+            <l>mejor lo hará con gallinas.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Nuestro valor a entender</l>
+            <l>haremos a todo ruedo.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Estaréis muerto de miedo,</l>
+            <l>conque no tendré que hacer.</l>
+            <l>Ya mi furia tasca el freno;</l>
+            <l>al nombre solo me rindo.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>No queremos.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>¡Oh qué lindo!</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>¿Quién como Dios?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>¡Oh qué bueno!</l>
+            <stage>Conócelos.</stage>
+            <l>Ya con eso afrento cobra</l>
+            <l>el pecho, ¡cuerpo de Cristo!</l>
+            <l>Príncipes, jamás se ha visto</l>
+            <l>el Gusto con tal zozobra.</l>
+            <l>Papeles instrumentales</l>
+            <l>los dos me daréis aquí</l>
+            <l>de que solo resistí</l>
+            <l>el paso a dos generales.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Acción digna de un laurel</l>
+            <l>era si del turco fueran.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>En ese caso me hicieran</l>
+            <l>luego al punto coronel.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Mañana de tanto susto</l>
+            <l>el triunfo será consuelo.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Ampare su causa el cielo.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Sin penas se logre el Gusto.</l>
+          </sp>
+          <stage>Vanse y queda la Fe.</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Los dos con tan viva fe</l>
+            <l>triunfos al César previenen;</l>
+            <l>ellos saben que me tienen</l>
+            <l>y yo que los tengo sé.</l>
+            <l>En nada Carlos erró</l>
+            <l>de mis voces advertido;</l>
+            <l>halago soy de su oído</l>
+            <l>cuando de su vista no.</l>
+          </sp>
+          <stage>Sale la Soberbia.</stage>
+          <sp who="#soberbia">
+            <speaker>SOBERBIA</speaker>
+            <l>Hoy con mi ejército quiero</l>
+            <l>lograr triunfos de una vez</l>
+            <l>aunque para mi altivez</l>
+            <l>es muy corto el de un cordero.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Aparte.</stage>
+            <l>(Esta es la Soberbia infiel.)</l>
+            <stage>Con linterna. </stage>
+            <l>El nombre me da al instante.</l>
+          </sp>
+          <sp who="#soberbia">
+            <speaker>SOBERBIA</speaker>
+            <l>Soy la Soberbia arrogante.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>No entrarás en mi cuartel.</l>
+            <stage>Dale con la cruz.</stage>
+          </sp>
+          <sp who="#soberbia">
+            <speaker>SOBERBIA</speaker>
+            <l>¿Por qué ajas mi vanidad?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Porque eres un monstruo fiero.</l>
+          </sp>
+          <sp who="#soberbia">
+            <speaker>SOBERBIA</speaker>
+            <l>¿Quién me da muerte?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>El madero</l>
+            <l>en que triunfó la humildad.</l>
+          </sp>
+          <stage>Húndese en el tablado y sale la Avaricia.</stage>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l>Mi corazón un tesoro</l>
+            <l>ocultó, de valor es,</l>
+            <l>y hoy se ha vestido el arnés</l>
+            <l>para vengar un desdoro.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>La Avaricia es la que viene.</l>
+            <l>Diga el nombre.</l>
+            <stage>Con la linterna.</stage>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l>No me asombre.</l>
+            <l>De Avaricia tengo el nombre.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Aparte.</stage>
+            <l>(Y tiene lo que no tiene.)</l>
+            <l>Negarte el paso es justicia.</l>
+            <l>Tu muerte será fatal,</l>
+            <l>que al campo de un liberal</l>
+            <l>nunca llegó la avaricia.</l>
+            <stage>Dale.</stage>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l>El matarme aquí es fiereza.</l>
+            <l>¿Quién tan presto me venció?</l>
+            <stage>Húndese.</stage>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Arbol cuyo fruto halló</l>
+            <l>contra Avaricia largueza.</l>
+          </sp>
+          <stage>Sale la Ira.</stage>
+          <sp who="#ira">
+            <speaker>IRA</speaker>
+            <l>Con furores inhumanos</l>
+            <l>la rabia que me eterniza</l>
+            <l>convierta hoy en ceniza</l>
+            <l>el campo de los cristianos.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>La Ira es esta ¡qué furor!</l>
+            <l>A que diga el nombre aspira</l>
+            <l>mi cuidado.</l>
+            <stage>Con la linterna.</stage>
+          </sp>
+          <sp who="#ira">
+            <speaker>IRA</speaker>
+            <l>Soy la Ira,</l>
+            <l>instrumento del horror.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Porque no hagas algún robo</l>
+            <l>el paso te negaré</l>
+            <l>pues nunca es justo que esté</l>
+            <l>el cordero junto al lobo.</l>
+            <stage>Dale.</stage>
+          </sp>
+          <sp who="#ira">
+            <speaker>IRA</speaker>
+            <l>Vana es ya mi resistencia.</l>
+            <l>¿Quién la muerte me condujo?</l>
+            <l>Húndese.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Este árbol que produjo</l>
+            <l>los frutos de la paciencia.</l>
+          </sp>
+          <stage>Sale la Lujuria.</stage>
+          <sp who="#lujuria">
+            <speaker>LUJURIA</speaker>
+            <l>A coronar mis delitos</l>
+            <l>vengo.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Con linterna. El nombre.</stage>
+          </sp>
+          <sp who="#lujuria">
+            <speaker>LUJURIA</speaker>
+            <l>Fuerte injuria.</l>
+            <l>¿Quién se atreve a la Lujuria?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Quien vence los apetitos.</l>
+            <stage>Dale.</stage>
+          </sp>
+          <sp who="#lujuria">
+            <speaker>LUJURIA</speaker>
+            <l>No esperaba tal crueldad.</l>
+            <l>¿Quién mi homecida se clama?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Este leño, cuya llama</l>
+            <l>enciende la castidad.</l>
+          </sp>
+          <stage>Húndese. Sale la Gula.</stage>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>¡Viva el cristiano sin orden!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Con linterna. </stage>
+            <l>El nombre.</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>Gula será.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Donde la templanza está</l>
+            <l>no puede entrar el desorden.</l>
+            <stage>Dale.</stage>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>Vana fue mi confianza.</l>
+            <l>¿Quién me pudo aquí matar?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Este árbol que al paladar</l>
+            <l>dejó reglas de templanza.</l>
+          </sp>
+          <stage>Húndese. Sale la Envidia.</stage>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>¡Aquí de la emulación!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>El nombre.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Envidia.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Aparte.</stage>
+            <l>(Mal lidia.)</l>
+            <l>¿Cómo puede entrar la Envidia</l>
+            <l>a donde asiste la unión?</l>
+            <stage>Dale.</stage>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Ajaste mi vanidad.</l>
+            <l>¿Quién corta a la Envidia lutos?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Arbol que en copiosos frutos</l>
+            <l>obstenta la caridad.</l>
+          </sp>
+          <stage>Húndese. Sale la Pereza.</stage>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l>Contra el cristiano escarmientos</l>
+            <l>moverá mi flojedad</l>
+            <l>para que en él la maldad</l>
+            <l>se introduzga a pasos lentos.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Con linterna. </stage>
+            <l>Di el nombre si has de pasar.</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l>Pereza.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Ya lo has errado,</l>
+            <l>que a donde asiste el cuidado</l>
+            <l>la Pereza no ha de entrar.</l>
+            <stage>Dale.</stage>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l>Yo me rindo a tu violencia.</l>
+            <l>¿Quién me da muerte inhumano?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Este leño que en mi mano</l>
+            <l>te mata con diligencia.</l>
+            <stage>Húndese [la Pereza]</stage>
+            <l>Y pues los cielos propicios</l>
+            <l>permitieron obligados</l>
+            <l>que de la cruz maltratados</l>
+            <l>muriesen los siete vicios,</l>
+            <l>principio de su vitoria</l>
+            <l>a la del César invito</l>
+            <l>para que en este conflito</l>
+            <l>al fin se cante la gloria.</l>
+          </sp>
+          <stage>Vase. Sale la Unión por la parte donde se entró la Fe, con la misma cruz que llevaba en la mano.</stage>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>A la Fe sin dilación</l>
+            <l>sigo, sin que el campo altere,</l>
+            <l>pues donde la Fe estuviere</l>
+            <l>no puede faltar la Unión.</l>
+            <l>Su insignia con pecho fiel</l>
+            <l>me dio, ayudando el intento</l>
+            <l>porque para el vencimiento</l>
+            <l>este árbol será laurel.</l>
+          </sp>
+          <stage>Sale la Discordia por donde salió el hereje.</stage>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <stage>Aparte.</stage>
+            <l>(Hoy su ciega falsedad</l>
+            <l>de mí el hereje recibe</l>
+            <l>porque la Discordia vive</l>
+            <l>en quien niega la verdad.)</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Aquí la Discordia viene;</l>
+            <l>a mis manos morirá.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Un bulto miro.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>¿Quién va?</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Quien sus aplausos previene.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Sin réplica el nombre diga</l>
+            <l>si ha de pasar adelante.</l>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>Soy la Discordia arrogante.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Pues muere por enemiga.</l>
+            <stage>Dale con la cruz.</stage>
+          </sp>
+          <sp who="#discordia">
+            <speaker>DISCORDIA</speaker>
+            <l>De tu furia es bien me asombre</l>
+            <l>en tan notorio baldón.</l>
+            <l>¿Quién me da muerte?</l>
+            <stage>Húndese.</stage>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>La Unión,</l>
+            <l>que media entre Dios y el hombre,</l>
+            <l>con que extinguida tu saña</l>
+            <l>uniones inspiraré</l>
+            <l>y desde aquí quedaré</l>
+            <l>por dueño de la campaña.</l>
+          </sp>
+          <stage>Vase. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Tocan en dos partes clarines y cajas y sale el Gran Visir asustado.</stage>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>Aquí de mis cuidados</l>
+            <l>¡ea, valientes del dragón soldados!,</l>
+            <l>triunfad hoy en la tierra</l>
+            <l>los que al cielo supisteis hacer guerra;</l>
+            <l>sed cada uno de furores ciego</l>
+            <l>rayo con alma, exhalación de fuego.</l>
+            <l>Hoy de tanto escuadrón con nueva traza</l>
+            <l>la plaza de armas ha de ser la plaza.</l>
+            <l>Confieso que me corro</l>
+            <l>de la falta que le hace ya el socorro,</l>
+            <l>pero allí mis soldados</l>
+            <l>del enemigo atacan los costados</l>
+            <l>y con furia francesa</l>
+            <l>como leones se arrojan a la presa.</l>
+            <l>Mas ¡ay de mí!, ¡oh pena, oh dolor fuerte!</l>
+            <l>que trocó la Fortuna ya la suerte,</l>
+            <l>pues solo logran ya mis escuadrones</l>
+            <l>muertes, estragos, fugas, confusiones,</l>
+            <l>siendo despojo de imperial coraje</l>
+            <l>artillería, vidas y bagaje.</l>
+          </sp>
+          <stage>Sale el serasquier.</stage>
+          <sp who="#serasquier">
+            <speaker>SERASQUIER</speaker>
+            <l>Ya escuchas los lamentos;</l>
+            <l>contra el hado son vanos los intentos;</l>
+            <l>embestimos, señor, en feliz hado</l>
+            <l>y el enemigo, viéndose apretado</l>
+            <l>resistió con tal furia</l>
+            <l>que de nuestro valor haciendo injuria</l>
+            <l>dichoso, si lo adviertes,</l>
+            <l>con cada tiro ejecutó cien muertes</l>
+            <l>y bárbaro homecida</l>
+            <l>con cada golpe se llevó una vida.</l>
+            <l>Lloró el horror estragos subcesivos</l>
+            <l>siendo los muertos miedo de los vivos</l>
+            <l>y en amagos inciertos</l>
+            <l>fueron los vivos copia de los muertos.</l>
+            <l>Al cristiano feliz no des la gloria</l>
+            <l>de lograr por entero la vitoria.</l>
+          </sp>
+          <sp who="#visir">
+            <speaker>VISIR</speaker>
+            <l>A recoger se toque porque puedan</l>
+            <l>las reliquias que quedan</l>
+            <l>de mi ejército altivo, ya postrado,</l>
+            <l>ponerle unidas en algún cuidado.</l>
+            <l>Las águilas australes</l>
+            <l>el sol se sorberán con vuelos tales,</l>
+            <l>mas en su dueño nada ya me admira</l>
+            <l>si toda Europa en su favor conspira.</l>
+            <l>Con sus frutos la tierra,</l>
+            <l>el veneciano con sangrienta guerra,</l>
+            <l>en diversiones con poder tirano</l>
+            <l>de Mahoma el hereje persiano,</l>
+            <l>y lo que más me irrita,</l>
+            <l>con armas el polaco y moscovita.</l>
+            <l>De tantos gastos por su cuenta toma</l>
+            <l>los socorros el muftí que está en Roma,</l>
+            <l>por cuyas oraciones y desvelos</l>
+            <l>le asiste en todo favorable el cielo.</l>
+            <l>¿Qué mucho, pues, se oponga, ¡ay penas mías!,</l>
+            <l>al dragón que se traga monarquías?</l>
+            <l>Y todo esto (no sé cómo no muero)</l>
+            <l>por colocar en aras a un cordero.</l>
+            <l>Recójanse estandartes y pendones,</l>
+            <l>que la Fortuna es vana en sus acciones.</l>
+            <l>Hoy viéndolas menguadas</l>
+            <l>nos deja nuestras lunas eclisadas;</l>
+            <l>mañana en su creciente</l>
+            <l>triunfarán del imperio de Occidente.</l>
+          </sp>
+          <stage>Vanse. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Descúbrese el señor emperador sentado en una silla en el primer carro.</stage>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Parece que están reñidos</l>
+            <l>mi descanso y mi desvelo</l>
+            <l>sin que remisas quietudes</l>
+            <l>llegue a conseguir el sueño.</l>
+            <l>Con una bola en la mano</l>
+            <l>dormía, si bien me acuerdo,</l>
+            <l>Alejandro, peso corto</l>
+            <l>a vista de tanto peso.</l>
+            <l>Pintaba la antigüedad</l>
+            <l>unidos espada y cetro</l>
+            <l>para que fuese el cuidado</l>
+            <l>cuchillo del esperezo.</l>
+            <l>Días ha que no derrama</l>
+            <l>en mis ojos su beleño,</l>
+            <l>y aun para ver mis empresas</l>
+            <l>no bastan ojos dispiertos,</l>
+            <l>y pues que solos estamos,</l>
+            <l>memoria y entendimiento,</l>
+            <l>pretendo que haga la Fe</l>
+            <l>un soberano cotejo.</l>
+            <l>Repita, pues, los prodigios</l>
+            <l>que obra en mí piadoso el cielo</l>
+            <l>para que aumenten el cargo</l>
+            <l>los favores que le debo.</l>
+            <l>Dios humillado por mí,</l>
+            <l>como en imagen me ha hecho,</l>
+            <l>quiso que fuesen retrato</l>
+            <l>de los suyos mis sucesos:</l>
+            <l>si un traidor Judas le vende</l>
+            <l>hace un Tequeli lo mesmo,</l>
+            <l>el uno por ambicioso,</l>
+            <l>el otro por avariento,</l>
+            <l>aquel arma contra Dios</l>
+            <l>escribas y fariseos,</l>
+            <l>este mueve contra mí</l>
+            <l>todo el poder del infierno,</l>
+            <l>aquel, ingrato, le borra</l>
+            <l>de monarca privilegios,</l>
+            <l>este, rebelde, les quita</l>
+            <l>a mis dominios un reino.</l>
+            <l>Contra la inocencia un horno</l>
+            <l>brota en Babilonia incendios</l>
+            <l>y aquí contra mi persona</l>
+            <l>sopla la traición un fuego.</l>
+            <l>Nace en Belén entre pajas</l>
+            <l>a los rigores del hielo;</l>
+            <l>yo también a mi peligro</l>
+            <l>previne pajizo el lecho.</l>
+            <l>A Egipto parte buscando</l>
+            <l>seguridades al riesgo</l>
+            <l>y yo de Viena me salgo</l>
+            <l>por lograr el mismo intento.</l>
+            <l>Pasó sensibles trabajos</l>
+            <l>en siete años de destierro;</l>
+            <l>yo en el mío en pocos días</l>
+            <l>debí fatigas al tiempo.</l>
+            <l>Para vivir, en el pan</l>
+            <l>nos dispuso un sacramento</l>
+            <l>y en ese pan que da vida</l>
+            <l>la muerte me previnieron,</l>
+            <l>luego quiere que resuenen</l>
+            <l>en este rudo instrumento</l>
+            <l>los ecos de aquellas voces,</l>
+            <l>las voces de aquellos ecos.</l>
+            <l>La noticia de que en Buda</l>
+            <l>se ha coronado el cordero</l>
+            <l>aguarda mi fe por horas,</l>
+            <l>siendo siglos los momentos.</l>
+          </sp>
+          <stage>Quédase dormido. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Salen del carro de Buda los duques de Lorena y Baviera y el conde de Estaremberg, el de Serení y el Gusto, todos con espada en mano; la Fe y la Unión; suenan cajas y clarines.</stage>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Ya que este bárbaro Abdí</l>
+            <l>en las llamadas que ha hecho</l>
+            <l>y en repetidos avisos</l>
+            <l>desprecia pactos honestos...,</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Ya que a costa del dolor</l>
+            <l>con un español esfuerzo</l>
+            <l>escribió Béjar con sangre</l>
+            <l>ejecutorias del celo...,</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>Ya que el visir derrotado</l>
+            <l>o fugitivo, a lo menos,</l>
+            <l>considera aunque alas vista</l>
+            <l>desesperado su intento...,</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>Ya que baluartes y fosos,</l>
+            <l>contraescarpa y parapetos</l>
+            <l>ganamos y las murallas</l>
+            <l>pisan gloriosos los nuestros...,</l>
+            <stage>Sonando las cajas.</stage>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>.. .sea rigor la piedad.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>...sea el castigo escarmiento.</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>.. .sea la templanza ira.</l>
+          </sp>
+          <sp who="#serení">
+            <speaker>SERENÍ</speaker>
+            <l>.. .sirva la crueldad de ejemplo.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>¡Ea, valientes cristianos!,</l>
+            <l>poco le falta al trofeo</l>
+            <l>que al emprender se vincula</l>
+            <l>la gloria del vencimiento.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>¡Ea, tigres!</l>
+          </sp>
+          <sp who="#ernesto">
+            <speaker>ERNESTO</speaker>
+            <l>¡Ea, leones!</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Las águilas del imperio</l>
+            <l>tremolad para que puedan</l>
+            <l>ser escándalo del viento.</l>
+            <l>Al cordero le fabrique</l>
+            <l>cada corazón un templo</l>
+            <l>mientras el tiempo previene</l>
+            <l>cultos que le dé el incienso.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>No quede vivo ninguno.</l>
+            <l>Sea despojo sangriento</l>
+            <l>del mosquete y de la espada</l>
+            <l>la obstinación de ese pueblo.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Aparte.</stage>
+            <l>(Ya el tiempo va sazonando</l>
+            <l>los aplausos a mi empeño.)</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <stage>Aparte.</stage>
+            <l>(Ya con mi ayuda la Fe</l>
+            <l>logra de su afán el premio.)</l>
+          </sp>
+          <stage>Sale Abdí con un alfanje en cada mano.</stage>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>Ya que rendida la plaza</l>
+            <l>a tanta violencia veo</l>
+            <l>y que el dragón como debe</l>
+            <l>no castiga su desprecio,</l>
+            <l>yo, instado de mi valor,</l>
+            <l>matar y morir pretendo</l>
+            <l>porque el aliento heredado</l>
+            <l>acabe con el aliento.</l>
+            <stage>Tira cuchilladas.</stage>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Bárbaro, loco ¿qué haces?</l>
+            <l>Muere a golpes de mi acero</l>
+            <l>pues yo solo con cuidado</l>
+            <l>le traigo para los perros.</l>
+            <stage>Va a darle.</stage>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Tente, aguarda, no le mates,</l>
+            <l>que es lástima, ¡vive el cielo!,</l>
+            <l>que aunque es esfuerzo sin fe</l>
+            <l>no deja de ser esfuerzo.</l>
+            <l>Yo la vida te perdono.</l>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>Esa piedad no agradezco.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>¿No ves que está convidado</l>
+            <l>a cenar en los infiernos?</l>
+          </sp>
+          <sp who="#abdí">
+            <speaker>ABDÍ</speaker>
+            <l>Quiero morir por no ver</l>
+            <l>entronizado al cordero.</l>
+            <l>¡Oh, quién bebiera su sangre!</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Este lobo es carnicero.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Quien las piedades no admite</l>
+            <l>muera al punto.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Ya está hecho,</l>
+            <l>sin médico, sin boticas,</l>
+            <l>confesión ni sacramentos.</l>
+          </sp>
+          <stage>Dale y cae. Retiranle. </stage>
+        </div>
+        <div type="configuration">
+          <stage>Descúbrese en el carro de Buda un altar en que estará sobre corporales un cáliz con un cordero encima, sonarán los instrumentos y todos se quitan los sombreros.</stage>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Ya del cordero los triunfos</l>
+            <l>publican los instrumentos.</l>
+            <l>Feliz día, que destierras</l>
+            <l>las sombras con tus reflejos.</l>
+            <l>Con los brazos esta dicha</l>
+            <l>a vuestra alteza prevengo.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Lazos sean en los dos</l>
+            <l>del nudo de nuestro afecto.</l>
+            <stage>Abrázanse.</stage>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>A tus instancias, Unión,</l>
+            <l>se hace el nudo más estrecho.</l>
+          </sp>
+          <sp who="#unión">
+            <speaker>UNIÓN</speaker>
+            <l>Tus impusos eternizan</l>
+            <l>las glorias desde subceso.</l>
+          </sp>
+          <stage>Ponénse todos de rodillas. Salen las cuatro virtudes con cendales en el rostro, cantando todas a un tiempo con tono alegre,on guirnaldas de azucenas.</stage>
+          <sp who="#prudencia #templanza #justicia #fortaleza">
+            <speaker>[VIRTUDES]</speaker>
+            <stage>Cantan. </stage>
+            <l>Formen ruiseñores</l>
+            <l>pasos de garganta,</l>
+            <l>ríanse las flores</l>
+            <l>y al rayar el día</l>
+            <l>festivas aves logren su armonía.</l>
+          </sp>
+          <stage>Salen cantando tres mujeres en tono fúnebre.</stage>
+          <sp who="#mujeres">
+            <speaker>[MUJERES]</speaker>
+            <stage>Cantan. </stage>
+            <l>Llore la desgracia</l>
+            <l>en roncos acentos</l>
+            <l>triunfos de la gracia,</l>
+            <l>y en dolor deshechas</l>
+            <l>nocturnas aves canten sus endechas.</l>
+          </sp>
+          <stage>Despierta el emperador y levántase.</stage>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Cielos, ¿qué armonía es esta</l>
+            <l>que aquí en dos coros opuestos</l>
+            <l>introduce con blandura</l>
+            <l>en el corazón misterios?</l>
+          </sp>
+          <sp who="#prudencia #templanza #justicia #fortaleza">
+            <speaker>VIRTUDES</speaker>
+            <stage>Cantan. </stage>
+            <l>El laurel avisa</l>
+            <l>su triunfo a la Fama</l>
+            <l>y tocan con risa</l>
+            <l>rudos pasacalles</l>
+            <l>con humildad las selvas y los valles.</l>
+          </sp>
+          <sp who="#mujeres">
+            <speaker>LAS 3</speaker>
+            <stage>Cantan. </stage>
+            <l>Es el agua llanto</l>
+            <l>en fuentes y ríos;</l>
+            <l>dan en su quebranto</l>
+            <l>del pesar las señas</l>
+            <l>con su altivez los riscos y las peñas.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Uno canta sus aplausos,</l>
+            <l>otro llora sentimientos,</l>
+            <l>siendo de gusto y pesar</l>
+            <l>alternativos los ecos.</l>
+            <l>Algún misterio se encierra</l>
+            <l>en tan contrarios acentos,</l>
+            <l>que el alma percibe cerca,</l>
+            <l>la voz articula lejos.</l>
+          </sp>
+          <sp who="#prudencia #templanza #justicia #fortaleza">
+            <speaker>VIRTUDES</speaker>
+            <stage>Cantan.Virtudes coronen</stage>
+            <l>de blanco sus frentes,</l>
+            <l>vicios lo pregonen,</l>
+            <l>y de gozo llena</l>
+            <l>su castidad obstente la azucena.</l>
+            <l>LAS 3</l>
+            <stage>Cantan. Llore descompuesto</stage>
+            <l>verdes desaliños</l>
+            <l>el ciprés funesto</l>
+            <l>y de muerto amante</l>
+            <l>lasciva diosa la tragedia cante.</l>
+          </sp>
+          <stage>Vanse.</stage>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>¿Mas si la toma de Buda</l>
+            <l>piadoso me avisa el cielo,</l>
+            <l>sentimientos del dragón</l>
+            <l>y de mis armas trofeos?</l>
+            <l>¿Si estará restituido</l>
+            <l>en sus aras el cordero?</l>
+            <stage>Ponese de rodillas.</stage>
+            <l>Vos sabéis, Señor, que ha sido</l>
+            <l>ese el fin de mis deseos:</l>
+            <l>si es así borre las culpas</l>
+            <l>con que está manchado el hombre.</l>
+          </sp>
+          <sp who="#prudencia #templanza #justicia #fortaleza">
+            <speaker>VIRTUDES</speaker>
+            <stage>Cantan. </stage>
+            <l>Qui tollis pecata mundi,</l>
+            <l>miserere nobis.</l>
+          </sp>
+          <sp who="#emperador">
+            <speaker>EMPERADOR</speaker>
+            <l>Hoy tus alabanzas cante</l>
+            <l>con festiva voz mi afecto.</l>
+          </sp>
+          <stage>Éntrase. Sale un hereje y pénese de rodillas.</stage>
+          <sp who="#prudencia #templanza #justicia #fortaleza">
+            <speaker>VIRTUDES</speaker>
+            <stage>Cantan. </stage>
+            <l>Te Deum laudamus,</l>
+            <l>te Dominum confitemur.</l>
+          </sp>
+          <stage>Éntranse.</stage>
+          <sp who="#hereje">
+            <speaker>HEREJE</speaker>
+            <l>Esa confesión publique</l>
+            <l>hoy de mi voz el acento</l>
+            <l>porque del crisol de amor</l>
+            <l>salgan dorados mis yerros.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>¿Quién es este arrepentido?</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Un hereje cuyo espejo</l>
+            <l>del alma empañó O alvino</l>
+            <l>con su sacrílego aliento.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>¡Oh gran pastor que encaminas</l>
+            <l>al aprisco los corderos!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>¡Oh gran Dios que multiplicas</l>
+            <l>el rebaño de tu pueblo!</l>
+          </sp>
+          <stage>Cúbrese el altar, levántanse todos los que estaban de rodillas.</stage>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Y supuesto que los ojos</l>
+            <l>día tan dichoso vieron</l>
+            <l>pasen luego las mezquitas</l>
+            <l>purificadas a templos.</l>
+          </sp>
+          <sp who="#baviera">
+            <speaker>BAVIERA</speaker>
+            <l>Substituyan sacrificios</l>
+            <l>a supersticiosos ruegos</l>
+            <l>y sea la religión</l>
+            <l>justo motivo al ejemplo.</l>
+          </sp>
+          <sp who="#lorena">
+            <speaker>LORENA</speaker>
+            <l>Este engaño vuestra alteza</l>
+            <l>tome a cargo de su celo</l>
+            <l>mientras yo sigo al visir</l>
+            <l>con batallones ligeros.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Y aquí don Gusto da fin</l>
+            <l>al dificultoso empeño</l>
+            <l>en que el celo le metió.</l>
+            <l>Si parece bien, laus Deo.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
