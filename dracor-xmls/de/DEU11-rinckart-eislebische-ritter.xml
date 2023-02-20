@@ -2,11 +2,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Der Eislebische Christliche Ritter</title>
+        <title>Der eislebische Christliche Ritter</title>
         <subtitle></subtitle>
         <author>
-          <forename>Martin</forename>
-          <surname>Rinckart</surname>
+          <persName>
+            <forename>Martin</forename>
+            <surname>Rinckart</surname>
+          </persName>
           <idno type="wikidata">Q78323</idno>
         </author>
       </titleStmt>
