@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="insert_dracor_id" xml:lang="deu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="ger######" xml:lang="deu" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="title">Comoedia Vom Studenten-Leben</title>
+        <title type="title">Comoedia vom Studenten-Leben</title>
         <title type="sub"/>
         <author>
           <persName>

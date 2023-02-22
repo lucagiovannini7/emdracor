@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="insert_dracor_id" xml:lang="ger" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="ger#######" xml:lang="ger" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"></title>
+        <title type="main">Comoedia von Macht des kleinen Knaben Cupidinis</title>
+        <author>
+          <persName>(Anonym)</persName>
+          <idno type="wikidata">Q4233718</idno>
+        </author>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
@@ -57,8 +61,9 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"/>
+          <term type="genreTitle">Comedy</term>
         </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
       </textClass>
     </profileDesc>
     <revisionDesc>
