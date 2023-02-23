@@ -6,8 +6,10 @@
       <titleStmt>
         <title type="main">Isaac</title>
         <author>
-          <forename>Schlue</forename>
-          <surname>Joachim</surname>
+          <persName>
+            <forename>Joachim</forename>
+            <surname>Schlue</surname>
+          </persName
           <idno type="wikidata">Q55133405</idno>
           <idno type="pnd">101458886</idno>
         </author>

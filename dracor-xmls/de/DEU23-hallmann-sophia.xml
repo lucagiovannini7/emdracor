@@ -175,7 +175,7 @@
           <person sex="MALE" xml:id="julianus">
             <persName>JULIANUS</persName>
           </person>
-          <personGrp sex="MALE" xml:id="engel">
+          <personGrp sex="UNKNOWN" xml:id="alle_engel">
             <persName>ALLE ENGEL</persName>
           </personGrp>
           <person sex="MALE" xml:id="ophita">
@@ -4288,7 +4288,7 @@
             <speaker>CHARITAS.</speaker>
             <l>Nein! Nein!</l>
           </sp>
-          <sp who="#spes fides #charitas">
+          <sp who="#spes #fides #charitas">
             <speaker>ALLE DREY.</speaker>
             <l>wir wündschen zuerbleichen!</l>
           </sp>
@@ -5366,7 +5366,7 @@
             <l>Jedoch welch Glantz umstrahlet unsre Glieder?</l>
             <l>Wie? Lassen sich die Engel bey uns nieder?</l>
           </sp>
-          <sp who="#engel">
+          <sp who="#alle_engel">
             <speaker>ALLE ENGEL.</speaker>
             <l>Wir kommen aus dem Sternen-Saal</l>
             <l>Mit hellem Schein / mit Kron- und Palmenzweigen</l>
@@ -5424,7 +5424,7 @@
             <speaker>DER IV. ENGEL:</speaker>
             <l>Jo Triumph! Die Liebe wird erhöht!</l>
           </sp>
-          <sp who="#engel">
+          <sp who="#alle_engel">
             <stage>Alle Engel / in deme sie sich nebst denen auf dem Triumphs-Wagen sitzenden Vier Tugenden widerum in den Himmel schwingen /schlüssen nebst untergemischten Violinen / Trompeten und Heerpaucken also.</stage>
             <l>»Drumb welcher hier und dort den Himmel wil erblicken /</l>
             <l>Den muß Beständigkeit / Glaub' / Lieb' und Hoffnung schmücken!«</l>

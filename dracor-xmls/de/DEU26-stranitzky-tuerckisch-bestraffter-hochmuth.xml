@@ -76,9 +76,9 @@
           <person sex="MALE" xml:id="daun">
             <persName>DAUN</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="volck">
+          <personGrp sex="UNKNOWN" xml:id="volck">
             <persName>DAS VOLCK</persName>
-          </person>
+          </personGrp>
           <person sex="MALE" xml:id="pohlen">
             <persName>POHLEN</persName>
           </person>

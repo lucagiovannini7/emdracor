@@ -27,8 +27,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name/>
-          <idno type="URL"/>
+          <name>Google Books</name>
+          <idno type="URL">https://books.google.de/books?id=pK5-jUqlVUYC</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>

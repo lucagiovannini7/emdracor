@@ -7,8 +7,9 @@
         <title type="main">Der Fleischhawer</title>
         <author>
           <persName>
-            <forename>von Braunschweig-Lüneburg</forename>
-            <surname>Heinrich Julius</surname>
+            <forename>Heinrich Julius</forename>
+            <nameLink>von</nameLink>
+            <surname>Braunschweig-Lüneburg</surname>
           </persName>
           <idno type="wikidata">Q77557</idno>
           <idno type="pnd"></idno>

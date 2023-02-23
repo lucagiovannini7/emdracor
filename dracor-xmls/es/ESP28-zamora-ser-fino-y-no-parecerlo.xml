@@ -8,7 +8,8 @@
         <title type="sub"/>
         <author>
           <persName>
-            <forename>Antonio de</forename>
+            <forename>Antonio</forename>
+            <nameLink>de</nameLink>
             <surname>Zamora</surname>
           </persName>
           <idno type="wikidata">Q606094</idno>
@@ -74,18 +75,18 @@
           <person xml:id="otro_5" sex="UNKNOWN">
             <persName>Otro V</persName>
           </person>
-          <person xml:id="unos_dentro" sex="UNKNOWN">
+          <personGrp xml:id="unos_dentro" sex="UNKNOWN">
             <persName>Unos dentro</persName>
-          </person>
-          <person xml:id="vozes_dentro" sex="UNKNOWN">
+          </personGrp>
+          <personGrp xml:id="vozes_dentro" sex="UNKNOWN">
             <persName>Vozes dentro</persName>
-          </person>
-          <person xml:id="vozes_dentro_2" sex="UNKNOWN">
+          </personGrp>
+          <personGrp xml:id="vozes_dentro_2" sex="UNKNOWN">
             <persName>Vozes dentro II</persName>
-          </person>
-          <person xml:id="vozes_dentro_3" sex="UNKNOWN">
+          </personGrp>
+          <personGrp xml:id="vozes_dentro_3" sex="UNKNOWN">
             <persName>Vozes dentro III</persName>
-          </person>
+          </personGrp>
           <person xml:id="musica" sex="UNKNOWN">
             <persName>Musica</persName>
           </person>
@@ -110,9 +111,9 @@
           <person xml:id="soldado_1" sex="MALE">
             <persName>Soldado I</persName>
           </person>
-          <person xml:id="voces" sex="UNKNOWN">
+          <personGrp xml:id="voces" sex="UNKNOWN">
             <persName>Voces</persName>
-          </person>
+          </personGrp>
           <person xml:id="diana" sex="FEMALE">
             <persName>Diana</persName>
           </person>
@@ -128,12 +129,12 @@
           <personGrp xml:id="ninfas" sex="FEMALE">
             <persName>Ninfas</persName>
           </personGrp>
-          <person xml:id="otros" sex="UNKNOWN">
+          <personGrp xml:id="otros" sex="UNKNOWN">
             <persName>Otros</persName>
-          </person>
-          <person xml:id="unos" sex="UNKNOWN">
+          </personGrp>
+          <personGrp xml:id="unos" sex="UNKNOWN">
             <persName>Unos</persName>
-          </person>
+          </personGrp>
           <person xml:id="oronte" sex="MALE">
             <persName>Oronte</persName>
           </person>
@@ -236,7 +237,7 @@
             <l>la fugitiva Ninfa</l>
             <l>de la casta Diana:</l>
           </sp>
-          <sp who="polemon">
+          <sp who="#polemon">
             <speaker>[Polemon.]</speaker>
             <l>Y pues en fee de que una</l>
             <l>vez empeñè mi palabra,</l>
@@ -669,7 +670,7 @@
             <l>te darè, mejor pensada,</l>
             <l>la respuesta. </l>
           </sp>
-          <sp who="oronte">
+          <sp who="#oronte">
             <speaker>Oront.</speaker>
             <stage>ap.</stage>
             <l>Yà te sigo,</l>
@@ -1408,7 +1409,7 @@
             <l>los triunfos de la Diosa, embiste, cierra:</l>
             <l>muera el Amor.</l>
           </sp>
-          <sp who="voz">
+          <sp who="#voz">
             <stage>Dent. voz.</stage>
             <l>Al arma, guerra, guerra.</l>
           </sp>
@@ -1492,7 +1493,7 @@
             <l>tanto como irè que mando,</l>
             <l>Diana, irè repitiendo.</l>
           </sp>
-          <sp who="diana">
+          <sp who="#eumene #diana">
             <speaker>Ella, y Diana.</speaker>
             <l>Fuego, fuego,</l>
             <l>que si el campo espera,</l>
@@ -1510,7 +1511,7 @@
             <l>porque aya un riesgo</l>
             <l>en que no sea peligro, sino remedio. </l>
           </sp>
-          <sp who="soldado_1">
+          <sp who=#"#soldado_1">
             <stage>Dent. Sol. 1.</stage>
             <l>Aunque su invasion nos coja</l>
             <l>descuidados, nuestro esfuerzo</l>
@@ -2384,7 +2385,7 @@
             <l>Mas tarde, ò nunca el rigor</l>
             <l>escarmienta à amar. </l>
           </sp>
-          <sp who="ninfas">
+          <sp who="#ninfas">
             <stage>Dent. Ninfas.</stage>
             <l>Eumene?</l>
           </sp>
@@ -2580,7 +2581,7 @@
             <l>Esta repite en su afable</l>
             <l>harmonia contrapuesta..</l>
           </sp>
-          <sp who="amor">
+          <sp who="#eumene #amor">
             <speaker>Ella, y Amor.</speaker>
             <l>Sossiega, sossiega.</l>
           </sp>
@@ -2622,7 +2623,7 @@
             <l>que en la dulce, &amp;c. </l>
           </sp>
           <stage>Ocultase la Tramoya. </stage>
-          <sp who="eumene">
+          <sp who="#eumene">
             <stage>En sueños Eum.</stage>
             <l>Por què me hieres, tirano,</l>
             <l>vendado Rapaz, espera,</l>

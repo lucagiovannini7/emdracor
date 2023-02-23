@@ -59,18 +59,18 @@
           <person xml:id="rodoaldo" sex="MALE">
             <persName>RODOALDO</persName>
           </person>
-          <person xml:id="choro" sex="UNKNOWN">
+          <personGrp xml:id="choro" sex="UNKNOWN">
             <persName>CHORO</persName>
-          </person>
+          </personGrp>
           <person xml:id="gisolfo" sex="MALE">
             <persName>Ombra di Gisolfo</persName>
           </person>
           <person xml:id="agilmondo" sex="MALE">
             <persName>AGILMONDO</persName>
           </person>
-          <person xml:id="schiera_armati" sex="MALE">
+          <personGrp xml:id="schiera_armati" sex="MALE">
             <persName>SCHIERA D'ARMATI</persName>
-          </person>
+          </personGrp>
           <person xml:id="soldato" sex="MALE">
             <persName>SOLDATO</persName>
           </person>

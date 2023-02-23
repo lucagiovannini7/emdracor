@@ -103,10 +103,10 @@
             <persName>Difunto</persName>
           </person>
           <person xml:id="alberto" sex="MALE">
-            <persName>Alb</persName>
+            <persName>Alberto</persName>
           </person>
           <person xml:id="juan" sex="MALE">
-            <persName>Iuan Federico</persName>
+            <persName>Juan Federico</persName>
           </person>
           <person xml:id="voz_dentro_1" sex="UNKNOWN">
             <persName>Voz I</persName>
@@ -1445,7 +1445,7 @@
             <l>todos los ratos para mi son buenos,</l>
             <l>con que me huelgo mas, à holgarme menos. </l>
           </sp>
-          <sp who="cespedes">
+          <sp who="#cespedes">
           <stage>Sale Cespedes.</stage> 
             <l>A la Barca he llegado,</l>
             <l>solo de mi desdicha acompañado,</l>
@@ -1770,7 +1770,7 @@
             <l>yo llevo bravo Soldado. </l>
           </sp>
  
-          <sp who="molinero">
+          <sp who="#molinero">
             <stage>Dent. Mol.</stage>
             <l>Ay, que me ha muerto!</l>
           </sp>

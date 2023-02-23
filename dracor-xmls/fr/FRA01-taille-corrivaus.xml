@@ -9,7 +9,8 @@
         <author>
           <persName>
             <forename>Jean</forename>
-            <surname>de La Taille</surname>
+            <nameLink>de</nameLink>
+            <surname>La Taille</surname>
           </persName>
           <idno type="wikidata">Q1393491</idno>
           <idno type="pnd"/>
@@ -1098,7 +1099,7 @@
         </div>
         <div type="scene">
           <head>SCENE VII.</head>
-          <sp who="alizon">
+          <sp who="#alizon">
             <speaker>ALIZON.</speaker>
             <p>Ne vous souciez de rien, non, Fleurdelys, et ne pleurez. Tenez vous à la maison, ie m'en vais où te vous ay dit. Or si ie ne me vange de Claude, ie veus qu'on ne parle jamais de moy, si ie ne l'en paye, si ie n'en fais faire à Fremin telle punition que, le pendart qu'il est , hò, hò, il sçaura à tout le moins si ie suis telle qu'il pense. le feray que tout le fait retombera sur ses epaulles, puis qu'aussi bien il est en prison comme les autres. Mais il me semble que Fremin disoit qu'il s'en alloît chez le capitaine Chandiou. Il me le faut aller trouver là.</p>
             </sp>

@@ -7,8 +7,9 @@
         <title type="main">Von einem ungeratenen Sohn</title>
         <author>
           <persName>
-            <forename>von Braunschweig-Lüneburg</forename>
-            <surname>Heinrich Julius</surname>
+            <forename>Heinrich Julius</forename>
+            <nameLink>von</nameLink>
+            <surname>Braunschweig-Lüneburg</surname>
           </persName>
           <idno type="wikidata">Q77557</idno>
           <idno type="pnd"></idno>
@@ -65,7 +66,7 @@
             <persName>HYPOCRITA</persName>
           </person>
           <person sex="MALE" xml:id="seuerus">
-            <persName>SEUERUS</persName>
+            <persName>SEVERUS</persName>
           </person>
           <person sex="MALE" xml:id="innocens">
             <persName>INNOCENS</persName>
@@ -1958,7 +1959,7 @@
             <p> Rache vber dich, Der du dein eigen Fleisch gefressen, Vnd dein eigen Blut getruncken hast. Wehe dir, der du mein Hertz aus dem Leibe geschnitten, vnd gebraten, Vnd mein Blut gesoffen hast.</p> 
             <stage>Verschwindet. Nero erschrecket hefftig, vnd wil dauon lauffen, so begegnet jhme der Geist seines Vatern, vnd helt jhn, auff das er nicht weg kan, hat den Pfriemen im Kopff, vnd das Beil in der Handt, rufft laute, vnd spricht.</stage>
           </sp>
-          <sp who="seuerus">
+          <sp who="#seuerus">
             <speaker>SEUERI, DES VATERS GEIST.</speaker> 
             <p>Ceter, Ceter Mordio, vber dich, Der du mein deines Vatern vnschüldiges Bluth vergossen hast. Ich Citire dich vor das gestrenge Gerichte Gottes, Da soltu Rechenschafft von geben. </p> 
             <stage>Verschwindet. Nero erschrecket so sehr, das er kein Wort sprechen kan, vnd eilet jmmer weg, in deme erscheinet jhme seines Brudern Sohns Innocentis Geist, vnd hat ein Strick vmb den Hals, vnd Schaum vor dem Maul, vnd spricht.</stage>
@@ -1968,17 +1969,17 @@
             <p> Vindicta vber dir, Der du mich, als ich dich bate, du möchtest mich leben lassen, Vnd dir meine Poppen anbot, Nicht erhören woltest. </p> 
             <stage>Verschwindet. Nero eilet jmmerforth, Inmittelst erscheinet jhme seiner Mutter Geist, vnnd hat ein Messer im Halse stecken, vnd schreit laut.</stage>
           </sp>
-          <sp who="patientia">
+          <sp who="#patientia">
             <speaker>PATIENTIAE, DER MUTTER GEIST.</speaker> 
             <p>Wehe, Wehe dir Mutter vnd Vater Mörder, Der du mich, als ich dich bate, nicht erhören woltest, Wehe dir, Der du nicht bedacht, wie sawr du mir geworden seist, ehe denn ich dich zur Welt geborn, Vnd darumb schreye ich Ceter Mordio vber dich von diesem vnschüldigen Bluth, das du vergossen hast. </p> 
             <stage>Verschwindet. Nero erschrecket hefftig, kan nicht reden, sihet sich gar erschrocken vmb, wolte gerne weg, vnd kan nicht, Wie er aber weg wil, erscheinet jhme seines Brudern Weib, hat ein klein Kindt auff dem Arme, vnd ein Apffel in der Handt, vnd saget.</stage>
           </sp>
-          <sp who="pudica">
+          <sp who="#pudica">
             <speaker>PUDICA, DES BRUDERS WEIBS GEIST.</speaker> 
             <p>Rache, Rache vber dich, Der du mit listiger falscher trewe<pb n="396"/>mich vmb mein leben gebracht, Vnd diese arme vnschüldige Frucht nicht verschonet hast. </p> 
             <stage>Verschwindet. Nero wil gerne weg, da begegnet jhme sein Bruder, vnd hat eine Wehre im Leibe, vnd schreyet laute.</stage>
           </sp>
-          <sp who="probus">
+          <sp who="#probus">
             <speaker>PROBI, DES BRUDERN GEIST.</speaker>
             <p>Ceter, Ceter, Ceter Mordio vber dich, Der du mich, als ich dich dreymal vmb Gottes willen gebeten, nicht erhören woltest.</p> 
             <stage>Verschwindt.</stage>

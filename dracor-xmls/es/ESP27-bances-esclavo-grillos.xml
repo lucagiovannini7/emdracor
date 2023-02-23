@@ -666,7 +666,7 @@
           <l>de músicas y clarines</l>
           <l>las voces repitan varias...</l>
         </sp>
-        <sp who="voces">
+        <sp who="#voces">
         <speaker>VOCES Y MÚSICA.</speaker> 
           <l>Trajano y Adriano vivan</l>
           <l>para timbre de su patria.</l>

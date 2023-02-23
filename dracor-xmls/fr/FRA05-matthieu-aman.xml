@@ -7,8 +7,10 @@
         <title type="main">Aman</title>
         <title type="sub"></title>
         <author>
-          <forename>Pierre</forename>
-          <surname>Mathieu</surname>
+          <persName>
+            <forename>Pierre</forename>
+            <surname>Mathieu</surname>
+          </persName>
           <idno type="wikidata">Q3386220</idno>
         </author>
       </titleStmt>

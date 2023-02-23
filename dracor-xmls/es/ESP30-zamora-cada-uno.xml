@@ -9,7 +9,8 @@
         <author>
           <persName>
             <forename>Antonio</forename>
-            <surname>de Zamora</surname>
+            <nameLink>de</nameLink>
+            <surname>Zamora</surname>
           </persName>
           <idno type="wikidata">Q606094</idno>
           <idno type="pnd"/>
@@ -62,9 +63,9 @@
           <personGrp xml:id="vozes_dentro_5" sex="UNKNOWN">
             <persName>Vozes dentro V</persName>
           </personGrp>
-          <person xml:id="vozes_dentro_6" sex="UNKNOWN">
+          <personGrp xml:id="vozes_dentro_6" sex="UNKNOWN">
             <persName>Vozes dentro VI</persName>
-          </person>
+          </personGrp>
           <person xml:id="criado_2" sex="MALE">
             <persName>Criado II</persName>
           </person>
@@ -128,9 +129,9 @@
           <person xml:id="hiszen" sex="MALE">
             <persName>Hiszen</persName>
           </person>
-          <person xml:id="unos" sex="UNKNOWN">
+          <personGrp xml:id="unos" sex="UNKNOWN">
             <persName>Unos</persName>
-          </person>
+          </personGrp>
           <person xml:id="abderramen" sex="MALE">
             <persName>Abderramen</persName>
           </person>
@@ -361,7 +362,7 @@
             <l>quanto os estimo, mis brazos</l>
             <l>os respondan mudamente. </l>
           </sp>
-          <sp who="principe">
+          <sp who="#principe">
             <speaker>D. Ped.</speaker>
             <l>En mi tendreis, Cavalleros,</l>
             <l>un Atlante, que os sustente,</l>
@@ -551,7 +552,7 @@
             <l>vuestro Rey; que viva, y reyne</l>
             <l>decid todos.</l> 
           </sp> 
-          <sp who="vozes_1">    
+          <sp who="#vozes_1">    
             <speaker>Vozes.</speaker>
             <l>Reyne, y viva. </l>
           </sp>
@@ -4466,7 +4467,7 @@
             <speaker>Dentro Elvira.</speaker>
             <l>De mi señor son las voces. </l>
           </sp>
-          <sp who="#criado_1 criado_2">
+          <sp who="#criado_1 #criado_2">
             <speaker>Criad.</speaker>
             <l>Lleguemos todos. </l>
           </sp>
@@ -4609,7 +4610,7 @@
             <speaker>Liz.</speaker>
             <l>Sigueme Feliz. </l>
           </sp>
-          <sp who="#criado_1 criado_2">
+          <sp who="#criado_1 #criado_2">
             <speaker>Dent. criados.</speaker>
             <l>Baxemos,</l>
             <l>pues ay ruido en el jardin. </l>
@@ -4661,7 +4662,7 @@
             <l>Donde, aleves,</l>
             <l>estais? pero, Fabio? Ernesto? </l>
           </sp>
-          <sp who="#criado_1 criado_2">
+          <sp who="#criado_1 #criado_2">
             <speaker>Los. 2.</speaker>
             <l>Què tienes? </l>
           </sp>
@@ -4676,7 +4677,7 @@
             <l>à toda prisa. </l>
           </sp>
           <stage>Retiran à Don Ramon. </stage>
-          <sp who="#criado_1 criado_2">
+          <sp who="#criado_1 #criado_2">
             <speaker>Los 2.</speaker>
             <l>Volando</l>
             <l>vamos tràs ti. </l>
@@ -4720,7 +4721,7 @@
             <l>vida, y honor, que essa gente</l>
             <l>me alcance. </l>
           </sp>
-          <sp who="#criado_1 criado_2">
+          <sp who="#criado_1 #criado_2">
             <speaker>Dent. criados.</speaker>
             <l>Por alli fueron. </l>
           </sp>

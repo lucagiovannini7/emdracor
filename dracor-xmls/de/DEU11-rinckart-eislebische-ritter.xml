@@ -1,12 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="ger######" xml:lang="ger" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Der Eislebische Christliche Ritter</title>
-        <subtitle></subtitle>
+        <title type="main">Der eislebische christliche Ritter</title>
         <author>
-          <forename>Martin</forename>
-          <surname>Rinckart</surname>
+          <persName>
+            <forename>Martin</forename>
+            <surname>Rinckart</surname>
+          </persName>
           <idno type="wikidata">Q78323</idno>
         </author>
       </titleStmt>
@@ -28,7 +31,7 @@
             <p>In the public domain.</p>
           </availability>
           <bibl type="originalSource">
-            <p>Rinckart, Martin: Der eislebische christliche ritter: Ein reformationsspiel. Halle: Niemeyer, 1883.</p>
+            <title>Rinckart, Martin: Der eislebische christliche ritter: Ein reformationsspiel. Halle: Niemeyer, 1883.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -65,9 +68,6 @@
           </person>
           <person xml:id="johann" sex="MALE">
             <persName>Johann</persName>
-          </person>
-          <person xml:id="michael" sex="MALE">
-            <persName>Michael</persName>
           </person>
           <person xml:id="pseudo-petrus" sex="MALE">
             <persName>Pseudo-Petrus</persName>
@@ -126,6 +126,7 @@
     <revisionDesc>
       <listChange>
         <change when="2023-02-03">(LG) conversion from source.</change>
+        <change when="2023-02-22">(LG) fixed errors.</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -150,10 +151,8 @@
       <castList>
         <head>Personen unnd jhr Auffzug.</head>
         <castItem>1. Prologus, unnd Fürirer.</castItem>
-        <castItem>2.-6. Argumentatores, Herolden: unnd auch Engel, </castItem> 
-           <roleDesc>auff jhren HErrn IMMANUEL wartend.</roleDesc>
-        <castItem>7. IMMANUEL ist CHRISTUS: </castItem>
-          <roleDesc>wird aber hier genennet dreyer Ritter Vater, und auffgeführet als ein verstorbner König.</roleDesc>
+        <castItem>2.-6. Argumentatores, Herolden: unnd auch Engel, <roleDesc>auff jhren HErrn IMMANUEL wartend.</roleDesc></castItem> 
+        <castItem>7. IMMANUEL ist CHRISTUS: <roleDesc>wird aber hier genennet dreyer Ritter Vater, und auffgeführet als ein verstorbner König.</roleDesc></castItem>
         <castGroup>
           <castItem>8. Pseudo-Petr </castItem>
              <roleDesc>ist Papst</roleDesc>
@@ -163,32 +162,19 @@
              <roleDesc>ist Calvinus</roleDesc> 
           <roleDesc>Sollen hier seytt als dreh Weltliche Ritter und Brüder, umb Erbschafft streitende. Doch machet sich der älteste unter jhnen Pseudo-Petrus wider recht zum König.</roleDesc>
         </castGroup>
-        <castItem>11. SARCOPHILA, </castItem>
-           <roleDesc>die Babylonische Hure, mit jhrem Drachen, ist erstlich des Papsts als Antichrists Braut, unnd bedeut allerley Fleischliche Wollust: Hernach aber verkehret sie sich, als ein kluger Teufel, unnd schlagt sich zu Calvino, heisst PHRENOPHILA, und deutet Menschliche Vernunfft an.</roleDesc>
-        <castItem>12. PENTONOMUS </castItem>
-           <roleDesc>ist Keyser Carolus der Fünffte, als der parten Iudex: Wird allhier nichts anders gemeldet, als etwa ein König.</roleDesc>
-        <castItem>13. ASTYAGES, </castItem>
-           <roleDesc>ist Bischoff zu Meintz, Albertus.</roleDesc>
-        <castItem>14. FRIEDWERTUS, </castItem>
-          <roleDesc>an stat Churfürst Friedrichen und anderer folgenden Churfürsten von Sachsen.</roleDesc>
-        <castItem>15. THRASIMOSTOS,</castItem>
-           <roleDesc>ist ein Rath, Beystand und Anwald des Papsts, als Cajetanus war, und andre.</roleDesc>
-        <castItem>16. URANOPHRON, </castItem>
-           <roleDesc>Rath und Beystand der Chur Sachsen im Geistlichen und weltlichen Stande, als der deutsche Adel: Item Geistliche Theologen, D. Staupitz und deßgleichen.</roleDesc>
-        <castItem>17. THEOMASTIX </castItem>
-           <roleDesc>Rath und Helfferßhelffer Calvini.</roleDesc>
-        <castItem>18. Doctor Quadratius, </castItem>
-           <roleDesc>ist D. Eck, des Reichs Orator.</roleDesc>
-        <castItem>19. Polylogus, </castItem> 
-           <roleDesc>Tetzel und seines gleichen Nachfolger.</roleDesc>
-        <castItem>20. Vertumnus </castItem>
-           <roleDesc>ist Erstlich ein Leimstängler, zum 2. ein Bawer, 3. Kriegßmann, 4. Bischoff, 5. Bader, 6. Epicurer. Muß im Auffzug von einem jeglichen habit etwas führen. Bedeut allerley Schwermer, Carolstad, Oecolumpad, Müntzern, Zwinglium und andere mit jhren thörichten vornehmen. </roleDesc>
-        <castItem>21. Cacangelus, </castItem>
-          <roleDesc> Monyx, Ein böser Engel Zwingels.</roleDesc>
-        <castItem>22. Hetschky </castItem>
-           <roleDesc>ein Türckischer Legat oder auch nur Lackey.</roleDesc>
-        <castItem>23. Kühlogista, </castItem>
-           <roleDesc>Ein Schuster von Orlamünda, so mit Luthero disputiren wolle: Bedeut alle Bildstürmer unnd Calvinische gemeine Leute.</roleDesc>
+        <castItem>11. SARCOPHILA, <roleDesc>die Babylonische Hure, mit jhrem Drachen, ist erstlich des Papsts als Antichrists Braut, unnd bedeut allerley Fleischliche Wollust: Hernach aber verkehret sie sich, als ein kluger Teufel, unnd schlagt sich zu Calvino, heisst PHRENOPHILA, und deutet Menschliche Vernunfft an.</roleDesc></castItem>
+        <castItem>12. PENTONOMUS <roleDesc>ist Keyser Carolus der Fünffte, als der parten Iudex: Wird allhier nichts anders gemeldet, als etwa ein König.</roleDesc></castItem>
+        <castItem>13. ASTYAGES, <roleDesc>ist Bischoff zu Meintz, Albertus.</roleDesc></castItem>
+          <castItem>14. FRIEDWERTUS, <roleDesc>an stat Churfürst Friedrichen und anderer folgenden Churfürsten von Sachsen.</roleDesc></castItem>
+        <castItem>15. THRASIMOSTOS,<roleDesc>ist ein Rath, Beystand und Anwald des Papsts, als Cajetanus war, und andre.</roleDesc></castItem>
+        <castItem>16. URANOPHRON, <roleDesc>Rath und Beystand der Chur Sachsen im Geistlichen und weltlichen Stande, als der deutsche Adel: Item Geistliche Theologen, D. Staupitz und deßgleichen.</roleDesc></castItem>
+        <castItem>17. THEOMASTIX <roleDesc>Rath und Helfferßhelffer Calvini.</roleDesc></castItem>
+        <castItem>18. Doctor Quadratius, <roleDesc>ist D. Eck, des Reichs Orator.</roleDesc></castItem>
+        <castItem>19. Polylogus, <roleDesc>Tetzel und seines gleichen Nachfolger.</roleDesc></castItem>
+        <castItem>20. Vertumnus <roleDesc>ist Erstlich ein Leimstängler, zum 2. ein Bawer, 3. Kriegßmann, 4. Bischoff, 5. Bader, 6. Epicurer. Muß im Auffzug von einem jeglichen habit etwas führen. Bedeut allerley Schwermer, Carolstad, Oecolumpad, Müntzern, Zwinglium und andere mit jhren thörichten vornehmen. </roleDesc></castItem>
+        <castItem>21. Cacangelus, <roleDesc> Monyx, Ein böser Engel Zwingels.</roleDesc></castItem>
+        <castItem>22. Hetschky <roleDesc>ein Türckischer Legat oder auch nur Lackey.</roleDesc></castItem>
+        <castItem>23. Kühlogista, <roleDesc>Ein Schuster von Orlamünda, so mit Luthero disputiren wolle: Bedeut alle Bildstürmer unnd Calvinische gemeine Leute.</roleDesc></castItem>
         <castGroup>
           <castItem>24. Michael, </castItem>
           <castItem>25. Barrabas, </castItem> 
@@ -201,10 +187,8 @@
              <roleDesc>ein Meisnischer Bawer. </roleDesc> 
           <roleDesc> Diese 2. bedeuten alle Lutherische beständige Christen.</roleDesc>
         </castGroup>
-        <castItem>28. Pluhne, </castItem>
-           <roleDesc>Six Weib, und doch Härtzlendischer Sprache. Köndte auch wol ein Nonne seyn, als vorzeiten in Mansfeldischen Klostern gewesen. Denn sie rekerlret und führet der Papisten albere und Kindische Märlein zum beweiß jhrer Lehr.</roleDesc>
-        <castItem>29.-32. 4. Bergleute, MUSICANten, </castItem> 
-           <roleDesc>zwey Meißnische in Ladern, und 2. Manßfeldische in Fahrhosen.</roleDesc>
+        <castItem>28. Pluhne, <roleDesc>Six Weib, und doch Härtzlendischer Sprache. Köndte auch wol ein Nonne seyn, als vorzeiten in Mansfeldischen Klostern gewesen. Denn sie rekerlret und führet der Papisten albere und Kindische Märlein zum beweiß jhrer Lehr.</roleDesc></castItem>
+        <castItem>29.-32. 4. Bergleute, MUSICANten, <roleDesc>zwey Meißnische in Ladern, und 2. Manßfeldische in Fahrhosen.</roleDesc></castItem>
         <castItem>33. Epilogus.</castItem>
         <castGroup>
           <castItem>Stumme Personen.</castItem>
@@ -222,7 +206,7 @@
     <body>
       <div type="prologue">
         <head>PROLOGUS, General und Furirer.</head>
-        <stage>>
+        <stage>
           <l>DErwunder dich nicht frommer Christ,</l>
           <l>Wies komm, das man zu dieser Frist,</l>
           <l>An diesem Ort, von dem Auctor,</l>
@@ -428,8 +412,8 @@
       </div>
       <div type="act">
         <head>ACTUS PRIMUS.</head>
+          <head>Argumentum.</head>  
           <stage>
-            <head>Argumentum.</head>
             <l>Im ersten Act, gebt achtung drauff</l>
             <l>Drit alsbald Pseudo-Petrus auff,</l>
             <l>Sich recht wie ein fetter Wanst brüst,</l>
@@ -844,7 +828,7 @@
             <stage>abit.</stage>
           </sp>
           <sp who="#ohm">
-            <speaker>Ohm <stage>ad fores.</stage></speaker>
+            <speaker>Ohm </speaker><stage>ad fores.</stage>
             <l>Holla, holla--</l>
           </sp>
           <sp who="#polylogus">
@@ -1066,8 +1050,8 @@
       </div>
       <div type="act">
         <head>ACTUS SECUNDUS.</head>
+          <head>Argumentum.</head>  
           <stage>
-            <head>Argumentum.</head>
             <l>DEr ander Actus jetzund schon</l>
             <l>Steht aufs Deliberation</l>
             <l>Der zweyen allsten Brüder beyd,</l>
@@ -1100,7 +1084,7 @@
           <head>Actus II. Scena 1.</head>
           <stage>Friedwertus. Uranophron.</stage>
           <sp who="#friedwertus">
-            <speaker>Friedwertus. <stage>GrosRitter.</stage></speaker>
+            <speaker>Friedwertus. </speaker><stage>GrosRitter.</stage>
             <note>Anno 1518.</note>
             <l>Es geht jo recht, wer reyt, der reyt, </l>
             <l>(Wies sprichwort laut) Wer leit der leit.</l>
@@ -1523,7 +1507,7 @@
         <div type="scene">
           <head>Actus II. Scena 6.</head>
           <sp who="#vertumnus">
-            <speaker>Vertum. <stage>halb Leimstangler, halb Bawr.</stage></speaker>
+            <speaker>Vertum. </speaker><stage>halb Leimstangler, halb Bawr.</stage>
             <l>Mein stutzerey die geht nicht an,</l>
             <l>Sie wil zu grossen Verlag Han.</l>
             <l>sDie Stiffte sind mir auch nicht ebn,</l>
@@ -1594,7 +1578,7 @@
         <div type="scene">
           <head>Actus II. Scena 8.</head>
           <sp who="#vertumnus">
-            <speaker>Vertumnus <stage>wie vor.</stage></speaker>
+            <speaker>Vertumnus </speaker><stage>wie vor.</stage>
             <stage>Carolstad. Die Bild stürmer zu Wittenbergk.</stage>
             <l>Ich hab mich schon anders bedacht,</l>
             <l>Wann man sich lang mit Schweinen jagt,</l>
@@ -1784,8 +1768,8 @@
       </div>
       <div type="act">
         <head>ACTUS TERTIUS.</head>
+          <head>Argumentum.</head>  
           <stage>
-            <head>Argumentum.</head>
             <l>IN diesem Actu werd jhr sehn</l>
             <l>Vornehme Leut zu Rathe gehn,</l>
             <l>Der Oberst Heist Pentonomus,</l>
@@ -2111,7 +2095,7 @@
             <l>--Wer kümpt daran?</l>
           </sp>
           <sp who="#vertumnus">
-            <speaker>Vertumnus <stage>halb Kriegßmann.</stage></speaker>
+            <speaker>Vertumnus </speaker><stage>halb Kriegßmann.</stage>
             <note>Müntzer.</note>
             <l>Holla, holla, läufst alle zu.</l>
           </sp>
@@ -2392,11 +2376,11 @@
           <stage>(Wenn unsere Pfaffen frömmer weren, sagt Carolus Quintus, so dürfften sie keines Lutthers.)</stage>
           <stage>(Gehen alle abe, R. Martin wird von Dienern verspottet.)</stage>
           <sp who="#polylogus">
-            <speaker>Polylogus <stage>ad Martinum.</stage></speaker>
+            <speaker>Polylogus </speaker><stage>ad Martinum.</stage>
             <l>Der Teufel soll dir haltens Liecht.</l>
           </sp>
           <sp who="#uranophron">
-            <speaker>Uranophron <stage>zu Polylogo und andern.</stage></speaker>
+            <speaker>Uranophron </speaker><stage>zu Polylogo und andern.</stage>
             <l>Was soll das seyn jhr Bösewicht?</l>
           </sp>
           <sp who="#martin">
@@ -2513,7 +2497,7 @@
           <head>Actus III. Scena 8.</head>
           <stage>Kühlogista: Michael.</stage>
           <sp who="#kuehlogista">
-            <speaker>Kühlogista <stage>ein Schuster.</stage></speaker>
+            <speaker>Kühlogista</speaker><stage>ein Schuster.</stage>
             <note>Meister Jer von Orlamunda disputirte mit Luthero. Anno 1524.</note>
             <l>Was sehet doch noch endlich an</l>
             <l>Hinfort ein armer Handwergsmann? </l>
@@ -2609,7 +2593,7 @@
           <stage>Vertumnus als ein halber Kriegßmann, mit viel Bawren.</stage>
           <note>Der Bawrenkrieg Anno 1524 &amp; 25.</note>
           <sp who="#vertumnus">
-            <speaker>Vertumnus <stage>erst alleine.</stage></speaker>
+            <speaker>Vertumnus </speaker><stage>erst alleine.</stage>
             <l>Ich muß mein Heil noch mehr versuchn, </l>
             <l>Man isst nicht alle Tage Kuchn, </l>
             <l>Holla, laufft zu jhr lieben Leut,</l>
@@ -2735,7 +2719,7 @@
             <l>Nun wird mein Brod gebacken seyn.</l>
           </sp>
           <sp who="#uranophron">
-            <speaker>Uranophron <stage>mit eim Knebelspieß.</stage></speaker>
+            <speaker>Uranophron </speaker><stage>mit eim Knebelspieß.</stage>
             <l>Da da friß Kuchn, da friß Kuchen.</l>
           </sp>
           <sp who="#six">
@@ -2749,7 +2733,7 @@
             <l>Halt uher liebe Herrn in Ehrn.</l>
           </sp>
           <sp who="#friedwertus">
-            <speaker>Friedwertus <stage>zu Sixen.</stage></speaker>
+            <speaker>Friedwertus </speaker><stage>zu Sixen.</stage>
             <l>Nun sih, daß man daran gedenck,</l>
             <l>Das Leben soll dir seyn geschenckt,</l>
             <l>Greiff zu, und hilff die Bubn nein führn. %Werden eingeführet.</l>
@@ -2949,8 +2933,8 @@
       </div>
       <div type="act">
         <head>ACTUS QUARTUS.</head>
+          <head>Argumentum.</head>  
           <stage>
-            <head>Argumentum.</head>
             <l>IM vierdten Act (erschrecket nicht)</l>
             <l>Folgt nun die grausame Geschicht,</l>
             <l>Do die Brüder widr all Natur</l>
@@ -2994,7 +2978,7 @@
           <stage>Vertumnus: Cacangelus: R. Martin.</stage>
           <stage>Zwingel A. 1525</stage>
           <sp who="#vertumnus">
-            <speaker>Vertumnus, <stage>halb Priester.</stage></speaker>
+            <speaker>Vertumnus, </speaker><stage>halb Priester.</stage>
             <l>Mein Pratick hat nochmahl gefehlt,</l>
             <l>Ich lauff drümb nit flux aus der Welt,</l>
             <l>Der Fuchs der weiß mehr als ein Loch,</l>
@@ -3063,7 +3047,7 @@
             <l>Seht mir einer den Engel an.</l>
           </sp>
           <sp who="#vertumnus">
-            <speaker>Vertumnun <stage>zum Engel.</stage></speaker>
+            <speaker>Vertumnun </speaker><stage>zum Engel.</stage>
             <l>Harr das hastu keim Narrn gesagt.</l>
           </sp>
           <sp who="#cacangelus">
@@ -3382,7 +3366,7 @@
             <l>Daß es der Vatr nicht recht gemacht,</l>
           </sp>
           <sp who="#six">
-            <speaker>Six <stage>von ferne.</stage></speaker>
+            <speaker>Six </speaker><stage>von ferne.</stage>
             <l>Du liebe Vatr host vehl gethan,</l>
             <l>Ich mein, das ist mir jo en Sahn?</l>
           </sp>
@@ -3552,7 +3536,7 @@
             <l>Nun Jüd, gesegn Dir GOtt die Laug.</l>
           </sp>
           <sp who="#michael">
-            <speaker>Michael <stage>alleine.</stage></speaker>
+            <speaker>Michael </speaker><stage>alleine.</stage>
             <l>Hett ich dich wo, ich danckt dir auch.</l>
             <l>Ja Ritter du bist noch nicht klug,</l>
             <l>Als ich wol seh, allzeit genug,</l>
@@ -3721,7 +3705,7 @@
             <l>Geht, bringt Pfeil, Bog und Vater her.</l>
           </sp>
           <sp who="#johann">
-            <speaker>R. Johann <stage>zu Martino.</stage></speaker>
+            <speaker>R. Johann </speaker><stage>zu Martino.</stage>
             <l>Was sagst denn du, du Plauderer?</l>
             <l>Kontestu doch vor wort gnung machn,</l>
             <l>Eya vergeht dir nun das lachn,</l>
@@ -3779,7 +3763,7 @@
             <l>Scheuß,--</l>
           </sp>
           <sp who="#martin">
-            <speaker>R. Martin, <stage>trawrig.</stage></speaker>
+            <speaker>R. Martin, </speaker><stage>trawrig.</stage>
             <l>— Ich wil weder schiessen noch stechn, </l>
             <l>Gott wird die Unthat an euch rechn.</l>
             <stage>(Dergleichen Unthat haben eines Königes in Scythen Söhne verübet, daher dieses Gleichniß genommen ist, zeiget sich auch auff König Salomons Gerichts probat 1. Könige 3. Vers. 24.)</stage>
@@ -3855,7 +3839,7 @@
           <head>Actus IV. Scena 6.</head>
           <stage>Vertumnus, Polylogus.</stage>
           <sp who="#vertumnus">
-            <speaker>Vertumnus <stage>jetzt ein Epicurer.</stage></speaker>
+            <speaker>Vertumnus </speaker><stage>jetzt ein Epicurer.</stage>
             <l>Mein Baderey geht auch nicht fort,</l>
             <l>Pfuy, ich hab wol mein Tag gehört,</l>
             <l>Vierzehn Handwerck, funffzehn unglück.</l>
@@ -4048,7 +4032,7 @@
             <l>Ja recht doselbst, geh nur Hinnein,</l>
           </sp>
           <sp who="#barrabas">
-            <speaker>Barrabas, <stage>Jude.</stage></speaker>
+            <speaker>Barrabas, </speaker><stage>Jude.</stage>
             <l>Was wil denn nun der Herre mein?</l>
           </sp>
           <sp who="#martin">
@@ -4079,7 +4063,7 @@
             <l>Meinstu den Namen IEHOVA?</l>
           </sp>
           <sp who="#barrabas">
-            <speaker>Barrabas <stage>procumbens.</stage></speaker>
+            <speaker>Barrabas </speaker><stage>procumbens.</stage>
             <l>Ach still Herr, still: denselben ja.</l>
             <l>Wo er in Büchern geschrieben ist,</l>
             <l>Wann man die angreifft oder list,</l>
@@ -4151,7 +4135,7 @@
             <l>Amen, der HErre seh mit dir.</l>
           </sp>
           <sp who="#martin">
-            <speaker>Ritter Martin, <stage>alleine.</stage></speaker>
+            <speaker>Ritter Martin, </speaker><stage>alleine.</stage>
             <l>Also muß man bißweiln die Zeit</l>
             <l>Vertreiben und das Hertzeleid,</l>
             <l>Ein Mensch alleine in Trübsal,</l>
@@ -4252,7 +4236,7 @@
             <l>Sonst kan man da auch leicht außgehn.</l>
           </sp>
           <sp who="#vertumnus">
-            <speaker>Vertumnus <stage>kömt gelausten.</stage></speaker>
+            <speaker>Vertumnus </speaker><stage>kömt gelausten.</stage>
             <l>Mein Gnädigst Herrn wolln Wunder hörn.</l>
           </sp>
           <sp who="#astyages">
@@ -4458,8 +4442,8 @@
       </div>
       <div type="act">
         <head>ACTUS QVINTUS.</head>
+          <head>Argumentum.</head>
           <stage>
-            <head>Argumentum.</head>
             <l>IM fünfften Act, wies pflegt zu gehn</l>
             <l>Die Seitn am allerhöchsten stehn</l>
             <l>In dem der jüngst und allste Sohn</l>
@@ -4629,11 +4613,11 @@
             <l>Sich find mans Bürschgen hie beysammn?</l>
           </sp>
           <sp who="#uranophron">
-            <speaker>Uranophron <stage>zu den seinen.</stage></speaker>
+            <speaker>Uranophron </speaker><stage>zu den seinen.</stage>
             <l>Seyd standhafftig in Gottes Namn.</l>
           </sp>
           <sp who="#thrasistomus">
-            <speaker>Thrasistomus <stage>mit etlichen Dienern.</stage></speaker>
+            <speaker>Thrasistomus </speaker><stage>mit etlichen Dienern.</stage>
             <l>Ihr Leut jhr solt euch gfangen geben,</l>
             <l>Wir bringn euch gleich tod odr lebn:</l>
             <stage>Ad Lorarios.</stage>
@@ -4644,7 +4628,7 @@
             <l>Der Teufel wird euch einmal holn.</l>
           </sp>
           <sp who="#uranophron">
-            <speaker>Uranophron <stage>freudig.</stage></speaker>
+            <speaker>Uranophron </speaker><stage>freudig.</stage>
             <l>Schreckt nicht: der Gang, die Strick und Band </l>
             <l>Sind uns ein Ehr, und keine schänd. </l>
             <stage>Führn sie ein.</stage>
@@ -4724,7 +4708,7 @@
           <head>Actus V. Scena 5.</head>
           <stage>R. Martin: GR: Friedwertus: Immanuel. Engel und Gefangne.</stage>
           <sp who="#martin">
-            <speaker>R. Martin, <stage>im Sterbkittel.</stage></speaker>
+            <speaker>R. Martin, </speaker><stage>im Sterbkittel.</stage>
             <l>Mein lieber Vater und mein HErr,</l>
             <l>Weiß ich doch nicht wie mir geschicht,</l>
             <l>Seyd jhr es, oder seyd jhrs nicht?</l>
@@ -4770,8 +4754,8 @@
         </div>
       </div>
       <div type="epilogue">
-        <stage>
-          <head>Epilogus und Beschluß.</head>
+        <head>Epilogus und Beschluß.</head>
+        <stage>  
           <l>Also ist nun gezeiget wordn</l>
           <l>Bnser new Christlich Ritters Ordn,</l>
           <l>Der zwar den Worten nach ist new,</l>

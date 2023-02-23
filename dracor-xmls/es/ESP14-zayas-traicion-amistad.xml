@@ -7,10 +7,11 @@
         <title>La traición en la amistad</title>
         <author>
           <persName>
-            <forename>María de</forename>
+            <forename>María</forename>
+            <nameLink>de</nameLink>
             <surname>Zayas Sotomayor</surname>
-            <idno type="wikidata">Q2905689</idno>
           </persName>
+          <idno type="wikidata">Q2905689</idno>
         </author>
       </titleStmt>
       <publicationStmt>

@@ -17,7 +17,8 @@
         <author>
           <persName>
             <forename>Juan</forename>
-            <surname>de la Dueña</surname>
+            <nameLink>de la</nameLink>
+            <surname>Dueña</surname>
           </persName>
           <idno type="wikidata">Q114664534</idno>
           <idno type="pnd"/>
@@ -25,7 +26,8 @@
         <author>
           <persName>
             <forename>Jerónimo</forename>
-            <surname>de Cifuentes</surname>
+            <nameLink>de</nameLink>
+            <surname>Cifuentes</surname>
           </persName>
           <idno type="wikidata">Q114664727</idno>
           <idno type="pnd"/>

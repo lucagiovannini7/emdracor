@@ -9,7 +9,8 @@
         <author>
           <persName>
             <forename>Juan</forename>
-            <surname>de Matos Fragoso</surname>
+            <nameLink>de</nameLink>
+            <surname>Matos Fragoso</surname>
           </persName>
           <idno type="wikidata">Q6301294</idno>
           <idno type="pnd"/>
@@ -1439,7 +1440,7 @@
           <l>de que esta dicha non tengas?)</l>
         </sp>
         <stage>Dentro uno.</stage>
-        <sp who="uno">
+        <sp who="#uno">
           <speaker>UNO</speaker>
           <l>¡Disparados van los brutos,</l>
           <l>no hay quien su furor detenga!</l>
@@ -4537,7 +4538,7 @@
           <l>Vos habéis de ir, y si no,</l>
           <l>¡triste de mí, desdichada!</l>
         </sp>
-        <sp who="dueñas">
+        <sp who="#dueñas">
           <speaker>LAS DUEÑAS</speaker>
           <l>El escudero ha de ir,</l>
           <l>¡vaya el escudero, vaya!</l>
@@ -5265,7 +5266,7 @@
           <stage>Dentro.</stage>
           <l>¡Tente, espera!</l>
         </sp>
-        <sp who="mujer">
+        <sp who="#mujer">
           <speaker>UNA MUJER</speaker>
           <stage>Dentro. </stage>
           <l>¡Valedme, cielos!</l>

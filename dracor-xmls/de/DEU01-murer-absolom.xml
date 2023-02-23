@@ -84,10 +84,10 @@
           <person sex="MALE" xml:id="kuchibueb">
             <persName>KUCHIBŮB</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="mammon">
+          <person sex="MALE" xml:id="mammon">
             <persName>MAMMON</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="astaroth">
+          <person sex="MALE" xml:id="astaroth">
             <persName>ASTAROTH</persName>
           </person>
           <person sex="MALE" xml:id="koch">
@@ -171,7 +171,7 @@
           <person sex="MALE" xml:id="etheo">
             <persName>ETHEO</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="moloch">
+          <person sex="MALE" xml:id="moloch">
             <persName>MOLOCH</persName>
           </person>
           <person sex="MALE" xml:id="achimaas">
@@ -180,7 +180,7 @@
           <person sex="MALE" xml:id="sadoch">
             <persName>SADOCH</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="lucifer">
+          <person sex="MALE" xml:id="lucifer">
             <persName>LUCIFER</persName>
           </person>
           <person sex="MALE" xml:id="abyathar">
@@ -237,7 +237,7 @@
           <person sex="FEMALE" xml:id="delbora">
             <persName>DELBORA</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="bott_hoelle">
+          <person sex="MALE" xml:id="bott_hoelle">
             <persName>HÖLLISCHE BOTT</persName>
           </person>
           <personGrp sex="MALE" xml:id="knecht">

@@ -53,7 +53,7 @@
             <persName>UN'ALTRO CAVALIERE</persName>
           </person>
           <person xml:id="sirena_1" sex="FEMALE">
-            <persName>PRIMA_SIRENA</persName>
+            <persName>PRIMA SIRENA</persName>
           </person>
           <person xml:id="idraspe" sex="MALE">
             <persName>IDRASPE</persName>

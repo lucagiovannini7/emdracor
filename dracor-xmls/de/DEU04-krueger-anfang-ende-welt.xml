@@ -190,15 +190,15 @@
           <person sex="UNKNOWN" xml:id="engel">
             <persName>ENGEL</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="verdammten">
+          <personGrp sex="UNKNOWN" xml:id="verdammten">
             <persName>DIE VERDAMMTEN</persName>
-          </person>
-          <person sex="UNKNOWN" xml:id="alle_teufel">
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="alle_teufel">
             <persName>ALLE TEUFEL</persName>
-          </person>
-          <person sex="UNKNOWN" xml:id="engel_mit_posaunen">
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="engel_mit_posaunen">
             <persName>ENGELN MIT POSAUNEN</persName>
-          </person>
+          </personGrp>
         </listPerson>
       </particDesc>
     </profileDesc>

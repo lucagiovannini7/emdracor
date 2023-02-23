@@ -261,7 +261,7 @@
             <speaker>Petralto.</speaker>
             <p>Vnd so bleibt es dennoch bey unserer gestern zu Abend genommen Abrede und Verlaß/ unserer Söhne wegen?</p>
           </sp>
-          <sp who="gerson">
+          <sp who="#gerson">
             <speaker>Gerson.</speaker>
             <p>Ja; Jhre Gestr. und bin noch heute eben dieser Meynung. Nur lasset uns daran seyn/ wie wir solches auff das eheste in das Werck setzen können. </p>
           </sp>
@@ -353,7 +353,7 @@
           <stage>Beyde Väter gehen ein. </stage>
           <stage>Beyde Söhne stellen sich/ als ob sie derer nicht wahr genommen. </stage>
           <stage>Floretto fährt in seinen Reden fort. </stage>
-          <sp who="floretto">
+          <sp who="#floretto">
             <p>Wie wehr es/ Amandus, wenn wir mit einem vornehmen Professore der Collegia wegen über Haupt schlössen/ damit wir auff der Universität auch was rechtes studieren möchten/ und es unsern Eltern doch auch nicht gar so hoch kommen möchte. </p>
           </sp>
           <sp who="#amandus">
@@ -453,7 +453,7 @@
             <stage>(lest sich mit der Karte hören.)</stage>
           </sp>
           <stage>Pickelhering kömt heraus/ bringt eine Karte mit/ und kratzt sich trefflich im Kopff. </stage>
-          <sp who="pickelhering">
+          <sp who="#pickelhering">
             <p>Je schiß dir doch tausendmal drauff. Jch dachte wol/ die Tübel die wirds hohlen. Nun komm ich/ nun komm ich/ was wolt ihr Herr/ fein kurtz/ fein kurtz/ ich muß wieder hinein. </p>
           </sp>
           <sp who="#gerson">
@@ -775,7 +775,7 @@
             <speaker>Euphron.</speaker>
             <p>Man kan ihm anders nicht thun/ sie müssen mit der ersten Post nachgeschicket werden.</p> 
           </sp>
-          <sp who="floretto #amandus #pickelhering">
+          <sp who="#floretto #amandus #pickelhering">
             <stage>Beyde Söhne/ Pickelhering/ kommen truncken und schärffend heraus </stage> 
           <p>Juch! Juch! Sa! Sa! He Sa! Sa He! &amp;c. </p>
           </sp>
@@ -827,7 +827,7 @@
             <speaker>Floretto.</speaker>
             <p>Meine schönste und liebste Beherrscherin! mein eintziger Auffenthalt meines Lebens! die Götter bezeuge ich/ die wissen/ mit was SchwerMuth und Wiederwillen/ auch Zwang meiner Eltern/ ich diese Reyse auff mich genommen. Was ich für Qual in meiner Seelen darüber empfinde. Weil ich auch keinen Augenblick ohne die freundliche  Augen der allzuschönen Emerentze zu leben mich versichern kan. </p>
           </sp>
-          <sp who="pickelhering">
+          <sp who="#pickelhering">
             <speaker>(Pickelhering:</speaker> 
             <p>O Schelm leug/ das ist ein leichtfertiger Vogel)</p>
           </sp>
@@ -1781,7 +1781,7 @@
             <speaker>Brose.</speaker>
             <p>So mäßig; Sie sind eben auch gemengt/ ich halte auch einer für den andern/ und machens manchsmal schier so arg als die andern/ du siehest es jo wie es unser macht/ wenn er in der Schencke ist/ unnd wenn sie darnach hinauff auffs Höltzigen treten/ so schelten und schmelen sie/ alswenn sie ihre Tage kein Wasser getrübet hetten/ sie versauffen jo fluchs Betten und Bibeln/ und sauffen daß ihnen die Hartzkappe und alles knackt. Jäckel wilst du denn so ein Kerl werden/ wie unser Pfarrer ist? </p>
           </sp>
-          <sp who="jaeckel">
+          <sp who="#jaeckel">
             <stage>Jäckel sagt/</stage> 
             <p>Ja. </p>
           </sp>
@@ -1789,7 +1789,7 @@
             <speaker>Brose.</speaker>
             <p>Du must aber erst ein Staudente werden/  und must nein auff den Vnverstand. Getraustu dirs auch wohl zu erschwingen. </p>
           </sp>
-          <sp who="jaeckel">
+          <sp who="#jaeckel">
             <speaker>Jäckel </speaker><stage>zu allen</stage> 
             <p>Ja. </p>
           </sp>
@@ -2046,7 +2046,7 @@
             <p>Ja ja/ ich wil sie wohl abweisen; Es ist mir nicht leid davor. </p>
             <stage>(Sie gehen hinein.</stage>
           </sp>
-          <sp who="pickelhering">
+          <sp who="#pickelhering">
             <speaker>Pickelher. </speaker><stage>zu sich selbsten)</stage>
             <p>Je schiß dir doch 1000. mahl auff solch gesäuffe/ wenn man am besten wil anfangen/ so ist es alle. Das Ding wird nicht für meinen Magen seyn/ ich vermeynte heut so ein Trünckgen zu thun/ so sehe ich wol/ es dürffte nicht geschehen. Die Tübel wie durscht mich. Meine Herren fragen mich immer warumb ich so trincke/ und fragen mich nicht einmal/ warum mich so dürstet. Jch muß sehen/ wo ich einen guten Freund bekomme/ der mir eine Ehre thut. </p>
             <stage>Etzliche Studiosi kommen daher gegangen.</stage>
@@ -2316,7 +2316,7 @@
             <p>Sie haben alle eingewilliget/ biß auch auff etzliche/ so an der Herren Professorum Tisch gehen/ die entschuldigen sich gleichsfals/ daß sie vielleicht  am Tische vermisset werden möchten/ und hetten nur neulich noch deßwegen Straffe geben müssen; Doch damit sie aus dem Verdacht kähmen und den Herren auch willfahren könten/ so wolten sie uns nach Tische ein wenig zusprechen. Etzliche sind gar nicht hier nach zur Stelle gewesen.</p> 
           </sp>
             <stage>Die Pursche kommen an/ die Penåle nebenst Pickelhering begleiten sie zu Tische/ es wird starck getruncken/ Pickelh. agirt wohl dabey. Es kömt ein Junge auff den Platz/ thut wunderliche Gäuckel-Sprünge/ Pickelhering wil es nachthun und fällt/ nach gehaltener Mahlzeit/ wird eine Dame herzu geschlept/ mit welcher die Pursche trefflich galanisiren und tantzen/ sie entläufft zu letzt/ biß endlich stehet der Senior auff/ und fähet folgend an zu reden. </stage>
-          <sp who="senior">
+          <sp who="#senior">
             <p>Die Vrsach/ worumb meine günstige Herren von den Herren Landsleuten ingesamt hieher bittlichen vermocht worden/ ist/ weil hie gegenwertige 3. Penäle als einer von Adel/ dieser eines Kauffmanns/ und Jäckel eines Bauern Sohn/ Pickelh. mag der vierdte seyn, sich fast in das Jahr zu diesem Ende allhier auffgehalten/ ihren Pennalismum wie gebräuchlichen abzulegen/ auch das jenige auszustehen/ was von so viel ehrlichen Purschen ist ausgestanden und gebilliget worden. Weil denn nun fast ihre Zeit verflossen/ auch von hier gegenwertigen Statuisten  solches an die Herren Landsleuthe bittlichen gebracht worden: Welche verhoffen/ sie werden sich in ihrem bißher geführten Statu also verhalten haben/ daß sie iedwedem ehrlichen Purschen/ seine gebührende Ehre und respect gegeben/ als haben wir solche ihre Bitte füglichen nicht abschlagen können. Weil denn nun die Herren Landsleute meine Wenigkeit darzu ausgesehen/ solches an meine hochgeehrten Herren gelangen zu lassen/ als wil ich gleichfals von meinen Herren vernehmen/ ob sie dessen zufrieden/ und ob gegenwertige 3. Penäle nach geendetem Statu für ehrliche Pursche sollen erkläret werden. Solte aber einer oder der ander seyn/ so dagegen etwas/ wieder verhoffen/ einzuwenden hette/ So kan nur solches für den sämbtlichen Herren fürgebracht werden. </p>
           </sp>
           <stage> Die Pursche bewilligens ingesambt. </stage>
@@ -2832,7 +2832,7 @@
         <div type="scene">
           <head>Sechster Auffzug.</head>
           <stage>Amandus/ Pickelher. Schuster/ Schneider/ Kramer/ der Bothe/ die Wäscherin/ die Wirthin/ der Fechter/ Tantzmeister/ Trinchirer/ Ballmeister/ der Weinschencke/ eine Dame/ es bringet ein ieder seinen Auszug wil bezahlet seyn/</stage> 
-          <sp who="pickelhering">
+          <sp who="#pickelhering">
             <speaker>Pickelhering </speaker><stage>zu iedem.</stage>
             <p>Es ist schon gut/ sie können nur wieder her fragen/ mein Herr ist anietzo nicht zu Hause/ er ist ins Bath gangen/ und wird gleich ietzo auff der Lateinischen Schwitzbanck seyn/ ich wil ihm den Auszug schon zustellen/ es ist euch gewiß gnug/ ich weiß/ er wird ungehalten seyn/ daß die Summa  nicht höher ist/ ihr hettet doch mögen immer etwas zusammen kommen lassen/ er hat Geld gnug/ und zahlet solche Lumpereyen nicht gerne so einzelnd aus/ er bezahlet seine Schuldleute gerne zu 100. Thalern. </p>
           </sp>

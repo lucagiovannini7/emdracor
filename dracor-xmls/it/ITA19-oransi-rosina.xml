@@ -1362,7 +1362,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>El me Padru m'ha donat i so scarpi, che se ben son adoperadi, son ben anche come novi. Al vol, che mi li porti, come che lui. Oh signor barber? Chil de la bottiga?</p>
           </sp>
-          <sp who="garzone">   
+          <sp who="#garzone">   
             <speaker>GARZONE.</speaker> 
             <p>Chi chiama?</p>
           </sp>
@@ -1370,7 +1370,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>Vegni de for, guardé i scarpi, che vedrit un zentilhom.</p>
           </sp>
-          <sp who="garzone">   
+          <sp who="#garzone">   
             <speaker>GARZONE.</speaker> 
             <p>Oh' Moscatello, sei tù? Li gentilhomini si guardano in viso.</p>
           </sp>
@@ -1378,7 +1378,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>E per farmi zentilhom anch in tol mostaz, so vegnut, perche il tò patrù, ni fazza lu, tug que lavur che fa alme padru, al signor Leandro:</p>
           </sp>
-          <sp who="garzone">   
+          <sp who="#garzone">   
             <speaker>GARZONE.</speaker> 
             <p>E che? Non ti pare che ancor io non ti sapessi rizzare i peli della barba, dargli la gomma, e raderti pulito a contrapelo?</p>
           </sp>
@@ -2273,7 +2273,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>O de cà?</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Chi sete voi? Sei tu moscatello?</p>
           </sp>
@@ -2281,7 +2281,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>Sig. Si, vegni de for, per un servizi.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Non posso lasciar la bottega, il padrone è andato dal Sig. Leandro, non puoi stare a tornare, non vorrei che mi trovasse in strada.</p>
           </sp>
@@ -2289,7 +2289,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>Vegni pur volentera, che coi tug siamo amici de tu, et del to padron, l'è chilo Pulcinella, vorras sò che remedi, vegni, vegni de for.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Che? Pulcinella sta male? Chimeglio lo puol medicare che il suo padrone?</p>
           </sp>
@@ -2297,7 +2297,7 @@
             <speaker>PULCINELLA.</speaker>
             <p>Sienti sienti pe vita tua; lo mio male non è freve: haggio na picca de dolore, et per levare la causa, io te voglio dare la ricetta: chissa panza cosi grossa, e la causa dello mia male; sono fagliuto sopra lo lietto, me so voluto maneiare sopra de isso, et sogno cascato per terra.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Et come hai fatto per il passato? Non ho sentito mai che altre volte tu sij cascato dal letto in tanti anni che ti stiamo incontro.</p>
           </sp>
@@ -2309,7 +2309,7 @@
             <speaker>PULCINELLA.</speaker>
             <p>None, none.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Mentre non mi voi dir altro, vado dubitando, ò che il tuo patrone li habbia riformato il matarazzo, o che havendo bevuto più dell’ordinario, la testa non ti regga. Questo facilmente sara stato. Torna torna a dormire che non ci sarà più altro.</p>
           </sp>
@@ -2317,7 +2317,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>Mi non posso parla? Pulzinella non vol chaldina. Ol remedi che mi ghe voleva far, l'era zust à profit; con un cortellaz voliva mi dargh'un bott a sta valisa: la metà che si ghe ne lassas, saras la mesura, al so bisogni.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>O questo non fare già io, qui non ci vol ferro ne venir a taglio. Facciamo in questa maniera. Hai visto come si fa in Dogana a stringer le balle della lana?  cosi vuglio che facciamo a questa tua panza.</p>
           </sp>
@@ -2325,7 +2325,7 @@
             <speaker>PULCINELLA.</speaker>
             <p>O questo me piace; alle mani fratello.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Vado io bottega, et piglio quanto bisogna;</p>
           </sp>
@@ -2333,7 +2333,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>Pulcinella sta in ton. Mi vorras, che ti aspettas ol barber, non mi posso intertegni.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Vien qua Pulcinella? Dove vai Moscatello?</p>
           </sp>
@@ -2345,7 +2345,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>Laga far a mi.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Vien dj qua Moscatello, piglia Pulcinella sopra i tui bracci, dico di quà dalla schina, e tienilo forte in piedi.</p>
           </sp>
@@ -2353,7 +2353,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>Stasim à veder, che Pulzinella vorra far la creatura, cazzeghela de fo, mosser barber, de sta valisa, che l'e guarido subet subet.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Quessa tavoletta che ci metto sopra la panza, stringendola io bel bello con questo tortore, verrà à spianarti la panza, e te la rimetterà in piano, come son io. Stà forte non tremare, adesso ti sbrigo,</p>
           </sp>
@@ -2361,7 +2361,7 @@
             <speaker>PULCINELLA.</speaker>
             <p>Che fai barbiere? Stringi piano. Ahi non più che la panza mi vol uscir di dietro:</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>O questo e l'effetto della medicina. Un'altra strettarella, e poi non più.</p>
           </sp>
@@ -2373,7 +2373,7 @@
             <speaker>MOSCATELLO.</speaker>
             <p>L'é maschi, o femen la creatura? Di sù pulzinella? Disi messer barber? Qui de dré mi nol posso veder.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Meniamolo à casa sua, lasciamo che la natura facci da se.</p>
           </sp>
@@ -2381,7 +2381,7 @@
             <speaker>PULCINELLA.</speaker>
             <p>Aprite prima la porta, et lasciatemi andare. Mi voglo riposare un poco qui à pié della scala. Ohime l'evacuatione già me la sento per le calze, per certo che son guarito.</p>
           </sp>
-          <sp who="garzone">
+          <sp who="#garzone">
             <speaker>GARZONE.</speaker>
             <p>Cosi spero, rivedersi.</p>
           </sp>

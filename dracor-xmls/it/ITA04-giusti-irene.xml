@@ -3001,7 +3001,7 @@
           <l>Da' miei spiriti lassi</l>
           <l>Fatti tremanti i passi.</l>
         </sp>
-        <sp who="choro">
+        <sp who="#choro">
           <speaker>CHORO.</speaker>
           <l>Chiunque vive è in doglia, e chi mor n'esce</l>
           <l>lo meschina m'affligo: e l’Alme pure</l>

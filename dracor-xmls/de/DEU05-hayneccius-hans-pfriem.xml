@@ -51,9 +51,6 @@
           <person sex="MALE" xml:id="petrus">
             <persName>PETRUS</persName>
           </person>
-          <person sex="MALE" xml:id="kindelein">
-            <persName>KINDELEIN</persName>
-          </person>
           <person sex="MALE" xml:id="moyses">
             <persName>MOYSES</persName>
           </person>
@@ -2365,7 +2362,7 @@
         <div type="scene">
           <head>Scena III.</head>
           <pb n="47"/>
-          <sp who="hans_pfriem">
+          <sp who="#hans_pfriem">
             <speaker>Hans Pfriem.</speaker>
             <p>Das dir vermaledeiten Pech,</p>
             <p>Der Hencker hals vnd bein zubrech,</p>
@@ -3728,7 +3725,7 @@
         </div>
         <div type="scene">
           <head>Scena VII.</head>
-          <sp who="hans_pfriem">
+          <sp who="#hans_pfriem">
             <speaker>Hans Pfriem.</speaker>
             <p>Ju, Ju, Ju, Ju,</p>
             <p>Wer ist nun seliger, denn Hans Pfriem?</p>
@@ -4082,7 +4079,7 @@
         </div>
         <div type="scene">
           <head>Scena II.</head>
-          <sp who="moyses">
+          <sp who="#moyses">
             <speaker>Moyses.</speaker>
             <p>Was ist dann nun verhanden? was bedeut das wesen?</p>
             <p>Die Schergen lauffen, Sind vor jhm auch schon genesen,</p>
@@ -4136,7 +4133,7 @@
             <l>Weicht ausser, weicht, jhr lieben Freund,</l>
             <l>Helfft mir durch Gott von dannen heint.</l>
           </sp>
-          <sp who="#kindelein">
+          <sp who="#kinderlein">
             <speaker>KINDELEIN.</speaker>
             <l>Halt' auff, jhr Leutlein, Halt' jhn auff,</l>
             <l>Jhr Leutlin halt, halt, halt' jhn auff.</l>
@@ -4320,7 +4317,7 @@
         </div>
         <div type="scene">
           <head>Scena IIII.</head>
-          <sp who="moyses">
+          <sp who="#moyses">
             <speaker>Moyses.</speaker>
             <p>Wie ich da sehe, bleibts wol darbey,</p>
             <p>Das Pfriemers kopff der beste sey,</p>

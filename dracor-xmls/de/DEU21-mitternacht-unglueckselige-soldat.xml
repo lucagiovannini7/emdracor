@@ -196,14 +196,11 @@
           <person sex="MALE" xml:id="gehuelfe_3">
             <persName>DER DRITTE GEHÜLFE</persName>
           </person>
-          <person sex="MALE" xml:id="praeses">
-            <persName>PRAESES</persName>
-          </person>
           <person sex="MALE" xml:id="philosophus_3">
             <persName>PHILOSOPHUS TERTIUS</persName>
           </person>
           <person sex="MALE" xml:id="philosophus_4">
-            <persName>PHILOSOPHUS QVARTUS</persName>
+            <persName>PHILOSOPHUS QUARTUS</persName>
           </person>
           <person sex="MALE" xml:id="adsessor_3">
             <persName>ADSESSOR III</persName>
@@ -547,7 +544,7 @@
             <p> Wornach ich / der Weltberühmke Chirurgus hier zu Padua / von meinen Kindesbeinen her / ja von der Wiegen an / getrachtet / das hab ich nunmehr <pb n="45"/>durch meine sonderbare Kunst glüklich erlanget. Als ich noch ein kleines Kind war / bemühete ich mich / über andern meines Alters Kindern zu schweben / und von iedermanne gerühmet zu werden. Da ich nun ein wenig erwachsen / und meinen Verstand in etwas brauchen konte / wurde ich võ meinen Praeceptoribus berichtet / daß der / so andern an Ehr u Herrlichkeit vorgehen wolte / denenselben an Weisheit / Verstande / und Erfahrenheit überlegen seyn müste. Dannenhero bin ich meinen studiis fleissig obgelegen / und habe von Tag zu Tag am Verstande / und Wissenschafft reichlich zugenommen. Vnd weil mich meine Natürliche Zuneigung zu dem Studio Medico getragen hab ich mir dasselbe vor andern erwählet. Was ich darinnen vor Disputationes opponendo &amp; respondendo gehalten / das wird man annoch in frischer Gedechtnis haben. Denn es leben noch diese Stunde unterschiedliche Professores allhier / denen ich theils opponiret / theils respondendo mich recommendiret. Nach dem ich aber gewahr wurde / daß ein Medicus des Chirurgi nicht wohl entrahten könte / und statliche Medici klagten / daß / was sie mit ihren medicamentis gut gemachet / durch einen oder den andern unerfahrnen Chirurgum verderbet worden; faste ich geschwinde resolution, beydes erlernen / zog nach Venedig / sagte nicht / daß ich ein Studiosus wäre / sondern begab mich / ob ich gleich allbereit in das Zwantzigste Jahr gieng / zu dem berühmtesten Chirurgo daselbst in disciplin, und stund / wiewohl nicht mit geringem <pb n="46"/>Vngemach / meine Jahre redlich aus. Darnach kam ich wieder hieher / dachte der Kunst weiter nach / laß gute Bücher / und ließ mich allgemachsam bey verschiedenen Patienten ietzt vor einen Medicū, dann vor einen Chirurgum brauchen. Begonte aber mehr Zeit und Nachsinnen auff das studium Chirurgicum, als auff das Medicum, zu wenden: welches mich auch biß diese Stunde nicht gereuet hat. Denn man sagt nunmehro fast offentlich / es sey in der gantzen Welt kein Chirurgus mit mir zu vergleichen. Meine Chirurgischen Bücher / so ich theils in Lateinischer / theils in Italiänischer Sprache durch den Druk ausgelassen / werden nicht allein in gantz Italien / sondern auch in Teutschland hoch aestumiret / und sollen etliche Teutsche Barbirer / so obgenante Sprachen verstehen / sich derselbigen wohl bedienen / auch etliche gar in Teutsch übergesetzet haben. Eins iedoch mangelt mir noch an der Wissenschafft. Denn ich sehe aus derer berühmresten Medicorum Büchern / wie so unterschiedene Meinungen sie de motu cordis humani, oder von Bewegung des Menschlichen Hertzens haben. V bilde mir nicht ein / daß solche Bewegung noch zur Zeit recht und gründlich erkundiget sey. Weil denn heutiges Tages kein Gelehrter etwas gilt / der nicht was neues / und zuvor unobservirtes hervor giebt / so bin ich bishero stets curieus gewesen / wie ich doch diesen motum oder Bewegung gründlich und per experientiam erlernen / und mir so dann mit Beschreibung derselbigen einen unsterblichen Nahmen <pb n="47"/>machen möchte. Aber siehe! da kommen die Gerichts-Personen. Ich muß stille seyn / und mich auff die Seite begeben.</p>
           </sp>
           <stage>Hier erscheinet der Praesident des hohen Gerichts mit denen Assessoribus, und redet / nach dem sie sich gesetzet / der Praesident also.</stage>
-          <sp who="praesident">  
+          <sp who="#praesident">  
             <p>Wehrte liebe Freunde und Collegen / sie wissen sonder Zweiffel alle wohl / was der berühmte Barbirer allhier schrifftlich an uns gelangen lassen / bittende / daß wir ihm doch den maleficanten / der Morgendes Tages nach denen Venedischen Rechten justificiret werden soll / abfolgen lassen wolten / damit er seinem curieusen Gemüht ein Genügen thun / und nach dem er denselben lebendig auffgeschnitten / besehen möge / wie das Menschliche Hertz im Leibe beweget werde. Nun bedünket mich / es lasse sich nicht wohl im Gewissen verantworten / einen Menschen / ob er gleich zum Tode verdammet / so lange qvälen zu lassen. Denn wer weiß / wie er / der Barbirer / mit dem armen Sünder umgehen möchte? Wie lange er mit dem aufschneiden / und Besichtigung des Hertzens zubringen würde? Welches denn unaussprechliche Qvaal und Marter seyn möchte. Derowegen halte ich nicht vor verantwortlich / ihme und seiner Curieusität hierinnen zu gratificiren. Doch will ich / ehe wir ihm die vertröstete Antwort ertheilen / vernehmen / was die Herren in dieser Sache gut befinden. Welches sie mir ie ehe ie besser durch einen aus ihrem Mittel eröffnen <pb n="48"/>werden Sie bereden sich mit einander / ich will in dessen ein wenig herumb spatziren.</p>
             <stage>Vber eine kleine Weile setzet er sich wieder nieder.</stage>
           </sp>
@@ -555,7 +552,7 @@
             <speaker>ADSESSOR PRIMUS.</speaker>
             <p> Ob wohl die Vrsachen / die der Barbirer / uns zu bewegen / angeführet / ziemlich spectôs und wichtig zu seyn scheinen / ie dennoch halten wir endlich dafür / daß die jenigen / so von unserm Hochgeehrten Herren Praesidenten ietzo zu überlegen proponiret worden / jene weit überwägen. Damit nun wir nicht / als unbarmhertzige Richtere / den Verleumdern ins Maul fallen / oder auch wohl gar von des maleficanten Befreundten bey der Durchlauchtigsten Signoria zu Venedig / als von welcher alle auctorität dieses hohen Gerichts dependiret / gleich hätten wir der Sachen zu viel gethan / verklage werden möchten; so wird / unserm wenigen Bedäncken nach / das beste seyn / daß wir dem Barbirer abschlägige Antwort ertheilen. Geben aber inzwischen dieses unser unvorgreifliches Gutachten E. Magnif. zu reifferer Consideration und fernerweitigem Erwägen.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <p> Es darf die Sache keines fernern überlegens. Denn wir können uns besser nicht verwahren / als wenn wir dem gemeinen Lauffe derer Rechte nachgehen. Wenn es ein todter Leichnam wäre / der nichts fühlete / so könte manihn dem Barbirer wohl überlieffern. Aber einen lebendigen Menschen / der <pb n="49"/>sonst plötzlich seiner Qual durch den Hencker loß werden kan / in so langwürige Marter zu übergeben / läst sich nicht verantworten. Darum / Herr Secretarie, befehlet dem Diener draussen / daß er den Barbirer lasse herein kommen.</p>
           </sp>
@@ -568,7 +565,7 @@
             <speaker>CHIRURGUS.</speaker>
             <p> Hocherleuchtete Herren / was an dieselbe ein unterdienstliches Brieflein abgehen zu lassen mich angefrischet / wird ihnen ausser Zweifel in gutem Andencken schweben. Demnach denn Ihrer sonderbahren bißher gegen mich getragenen hohen Gunst beliebet / mich an diese heilige Stelle zu erfordern / hab ich meiner Schuldigkeit zu seyn erachtet / mich gehorsamst einzufinden / der angezweifelten Zuversicht lebende / meine hochgeneigete Patronen werden durch ihre großgünstige resolution mich völlig erfreuen. Welches ich so dann mit hochdankbarem Gemüht erkennen / und nach meinem besten Vermögen zuerwiedern trachten werde.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <p> Lieber Freund / gleich wie wir billich eure sonderbahre Wissenschafft und Erfahrenheit / nicht minder auch eure grosse Begierde / ein mehrers zuerkundigen / loben und commendiren; Also mögen wir euch nicht verhalten / daß wir / aus höchst erheblichen Vrsachen euch begehrter massen nicht willfahren können. Wornach ihr euch zu achten habet.</p>
             <pb n="50"/>
@@ -1261,7 +1258,7 @@
             <p> Ist das Volk bald in die Schiffe bracht? Geht / meine lieben getreuen / sehet zu / daß wir Morgen gegen den Mittag von hinnen nach Portugal abstossen können.</p>
           </sp>
           <stage>Hier kommt ein Diener.</stage>
-          <sp who="satelles">
+          <sp who="#satelles">
             <p>Großmächtiger und unüberwindlicher Held / ich komme gleich ietzo vom Hafen her / und habe mit Verwunder- und Bestürtzung gesehen / daß nicht der dritte theil derer in dies Königreich geführten Völker eingeschiffet worden. Vnd wer weiß / wie es den eingeschiffeten ergehet? Die Schiffer sind gar vestürtzt / und ominiren nichts gutes. So sagt<pb n="83"/>man sonst / die meisten Soldaten hätten die Kleider an die Bauren vertauscht / und wären also unangetastet durchkommen. Wie man denn nicht höret / daß ein einiger erschlagen und gefangen worden.</p>
           </sp>
           <sp who="#mars">
@@ -1871,7 +1868,7 @@
             <speaker>ADSESSOR III.</speaker>
             <p> Demnach ich schon solche Gründe einer exemplarischen Bestraffung anhörende verstanden / die mir übergnug seyn können / achte ich nicht nöhtig / <pb n="118"/>ich was zu denen wohl abgefasseten discursen bey zu tragen / sondern erkläre mich gleicher Meinung. Vnd kan ich unberichtet nicht lassen / daß mir das Sonnenklare Vrtheil / so Göttliche Majestät selbst gefället / stets vor dem Gesichte schwebe / da sich dieseibe also hören lässet: Wer Menschen Blut vergeußt / des Blut soll wieder vergossen werden. Weil nun der H Geist in diesen hellen Worten weder distingviret / noch limitiret / noch excipiret / so sehe ich nicht / wie wir den Barbirer ohne Lebensstraffe hinlauffen lassen können. Nur dieses ist / meines Erachtens / wohl zu erwägen / daß der maleficant ein liederlicher und verwegener Mensch seyn soll / dem nicht schlechter Dinge zu glauben stehet. Derohalben wird die Nohtdurfft erfordern / daß man von solchem maleficanten gerichtlicher Weise vernehme / ob denn neben ihme und dem Barbirer auch etliche andere Personen gewesen / so sich solcher That schuldig gemachet. Sind ihrer nun mehr impliciret / so muß man dieselben auch apprehendiren / examiniren / und wo sie es bekennen / dem Barbirer so dann desto schärfer zusetzen.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <l> Seine Meinung hat mir wohl gefallen. Was sagt aber er darzu.</l>
             <stage>Kehret sich zum IV. Adsessor.</stage>
@@ -1880,7 +1877,7 @@
             <speaker>ADSESSOR IV.</speaker>
             <p> Was meine Herren erinnert / hab ich nohtdürftig verstanden / und muß gestehen / daß ihre rationes, die sie angeführet / auf breitem Fusse beruhen. <pb n="119"/>Allein / weil in sacro isto consessu ein ieder sein freyes votum hat / so er ohne einigen Nachtheil sicherlich geben mag; als bedünket mich nicht allerding rahtsam daß man den Barbirer capitaliter oder am Leben straffe: und zwar aus nach folgenden Vrsachen Denn erstlich ist gewiß / daß man dieses Barbirers gleichen weder in Italien noch andern Provincien leichtlich finden könne. Wenn nun die circumstantiae personarum zu beobachten / und die Straffen respestu illarum entweder zu exasperiren / oder zu mitigiren seyn; so könte man ie / in Anschung eines so extraordinari-Künstlers / wohl eine mitigation ergreiffen. Darnach hat er sonst also gelebet / daß er niemals vor diese unsere Versamlung erfordert worden. Wenn wir nun bedenken / was die Menschliche curiosität vor ein hefftiges und importunes monstrum sey / und wie so gar leichtlich sie den Menschen / wie fromm er auch ist / zu was unbefügtes veranlassen könne; so scheinet es abermahl / als wäre man dem Barbirer etwas zu erlassen befuget. Drittens haben wir vornehmlich in consideration zu ziehen / daß uns und den unsrigen nicht geringe Gefahr erwachsen könne / wenn wir den Barbirer capitaliter abgestraffet hätten. Denn im Fall uns / oder den lieben Vnsrigen ein gefährlicher Zustand an- oder zuwachsen solte / und wir hätten so dann keinen wohlerfahrnen Barbirer / würden wir nicht wünschen / daß der abgethane noch lebete? Vnd weil das wünschen vergeblich ist / würden wir nicht beseufzen / daß wir einen so erfahrnen <pb n="120"/>Mann hätten hinrichten lassen? Jedoch untergeb ich mich billich / als der jüngste Adsessor, meinen Herren / und erwarte / was sie von meinen rationibus ihrem hocherleuchteten Verstande nach judiciren werden.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <p> Was der Herr nach seinem gut befinden erinnert / das hab ich ohne einigen Verdrus vernommen. Kürtzlich aber von der Sachen zu kommen / so sind zwar seine rationes primo intuitu ziemlich speciós und ansehnlich / iedoch / wenn sie reiflich erwogen werden / halten sie den Stich nicht. Denn erstlich will nicht folgen / daß der / so allen andern an Geschikligkeit überlegen ist / nicht capitaliter gestraffet werden solte. Der angehengte Beweiß erhält mehr nicht / als eine mitigationem poenarum, worauf auch die andere ration zielet. Es werden aber nicht nur die mitigationes in Verwandelung derer poenarum capitalium in non capitaleis, sondern auch in andern Dingen verspüret und geübet. Denn wenn einer verschuldet hätte / daß er aufs Rad geleget würde / er würde aber nur decolliret und entheuptet / wäre das nicht eine merkliche mitigation oder linderung der Straffe? Vnd bliebe nichts desto minder die poena capitalis. Darnach die dritte ration betreffende / so müssen wir / im fall poena capitalis, allem ansehen nach / erfolgen soll / bedenken / als hätte GOtt selbst den Barbirer durch einen Natürlichen Tod abgefordert. Aber vor allen Dingen müssen wir ihn convinciren / ehe <pb n="121"/>wir de supplicii genere deliberiren. Vnd ist meine Meinung nur diese gewesen / wie nehmlich das Werk vorzunehmen / daß man den Barbirer überweisen / oder / do er unschuldig / aus der falschen Anklage liberiren könne.</p>
             <stage>Hier stellen sich die Adsessores, als ob sie heimlich mit einander deliberirten / denn spricht.</stage>
@@ -1889,7 +1886,7 @@
             <speaker>ADSESSOR I.</speaker>
             <p> Meine Herren Collegen meinen / man müsse vor allen Dingen den Barbirer vernehmen / und erfahren / ob er die That läugne / oder gestehe.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <p> Eben dies sind auch meine Gedanken. Wollen derowegen nach eingenommener Mittagsmahlzeit wieder allhier erscheinen. Denn wir dörfen so lange nicht zaudern / biß der Barbirer von des malefgicanten Aussage höret. Sonst möchte er durchgehen / wo er schuldigist. Vnd mich bedünket fast / es sey solche Aussage schon ausgebrochen.</p>
             <stage>Hier agiren Moriones.</stage>
@@ -1915,7 +1912,7 @@
           <stage>Hier setzet sich der Praesident mit denen Adsessoribus. Dann erscheinet Justitia und redet sie an.</stage>
           <p>Habt Gerechtigkeit lieb / ihr Regenten auf Erden. Sehet zu / was ihr thut. Denn ihr haltet das Gerichte nicht den Menschen / sondern dem Herren / und er ist mit euch im Gericht. Darum lasset die Furcht des Herren bey euch seyn. Denn bey dem Herren / unserm GOtt / ist kein Vnrecht / noch ansehen der Person / noch annehmen des Geschenckes. 2. Paral. XIX.</p>
           <stage>Gehet ab.</stage>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES</speaker>
             <stage>zu dem Barbirer.</stage>
             <p> Wir haben nicht unterlassen können / Krafftragenden / und von der Durchlauchtigsten Signoria zu Venedig anbefohlenen Amts / euch / Barbirer / vorzubringen / welcher gestalt ihr beschuldiget werdet / wie ihr einen Spanischen / aus dem Königreiche Neapolis entloffenen Soldaten / eurer längst empfundenen curiosität ein genügen zu leisten / samt etlichen andern Gehülfen in einen dunkeln u tieffen Keller geführet / daselbst mit Händen und Füssen gebunden / endlich aufgeschnitten / den motum cordis, so lange der Mensch gelebet betrachtet / und endlich das Hertz gar heraus gerissen habet. Demnach <pb n="126"/>denn nun dieses eine abscheuliche That / so dm / wenn sie von euch verübet worden / einer Exemplarischen Straffen wohl würdig / als begehren wir von euch / daß ihr euch mit wenigem erkläret / ob ihr solches gestehet.</p>
@@ -1966,7 +1963,7 @@
             <speaker>ADSESSOR IV.</speaker>
             <p> Wolan / ist euch das Zeugnis des Banditen nicht genug / so wollen wir euch die andern zweene Helfer / so albereit apprehendirt, und in die Custodi bracht / auch vor die Augen stellen / und euren Gesellen balde darzu bekommen. Denn die Diener sind schon nach ihm geschikkt. Seyd ihr nun nicht gnugsam überwiesen? Was vor ein Gemüht können wir auß solcher ungegründeten tergiversation schliessen? Gehet ihr nur in euch selbst / fragt euer böses Gewissen; das wird euch eben das sagen / was wir euch gesagt haben.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <p> Sie sehen doch / meine Herren / wie ihn das Gewissen schon plaget und naget. Kann er doch weder <pb n="130"/>Hände noch Füsse stille halten / so trutzig er anfänglich redete.</p>
           </sp>
@@ -1987,7 +1984,7 @@
             <speaker>CHIRURGUS.</speaker>
             <l> Die Conscientiam.</l>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <l> Kommt er mir doch vor / als wär er nicht mehr recht bey Sinnen.</l>
             <stage>Kehrt sich zum Chirurgo.</stage>
@@ -1997,7 +1994,7 @@
             <speaker>CHIRURGUS.</speaker>
             <p> Weil Conscientia spricht / sie wolle mir nicht ehe Friede lassen / biß ichs bekandt / so bekenne ich mit grosser Hertzens-Angst / daß ich alles gethan / wessen ich beschuldiget worden. Bitte aber gantz demütig um Linderung der Straffe.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES</speaker>
             <stage>gegen die Adsessores.</stage>
             <l> Weil er die That gestehet / muß er in Hafft genommen werden.</l>
@@ -2013,7 +2010,7 @@
             <l> Ach! ich armer! was hab ich gethan?</l>
             <stage>Gehen beyde ab.</stage>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <l> Morgen werden wir wieder zusammen ko ien.</l>
             <stage>Gehet mit den andern ab.</stage>
@@ -2043,7 +2040,7 @@
             <speaker>DAS TÖCHTERLEIN.</speaker>
             <p> Ach ihr Gold-Herren / schlagt meinen lieben Vater nicht todt. Wer wolte mir denn sonst einen Pfennig zur Semmel geben? Ach laßt ihn leben! <pb n="133"/>Ich will euch alle meine Dokken schenken.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <l> Weib / euer Mann ist noch nicht verurtheilet: habt derowegen nicht Vrsach / euch so übel zu gehaben.</l>
           </sp>
@@ -2115,7 +2112,7 @@
             <speaker>CHIRURGUS.</speaker>
             <p> Ich rede nur / was zu meiner defension nöhtig ist. Bitte nochmals / Sie wollen mir großgünstig vergeben.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <l> Laßt den Knecht kommen / und ihn wieder in den Thurm führen.</l>
           </sp>
@@ -2128,7 +2125,7 @@
             <speaker>LICTOR.</speaker>
             <l> Hochgelahrte Herren / das werde ich beobachten Fort mit mir nach dem Loche zu.</l>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <l> Morgen werden wir doch wieder zusammen kommen müssen.</l>
           </sp>
@@ -2141,7 +2138,7 @@
         <div type="scene">
           <head>Scena V.</head>
           <stage>Justitia repetiret abermahl ihre admonition.</stage>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES</speaker>
             <stage>zu seinem Adsessori I.</stage>
             <p> Weil der Barbirer gleich ietzo wieder erscheinen wird / so kan er ihm die Vngerechtigkeit der begangenen That remonstriren. Denn ich habe in der gestrigen Verhör wahr genommen / daß er in den Gedanken stehet / er habe gar recht und löblich gethan / in dem er den Soldaten ermordet.</p>
@@ -2164,7 +2161,7 @@
             <speaker>ADSESSOR II.</speaker>
             <p> Man hat euch keinen maleficanten überliefern wollen. Daraus hättet ihr ja abnehmen können / <pb n="138"/>daß ihr der gleichen That gegen einen Vnschuldigen nicht wagen dörfftet.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <l> Dies fundament hättet ihr billich wohl erwägen sollen.</l>
           </sp>
@@ -2192,7 +2189,7 @@
             <speaker>ADSESSOR IV.</speaker>
             <p>Medici würden doch gelehrte Leute blieben seyn / wenn ihr gleich solche That nicht vorgenommen hättet / darzu ihr gar keinen Beruff gehabet.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <p> Mit nechstem soll euch vergönnet seyn / einen Advocaten zu brauchen / damit ihr euch nicht zu beschwehren habet. Vnd dann soll diese Sache ihre Endschafft erreichen.</p>
             <stage><pb n="139"/>Klingelt / und spricht zum Büttel.</stage>
@@ -2207,7 +2204,7 @@
             <speaker>ADVOCAT.</speaker>
             <p> Alldieweil / Hocherleuchtete Richtere / großqeneigte Patronen / diesem meinem Clienten großgünstig vergönnt worden / seine Nohtdursst durch mich unterdienstlich an- und vorbringen zu lassen / als leb ich der unterdienstlichen guten Zuversicht / meine hochgeneigten Patronen werden mich großgünstig hören / und / was ich gebührend anbringen werde / im besten vermerken.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <p> Ihr sollet nach Gebühr mit willen gehöret werden. Doch werdet ihr euch der Weitleufftigkeit / und was sonst zur Sachen nicht gehöret / enthalten.</p>
           </sp>
@@ -2250,7 +2247,7 @@
             <speaker>ADVOCAT.</speaker>
             <p> Weil aber der Entleibte arm gewesen / und man wohl weiß / daß faule Bettler zum öfftern Strafsenraub ausüben / so achtet mein Client dafür / er sey solcher gestalt vielen Todschlägen und Mordthaten zuvor kommen / welche der Entleibte noch hätte begehen können.</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <p>Aposse ad esse non valet conseqventia. Vnd wäre nicht gut / daß alle arme Leute Mörder wären. Das sind faule Fische / die an einem so heiligen Orte nicht sollen vorgebracht werden. Wenn ihr nun nichts bessers habt / so sind wir nicht gesonnen / euch länger mit Verdruß uñ besorgender Beschimpfung dieses hohen Gerichts zu zu hören.</p>
             <stage>Stehet auff.</stage>
@@ -2327,7 +2324,7 @@
             <p> Ach ihr hertzliebsten Herren / können eure sonst so sanfftmühtigen Hertzen durch kein bitten und flehen erweichet / und zur Barmhertzigkeit beweget werdẽ? Ach seyet doch mich armes Kind in Gnaden an / und gebet mir meinen liebsten Vater wieder. Denn wer wolte mir zu essen geben / wenn ich keinen Vater hätte? Ach! unsre liebste Mutter will auch sterben. Ach! wo wollen wir denn hin? Ach! wer will uns aufnehmen? Ach! wer will uns essen uñ trinken geben? Ach! wer will uns neue Schuhe uñ Kleider kaufen? Darum ach hertzliebste Herren / erbarmet euch doch über uns / und schenket uns unsren Vater. Wenn ich nur ein wenig grösser werde / so will ich euch gerne die Schuhe putzen / und hin gehen / wohin ihr mich schicken werdet. Ihr sollt mir so lieb seyn / als mein Vater selbst.</p>
             <pb n="146"/>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <p> Wir erbarmen uns recht hertzlich über euch / ihr lieben Kinder. Aber euren Vater können wir euch nicht wieder geben. Denn demselben muß nach Vrtheil und Recht der Kopf abgeschlagen werden.</p>
           </sp>
@@ -2355,7 +2352,7 @@
             <speaker>DER ERSTE SOHN.</speaker>
             <p><pb n="147"/>Ach! sehet doch / hertzliebste Herren / was das vor ein Jammer ist / wenn ein solch armes Kind keinen Vater haben soll. Darum bitt ich nochmals um Gottes willen / erbarmet euch unser!</p>
           </sp>
-          <sp who="#praeses">
+          <sp who="#praesident">
             <speaker>PRAESES.</speaker>
             <p> Es kan ietzo anders nicht seyn. Der Vater muß sterben. Aber GOtt wird sich euer annehmen / und Vaterstelle vertreten. Vnd wir selbst wollen bedacht seyn / daß ihr durch Vormündere und Anverwandte nohtdürfftig versorget werdet. Gehet hin / und betet fleissig.</p>
             <stage>Darauf gehen die Kinder mit Händeringen und kläglichen Gebährden ab.</stage>

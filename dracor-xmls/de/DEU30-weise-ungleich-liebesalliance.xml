@@ -6,8 +6,10 @@
       <titleStmt>
         <title type="main">Ungleich und gleich gepaarte Liebes-Alliance</title>
         <author>
-          <forename>Christian</forename>
-          <surname>Weise</surname>
+          <persName>
+            <forename>Christian</forename>
+            <surname>Weise</surname>
+          </persName>
           <idno type="wikidata">Q90798</idno>
           <idno type="pnd">118630369</idno>
         </author>
@@ -851,7 +853,7 @@
             <speaker>Ros.</speaker>
             <p>Herr Vetter / er gieng vorbey / und ich kunte nicht davor / daß er ins Hauß kam. </p>
           </sp>
-          <sp who="severo">
+          <sp who="#severo">
             <speaker>Sev.</speaker>
             <p>Ich werde nicht wissen / was deine Kreyde schreibt / ich habe dich aus Barmherzigkeit in mein Hauß genommen / und solt GOtt dancken / daß dich jemand mit deinem nackichten Steisse beherbergen wolte. Nun weiß das Raben-Aaß nicht wie sie den Kerlen genung nachlauffen sol. Und wenn kein Zureden hilfft / so wil ich mich mit dir nicht zu Tode ärgern es fehlt dir eine schärffre Obrigkeit / die dir vom Morgen biß auff den Abend was rechtes zu thun gibt / wenn die faulen Klaretgen nichts zu dencken und zu schaffen haben / so sehen sie / wo ein Kerl vor dem Hause vorüber läufft. Ich dencke du wirst dir was erlauffen / daß ich und mein Hauß mit werden besalbet werden. </p>
           </sp>

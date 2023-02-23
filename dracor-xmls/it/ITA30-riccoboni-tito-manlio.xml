@@ -44,9 +44,9 @@
           <person xml:id="tito" sex='MALE'>
             <persName>TITO</persName>
           </person>
-          <person xml:id="popolo" sex='UNKNOWN'>
+          <personGrp xml:id="popolo" sex='UNKNOWN'>
             <persName>POPOLO</persName>
-          </person>
+          </personGrp>
           <person xml:id="decio" sex='MALE'>
             <persName>DECIO</persName>
           </person>

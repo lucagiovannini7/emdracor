@@ -9,7 +9,8 @@
         <author>
           <persName>
             <forename>Alonso</forename>
-            <surname>de la Vega</surname>
+            <nameLink>de la</nameLink>
+            <surname>Vega</surname>
           </persName>
           <idno type="wikidata">Q5670429</idno>
           <idno type="pnd"></idno>
@@ -63,9 +64,9 @@
           <person xml:id="correo" sex='MALE'>
             <persName>CORREO</persName>
           </person>
-          <person xml:id="salvoges" sex='MALE'>
+          <personGrp xml:id="salvoges" sex='MALE'>
             <persName>SALVOGES</persName>
-          </person>
+          </personGrp>
           <person xml:id="alberto" sex='MALE'>
             <persName>ALBERTO</persName>
           </person>
@@ -81,9 +82,9 @@
           <person xml:id="marimarta" sex='FEMALE'>
             <persName>MARIMARTA</persName>
           </person>
-          <person xml:id="vozes_dentro" sex='UNKNOWN'>
+          <personGrp xml:id="vozes_dentro" sex='UNKNOWN'>
             <persName>VOZES DENTRO</persName>
-          </person>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
@@ -1702,7 +1703,7 @@
             <speaker>SERAPHINA.</speaker>
             <p>Hay de mi, que el desseo grande que de ver al Amor tengo, un punto de descanso a mí no dexa llegar. Qué crueldad es esta sinon Amor? qué descuydo tan grande? qué aborrescimiento tan esquivo? que viendo me abrasada en tus ardientes llamas, ya que otra merced en pago hazer no me quieras, no te me huvieras dado a conoscer tan solo un momento: y esto no va, si no que viene de ti, por ser cruelissimo, o yo no te merezco: pero Amor, ya que otra cosa no goze si no de tu vista, goze yo de algunas aparencias de tu figura, o por visión, o señales, o pintura, que con ello sere algo satisfecha.§Villancico.</p>
           </sp>
-          <sp who='salvoges'>
+          <sp who='#salvoges'>
             <stage>Entran dos Salvages cantando.</stage>
             <l>El que de liviano sueño se creyere,</l>
             <l>yrá donde aquesta fuere.</l>
@@ -1843,7 +1844,7 @@
             <speaker>MARCO ATHANASIO.</speaker>
             <p>O cómo me quadra el habito, paresce que lo hizieron para mi: ca arco dorado, y enerbolada flecha, en viendo la caça al ojo, heñida en el coraçon, porque muera, siu que por alto se hos vaya.</p>
           </sp>
-          <sp who='seraphina'>
+          <sp who='#seraphina'>
             <stage>Sale Seraphina en trage de pastora cantando esta Cancion.</stage>  
             <stage>Cancion.</stage>      
             <l>Hay Amor, querays me ayudar</l>

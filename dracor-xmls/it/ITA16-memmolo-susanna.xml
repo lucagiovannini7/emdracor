@@ -77,9 +77,9 @@
           <person xml:id="eunuco" sex="MALE">
             <persName>EUNUCO</persName>
           </person>
-          <person xml:id="coro" sex="UNKNOWN">
+          <personGrp xml:id="coro" sex="UNKNOWN">
             <persName>CORO</persName>
-          </person>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>

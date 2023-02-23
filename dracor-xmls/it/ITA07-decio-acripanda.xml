@@ -132,7 +132,7 @@
         <head>ATTO PRIMO.</head>
         <div type="scene">
           <head>SCENA PRIMA.</head>
-          <sp who="orselia">
+          <sp who="#orselia">
             <speaker>OMBRA D’ORSELIA</speaker><stage>sola.</stage>
             <l>Or chi mi porge aita, ond’io m’attegna</l>
             <l>Co ‘l mio braccio al suo braccio? e l’orma mia</l>

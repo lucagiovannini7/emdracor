@@ -72,9 +72,6 @@
           <person sex="MALE" xml:id="oristenes">
             <persName>ORISTENES</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="tragedia">
-            <persName>[TRAGEDIA]</persName>
-          </person>
           <person sex="MALE" xml:id="tigris">
             <persName>TIGRIS</persName>
           </person>
@@ -84,9 +81,6 @@
           <personGrp sex="UNKNOWN" xml:id="pueblo">
             <persName>PUEBLO</persName>
           </personGrp>
-          <person sex="UNKNOWN" xml:id="prologo">
-            <persName>[PRÓLOGO]</persName>
-          </person>
           <person sex="MALE" xml:id="celabo">
             <persName>CELABO</persName>
           </person>
@@ -105,6 +99,7 @@
     <revisionDesc>
       <listChange>
         <change when="2022-11-16">(DS/LG) conversion from source and editing.</change>
+        <change when="2023-02-22">(LG) removed who-tags for "prologo" and "tragedia".</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -196,10 +191,9 @@
       </castList>
     </front>
     <body>
-      <div type="act">
+      <div type="prologue">
         <head>PRÓLOGO</head>
-        <sp who="#prologo">
-          <speaker>[PRÓLOGO]</speaker>
+        <stage>
           <l>Como el sabio pintor en varias formas</l>
           <l>con los colores y pinceles muestra</l>
           <l>de fuertes y prudentes capitanes,</l>
@@ -238,7 +232,7 @@
           <l>con su alto ingenio cada cual, y admita</l>
           <l>lo que más la virtud en si despierte,</l>
           <l>que es el fin justo a que aspirar se debe.</l>
-        </sp>
+        </stage>
       </div>
       <div type="act">
         <head>Jornada I</head>
@@ -3428,9 +3422,10 @@
           <l>Ahora vamos con presteza luego</l>
           <l>a dar ese lacivo cuerpo al fuego.</l>
         </sp>
-        <stage>(TRAGEDIA.)</stage>
-        <sp who="#tragedia">
-          <speaker>[TRAGEDIA]</speaker>
+      </div>
+      <div type="epilogue">
+        <head>(TRAGEDIA.)</head>
+        <stage>
           <l>De valor, de bondad, de cortesía,</l>
           <l>de engaño, de maldad y de malicia,</l>
           <l>de discreción, de amor, de valentía,</l>
@@ -3439,7 +3434,7 @@
           <l>de gobierno, de paz y de milicia,</l>
           <l>ilustre ejemplo doy al alma ilustre</l>
           <l>con que su lustre, como debe, ilustre.</l>
-        </sp>
+        </stage>
         <trailer>FIN DE LA TRAGEDIA DE LA GRAN SEMÍRAMIS</trailer>
       </div>
     </body>
