@@ -183,7 +183,9 @@
           <l>C'est autant d'ouvrage appresté</l>
           <l>Pour moy, qui cerche de pratique.</l>
         </sp>
-        <stage>Il va vers luy.Eh bien! Monde, quel mal vous picque?Je vous ay de loin plaindre ouy.</stage>
+        <stage>Il va vers luy.</stage>
+          <l>Eh bien! Monde, quel mal vous picque?</l>
+          <l>Je vous ay de loin plaindre ouy.</l>
         <sp who="#le_monde">
           <speaker>LE MONDE.</speaker>
           <l>Je suis bien fort malade.</l>
@@ -499,8 +501,12 @@
           <l>Venez vostre leçon apprendre</l>
           <l>Et despeschez, sans plus attendre,</l>
           <l>Ou je vous frotteray bien tous.</l>
+          <stage>Ilz se mettent tous à toussir.</stage>
+          <l>Vous avez fort ores la toux,</l>
+          <l>Mais non pas quand ce vient à boire.</l>
+          <l>Sus, qu’on desgaine l'escritoire,</l>
+          <l>Et sans plus se faire presser!</l>
         </sp>
-        <stage>Ilz se mettent tous à toussir.Vous avez fort ores la toux,Mais non pas quand ce vient à boire.Sus, qu’on desgaine l'escritoire,Et sans plus se faire presser!</stage>
         <stage>Ils s'assoyent &amp; prennent leurs escritoires &amp; papier; puis le BRAVE dit:</stage>
         <sp who="#brave">
           <speaker>BRAVE.</speaker>
@@ -993,8 +999,11 @@
           <l>Ne vous chaille:</l>
           <l>Par le pays de Trinquetaille,</l>
           <l>Où quelque amy nous trouverons.</l>
+          <stage>Il le monte.</stage>
+          <l>Or çà, de par Dieu, nous serons</l>
+          <l>Tantost prests pour nostre voyage.</l>
+          <l>Estes-vous bien?</l>
         </sp>
-        <stage>Il le monte.Or çà, de par Dieu, nous seronsTantost prests pour nostre voyage.Estes-vous bien?</stage>
         <sp who="#le_monde">
           <speaker>LE MONDE.</speaker>
           <l>En une cage,</l>
@@ -1433,7 +1442,6 @@
         </sp>
         <stage>Aliborum, en le deschauffant.</stage>
         <sp who="#aliborum">
-          <speaker>check_here</speaker>
           <l>Ces souliers luy donnent la toux!</l>
         </sp>
         <sp who="#brave">
