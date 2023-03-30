@@ -134,6 +134,7 @@
       <listChange>
         <change when="2022-09-27"> (LG) first encoding and formatting. Some paratexts ("introito") removed. </change>
         <change when="2022-04-12"> (LG) updated formatting. </change>
+        <change when="2022-03-30"> (LG) added configurations. </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -189,7 +190,7 @@
     </front>
     <body>
       <div type="act">
-        <div type='scene'>
+        <div type="configuration">
           <sp who="#duquesa #romero_1 #romero_2 #romero_3">
             <stage>Entra la duquesa con tres Cavalleros vestidos como romeros, cantando lo siguiente.</stage>
             <stage>Canción.</stage>
@@ -649,6 +650,8 @@
             <l>pues que la linda romera</l>
             <l>ya de Sanctiago viene.</l>
           </sp>
+        </div>
+        <div type="configuration">
           <sp who="#thome">
             <speaker>THOME.</speaker>
             <p>Bien hazen de cantar pues van bien repapilados, que no de balde dire un latín en el libro de Celestina, que bien canta harta después de Martha. Ea vos don lio bien hos podeys yr por vuestro pie, y agradesceldo a mis pies como no me voy cavallero en vos, que de pura compassion lo dexo: que yo tenia una hermana, tía, sobrina, parienta de una bezina de mi madre, que era de las bien validas para estos negocios, que no entrava en pendencias que no saliesse con las narizes quebradas: anda, anda, o pobre lio que tan muerto de hambre vays como yo.</p>
@@ -1000,6 +1003,8 @@
             <speaker>BRAVONEL.</speaker>
             <p>Ya querría estar sessenta leguas de aqui.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Entra se Bravonel, y queda el Mayordomo solo.</stage>
           <sp who="#mayordomo">
             <speaker>MAYORDOMO.</speaker>
@@ -1415,6 +1420,8 @@
             <speaker>HERMANO.</speaker>
             <p>Sus pues vamos, señor hermano, y pongamos lo por obra.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Entran se, y sale el bachiller Valentín llamando a su moço Tostadillo.</stage>
           <sp who="#valentin">
             <speaker>VALENTIN.</speaker>
@@ -1689,6 +1696,8 @@
             <speaker>VALENTIN.</speaker>
             <p>Que soy el diablo que te lleve, tacaño, aguarda.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Entra se el Bachiller, y sale el mayordomo.</stage>
           <sp who="#mayordomo">
             <speaker>MAYORDOMO.</speaker>
@@ -1855,6 +1864,8 @@
             <speaker>DUQUE.</speaker>
             <p>O mala hembra traydora.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Puesta la duquesa en la torre/ lamentando dize.</stage>
           <sp who="#duquesa">
             <speaker>DUQUESA.</speaker>
@@ -1889,6 +1900,8 @@
             <speaker>DUQUE.</speaker>
             <p>Vuestro yerro, duquesa, es manifiesto, pues ante vos fue muerto el causante por su carnal hermano, estimando mas mi honra, que derramar su propria sangre, lo qual vos, como mala, no quisistes mirar: hora yo me voy, tened cuenta en lo que hos he dicho.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Entra se el duque, y dize la duquesa.</stage>
           <sp who="#duquesa">
             <speaker>DUQUESA.</speaker>
@@ -1951,6 +1964,8 @@
             <l>porque de la divina providencia,</l>
             <l>serás en tal peligro remediada.</l>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Entra el doctor Valentín, y llama a la torre, y dize.</stage>
           <sp who="#valentin">
             <speaker>VALENTIN.</speaker>
@@ -2223,6 +2238,8 @@
             <speaker>PAGE III.</speaker>
             <p>Anda, haz lo que te mando.</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Entra el duque/ y el mayordomo armado de guerra/ y dize el duque.</stage>
           <sp who="#duque">
             <speaker>DUQUE.</speaker>
@@ -2381,6 +2398,8 @@
             <speaker>THOME.</speaker>
             <p>O pobre gato enterrado en vida!</p>
           </sp>
+        </div>
+        <div type="configuration">
           <stage>Entra el Infante Dulcelyrio y un page, y dize.</stage>
           <sp who="#infante">
             <speaker>INFANTE.</speaker>

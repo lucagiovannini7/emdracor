@@ -81,6 +81,7 @@
       <listChange>
         <change when="2022-09-29">(LG) first formatting and editing. Removed paratexts. </change>
         <change when="2023-02-08"> (LG) updated formatting. </change>
+        <change when="2023-03-30"> (LG) inserted configurations. </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -117,1860 +118,1868 @@
     </front>
     <body>
       <div type="act">
-        <sp who="#le_temps">
-          <speaker>LE TEMPS QUI COURT.</speaker>
-          <l>MESSIEURS, je suis le Temps qui court,</l>
-          <l>Qui des nouvelles vous apporte:</l>
-          <l>Et s'il vous plaît, pour faire court,</l>
-          <l>Prester silence en bonne forte,</l>
-          <l>Vous orrez la complainte forte</l>
-          <l>Que le Monde fait de ses maux;</l>
-          <l>Et puis verrez ses estats faux,</l>
-          <l>Qui pinser le viendront sans rire.</l>
-          <l>Quant au reste de ses défauts,</l>
-          <l>Je les laisse penser, sans dire.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>Le MONDE </speaker><stage>commence, gisant à terre.</stage>
-          <l>Hé! bons seigneurs, n'y aura-il personne</l>
-          <l>Qui réconfort, aide &amp; soulas me donne,</l>
-          <l>En ceste mienne estrange affliction?</l>
-          <l>J'ay tant de maux, que c'est compassion</l>
-          <l>Que de mon cas, si bien on y regarde:</l>
-          <l>Et toutefois nul à moy ne prend garde,</l>
-          <l>Ains suis laissé despourveu de secours.</l>
-          <l>Me faudra-il languir icy tousjours?</l>
-          <l>N'y aura-il âme qui s'aventure</l>
-          <l>De m'assister en ceste peine dure,</l>
-          <l>Soit par devoir, par amour ou pitié?</l>
-          <l>Las! je voy bien qu'on n'a point d'amitié</l>
-          <l>A moy chétif, &amp; que plus on ne pense</l>
-          <l>A faire bien, sinon par espérance</l>
-          <l>D'en estre après très bien récompensé.</l>
-          <l>Et toutefois je n'eusse pas pensé</l>
-          <l>Qu'on eust tenu de moy si peu de conte</l>
-          <l>A mon besoin. Mais quoy? chacun a honte</l>
-          <l>D'un malheureux, pour proche qu'il lui soit.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>MAISTRE ALIBORUM.</speaker>
-          <l>Je ne say pas que c'est que l'on pensoit</l>
-          <l>Au temps jadis, quand on faisoit acroire</l>
-          <l>Que tout mon cas ne valoir une poire,</l>
-          <l>Pource que trop de choses j'embrassois.</l>
-          <l>Mais si faut-il qu'encores une fois</l>
-          <l>Je face voir de ma belle besongne,</l>
-          <l>Quoy qu'en advienne &amp; quoy que ľon en grongne,</l>
-          <l>Et me deut-il couster pinte &amp; fagot:</l>
-          <l>Si verra-on que je ne suis point sot,</l>
-          <l>Ne mal adroit, en rien que j'entreprenne.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Faut-il qu'encores je reprenne</l>
-          <l>Ma complainte &amp; mon grand hélas,</l>
-          <l>Sans d'aucun recevoir soulas?</l>
-          <l>N'est-ce pas grand pitié du Monde?</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Quand, par toute la terre ronde,</l>
-          <l>Haut &amp; bas j'eusse tracassé,</l>
-          <l>Je n'eusse seu m'estre adressé</l>
-          <l>Si à poinct que je me rencontre!</l>
-          <l>Voicy le Monde qui se monstre</l>
-          <l>Et dir estre en adversité:</l>
-          <l>C'est autant d'ouvrage appresté</l>
-          <l>Pour moy, qui cerche de pratique.</l>
-        </sp>
-        <stage>Il va vers luy.Eh bien! Monde, quel mal vous picque?Je vous ay de loin plaindre ouy.</stage>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Je suis bien fort malade.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Ouy!</l>
-          <l>A tout mal ne faut que remède.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Grand est le mal qui me possède:</l>
-          <l>Ne say quel remède y aura.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Cercher faut qui le donnera,</l>
-          <l>Tant que rencontrer on le puisse.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Mais j'ay si grand mal à la cuisse,</l>
-          <l>Aux reins, en l'espine du dos,</l>
-          <l>Voire jusques dedans les os</l>
-          <l>Des bras, &amp; jambes qui me portent,</l>
-          <l>Qu'a peu que les esprits ne sortent</l>
-          <l>De moy, tant fort suis-je oppressé.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>J'enten, vous estes bien pressé</l>
-          <l>Et abbatu de maladie.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Vous pouvez voir, sans qu'on le die,</l>
-          <l>Qu'aller cercher ne puis secours.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Encor y a-il bon recours:</l>
-          <l>Qui ne peut aller, on le porte.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Qui auroit l'eschine assez forte</l>
-          <l>Pour porter si pesant fardeau?</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Il faut trouver un tombereau,</l>
-          <l>Dans lequel au moins on vous meine,</l>
-          <l>Et je n'y plaindray pas ma peine,</l>
-          <l>Pour la pitié que j'ay de vous.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Hélas! où le trouverons-nous?</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Je le feray plustost moy-mesme,</l>
-          <l>Pour vous oster la peine extrême</l>
-          <l>Où vous feriez en attendant.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Et quoy? estes-vous entendant</l>
-          <l>Au mestier de charpenterie?</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Voire, voire, &amp; sans vanterie</l>
-          <l>J'en say plusieurs autres encor.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Je ne prendroy' argent ni or</l>
-          <l>De vous avoir rencontré, donques.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Vous avez raison, car si oncques</l>
-          <l>Vous trouvastes homme qui fust</l>
-          <l>Propre à vostre affaire &amp; qui eust</l>
-          <l>Les moyens de bien le conduire,</l>
-          <l>Je vous puis asseurément dire</l>
-          <l>Que c'est moy qu'en viendray à bout.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Et que savez-vous faire?</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Tout.</l>
-          <l>N'ayez souci que de me croire:</l>
-          <l>Je suis grand docteur en grimoire,</l>
-          <l>J'enten le per &amp; le midi,</l>
-          <l>Et si ne suis point estourdi</l>
-          <l>En un affaire politique;</l>
-          <l>J'enten de tous arts la pratique,</l>
-          <l>J'ay de tous mestiers les utils,</l>
-          <l>Et ay hanté les plus subtils,</l>
-          <l>Pour leurs plus grands secrets apprendre.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Je vous pri' que, sans plus attendre,</l>
-          <l>Vous alliez dresser ce qu'il faut,</l>
-          <l>Pour m'emmener, soit bas ou haut,</l>
-          <l>En lieu où remède je treuve.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Je vous feray tost voir l'espreuve</l>
-          <l>De ce que faire je sauray.</l>
-          <l>N'ayez pas long temps: je seray</l>
-          <l>Vers vous de retour en peu d'heure.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Despeschez-vous, que je ne meure!</l>
-        </sp>
-        <stage>PAUSE.</stage>
-        <stage>Et Bridoye entre, Sonnant de sa vielle, menant les autres fols après soy, qui s'entretiennent par la main.</stage>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE</speaker><stage>, en chantant.</stage>
-          <l>Un fol les autres pourmeine</l>
-          <l>Et les meine</l>
-          <l>Comme il veut, à son plaisir.</l>
-          <l>Tous ensemble s'accompagnent,</l>
-          <l>Et se baignent</l>
-          <l>En leur sot &amp; fol désir.</l>
-          <l>Je suis celuy qui commande</l>
-          <l>A la bande</l>
-          <l>Des autres fols comme moy,</l>
-          <l>Et selon ma fantasie,</l>
-          <l>Et frénésie,</l>
-          <l>Je leur impose la loy.</l>
-          <l>Je les fay pleurer &amp; rire,</l>
-          <l>Lire, escrire,</l>
-          <l>Je leur monstre leur leçon;</l>
-          <l>D'autres fois, je leur gringotte</l>
-          <l>Une notte,</l>
-          <l>A la nouvelle façon.</l>
-          <l>Voilà, comment, sans lanterne,</l>
-          <l>Je gouverne</l>
-          <l>Mes gens gaillards de cerveau,</l>
-          <l>Comme en la dance des bestes,</l>
-          <l>Aux grans festes,</l>
-          <l>Chasque asne conduit un veau.</l>
-          <l>Picque-beuf!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Holà! domine!</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>As-tu point encor desjuné</l>
-          <l>Devant qu'aller à la charrue?</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Domine, la peine me tue!</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Hau! messire Jean!</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Mna dies!</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Dançons-nous point trop de biez?</l>
-          <l>Ay-je bien sonné de mesure?</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>J'aime mieux cuire une fressure</l>
-          <l>De veau, dedans mon chauderon.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Sire Claude!</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Que me veut-on?</l>
-          <l>Faut-il desloger à la foire?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Que ferons-nous?</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Il nous faut boire;</l>
-          <l>Puis nous irons conter argent.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Je t’aime, tu es diligent</l>
-          <l>A tirer la plume à mon oye.</l>
-          <l>Monsieur le Brave, quelle joye</l>
-          <l>Avez-vous au coeur ce matin?</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Le loup m'a tué un mastin</l>
-          <l>Que je voudrois qu'eussiez au ventre!</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Tu as belle peur que je n'entre</l>
-          <l>Avant en matière avec toy.</l>
-          <l>Glorieux fol, crain-tu point? Quoy?</l>
-          <l>Di ta leçon.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Dites la vostre.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Ta forte fièvre...</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>A vous, sans autre,</l>
-          <l>Je vous baille à prendre devant.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Or çà, çà, venez tous avant!</l>
-          <l>Ad scholam, pueri! qu'on vienne</l>
-          <l>Chacun dire la leçon sienne:</l>
-          <l>Pour melhuy, c'est assez joué.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Domine, je suis enroué,</l>
-          <l>Je ne sauroy' chanter en solfe.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Vieux fol, tu as passé la golfe</l>
-          <l>Et le destroict de Gilbatar!</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Ditez-vous que je suis bastard?</l>
-          <l>Il n'est pas vray, par vostre gorge!</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Picque-beuf!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>En femant de l'orge,</l>
-          <l>J'ay perdu aux champs ma leçon.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Ha! fol niais, tu crains le son</l>
-          <l>De mon fouet, avant qu'il te touche!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Je voudroys que fussiez la touche</l>
-          <l>Et qu'on l'essayast dessus vous!</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Sire Claude!</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Parlez tout doux,</l>
-          <l>Que le chat qui dort ne s'esveille.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Tu dors donc &amp; je te resveille,</l>
-          <l>Jeune fol!</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>M'appelez-vous chat?</l>
-          <l>Je ne mangeay jamais de rat:</l>
-          <l>Pourquoy me donnez-vous ce tiltre?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Ce n'est pas le nom d'un belistre;</l>
-          <l>Tu n'en dois pas estre marry.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Et si on vous nommoit hary,</l>
-          <l>Qui est fort proche parent d’asne,</l>
-          <l>En ririez-vous?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Comme une cane</l>
-          <l>Qui a le bec en l'eau plongé.</l>
-          <l>Mais, holà, c'est assez longé!</l>
-          <l>Venez vostre leçon apprendre</l>
-          <l>Et despeschez, sans plus attendre,</l>
-          <l>Ou je vous frotteray bien tous.</l>
-        </sp>
-        <stage>Ilz se mettent tous à toussir.Vous avez fort ores la toux,Mais non pas quand ce vient à boire.Sus, qu’on desgaine l'escritoire,Et sans plus se faire presser!</stage>
-        <stage>Ils s'assoyent &amp; prennent leurs escritoires &amp; papier; puis le BRAVE dit:</stage>
-        <sp who="#brave">
-          <speaker>BRAVE.</speaker>
-          <l>Nous sommes tous prests à dancer:</l>
-          <l>Ne faites que sonner la notte.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Ne te soucie, je te notte,</l>
-          <l>Toy qui causes là à plaisir.</l>
-          <l>Or çà, tandis qu'avons loisir,</l>
-          <l>Apprenons au moins quelque chose.</l>
-          <l>Messire Jean!</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Je me repose,</l>
-          <l>En attendant que vous direz.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE</speaker><stage>, regardant son livre.</stage>
-          <l>Voilà ce que vous escrirez:</l>
-          <l>Pastor populi curam gregis fideliter habeto.</l>
-          <l>As-tu fait?</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>D'icy à une heure.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>O que tu es long!</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>On demeure</l>
-          <l>Encor bien plus à caresmer.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Tu serois propre pour ramer,</l>
-          <l>Tu as la main rude &amp; pesante;</l>
-          <l>Mais tu n'y perds rien que l'attente,</l>
-          <l>Il ne t'en faut avoir long temps.</l>
-          <l>Holà! Brave!</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Je vous attens:</l>
-          <l>Mon encre se gèle en ma plume.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Tu es fort prompt.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>C'est ma coustume.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Voire plustost à mal qu'à bien.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Escri donc &amp; n'oublie rien:</l>
-          <l>Nobilis singulariter &amp; maxime virtutibus ornator.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>Le BRAVE</speaker><stage>, après avoir escrit.</stage>
-          <l>Est-ce tour?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Ouy, pour ce coup.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Vous ne m'en baillez pas beaucoup.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Tant mieux ferez-vous vostre tasche.</l>
-          <l>Picque-beuf!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Ce maistre me fasche:</l>
-          <l>Je n'aime point estre escolier.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Que fais-tu?</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Je fay un collier</l>
-          <l>Pour mettre un singe à la charrue.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Escry.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Tant escrire me tue!</l>
-          <l>Ceste escole ne me plaît point.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Je te feray faire un pourpoint,</l>
-          <l>Si tu sais bien ta leçon dire.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Un pourpoint! Cela vaut l'escrire:</l>
-          <l>Je ferois beaucoup plus pour moins.</l>
-          <l>Faites-moy mon cas bref, au moins.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Agricola strenue labori vacato &amp; incumbito.</l>
-          <l>Despesche-toy.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Si fay-je, maistre,</l>
-          <l>Car, pour vray, je voudrois jà estre</l>
-          <l>En mon collège, emmi les champs.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Sire Claude!</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>J'ay des marchans</l>
-          <l>Qui m'attendent à la boutique;</l>
-          <l>Ne m'empeschez point ma prattique,</l>
-          <l>Faites court ce que vous voudrez.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Si est-ce que vous attendrez,</l>
-          <l>Maistre Claudi, par droit ou force.</l>
-          <l>Un cuir attend bien, en l'escorce</l>
-          <l>Et à la chaux, neuf ou dix mois.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>J'ay esté desjà tant de fois</l>
-          <l>Conroyé à la martingale,</l>
-          <l>Que je suis tout passé en gale,</l>
-          <l>Et n'ay plus faute de confit.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Tu es affecté, il suffit:</l>
-          <l>On le sait, sans que tu le dises;</l>
-          <l>Mais tu vendras tes marchandises</l>
-          <l>Tantost, quand auras faict icy.</l>
-          <l>As-tu con papier?</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Signor, si.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Escrivez donc, Messer Fricasse.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Je suis tout prest; dites, de grâce!</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Mercator sine fraude merces vendito.</l>
-          <l>Or, si voulez manger du rost,</l>
-          <l>Sachez-moy à dire tantost</l>
-          <l>Vostre leçon, tous par ensemble.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Maistre, monstrez-nous donc exemple,</l>
-          <l>De quelle manière &amp; façon</l>
-          <l>Voulez que disions la leçon,</l>
-          <l>Que nous avez à tous donnée.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Tu as la cervelle estonnée!</l>
-          <l>Je te voue à sainct Mathurin.</l>
-          <l>Mettre là vous faut de latin</l>
-          <l>En françois, pour le mieux entendre.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Si vous nous voulez bien apprendre,</l>
-          <l>Il faut que, tout premièrement,</l>
-          <l>Vous nous monstriez aussi comment</l>
-          <l>Vous traduisez à vostre mode:</l>
-          <l>Puis nous suivrons vostre méthode.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Prenez une leçon pour vous.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Vous estes de très mauvais fols,</l>
-          <l>Pleins d'insupportable arrogance!</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Vous construirez vostre sentence,</l>
-          <l>Autrement, rien nous ne faisons.</l>
-          <l>Nous ne sommes pas des oisons:</l>
-          <l>Nous voulons sçavoir qui nous meine.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Ces fols me veulent mettre en peine,</l>
-          <l>Mais je m'en deltraperay bien.</l>
-          <l>Or, oyez donc:</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Nous n'oyons rien.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Je veux faire ce que me dites,</l>
-          <l>Fust-ce à manger des fèves frites.</l>
-          <l>Judex ex æquo unicuique jus suum servare debet:</l>
-          <l>id est, judex un Juif, jus jouoit, suum servare</l>
-          <l>avec son serviteur, debet aux dez, ex æquo</l>
-          <l>dans une escuelle, unicuique &amp; fit quines.</l>
-          <l>Falloit-il faire tant de mines?</l>
-          <l>Estez-vous contens maintenant?</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>J'auray bien tour incontinent</l>
-          <l>Trouflé la mienne de la forte.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Déclare-nous donc qu'elle porte.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Pastor populi curam gregis fideliter habeto: curam</l>
-          <l>un curé, habeto fort habile, fideliter fit des</l>
-          <l>lanternes, populi pour pouvoir lire, pastor</l>
-          <l>sa patenostre, gregis à la greguesque.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Puis alla dancer la moresque,</l>
-          <l>Quand il fur chaussé &amp; vestu.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Laisse-moy dire aussi, veux-tu,</l>
-          <l>Tandis que j'en suis en mémoire?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Di donc, puis tu auras à boire.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Mercator sine fraude merces vendito: mercator</l>
-          <l>maistre Hector, merces le mercier, vendito</l>
-          <l>viendra tantost, fine fraude s'il ne fourvoye.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Et s'il ne trébusche en la voye:</l>
-          <l>Ce fi-là va tousjours devant.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Que ne viens-tu aussi avant,</l>
-          <l>Qu'on te voye sur la carrière?</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Je dy donc en ceste manière:</l>
-          <l>Nobilis singulariter &amp; maxime virtutibus ornator:</l>
-          <l>singulariter un finge, maxime maschoit,</l>
-          <l>ornator sous un orme, nobilis des noisilles,</l>
-          <l>virtutibus toutes verdes.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Il s'en agaça les dents, certes,</l>
-          <l>Tant qu'après il y eut grand mal.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Et toy, holà! gros animal,</l>
-          <l>Enten-tu bien ta letanie?</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Je ne say comment on manie</l>
-          <l>Ce latin.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>L'as-tu pas ouy?</l>
-          <l>Dy comme les autres.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Ouy,</l>
-          <l>Comme les autres, donc.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Or, chante!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Soit bien ou mal, qu'on se contente:</l>
-          <l>Comme les autres, je diray.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Dy donc!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Donc...</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Je t’estrilleray,</l>
-          <l>Si tu ne veux dire autre chose!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Je dy ce que l'on me propose:</l>
-          <l>Que voulez-vous que die plus?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Ta leçon!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Pour me prendre au glus:</l>
-          <l>Si j'y faux, j'ay peur de la trousse.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>N'aye peur que je te courrouce:</l>
-          <l>Dy ainsi comme tu sauras.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Je suis un povre idiot, las!</l>
-          <l>Supportez tous mon ignorance.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Si ferons-nous; holà, commence!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Agricola strenue labori vacato &amp; incumbito: vacato le vacher, agricola au gris colet, strenue esternua,</l>
-          <l>incumbito quand il beuvoir, labori en la bouteille.</l>
-          <l>Or, beuvons donc pour la pareille!</l>
-          <l>Voilà qui m'en fait souvenir.</l>
-          <l>Ce sera pour mieux retenir</l>
-          <l>Nostre leçon à telle enseigne.</l>
-          <stage>Il boit, puis baille la bouteille à Bridoye &amp; luy dit, en le regardant boire:</stage>
-          <l>Maistre, le nez point ne vous faigne,</l>
-          <l>Quand il le faut mettre au flascon.</l>
-          <l>Vous trouvez le vin assez bon:</l>
-          <l>C'est pour vostre santé bon signe.</l>
-        </sp>
-        <stage>Le Brave, en regardant boire Messire Jean.</stage>
-        <sp who="#brave">
-          <l>Messire Jean boit bien chopine.</l>
-          <l>Fait-il pas mei Domini?</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>Messire Jean</speaker><stage>, après avoir beu.</stage>
-          <l>Nos sumus bene asini.</l>
-          <l>Nous voici maintenant bien aises.</l>
-        </sp>
-        <stage>Il la présente au Brave, qui la refuse, &amp; Sire Claude la prend &amp; boit, puis dit:</stage>
-        <sp who="#claude">
-          <l>J'avois l'estomac plein de braises,</l>
-          <l>Mais j'en ay bien osté le feu.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Vous jouez tous fort bien ce jeu.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Aussi faites-vous bien vous-mesme.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Mais, domine, de nostre thesme,</l>
-          <l>Qui l'a mieux traduit d'entre nous?</l>
-          <l>Nous vous avons imité tous.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>J'ay de près suivy vostre style.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Selon vostre façon subtile,</l>
-          <l>Autrement faire n'eusse sceu.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>J'ay incontinent apperceu</l>
-          <l>Qu'il falloit suivre vostre veine.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>J'y penseray ceste sepmaine.</l>
-          <l>Cependant, savez-vous bien quoy?</l>
-          <l>Mettez-vous là tous à requoy,</l>
-          <l>Que chacun à sa leçon pense.</l>
-        </sp>
-        <stage>PAUSE.</stage>
-        <stage>Et cependant ils font semblant de lire &amp; escrire, M. Aliborum arrive, menant une brouette, qui est inscripte:NÉCESSITÉ, &amp; s'addresant au Monde, luy dit:</stage>
-        <sp who="#aliborum">
-          <l>Je vien de faire en diligence</l>
-          <l>Pour vous, Monde, ce tombereau:</l>
-          <l>Vous semble-il pas d'estre beau</l>
-          <l>Et de façon toute nouvelle?</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Ouy, certes, mais il s'appelle</l>
-          <l>Nécessité, ce m'est advis.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Ce nom tout exprès luy ay mis,</l>
-          <l>Afin que chacun plustost aye</l>
-          <l>Pitié de ceste dure playe,</l>
-          <l>Dont si fort vous estes chargé.</l>
-          <l>Mais nous aurons bien cost changé</l>
-          <l>Cela, si vous en avez honte.</l>
-          <l>Il ne faut que faire son conte</l>
-          <l>Que nécessité est vertu:</l>
-          <l>Car, par ce mot, est rabbatu</l>
-          <l>Tout ce que l'on en sçauroit dire.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Je ne vous en veux pas desdire,</l>
-          <l>Puis que si bien vous me fervez.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Si donc le vouloir vous avez</l>
-          <l>De prendre léans vostre giste,</l>
-          <l>Despeschez-vous, montez-y viste,</l>
-          <l>Et je vous aideray aussi.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Hé, mon amy, bien grand mercy!</l>
-          <l>Un jour le vous puissé-je rendre!</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Or, montez donc, sans plus attendre;</l>
-          <l>Il nous faut d'icy desloger.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Et où nous irons-nous loger</l>
-          <l>Au partir d'ici?</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Ne vous chaille:</l>
-          <l>Par le pays de Trinquetaille,</l>
-          <l>Où quelque amy nous trouverons.</l>
-        </sp>
-        <stage>Il le monte.Or çà, de par Dieu, nous seronsTantost prests pour nostre voyage.Estes-vous bien?</stage>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>En une cage,</l>
-          <l>Puis qu'autrement estre ne puis.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Reposez-vous sur moy, &amp; puis</l>
-          <l>Laissez-moy traîner la brouette.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Aussi sur vous tout je m'arreste:</l>
-          <l>S'il va bien, vous en vaudrez mieux.</l>
-        </sp>
-        <stage>Aliborum commence à la mener une fois avant, une fois arrière, &amp; dit:</stage>
-        <sp who="#aliborum">
-          <l>Suis-je pas bien industrieux,</l>
-          <l>D'avoir prattiqué la manière</l>
-          <l>De mener, avant &amp; arrière,</l>
-          <l>Le Monde, tout à mon plaisir?</l>
-          <l>Faire j'en puis à mon désir,</l>
-          <l>Car de mes mains je le pourmeine.</l>
-          <l>Vray est que j'y ay de la peine,</l>
-          <l>Mais aussi en ay-je l'honneur.</l>
-          <l>C'est pour devenir grand seigneur</l>
-          <l>Que se mesler de tel affaire.</l>
-          <l>Un niais ne l'oseroit faire,</l>
-          <l>Mais moy je me veux hazarder.</l>
-          <l>Que si on m'en vient brocarder,</l>
-          <l>Que m'en chaut-il? mais qu'on me voye!</l>
-          <l>Je n'ay au monde plus grand joye,</l>
-          <l>Que quand je suis veu &amp; prisé;</l>
-          <l>Et pour moy s'est bien attizé</l>
-          <l>Ce feu, qui le Monde consume:</l>
-          <l>Car on dit bien vray, de coustume,</l>
-          <l>Qu'il n'est mal d'où ne sorte bien.</l>
-        </sp>
-        <stage>Le Monde, qui voit les quatre estats, dit:</stage>
-        <sp who="#le_monde">
-          <l>Qui sont ces gens?</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Je n'en sçay rien.</l>
-          <l>Mais il faut qu'à eux je m'addresse.</l>
-        </sp>
-        <stage>Et conduit sa brouette vers eux.</stage>
-        <stage>Messire Jean, en jettant là son livre.</stage>
-        <sp who="#jean">
-          <l>Ce livre la veue me bleffe:</l>
-          <l>Je n'y veux lire de trois jours.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Ce meschant papier boir tousjours:</l>
-          <l>Je n'y sçauroy' faire une lettre.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Aussi me faut-il aller mettre</l>
-          <l>D'autre encre dedans mon cornet.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Ceste plume n'escrit point net:</l>
-          <l>Je vay cercher qui me la taille.</l>
-        </sp>
-        <stage>Ils se lèvent tous.</stage>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Vous quittez l'escole, canaille,</l>
-          <l>Je l'enten bien à vos propos.</l>
-        </sp>
-        <stage>Le Brave, en sautant.</stage>
-        <sp who="#brave">
-          <l>Domine, domine, campos!</l>
-          <l>Nous voulons voir ceste charrette.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Glorieux fol, arreste, arreste!</l>
-        </sp>
-        <stage>Messire Jean, en lui monstrant le derrière.</stage>
-        <sp who="#jean">
-          <l>Soufflez, vous n'estes pas sergent.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Vieux fol, tu es bien diligent</l>
-          <l>A faire premier la desbauche!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Nous n'estudions plus qu'à gauche,</l>
-          <l>Nous avons mal au costé droit.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Tu en quittes aussi ton droit,</l>
-          <l>Fol niais? Bien, bien, je te marque!</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Allez l'attendre vers la barque,</l>
-          <l>Vous ramerez avecque luy.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Jeune fol, feras-tu meshuy</l>
-          <l>Autre chose que des lardoires?</l>
-        </sp>
-        <stage>Picque-beuf, s'adressant à Aliborum.</stage>
-        <sp who="#picque_beuf">
-          <l>Mon maistre, portez-vous des poires</l>
-          <l>Ou des choux à vendre léans?</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Ce sont bien poires, mes enfans,</l>
-          <l>Ce sont bien des poires d'angoisse.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Il faut voir que c'est.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Qu'est-ce?</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Qu'est-ce?</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>C'est le Monde en nécessité,</l>
-          <l>Cerchant, d'un &amp; d'autre costé,</l>
-          <l>Qui remède à son mal luy donne.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Messieurs, n'y aura-il personne</l>
-          <l>Qui le vueille un peu secourir?</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Je verrois mon père mourir,</l>
-          <l>Avant que sortir de ma bourse</l>
-          <l>Un denier.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Et pourquoy?</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Et pource</l>
-          <l>Que j'ay appris en Caronet:</l>
-          <l>Dilige denarionet;</l>
-          <l>Parquoy, bien envis, je le lasche.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Si donner d'argent il vous fasche,</l>
-          <l>Nous ne vous en demandons point:</l>
-          <l>Mais pensez au moins par quel poinct</l>
-          <l>Sa santé on luy pourroit rendre.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Si nostre maistre y veut entendre,</l>
-          <l>ll en viendra bien tost à bout.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Où est-il?</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Le voilà debout,</l>
-          <l>Là où sa vielle il accorde.</l>
-        </sp>
-        <stage>Aliborum, s'adresant à Bridoye.</stage>
-        <sp who="#aliborum">
-          <l>Monsieur, ayez miséricorde</l>
-          <l>Du povre Monde, qui se meurt.</l>
-          <l>Il a pris un si mauvais heurt</l>
-          <l>D'une cheurte de sus les tuiles,</l>
-          <l>Que l'on ne trouve unguens, ni huiles,</l>
-          <l>Qui rien luy puissent profiter.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>C'est assez pour se despiter</l>
-          <l>Contre tour l'art de médecine.</l>
-          <l>Il me faut voir un peu sa mine,</l>
-          <l>Puis j'en donneray mon advis.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Il est icy tout vis-à-vis,</l>
-          <stage>En le regardant à la face.</stage>
-          <l>S'il vous plaist que je vous y meine:</l>
-          <l>Mais perdrons-nous point nostre peine?</l>
-          <l>Comment le verrez-vous sans yeux,</l>
-          <l>Estant aveugle?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Je voy mieux</l>
-          <l>Que toy, quand j'ay mis mes lunettes,</l>
-          <l>Car elles sont cleres &amp; nettes,</l>
-          <l>Bien d'autre estoffe que cristal.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>De quoy font-elles?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>D'un métal,</l>
-          <l>Le plus précieux qui se treuve.</l>
-          <l>Tu en verras tantost l’espreuve:</l>
-          <l>J'en voy, tour ainsi qu'il me plaist.</l>
-          <l>Allons!</l>
-        </sp>
-        <stage>Aliborum le meine vers le Monde &amp; dit:</stage>
-        <sp who="#aliborum">
-          <l>Voicy où le Monde est.</l>
-        </sp>
-        <stage>Bridoye met ses besicles, qui sont de deux escus ou autres pièces d'or, en lieu de verre, &amp;, en tastonant le Monde devers les pieds, dit:</stage>
-        <sp who="#bridoye">
-          <l>Ce bonner luy gaste la teste.</l>
-          <stage>En la teste:</stage>
-          <l>Ces souliers luy bruslent le sang.</l>
-          <stage>Au genouil:</stage>          
-          <l>Il doit avoir grand mal au flanc.</l>
-          <l>Son poux est fort esmeu au coude.</l>
-          <l>Il a le nez &amp; la main sourde.</l>
-          <l>Les pieds luy cornent bien souvent.</l>
-          <stage>En le tastant au ventre:</stage>
-          <l>Il a le dos tout plein de vent</l>
-          <l>Et a la colique en l'espaule.</l>
-          <l>Il faut luy frotter, de la gaule</l>
-          <l>D'un bel édict, le bout du nez.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Est-ce l'advis que me donnez?</l>
-          <l>Ne savez-vous dire autre chose?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Autre cas je ne te propose,</l>
-          <l>Sinon que tu te tiennes chaut.</l>
-          <l>Il se retire à part.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Tous ensemble, prendre il nous faut</l>
-          <l>En main celt affaire.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Et quoy donques?</l>
-          <l>Nous le guarirons bien, si onques</l>
-          <l>Homme des avives guérit.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Nous avons aussi bon esprit</l>
-          <l>Que lanterniers de la paroisse.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Faisons au moins que l'on cognoisse</l>
-          <l>Que nous sommes maistres en lard!</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Mais que ce ne soit point trop tard</l>
-          <l>Que nous entreprenons sa cure!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Essayons-y à l'aventure:</l>
-          <l>Au pis n'en peut que mal venir.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Nous sommes quatre, pour tenir</l>
-          <l>Un bon conseil de conséquence.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Et encor, pour la quinte essence,</l>
-          <l>Nostre maistre la fournira.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Voyons que le Monde en dira.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Monde, nous sommes ici quatre,</l>
-          <l>Bien fort empressez, pour débatre</l>
-          <l>Du mal qui te tourmente tant,</l>
-          <l>Et venons vers toy quant &amp; quant,</l>
-          <l>Pour cognoistre ta maladie.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Que voulez-vous que je vous die?</l>
-          <l>Y mette la main qui voudra!</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Trois onces prendre il vous faudra</l>
-          <l>Du just du Concile de Trente,</l>
-          <l>Pour vous oster la fièvre lente,</l>
-          <l>Qui tant lasche &amp; foible vous rend.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Il est pour moy trop violent;</l>
-          <l>Faites-en aux chiens un clistère.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Non, non, voici ce qu'il faut faire,</l>
-          <l>Pour vous descharger le cerveau:</l>
-          <l>Un cataplasme, large &amp; beau,</l>
-          <l>Du plus infernal Athéisme</l>
-          <l>Qu'on trouve, en despit du Papisme</l>
-          <l>Et de la loy des Huguenots.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>C'est, pour le trousser en deux mots,</l>
-          <l>De ne croire en Dieu, ni en Diable.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Cela est trop espouvantable.</l>
-          <l>Il vaudra mieux vous estuver</l>
-          <l>Et dedans vostre nid couver,</l>
-          <l>Sans sonner mot, attendant l'heure.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>C'est-à-dire que je demeure</l>
-          <l>En mue, comme un bel oison.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>J'ay une meilleure raison</l>
-          <l>Que tous vous, ne vous en desplaise.</l>
-          <l>Il faut, pour le rendre à son aise,</l>
-          <l>D'huile d'Interim le frotter.</l>
-          <l>Rien n'est que mieux luy puisse oster</l>
-          <l>Ceste gratelle, qui le ronge.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Ce grand politique ne songe</l>
-          <l>Qu'aux huiles &amp; douces liqueurs.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Pour oster toutes ses langueurs,</l>
-          <l>Je sçay un moyen davantage,</l>
-          <l>Dont on use en nostre village,</l>
-          <l>Qui ne couste pas un quadrin;</l>
-          <l>C'est le conseil de Baladrin:</l>
-          <l>Fay du mieux que sera possible,</l>
-          <l>Mon enfant.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Il faut donc un crible,</l>
-          <l>Pour passer ce possible au mieux.</l>
-        </sp>
-        <stage>Vérité, parlant de loin.</stage>
-        <sp who="#verité">
-          <l>Ainsi le Monde, parmi ceux</l>
-          <l>Qui donner luy doivent remède,</l>
-          <l>Pour le discord qui les possède,</l>
-          <l>Demeure tous jours languissant.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Je m'en vay du tout périssant,</l>
-          <l>Si autrement ordre on n'y boute.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Ce que l'un dit, l'autre l'escoute,</l>
-          <l>Mais nul ne met la main après.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Il s'en faut approcher de près,</l>
-          <l>Pour le frotter par dos &amp; ventre.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Gardez bien qu'en terre je n'entre:</l>
-          <l>Traittez-moy bien, si vous sçavez!</l>
-        </sp>
-        <stage>Messire Jean, en le tastant.</stage>
-        <sp who="#jean">
-          <l>Hé! povre homme, que vous avez</l>
-          <l>Grand’ chaleur au corps!</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Comme il sue!</l>
-        </sp>
-        <stage>Le Brave, en luy ostant sa robbe.</stage>
-        <sp who="#brave">
-          <l>Ceste grosse robbe le tue!</l>
-        </sp>
-        <stage>Picque-beuf, en lui ostant son pourpoint.</stage>
-        <sp who="#picque_beuf">
-          <l>Ce pourpoint le tient trop estroit!</l>
-        </sp>
-        <stage>Sire Claude, en luy tirant l'anneau du doigt.</stage>
-        <sp who="#claude">
-          <l>Cest anneau luy serre le doigt</l>
-          <l>Si fort, qu'il en a la gravelle!</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Ce bonner luy fond la cervelle!</l>
-        </sp>
-        <stage>Aliborum, en le deschauffant.</stage>
-        <sp who="#aliborum">
-          <speaker>check_here</speaker>
-          <l>Ces souliers luy donnent la toux!</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Que fais-tu là, toy?</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Comme vous,</l>
-          <l>Je m'aide à despouiller LE MONDE.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Est-ce ton mestier?</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Je me fonde</l>
-          <l>En tous les sept ars libéraux.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>Bridoye</speaker><stage>, en mettant ses besicles.</stage>
-          <l>Suis-je pas des plus grans maraux?</l>
-          <l>Mes challans font là en pratique,</l>
-          <l>Et je n'en ay pas une figue.</l>
-          <stage>En courant vers eux.</stage>
-          <l>Holà, j'en suis! j'en veux avoir!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Et comment nous pouvez-vous voir?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Par les lunettes que je porte,</l>
-          <l>Qui sont d'une si bonne forte</l>
-          <l>Que j'en voy tousjours mon profit.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Savez-vous quoy, donc? Il suffit:</l>
-          <l>Ostez maintenant vos lunettes,</l>
-          <l>Nous laissant faire nos ferrettes,</l>
-          <l>Sans nous faire plus grand hutin.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Mais, que j'aye part au butin!</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Cela s'entend, n'en ayez doute.</l>
-        </sp>
-        <stage>Bridoye se retire &amp; les laisefaire.</stage>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Hélas! où est-ce qu'on me boute?</l>
-          <l>Tous mes habits qu'on m'oste ainsi!</l>
-          <l>Je suis quasi de froir transi:</l>
-          <l>Encor me met-on en chemise!</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Vous avez une fièvre grise,</l>
-          <l>Qu'il faut guérir par tel moyen.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Pensez-vous que ne sachions rien?</l>
-          <l>Nous sommes des médecins d’oye,</l>
-          <l>Qui descouvrent, sans qu'on les voye,</l>
-          <l>Les malades, quand ils ont chaut.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Encor n'est-ce pas tout: il faut</l>
-          <l>Luy abatre ceste perruque,</l>
-          <l>Car il a grand mal sur la nuque;</l>
-          <l>Je le cognoy bien à son ceil.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Il luy faut oster tout ce poil</l>
-          <l>Et de la barbe &amp; de la teste.</l>
-          <l>Qui est bon barbier, qu'il s'appreste!</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Moy!</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Moy!</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Moy!</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>J'ay tous les utils.</l>
-        </sp>
-        <stage>Et les va quérir.</stage>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Nous sommes tous assez subtils</l>
-          <l>Pour tondre un oeuf, l'un après l'autre.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>Bridoye</speaker><stage>, en s'approchant.</stage>
-          <l>Je suis de la partie vostre:</l>
-          <l>Je sçay comme il faut testonner.</l>
-        </sp>
-        <stage>Ils tirent le Monde hors de la brouette &amp;, en le faisant asseoir sur une chaire, dit:</stage>
-        <sp who="#bridoye">
-          <l>Boute-toy là, fans t'estonner,</l>
-          <l>Et ne ry point, quoy qu'on te face.</l>
-        </sp>
-        <stage>PAUSE.</stage>
-        <stage>Et cependant ils le tondent &amp; chacun fourre du poil en ses chausses.</stage>
-        <sp who="#brave">
-          <speaker>Le Brave</speaker><stage>, après l'avoir condu.</stage>
-          <l>Avons-nous pas, de bonne grâce,</l>
-          <l>Osté ce que luy empeschoit?</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Il seroit beau, s'il se mouchoir,</l>
-          <l>Maintenant qu'il n'a plus la come.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>Messire Jean</speaker><stage>, en regardant à l'entour, comme qui la cerche.</stage>
-          <l>Qu'est-elle devenue? Comme</l>
-          <l>Va ceci? Tout ce crin se perd!</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Ne savez-vous pas bien qu'il sert</l>
-          <l>A embourrer les grosses chausses?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Nos receptes ne sont point fausses:</l>
-          <l>Je gage qu'il est allégé.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>Sire Claude</speaker><stage>, en monstrant l'anneau qu'il luy a osté.</stage>
-          <l>Pour le moins est-il deschargé;</l>
-          <l>Je ne sçay pas comme il s'en treuve.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>N'avez-vous à faire autre espreuve</l>
-          <l>Dessus moy de vostre sçavoir?</l>
-          <l>Je voudroy' volontiers avoir</l>
-          <l>D'argent, pour payer vostre peine,</l>
-          <l>Mais la bourse, que j'avoy' pleine,</l>
-          <l>Un Swertze Reuter la m'osta.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Je ne sçay pas qui l'emporta,</l>
-          <l>Je l'ay bien au pourpoint cerchée:</l>
-          <stage>En secouant le pourpoint.</stage>
-          <l>Mais, ou elle est fort bien cachée,</l>
-          <l>Ou un autre y a mis la main.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Me tiendrez-vous jusqu'à demain,</l>
-          <l>Sans autre secours ne service?</l>
-          <l>Nous nous logeons à l’Escrevice:</l>
-          <l>En avançant, nous reculons.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Ne te soucie: nous allons</l>
-          <l>Te remettre où nous te trouvasmes.</l>
-        </sp>
-        <stage>Ils le remettent en son tombereau.</stage>
-        <sp who="#verité">
-          <speaker>Vérité</speaker><stage>, en s'approchant d'eux.</stage>
-            <l>N'avez-vous point peur de vos âmes,</l>
-            <l>Gens insensez &amp; mal appris,</l>
-            <l>De faire tant de tours infâmes,</l>
-            <l>Sans crainte d'y estre surpris</l>
-            <l>Pensez-vous, en vos fols esprits,</l>
-            <l>Que Dieu de tout ne face cas,</l>
-            <l>Et que n'en soyez point repris?</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Dame, nous ne vous cerchons pas!</l>
-        </sp>
-        <sp who="#verité">
-          <speaker>VÉRITÉ.</speaker>
-          <l>Toy, Prestre, qui le Monde abuses,</l>
-          <l>Et toy, faux Juge corrompu,</l>
-          <l>Toy, Marchand, tout rempli de ruses,</l>
-          <l>Toy, Gentilastre, au front rompu,</l>
-          <l>Et toy, Laboureur, qui n'as peu</l>
-          <l>Simplement vivre en ton train bas,</l>
-          <l>Vous avez tous le sens perdu!</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Dame, nous ne vous cerchons pas!</l>
-        </sp>
-        <sp who="#verité">
-          <speaker>VÉRITÉ.</speaker>
-          <l>Toy, Monde, rempli de malice,</l>
-          <l>Par maistre Aliborum conduit,</l>
-          <l>Qui est plein de gloire &amp; de vice,</l>
-          <l>Vois-tu point que Dieu te poursuit?</l>
-          <l>Si tu ne veux estre destruit,</l>
-          <l>Réformer faut tous tes estars,</l>
-          <l>Car par eux tout malheur te suit.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Dame, nous ne vous cerchons pas!</l>
-        </sp>
-        <sp who="#verité">
-          <speaker>VÉRITÉ.</speaker>
-          <l>Prince, qui fais que sur la terre</l>
-          <l>Sans moy l'on ne fait que faux pas,</l>
-          <l>Fay que plus tant le Monde n'erre!</l>
-        </sp>
-        <sp who="#picque_beuf #le_monde #bridoye #brave #claude #jean">
-          <speaker>Tous ensemble.</speaker>
-          <l>Dame, nous ne vous cerchons pas!</l>
-        </sp>
-        <stage>Elle se retire un peu à part &amp; Picque-beuf dit à Bridoye:</stage>
-        <sp who="#picque_beuf">
-          <l>Escourez, domine Judas,</l>
-          <l>Monsieur le Juge à la vielle,</l>
-          <l>Vous n'eustes jamais leçon telle</l>
-          <l>Que celle que venez d'ouïr.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Je n'ay garde de m'en fouir</l>
-          <l>Pour un mot: j'ay trop bonne aureille.</l>
-          <l>Si je dors une heure ou sommeille</l>
-          <l>Là-dessus, tout est effacé.</l>
-          <l>Et toy, on ne t'a pas passé,</l>
-          <l>Sans te donner aussi la chièvre.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>De moy, j'ay un cerveau de lièvre:</l>
-          <l>Je pers la mémoire en courant.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Messire Jean, au demeurant</l>
-          <l>Vous avez eu vostre passade.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Bran!</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Vieux fol, tu es fort maussade,</l>
-          <l>Tu ressembles un vieux magot.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Donne-toy garde du fagot,</l>
-          <l>Si tu mesdis des gens d'église.</l>
-          <l>Si n'as-tu pas failli à prise,</l>
-          <l>Toy, qui les autres vas mocquant.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Je m'en laveray bien.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Et quand?</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Quand au barbier je m'iray tondre.</l>
-        </sp>
-        <sp who="#verité">
-          <speaker>VÉRITÉ</speaker><stage>retourne a eux.</stage>
-          <l>Vérité suis, qui vous vien tous lemondre</l>
-          <l>De vous changer de vostre mauvais train.</l>
-          <l>Vous ne cerchez, ce venez-vous respondre,</l>
-          <l>La Vérité: tel est vostre refrain.</l>
-          <l>Ha! malheureux, il n'est que trop certain</l>
-          <l>Que plus vous est le mensonge aggréable!</l>
-          <l>Mais jusqu'à tant que me suiviez à plein,</l>
-          <l>Tousjours sera le Monde misérable.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Seray-je donc tous jours maudir?</l>
-        </sp>
-        <sp who="#verité">
-          <speaker>VÉRITÉ.</speaker>
-          <l>Tu entens que Vérité dir;</l>
-          <l>Enluy-la, si tu veux bien faire.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>ALIBORUM.</speaker>
-          <l>Nous n'avons avec elle affaire:</l>
-          <l>Vérité fait pendre les gens.</l>
-        </sp>
-        <sp who="#verité">
-          <speaker>VÉRITÉ.</speaker>
-          <l>Tous à mal estes diligens,</l>
-          <l>Mais au bien nul ne veut entendre.</l>
-          <l>Ainsi ne vous faut pas attendre</l>
-          <l>D'avoir le repos que cerchez,</l>
-          <l>Car Dieu a, pour vos grands péchez,</l>
-          <l>Espandu dessus vous son ire.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Elle viendra encor à dire</l>
-          <l>Ce que de nous elle saura,</l>
-          <l>Et nostre procès nous fera,</l>
-          <l>Dont nous pourrions avoir taloche.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Elle fera sonner la cloche</l>
-          <l>Et le roquessin contre nous.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Allons-nous-en!</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Deslogeons tous!</l>
-          <l>Ce n'est pas elle</l>
-          <l>que je cerche.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Que le Monde demeure en perche!</l>
-          <l>Pour luy je ne veux mal avoir.</l>
-        </sp>
-        <sp who="#bridoye">
-          <speaker>BRIDOYE.</speaker>
-          <l>Elle voudroit faire savoir</l>
-          <l>Du marchant les fausses pratiques.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>Picque-beuf</speaker><stage>, monstrant le Brave.</stage>
-          <l>Et les coustumes tyranniques</l>
-          <l>De ce brave fol glorieux.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>Le Brave</speaker><stage>, respondant à Picque-beuf.</stage>
-          <l>Et tes affrontemens, pouilleux,</l>
-          <l>Et la male foy dont tu uses.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Elle déclareroit les ruses</l>
-          <l>Des falsificateurs de loix.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>Aliborum</speaker><stage>, parlant à Messire Jean.</stage>
-          <l>Elle monstreroit de quel bois</l>
-          <l>Tu fais le feu sous ta marmite.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Et la procédure maudite</l>
-          <l>Des meslinges d'Aliborum.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Ainsi de charboniorum</l>
-          <l>Les sacs l'un l'autre se noircissent.</l>
-          <l>Que pleust-il à Dieu que tous puissent</l>
-          <l>Bien cognoistre leur propre fait!</l>
-          <l>Car nul du sien conte ne fait,</l>
-          <l>Mais l'un sur l'autre se descharge.</l>
-          <l>Cependant, j'ay toute la charge.</l>
-        </sp>
-        <sp who="#verité">
-          <speaker>VÉRITÉ.</speaker>
-          <l>Conclusion: tu es contaminé</l>
-          <l>Dedans ton corps, autant qu'il est possible,</l>
-          <l>Et le malheur, qui ainsi t'a miné,</l>
-          <l>Vient pour avoir, d'un mespris indicible,</l>
-          <l>Oublié Dieu; tant qu'il est impossible</l>
-          <l>De te guérir sans un miracle grand.</l>
-          <l>De tes estars nul son devoir ne rend:</l>
-          <l>Aliborum d'autre part te pourmeine;</l>
-          <l>Si con dessein du tour à moy ne tend,</l>
-          <l>Jamais dehors ne te verras de peine.</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Dame, suivre je ne vous puis:</l>
-          <l>Vous voyez bien comme je suis</l>
-          <l>Ypothéqué en toute sorte.</l>
-        </sp>
-        <sp who="#verité">
-          <speaker>VÉRITÉ.</speaker>
-          <l>A toy donques je m'en rapporte,</l>
-          <l>Car, pour ne suyvre Vérité,</l>
-          <l>Tu mourras en nécessité.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>Picque-beuf</speaker><stage>, parlant à Aliborum.</stage>
-          <l>Ramenez-le, si bon vous semble;</l>
-          <l>Nous nous retirons tous ensemble,</l>
-          <l>Puis qu'autre de luy n'attendons.</l>
-          <stage>En le monstrant tout despouille.</stage>
-          <l>Malade le Monde amenastes,</l>
-          <l>En nécessité l'attrainastes,</l>
-          <l>En pire estar le vous rendons.</l>
-        </sp>
-        <sp who="#claude">
-          <speaker>SIRE CLAUDE.</speaker>
-          <l>Croyez que nous le vous vendons</l>
-          <l>Franc de gabelles &amp; péages.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Je ne fache laquais ni pages</l>
-          <l>Qui mieux l'eussent espousseré.</l>
-        </sp>
-        <sp who="#jean">
-          <speaker>MESSIRE JEAN.</speaker>
-          <l>Il est de rentes acquitté:</l>
-          <l>Les fermiers n'y ont plus que faire.</l>
-        </sp>
-        <sp who="#aliborum">
-          <speaker>Aliborum</speaker><stage>, en l'emmenant.</stage>
-          <l>Il ne nous faut plus qu'un notaire,</l>
-          <l>Pour la quittance recevoir.</l>
-        </sp>
-        <sp who="#picque_beuf">
-          <speaker>PICQUE-BEUF.</speaker>
-          <l>Adieu, Perot, jusqu'au revoir!</l>
-        </sp>
-        <sp who="#le_monde">
-          <speaker>LE MONDE.</speaker>
-          <l>Revoir? j'en quitte la reveue,</l>
-          <l>Voire la monstre, pour le pris.</l>
-        </sp>
-        <stage>Aliborum l’emmeine du tout.</stage>
-        <sp who="#bridoye">
-          <speaker>Bridoye</speaker><stage>, parlant aux quatre estars.</stage>
-          <l>Enfans, vous n'estes pas appris</l>
-          <l>Comme il faut faire front &amp; teste</l>
-          <l>A l'ennemi, mais si la feste</l>
-          <l>De Vérité revient encor,</l>
-          <l>Par mes sainctes lunettes d'or,</l>
-          <l>Il luy faut monstrer que nous sommes</l>
-          <l>Non pas des bestes, mais des homines,</l>
-          <l>Et que des moyens nous avons.</l>
-          <l>Elle poursuit, nous le savons,</l>
-          <l>Tant qu'elle peut, nostre diffame,</l>
-          <l>Nous entendons qu'elle nous blasme,</l>
-          <l>Et si nous le faut endurer.</l>
-          <l>Parquoy nous faut aventurer</l>
-          <l>De nous fortifier contre elle:</l>
-          <l>Si luy donnerons frayeur telle</l>
-          <l>Que plus falcher ne nous viendra.</l>
-          <l>Je suis seur qu'on nous maintiendra</l>
-          <l>Fort bien pour ce faict en Espagne;</l>
-          <l>De l'Italie &amp; d'Allemagne,</l>
-          <l>Nous n'aurons que trop de supposts;</l>
-          <l>D'autres rompront bien leur repos,</l>
-          <l>Pour nous prester aussi l'espaule:</l>
-          <l>Il n'y aura partie en Gaule</l>
-          <l>Que nous ne facions eSmouvoir.</l>
-          <l>Puis le Pape fera pleuvoir,</l>
-          <l>Pour ceste querelle commune,</l>
-          <l>Du bon sainct Pierre la pécune,</l>
-          <l>Qui chacun remuer fera.</l>
-          <stage>En regardant en son livre.</stage>
-          <l>Vostre leçon donques sera</l>
-          <l>Sur ce chapitre, que je treuve,</l>
-          <l>Pour faire un plastron à l'espreuve</l>
-          <l>Contre les traits de Vérité.</l>
-          <l>Or, allons, c'est trop arresté!</l>
-          <l>Allons-nous-en vers nostre forge</l>
-          <l>Estudier, tant qu'on regorge</l>
-          <l>Ce qu'on aura de trop appris,</l>
-          <l>Car je veux que tirions un pris</l>
-          <l>De mise &amp; hazard à mal faire.</l>
-        </sp>
-        <sp who="#brave">
-          <speaker>LE BRAVE.</speaker>
-          <l>Allons penser à nostre affaire,</l>
-          <l>Pour quand Vérité reviendra.</l>
-          <l>On ne vit onc oeuvre semblable:</l>
-          <l>Nous sommes des valers du diable,</l>
-          <l>Nous ferons plus qu'on ne voudra.</l>
-        </sp>
-        <stage>Ils s'en vont comme ils sont entrez, après Bridoye sonnant la vielle.</stage>
-        <sp who="#le_temps">
-          <speaker>LE TEMPS QUI COURT.</speaker>
-          <l>Messieurs, tout au plus bref que possible a esté,</l>
-          <l>Vous avez veu comment le Monde on a traité,</l>
-          <l>Et l'ordre qu'on a mis au mal qui le tormente,</l>
-          <l>Mais tel qu'encores plus il gémit &amp; lamente,</l>
-          <l>Pource que tout son cas s'en va de mal en pis.</l>
-          <l>Aussi avez ouy les propos &amp; devis</l>
-          <l>Qu'ont tenu, pour chasser la Vérité très fainte,</l>
-          <l>Ceux qui, par son moyen, de leur dommage ont crainte,</l>
-          <l>Faisans sur ce complots, selon leurs fols desseins;</l>
-          <l>Et, si mal fait ils ont, ils apprestent leurs mains</l>
-          <l>A faire pis encor, sans amender leur vie.</l>
-          <l>La noise &amp; le discord &amp; la gloire &amp; l'envie,</l>
-          <l>Qui aux cours de plusieurs aujourd'huy tiennent lieu,</l>
-          <l>Pour le Monde ont dressé ce povre &amp; piteux jeu,</l>
-          <l>Ainsi que voir on peut par vraye expérience.</l>
-          <l>S'adresant aux Seigneurs des deux villes.</l>
-          <l>Vous donc, Nobles Seigneurs, pleins de grande prudence,</l>
-          <l>Qui vous entretenez en parfaite union,</l>
-          <l>Maintenans équité, chassans ambition,</l>
-          <l>N'estes-vous pas heureux par concorde si belle?</l>
-          <l>Vivez donques tousjours en félicité telle</l>
-          <l>Que vos Estats unis soyent deux bastions forts,</l>
-          <l>Pour du malheur au loin repousser les efforts,</l>
-          <l>Comme à la vérité ils seront en tous aages,</l>
-          <l>Tandis qu'à bonne fin s'uniront vos courages.</l>
-          <l>Ainsi le vous prédit le présent Temps qui court,</l>
-          <l>Et, pour vous asseurer, vous propose l'exemple</l>
-          <l>Du mal qui maintenant tient maints autres de court,</l>
-          <l>Cependant que conjoints vivez heureux ensemble.</l>
-        </sp>
+        <div type="configuration">
+          <sp who="#le_temps">
+            <speaker>LE TEMPS QUI COURT.</speaker>
+            <l>MESSIEURS, je suis le Temps qui court,</l>
+            <l>Qui des nouvelles vous apporte:</l>
+            <l>Et s'il vous plaît, pour faire court,</l>
+            <l>Prester silence en bonne forte,</l>
+            <l>Vous orrez la complainte forte</l>
+            <l>Que le Monde fait de ses maux;</l>
+            <l>Et puis verrez ses estats faux,</l>
+            <l>Qui pinser le viendront sans rire.</l>
+            <l>Quant au reste de ses défauts,</l>
+            <l>Je les laisse penser, sans dire.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>Le MONDE </speaker><stage>commence, gisant à terre.</stage>
+            <l>Hé! bons seigneurs, n'y aura-il personne</l>
+            <l>Qui réconfort, aide &amp; soulas me donne,</l>
+            <l>En ceste mienne estrange affliction?</l>
+            <l>J'ay tant de maux, que c'est compassion</l>
+            <l>Que de mon cas, si bien on y regarde:</l>
+            <l>Et toutefois nul à moy ne prend garde,</l>
+            <l>Ains suis laissé despourveu de secours.</l>
+            <l>Me faudra-il languir icy tousjours?</l>
+            <l>N'y aura-il âme qui s'aventure</l>
+            <l>De m'assister en ceste peine dure,</l>
+            <l>Soit par devoir, par amour ou pitié?</l>
+            <l>Las! je voy bien qu'on n'a point d'amitié</l>
+            <l>A moy chétif, &amp; que plus on ne pense</l>
+            <l>A faire bien, sinon par espérance</l>
+            <l>D'en estre après très bien récompensé.</l>
+            <l>Et toutefois je n'eusse pas pensé</l>
+            <l>Qu'on eust tenu de moy si peu de conte</l>
+            <l>A mon besoin. Mais quoy? chacun a honte</l>
+            <l>D'un malheureux, pour proche qu'il lui soit.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>MAISTRE ALIBORUM.</speaker>
+            <l>Je ne say pas que c'est que l'on pensoit</l>
+            <l>Au temps jadis, quand on faisoit acroire</l>
+            <l>Que tout mon cas ne valoir une poire,</l>
+            <l>Pource que trop de choses j'embrassois.</l>
+            <l>Mais si faut-il qu'encores une fois</l>
+            <l>Je face voir de ma belle besongne,</l>
+            <l>Quoy qu'en advienne &amp; quoy que ľon en grongne,</l>
+            <l>Et me deut-il couster pinte &amp; fagot:</l>
+            <l>Si verra-on que je ne suis point sot,</l>
+            <l>Ne mal adroit, en rien que j'entreprenne.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Faut-il qu'encores je reprenne</l>
+            <l>Ma complainte &amp; mon grand hélas,</l>
+            <l>Sans d'aucun recevoir soulas?</l>
+            <l>N'est-ce pas grand pitié du Monde?</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Quand, par toute la terre ronde,</l>
+            <l>Haut &amp; bas j'eusse tracassé,</l>
+            <l>Je n'eusse seu m'estre adressé</l>
+            <l>Si à poinct que je me rencontre!</l>
+            <l>Voicy le Monde qui se monstre</l>
+            <l>Et dir estre en adversité:</l>
+            <l>C'est autant d'ouvrage appresté</l>
+            <l>Pour moy, qui cerche de pratique.</l>
+          </sp>
+          <stage>Il va vers luy.Eh bien! Monde, quel mal vous picque?Je vous ay de loin plaindre ouy.</stage>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Je suis bien fort malade.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Ouy!</l>
+            <l>A tout mal ne faut que remède.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Grand est le mal qui me possède:</l>
+            <l>Ne say quel remède y aura.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Cercher faut qui le donnera,</l>
+            <l>Tant que rencontrer on le puisse.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Mais j'ay si grand mal à la cuisse,</l>
+            <l>Aux reins, en l'espine du dos,</l>
+            <l>Voire jusques dedans les os</l>
+            <l>Des bras, &amp; jambes qui me portent,</l>
+            <l>Qu'a peu que les esprits ne sortent</l>
+            <l>De moy, tant fort suis-je oppressé.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>J'enten, vous estes bien pressé</l>
+            <l>Et abbatu de maladie.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Vous pouvez voir, sans qu'on le die,</l>
+            <l>Qu'aller cercher ne puis secours.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Encor y a-il bon recours:</l>
+            <l>Qui ne peut aller, on le porte.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Qui auroit l'eschine assez forte</l>
+            <l>Pour porter si pesant fardeau?</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Il faut trouver un tombereau,</l>
+            <l>Dans lequel au moins on vous meine,</l>
+            <l>Et je n'y plaindray pas ma peine,</l>
+            <l>Pour la pitié que j'ay de vous.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Hélas! où le trouverons-nous?</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Je le feray plustost moy-mesme,</l>
+            <l>Pour vous oster la peine extrême</l>
+            <l>Où vous feriez en attendant.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Et quoy? estes-vous entendant</l>
+            <l>Au mestier de charpenterie?</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Voire, voire, &amp; sans vanterie</l>
+            <l>J'en say plusieurs autres encor.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Je ne prendroy' argent ni or</l>
+            <l>De vous avoir rencontré, donques.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Vous avez raison, car si oncques</l>
+            <l>Vous trouvastes homme qui fust</l>
+            <l>Propre à vostre affaire &amp; qui eust</l>
+            <l>Les moyens de bien le conduire,</l>
+            <l>Je vous puis asseurément dire</l>
+            <l>Que c'est moy qu'en viendray à bout.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Et que savez-vous faire?</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Tout.</l>
+            <l>N'ayez souci que de me croire:</l>
+            <l>Je suis grand docteur en grimoire,</l>
+            <l>J'enten le per &amp; le midi,</l>
+            <l>Et si ne suis point estourdi</l>
+            <l>En un affaire politique;</l>
+            <l>J'enten de tous arts la pratique,</l>
+            <l>J'ay de tous mestiers les utils,</l>
+            <l>Et ay hanté les plus subtils,</l>
+            <l>Pour leurs plus grands secrets apprendre.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Je vous pri' que, sans plus attendre,</l>
+            <l>Vous alliez dresser ce qu'il faut,</l>
+            <l>Pour m'emmener, soit bas ou haut,</l>
+            <l>En lieu où remède je treuve.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Je vous feray tost voir l'espreuve</l>
+            <l>De ce que faire je sauray.</l>
+            <l>N'ayez pas long temps: je seray</l>
+            <l>Vers vous de retour en peu d'heure.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Despeschez-vous, que je ne meure!</l>
+          </sp>
+          <stage>PAUSE.</stage>
+        </div>
+        <div type="configuration">
+          <stage>Et Bridoye entre, Sonnant de sa vielle, menant les autres fols après soy, qui s'entretiennent par la main.</stage>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE</speaker><stage>, en chantant.</stage>
+            <l>Un fol les autres pourmeine</l>
+            <l>Et les meine</l>
+            <l>Comme il veut, à son plaisir.</l>
+            <l>Tous ensemble s'accompagnent,</l>
+            <l>Et se baignent</l>
+            <l>En leur sot &amp; fol désir.</l>
+            <l>Je suis celuy qui commande</l>
+            <l>A la bande</l>
+            <l>Des autres fols comme moy,</l>
+            <l>Et selon ma fantasie,</l>
+            <l>Et frénésie,</l>
+            <l>Je leur impose la loy.</l>
+            <l>Je les fay pleurer &amp; rire,</l>
+            <l>Lire, escrire,</l>
+            <l>Je leur monstre leur leçon;</l>
+            <l>D'autres fois, je leur gringotte</l>
+            <l>Une notte,</l>
+            <l>A la nouvelle façon.</l>
+            <l>Voilà, comment, sans lanterne,</l>
+            <l>Je gouverne</l>
+            <l>Mes gens gaillards de cerveau,</l>
+            <l>Comme en la dance des bestes,</l>
+            <l>Aux grans festes,</l>
+            <l>Chasque asne conduit un veau.</l>
+            <l>Picque-beuf!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Holà! domine!</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>As-tu point encor desjuné</l>
+            <l>Devant qu'aller à la charrue?</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Domine, la peine me tue!</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Hau! messire Jean!</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Mna dies!</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Dançons-nous point trop de biez?</l>
+            <l>Ay-je bien sonné de mesure?</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>J'aime mieux cuire une fressure</l>
+            <l>De veau, dedans mon chauderon.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Sire Claude!</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Que me veut-on?</l>
+            <l>Faut-il desloger à la foire?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Que ferons-nous?</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Il nous faut boire;</l>
+            <l>Puis nous irons conter argent.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Je t’aime, tu es diligent</l>
+            <l>A tirer la plume à mon oye.</l>
+            <l>Monsieur le Brave, quelle joye</l>
+            <l>Avez-vous au coeur ce matin?</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Le loup m'a tué un mastin</l>
+            <l>Que je voudrois qu'eussiez au ventre!</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Tu as belle peur que je n'entre</l>
+            <l>Avant en matière avec toy.</l>
+            <l>Glorieux fol, crain-tu point? Quoy?</l>
+            <l>Di ta leçon.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Dites la vostre.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Ta forte fièvre...</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>A vous, sans autre,</l>
+            <l>Je vous baille à prendre devant.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Or çà, çà, venez tous avant!</l>
+            <l>Ad scholam, pueri! qu'on vienne</l>
+            <l>Chacun dire la leçon sienne:</l>
+            <l>Pour melhuy, c'est assez joué.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Domine, je suis enroué,</l>
+            <l>Je ne sauroy' chanter en solfe.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Vieux fol, tu as passé la golfe</l>
+            <l>Et le destroict de Gilbatar!</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Ditez-vous que je suis bastard?</l>
+            <l>Il n'est pas vray, par vostre gorge!</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Picque-beuf!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>En femant de l'orge,</l>
+            <l>J'ay perdu aux champs ma leçon.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Ha! fol niais, tu crains le son</l>
+            <l>De mon fouet, avant qu'il te touche!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Je voudroys que fussiez la touche</l>
+            <l>Et qu'on l'essayast dessus vous!</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Sire Claude!</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Parlez tout doux,</l>
+            <l>Que le chat qui dort ne s'esveille.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Tu dors donc &amp; je te resveille,</l>
+            <l>Jeune fol!</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>M'appelez-vous chat?</l>
+            <l>Je ne mangeay jamais de rat:</l>
+            <l>Pourquoy me donnez-vous ce tiltre?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Ce n'est pas le nom d'un belistre;</l>
+            <l>Tu n'en dois pas estre marry.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Et si on vous nommoit hary,</l>
+            <l>Qui est fort proche parent d’asne,</l>
+            <l>En ririez-vous?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Comme une cane</l>
+            <l>Qui a le bec en l'eau plongé.</l>
+            <l>Mais, holà, c'est assez longé!</l>
+            <l>Venez vostre leçon apprendre</l>
+            <l>Et despeschez, sans plus attendre,</l>
+            <l>Ou je vous frotteray bien tous.</l>
+          </sp>
+          <stage>Ilz se mettent tous à toussir.Vous avez fort ores la toux,Mais non pas quand ce vient à boire.Sus, qu’on desgaine l'escritoire,Et sans plus se faire presser!</stage>
+          <stage>Ils s'assoyent &amp; prennent leurs escritoires &amp; papier; puis le BRAVE dit:</stage>
+          <sp who="#brave">
+            <speaker>BRAVE.</speaker>
+            <l>Nous sommes tous prests à dancer:</l>
+            <l>Ne faites que sonner la notte.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Ne te soucie, je te notte,</l>
+            <l>Toy qui causes là à plaisir.</l>
+            <l>Or çà, tandis qu'avons loisir,</l>
+            <l>Apprenons au moins quelque chose.</l>
+            <l>Messire Jean!</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Je me repose,</l>
+            <l>En attendant que vous direz.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE</speaker><stage>, regardant son livre.</stage>
+            <l>Voilà ce que vous escrirez:</l>
+            <l>Pastor populi curam gregis fideliter habeto.</l>
+            <l>As-tu fait?</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>D'icy à une heure.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>O que tu es long!</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>On demeure</l>
+            <l>Encor bien plus à caresmer.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Tu serois propre pour ramer,</l>
+            <l>Tu as la main rude &amp; pesante;</l>
+            <l>Mais tu n'y perds rien que l'attente,</l>
+            <l>Il ne t'en faut avoir long temps.</l>
+            <l>Holà! Brave!</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Je vous attens:</l>
+            <l>Mon encre se gèle en ma plume.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Tu es fort prompt.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>C'est ma coustume.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Voire plustost à mal qu'à bien.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Escri donc &amp; n'oublie rien:</l>
+            <l>Nobilis singulariter &amp; maxime virtutibus ornator.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>Le BRAVE</speaker><stage>, après avoir escrit.</stage>
+            <l>Est-ce tour?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Ouy, pour ce coup.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Vous ne m'en baillez pas beaucoup.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Tant mieux ferez-vous vostre tasche.</l>
+            <l>Picque-beuf!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Ce maistre me fasche:</l>
+            <l>Je n'aime point estre escolier.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Que fais-tu?</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Je fay un collier</l>
+            <l>Pour mettre un singe à la charrue.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Escry.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Tant escrire me tue!</l>
+            <l>Ceste escole ne me plaît point.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Je te feray faire un pourpoint,</l>
+            <l>Si tu sais bien ta leçon dire.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Un pourpoint! Cela vaut l'escrire:</l>
+            <l>Je ferois beaucoup plus pour moins.</l>
+            <l>Faites-moy mon cas bref, au moins.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Agricola strenue labori vacato &amp; incumbito.</l>
+            <l>Despesche-toy.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Si fay-je, maistre,</l>
+            <l>Car, pour vray, je voudrois jà estre</l>
+            <l>En mon collège, emmi les champs.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Sire Claude!</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>J'ay des marchans</l>
+            <l>Qui m'attendent à la boutique;</l>
+            <l>Ne m'empeschez point ma prattique,</l>
+            <l>Faites court ce que vous voudrez.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Si est-ce que vous attendrez,</l>
+            <l>Maistre Claudi, par droit ou force.</l>
+            <l>Un cuir attend bien, en l'escorce</l>
+            <l>Et à la chaux, neuf ou dix mois.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>J'ay esté desjà tant de fois</l>
+            <l>Conroyé à la martingale,</l>
+            <l>Que je suis tout passé en gale,</l>
+            <l>Et n'ay plus faute de confit.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Tu es affecté, il suffit:</l>
+            <l>On le sait, sans que tu le dises;</l>
+            <l>Mais tu vendras tes marchandises</l>
+            <l>Tantost, quand auras faict icy.</l>
+            <l>As-tu con papier?</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Signor, si.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Escrivez donc, Messer Fricasse.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Je suis tout prest; dites, de grâce!</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Mercator sine fraude merces vendito.</l>
+            <l>Or, si voulez manger du rost,</l>
+            <l>Sachez-moy à dire tantost</l>
+            <l>Vostre leçon, tous par ensemble.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Maistre, monstrez-nous donc exemple,</l>
+            <l>De quelle manière &amp; façon</l>
+            <l>Voulez que disions la leçon,</l>
+            <l>Que nous avez à tous donnée.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Tu as la cervelle estonnée!</l>
+            <l>Je te voue à sainct Mathurin.</l>
+            <l>Mettre là vous faut de latin</l>
+            <l>En françois, pour le mieux entendre.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Si vous nous voulez bien apprendre,</l>
+            <l>Il faut que, tout premièrement,</l>
+            <l>Vous nous monstriez aussi comment</l>
+            <l>Vous traduisez à vostre mode:</l>
+            <l>Puis nous suivrons vostre méthode.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Prenez une leçon pour vous.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Vous estes de très mauvais fols,</l>
+            <l>Pleins d'insupportable arrogance!</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Vous construirez vostre sentence,</l>
+            <l>Autrement, rien nous ne faisons.</l>
+            <l>Nous ne sommes pas des oisons:</l>
+            <l>Nous voulons sçavoir qui nous meine.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Ces fols me veulent mettre en peine,</l>
+            <l>Mais je m'en deltraperay bien.</l>
+            <l>Or, oyez donc:</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Nous n'oyons rien.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Je veux faire ce que me dites,</l>
+            <l>Fust-ce à manger des fèves frites.</l>
+            <l>Judex ex æquo unicuique jus suum servare debet:</l>
+            <l>id est, judex un Juif, jus jouoit, suum servare</l>
+            <l>avec son serviteur, debet aux dez, ex æquo</l>
+            <l>dans une escuelle, unicuique &amp; fit quines.</l>
+            <l>Falloit-il faire tant de mines?</l>
+            <l>Estez-vous contens maintenant?</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>J'auray bien tour incontinent</l>
+            <l>Trouflé la mienne de la forte.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Déclare-nous donc qu'elle porte.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Pastor populi curam gregis fideliter habeto: curam</l>
+            <l>un curé, habeto fort habile, fideliter fit des</l>
+            <l>lanternes, populi pour pouvoir lire, pastor</l>
+            <l>sa patenostre, gregis à la greguesque.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Puis alla dancer la moresque,</l>
+            <l>Quand il fur chaussé &amp; vestu.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Laisse-moy dire aussi, veux-tu,</l>
+            <l>Tandis que j'en suis en mémoire?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Di donc, puis tu auras à boire.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Mercator sine fraude merces vendito: mercator</l>
+            <l>maistre Hector, merces le mercier, vendito</l>
+            <l>viendra tantost, fine fraude s'il ne fourvoye.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Et s'il ne trébusche en la voye:</l>
+            <l>Ce fi-là va tousjours devant.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Que ne viens-tu aussi avant,</l>
+            <l>Qu'on te voye sur la carrière?</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Je dy donc en ceste manière:</l>
+            <l>Nobilis singulariter &amp; maxime virtutibus ornator:</l>
+            <l>singulariter un finge, maxime maschoit,</l>
+            <l>ornator sous un orme, nobilis des noisilles,</l>
+            <l>virtutibus toutes verdes.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Il s'en agaça les dents, certes,</l>
+            <l>Tant qu'après il y eut grand mal.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Et toy, holà! gros animal,</l>
+            <l>Enten-tu bien ta letanie?</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Je ne say comment on manie</l>
+            <l>Ce latin.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>L'as-tu pas ouy?</l>
+            <l>Dy comme les autres.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Ouy,</l>
+            <l>Comme les autres, donc.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Or, chante!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Soit bien ou mal, qu'on se contente:</l>
+            <l>Comme les autres, je diray.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Dy donc!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Donc...</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Je t’estrilleray,</l>
+            <l>Si tu ne veux dire autre chose!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Je dy ce que l'on me propose:</l>
+            <l>Que voulez-vous que die plus?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Ta leçon!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Pour me prendre au glus:</l>
+            <l>Si j'y faux, j'ay peur de la trousse.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>N'aye peur que je te courrouce:</l>
+            <l>Dy ainsi comme tu sauras.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Je suis un povre idiot, las!</l>
+            <l>Supportez tous mon ignorance.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Si ferons-nous; holà, commence!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Agricola strenue labori vacato &amp; incumbito: vacato le vacher, agricola au gris colet, strenue esternua,</l>
+            <l>incumbito quand il beuvoir, labori en la bouteille.</l>
+            <l>Or, beuvons donc pour la pareille!</l>
+            <l>Voilà qui m'en fait souvenir.</l>
+            <l>Ce sera pour mieux retenir</l>
+            <l>Nostre leçon à telle enseigne.</l>
+            <stage>Il boit, puis baille la bouteille à Bridoye &amp; luy dit, en le regardant boire:</stage>
+            <l>Maistre, le nez point ne vous faigne,</l>
+            <l>Quand il le faut mettre au flascon.</l>
+            <l>Vous trouvez le vin assez bon:</l>
+            <l>C'est pour vostre santé bon signe.</l>
+          </sp>
+          <stage>Le Brave, en regardant boire Messire Jean.</stage>
+          <sp who="#brave">
+            <l>Messire Jean boit bien chopine.</l>
+            <l>Fait-il pas mei Domini?</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>Messire Jean</speaker><stage>, après avoir beu.</stage>
+            <l>Nos sumus bene asini.</l>
+            <l>Nous voici maintenant bien aises.</l>
+          </sp>
+          <stage>Il la présente au Brave, qui la refuse, &amp; Sire Claude la prend &amp; boit, puis dit:</stage>
+          <sp who="#claude">
+            <l>J'avois l'estomac plein de braises,</l>
+            <l>Mais j'en ay bien osté le feu.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Vous jouez tous fort bien ce jeu.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Aussi faites-vous bien vous-mesme.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Mais, domine, de nostre thesme,</l>
+            <l>Qui l'a mieux traduit d'entre nous?</l>
+            <l>Nous vous avons imité tous.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>J'ay de près suivy vostre style.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Selon vostre façon subtile,</l>
+            <l>Autrement faire n'eusse sceu.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>J'ay incontinent apperceu</l>
+            <l>Qu'il falloit suivre vostre veine.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>J'y penseray ceste sepmaine.</l>
+            <l>Cependant, savez-vous bien quoy?</l>
+            <l>Mettez-vous là tous à requoy,</l>
+            <l>Que chacun à sa leçon pense.</l>
+          </sp>
+          <stage>PAUSE.</stage>
+        </div>
+        <div type="configuration">
+          <stage>Et cependant ils font semblant de lire &amp; escrire, M. Aliborum arrive, menant une brouette, qui est inscripte:NÉCESSITÉ, &amp; s'addresant au Monde, luy dit:</stage>
+          <sp who="#aliborum">
+            <l>Je vien de faire en diligence</l>
+            <l>Pour vous, Monde, ce tombereau:</l>
+            <l>Vous semble-il pas d'estre beau</l>
+            <l>Et de façon toute nouvelle?</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Ouy, certes, mais il s'appelle</l>
+            <l>Nécessité, ce m'est advis.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Ce nom tout exprès luy ay mis,</l>
+            <l>Afin que chacun plustost aye</l>
+            <l>Pitié de ceste dure playe,</l>
+            <l>Dont si fort vous estes chargé.</l>
+            <l>Mais nous aurons bien cost changé</l>
+            <l>Cela, si vous en avez honte.</l>
+            <l>Il ne faut que faire son conte</l>
+            <l>Que nécessité est vertu:</l>
+            <l>Car, par ce mot, est rabbatu</l>
+            <l>Tout ce que l'on en sçauroit dire.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Je ne vous en veux pas desdire,</l>
+            <l>Puis que si bien vous me fervez.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Si donc le vouloir vous avez</l>
+            <l>De prendre léans vostre giste,</l>
+            <l>Despeschez-vous, montez-y viste,</l>
+            <l>Et je vous aideray aussi.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Hé, mon amy, bien grand mercy!</l>
+            <l>Un jour le vous puissé-je rendre!</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Or, montez donc, sans plus attendre;</l>
+            <l>Il nous faut d'icy desloger.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Et où nous irons-nous loger</l>
+            <l>Au partir d'ici?</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Ne vous chaille:</l>
+            <l>Par le pays de Trinquetaille,</l>
+            <l>Où quelque amy nous trouverons.</l>
+          </sp>
+          <stage>Il le monte.Or çà, de par Dieu, nous seronsTantost prests pour nostre voyage.Estes-vous bien?</stage>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>En une cage,</l>
+            <l>Puis qu'autrement estre ne puis.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Reposez-vous sur moy, &amp; puis</l>
+            <l>Laissez-moy traîner la brouette.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Aussi sur vous tout je m'arreste:</l>
+            <l>S'il va bien, vous en vaudrez mieux.</l>
+          </sp>
+          <stage>Aliborum commence à la mener une fois avant, une fois arrière, &amp; dit:</stage>
+          <sp who="#aliborum">
+            <l>Suis-je pas bien industrieux,</l>
+            <l>D'avoir prattiqué la manière</l>
+            <l>De mener, avant &amp; arrière,</l>
+            <l>Le Monde, tout à mon plaisir?</l>
+            <l>Faire j'en puis à mon désir,</l>
+            <l>Car de mes mains je le pourmeine.</l>
+            <l>Vray est que j'y ay de la peine,</l>
+            <l>Mais aussi en ay-je l'honneur.</l>
+            <l>C'est pour devenir grand seigneur</l>
+            <l>Que se mesler de tel affaire.</l>
+            <l>Un niais ne l'oseroit faire,</l>
+            <l>Mais moy je me veux hazarder.</l>
+            <l>Que si on m'en vient brocarder,</l>
+            <l>Que m'en chaut-il? mais qu'on me voye!</l>
+            <l>Je n'ay au monde plus grand joye,</l>
+            <l>Que quand je suis veu &amp; prisé;</l>
+            <l>Et pour moy s'est bien attizé</l>
+            <l>Ce feu, qui le Monde consume:</l>
+            <l>Car on dit bien vray, de coustume,</l>
+            <l>Qu'il n'est mal d'où ne sorte bien.</l>
+          </sp>
+          <stage>Le Monde, qui voit les quatre estats, dit:</stage>
+          <sp who="#le_monde">
+            <l>Qui sont ces gens?</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Je n'en sçay rien.</l>
+            <l>Mais il faut qu'à eux je m'addresse.</l>
+          </sp>
+          <stage>Et conduit sa brouette vers eux.</stage>
+          <stage>Messire Jean, en jettant là son livre.</stage>
+          <sp who="#jean">
+            <l>Ce livre la veue me bleffe:</l>
+            <l>Je n'y veux lire de trois jours.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Ce meschant papier boir tousjours:</l>
+            <l>Je n'y sçauroy' faire une lettre.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Aussi me faut-il aller mettre</l>
+            <l>D'autre encre dedans mon cornet.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Ceste plume n'escrit point net:</l>
+            <l>Je vay cercher qui me la taille.</l>
+          </sp>
+          <stage>Ils se lèvent tous.</stage>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Vous quittez l'escole, canaille,</l>
+            <l>Je l'enten bien à vos propos.</l>
+          </sp>
+          <stage>Le Brave, en sautant.</stage>
+          <sp who="#brave">
+            <l>Domine, domine, campos!</l>
+            <l>Nous voulons voir ceste charrette.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Glorieux fol, arreste, arreste!</l>
+          </sp>
+          <stage>Messire Jean, en lui monstrant le derrière.</stage>
+          <sp who="#jean">
+            <l>Soufflez, vous n'estes pas sergent.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Vieux fol, tu es bien diligent</l>
+            <l>A faire premier la desbauche!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Nous n'estudions plus qu'à gauche,</l>
+            <l>Nous avons mal au costé droit.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Tu en quittes aussi ton droit,</l>
+            <l>Fol niais? Bien, bien, je te marque!</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Allez l'attendre vers la barque,</l>
+            <l>Vous ramerez avecque luy.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Jeune fol, feras-tu meshuy</l>
+            <l>Autre chose que des lardoires?</l>
+          </sp>
+          <stage>Picque-beuf, s'adressant à Aliborum.</stage>
+          <sp who="#picque_beuf">
+            <l>Mon maistre, portez-vous des poires</l>
+            <l>Ou des choux à vendre léans?</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Ce sont bien poires, mes enfans,</l>
+            <l>Ce sont bien des poires d'angoisse.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Il faut voir que c'est.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Qu'est-ce?</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Qu'est-ce?</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>C'est le Monde en nécessité,</l>
+            <l>Cerchant, d'un &amp; d'autre costé,</l>
+            <l>Qui remède à son mal luy donne.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Messieurs, n'y aura-il personne</l>
+            <l>Qui le vueille un peu secourir?</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Je verrois mon père mourir,</l>
+            <l>Avant que sortir de ma bourse</l>
+            <l>Un denier.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Et pourquoy?</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Et pource</l>
+            <l>Que j'ay appris en Caronet:</l>
+            <l>Dilige denarionet;</l>
+            <l>Parquoy, bien envis, je le lasche.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Si donner d'argent il vous fasche,</l>
+            <l>Nous ne vous en demandons point:</l>
+            <l>Mais pensez au moins par quel poinct</l>
+            <l>Sa santé on luy pourroit rendre.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Si nostre maistre y veut entendre,</l>
+            <l>ll en viendra bien tost à bout.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Où est-il?</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Le voilà debout,</l>
+            <l>Là où sa vielle il accorde.</l>
+          </sp>
+          <stage>Aliborum, s'adresant à Bridoye.</stage>
+          <sp who="#aliborum">
+            <l>Monsieur, ayez miséricorde</l>
+            <l>Du povre Monde, qui se meurt.</l>
+            <l>Il a pris un si mauvais heurt</l>
+            <l>D'une cheurte de sus les tuiles,</l>
+            <l>Que l'on ne trouve unguens, ni huiles,</l>
+            <l>Qui rien luy puissent profiter.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>C'est assez pour se despiter</l>
+            <l>Contre tour l'art de médecine.</l>
+            <l>Il me faut voir un peu sa mine,</l>
+            <l>Puis j'en donneray mon advis.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Il est icy tout vis-à-vis,</l>
+            <stage>En le regardant à la face.</stage>
+            <l>S'il vous plaist que je vous y meine:</l>
+            <l>Mais perdrons-nous point nostre peine?</l>
+            <l>Comment le verrez-vous sans yeux,</l>
+            <l>Estant aveugle?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Je voy mieux</l>
+            <l>Que toy, quand j'ay mis mes lunettes,</l>
+            <l>Car elles sont cleres &amp; nettes,</l>
+            <l>Bien d'autre estoffe que cristal.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>De quoy font-elles?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>D'un métal,</l>
+            <l>Le plus précieux qui se treuve.</l>
+            <l>Tu en verras tantost l’espreuve:</l>
+            <l>J'en voy, tour ainsi qu'il me plaist.</l>
+            <l>Allons!</l>
+          </sp>
+          <stage>Aliborum le meine vers le Monde &amp; dit:</stage>
+          <sp who="#aliborum">
+            <l>Voicy où le Monde est.</l>
+          </sp>
+          <stage>Bridoye met ses besicles, qui sont de deux escus ou autres pièces d'or, en lieu de verre, &amp;, en tastonant le Monde devers les pieds, dit:</stage>
+          <sp who="#bridoye">
+            <l>Ce bonner luy gaste la teste.</l>
+            <stage>En la teste:</stage>
+            <l>Ces souliers luy bruslent le sang.</l>
+            <stage>Au genouil:</stage>          
+            <l>Il doit avoir grand mal au flanc.</l>
+            <l>Son poux est fort esmeu au coude.</l>
+            <l>Il a le nez &amp; la main sourde.</l>
+            <l>Les pieds luy cornent bien souvent.</l>
+            <stage>En le tastant au ventre:</stage>
+            <l>Il a le dos tout plein de vent</l>
+            <l>Et a la colique en l'espaule.</l>
+            <l>Il faut luy frotter, de la gaule</l>
+            <l>D'un bel édict, le bout du nez.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Est-ce l'advis que me donnez?</l>
+            <l>Ne savez-vous dire autre chose?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Autre cas je ne te propose,</l>
+            <l>Sinon que tu te tiennes chaut.</l>
+            <l>Il se retire à part.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Tous ensemble, prendre il nous faut</l>
+            <l>En main celt affaire.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Et quoy donques?</l>
+            <l>Nous le guarirons bien, si onques</l>
+            <l>Homme des avives guérit.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Nous avons aussi bon esprit</l>
+            <l>Que lanterniers de la paroisse.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Faisons au moins que l'on cognoisse</l>
+            <l>Que nous sommes maistres en lard!</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Mais que ce ne soit point trop tard</l>
+            <l>Que nous entreprenons sa cure!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Essayons-y à l'aventure:</l>
+            <l>Au pis n'en peut que mal venir.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Nous sommes quatre, pour tenir</l>
+            <l>Un bon conseil de conséquence.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Et encor, pour la quinte essence,</l>
+            <l>Nostre maistre la fournira.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Voyons que le Monde en dira.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Monde, nous sommes ici quatre,</l>
+            <l>Bien fort empressez, pour débatre</l>
+            <l>Du mal qui te tourmente tant,</l>
+            <l>Et venons vers toy quant &amp; quant,</l>
+            <l>Pour cognoistre ta maladie.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Que voulez-vous que je vous die?</l>
+            <l>Y mette la main qui voudra!</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Trois onces prendre il vous faudra</l>
+            <l>Du just du Concile de Trente,</l>
+            <l>Pour vous oster la fièvre lente,</l>
+            <l>Qui tant lasche &amp; foible vous rend.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Il est pour moy trop violent;</l>
+            <l>Faites-en aux chiens un clistère.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Non, non, voici ce qu'il faut faire,</l>
+            <l>Pour vous descharger le cerveau:</l>
+            <l>Un cataplasme, large &amp; beau,</l>
+            <l>Du plus infernal Athéisme</l>
+            <l>Qu'on trouve, en despit du Papisme</l>
+            <l>Et de la loy des Huguenots.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>C'est, pour le trousser en deux mots,</l>
+            <l>De ne croire en Dieu, ni en Diable.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Cela est trop espouvantable.</l>
+            <l>Il vaudra mieux vous estuver</l>
+            <l>Et dedans vostre nid couver,</l>
+            <l>Sans sonner mot, attendant l'heure.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>C'est-à-dire que je demeure</l>
+            <l>En mue, comme un bel oison.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>J'ay une meilleure raison</l>
+            <l>Que tous vous, ne vous en desplaise.</l>
+            <l>Il faut, pour le rendre à son aise,</l>
+            <l>D'huile d'Interim le frotter.</l>
+            <l>Rien n'est que mieux luy puisse oster</l>
+            <l>Ceste gratelle, qui le ronge.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Ce grand politique ne songe</l>
+            <l>Qu'aux huiles &amp; douces liqueurs.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Pour oster toutes ses langueurs,</l>
+            <l>Je sçay un moyen davantage,</l>
+            <l>Dont on use en nostre village,</l>
+            <l>Qui ne couste pas un quadrin;</l>
+            <l>C'est le conseil de Baladrin:</l>
+            <l>Fay du mieux que sera possible,</l>
+            <l>Mon enfant.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Il faut donc un crible,</l>
+            <l>Pour passer ce possible au mieux.</l>
+          </sp>
+          <stage>Vérité, parlant de loin.</stage>
+          <sp who="#verité">
+            <l>Ainsi le Monde, parmi ceux</l>
+            <l>Qui donner luy doivent remède,</l>
+            <l>Pour le discord qui les possède,</l>
+            <l>Demeure tous jours languissant.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Je m'en vay du tout périssant,</l>
+            <l>Si autrement ordre on n'y boute.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Ce que l'un dit, l'autre l'escoute,</l>
+            <l>Mais nul ne met la main après.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Il s'en faut approcher de près,</l>
+            <l>Pour le frotter par dos &amp; ventre.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Gardez bien qu'en terre je n'entre:</l>
+            <l>Traittez-moy bien, si vous sçavez!</l>
+          </sp>
+          <stage>Messire Jean, en le tastant.</stage>
+          <sp who="#jean">
+            <l>Hé! povre homme, que vous avez</l>
+            <l>Grand’ chaleur au corps!</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Comme il sue!</l>
+          </sp>
+          <stage>Le Brave, en luy ostant sa robbe.</stage>
+          <sp who="#brave">
+            <l>Ceste grosse robbe le tue!</l>
+          </sp>
+          <stage>Picque-beuf, en lui ostant son pourpoint.</stage>
+          <sp who="#picque_beuf">
+            <l>Ce pourpoint le tient trop estroit!</l>
+          </sp>
+          <stage>Sire Claude, en luy tirant l'anneau du doigt.</stage>
+          <sp who="#claude">
+            <l>Cest anneau luy serre le doigt</l>
+            <l>Si fort, qu'il en a la gravelle!</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Ce bonner luy fond la cervelle!</l>
+          </sp>
+          <stage>Aliborum, en le deschauffant.</stage>
+          <sp who="#aliborum">
+            <speaker>check_here</speaker>
+            <l>Ces souliers luy donnent la toux!</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Que fais-tu là, toy?</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Comme vous,</l>
+            <l>Je m'aide à despouiller LE MONDE.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Est-ce ton mestier?</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Je me fonde</l>
+            <l>En tous les sept ars libéraux.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>Bridoye</speaker><stage>, en mettant ses besicles.</stage>
+            <l>Suis-je pas des plus grans maraux?</l>
+            <l>Mes challans font là en pratique,</l>
+            <l>Et je n'en ay pas une figue.</l>
+            <stage>En courant vers eux.</stage>
+            <l>Holà, j'en suis! j'en veux avoir!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Et comment nous pouvez-vous voir?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Par les lunettes que je porte,</l>
+            <l>Qui sont d'une si bonne forte</l>
+            <l>Que j'en voy tousjours mon profit.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Savez-vous quoy, donc? Il suffit:</l>
+            <l>Ostez maintenant vos lunettes,</l>
+            <l>Nous laissant faire nos ferrettes,</l>
+            <l>Sans nous faire plus grand hutin.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Mais, que j'aye part au butin!</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Cela s'entend, n'en ayez doute.</l>
+          </sp>
+          <stage>Bridoye se retire &amp; les laisefaire.</stage>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Hélas! où est-ce qu'on me boute?</l>
+            <l>Tous mes habits qu'on m'oste ainsi!</l>
+            <l>Je suis quasi de froir transi:</l>
+            <l>Encor me met-on en chemise!</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Vous avez une fièvre grise,</l>
+            <l>Qu'il faut guérir par tel moyen.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Pensez-vous que ne sachions rien?</l>
+            <l>Nous sommes des médecins d’oye,</l>
+            <l>Qui descouvrent, sans qu'on les voye,</l>
+            <l>Les malades, quand ils ont chaut.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Encor n'est-ce pas tout: il faut</l>
+            <l>Luy abatre ceste perruque,</l>
+            <l>Car il a grand mal sur la nuque;</l>
+            <l>Je le cognoy bien à son ceil.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Il luy faut oster tout ce poil</l>
+            <l>Et de la barbe &amp; de la teste.</l>
+            <l>Qui est bon barbier, qu'il s'appreste!</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Moy!</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Moy!</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Moy!</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>J'ay tous les utils.</l>
+          </sp>
+          <stage>Et les va quérir.</stage>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Nous sommes tous assez subtils</l>
+            <l>Pour tondre un oeuf, l'un après l'autre.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>Bridoye</speaker><stage>, en s'approchant.</stage>
+            <l>Je suis de la partie vostre:</l>
+            <l>Je sçay comme il faut testonner.</l>
+          </sp>
+          <stage>Ils tirent le Monde hors de la brouette &amp;, en le faisant asseoir sur une chaire, dit:</stage>
+          <sp who="#bridoye">
+            <l>Boute-toy là, fans t'estonner,</l>
+            <l>Et ne ry point, quoy qu'on te face.</l>
+          </sp>
+          <stage>PAUSE.</stage>
+        </div>
+        <div type="configuration">
+          <stage>Et cependant ils le tondent &amp; chacun fourre du poil en ses chausses.</stage>
+          <sp who="#brave">
+            <speaker>Le Brave</speaker><stage>, après l'avoir condu.</stage>
+            <l>Avons-nous pas, de bonne grâce,</l>
+            <l>Osté ce que luy empeschoit?</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Il seroit beau, s'il se mouchoir,</l>
+            <l>Maintenant qu'il n'a plus la come.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>Messire Jean</speaker><stage>, en regardant à l'entour, comme qui la cerche.</stage>
+            <l>Qu'est-elle devenue? Comme</l>
+            <l>Va ceci? Tout ce crin se perd!</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Ne savez-vous pas bien qu'il sert</l>
+            <l>A embourrer les grosses chausses?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Nos receptes ne sont point fausses:</l>
+            <l>Je gage qu'il est allégé.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>Sire Claude</speaker><stage>, en monstrant l'anneau qu'il luy a osté.</stage>
+            <l>Pour le moins est-il deschargé;</l>
+            <l>Je ne sçay pas comme il s'en treuve.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>N'avez-vous à faire autre espreuve</l>
+            <l>Dessus moy de vostre sçavoir?</l>
+            <l>Je voudroy' volontiers avoir</l>
+            <l>D'argent, pour payer vostre peine,</l>
+            <l>Mais la bourse, que j'avoy' pleine,</l>
+            <l>Un Swertze Reuter la m'osta.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Je ne sçay pas qui l'emporta,</l>
+            <l>Je l'ay bien au pourpoint cerchée:</l>
+            <stage>En secouant le pourpoint.</stage>
+            <l>Mais, ou elle est fort bien cachée,</l>
+            <l>Ou un autre y a mis la main.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Me tiendrez-vous jusqu'à demain,</l>
+            <l>Sans autre secours ne service?</l>
+            <l>Nous nous logeons à l’Escrevice:</l>
+            <l>En avançant, nous reculons.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Ne te soucie: nous allons</l>
+            <l>Te remettre où nous te trouvasmes.</l>
+          </sp>
+          <stage>Ils le remettent en son tombereau.</stage>
+          <sp who="#verité">
+            <speaker>Vérité</speaker><stage>, en s'approchant d'eux.</stage>
+              <l>N'avez-vous point peur de vos âmes,</l>
+              <l>Gens insensez &amp; mal appris,</l>
+              <l>De faire tant de tours infâmes,</l>
+              <l>Sans crainte d'y estre surpris</l>
+              <l>Pensez-vous, en vos fols esprits,</l>
+              <l>Que Dieu de tout ne face cas,</l>
+              <l>Et que n'en soyez point repris?</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Dame, nous ne vous cerchons pas!</l>
+          </sp>
+          <sp who="#verité">
+            <speaker>VÉRITÉ.</speaker>
+            <l>Toy, Prestre, qui le Monde abuses,</l>
+            <l>Et toy, faux Juge corrompu,</l>
+            <l>Toy, Marchand, tout rempli de ruses,</l>
+            <l>Toy, Gentilastre, au front rompu,</l>
+            <l>Et toy, Laboureur, qui n'as peu</l>
+            <l>Simplement vivre en ton train bas,</l>
+            <l>Vous avez tous le sens perdu!</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Dame, nous ne vous cerchons pas!</l>
+          </sp>
+          <sp who="#verité">
+            <speaker>VÉRITÉ.</speaker>
+            <l>Toy, Monde, rempli de malice,</l>
+            <l>Par maistre Aliborum conduit,</l>
+            <l>Qui est plein de gloire &amp; de vice,</l>
+            <l>Vois-tu point que Dieu te poursuit?</l>
+            <l>Si tu ne veux estre destruit,</l>
+            <l>Réformer faut tous tes estars,</l>
+            <l>Car par eux tout malheur te suit.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Dame, nous ne vous cerchons pas!</l>
+          </sp>
+          <sp who="#verité">
+            <speaker>VÉRITÉ.</speaker>
+            <l>Prince, qui fais que sur la terre</l>
+            <l>Sans moy l'on ne fait que faux pas,</l>
+            <l>Fay que plus tant le Monde n'erre!</l>
+          </sp>
+          <sp who="#picque_beuf #le_monde #bridoye #brave #claude #jean">
+            <speaker>Tous ensemble.</speaker>
+            <l>Dame, nous ne vous cerchons pas!</l>
+          </sp>
+          <stage>Elle se retire un peu à part &amp; Picque-beuf dit à Bridoye:</stage>
+          <sp who="#picque_beuf">
+            <l>Escourez, domine Judas,</l>
+            <l>Monsieur le Juge à la vielle,</l>
+            <l>Vous n'eustes jamais leçon telle</l>
+            <l>Que celle que venez d'ouïr.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Je n'ay garde de m'en fouir</l>
+            <l>Pour un mot: j'ay trop bonne aureille.</l>
+            <l>Si je dors une heure ou sommeille</l>
+            <l>Là-dessus, tout est effacé.</l>
+            <l>Et toy, on ne t'a pas passé,</l>
+            <l>Sans te donner aussi la chièvre.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>De moy, j'ay un cerveau de lièvre:</l>
+            <l>Je pers la mémoire en courant.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Messire Jean, au demeurant</l>
+            <l>Vous avez eu vostre passade.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Bran!</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Vieux fol, tu es fort maussade,</l>
+            <l>Tu ressembles un vieux magot.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Donne-toy garde du fagot,</l>
+            <l>Si tu mesdis des gens d'église.</l>
+            <l>Si n'as-tu pas failli à prise,</l>
+            <l>Toy, qui les autres vas mocquant.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Je m'en laveray bien.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Et quand?</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Quand au barbier je m'iray tondre.</l>
+          </sp>
+          <sp who="#verité">
+            <speaker>VÉRITÉ</speaker><stage>retourne a eux.</stage>
+            <l>Vérité suis, qui vous vien tous lemondre</l>
+            <l>De vous changer de vostre mauvais train.</l>
+            <l>Vous ne cerchez, ce venez-vous respondre,</l>
+            <l>La Vérité: tel est vostre refrain.</l>
+            <l>Ha! malheureux, il n'est que trop certain</l>
+            <l>Que plus vous est le mensonge aggréable!</l>
+            <l>Mais jusqu'à tant que me suiviez à plein,</l>
+            <l>Tousjours sera le Monde misérable.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Seray-je donc tous jours maudir?</l>
+          </sp>
+          <sp who="#verité">
+            <speaker>VÉRITÉ.</speaker>
+            <l>Tu entens que Vérité dir;</l>
+            <l>Enluy-la, si tu veux bien faire.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>ALIBORUM.</speaker>
+            <l>Nous n'avons avec elle affaire:</l>
+            <l>Vérité fait pendre les gens.</l>
+          </sp>
+          <sp who="#verité">
+            <speaker>VÉRITÉ.</speaker>
+            <l>Tous à mal estes diligens,</l>
+            <l>Mais au bien nul ne veut entendre.</l>
+            <l>Ainsi ne vous faut pas attendre</l>
+            <l>D'avoir le repos que cerchez,</l>
+            <l>Car Dieu a, pour vos grands péchez,</l>
+            <l>Espandu dessus vous son ire.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Elle viendra encor à dire</l>
+            <l>Ce que de nous elle saura,</l>
+            <l>Et nostre procès nous fera,</l>
+            <l>Dont nous pourrions avoir taloche.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Elle fera sonner la cloche</l>
+            <l>Et le roquessin contre nous.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Allons-nous-en!</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Deslogeons tous!</l>
+            <l>Ce n'est pas elle</l>
+            <l>que je cerche.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Que le Monde demeure en perche!</l>
+            <l>Pour luy je ne veux mal avoir.</l>
+          </sp>
+          <sp who="#bridoye">
+            <speaker>BRIDOYE.</speaker>
+            <l>Elle voudroit faire savoir</l>
+            <l>Du marchant les fausses pratiques.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>Picque-beuf</speaker><stage>, monstrant le Brave.</stage>
+            <l>Et les coustumes tyranniques</l>
+            <l>De ce brave fol glorieux.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>Le Brave</speaker><stage>, respondant à Picque-beuf.</stage>
+            <l>Et tes affrontemens, pouilleux,</l>
+            <l>Et la male foy dont tu uses.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Elle déclareroit les ruses</l>
+            <l>Des falsificateurs de loix.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>Aliborum</speaker><stage>, parlant à Messire Jean.</stage>
+            <l>Elle monstreroit de quel bois</l>
+            <l>Tu fais le feu sous ta marmite.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Et la procédure maudite</l>
+            <l>Des meslinges d'Aliborum.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Ainsi de charboniorum</l>
+            <l>Les sacs l'un l'autre se noircissent.</l>
+            <l>Que pleust-il à Dieu que tous puissent</l>
+            <l>Bien cognoistre leur propre fait!</l>
+            <l>Car nul du sien conte ne fait,</l>
+            <l>Mais l'un sur l'autre se descharge.</l>
+            <l>Cependant, j'ay toute la charge.</l>
+          </sp>
+          <sp who="#verité">
+            <speaker>VÉRITÉ.</speaker>
+            <l>Conclusion: tu es contaminé</l>
+            <l>Dedans ton corps, autant qu'il est possible,</l>
+            <l>Et le malheur, qui ainsi t'a miné,</l>
+            <l>Vient pour avoir, d'un mespris indicible,</l>
+            <l>Oublié Dieu; tant qu'il est impossible</l>
+            <l>De te guérir sans un miracle grand.</l>
+            <l>De tes estars nul son devoir ne rend:</l>
+            <l>Aliborum d'autre part te pourmeine;</l>
+            <l>Si con dessein du tour à moy ne tend,</l>
+            <l>Jamais dehors ne te verras de peine.</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Dame, suivre je ne vous puis:</l>
+            <l>Vous voyez bien comme je suis</l>
+            <l>Ypothéqué en toute sorte.</l>
+          </sp>
+          <sp who="#verité">
+            <speaker>VÉRITÉ.</speaker>
+            <l>A toy donques je m'en rapporte,</l>
+            <l>Car, pour ne suyvre Vérité,</l>
+            <l>Tu mourras en nécessité.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>Picque-beuf</speaker><stage>, parlant à Aliborum.</stage>
+            <l>Ramenez-le, si bon vous semble;</l>
+            <l>Nous nous retirons tous ensemble,</l>
+            <l>Puis qu'autre de luy n'attendons.</l>
+            <stage>En le monstrant tout despouille.</stage>
+            <l>Malade le Monde amenastes,</l>
+            <l>En nécessité l'attrainastes,</l>
+            <l>En pire estar le vous rendons.</l>
+          </sp>
+          <sp who="#claude">
+            <speaker>SIRE CLAUDE.</speaker>
+            <l>Croyez que nous le vous vendons</l>
+            <l>Franc de gabelles &amp; péages.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Je ne fache laquais ni pages</l>
+            <l>Qui mieux l'eussent espousseré.</l>
+          </sp>
+          <sp who="#jean">
+            <speaker>MESSIRE JEAN.</speaker>
+            <l>Il est de rentes acquitté:</l>
+            <l>Les fermiers n'y ont plus que faire.</l>
+          </sp>
+          <sp who="#aliborum">
+            <speaker>Aliborum</speaker><stage>, en l'emmenant.</stage>
+            <l>Il ne nous faut plus qu'un notaire,</l>
+            <l>Pour la quittance recevoir.</l>
+          </sp>
+          <sp who="#picque_beuf">
+            <speaker>PICQUE-BEUF.</speaker>
+            <l>Adieu, Perot, jusqu'au revoir!</l>
+          </sp>
+          <sp who="#le_monde">
+            <speaker>LE MONDE.</speaker>
+            <l>Revoir? j'en quitte la reveue,</l>
+            <l>Voire la monstre, pour le pris.</l>
+          </sp>
+          <stage>Aliborum l’emmeine du tout.</stage>
+          <sp who="#bridoye">
+            <speaker>Bridoye</speaker><stage>, parlant aux quatre estars.</stage>
+            <l>Enfans, vous n'estes pas appris</l>
+            <l>Comme il faut faire front &amp; teste</l>
+            <l>A l'ennemi, mais si la feste</l>
+            <l>De Vérité revient encor,</l>
+            <l>Par mes sainctes lunettes d'or,</l>
+            <l>Il luy faut monstrer que nous sommes</l>
+            <l>Non pas des bestes, mais des homines,</l>
+            <l>Et que des moyens nous avons.</l>
+            <l>Elle poursuit, nous le savons,</l>
+            <l>Tant qu'elle peut, nostre diffame,</l>
+            <l>Nous entendons qu'elle nous blasme,</l>
+            <l>Et si nous le faut endurer.</l>
+            <l>Parquoy nous faut aventurer</l>
+            <l>De nous fortifier contre elle:</l>
+            <l>Si luy donnerons frayeur telle</l>
+            <l>Que plus falcher ne nous viendra.</l>
+            <l>Je suis seur qu'on nous maintiendra</l>
+            <l>Fort bien pour ce faict en Espagne;</l>
+            <l>De l'Italie &amp; d'Allemagne,</l>
+            <l>Nous n'aurons que trop de supposts;</l>
+            <l>D'autres rompront bien leur repos,</l>
+            <l>Pour nous prester aussi l'espaule:</l>
+            <l>Il n'y aura partie en Gaule</l>
+            <l>Que nous ne facions eSmouvoir.</l>
+            <l>Puis le Pape fera pleuvoir,</l>
+            <l>Pour ceste querelle commune,</l>
+            <l>Du bon sainct Pierre la pécune,</l>
+            <l>Qui chacun remuer fera.</l>
+            <stage>En regardant en son livre.</stage>
+            <l>Vostre leçon donques sera</l>
+            <l>Sur ce chapitre, que je treuve,</l>
+            <l>Pour faire un plastron à l'espreuve</l>
+            <l>Contre les traits de Vérité.</l>
+            <l>Or, allons, c'est trop arresté!</l>
+            <l>Allons-nous-en vers nostre forge</l>
+            <l>Estudier, tant qu'on regorge</l>
+            <l>Ce qu'on aura de trop appris,</l>
+            <l>Car je veux que tirions un pris</l>
+            <l>De mise &amp; hazard à mal faire.</l>
+          </sp>
+          <sp who="#brave">
+            <speaker>LE BRAVE.</speaker>
+            <l>Allons penser à nostre affaire,</l>
+            <l>Pour quand Vérité reviendra.</l>
+            <l>On ne vit onc oeuvre semblable:</l>
+            <l>Nous sommes des valers du diable,</l>
+            <l>Nous ferons plus qu'on ne voudra.</l>
+          </sp>
+          <stage>Ils s'en vont comme ils sont entrez, après Bridoye sonnant la vielle.</stage>
+          <sp who="#le_temps">
+            <speaker>LE TEMPS QUI COURT.</speaker>
+            <l>Messieurs, tout au plus bref que possible a esté,</l>
+            <l>Vous avez veu comment le Monde on a traité,</l>
+            <l>Et l'ordre qu'on a mis au mal qui le tormente,</l>
+            <l>Mais tel qu'encores plus il gémit &amp; lamente,</l>
+            <l>Pource que tout son cas s'en va de mal en pis.</l>
+            <l>Aussi avez ouy les propos &amp; devis</l>
+            <l>Qu'ont tenu, pour chasser la Vérité très fainte,</l>
+            <l>Ceux qui, par son moyen, de leur dommage ont crainte,</l>
+            <l>Faisans sur ce complots, selon leurs fols desseins;</l>
+            <l>Et, si mal fait ils ont, ils apprestent leurs mains</l>
+            <l>A faire pis encor, sans amender leur vie.</l>
+            <l>La noise &amp; le discord &amp; la gloire &amp; l'envie,</l>
+            <l>Qui aux cours de plusieurs aujourd'huy tiennent lieu,</l>
+            <l>Pour le Monde ont dressé ce povre &amp; piteux jeu,</l>
+            <l>Ainsi que voir on peut par vraye expérience.</l>
+            <l>S'adresant aux Seigneurs des deux villes.</l>
+            <l>Vous donc, Nobles Seigneurs, pleins de grande prudence,</l>
+            <l>Qui vous entretenez en parfaite union,</l>
+            <l>Maintenans équité, chassans ambition,</l>
+            <l>N'estes-vous pas heureux par concorde si belle?</l>
+            <l>Vivez donques tousjours en félicité telle</l>
+            <l>Que vos Estats unis soyent deux bastions forts,</l>
+            <l>Pour du malheur au loin repousser les efforts,</l>
+            <l>Comme à la vérité ils seront en tous aages,</l>
+            <l>Tandis qu'à bonne fin s'uniront vos courages.</l>
+            <l>Ainsi le vous prédit le présent Temps qui court,</l>
+            <l>Et, pour vous asseurer, vous propose l'exemple</l>
+            <l>Du mal qui maintenant tient maints autres de court,</l>
+            <l>Cependant que conjoints vivez heureux ensemble.</l>
+          </sp>
+        </div>
+        <trailer>FIN.</trailer>
       </div>
-      <trailer>FIN.</trailer>
     </body>
   </text>
 </TEI>
