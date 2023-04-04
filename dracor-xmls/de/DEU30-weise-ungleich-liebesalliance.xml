@@ -195,10 +195,17 @@
           </person>
         </listPerson>
       </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <revisionDesc>
       <listChange>
         <change when="2022-12-08">(LG) conversion from source.</change>
+        <change when="2023-04-04">(LG) added genre tag.</change>
       </listChange>
     </revisionDesc>
   </teiHeader>

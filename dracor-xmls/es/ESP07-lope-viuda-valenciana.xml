@@ -91,15 +91,16 @@
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"></term>
+          <term type="genreTitle">Comedy</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/"></classCode>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <listChange>
         <change when="2022-11-17">(DS/LG) conversion from source and editing.</change>
         <change when="2023-02-10">(LG) updated formatting.</change>
+        <change when="2023-04-04">(LG) added genre tag.</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
