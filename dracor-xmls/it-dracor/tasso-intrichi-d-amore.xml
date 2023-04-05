@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ita000135" xml:lang="ita">
   <teiHeader>
     <fileDesc>
@@ -80,6 +81,10 @@
         <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
       </textClass>
       <particDesc>
         <listPerson>
@@ -132,20 +137,11 @@
       </particDesc>
     </profileDesc>
     <revisionDesc>
-      <change>
-                <date>Data sconosciuta anteriore al 2000</date>
-                <name>LEXIS</name>Digitalizzazione - OCR</change>
-      <change>
-                <date>Data sconosciuta anteriore al 2000</date>
-                <name>LEXIS</name>Correzione linguistica</change>
-      <change>
-                <date>2007-03-27T00:00:00.000+02:00</date>
-                <name>Valeriano Fiori</name>
-                <name>BIBIT</name>Codifica XML - Codifica manuale</change>
-      <change>
-                <date>2007-04-19T00:00:00.000+02:00</date>
-                <name>Carla Deiana</name>
-                <name>BIBIT</name>Validazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LEXIS</name>Digitalizzazione - OCR</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LEXIS</name>Correzione linguistica</change>
+      <change><date>2007-03-27T00:00:00.000+02:00</date><name>Valeriano Fiori</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2007-04-19T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
+      <change when="2023-04-04">(LG) added genre tag.</change>
     </revisionDesc>
   </teiHeader>
   <standOff>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ita000133" xml:lang="ita">
   <teiHeader>
     <fileDesc>
@@ -114,22 +115,10 @@
       </particDesc>
     </profileDesc>
     <revisionDesc>
-      <change>
-                <date>2001-10-15T00:00:00.000+02:00</date>
-                <name>Camilla Ghedini</name>
-                <name>CIBIT - Ferrara</name>Digitalizzazione</change>
-      <change>
-                <date>2001-10-15T00:00:00.000+02:00</date>
-                <name>Camilla Ghedini</name>
-                <name>CIBIT - Ferrara</name>Correzione linguistica</change>
-      <change>
-                <date>2001-11-15T00:00:00.000+02:00</date>
-                <name>Valentina Gritti</name>
-                <name>CIBIT - Ferrara</name>Codifica XML</change>
-      <change>
-                <date>2003-06-03T00:00:00.000+02:00</date>
-                <name>Elena Pierazzo</name>
-                <name>BIBIT</name>Validazione</change>
+      <change><date>2001-10-15T00:00:00.000+02:00</date><name>Camilla Ghedini</name><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>2001-10-15T00:00:00.000+02:00</date><name>Camilla Ghedini</name><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2001-11-15T00:00:00.000+02:00</date><name>Valentina Gritti</name><name>CIBIT - Ferrara</name>Codifica XML</change>
+      <change><date>2003-06-03T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <standOff>
@@ -197,16 +186,13 @@
           <l>fosse nascosto un Dio? non mica un Dio</l>
           <l>selvaggio, o della plebe delli Dei,</l>
           <l>ma tra' grandi e celesti il più potente,</l>
-          <l>che fa spesso cader di mano a <name>Marte</name>
-                    </l>
-          <l>la sanguinosa spada, et a <name>Nettuno</name>
-                    </l>
+          <l>che fa spesso cader di mano a <name>Marte</name></l>
+          <l>la sanguinosa spada, et a <name>Nettuno</name></l>
           <l>scotitor della terra il gran tridente,</l>
           <l>e le folgori eterne al sommo <name>Giove</name>.</l>
           <l>In questo aspetto, certo, e in questi panni</l>
           <l>non riconoscerà sì di leggiero</l>
-          <l>
-                        <name>Venere</name> madre me suo figlio <name>Amore</name>.</l>
+          <l><name>Venere</name> madre me suo figlio <name>Amore</name>.</l>
           <l>Io da lei son constretto di fuggire</l>
           <l>e celarmi da lei, perch'ella vuole</l>
           <l>ch'io di me stesso e delle mie saette</l>
@@ -390,8 +376,7 @@
             <l>simplicitate, e dissi sospirando:</l>
             <l>"Eccoti, <name>Cintia</name>, il corno, eccoti l'arco,</l>
             <l>ch'io rinuntio i tuoi studi e la tua vita".</l>
-            <l>Così spero veder ch'anco il tuo <name>Aminta</name>
-                        </l>
+            <l>Così spero veder ch'anco il tuo <name>Aminta</name></l>
             <l>pur un giorno domestichi la tua</l>
             <l>rozza salvatichezza, et ammolisca</l>
             <l>questo tuo cor di ferro e di macigno.</l>
@@ -402,8 +387,7 @@
             <l>Se tu sei figlia di <name>Cidippe</name>, a cui</l>
             <l>fu padre il dio di questo nobil fiume,</l>
             <l>et egli è figlio di <name>Silvano</name>, a cui</l>
-            <l>
-                            <name>Panne</name> fu padre, il gran dio de' pastori.</l>
+            <l><name>Panne</name> fu padre, il gran dio de' pastori.</l>
             <l>Non è men di te bella, se ti guardi</l>
             <l>dentro lo specchio mai d'alcuna fonte,</l>
             <l>la candida <name>Amarilli</name>; e pur ei sprezza </l>
@@ -452,8 +436,7 @@
           </sp>
           <sp who="#silvia">
             <speaker>SILVIA</speaker>
-            <l part="F">
-                            <name>Dafne</name>, o taci, o parla</l>
+            <l part="F"><name>Dafne</name>, o taci, o parla</l>
             <l part="I">d'altro, se vuoi risposta.</l>
           </sp>
           <sp who="#dafne">
@@ -539,12 +522,10 @@
             <l>è però mal commune. Hor non ramenti</l>
             <l>ciò che l'altr'hieri <name>Elpino</name> racontava,</l>
             <l>il saggio <name>Elpino</name> a la bella <name>Licori</name>,</l>
-            <l>
-                            <name>Licori</name> che'n <name>Elpin</name> puote con gli occhi</l>
+            <l><name>Licori</name> che'n <name>Elpin</name> puote con gli occhi</l>
             <l>quel ch'ei potere in lei devria co'l canto,</l>
             <l>se 'l devere in amor si ritrovasse.</l>
-            <l>E 'l racontava udendo <name>Batto</name> e <name>Tirsi</name>
-                        </l>
+            <l>E 'l racontava udendo <name>Batto</name> e <name>Tirsi</name></l>
             <l>gran maestri d'amore, e 'l racontava</l>
             <l>ne l'antro de l'Aurora, ove su l'uscio</l>
             <l>è scritto: Lunge, o lunge ite, profani.</l>
@@ -707,8 +688,7 @@
           <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Io son contento.</l>
-            <l>
-                            <name>Tirsi</name>, a te dir ciò che le selve e i monti</l>
+            <l><name>Tirsi</name>, a te dir ciò che le selve e i monti</l>
             <l>e i fiumi sanno, e gli huomini non sanno.</l>
             <l>Ch'io son homai sì presso alla morte,</l>
             <l>ch'è ben ragion ch'io lasci chi ridica</l>
@@ -741,14 +721,11 @@
             <l>de gli arboscelli, intrinseco divenni</l>
             <l>de la più vaga e cara virginella</l>
             <l>che mai spiegasse al vento chiome d'oro.</l>
-            <l>La figliola conosci di <name>Cidippe</name>
-                        </l>
+            <l>La figliola conosci di <name>Cidippe</name></l>
             <l>e di <name>Montan</name>, richissimo d'armenti,</l>
-            <l>
-                            <name>Silvia</name>, honor de le selve, ardor de l'arme?</l>
+            <l><name>Silvia</name>, honor de le selve, ardor de l'arme?</l>
             <l>Di questa parlo, ahi lasso; vissi a questa</l>
-            <l>così unito alcun tempo, che fra <num value="2">due</num>
-                        </l>
+            <l>così unito alcun tempo, che fra <num value="2">due</num></l>
             <l>tortorelle più fida compagnia</l>
             <l>non sarà mai, né fue.</l>
             <l>Congiunti eran gli alberghi,</l>
@@ -785,8 +762,7 @@
           </sp>
           <sp who="#aminta">
             <speaker>AMINTA</speaker>
-            <l>A l'ombra d'un bel faggio <name>Silvia</name> e <name>Filli</name>
-                        </l>
+            <l>A l'ombra d'un bel faggio <name>Silvia</name> e <name>Filli</name></l>
             <l>sedean un giorno, et io con loro insieme,</l>
             <l>quando un'ape ingegnosa, che cogliendo</l>
             <l>s'en giva il mel per que' prati fioriti,</l>
@@ -794,8 +770,7 @@
             <l>a le guancie vermiglie come rosa,</l>
             <l>le morse e le rimorse avidamente:</l>
             <l>ch'a la similitudine ingannata</l>
-            <l>forse un fior le credette. All'hora <name>Filli</name>
-                        </l>
+            <l>forse un fior le credette. All'hora <name>Filli</name></l>
             <l>cominciò a lamentarsi, impatiente</l>
             <l>de l'acuto dolor de la pontura:</l>
             <l>ma la mia bella <name>Silvia</name> disse:Taci,</l>
@@ -865,8 +840,7 @@
             <l>e facevamo alcuni nostri giochi,</l>
             <l>che ciaschun ne l'orecchio del vicino</l>
             <l>mormorando diceva un suo secreto.</l>
-            <l>
-                            <name>Silvia</name>,le dissi - io per te ardo certo</l>
+            <l><name>Silvia</name>,le dissi - io per te ardo certo</l>
             <l>morrò se non m'aiti.A quel parlare</l>
             <l>chinò ella il bel volto, e fuor gli venne</l>
             <l>un improviso, insolito rossore</l>
@@ -916,17 +890,14 @@
           <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">Giusta cagione</l>
-            <l>ho al mio disperar, ch'el saggio <name>Mopso</name>
-                        </l>
+            <l>ho al mio disperar, ch'el saggio <name>Mopso</name></l>
             <l>mi predisse la mia cruda ventura,</l>
-            <l>
-                            <name>Mopso</name> ch'intende il parlar de gli augelli</l>
+            <l><name>Mopso</name> ch'intende il parlar de gli augelli</l>
             <l>e la virtù de l'herbe e de le fonti.</l>
           </sp>
           <sp who="#tirsi">
             <speaker>TIRSI</speaker>
-            <l>Di qual <name>Mopso</name> tu dici? di quel <name>Mopso</name>
-                        </l>
+            <l>Di qual <name>Mopso</name> tu dici? di quel <name>Mopso</name></l>
             <l>ch'ha ne la lingua melate parole,</l>
             <l>e ne le labra un amichevol ghigno,</l>
             <l>e la fraude nel seno, et il rasoio</l>
@@ -1010,13 +981,11 @@
             <l>celesti dee, ninfe leggiadre e belle,</l>
             <l>nuovi Lini et Orfei; et oltre ancora,</l>
             <l>senza vel, senza nube, e quale e quanta</l>
-            <l>a gli immortali appar, vergine <name>Aurora</name>
-                        </l>
+            <l>a gli immortali appar, vergine <name>Aurora</name></l>
             <l>sparger d'argento e d'or ruggiade e raggi;</l>
             <l>e fecondando illuminar d'intorno</l>
             <l>vidi <name>Febo</name>, e le Muse; e fra le Muse</l>
-            <l>
-                            <name>Elpin</name> seder accolto; et in quel punto</l>
+            <l><name>Elpin</name> seder accolto; et in quel punto</l>
             <l>sentii me far di me stesso maggiore,</l>
             <l>pien di nova virtù, pieno di nova</l>
             <l>deitade, e cantai guerre et herroi,</l>
@@ -1240,8 +1209,7 @@
           </stage>
           <sp who="#dafne">
             <speaker>DAFNE</speaker>
-            <l>
-                            <name>Tirsi</name>, com'io t'ho detto, io m'era accorta</l>
+            <l><name>Tirsi</name>, com'io t'ho detto, io m'era accorta</l>
             <l>ch'<name>Aminta</name> amava <name>Silvia</name>: e <name>Dio</name> sa quanti</l>
             <l>buoni offici n'ho fatti, e son per farli</l>
             <l>tanto più volontier, quanto hor vi aggiungi</l>
@@ -1282,8 +1250,7 @@
           </sp>
           <sp who="#tirsi">
             <speaker>TIRSI</speaker>
-            <l part="F">
-                            <name>Dafne</name> ha nome.</l>
+            <l part="F"><name>Dafne</name> ha nome.</l>
           </sp>
           <sp who="#dafne">
             <speaker>DAFNE</speaker>
@@ -1359,10 +1326,8 @@
             <l>d'andare a la cittade. Hor son meschiate</l>
             <l>schiatte e costumi. Ma lasciam da parte</l>
             <l>questi discorsi: hor non farai ch'un giorno</l>
-            <l>
-                            <name>Silvia</name> contenta sia che le ragioni</l>
-            <l>
-                            <name>Aminta</name>, o solo o almeno in tua presenza?</l>
+            <l><name>Silvia</name> contenta sia che le ragioni</l>
+            <l><name>Aminta</name>, o solo o almeno in tua presenza?</l>
           </sp>
           <sp who="#dafne">
             <speaker>DAFNE</speaker>
@@ -1490,8 +1455,7 @@
             <l>Periglioso è cercar quel che trovato</l>
             <l>trastulla sì, ma più tormenta assai</l>
             <l>non ritrovato. All'hor vedrassi amante</l>
-            <l>
-                            <name>Tirsi</name> mai più, ch'<name>Amor</name> nel regno suo</l>
+            <l><name>Tirsi</name> mai più, ch'<name>Amor</name> nel regno suo</l>
             <l>non avrà più né pianti né sospiri.</l>
             <l>A bastanza ho già pianto e sospirato.</l>
             <l>Faccia altri hor la sua parte.</l>
@@ -1581,8 +1545,7 @@
             <l>colti di fecondissime campagne.</l>
             <l>e per gli alpestri dossi d'Apenino.</l>
             <l>Egli mi disse, all'hor che suo mi fece:</l>
-            <l>
-                            <name>Tirsi</name>, altri scacci i lupi e i ladri, e guardi</l>
+            <l><name>Tirsi</name>, altri scacci i lupi e i ladri, e guardi</l>
             <l>i miei murati ovili; altri comparta</l>
             <l>le pene e i premi a' miei ministri; et altri</l>
             <l>pasca e curi le gregge; altri conservi</l>
@@ -1628,8 +1591,7 @@
           <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>Se ben raviso di lontan la faccia,</l>
-            <l>
-                            <name>Aminta</name> è quel che di là spunta. È desso.</l>
+            <l><name>Aminta</name> è quel che di là spunta. È desso.</l>
           </sp>
         </div>
         <div type="scene">
@@ -1718,15 +1680,13 @@
           </sp>
           <sp who="#tirsi">
             <speaker>TIRSI</speaker>
-            <l>
-                            <name>Silvia</name> attende a una fonte, ignuda e sola.</l>
+            <l><name>Silvia</name> attende a una fonte, ignuda e sola.</l>
             <l part="I">Ardirai tu d'andarvi?</l>
           </sp>
           <sp who="#aminta">
             <speaker>AMINTA</speaker>
             <l part="F">O, che mi dici?</l>
-            <l>
-                            <name>Silvia</name> m'attende ignuda e sola?</l>
+            <l><name>Silvia</name> m'attende ignuda e sola?</l>
           </sp>
           <sp who="#tirsi">
             <speaker>TIRSI</speaker>
@@ -1848,8 +1808,7 @@
           <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l part="F">E poco parti questo?</l>
-            <l>Credi dunque tu, sciocco, che mai <name>Dafne</name>
-                        </l>
+            <l>Credi dunque tu, sciocco, che mai <name>Dafne</name></l>
             <l>consigliasse l'andar, se non vedesse</l>
             <l>in parte il cor di <name>Silvia</name>? E forse ch'ella</l>
             <l>il sa, nè vuol però ch'altri risappia</l>
@@ -1900,8 +1859,7 @@
           </sp>
           <sp who="#coro">
             <speaker>CHORO</speaker>
-            <l>
-                            <name>Amor</name>, in quale scola,</l>
+            <l><name>Amor</name>, in quale scola,</l>
             <l>da qual mastro s'apprende</l>
             <l>la tua sì lunga e dubbia arte d'amare?</l>
             <l>Chi n'insegna a spiegare</l>
@@ -1917,8 +1875,7 @@
             <l>come a te si conviene;</l>
             <l>non alza i suoi pensieri</l>
             <l>a par de' tuoi misteri.</l>
-            <l>
-                            <name>Amor</name>, degno maestro</l>
+            <l><name>Amor</name>, degno maestro</l>
             <l>sol tu sei di te stesso,</l>
             <l>e sol tu sei da te medesmo espresso;</l>
             <l>tu di leggiero insegni</l>
@@ -1937,8 +1894,7 @@
             <l>che non si fa con voci adorne e dotte;</l>
             <l>e 'l silenzio ancor suole</l>
             <l>haver prieghi e parole.</l>
-            <l>
-                            <name>Amor</name>, leggan pur gli altri</l>
+            <l><name>Amor</name>, leggan pur gli altri</l>
             <l>le socratiche carte,</l>
             <l>ch'io in <num value="2">due</num> belli occhi apprenderò quest'arte;</l>
             <l>e perderan le rime</l>
@@ -1962,8 +1918,7 @@
           <sp who="#tirsi">
             <speaker>TIRSI</speaker>
             <l>O crudeltade estrema, o ingrato core,</l>
-            <l>o donna ingrata, o <num value="3">tre</num> fiate e <num value="4">quatro</num>
-                        </l>
+            <l>o donna ingrata, o <num value="3">tre</num> fiate e <num value="4">quatro</num></l>
             <l>ingratissimo sesso! E tu, Natura,</l>
             <l>negligente maestra, perché solo</l>
             <l>a le donne nel volto e 'n quel di fuori</l>
@@ -2010,8 +1965,7 @@
           </sp>
           <sp who="#coro">
             <speaker>CORO</speaker>
-            <l>
-                            <num value="2">Duo</num> potenti nemici, insieme aggiunti,</l>
+            <l><num value="2">Duo</num> potenti nemici, insieme aggiunti,</l>
             <l>che far non ponno? Ma parla più chiaro.</l>
           </sp>
           <sp who="#tirsi">
@@ -2042,8 +1996,7 @@
             <l>pur mal suo grado, inanti. Hor quando homai</l>
             <l>c'era il fonte vicino, ecco, sentiamo</l>
             <l>un feminil lamento e quasi a un tempo</l>
-            <l>
-                            <name>Dafne</name> veggiam, che battea palma a palma;</l>
+            <l><name>Dafne</name> veggiam, che battea palma a palma;</l>
             <l>la qual, come ci vide, alzò la voce:</l>
             <l>- Accorrete - gridò - <name>Silvia</name> è sforzata. -</l>
             <l>L'inamorato <name>Aminta</name>, che ciò intese,</l>
@@ -2064,8 +2017,7 @@
             <l>che di ligarla pur all'hor finia.</l>
             <l>Ella quanto potea faceva schermo:</l>
             <l>ma che potuto havrebbe a lungo andare?</l>
-            <l>
-                            <name>Aminta</name>, con un dardo che tenea</l>
+            <l><name>Aminta</name>, con un dardo che tenea</l>
             <l>ne la man destra, al satiro aventossi</l>
             <l>come un leone, et io fra tanto pieno</l>
             <l>m'havea di sassi il grembo: onde fuggissi.</l>
@@ -2311,8 +2263,7 @@
             <l>ecco, di non so donde, un lupo sbuca,</l>
             <l>grande fuor di misura, e da le labra</l>
             <l>gli gocciolava una bava sanguigna;</l>
-            <l>
-                            <name>Silvia</name> un quadrello adatta in su la corda</l>
+            <l><name>Silvia</name> un quadrello adatta in su la corda</l>
             <l>d'un arco ch'io le diedi, e 'l tira, e 'l coglie</l>
             <l>a sommo il capo: ei si rinselva, et ella,</l>
             <l>vibrando un dardo, dentro il bosco il segue.</l>
@@ -2426,8 +2377,7 @@
           </sp>
           <sp who="#dafne">
             <speaker>DAFNE</speaker>
-            <l>
-                            <name>Aminta</name>, aspetta, ascolta.</l>
+            <l><name>Aminta</name>, aspetta, ascolta.</l>
             <l>Ohimè, con quanta furia egli si parte!</l>
           </sp>
           <sp who="#nirina">
@@ -2855,8 +2805,7 @@
             <l>Prenderò quella via</l>
             <l>che, se non la devuta,</l>
             <l>almen fia la più breve.</l>
-            <l>
-                            <name>Silvia</name>, io ti seguo, io vengo</l>
+            <l><name>Silvia</name>, io ti seguo, io vengo</l>
             <l>a farti compagnia,</l>
             <l>se non la sdegnarai:</l>
             <l>e morirei contento,</l>
@@ -2865,8 +2814,7 @@
             <l>turbar non ti dovesse,</l>
             <l>e che fosse finita</l>
             <l>l'ira tua con la vita.</l>
-            <l>
-                            <name>Silvia</name>, io ti seguo, io vengo. - E così detto</l>
+            <l><name>Silvia</name>, io ti seguo, io vengo. - E così detto</l>
             <l>precipitossi d'alto</l>
             <l>co 'l capo in giuso: et io restai di ghiaccio.</l>
           </sp>
@@ -2933,8 +2881,7 @@
             <l>ma restò sol per fare in me vendetta</l>
             <l>de l'empio mio rigore</l>
             <l>e del suo amaro fine.</l>
-            <l>
-                            <name>Cinto</name>, infelice cinto</l>
+            <l><name>Cinto</name>, infelice cinto</l>
             <l>di signor più infelice,</l>
             <l>non ti spiaccia restarne</l>
             <l>in sì odioso albergo,</l>
@@ -2962,8 +2909,7 @@
             <l>del misero innocente,</l>
             <l>questo è picciolo segno</l>
             <l>a sì alta cagione. E tu rasciuga,</l>
-            <l>
-                            <name>Dafne</name>, queste tue lagrime, per <name>Dio</name>,</l>
+            <l><name>Dafne</name>, queste tue lagrime, per <name>Dio</name>,</l>
             <l>se cagion ne son io.</l>
             <l>Ben ti voglio pregare,</l>
             <l>non per pietà di me, ma per pietade</l>
@@ -3054,8 +3000,7 @@
           </stage>
           <sp who="#elpino">
             <speaker>ELPINO</speaker>
-            <l>Veramente la legge con che <name>Amore</name>
-                        </l>
+            <l>Veramente la legge con che <name>Amore</name></l>
             <l>il suo imperio governa eternamente</l>
             <l>non è dura et obliqua; e l'opre sue,</l>
             <l>piene di providenza e di mistero,</l>
@@ -3114,8 +3059,7 @@
             <l>quanto spietata già tant'hor pietosa;</l>
             <l>e le rasciuga da' begli occhi il pianto</l>
             <l>con la sua bocca. Io a trovar ne vado</l>
-            <l>
-                            <name>Montano</name>, di lei padre, et a condurlo</l>
+            <l><name>Montano</name>, di lei padre, et a condurlo</l>
             <l>colà dov'essi stanno; e solo il suo</l>
             <l>volere è quel che manca, e che prolunga</l>
             <l>il concorde voler d'ambo <num value="2">due</num> loro.</l>
@@ -3123,14 +3067,12 @@
           <sp who="#coro">
             <speaker>CORO</speaker>
             <l>Pari l'età, la gentilezza à pari,</l>
-            <l>e concorde il desio: e 'l buon <name>Montano</name>
-                        </l>
+            <l>e concorde il desio: e 'l buon <name>Montano</name></l>
             <l>vago è d'haver nepoti e di munire</l>
             <l>di sì dolce presidio la vecchiaia,</l>
             <l>sì che farà del lor volere il suo.</l>
             <l>Ma tu, deh <name>Elpin</name>, narra qual Dio, qual sorte</l>
-            <l>nel periglioso precipitio <name>Aminta</name>
-                        </l>
+            <l>nel periglioso precipitio <name>Aminta</name></l>
             <l part="I">habbia salvato.</l>
           </sp>
           <sp who="#elpino">
@@ -3176,8 +3118,7 @@
             <l>che, come intesi poi, givan cercando</l>
             <l>quel corpo che credean di vita privo.</l>
             <l>Ma, come <name>Silvia</name> il riconobbe, e vide</l>
-            <l>le belle guancie tenere d'<name>Aminta</name>
-                        </l>
+            <l>le belle guancie tenere d'<name>Aminta</name></l>
             <l>iscolorite in si leggiadri modi</l>
             <l>che vïola non è ch'impallidisca</l>
             <l>sì dolcemente, e lui languir sì fatto</l>
@@ -3211,22 +3152,19 @@
             <l>Hor chi potrebbe dir come in quel punto</l>
             <l>rimanessero entrambi, fatto certo</l>
             <l>ciascun de l'altrui vita, e fatto certo</l>
-            <l>
-                            <name>Aminta</name> de l'amor de la sua ninfa,</l>
+            <l><name>Aminta</name> de l'amor de la sua ninfa,</l>
             <l>e vistosi con lei congiunto e stretto?</l>
             <l>Chi è servo d'Amor, per sé lo stimi;</l>
             <l>ma non si può stimar, non che ridire.</l>
           </sp>
           <sp who="#coro">
             <speaker>CORO</speaker>
-            <l>
-                            <name>Aminta</name> è sano sì ch'egli sia fuori</l>
+            <l><name>Aminta</name> è sano sì ch'egli sia fuori</l>
             <l part="I">del rischio de la vita?</l>
           </sp>
           <sp who="#elpino">
             <speaker>ELPINO</speaker>
-            <l part="F">
-                            <name>Aminta</name> è sano,</l>
+            <l part="F"><name>Aminta</name> è sano,</l>
             <l>se non ch'alquanto pur graffiato ha il viso</l>
             <l>et alquanto dirotta la persona;</l>
             <l>ma sarà nulla, et ei per nulla il tiene.</l>

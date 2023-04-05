@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ita000137" xml:lang="ita">
   <teiHeader>
     <fileDesc>
@@ -83,6 +84,10 @@
         <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
       <particDesc>
         <listPerson>
@@ -120,20 +125,11 @@
       </particDesc>
     </profileDesc>
     <revisionDesc>
-      <change>
-                <date>Data sconosciuta anteriore al 2000</date>
-                <name>CIBIT - Pavia</name>Digitalizzazione</change>
-      <change>
-                <date>Data sconosciuta anteriore al 2000</date>
-                <name>CIBIT - Pavia</name>Correzione linguistica</change>
-      <change>
-                <date>2003-08-28T00:00:00.000+02:00</date>
-                <name>Daniele Silvi</name>
-                <name>BIBIT</name>Codifica XML - Codifica con software</change>
-      <change>
-                <date>2003-09-13T00:00:00.000+02:00</date>
-                <name>Elena Pierazzo</name>
-                <name>BIBIT</name>Validazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Pavia</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Pavia</name>Correzione linguistica</change>
+      <change><date>2003-08-28T00:00:00.000+02:00</date><name>Daniele Silvi</name><name>BIBIT</name>Codifica XML - Codifica con software</change>
+      <change><date>2003-09-13T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
+      <change when="2023-04-04">(LG) added genre tag.</change>
     </revisionDesc>
   </teiHeader>
   <standOff>
@@ -289,8 +285,7 @@ più lungamente meriterebbon di vivere.</p>
           <l>c'hor ho di latte asperse, ognihor di pianto;</l>
           <l>o de l'amato mio dolce consorte</l>
           <l>alma gentil, che tra gli ombrosi mirti</l>
-          <l>
-                        <pb n="165"/>de' verdi campi Elisi errando vai:</l>
+          <l><pb n="165"/>de' verdi campi Elisi errando vai:</l>
           <l>se i bei lumi girar non t'è concesso</l>
           <l>ne gli occhi miei, che già ti furo specchi;</l>
           <l>se bear quest'orecchie hora non puoi</l>
@@ -320,8 +315,7 @@ più lungamente meriterebbon di vivere.</p>
           <l>carca d'affanni, e di consiglio vuota?</l>
           <l>Tu, ch'accorto nocchiero al suo governo</l>
           <l>sedesti un tempo, e per l'onde tranquille</l>
-          <l>
-                        <pb n="166"/>
+          <l><pb n="166"/>
 la scorgesti felice ove ti parve:</l>
           <l>vedi che da terribili procelle</l>
           <l>combattuta è, sì che di lei si spera</l>
@@ -348,8 +342,7 @@ la scorgesti felice ove ti parve:</l>
           <l>Perch'offendi l'amato tuo consorte?</l>
           <l>Che t'amò sì, che da le membra sciolto</l>
           <l>ancor t'ama, ti pregia e si querela</l>
-          <l>
-                        <pb n="167"/>
+          <l><pb n="167"/>
 ch'egli, che vive in te, da te sia spento,</l>
           <l>che teco un'alma fu sola e felice;</l>
           <l>parte in lui ne recise il crudo ferro,</l>
@@ -387,9 +380,7 @@ ch'egli, che vive in te, da te sia spento,</l>
           <speaker>MER.</speaker>
           <l> Poco può più con l'opra o con l'ingegno</l>
           <l>Gabria giovarmi, benché accorto e fido.</l>
-          <l>
-                        <pb n="168"/>
-                    </l>
+          <l><pb n="168"/></l>
         </sp>
         <sp who="#nutrice">
           <speaker>NUT.</speaker>
@@ -421,8 +412,7 @@ ch'egli, che vive in te, da te sia spento,</l>
           <l>Ei soffrendo e bramando al fine è giunto:</l>
           <l>hor ti domanda ch'al dovuto effetto</l>
           <l>si congiunga la regia tua parola;</l>
-          <l>
-                        <pb n="169"/>
+          <l><pb n="169"/>
 ti supplica, se il lungo suo servire</l>
           <l>degno ti par di premio o di mercede,</l>
           <l>che lieta ti prepari a l'alte nozze,</l>
@@ -455,8 +445,7 @@ ti supplica, se il lungo suo servire</l>
           <l>Noi siam fedeli tuoi, siam tuoi devoti,</l>
           <l>ma pur, teco soggetti a l'aspro giogo,</l>
           <l>di Polifonte sopportiam l'orgoglio;</l>
-          <l>
-                        <pb n="170"/>
+          <l><pb n="170"/>
 né l'amor t'assicuri ond'egli avampa,</l>
           <l>che, mentre l'ha pasciuto la speranza</l>
           <l>di conseguire il desiato bene,</l>
@@ -495,8 +484,7 @@ né l'amor t'assicuri ond'egli avampa,</l>
           <l> Gabria fedel, tu sai d'ogni altro meglio</l>
           <l>qual pensier mi sia preso, quai perigli</l>
           <l>comprato indarno m'habbia, poi che noi</l>
-          <l>
-                        <pb n="171"/>
+          <l><pb n="171"/>
 perdemmo il regno, e 'l mio signor la vita,</l>
           <l>per liberar costor dal fier artiglio</l>
           <l>del tiranno, ch'ogni huom tant'odia e teme:</l>
@@ -526,8 +514,7 @@ perdemmo il regno, e 'l mio signor la vita,</l>
           <l>hebbe poco agio d'oltraggiar altrui:</l>
           <l>che forse quell'ardor, che nel suo petto</l>
           <l>destò il cieco fanciullo, se pasciuto</l>
-          <l>
-                        <pb n="172"/>
+          <l><pb n="172"/>
 fosse stato da l'ozio, o inganno o forza</l>
           <l>contra me mosso havria: ma, soffocato</l>
           <l>da le spinose cure de la guerra,</l>
@@ -563,8 +550,7 @@ fosse stato da l'ozio, o inganno o forza</l>
           <l>proveder ti convien, ma al proprio figlio,</l>
           <l>al figlio ch'assai più che te stess'ami,</l>
           <l>che ne l'essiglio sol trovato ha scampo,</l>
-          <l>
-                        <pb n="173"/>
+          <l><pb n="173"/>
 e ne l'essiglio ancor mal può la vita</l>
           <l>guardar da tante reti che son tese.</l>
           <l>Hor se placar si può l'empio tiranno</l>
@@ -595,8 +581,7 @@ e ne l'essiglio ancor mal può la vita</l>
           <l>Voi non riscuoto, e vo a perder me stessa,</l>
           <l>che dolce premio a me saria la morte,</l>
           <l>s'io spendessi la vita in liberarvi;</l>
-          <l>
-                        <pb n="174"/>
+          <l><pb n="174"/>
 ma solo accrescerei gioia al nimico</l>
           <l>con queste nozze, a voi danno e dolore.</l>
           <l>Né men dêi creder che 'l mio amato figlio</l>
@@ -628,8 +613,7 @@ ma solo accrescerei gioia al nimico</l>
           <l> Se Polifonte ancor non fosse cinto</l>
           <l>da' satelliti suoi, che notte e giorno</l>
           <l>gli fan de l'armi sue corona intorno,</l>
-          <l>
-                        <pb n="175"/>
+          <l><pb n="175"/>
 pur dovresti tremare a l'alta impresa.</l>
           <l>Hor come e donna e sola uccider pensi</l>
           <l>huom d'aspetto e di forza sì feroce?</l>
@@ -663,8 +647,7 @@ pur dovresti tremare a l'alta impresa.</l>
           <l>Io d'hora in hora sto aspettando il messo</l>
           <l>ch'a lui mando sovente, ad avvertirlo</l>
           <l>di quanto occorre; e già passato è il tempo</l>
-          <l>
-                        <pb n="176"/>
+          <l><pb n="176"/>
 che dovrebb' esser giunto, ond'io mi vivo</l>
           <l>più pensosa di lui che di me stessa.</l>
         </sp>
@@ -694,8 +677,7 @@ che dovrebb' esser giunto, ond'io mi vivo</l>
           <l>Io con cangiate spoglie</l>
           <l>e con lieti ornamenti</l>
           <l>accompagnando, ove farà mestiere,</l>
-          <l>
-                        <pb n="177"/>
+          <l><pb n="177"/>
 viso, guardi e parole,</l>
           <l>ordirò vari lacci a l'empia fera.</l>
         </sp>
@@ -730,8 +712,7 @@ viso, guardi e parole,</l>
           <l>cinto ei di persa il crin scuota la face,</l>
           <l>e ne le guerre tue porti la pace.</l>
           <l>Ma perché così sola</l>
-          <l>
-                        <pb n="178"/>
+          <l><pb n="178"/>
 ti scorgiamo, o Reina,</l>
           <l>o d'ogni nostra speme unico segno</l>
           <l>e de le vite nostre alta colonna?</l>
@@ -764,8 +745,7 @@ ti scorgiamo, o Reina,</l>
           <l>con chioma d'angui venenosi attorta;</l>
           <l>vesta la fraude il manto</l>
           <l>di diversi colori,</l>
-          <l>
-                        <pb n="179"/>
+          <l><pb n="179"/>
 e co 'l pianto accordandosi i singulti</l>
           <l>vengano a celebrare</l>
           <l>le nozze ch'io abhorrisco,</l>
@@ -796,8 +776,7 @@ e co 'l pianto accordandosi i singulti</l>
           <l>sol in pianto finisce, e sol s'acqueta</l>
           <l>in quel che più m'annoia.</l>
           <l>Altro non miro o penso,</l>
-          <l>
-                        <pb n="180"/>
+          <l><pb n="180"/>
 ché mirare o pensare altro non posso;</l>
           <l>scorgo insegne di morte,</l>
           <l>e di vermiglio sangue</l>
@@ -829,8 +808,7 @@ ché mirare o pensare altro non posso;</l>
           <l>Ma non sempre sotterra</l>
           <l>stan Febo o sua sorella:</l>
           <l>cedono le pruine e 'l pigro gelo</l>
-          <l>
-                        <pb n="181"/>
+          <l><pb n="181"/>
 a' più graditi fiori;</l>
           <l>dopo gli ardenti soli</l>
           <l>s'orna Pomona il crine</l>
@@ -869,8 +847,7 @@ a' più graditi fiori;</l>
         <sp who="#merope">
           <speaker>MER.</speaker>
           <l> Quest'a morir m'invoglia,</l>
-          <l>
-                        <pb n="182"/>
+          <l><pb n="182"/>
 ch'io pur morendo seco mi starei</l>
           <l>tra quei beati spirti,</l>
           <l>cangiando in dolce e riposata morte</l>
@@ -904,8 +881,7 @@ ch'io pur morendo seco mi starei</l>
           <l>sgombri, vari3 i pensier, cangi i desiri;</l>
           <l>tu n'allumi e n'inspiri</l>
           <l>e per destro camin ne scorgi al fine,</l>
-          <l>
-                        <pb n="183"/>
+          <l><pb n="183"/>
 ove de le fatiche sue riposo,</l>
           <l>ove stato gioioso</l>
           <l>trovan l'alme che qui son pellegrine.</l>
@@ -935,8 +911,7 @@ ove de le fatiche sue riposo,</l>
           <l>contra il ben nostro la malizia humana?</l>
           <l>Lasse, che 'n van si piange e si sospira:</l>
           <l>già ogni nostra speranza,</l>
-          <l>
-                        <pb n="184"/>
+          <l><pb n="184"/>
 fral come vetro e, come nebbia, vana,</l>
           <l>ogn'hor più s'allontana.</l>
           <l>E pur col grave tuon le nubi scuote,</l>
@@ -968,8 +943,7 @@ fral come vetro e, come nebbia, vana,</l>
           <l>di colpe atroci e rie</l>
           <l>nascon quei che i buon tengono oppressi;</l>
           <l>ch'a l'imbrunire, al biancheggiar del die</l>
-          <l>
-                        <pb n="185"/>
+          <l><pb n="185"/>
 hanno nel cor insieme</l>
           <l>e forze, e fraudi, e tradimenti impressi:</l>
           <l>quai fuggendo se stessi</l>
@@ -1003,8 +977,7 @@ hanno nel cor insieme</l>
           <l>pur scende e giunge al fin grave la Pena,</l>
           <l>e co 'l braccio possente i tristi danni,</l>
           <l>la tardanza e 'l tormento</l>
-          <l>
-                        <pb n="186"/>
+          <l><pb n="186"/>
 libra con giusta lance; e, giunta apena,</l>
           <l>con pentir tardo affrena</l>
           <l>gli altrui pensieri e le soverchie voglie:</l>
@@ -1037,8 +1010,7 @@ libra con giusta lance; e, giunta apena,</l>
           <l>mi sto in pace tranquilla, e in ozio vivo:</l>
           <l>così mi morde il cor continua cura,</l>
           <l>e mi combatte con gelata tema</l>
-          <l>
-                        <pb n="187"/>
+          <l><pb n="187"/>
 di mal vicino e di lontan sospetto:</l>
           <l>e perciò vegg' io ben quanto sia meglio</l>
           <l>l'inimico vedere in campo aperto,</l>
@@ -1066,8 +1038,7 @@ di mal vicino e di lontan sospetto:</l>
           <l>chiudendo a tanti affanni homai la porta,</l>
           <l>come al bifronte Giano il tempio ho chiuso.</l>
           <l>Tu, che lo stuolo de la guardia affreni,</l>
-          <l>manda a chiamarmi Gabria. <pb n="188"/>
-                    </l>
+          <l>manda a chiamarmi Gabria. <pb n="188"/></l>
         </sp>
         <sp who="#capitano">
           <speaker>CAP.</speaker>
@@ -1104,8 +1075,7 @@ di mal vicino e di lontan sospetto:</l>
           <l>che solo in comandar parole adopra,</l>
           <l>che i servigi aggradir con fatti serba.</l>
           <l>E perché tu conosca chiaramente</l>
-          <l>
-                        <pb n="189"/>
+          <l><pb n="189"/>
 quanto caro mi sia ciò che m'hai detto</l>
           <l>e quanta stima i' faccia di te stesso,</l>
           <l>oltra l'haverti eletto fra la turba</l>
@@ -1139,8 +1109,7 @@ quanto caro mi sia ciò che m'hai detto</l>
           <l>Ma perch'io t'ho per un di quei fedeli,</l>
           <l>ch'io più cari mi stimo, e più sicuri,</l>
           <l>cosa di più vuo' dirti, che più importa</l>
-          <l>
-                        <pb n="190"/>
+          <l><pb n="190"/>
 al publico interesse de lo stato,</l>
           <l>ov'hai da porre ogni tua forza in opra.</l>
         </sp>
@@ -1177,8 +1146,7 @@ al publico interesse de lo stato,</l>
         <sp who="#coro">
           <speaker>CHORO</speaker>
           <l> Come si sottopone e si riserva?</l>
-          <l>
-                        <pb n="191"/>
+          <l><pb n="191"/>
 Ben ne l'averse e torbide procelle</l>
           <l>il perito pilota si conosce.</l>
         </sp>
@@ -1211,9 +1179,7 @@ Ben ne l'averse e torbide procelle</l>
           <speaker>CHORO</speaker>
           <l> Dio guardi il real germe,</l>
           <l>c'hor a gran rischio corre.</l>
-          <l>
-                        <pb n="192"/>
-                    </l>
+          <l><pb n="192"/></l>
         </sp>
         <sp who="#gabria">
           <speaker>GAB.</speaker>
@@ -1249,8 +1215,7 @@ Ben ne l'averse e torbide procelle</l>
           <l>non che 'l tuo gravemente offender possa,</l>
           <l>ch'hor novo sorge, e, qual novella pianta,</l>
           <l>teme del verno e de l'ardor l'oltraggio.</l>
-          <l>
-                        <pb n="193"/>
+          <l><pb n="193"/>
 Né facil men fia che lodevol farti</l>
           <l>il nimico, che temi, amico e servo,</l>
           <l>se qualche parte, non di questo regno,</l>
@@ -1287,8 +1252,7 @@ Né facil men fia che lodevol farti</l>
           <l>senza soggetto alcun, vano e dannoso:</l>
           <l>ch'a' Re peggior consiglio huom dar non puote</l>
           <l>che di smembrar la sua potenza e 'l regno.</l>
-          <l>
-                        <pb n="194"/>
+          <l><pb n="194"/>
 Et io, per grande far questo mio impero,</l>
           <l>se lecito mi fosse alzarmi sopra</l>
           <l>il cielo, a l'alte stelle poggerei;</l>
@@ -1324,9 +1288,7 @@ Et io, per grande far questo mio impero,</l>
           <l>un, che fedel ti sia figlio e soggetto:</l>
           <l>ch'un huomo sol, pur che in valor sormonti,</l>
           <l>uno stato talhor di pregio agguaglia.</l>
-          <l>
-                        <pb n="195"/>
-                    </l>
+          <l><pb n="195"/></l>
         </sp>
         <sp who="#polifonte">
           <speaker>POL.</speaker>
@@ -1353,8 +1315,7 @@ Et io, per grande far questo mio impero,</l>
           <l>si porterà, ch'ei sarà messo a parte</l>
           <l>di così grand'acquisto; e, quando ancora</l>
           <l>pur piaccia al ciel che senza figli i' resti,</l>
-          <l>
-                        <pb n="196"/>
+          <l><pb n="196"/>
 poi ch'in perpetua notte gli occhi chiusi</l>
           <l>havrò, succeda in così ricco regno,</l>
           <l>ch'io tolsi al padre suo non già per odio,</l>
@@ -1392,8 +1353,7 @@ poi ch'in perpetua notte gli occhi chiusi</l>
         <sp who="#capitano">
           <speaker>CAP.</speaker>
           <l> Forse, signor, che più sarà sicura</l>
-          <l>
-                        <pb n="197"/>
+          <l><pb n="197"/>
 la pace che non credi: schermo o scampo</l>
           <l>Telefonte non ha; da questa invitta</l>
           <l>destra egli e vita e sicurezza attende.</l>
@@ -1439,8 +1399,7 @@ la pace che non credi: schermo o scampo</l>
           <l> Quanto più cresce, tanto più vicino,</l>
           <l>se Giove tuona, a' folgori si trova;</l>
           <l>e da più rami il desiato frutto</l>
-          <l>
-                        <pb n="198"/>
+          <l><pb n="198"/>
 il cauto agricoltor prender procaccia.</l>
           <l>Per Telefonte già non m'affatico,</l>
           <l>ma per tuo honore e per tua gloria parlo:</l>
@@ -1472,8 +1431,7 @@ il cauto agricoltor prender procaccia.</l>
           <l>non si può, ch'a l'astuzia si ricorra;</l>
           <l>per lei vien giusto e santo riputato</l>
           <l>ciò che può dare o mantener l'impero.</l>
-          <l>
-                        <pb n="199"/>
+          <l><pb n="199"/>
 Questa, quasi fenice, altiera vola,</l>
           <l>e tra le leggi sola ha il nome e 'l vanto;</l>
           <l>l'altre, che scritte in marmo o in carta sono,</l>
@@ -1511,8 +1469,7 @@ Questa, quasi fenice, altiera vola,</l>
           <l>né sopporta ch'io voglia o parli o pensi</l>
           <l>altro che quel ch'a te poss'esser grato.</l>
           <l>Hora di novo laccio a te mi stringe</l>
-          <l>
-                        <pb n="200"/>
+          <l><pb n="200"/>
 e con nove catene il cor mi lega</l>
           <l>la nova cortesia, la grazia nova,</l>
           <l>che per mera bontà farmi ti piace;</l>
@@ -1543,8 +1500,7 @@ e con nove catene il cor mi lega</l>
           <l>narrami la cagion: perché tant'anni</l>
           <l>sorda fosti a le giuste mie querele?</l>
           <l>Perché due lustri al mio languir prefissi</l>
-          <l>
-                        <pb n="201"/>
+          <l><pb n="201"/>
 furon? già crudeltà regnar non puote</l>
           <l>ove ogni grazia, ogni virtute abonda.</l>
         </sp>
@@ -1575,8 +1531,7 @@ furon? già crudeltà regnar non puote</l>
           <l>onde con dubbio cor, con gli occhi bassi,</l>
           <l>come colei ch'ogni persona addita,</l>
           <l>sempre per vie passando ita sarei;</l>
-          <l>
-                        <pb n="202"/>
+          <l><pb n="202"/>
 sempre di conscienza un crudo verme</l>
           <l>roso m'havrebbe il cor, che troppo presta</l>
           <l>vedova a nove nozze i' fossi corsa.</l>
@@ -1604,9 +1559,7 @@ sempre di conscienza un crudo verme</l>
           <l>quanto a l'impresa nobil si richiede:</l>
           <l>talché quel più di vita che m'avanza</l>
           <l>possa col suo favor passar contenta.</l>
-          <l>
-                        <pb n="203"/>
-                    </l>
+          <l><pb n="203"/></l>
         </sp>
         <sp who="#polifonte">
           <speaker>POL.</speaker>
@@ -1638,8 +1591,7 @@ sempre di conscienza un crudo verme</l>
           <l>se ben dentro si mira,</l>
           <l>nel sommo ha l'odio, amor serba ne l'imo:</l>
           <l>talché a la vista, o sia lieta, o dogliosa,</l>
-          <l>
-                        <pb n="204"/>
+          <l><pb n="204"/>
 non trovi cosa ov'huom saggio si fide.</l>
           <l>Vedi com'al tiranno</l>
           <l>cuopre l'alta Reina le sue doglie</l>
@@ -1671,8 +1623,7 @@ non trovi cosa ov'huom saggio si fide.</l>
           <l>ne le frodi che sempre intorno ha sparte;</l>
           <l>e trova, mentre in simular s'avanza,</l>
           <l>e la speranza e 'l suo desir fallace.</l>
-          <l>
-                        <pb n="205"/>
+          <l><pb n="205"/>
 Da questo rio veneno,</l>
           <l>da questo grave mal, da questa peste</l>
           <l>pria fur le nozze infeste.</l>
@@ -1702,8 +1653,7 @@ Da questo rio veneno,</l>
           <l>né sente il caldo raggio:</l>
           <l>ella è a' divi in sembiante e 'n opra eguale;</l>
           <l>et è sì schifa, c'habitar non degna</l>
-          <l>
-                        <pb n="206"/>
+          <l><pb n="206"/>
 ovunque regna Amor vòlto in se stesso.</l>
           <l>Poi che sua vaga luce</l>
           <l>fece dal mondo l'empia dipartita,</l>
@@ -1735,8 +1685,7 @@ ovunque regna Amor vòlto in se stesso.</l>
           <l>né altra via mi si scopre a la vendetta)</l>
           <l>spero d'esserti ancora accetta e cara.</l>
           <l>E quando pur, per vendicarti, lasci</l>
-          <l>
-                        <pb n="207"/>
+          <l><pb n="207"/>
 questo mondo altrui grato, altro non lascio</l>
           <l>che un alpestro deserto, poich'è privo</l>
           <l>di te, per cui mi parve adorno e vago.</l>
@@ -1772,8 +1721,7 @@ questo mondo altrui grato, altro non lascio</l>
           <l> Triste nove chi porta al suo signore</l>
           <l>ben ha ragion se in ogni loco trema</l>
           <l>ch'al suo conspetto più trovi vicino:</l>
-          <l>
-                        <pb n="208"/>
+          <l><pb n="208"/>
 ch'o diffetto di fede, o negligenza,</l>
           <l>o di poco saper par che s'imponga</l>
           <l>per ingrata ambasciata sempre al messo;</l>
@@ -1815,9 +1763,7 @@ ch'o diffetto di fede, o negligenza,</l>
           <l> Vieni, Nesso;</l>
           <l>dammi tosto le nove di mio figlio.</l>
           <l>Tu tardi? Deh, dì tosto: è vivo? è sano?</l>
-          <l>
-                        <pb n="209"/>
-                    </l>
+          <l><pb n="209"/></l>
         </sp>
         <sp who="#nesso">
           <speaker>NES.</speaker>
@@ -1857,8 +1803,7 @@ ch'o diffetto di fede, o negligenza,</l>
           <l>a inevitabil morte? ohimè su 'l fiore</l>
           <l>de' tuoi verd'anni estinto!</l>
           <l>Ohimè certo sei morto, e 'l seme, e 'l frutto,</l>
-          <l>
-                        <pb n="210"/>
+          <l><pb n="210"/>
 ch'io sparsi, e per te ancor coglier sperai,</l>
           <l>co 'l tuo acerbo morir disperdi in herba.</l>
           <l>Lassa, che tua progenie in tutto è spenta;</l>
@@ -1893,8 +1838,7 @@ ch'io sparsi, e per te ancor coglier sperai,</l>
           <l>ch'egualmente mi spiace e morte e vita.</l>
           <l>Così mi lasci, o figlio?</l>
           <l>Lassa, perciò da me ti scompagnai?</l>
-          <l>
-                        <pb n="211"/>
+          <l><pb n="211"/>
 Ohimè, chi mi consiglia?</l>
           <l>Ohimè, chi mi consola?</l>
         </sp>
@@ -1929,8 +1873,7 @@ Ohimè, chi mi consiglia?</l>
           <l>non ch'altri, noi sì cari e sì fedeli</l>
           <l>hora haver non potiamo.</l>
           <l>Teme Toante sì, ma teme e spera,</l>
-          <l>
-                        <pb n="212"/>
+          <l><pb n="212"/>
 e, per saperne nova certa e vera,</l>
           <l>né a fatica né a industria mai perdona.</l>
           <l>Dubitò assai ch'un novo amor l'havesse</l>
@@ -1959,8 +1902,7 @@ e, per saperne nova certa e vera,</l>
           <l>et ha perciò lasciato ogni timore</l>
           <l>ch'indi periglio alcun gli sia avvenuto</l>
           <l>e ne sta più che prima allegro e queto,</l>
-          <l>
-                        <pb n="213"/>
+          <l><pb n="213"/>
 e spera tosto rimandarti nova</l>
           <l>de l'unico figliuol, che ti consoli.</l>
           <l>Homai raffrena, alta Reina, il pianto;</l>
@@ -1997,8 +1939,7 @@ e spera tosto rimandarti nova</l>
           <l>per lo troppo affrettar forse fia tarda:</l>
           <l>ché Toante un suo messo è per mandare,</l>
           <l>che di me sol ricerchi,</l>
-          <l>
-                        <pb n="214"/>
+          <l><pb n="214"/>
 a me sol dia di Telefonte aviso;</l>
           <l>d'hora in hora l'aspetto:</l>
           <l>s'egli assente per sorte mi ritrova,</l>
@@ -2033,8 +1974,7 @@ a me sol dia di Telefonte aviso;</l>
         <sp who="#coro">
           <speaker>CHORO</speaker>
           <l> Come consenti, o Giove,</l>
-          <l>
-                        <pb n="215"/>
+          <l><pb n="215"/>
 che sì giusta Reina,</l>
           <l>che donna degna di maggior impero</l>
           <l>sempre in martiri, in lagrime, in sospiri</l>
@@ -2071,8 +2011,7 @@ che sì giusta Reina,</l>
           <l>O cara amata patria, io gli occhi pasco</l>
           <l>lungamente digiuni</l>
           <l>de la tua dolce e sì bramata vista!</l>
-          <l>
-                        <pb n="216"/>
+          <l><pb n="216"/>
 Questo è pur il bel nido</l>
           <l>ov'io sì dolcemente fui nodrito;</l>
           <l>quest'è la terra pur c'Hercole invitto,</l>
@@ -2103,9 +2042,7 @@ Questo è pur il bel nido</l>
           <l>Ma qui veggio di donne un gran drapello:</l>
           <l>ben è che pellegrino i' mi dimostri</l>
           <l>e con l'arti mie usate a lor mi celi.</l>
-          <l>
-                        <pb n="217"/>
-                    </l>
+          <l><pb n="217"/></l>
         </sp>
         <sp who="#coro">
           <speaker>CHORO</speaker>
@@ -2153,8 +2090,7 @@ Questo è pur il bel nido</l>
           <l>Tutt'è solo e scoperto, né dal fianco</l>
           <l>pende la spada, né pugnal vi scorgo.</l>
           <l>Vad'un di voi a ricercar ch'ei sia,</l>
-          <l>
-                        <pb n="218"/>
+          <l><pb n="218"/>
 ove nato, onde venga, ove s'invii,</l>
           <l>ciò ch'egli qui si faccia, o far dissegni.</l>
           <l>Ma torna: egli a me i passi e 'l viso indrizza;</l>
@@ -2194,8 +2130,7 @@ ove nato, onde venga, ove s'invii,</l>
           <l>posso mostrar quant'il tuo padre io stimi.</l>
           <l>Ma com'è ch'a sì chiaro, a sì grand'huomo,</l>
           <l>che tremar fa l'Etolia, hora ten vadi,</l>
-          <l>
-                        <pb n="219"/>
+          <l><pb n="219"/>
 e figlio e caro, sì negletto e solo?</l>
           <l>Dimel, ti prego: che, s'a chiari segni</l>
           <l>io non ti conoscessi, non potria</l>
@@ -2228,8 +2163,7 @@ e figlio e caro, sì negletto e solo?</l>
           <l>e co 'l valor ch'a gli animosi inspira</l>
           <l>Marte vago di risse, a morte è giunto</l>
           <l>l'emulo tuo nimico Telefonte.</l>
-          <l>
-                        <pb n="220"/>
+          <l><pb n="220"/>
 Io l'uccisi: ecco il segno, ecco l'anello,</l>
           <l>di ch'ei gravar il dito e gonfio andarne</l>
           <l>tanto solea; dove in smeraldo fino</l>
@@ -2260,8 +2194,7 @@ Io l'uccisi: ecco il segno, ecco l'anello,</l>
           <l>poiché co 'l mezo tuo, co 'l tuo valore</l>
           <l>versato ha sopra me di grazie un nembo</l>
           <l>Fortuna, e de' suoi doni il sen m'ha colmo.</l>
-          <l>
-                        <pb n="221"/>
+          <l><pb n="221"/>
 Ma più distintamente hor mi racconta:</l>
           <l>come facesti a trar del mondo un huomo</l>
           <l>così cauto in guardar la vita sua?</l>
@@ -2297,8 +2230,7 @@ Ma più distintamente hor mi racconta:</l>
           <l>né pur d'una parola o pur d'un guardo</l>
           <l>pendea da l'una over da l'altra parte;</l>
           <l>non ricusa aggradir l'amor d'entrambi,</l>
-          <l>
-                        <pb n="222"/>
+          <l><pb n="222"/>
 l'offerta servitù d'entrambi accetta;</l>
           <l>hor di saggi ci loda, hor di disposti,</l>
           <l>ma serba il premio desiato e caro:</l>
@@ -2334,8 +2266,7 @@ l'offerta servitù d'entrambi accetta;</l>
           <l>nel mezo de l'Etolia una foresta,</l>
           <l>da le securi intatta, e per devota</l>
           <l>religion de' vecchi a Marte sacra.</l>
-          <l>
-                        <pb n="223"/>
+          <l><pb n="223"/>
 Nel più denso e riposto d'essa s'apre</l>
           <l>un picciol campo, e piano sì, che i rai</l>
           <l>di Febo ammette, e dà sicuro il varco</l>
@@ -2368,8 +2299,7 @@ Nel più denso e riposto d'essa s'apre</l>
           <l>di Toante, fra noi assai potente,</l>
           <l>che preso Telefonte in guardia havea.</l>
           <l>L'ode, s'adira, ne sospira e geme,</l>
-          <l>
-                        <pb n="224"/>
+          <l><pb n="224"/>
 freme, in publico parla, nel senato,</l>
           <l>e nel volgo hor pietate, e sdegno hor desta;</l>
           <l>m'accusa, e ne l'accusa il pianto mesce,</l>
@@ -2403,8 +2333,7 @@ freme, in publico parla, nel senato,</l>
           <l>alcun parlarne in publico o 'n secreto,</l>
           <l>se non desia d'uscir di vita tosto</l>
           <l>e di sue membra far convito a' lupi.</l>
-          <l>
-                        <pb n="225"/>
+          <l><pb n="225"/>
 Tu meco entra in palagio, ivi ricevi</l>
           <l>privatamente, e senza mostra o fasto</l>
           <l>d'hospite amico i debiti servigi.</l>
@@ -2438,8 +2367,7 @@ Tu meco entra in palagio, ivi ricevi</l>
           <l>sin nel ciel vanto dassi, e par ch'aspiri</l>
           <l>a sol misero farti.</l>
           <l>Maga, che trarne con lusinghe tenta</l>
-          <l>
-                        <pb n="226"/>
+          <l><pb n="226"/>
 de la propria sembianza;</l>
           <l>breve d'amare lagrime soggiorno,</l>
           <l>a' casti preghi orecchia ogn'hor ritrosa,</l>
@@ -2476,8 +2404,7 @@ de la propria sembianza;</l>
           <l>ch'ogn'huom ne l'ampie corti ammira e brama,</l>
           <l>(a mio parer) quasi carboni accesi</l>
           <l>sotto fallace cenere coperti,</l>
-          <l>
-                        <pb n="227"/>
+          <l><pb n="227"/>
 o sotto 'l fango tribuli nascosi.</l>
           <l>Così a l'invidie et a l'insidie sono</l>
           <l>sottoposti color, che fra' maggiori</l>
@@ -2512,8 +2439,7 @@ o sotto 'l fango tribuli nascosi.</l>
           <l>a la patria, al mio honor, m'ha qui condotto,</l>
           <l>ove non veggo, e pur vorrei vedere</l>
           <l>la via d'uscir per arte o per ingegno.</l>
-          <l>
-                        <pb n="228"/>
+          <l><pb n="228"/>
 Ma in vista assai dogliosa hor venir veggo</l>
           <l>la nutrice de l'alma mia Reina,</l>
           <l>non men d'affanni che di giorni carca.</l>
@@ -2550,8 +2476,7 @@ Ma in vista assai dogliosa hor venir veggo</l>
         <sp who="#nutrice">
           <speaker>NUT.</speaker>
           <l> Hanno l'ali a le piante,</l>
-          <l>
-                        <pb n="229"/>
+          <l><pb n="229"/>
 più veloci che strali o vento vanno</l>
           <l>a percuoter l'orecchie</l>
           <l>le misere novelle;</l>
@@ -2593,8 +2518,7 @@ più veloci che strali o vento vanno</l>
           <l>hoggi chius'ha con troppo acerba nova.</l>
           <l>Stava colma di doglia e di sospetto</l>
           <l>la donna nostra, perché Nesso nova</l>
-          <l>
-                        <pb n="230"/>
+          <l><pb n="230"/>
 non havea del diletto Telefonte</l>
           <l>in tutta Etolia mai trovar potuto.</l>
           <l>Stava con la speranza a un debil filo</l>
@@ -2624,8 +2548,7 @@ non havea del diletto Telefonte</l>
           <l>altro fuor non s'udia ch'un suon confuso</l>
           <l>di gemiti, e le braccia e 'l capo d'oro</l>
           <l>percotendo le sponde ivan del letto.</l>
-          <l>
-                        <pb n="231"/>
+          <l><pb n="231"/>
 Corsi tosto con fresche e lucid'onde,</l>
           <l>con acque rose, con rosato aceto</l>
           <l>a richiamar i traviati spirti.</l>
@@ -2660,8 +2583,7 @@ Corsi tosto con fresche e lucid'onde,</l>
           <l>crudele, acerbo, inessorabil fato,</l>
           <l>e i desiri e i pensier rotti ha nel mezo.</l>
           <l>Entro, né in che mi possa più servire</l>
-          <l>
-                        <pb n="232"/>
+          <l><pb n="232"/>
 a la nostra Reina mi saprei,</l>
           <l>se seco lagrimand'io non mi sfogo,</l>
           <l>e col mio pianto accresco il suo dolore.</l>
@@ -2702,8 +2624,7 @@ a la nostra Reina mi saprei,</l>
           <speaker>NUT.</speaker>
           <l> Che debbo far, chi mi consiglia? resto</l>
           <l>attonita e confusa a sì gran caso.</l>
-          <l>
-                        <pb n="233"/>
+          <l><pb n="233"/>
 Dite, figlie mie care:</l>
           <l>debbo tornar ove la donna nostra</l>
           <l>giace in un mar di lagrime sommersa?</l>
@@ -2741,9 +2662,7 @@ Dite, figlie mie care:</l>
           <l>trovi conforto alcun la mia Reina.</l>
           <l>Morrei lieta e contenta,</l>
           <l>se lei queta vedessi, e consolata.</l>
-          <l>
-                        <pb n="234"/>
-                    </l>
+          <l><pb n="234"/></l>
         </sp>
         <sp who="#coro">
           <speaker>CHORO</speaker>
@@ -2782,8 +2701,7 @@ Dite, figlie mie care:</l>
           <l>Bramo di veder Nesso, e per suo mezo</l>
           <l>di scoprirmi a gli amici, a la Reina</l>
           <l>mia madre, e con lor opra e con mio ardire</l>
-          <l>
-                        <pb n="235"/>
+          <l><pb n="235"/>
 imporre al mio travaglio, al lungo essiglio</l>
           <l>o con morte honorata, o con acquisto</l>
           <l>del patrio regno, un glorioso fine.</l>
@@ -2819,8 +2737,7 @@ imporre al mio travaglio, al lungo essiglio</l>
         <sp who="#nutrice">
           <speaker>NUT.</speaker>
           <l> Questo giovane estrano seco parla,</l>
-          <l>
-                        <pb n="236"/>
+          <l><pb n="236"/>
 e mira il real seggio, e par confuso</l>
           <l>consultar seco stesso. </l>
         </sp>
@@ -2858,9 +2775,7 @@ e mira il real seggio, e par confuso</l>
           <l>sedere un privat'huom sopra quel seggio,</l>
           <l>che non sia nostro Rege: audacia tale</l>
           <l>può punir con la morte ogn'huom che vuole.</l>
-          <l>
-                        <pb n="237"/>
-                    </l>
+          <l><pb n="237"/></l>
         </sp>
         <sp who="#coro">
           <speaker>CHORO</speaker>
@@ -2898,8 +2813,7 @@ e mira il real seggio, e par confuso</l>
           <l>non che due soli, aperti hor mi conviene;</l>
           <l>né, lasso, a la stanchezza, al gran bisogno</l>
           <l>c'ho di dar requie a' travagliati sensi,</l>
-          <l>
-                        <pb n="238"/>
+          <l><pb n="238"/>
 resister posso: a la mia sorte il tutto,</l>
           <l>e me stesso rimetto a chi governa</l>
           <l>il cielo, e 'l tutto regge, e d'innocente</l>
@@ -2934,8 +2848,7 @@ resister posso: a la mia sorte il tutto,</l>
           <l>di tanti casi avversi.</l>
           <l>Sazia ne rimarrà l'empia fortuna,</l>
           <l>che sopra me versato</l>
-          <l>
-                        <pb n="239"/>
+          <l><pb n="239"/>
 l'estremo ha di sua possa.</l>
           <l>A voi lieta ritorno, o bramat'ombre,</l>
           <l>tosto c'havrò vendetta</l>
@@ -2971,9 +2884,7 @@ l'estremo ha di sua possa.</l>
           <l>a morte sì crudel condotto l'habbi;</l>
           <l>ond'egli si provegga, e con tuo danno</l>
           <l>si sottragga al periglio manifesto.</l>
-          <l>
-                        <pb n="240"/>
-                    </l>
+          <l><pb n="240"/></l>
         </sp>
         <sp who="#merope">
           <speaker>MER.</speaker>
@@ -3013,9 +2924,7 @@ l'estremo ha di sua possa.</l>
           <l>vedovo de gli antichi suoi signori.</l>
           <l>Questo seggio per te vuoto e funesto</l>
           <l>sarà del sangue tuo caldo e vermiglio.</l>
-          <l>
-                        <pb n="241"/>
-                    </l>
+          <l><pb n="241"/></l>
         </sp>
         <sp who="#telefonte">
           <speaker>TEL.</speaker>
@@ -3058,8 +2967,7 @@ l'estremo ha di sua possa.</l>
           <l>nel sangue di chi ucciso ha il mio signore?</l>
           <l>Ov'è chi m'ha tradito? ohimè, Reina,</l>
           <l>ohimè, pon giù quell'azza: Telefonte</l>
-          <l>
-                        <pb n="242"/>
+          <l><pb n="242"/>
 è questo mio, quest'è il tuo amato figlio.</l>
         </sp>
         <sp who="#telefonte">
@@ -3096,8 +3004,7 @@ l'estremo ha di sua possa.</l>
           <l>restar contaminata, a un sol mio sguardo?</l>
           <l>Oh che gelato horrore</l>
           <l>m'ingombra tutta, mentre ch'io ripenso</l>
-          <l>
-                        <pb n="243"/>
+          <l><pb n="243"/>
 quanto siamo vicini ambeduo stati,</l>
           <l>io a l'esser scelerata et empia madre,</l>
           <l>e tu per le mie man misero e morto.</l>
@@ -3136,8 +3043,7 @@ quanto siamo vicini ambeduo stati,</l>
           <l>che da noi lungamente fu aspettato,</l>
           <l>nel quale di vittoria questa destra</l>
           <l>di Polifonte m'ornino i delitti;</l>
-          <l>
-                        <pb n="244"/>
+          <l><pb n="244"/>
 e te lieta e sicura</l>
           <l>con la sua morte hoggi veder desio;</l>
           <l>ogni altra speme, ogni altro indugio stimo</l>
@@ -3177,8 +3083,7 @@ e te lieta e sicura</l>
           <l> Perché così turbata hora ti veggo,</l>
           <l>hor che lieta e tranquilla</l>
           <l>più che mai devi serenar la fronte?</l>
-          <l>
-                        <pb n="245"/>
+          <l><pb n="245"/>
 Cessi ogni noia, et ogni augurio tristo</l>
           <l>scaccia da questo dì fausto e felice:</l>
           <l>non voler perturbar le proprie nozze.</l>
@@ -3218,8 +3123,7 @@ Cessi ogni noia, et ogni augurio tristo</l>
           <l>Tu sei tenuta meco assolver lui</l>
           <l>d'ogni delitto opposto: egli è mio amico,</l>
           <l>figlio d'hospite vecchio, hospite novo:</l>
-          <l>
-                        <pb n="246"/>
+          <l><pb n="246"/>
 per opra sua questo mio regno veggo,</l>
           <l>più che mai fosse, stabilito e saldo,</l>
           <l>e tu meco l'honora e l'accarezza.</l>
@@ -3257,8 +3161,7 @@ per opra sua questo mio regno veggo,</l>
           <speaker>CHORO</speaker>
           <l> Picciola luce tra l'horribil onde</l>
           <l>e 'l poco biancheggiar d'amica stella</l>
-          <l>
-                        <pb n="247"/>
+          <l><pb n="247"/>
 fa tornar il color ne lo smarrito</l>
           <l>vólto al saggio nocchier, che da le sponde</l>
           <l>scorgea vittoriosa la procella:</l>
@@ -3291,8 +3194,7 @@ fa tornar il color ne lo smarrito</l>
           <l>lato mostrando a la fortuna avversa.</l>
           <l>Quando honorato di morir procura,</l>
           <l>alhor si rassicura:</l>
-          <l>
-                        <pb n="248"/>
+          <l><pb n="248"/>
 ch'un sasso al vincitor sì s'attraversa,</l>
           <l>che la vittoria al vinto ha già conversa.</l>
           <l>Già intorno al collo avvinta havea la corda;</l>
@@ -3326,8 +3228,7 @@ ch'un sasso al vincitor sì s'attraversa,</l>
           <l>né co 'l gran caldo o sotto il carco geme:</l>
           <l>solo al pregio il pensier rivolto ha in tutto.</l>
           <l>Al carcere condutto,</l>
-          <l>
-                        <pb n="249"/>
+          <l><pb n="249"/>
 tra' ceppi e tra le dure aspre catene;</l>
           <l>tra' più riposti e solitari horrori,</l>
           <l>ond'ogni bene è fori,</l>
@@ -3365,8 +3266,7 @@ tra' ceppi e tra le dure aspre catene;</l>
           <l> Non so dov'io mi vada: sì m'afflige</l>
           <l>il dolor, il timor, ch'io sono in dubbio</l>
           <l>di me stessa, s'io morta o pur son viva.</l>
-          <l>
-                        <pb n="250"/>
+          <l><pb n="250"/>
 Giunsi con la Reina ove nel mezo</l>
           <l>del gran palagio il tempio augusto siede,</l>
           <l>ch'a Giunone sacraro i padri antichi;</l>
@@ -3396,8 +3296,7 @@ Giunsi con la Reina ove nel mezo</l>
           <l>s'espone, e non misura le sue forze.</l>
           <l>O mia Reina, o Telefonte mio,</l>
           <l>qual dio troppo nimico a questo regno</l>
-          <l>
-                        <pb n="251"/>
+          <l><pb n="251"/>
 vi pose in mente così mal consiglio?</l>
           <l>Qual furia vi rapisce? e chi v'aperse</l>
           <l>la via a la morte, al precipizio nostro?</l>
@@ -3437,8 +3336,7 @@ vi pose in mente così mal consiglio?</l>
           <l> Donne, il Re Polifonte estinto giace;</l>
           <l>sono vivi i Re nostri, ma il periglio</l>
           <l>tal fu, che chiamar ponsi hor hora nati.</l>
-          <l>
-                        <pb n="252"/>
+          <l><pb n="252"/>
 Né però sono ancora ben sicure</l>
           <l>le cose nostre: si combatte ancora;</l>
           <l>pur par che la vittoria a' nostri aspiri.</l>
@@ -3472,8 +3370,7 @@ Né però sono ancora ben sicure</l>
           <l>et additando a tutti Telefonte,</l>
           <l>nel periglio maggior, da la pietade,</l>
           <l>da l'amor del suo Re, da la speranza</l>
-          <l>
-                        <pb n="253"/>
+          <l><pb n="253"/>
 di libertà, quasi da acuti sproni</l>
           <l>sospinti, lor precipitava a l'armi.</l>
           <l>Instigava gli audaci, e con promesse</l>
@@ -3507,8 +3404,7 @@ di libertà, quasi da acuti sproni</l>
           <l>furon molti satelliti, che male</l>
           <l>potêr de le lor azze provedersi.</l>
           <l>Ma già commosso il popolo al rumore</l>
-          <l>
-                        <pb n="254"/>
+          <l><pb n="254"/>
 correa con l'armi, e già de' nostri molti</l>
           <l>giaceano estinti, e su la porta molti</l>
           <l>cadeano attraversati: onde fatica</l>
@@ -3544,8 +3440,7 @@ correa con l'armi, e già de' nostri molti</l>
           <l>La Reina, che mai color fu vista</l>
           <l>mutar in nessun caso, e sempre ardita</l>
           <l>mostrava la vittoria a' suoi più cari,</l>
-          <l>
-                        <pb n="255"/>
+          <l><pb n="255"/>
 tosto che vide tacita e confusa</l>
           <l>la turba andarne, e già soccorso il tempio,</l>
           <l>dal busto a Polifonte la gran testa</l>
@@ -3587,8 +3482,7 @@ tosto che vide tacita e confusa</l>
           <l>facilmente lo svelle da radice.</l>
           <l>Fosti Re valoroso, e quel che duolmi,</l>
           <l>e per forza mi trahe da gli occhi il pianto,</l>
-          <l>
-                        <pb n="256"/>
+          <l><pb n="256"/>
 fosti leal, fosti cortese amante.</l>
           <l>L'opre tue gloriose e l'alte imprese,</l>
           <l>l'invitto cor benché nimica lingua</l>
@@ -3623,8 +3517,7 @@ fosti leal, fosti cortese amante.</l>
           <l>che l'alma ne vivrà lieta e contenta.</l>
           <l>O dea che con cent'occhi e con destr'ale,</l>
           <l>con altretante lingue il nome e l'opra</l>
-          <l>
-                        <pb n="257"/>
+          <l><pb n="257"/>
 rimiri, e 'ntorno porti d'huom mortale;</l>
           <l>tu a la Reina mia</l>
           <l>vieni benigna e pia;</l>

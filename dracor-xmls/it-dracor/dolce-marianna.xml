@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ita000062" xml:lang="ita">
   <teiHeader>
     <fileDesc>
@@ -83,6 +84,10 @@
         <keywords scheme="#CGB">
           <term>Letteratura teatrale</term>
         </keywords>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
       <particDesc>
         <listPerson>
@@ -148,20 +153,11 @@
       </particDesc>
     </profileDesc>
     <revisionDesc>
-      <change>
-                <date>Data sconosciuta anteriore al 2000</date>
-                <name>CIBIT - Ferrara</name>Digitalizzazione</change>
-      <change>
-                <date>Data sconosciuta anteriore al 2000</date>
-                <name>CIBIT - Ferrara</name>Correzione linguistica</change>
-      <change>
-                <date>2004-01-26T00:00:00.000+02:00</date>
-                <name>Marina Larena</name>
-                <name>BIBIT</name>Codifica XML - Codifica manuale</change>
-      <change>
-                <date>2004-02-09T00:00:00.000+02:00</date>
-                <name>Elena Pierazzo</name>
-                <name>BIBIT</name>Validazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>CIBIT - Ferrara</name>Correzione linguistica</change>
+      <change><date>2004-01-26T00:00:00.000+02:00</date><name>Marina Larena</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2004-02-09T00:00:00.000+02:00</date><name>Elena Pierazzo</name><name>BIBIT</name>Validazione</change>
+      <change when="2023-04-04">(LG) added genre tag.</change>
     </revisionDesc>
   </teiHeader>
   <standOff>
@@ -300,9 +296,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         <head>PROLOGO SECONDO</head>
         <stage>PLUTONE e la GELOSIA</stage>
         <sp who="#plutone">
-          <speaker>
-                        <add resp="#ed">PLUT.</add>
-                    </speaker>
+          <speaker><add resp="#ed">PLUT.</add></speaker>
           <lg type="nondefinito">
             <l>Io, se ben mi dimostro a gli occhi vostri</l>
             <l>D'aspetto sì piacevole e giocondo,</l>
@@ -513,9 +507,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
           <stage>MARIANNA <emph>Reina</emph>, BERENICE <emph>Nudrice</emph>
           </stage>
           <sp who="#marianna">
-            <speaker>
-                            <add resp="#ed">MAR.</add>
-                        </speaker>
+            <speaker><add resp="#ed">MAR.</add></speaker>
             <lg type="nondefinito">
               <l>O fiere, sanguinose, empie sorelle,</l>
               <l>Vendicatrici de gli umani oltraggi,</l>
@@ -860,9 +852,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         <div type="scene">
           <stage>SOEMO, MARIANNA</stage>
           <sp who="#soemo">
-            <speaker>
-                            <add resp="#ed">SOE.</add>
-                        </speaker>
+            <speaker><add resp="#ed">SOE.</add></speaker>
             <lg type="nondefinito">
               <l>Voi sapete, Reina, ch'io mi posi</l>
               <l>A gran risco e periglio de la morte,</l>
@@ -1216,9 +1206,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         <div type="scene">
           <stage>ERODE, SOLOME</stage>
           <sp who="#erode">
-            <speaker>
-                            <add resp="#ed">ER.</add>
-                        </speaker>
+            <speaker><add resp="#ed">ER.</add></speaker>
             <lg type="nondefinito">
               <l>Certo non è fra noi, sorella, stato</l>
               <l>Più torbido, inquieto e pien d'affanni,</l>
@@ -1319,9 +1307,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         <div type="scene">
           <stage>COPPIERE, ERODE</stage>
           <sp who="#coppiere">
-            <speaker>
-                            <add resp="#ed">COP.</add>
-                        </speaker>
+            <speaker><add resp="#ed">COP.</add></speaker>
             <lg type="nondefinito">
               <l>Ecco, o Re giusto, che, da voi chiamato,</l>
               <l>Son qui venuto a la presenza vostra,</l>
@@ -1681,9 +1667,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         <div type="scene">
           <stage>MARIANNA, ERODE, COPPIERE</stage>
           <sp who="#marianna">
-            <speaker>
-                            <add resp="#ed">MAR.</add>
-                        </speaker>
+            <speaker><add resp="#ed">MAR.</add></speaker>
             <lg type="nondefinito">
               <l>L'avervi udito favellar irato</l>
               <l>Con questo vostro servo, e nominarmi,</l>
@@ -2099,9 +2083,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         <div type="scene">
           <stage>ERODE, BENIAMINO Eunuco</stage>
           <sp who="#erode">
-            <speaker>
-                            <add resp="#ed">ER.</add>
-                        </speaker>
+            <speaker><add resp="#ed">ER.</add></speaker>
             <lg type="nondefinito">
               <l>Tu sai, Beniamin, che da' prim'anni</l>
               <l>Io t'allevai ne la mia corte in guisa</l>
@@ -2404,9 +2386,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         <div type="scene">
           <stage>ALESSANDRA, MARIANNA, CORO</stage>
           <sp who="#alessandra">
-            <speaker>
-                            <add resp="#ed">ALES.</add>
-                        </speaker>
+            <speaker><add resp="#ed">ALES.</add></speaker>
             <lg type="nondefinito">
               <l>Cara figliuola mia, mentre ch'io vado</l>
               <l>Discorrendo tra me su gli accidenti</l>
@@ -2525,9 +2505,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         <div type="scene">
           <stage>ERODE, MARIANNA, CONSIGLIERE</stage>
           <sp who="#erode">
-            <speaker>
-                            <add resp="#ed">ER.</add>
-                        </speaker>
+            <speaker><add resp="#ed">ER.</add></speaker>
             <lg type="nondefinito">
               <l>Marianna, la tua malvagia mente,</l>
               <l>La tua perfidia e la tua crudeltate,</l>
@@ -2790,9 +2768,7 @@ In Venezia ai xxv di Maggio M D LXV.</p>
         <div type="scene">
           <stage>SOEMO, ERODE, CONSIGLIERE</stage>
           <sp who="#soemo">
-            <speaker>
-                            <add resp="#ed">SOE.</add>
-                        </speaker>
+            <speaker><add resp="#ed">SOE.</add></speaker>
             <lg type="nondefinito">
               <l>Colui, benigno Re, da cui discende</l>
               <l>Ogni felicità, vi dia salute.</l>
@@ -3122,9 +3098,7 @@ SOE.</speaker>
         <div type="scene">
           <stage>ERODE, CONSIGLIERE</stage>
           <sp who="#erode">
-            <speaker>
-                            <add resp="#ed">ER.</add>
-                        </speaker>
+            <speaker><add resp="#ed">ER.</add></speaker>
             <lg type="nondefinito">
               <l>Se l'uom che, indotto da malvagia mente,</l>
               <l>Alcun privato ne l'onor offende,</l>
@@ -3312,9 +3286,7 @@ SOE.</speaker>
         <div type="scene">
           <stage>NUNZIO, CORO</stage>
           <sp who="#nunzio">
-            <speaker>
-                            <add resp="#ed">NUN.</add>
-                        </speaker>
+            <speaker><add resp="#ed">NUN.</add></speaker>
             <lg type="nondefinito">
               <l>Deh, perché non ho io misero l'ali</l>
               <l>Da poter sollevarmi alto da terra</l>
@@ -3415,9 +3387,7 @@ SOE.</speaker>
         <div type="scene">
           <stage>ERODE, NUNZIO, CORO</stage>
           <sp who="#erode">
-            <speaker>
-                            <add resp="#ed">ER.</add>
-                        </speaker>
+            <speaker><add resp="#ed">ER.</add></speaker>
             <lg type="nondefinito">
               <l>È la sentenza mia stata eseguita?</l>
               <l>È sì come ordinai seguito il fine</l>
@@ -3629,9 +3599,7 @@ SOE.</speaker>
         <div type="scene">
           <stage>ERODE, MARIANNA, NUNZIO</stage>
           <sp who="#erode">
-            <speaker>
-                            <add resp="#ed">ER.</add>
-                        </speaker>
+            <speaker><add resp="#ed">ER.</add></speaker>
             <lg type="nondefinito">
               <l>Due grandi errori ho nel ritorno mio,</l>
               <l>Marianna, commessi; e d'ambedue</l>
@@ -3870,9 +3838,7 @@ SOE.</speaker>
             </add>
           </stage>
           <sp who="#berenice">
-            <speaker>
-                            <add resp="#ed">BER.</add>
-                        </speaker>
+            <speaker><add resp="#ed">BER.</add></speaker>
             <lg type="nondefinito">
               <l>Benigno Re, vi prego, se pregarvi</l>
               <l>Da la vostra bontà m'è conceduto,</l>
@@ -4173,9 +4139,7 @@ SOE.</speaker>
         <div type="scene">
           <stage>CONSIGLIERE, ERODE</stage>
           <sp who="#consigliere">
-            <speaker>
-                            <add resp="#ed">CONS.</add>
-                        </speaker>
+            <speaker><add resp="#ed">CONS.</add></speaker>
             <lg type="nondefinito">
               <l>Re, mio Signor, i buon consigli denno</l>
               <l>Replicarsi più volte, acciò che, s'una</l>
@@ -4362,9 +4326,7 @@ SOE.</speaker>
                 <l>Che con tutti i malvagi e scelerati,</l>
                 <l>Con i crudeli et empi,</l>
                 <l>Non sol ne va l'iniquo Erode a paro,</l>
-                <l>
-                                    <add resp="#ed">............ aro</add>
-                                </l>
+                <l><add resp="#ed">............ aro</add></l>
                 <l>Ma ciascun dietro lassa,</l>
                 <l>E di molto gran spazio innanzi passa.</l>
                 <l>Misere dunque noi, che sì da presso</l>
@@ -4407,9 +4369,7 @@ SOE.</speaker>
         <div type="scene">
           <stage>BERENICE, CORO</stage>
           <sp who="#berenice">
-            <speaker>
-                            <add resp="#ed">BER.</add>
-                        </speaker>
+            <speaker><add resp="#ed">BER.</add></speaker>
             <lg type="nondefinito">
               <l>Sconsolate donzelle,</l>
               <l>Per la morte crudele</l>
@@ -4484,9 +4444,7 @@ SOE.</speaker>
             </lg>
           </sp>
           <sp who="#berenice">
-            <speaker>
-                            <add resp="#ed">BER.</add>
-                        </speaker>
+            <speaker><add resp="#ed">BER.</add></speaker>
             <lg type="nondefinito">
               <l>Ma non sarà giamai</l>
               <l>Che senza te, che come figlia amai,</l>
@@ -4512,9 +4470,7 @@ SOE.</speaker>
             </lg>
           </sp>
           <sp who="#coro">
-            <speaker>
-                            <add resp="#ed">COR</add>
-                        </speaker>
+            <speaker><add resp="#ed">COR</add></speaker>
             <lg type="nondefinito">
               <l>Ma ecco a punto, dolorosa vecchia,</l>
               <l>Ecco ch'ei si dimostra,</l>
@@ -4526,9 +4482,7 @@ SOE.</speaker>
         <div type="scene">
           <stage>ERODE, MESSO, <add resp="#ed">BERENICE</add>, CORO</stage>
           <sp who="#erode">
-            <speaker>
-                            <add resp="#ed">ER.</add>
-                        </speaker>
+            <speaker><add resp="#ed">ER.</add></speaker>
             <lg type="nondefinito">
               <l>Oh, come facilmente i pensier nostri</l>
               <l>Si van cangiando! E chi creduto avrebbe</l>
@@ -4655,9 +4609,7 @@ SOE.</speaker>
         <div type="scene">
           <stage>NUNZIO, ERODE, CORO</stage>
           <sp who="#nunzio">
-            <speaker>
-                            <add resp="#ed">NUN.</add>
-                        </speaker>
+            <speaker><add resp="#ed">NUN.</add></speaker>
             <lg type="nondefinito">
               <l>Signor, s'apportator di ree novelle</l>
               <l>Fossi, o di buone, io resterei dubbioso:</l>
@@ -4836,9 +4788,7 @@ SOE.</speaker>
             </lg>
           </sp>
           <sp who="#nunzio">
-            <speaker>
-                            <add resp="#ed">NUN.</add>
-                        </speaker>
+            <speaker><add resp="#ed">NUN.</add></speaker>
             <lg type="nondefinito">
               <l>Dopo queste parole arditamente</l>
               <l>Al carnefice disse ch'ei facesse</l>

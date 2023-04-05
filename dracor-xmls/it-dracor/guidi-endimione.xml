@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ita000092" xml:lang="ita">
   <teiHeader>
     <fileDesc>
@@ -105,20 +106,10 @@
       </particDesc>
     </profileDesc>
     <revisionDesc>
-      <change>
-                <date>Data sconosciuta anteriore al 2000</date>
-                <name>LIZ</name>Digitalizzazione</change>
-      <change>
-                <date>Data sconosciuta anteriore al 2000</date>
-                <name>LIZ</name>Correzione linguistica</change>
-      <change>
-                <date>2003-02-01T00:00:00.000+02:00</date>
-                <name>Ilenia Sabelli</name>
-                <name>BIBIT</name>Codifica XML - Codifica manuale</change>
-      <change>
-                <date>2004-07-15T00:00:00.000+02:00</date>
-                <name>Carla Deiana</name>
-                <name>BIBIT</name>Validazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Digitalizzazione</change>
+      <change><date>Data sconosciuta anteriore al 2000</date><name>LIZ</name>Correzione linguistica</change>
+      <change><date>2003-02-01T00:00:00.000+02:00</date><name>Ilenia Sabelli</name><name>BIBIT</name>Codifica XML - Codifica manuale</change>
+      <change><date>2004-07-15T00:00:00.000+02:00</date><name>Carla Deiana</name><name>BIBIT</name>Validazione</change>
     </revisionDesc>
   </teiHeader>
   <standOff>
@@ -808,8 +799,7 @@ ARCADE</salute>
             <l rend="italic">E ben di ciò mi dolgo,</l>
             <l rend="italic">odiando gli occhi miei che troppo osaro,</l>
             <l rend="italic">duci infidi de l'alma,</l>
-            <l>
-                            <hi rend="italic">mirar tant'alto</hi>. Or quel pensier io sgrido,</l>
+            <l><hi rend="italic">mirar tant'alto</hi>. Or quel pensier io sgrido,</l>
             <l>che la mente m'impresse</l>
             <l>di sì gran foco e lume,</l>
             <l>e che in umil pastor fece costume</l>
