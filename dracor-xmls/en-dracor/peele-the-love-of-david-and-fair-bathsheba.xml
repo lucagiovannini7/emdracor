@@ -178,12 +178,20 @@
           <person xml:id="ep000227-messenger" sex="MALE">
             <persName>Messenger</persName>
           </person>
+          <person xml:id="ep000227-chorus" sex="MALE">
+            <persName>Chorus</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2023-04-13">(LG) added extra segmentation, inserted "chorus" as speaker.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -235,11 +243,11 @@
           <l>To thee for succour flies my feeble muse, </l>
           <l>And at thy feet her yron Pendoth vse. </l>
         </div>
-        <div type="play" xml:id="ep000227-e100350">
+        <div type="scene" xml:id="ep000227-e100350">
           <pb xml:id="ep000227-003-a"/>
           <stage xml:id="ep000227-e100360">He drawes a curtaine, and discouers Bethsabe with her maid bathing ouer a spring, she sings, and Dauid sits aboue vewing her. </stage>
           <floatingText>
-            <body>
+            <sp who="#ep000227-bethsabe">
               <div type="song" xml:id="ep000227-e100390">
                 <l>HOt sunne, coole fire, temperd with sweet aire, </l>
                 <l>Black shade, fair nurse, shadow my white haire </l>
@@ -252,7 +260,7 @@
                 <l>Nor pierce any bright eye, </l>
                 <l>That wandreth lightly. </l>
               </div>
-            </body>
+            </sp>
           </floatingText>
           <sp who="#ep000227-bethsabe" xml:id="ep000227-e100500">
             <speaker>Bethsabe. </speaker>
@@ -386,6 +394,8 @@
             <l>And doe what seemeth fauour in his sight. </l>
           </sp>
           <stage xml:id="ep000227-e101490">Exeunt. </stage>
+        </div>
+        <div type="scene">
           <sp who="#ep000227-david" xml:id="ep000227-e101500">
             <speaker>Dauid. </speaker>
             <l>Now comes my louer tripping like the Roe, </l>
@@ -452,6 +462,8 @@
             <l>Cusay will flie about the Kings desire. <stage xml:id="ep000227-e102000">Exeunt. </stage>
             </l>
           </sp>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e102010">
             <pb xml:id="ep000227-005-a"/>Ioab, Abisay, Vrias, and others, with drum and ensigne. </stage>
           <sp who="#ep000227-joab" xml:id="ep000227-e102020">
@@ -619,6 +631,8 @@
             <l>Be valiant, and mainteine your victory. <stage xml:id="ep000227-e103180">Exeunt. </stage>
             </l>
           </sp>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e103190">Ammon, Ionadab, Iethray, and Ammons page. </stage>
           <sp who="#ep000227-jonadab" xml:id="ep000227-e103200">
             <speaker>Ionad. </speaker>
@@ -717,6 +731,8 @@
             <l>To beare this wonder round about the world. <stage xml:id="ep000227-e103940">Exit. </stage>
             </l>
           </sp>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e103950">Ammon thrusting out Thamar. </stage>
           <sp who="#ep000227-amasa" xml:id="ep000227-e103960">
             <speaker>Am. </speaker>
@@ -1197,6 +1213,8 @@
             <speaker>Vrias. </speaker>
             <l>On afore my lords, on afore. <stage xml:id="ep000227-e107260">Exeunt. </stage>
             </l>
+          </sp>
+          <sp who="#ep000227-chorus">
             <stage xml:id="ep000227-e107270">Chorus. </stage>
             <l>O prowd reuolt of a presumptious man, </l>
             <l>Laying his bridle in the necke of sin, </l>
@@ -1223,6 +1241,8 @@
             <l>Suppose this past, and that the child is borne, </l>
             <l>Whose death the Prophet solemnly doth mourne. </l>
           </sp>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e107510">Enter Bethsabe with her handmaid. </stage>
           <sp who="#ep000227-bethsabe" xml:id="ep000227-e107520">
             <speaker>Beth. </speaker>
@@ -1255,6 +1275,10 @@
             <l>But Bethsabe in humblenesse attend, </l>
             <l>The grace that God will to his handmaid send. <stage xml:id="ep000227-e107800">Exit Beth. </stage>
             </l>
+          </sp>
+        </div>
+        <div type="scene">
+          <sp who="#ep000227-david">
             <stage xml:id="ep000227-e107810">Dauid in his gowne walking sadly, To him Nathan. </stage>
             <l>The babe is sicke, and sad is Dauids heart, </l>
             <l>To see the guiltlesse beare the guilties paine. </l>
@@ -1431,6 +1455,8 @@
             <l>To chastise Ammon and the wicked ones. <stage xml:id="ep000227-e109260">Exeunt omnes. </stage>
             </l>
           </sp>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e109270">Enter Absolon with two or three. </stage>
           <sp who="#ep000227-absolon" xml:id="ep000227-e109280">
             <speaker>Abs. </speaker>
@@ -1504,7 +1530,11 @@
             <l>And we will make complaint to Israel </l>
             <l>Of Ammons death, and pride of Absolon. <stage xml:id="ep000227-e109820">Exeunt omnes. </stage>
             </l>
-            <stage xml:id="ep000227-e109830">Enter Dauid with Ioab, Abyssus, Cusay, with drum and ensigne against Rabba. </stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <stage xml:id="ep000227-e109830">Enter Dauid with Ioab, Abyssus, Cusay, with drum and ensigne against Rabba. </stage>
+          <sp who="#ep000227-david">    
             <l>This is the towne of the vncircumcised, </l>
             <l>The citie of the kingdome, this is it, </l>
             <l>Rabba where wicked Hannon sitteth king: </l>
@@ -1567,6 +1597,8 @@
             <l>And Hannons towne become king Dauids spoile. </l>
           </sp>
           <stage xml:id="ep000227-e110350">Alarum, excursions, assault, Exeunt omnes. Then the trumpets, and Dauid with Hannons crowne. </stage>
+        </div>
+        <div type="scene">
           <sp who="#ep000227-david" xml:id="ep000227-e110360">
             <speaker>Dau. </speaker>
             <l>Now clattering armes, and wrathfull storms of war, </l>
@@ -1664,6 +1696,8 @@
             <l>The gladnesse of my sad distressed soule. <stage xml:id="ep000227-e111120">Exeunt omnes. </stage>
             </l>
           </sp>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e111130">Manet Dauid, Enter widdow of Thecoa. </stage>
           <sp who="#ep000227-widow-of-thecoa" xml:id="ep000227-e111140">
             <speaker>Widdow. </speaker>
@@ -1818,6 +1852,8 @@
             <l>To loue the men and Tribes of Israel. </l>
           </sp>
           <stage xml:id="ep000227-e112290">Exit. </stage>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e112300">Enter Dauid, Ithay, Sadoc, Ahimaas, Ionathan, with others, Dauid barefoot, with some lose couering ouer his head, and all mourning. </stage>
           <sp who="#ep000227-david" xml:id="ep000227-e112310">
             <speaker>Dau. </speaker>
@@ -2024,6 +2060,8 @@
             <l>I carrie armes against my Absalon. <stage xml:id="ep000227-e113890">Exeunt. </stage>
             </l>
           </sp>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e113900">Absalon, Amasa, Achitophel, with the concubines of Dauid, and others in great state, Absalon crowned. </stage>
           <sp who="#ep000227-absolon" xml:id="ep000227-e113910">
             <speaker>Abs. </speaker>
@@ -2241,6 +2279,8 @@
             <l>Fulfild his seruant Dauids drifts by me, </l>
             <l>And brought Achitophels aduise to scorne. </l>
           </sp>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e115610">Enter Sadoc, Abiathar, Ahimaas, and Ionathan. </stage>
           <sp who="#ep000227-sadoc" xml:id="ep000227-e115620">
             <speaker>Sadoc. </speaker>
@@ -2308,6 +2348,8 @@
             <l>To cast at him, mingled with earth and dust, </l>
             <l>Which bursting with disdaine, I greet him with. </l>
           </sp>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e116140">Dauid, Ioab, Abyshai, Ithay, with others. </stage>
           <sp who="#ep000227-semei" xml:id="ep000227-e116150">
             <speaker>Semei. </speaker>
@@ -2493,6 +2535,8 @@
             <l>Wee will my lord for thy sake fauour him. </l>
           </sp>
           <stage xml:id="ep000227-e117570">Exeunt. </stage>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e117580">Achitophel solus with a halter. </stage>
           <sp who="#ep000227-achitophel" xml:id="ep000227-e117590">
             <speaker>Achi. </speaker>
@@ -2523,6 +2567,8 @@
             <l>And stop his breast that curseth Israel. <stage xml:id="ep000227-e117840">Exit. </stage>
             </l>
           </sp>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e117850">Absalon, Amasa, with all his traine. </stage>
           <sp who="#ep000227-absolon" xml:id="ep000227-e117860">
             <speaker>Abs. </speaker>
@@ -2701,6 +2747,8 @@
             <l>So shall his end breed horror to his name, </l>
             <l>And to his traitrous fact eternall shame. <stage xml:id="ep000227-e119370">Exit. </stage>
             </l>
+          </sp>
+          <sp who="#ep000227-chorus">
             <stage xml:id="ep000227-e119380">5. Chorus. </stage>
             <l>Oh dreadfull president of his iust doome, </l>
             <l>Whose holy heart is neuer toucht with ruth </l>
@@ -2814,6 +2862,8 @@
             <l>And him our swords shall honour to our deaths. </l>
           </sp>
           <stage xml:id="ep000227-e120230">Exeunt. </stage>
+        </div>
+        <div type="scene">
           <stage xml:id="ep000227-e120240">Dauid, Bethsabe, Salomon, Nathan, Adonia, Chileab, with their traine. </stage>
           <sp who="#ep000227-bethsabe" xml:id="ep000227-e120250">
             <speaker>Beth. </speaker>

@@ -131,6 +131,11 @@
         </listPerson>
       </particDesc>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2023-04-13">(LG) added extra segmentation, linked speakers to songs.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -223,7 +228,7 @@
       </div>
     </front>
     <body>
-      <div type="text" xml:id="ep000021-e100670">
+      <div type="scene" xml:id="ep000021-e100670">
         <stage xml:id="ep000021-e100680">Heer entreth Nichol Newfangle the vice laughing, and hath a knaue of clubs in his hand which as soon as he speaketh: he offreth vnto one of the men or boyes standing by. </stage>
         <sp who="#ep000021-nichol-newfangle" xml:id="ep000021-e100690">
           <speaker>Newfan. </speaker>
@@ -275,7 +280,7 @@
           <speaker>Lucifer. </speaker>
           <p>¶ Howe mine own boy I am glad that thou art heere, </p>
         </sp>
-        <sp xml:id="ep000021-e101140">
+        <sp who="#ep000021-lucifer" xml:id="ep000021-e101140">
           <speaker>Lucifer. </speaker>
           <p>‡ He speaketh to you sir, I pray you come neer. <stage xml:id="ep000021-e101160">pointing to one standing by. </stage>
           </p>
@@ -502,25 +507,23 @@
         </sp>
         <stage xml:id="ep000021-e102560">Nichol newfangle must haue a gittern or some other Instrument (if he may) but if they haue none: they must daunce about the place all three, and sing this song that followeth, which must be doon though they haue an instruement. </stage>
         <floatingText>
-          <body>
-            <div type="song" xml:id="ep000021-e102590">
-              <head>The Song, </head>
-              <l>Tom Colier of Croidon hath solde his Coles, </l>
-              <l>and made his market to day: </l>
-              <l>And now he daunceth with the Deuil, </l>
-              <l>for like wil to like alway. </l>
-              <l>¶ Wherfore let vs reioyce and sing, </l>
-              <l>let vs be mery and glad, </l>
-              <pb xml:id="ep000021-005-b"/>
-              <l>Sith that the Colier and the Deuill, </l>
-              <l>this match and baunce hath made. </l>
-              <l>¶ Now of this daunce we make an and, </l>
-              <l>with mirth and eke with ioy: </l>
-              <l>The Colier and the Deuill wil be, </l>
-              <l>much like to like alway. </l>
-              <trailer>Finis. </trailer>
-            </div>
-          </body>
+          <sp who="#ep000021-nichol-newfangle #ep000021-lucifer #ep000021-tom-collier">
+          <head>The Song, </head>
+          <l>Tom Colier of Croidon hath solde his Coles, </l>
+          <l>and made his market to day: </l>
+          <l>And now he daunceth with the Deuil, </l>
+          <l>for like wil to like alway. </l>
+          <l>¶ Wherfore let vs reioyce and sing, </l>
+          <l>let vs be mery and glad, </l>
+          <pb xml:id="ep000021-005-b"/>
+          <l>Sith that the Colier and the Deuill, </l>
+          <l>this match and baunce hath made. </l>
+          <l>¶ Now of this daunce we make an and, </l>
+          <l>with mirth and eke with ioy: </l>
+          <l>The Colier and the Deuill wil be, </l>
+          <l>much like to like alway. </l>
+          <trailer>Finis. </trailer>
+        </sp>
         </floatingText>
         <sp who="#ep000021-nichol-newfangle" xml:id="ep000021-e102730">
           <speaker>Ni. Newfang </speaker>
@@ -1276,7 +1279,7 @@
           <p>‡ He bringeth in his hand either good ale or els good wine. </p>
         </sp>
         <stage xml:id="ep000021-e107550">Phillip Fleming singeth these foure lines following. </stage>
-        <sp xml:id="ep000021-e107560">
+        <sp who="#ep000021-philip-fleming" xml:id="ep000021-e107560">
           <lg>
             <l>Troll the bole and drink to me, and troll the bole again a: </l>
             <l>And put a browne tost in the pot, for Phillip Flemmings brain a. </l>
@@ -1691,6 +1694,8 @@
           <l>Then hostes fil the pot again, for I pledge them all carous a. <stage xml:id="ep000021-e110460">Finis. </stage>
           </l>
         </sp>
+      </div>
+      <div type="scene">
         <sp who="#ep000021-vertuous-life" xml:id="ep000021-e110470">
           <speaker>Ver. life. </speaker>
           <l>¶ Oh wicked muses that haue such delight, </l>
@@ -1744,7 +1749,7 @@
           <l>For the renowne therof shall soon be raised. <stage xml:id="ep000021-e110950">Intrat good fame </stage>
           </l>
         </sp>
-        <sp xml:id="ep000021-e110960">
+        <sp who="#ep000021-good-fame" xml:id="ep000021-e110960">
           <speaker>Good fame. </speaker>
           <l>¶ Oh vertuous life God rest you mery, </l>
           <l>to you I am come to attend, </l>
@@ -1790,7 +1795,7 @@
           <l>Let vs giue thanks to him with humblenes, </l>
           <l>And perswade with all men their liues to amend. </l>
         </sp>
-        <sp xml:id="ep000021-e111330">
+        <sp who="#ep000021-good-fame" xml:id="ep000021-e111330">
           <speaker>Good fame. </speaker>
           <l>¶ Vertuous life therto I doo agree, </l>
           <l>For it becommeth all men to doo so: </l>
@@ -1881,40 +1886,40 @@
         </sp>
         <stage xml:id="ep000021-e111970">They sing this song following. </stage>
         <floatingText>
-          <body>
-            <div type="song" xml:id="ep000021-e112000">
-              <head>This must be sung after euery verse. </head>
-              <lg>
-                <l>Life is but short hope not therin: </l>
-                <l>Vertue immortall seek for to win. </l>
-                <pb xml:id="ep000021-016-b"/>
-                <l>Who so to vertue dooth apply, </l>
-                <l>Good Fame and Honour must obtaine: </l>
-                <l>And also liue eternally, </l>
-                <l>For Vertuous life this is the gaine. </l>
-                <l>Life is but shorte, &amp;c. </l>
-              </lg>
-              <lg>
-                <l>Gods promise sure will neuer faile, </l>
-                <l>His holy woord is a perfect ground, </l>
-                <l>The forte of vertue oh man assaile, </l>
-                <l>Where tresure alway dooth abound. </l>
-                <l>Life is but short, &amp;c. </l>
-              </lg>
-              <lg>
-                <l>To thée alone be laud and praise, </l>
-                <l>Oh Lord thou art so mercifull: </l>
-                <l>Who neuer failed at all assaies, </l>
-                <l>To aid and help the pitifull. </l>
-                <l>Life is but short hope not therin: </l>
-              </lg>
-              <trailer>FINIS. </trailer>
-            </div>
-          </body>
+          <sp who="#ep000021-gods-promise #ep000021-vertuous-life #ep000021-honour">
+          <head>This must be sung after euery verse. </head>
+          <lg>
+            <l>Life is but short hope not therin: </l>
+            <l>Vertue immortall seek for to win. </l>
+            <pb xml:id="ep000021-016-b"/>
+            <l>Who so to vertue dooth apply, </l>
+            <l>Good Fame and Honour must obtaine: </l>
+            <l>And also liue eternally, </l>
+            <l>For Vertuous life this is the gaine. </l>
+            <l>Life is but shorte, &amp;c. </l>
+          </lg>
+          <lg>
+            <l>Gods promise sure will neuer faile, </l>
+            <l>His holy woord is a perfect ground, </l>
+            <l>The forte of vertue oh man assaile, </l>
+            <l>Where tresure alway dooth abound. </l>
+            <l>Life is but short, &amp;c. </l>
+          </lg>
+          <lg>
+            <l>To thée alone be laud and praise, </l>
+            <l>Oh Lord thou art so mercifull: </l>
+            <l>Who neuer failed at all assaies, </l>
+            <l>To aid and help the pitifull. </l>
+            <l>Life is but short hope not therin: </l>
+          </lg>
+          <trailer>FINIS. </trailer>
+        </sp>
         </floatingText>
         <stage xml:id="ep000021-e112220">Exeunt omnes. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000021-e112230">Heere entreth Nichole Newfangle, and bringeth in with him a Bagge, a Staffe, a Bottle, and two halters, going about the place shewing it to the audience, and singing this. </stage>
-        <sp xml:id="ep000021-e112240">
+        <sp who="#ep000021-nichol-newfangle" xml:id="ep000021-e112240">
           <l>Trim marchandise trim trim, trim marchandise trim trim, </l>
           <l>He may sing this as oft as he thinketh good. </l>
         </sp>

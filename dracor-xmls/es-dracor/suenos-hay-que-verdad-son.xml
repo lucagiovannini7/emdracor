@@ -136,6 +136,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2023-04-13">(LG) added extra segmentation.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -1362,6 +1367,8 @@
             <l>por si ilusión que se ve</l>
             <l>es ilusión que se escucha.</l>
           </sp>
+        </div>
+        <div type="scene">
           <stage>Ábrese el carro, y haciendo en el aire tablado y vestuario, sale JACOB, viejo
             venerable, con BENJAMÍN, de zagal.</stage>
           <sp who="#jacob">
@@ -1635,6 +1642,8 @@
             <l n="885">que para ilusión es poca</l>
             <l>y para verdad es mucha.</l>
           </sp>
+        </div>
+        <div type="scene">
           <stage>Vanse, y sale por una parte ASENET, dama, y todos -músicos, hombres y mujeres con
             ella- y empezando a cantar, sale el REY por otra parte, paseándose suspenso.</stage>
           <sp who="#asenet">
@@ -1964,6 +1973,8 @@
             <l>Bendito sea el que viene</l>
             <l part="I">en el nombre del Señor.</l>
           </sp>
+        </div>
+        <div type="scene">
           <stage>Éntranse todos, llevándose al REY en medio JOSEF y ASENET, y todos echan los mantos
             en el suelo al pasar; y sale por otra parte el SUEÑO.</stage>
           <sp who="#sueño">
@@ -2119,6 +2130,8 @@
             <l>estoy, que en su busca llegan</l>
             <l part="I">diciendo:</l>
           </sp>
+        </div>
+        <div type="scene">
           <stage>Vanse los dos, y salen RUBÉN, JUDAS, ISACAR, ZABULÓN, GAD, ASER, NEFTALÍ, MANASÉS,
             SIMEÓN, y LEVÍ, de pastores.</stage>
           <sp who="#rubén">
@@ -3036,6 +3049,8 @@
             <l>a fuego y sangre es forzoso</l>
             <l n="1680">lidiar con ambos afectos.</l>
           </sp>
+        </div>
+        <div type="scene">
           <stage>Vase el COPERO. Salen los hermanos, BENJAMÍN con ellos, y BATO, villano
             rústico.</stage>
           <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #benjamín">

@@ -150,6 +150,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2023-04-12">(LG) fixed missing sp and who-tags.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -502,7 +507,7 @@
             <speaker>Fidus. </speaker>
             <p>My louely Gentlemen, GOD guide you by his grace, and though I be somwhat romoued from your dayly company, yet spare not to commaund my seruice, if at any time it may stand you in stéede to vse it. </p>
           </sp>
-          <sp who="#ep000029-phylotus" xml:id="ep000029-e102060">
+          <sp who="#ep000029-phylautus" xml:id="ep000029-e102060">
             <speaker>Phylotus. </speaker>
             <p>Gramercy gentle Fidus. </p>
           </sp>
@@ -531,7 +536,7 @@
             <speaker>Gnomaticus. </speaker>
             <p>And you Phylosarchus how haue you passed your time? </p>
           </sp>
-          <sp who="#ep000029-phylosarcus" xml:id="ep000029-e102200">
+          <sp who="#ep000029-phylosarchus" xml:id="ep000029-e102200">
             <speaker>Phylosarcus. </speaker>
             <p>Sir: my Brother and I haue also bene taught our grammer and to make a verse, we haue redde certaine Comedies of Terence; certaine Epistles of Tully, and some parte of Uirgill, we were also entred into our greeke grammer, </p>
           </sp>
@@ -580,7 +585,7 @@
             <speaker>Gnomaticus. </speaker>
             <p>Well we wil then defer the rest of our labour vntill dinner be past, go we togither, for I thinke it tyme. </p>
           </sp>
-          <sp who="#ep000029-phylosarcus" xml:id="ep000029-e102520">
+          <sp who="#ep000029-phylosarchus" xml:id="ep000029-e102520">
             <speaker>Phylosarcus. </speaker>
             <p>We followe when it pleaseth you. </p>
             <stage xml:id="ep000029-e102540">They depart. </stage>
@@ -671,6 +676,7 @@
         </div>
         <div n="1" type="chorus" xml:id="ep000029-e102960">
           <head>The first Chorus. </head>
+          <sp who="#ep000029-chorus">
           <lg>
             <l>WHen God ordeynd the restlesse life of man, </l>
             <l>And made him thrall to sundry greenous cares: </l>
@@ -745,6 +751,7 @@
             <l>Which godly care, (O God) so deigne to blisse, </l>
             <l>That men may sée how great thy glory is. </l>
           </lg>
+          </sp>
         </div>
         <trailer>Finis, Actus primus. </trailer>
       </div>
@@ -758,7 +765,7 @@
               <pb xml:id="ep000029-016-b"/>Gnomaticus. </speaker>
             <p>MY well beloued, as tyme is the greatest treasure which man may here on earth receiue, so let vs not leese time, but rather séeke so to bestowe the same, that profitte may thereof be gathered. I will nowe return to enstruct you what dutyes you owe vnto the King, whose place is next vnto Gods place in consideration of your duty. And as I haue taught you thrée principall poyntes in seruice of God almighty, so will I also conuey into thrée pointes, as much as shalbe necessary for this tradition: for I feare least I haue bene ouer longe in my first deuision, but I was drawne thervnto by the request which you made of your selues, and therefore beare with me. </p>
           </sp>
-          <sp who="#ep000029-phylotus" xml:id="ep000029-e103670">
+          <sp who="#ep000029-phylautus" xml:id="ep000029-e103670">
             <speaker>Phylotus. </speaker>
             <p>Sir our desire is such, to beare away perfectly your enstruction, that your prolixity séemeth vnto vs very compendious. </p>
           </sp>
@@ -816,11 +823,11 @@
           <head>Actus secundi, </head>
           <head>Scaena secunda. </head>
           <stage xml:id="ep000029-e104050">PHYLAVTVS, PHYLOMVSVS, PHYLOSARCVS, PHYLOTIMVS, and ONATICVS. </stage>
-          <sp xml:id="ep000029-e104060">
+          <sp who="#ep000029-phylautus" xml:id="ep000029-e104060">
             <speaker>Phylautus. </speaker>
             <p>AH sirha, I sée wel the olde prouerbe is true, which saith: so many men so many mindes, this order of teaching is farre contrary to all other that euer I haue heard, &amp; shal I tell you? it hath in it neither head nor foote. </p>
           </sp>
-          <sp xml:id="ep000029-e104080">
+          <sp who="#ep000029-phylomusus" xml:id="ep000029-e104080">
             <speaker>Phylomusus. </speaker>
             <p>Truly brother it hath in it great reason &amp; vertue, and though it be at the first vnpleasant in comparison to Terences Commedies and such like, yet ought we to haue good regarde therunto, since it teacheth in effect the summe of our duties. </p>
           </sp>
@@ -896,7 +903,7 @@
             <speaker>Phylautus. </speaker>
             <p>What is that Eccho? </p>
           </sp>
-          <sp who="#ep000029-philosarchus" xml:id="ep000029-e104460">
+          <sp who="#ep000029-phylosarchus" xml:id="ep000029-e104460">
             <speaker>Philosarchus. </speaker>
             <p>Know you not Eccho? why then you know no man, the best fellow in all this towne, and readie to do for all men: I will bring you acquaynted with him. </p>
           </sp>
@@ -963,7 +970,7 @@
             <speaker>Eccho. </speaker>
             <p>Sir there is neuer a gentleman in this citie, shall make Eccho stretch a stringe sooner then your selfe, but of a very truth, hetherto I haue séene no such likelyhood, but Sir, you are a gallant yong man, me thinkes you myght do well to walke somtimes by her lodging, and geue her the Albade, or the Bezo las manos, and by that meane you may acquaint your selfe with her: afterwardes if any <pb xml:id="ep000029-022-b"/>thing may be furthered by Eccho, commaund him. </p>
           </sp>
-          <sp who="#ep000029-philosarchus" xml:id="ep000029-e104790">
+          <sp who="#ep000029-phylosarchus" xml:id="ep000029-e104790">
             <speaker>Philosarchus. </speaker>
             <p>Gramercie gentle Eccho, but where aboutes is she lodged? </p>
           </sp>
@@ -971,7 +978,7 @@
             <speaker>Eccho. </speaker>
             <p>Not farre from S. Myghels Sir, at a red house I will take leaue of you for this time, least she thinke me verie slacke in attendance. </p>
           </sp>
-          <sp who="#ep000029-philosarchus" xml:id="ep000029-e104830">
+          <sp who="#ep000029-phylosarchus" xml:id="ep000029-e104830">
             <speaker>Philosarchus. </speaker>
             <p>Fare well friend Eccho. Did I not tell you what he was? there is not such a felow in a world againe, surely it shall go hard but I will haue a sling at this damsell: but let vs goe in, for our companions are departed long sithens, and we shal perchance giue some cause of suspecte, if we tarie long here. </p>
           </sp>
@@ -1040,7 +1047,7 @@
             <speaker>Philautus. </speaker>
             <p>I Am glad that we haue libertie this afternoone to take recreation, not for that I lacked time to meditate that which hath bene read vnto vs, but bycause I take pleasure in walking abroad. </p>
           </sp>
-          <sp who="#ep000029-philosarchus" xml:id="ep000029-e105170">
+          <sp who="#ep000029-phylosarchus" xml:id="ep000029-e105170">
             <speaker>Philosarchus. </speaker>
             <p>And I hope by this meanes to haue further communication with my friende Eccho, and beholde where he is. </p>
           </sp>
@@ -1088,11 +1095,11 @@
             <speaker>Lamia. </speaker>
             <p>Worthie gentleman, I thanke you most heartely <pb xml:id="ep000029-025-a"/>for your good wil, and if God hear your prayer, he shal do more than he did for me a good whyle, but it is no matter, when he hath taken his pleasure of punishing, he will at last haue pitie on the poore. </p>
           </sp>
-          <sp who="#ep000029-philosarchus" xml:id="ep000029-e105410">
+          <sp who="#ep000029-phylosarchus" xml:id="ep000029-e105410">
             <speaker>Philosarchus. </speaker>
             <p>Surely mystresse, it were great pitie that such a one as you, should indure any punishment without great cause, and hardly can I thinke that any heart is so hard as to see you sorowfull, if remedie maye be therefore obteyned. </p>
           </sp>
-          <sp xml:id="ep000029-e105430">
+          <sp who="#ep000029-lamia" xml:id="ep000029-e105430">
             <speaker>Lamia. </speaker>
             <p>Syr, I coulde be content that all men were of your mynde, but I finde curtesie verie colde nowe adayes, and many there be which woulde rather depryue a poore gentlewoman of her right, then rue vpon her piteous plyght: the good king Amadis is dead long sythens, whose Knightes vndertooke alwayes the defence of Dames and Damselles. </p>
             <stage xml:id="ep000029-e105450">She whyneth. </stage>
@@ -1141,6 +1148,7 @@
         </div>
         <div n="2" type="chorus" xml:id="ep000029-e105680">
           <head>The second Chorus. </head>
+          <sp who="#ep000029-chorus">
           <lg>
             <l>BEhold behold, O mortall men behold, </l>
             <l>Behold and sée, how soone deceipt is wrought: </l>
@@ -1170,6 +1178,7 @@
             <l>Yet mighty God, vouchsafe to guyde the rest, </l>
             <l>That they may shun the bad, &amp; sew the best. </l>
           </lg>
+          </sp>
         </div>
         <trailer>Finis, Actus secundi. </trailer>
       </div>
@@ -1230,7 +1239,7 @@
             <speaker>Phylautus. </speaker>
             <p>THis was a proper messanger in déede, hée myght haue mocked others though he mocked not vs. </p>
           </sp>
-          <sp who="#ep000029-philosarchus" xml:id="ep000029-e106250">
+          <sp who="#ep000029-phylosarchus" xml:id="ep000029-e106250">
             <speaker>Philosarchus. </speaker>
             <p>O syr you do him wrong, for it séemeth vnto me that the poore fellow is as sorie for it as we are mis-contented, and that he rather faulted through ignorance, than of any set purpose, but looke where our brethren are. Brother wher haue you bin whilest we were at the Markgraues house? </p>
           </sp>
@@ -1273,7 +1282,7 @@
             <speaker>Phylautus. </speaker>
             <p>Let vs say then that we were together, least he be offended. </p>
           </sp>
-          <sp xml:id="ep000029-e106460">
+          <sp who="#ep000029-gnomaticus" xml:id="ep000029-e106460">
             <speaker>Gnomaticus. </speaker>
             <p>Nowe my welbeloued, and what sayth the honorable &amp; reuerende Markgraue vnto you? or howe doth he like the maner of your enstruction? haue you recyted or declared any part thereof vnto him since your going? </p>
           </sp>
@@ -1309,7 +1318,7 @@
           <head>Actus tertij </head>
           <head>Scaena quarta. </head>
           <stage xml:id="ep000029-e106620">PYLOSARCVS, PHYLAVTVS, PHYLOTIMVS, PHYLOMVSVS, AMBIDEXTER </stage>
-          <sp who="#ep000029-philosarchus" xml:id="ep000029-e106630">
+          <sp who="#ep000029-phylosarchus" xml:id="ep000029-e106630">
             <speaker>Philosarchus. </speaker>
             <p>OH that I had now the vayne which Uirgill had in writing of a delectable verse. </p>
           </sp>
@@ -1325,7 +1334,7 @@
             <speaker>Phylosarchus. </speaker>
             <p>God be with them, shall I tell you Phylautus, wherfore I desired the excellencie of Uirgil, in compounding of a verse? not as they thinke God knoweth, to conuert our tedious traditions there into: for a small grace in a verse wil serue for such vnpleasant matter, but it was to furnish me with eloquence, for the better obteyning of this heauenly dame, whose remembrance is swéet vnto me, neyther yet am I able to expresse such prayses as she doth deserue. Oh how it delighteth me to behold in myne imagination the counterfeyt of her excellent face, me thinkes the glimsing of her eyes haue in it a reflexion, farre more vehement than the beames of the Sunne it selfe, and the swéetnesse of her heauenly breath, surpasseth the spiceries of Arabia. Oh that I had skill to write some worthy matter in commendation of her rare perfections, surely I wil tell you Philautus, I doe both reioyce in your doings, and much wonder at your inclination. I wonder bicause I can not perceyue that you are any thing moued with affection of mynde towards her, and yet I reioyce therein least the same might haue become an hinderance to my desires, oh, howe only loue will admit no companion. </p>
           </sp>
-          <sp xml:id="ep000029-e106710">
+          <sp who="#ep000029-phylautus" xml:id="ep000029-e106710">
             <speaker>Phylautus. </speaker>
             <p>Phylosarchus, you may happely be deceyued in me, and therefore I would not wish you hereafter to affye your selfe in any man at the first acquaintance, but in déede to confesse a truth vnto you, although this gentlewoman be beautifull, yet, haue I refreyned hitherto to become <pb xml:id="ep000029-030-b"/>affectionate on her, as well bycause I would therein giue place vnto your desire, as also bycause I haue not perceyued that euer she lent any glaunce or liking looke towardes me, and as I can be content to loue where I finde my selfe estéemed, so be you sure that I thinke my halfepeny as good siluer as another doth, and she that séemeth not with gréedie eye to beholde me, it is verie likely that I wil not be ouerhastie to gaze at her. But to returne vnto the purpose, as you do nowe earnestly desire to get victorie ouer her affection: so doe I euery day beseeche of God, that our parentes may at last determine to sende vs vnto some Uniuersitie, that there the varietie of all delightes maye yelde vnto each of vs his contentation. </p>
           </sp>
@@ -1739,6 +1748,7 @@
         </div>
         <div n="3" type="chorus" xml:id="ep000029-e109320">
           <head>The third Chorus. </head>
+          <sp who="#ep000029-chorus">
           <lg>
             <l>THe Shed is great, and greater then the show, </l>
             <l>Which séemes to be, betwéene the good and bad: </l>
@@ -1788,6 +1798,7 @@
             <l>Thus good from badde, appeares as day from night, </l>
             <l>That one takes paine, that other loues delight. </l>
           </lg>
+          </sp>
         </div>
         <trailer>Finis, Actus Tertij. </trailer>
       </div>
@@ -2075,6 +2086,7 @@
         <div n="4" type="chorus" xml:id="ep000029-e111180">
           <pb xml:id="ep000029-043-b"/>
           <head>The fourth Chorus. </head>
+          <sp who="#ep000029-chorus">
           <lg>
             <l>THe toiling man which tilles, his ground with greatest paine, </l>
             <l>Hath not alway such crops theron, as yéeld him greatest gain. </l>
@@ -2111,6 +2123,7 @@
             <l>Wherefore who list to learne: Obstaprincipijs. </l>
             <l>Since vertue seldome can preuaile, where vice so rooted is. </l>
           </lg>
+          </sp>
         </div>
         <trailer>Finis Chori &amp; Actus quarti. </trailer>
       </div>
@@ -2286,7 +2299,7 @@
             <speaker>Fidus. </speaker>
             <p>Well Sir you shall sée that no diligence shall want in me to recouer them. Will it please you to commaund me any other seruice? </p>
           </sp>
-          <sp xml:id="ep000029-e112420">
+          <sp who="#ep000029-phylopaes" xml:id="ep000029-e112420">
             <speaker>Phylopaes. </speaker>
             <p>No, but God send thée good successe. </p>
             <stage xml:id="ep000029-e112440">Fidus departeth. </stage>
@@ -2625,7 +2638,7 @@
             <speaker>Gnomaticus. </speaker>
             <p>It is Fidus, God graunt he bring good tidings. </p>
           </sp>
-          <sp xml:id="ep000029-e114080">
+          <sp who="#ep000029-fidus" xml:id="ep000029-e114080">
             <speaker>Fidus. </speaker>
             <p>I would rather fynd him in any place then at hys howse, that he might haue some company (yet) whych might comforte him, for I dare say these tidings will break his harte with Sorowe. </p>
           </sp>

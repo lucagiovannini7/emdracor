@@ -109,7 +109,7 @@
       <listChange>
         <change when="2022-09-29">(LG) first encoding and formatting. Removed paratexts.</change>
         <change when="2023-02-08"> (LG) updated formatting. </change>
-        <change when="2023-03-30"> (LG) added configurations. </change>
+        <change when="2023-03-30"> (LG) added scene div. </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -155,7 +155,7 @@
     </front>
     <body>
       <div type="act">
-        <div type="configuration">
+        <div type="scene">
           <sp who="#solomone">
             <speaker>SOLOMONE.</speaker>
             <l>Q Bien aimez enfans que la sage nature</l>

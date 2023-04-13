@@ -191,6 +191,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2023-04-13">(LG) added extra segmentation.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -216,7 +221,7 @@
       </div>
     </front>
     <body>
-      <div type="play" xml:id="ep000150-e100090">
+      <div type="scene" xml:id="ep000150-e100090">
         <pb type="blank" xml:id="ep000150-002-a"/>
         <pb xml:id="ep000150-002-b"/>
         <head>The tragicall Historie of Doctor Faustus. </head>
@@ -254,6 +259,8 @@
           <l>And this the man that in his study sits. </l>
         </sp>
         <stage xml:id="ep000150-e100400">Exit. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e100410">Enter Faustus in his Study. </stage>
         <sp who="#ep000150-faustus" xml:id="ep000150-e100420">
           <speaker>Faustus </speaker>
@@ -338,14 +345,14 @@
           <l>Thn all my labours, plodde I nere so fast. </l>
         </sp>
         <stage xml:id="ep000150-e101160">Enter the good Angell and the euill Angell. </stage>
-        <sp who="#ep000150-good_angel" xml:id="ep000150-e101170">
+        <sp who="#ep000150-good-angel" xml:id="ep000150-e101170">
           <speaker>Good. A. </speaker>
           <l>O Faustus, lay that damned booke aside, </l>
           <l>And gaze not on it, lest it tempt thy soule, </l>
           <l>And heape Gods heauy wrath vpon thy head, </l>
           <l>Reade, reade the scriptures, that is blasphemy. </l>
         </sp>
-        <sp who="#ep000150-evil_angel" xml:id="ep000150-e101220">
+        <sp who="#ep000150-evil-angel" xml:id="ep000150-e101220">
           <speaker>Euill An. </speaker>
           <l>Go forward Faustus in that famous art, </l>
           <l>Wherein all natures treasury is containd: </l>
@@ -473,6 +480,8 @@
           <l>This night Ile coniure though I die therefore. </l>
         </sp>
         <stage xml:id="ep000150-e102270">Exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e102280">Enter two Schollers. </stage>
         <sp who="#ep000150-scholar-i" xml:id="ep000150-e102290">
           <speaker>1 Sch. </speaker>
@@ -550,6 +559,8 @@
           <p>Yet let vs trie what we can do. </p>
         </sp>
         <stage xml:id="ep000150-e102670">Exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e102680">Enter Faustus to coniure. </stage>
         <sp who="#ep000150-faustus" xml:id="ep000150-e102690">
           <speaker>Fau. </speaker>
@@ -737,6 +748,8 @@
           <l>Til Mephastophilis returne againe. </l>
           <stage xml:id="ep000150-e104040">exit. </stage>
         </sp>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e104050">Enter Wagner and the Clowne. </stage>
         <sp who="#ep000150-wagner" xml:id="ep000150-e104060">
           <speaker>Wag. </speaker>
@@ -900,6 +913,8 @@
           <p>God forgiue me, he speakes Dutch fustian: well, Ile folow him, Ile serue him, thats flat. </p>
           <stage xml:id="ep000150-e104860">exit </stage>
         </sp>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e104870">Enter Faustus in his Study. </stage>
         <sp who="#ep000150-faustus" xml:id="ep000150-e104880">
           <speaker>Fau. </speaker>
@@ -919,7 +934,7 @@
           <l>And offer luke warme blood of new borne babes. </l>
         </sp>
         <stage xml:id="ep000150-e105030">Enter good Angell, and Euill. </stage>
-        <sp who="#ep000150-good_angel" xml:id="ep000150-e105040">
+        <sp who="#ep000150-good-angel" xml:id="ep000150-e105040">
           <speaker>Good Angel </speaker>
           <l>Swéet Faustus, leaue that execrable art. </l>
         </sp>
@@ -927,20 +942,20 @@
           <speaker>Fau. </speaker>
           <l>Contrition, prayer, repentance: what of them? </l>
         </sp>
-        <sp who="#ep000150-good_angel" xml:id="ep000150-e105080">
+        <sp who="#ep000150-good-angel" xml:id="ep000150-e105080">
           <speaker>Good Angel </speaker>
           <l>O they are meanes to bring thée vnto heauen. </l>
         </sp>
-        <sp who="#ep000150-evil_angel" xml:id="ep000150-e105100">
+        <sp who="#ep000150-evil-angel" xml:id="ep000150-e105100">
           <speaker>Euill Angel </speaker>
           <l>Rather illusions fruites of lunacy, </l>
           <l>That makes men foolish that do trust them most. </l>
         </sp>
-        <sp who="#ep000150-good_angel" xml:id="ep000150-e105130">
+        <sp who="#ep000150-good-angel" xml:id="ep000150-e105130">
           <speaker>Good Angel </speaker>
           <l>Swéet Faustus thinke of heauen, and heauenly things. </l>
         </sp>
-        <sp who="#ep000150-evil_angel" xml:id="ep000150-e105150">
+        <sp who="#ep000150-evil-angel" xml:id="ep000150-e105150">
           <speaker>Euill Angel </speaker>
           <l>No Faustus, thinke of honor and wealth. </l>
         </sp>
@@ -1286,11 +1301,11 @@
           <l>I wil renounce this magicke, and repent. </l>
         </sp>
         <stage xml:id="ep000150-e107300">Enter good Angel, and euill Angel. </stage>
-        <sp who="#ep000150-good_angel" xml:id="ep000150-e107310">
+        <sp who="#ep000150-good-angel" xml:id="ep000150-e107310">
           <speaker>Good An: </speaker>
           <p>Faustus, repent yet, God wil pitty thée. </p>
         </sp>
-        <sp who="#ep000150-evil_angel" xml:id="ep000150-e107330">
+        <sp who="#ep000150-evil-angel" xml:id="ep000150-e107330">
           <speaker>euill An: </speaker>
           <p>Thou art a spirite, God cannot pitty thée. </p>
         </sp>
@@ -1301,7 +1316,7 @@
           <l>I God wil pitty me, if I repent. </l>
         </sp>
         <pb xml:id="ep000150-011-b"/>
-        <sp who="#ep000150-evil_angel" xml:id="ep000150-e107390">
+        <sp who="#ep000150-evil-angel" xml:id="ep000150-e107390">
           <speaker>euill An: </speaker>
           <p>I but Faustus neuer shal repent. </p>
         </sp>
@@ -1415,19 +1430,19 @@
           <l>Ist not too late? </l>
         </sp>
         <stage xml:id="ep000150-e108120">Enter good Angell and euill. </stage>
-        <sp who="#ep000150-evil_angel" xml:id="ep000150-e108130">
+        <sp who="#ep000150-evil-angel" xml:id="ep000150-e108130">
           <speaker>euill A. </speaker>
           <p>Too late. </p>
         </sp>
-        <sp who="#ep000150-good_angel" xml:id="ep000150-e108150">
+        <sp who="#ep000150-good-angel" xml:id="ep000150-e108150">
           <speaker>good A. </speaker>
           <p>Neuer too late, if Faustus can repent. </p>
         </sp>
-        <sp who="#ep000150-evil_angel" xml:id="ep000150-e108170">
+        <sp who="#ep000150-evil-angel" xml:id="ep000150-e108170">
           <speaker>euill A. </speaker>
           <p>If thou repent diuels shall teare thee in péeces. </p>
         </sp>
-        <sp who="#ep000150-good_angel" xml:id="ep000150-e108190">
+        <sp who="#ep000150-good-angel" xml:id="ep000150-e108190">
           <speaker>good A. </speaker>
           <p>Repent, &amp; they shal neuer race thy skin. </p>
         </sp>
@@ -1584,6 +1599,8 @@
           <p>Farewel great Lucifer, come Mephastophilis. </p>
         </sp>
         <stage xml:id="ep000150-e109040">exeunt omnes. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e109050">enter Wagner solus. </stage>
         <sp who="#ep000150-wagner" xml:id="ep000150-e109060">
           <speaker>Wag. </speaker>
@@ -1600,6 +1617,8 @@
           <l>That to this day is highly solemnizd. </l>
           <stage xml:id="ep000150-e109180">exit Wagner </stage>
         </sp>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e109190">Enter Faustus and Mephastophilis. </stage>
         <sp who="#ep000150-faustus" xml:id="ep000150-e109200">
           <speaker>Fau. </speaker>
@@ -1764,7 +1783,7 @@
           <speaker>Frier. </speaker>
           <p>Come brethren, lets about our businesse with good deuotion. </p>
         </sp>
-        <sp xml:id="ep000150-e110280">
+        <sp who="#ep000150-friar" xml:id="ep000150-e110280">
           <stage xml:id="ep000150-e110290">Sing this. </stage>
           <p>Cursed be hee that stole away his holinesse meate from the table. <lb/>maledicat dominus. <lb/>Cursed be hee that strooke his holinesse a blowe on the face. <lb/>maledicat dominus. <lb/>Cursed be he that tooke Frier Sandelo a blow on the pate. <lb/>male, &amp;c. <lb/>Cursed be he that disturbeth our holy Dirge. <lb/>male, &amp;c. <lb/>Cursed be he that tooke away his holinesse wine. <lb/>maledicat dominus. <lb/>Et omnes sancti. Amen. </p>
         </sp>
@@ -1792,6 +1811,8 @@
           <l>I leaue vntold, your eyes shall see performd. </l>
           <stage xml:id="ep000150-e110610">Exit. </stage>
         </sp>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e110620">Enter Robin the Ostler with a booke in his hand </stage>
         <sp who="#ep000150-robin" xml:id="ep000150-e110630">
           <speaker>Robin </speaker>
@@ -1950,6 +1971,8 @@
           <speaker>Robin </speaker>
           <p>I faith thy head wil neuer be out of the potage pot. </p>
         </sp>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e111490">Enter Emperour, Faustus, and a Knight, with Attendants. </stage>
         <sp who="#ep000150-emperor" xml:id="ep000150-e111500">
           <speaker>Em. </speaker>
@@ -2243,6 +2266,8 @@
           <p>The Duke of Vanholt! an honourable gentleman, to whom I must be no niggard of my cunning, come Mephastophilis, let's away to him. </p>
         </sp>
         <stage xml:id="ep000150-e113150">exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e113160">Enter to them the Duke, and the Dutches, the Duke speakes. </stage>
         <sp who="#ep000150-duke-of-vanholt" xml:id="ep000150-e113170">
           <speaker>Du: </speaker>
@@ -2306,6 +2331,8 @@
           <l>As Wagner nere beheld in all his life. </l>
           <l>Sée where they come: belike the least is ended. </l>
         </sp>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e113550">Enter Faustus with two or three Schollers </stage>
         <sp who="#ep000150-scholar-i" xml:id="ep000150-e113560">
           <speaker>1. Sch. </speaker>
@@ -2478,6 +2505,8 @@
           <l>Hence hel, for hence I flie vnto my God. </l>
         </sp>
         <stage xml:id="ep000150-e114790">Exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e114800">Enter Faustus with the Schollers. </stage>
         <sp who="#ep000150-faustus" xml:id="ep000150-e114810">
           <speaker>Fau: </speaker>
@@ -2588,6 +2617,8 @@
           <p>Faustus, farewel. </p>
         </sp>
         <stage xml:id="ep000150-e115340">Exeunt Sch. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000150-e115350">The clocke strikes eleauen. </stage>
         <sp who="#ep000150-faustus" xml:id="ep000150-e115360">
           <speaker>Fau. </speaker>

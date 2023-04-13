@@ -126,9 +126,6 @@
           <person xml:id="ep000360-caesar" sex="MALE">
             <persName>Caesar</persName>
           </person>
-          <person xml:id="ep000360-octavius" sex="MALE">
-            <persName>Octavius</persName>
-          </person>
           <person xml:id="ep000360-cleopatra" sex="FEMALE">
             <persName>Cleopatra</persName>
           </person>
@@ -138,6 +135,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2023-04-12">(LG) fixed missing sp and who-tags.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -348,7 +350,7 @@
         <list>
           <item>CLEOPATRA. </item>
         </list>
-        <sp xml:id="ep000360-e101580">
+        <sp who="ep000360-cleopatra">
           <l>YET doe I liue, and yet doth breath possesse </l>
           <l>This hatefull prison of a loathsome soule: </l>
           <l>Can no calamitie, nor no distresse </l>
@@ -541,7 +543,7 @@
         <div type="chorus" xml:id="ep000360-e103400">
           <pb xml:id="ep000360-064-b"/>
           <head>CHORVS. </head>
-          <lg>
+          <sp who="ep000360-chorus">
             <l>BEhold what Furies still </l>
             <l>Torment their tortur'd brest. </l>
             <l>Who by their doing ill, </l>
@@ -554,7 +556,6 @@
             <l>Their Conscience still within, </l>
             <l>Theternall larum is, </l>
             <l>That euer-barking dog that calls vppon theyr miss. </l>
-          </lg>
           <lg>
             <l>No meanes at all to hide </l>
             <l>Man from himselfe can finde: </l>
@@ -613,6 +614,7 @@
             <l>Poore vnconsider at wights, </l>
             <l>These momentary pleasures, fugitiue delights. </l>
           </lg>
+          </sp>
         </div>
       </div>
       <div type="act" xml:id="ep000360-e104060">
@@ -622,29 +624,31 @@
           <item>CAESAR. </item>
           <item>PROCVLEIVS. </item>
         </list>
-        <l>KIngdoms I see we winne, we conquere Climates, </l>
-        <l>Yet cannot vanquish harts, nor force obedience, </l>
-        <l>Affections kept in close-concealed limits, </l>
-        <l>Stand farre without the reach of sword or violence. </l>
-        <l>Who forc'd doe pay vs duety, pay not loue: </l>
-        <l>Free is the hart, the temple of the minde, </l>
-        <l>The Sanctuarie sacred from aboue, </l>
-        <l>Where nature keepes the keyes that loose and bind. </l>
-        <l>No mortall hand force open can that doore, </l>
-        <l>So close shut vp, and lockt to all mankind: </l>
-        <l>I see mens bodies onely ours, no more, </l>
-        <l>The rest, anothers right, that rules the minde. </l>
-        <l>Behold, my forces vanquisht haue this Land, </l>
-        <l>Subdu'de that strong Competitor of mine: </l>
-        <l>All Egipt yeelds to my all-conquering hand, </l>
-        <l>And all theyr treasure and themselues resigne. </l>
-        <l>Onely this Queene, that hath lost all this all, </l>
-        <l>To whom is nothing left except a minde: </l>
-        <l>Cannot into a thought of yeelding fall, </l>
-        <pb xml:id="ep000360-066-b"/>
-        <l>To be dispos'd as chaunce hath her assign'd. </l>
-        <l>But Proculei, what hope doth shee now giue, </l>
-        <l>Will shee be brought to condiscend to liue? </l>
+        <sp who="#ep000360-caesar">
+          <l>KIngdoms I see we winne, we conquere Climates, </l>
+          <l>Yet cannot vanquish harts, nor force obedience, </l>
+          <l>Affections kept in close-concealed limits, </l>
+          <l>Stand farre without the reach of sword or violence. </l>
+          <l>Who forc'd doe pay vs duety, pay not loue: </l>
+          <l>Free is the hart, the temple of the minde, </l>
+          <l>The Sanctuarie sacred from aboue, </l>
+          <l>Where nature keepes the keyes that loose and bind. </l>
+          <l>No mortall hand force open can that doore, </l>
+          <l>So close shut vp, and lockt to all mankind: </l>
+          <l>I see mens bodies onely ours, no more, </l>
+          <l>The rest, anothers right, that rules the minde. </l>
+          <l>Behold, my forces vanquisht haue this Land, </l>
+          <l>Subdu'de that strong Competitor of mine: </l>
+          <l>All Egipt yeelds to my all-conquering hand, </l>
+          <l>And all theyr treasure and themselues resigne. </l>
+          <l>Onely this Queene, that hath lost all this all, </l>
+          <l>To whom is nothing left except a minde: </l>
+          <l>Cannot into a thought of yeelding fall, </l>
+          <pb xml:id="ep000360-066-b"/>
+          <l>To be dispos'd as chaunce hath her assign'd. </l>
+          <l>But Proculei, what hope doth shee now giue, </l>
+          <l>Will shee be brought to condiscend to liue? </l>
+        </sp>
         <sp who="#ep000360-proculeius" xml:id="ep000360-e104320">
           <speaker>Proc. </speaker>
           <l>My Lord, what time being sent from you to try, </l>
@@ -814,6 +818,7 @@
         </sp>
         <div type="chorus" xml:id="ep000360-e105660">
           <head>CHORVS. </head>
+          <sp who="#ep000360-chorus">
           <lg>
             <l>OPINION, howe doost thou molest </l>
             <l>Th affected minde of restles man? </l>
@@ -897,6 +902,7 @@
             <l>This is that rest this vaine world lends, </l>
             <l>To end in death that all thing ends. </l>
           </lg>
+          </sp>
         </div>
       </div>
       <div type="act" xml:id="ep000360-e106420">
@@ -906,44 +912,46 @@
             <item>PHILOSTRATVS. </item>
             <item>ARIVS. </item>
           </list>
-          <l>HOW deepely Arius am I bounde to thee, </l>
-          <l>That sau'dst from death this wretched life of mine: </l>
-          <l>Obtayning Caesars gentle grace for mee, </l>
-          <l>When I of all helps els dispayr'd but thine? </l>
-          <l>Although I see in such a wofull state, </l>
-          <l>Life is not that which should be much desir'd: </l>
-          <l>Sith all our glories come to end theyr date, </l>
-          <l>Our Countries honour and our owne expir'd. </l>
-          <l>Now that the hand of wrath hath ouer-gone vs, </l>
-          <l>Liuing (as 'twere) in th'armes of our dead mother, </l>
-          <pb xml:id="ep000360-071-a"/>
-          <l>With blood vnder our feete ruine vpon vs, </l>
-          <l>And in a Land most wretched of all other, </l>
-          <l>When yet we reckon life our deerest good. </l>
-          <l>And so we liue, we care not how we liue: </l>
-          <l>So deepe we feel impressed in our blood, </l>
-          <l>That touch which nature with our breath did giue. </l>
-          <l>And yet what blasts of words hath learning found, </l>
-          <l>To blow against the feare of death and dying? </l>
-          <l>What comforts vnsicke Eloquence can sound, </l>
-          <l>And yet all fayles vs in the poynt of trying. </l>
-          <l>For whilst we reason with the breath of safety, </l>
-          <l>Without the compasse of destruction liuing: </l>
-          <l>What precepts shew wee then, what courage lofty </l>
-          <l>In taxing others feares in counsell giuing? </l>
-          <l>When all thys ayre of sweet-contriued words, </l>
-          <l>Prooues but weake armour to defend the hart. </l>
-          <l>For when this lyfe, pale feare and terror boords, </l>
-          <l>Where are our precepts then, where is our arte? </l>
-          <l>O who is he that from himselfe can turne, </l>
-          <l>That beares about the body of a man? </l>
-          <l>Who doth not toyle and labour to adiorne </l>
-          <l>The day of death, by any meanes he can? </l>
-          <l>All this I speake to th'end my selfe t'excuse, </l>
-          <l>For my base begging of a seruile breath, </l>
-          <pb xml:id="ep000360-071-b"/>
-          <l>Wherein I graunt my selfe much t'abuse, </l>
-          <l>So shamefully to seeke t'auoyd my death. </l>
+          <sp who="#ep000360-philostratus">
+            <l>HOW deepely Arius am I bounde to thee, </l>
+            <l>That sau'dst from death this wretched life of mine: </l>
+            <l>Obtayning Caesars gentle grace for mee, </l>
+            <l>When I of all helps els dispayr'd but thine? </l>
+            <l>Although I see in such a wofull state, </l>
+            <l>Life is not that which should be much desir'd: </l>
+            <l>Sith all our glories come to end theyr date, </l>
+            <l>Our Countries honour and our owne expir'd. </l>
+            <l>Now that the hand of wrath hath ouer-gone vs, </l>
+            <l>Liuing (as 'twere) in th'armes of our dead mother, </l>
+            <pb xml:id="ep000360-071-a"/>
+            <l>With blood vnder our feete ruine vpon vs, </l>
+            <l>And in a Land most wretched of all other, </l>
+            <l>When yet we reckon life our deerest good. </l>
+            <l>And so we liue, we care not how we liue: </l>
+            <l>So deepe we feel impressed in our blood, </l>
+            <l>That touch which nature with our breath did giue. </l>
+            <l>And yet what blasts of words hath learning found, </l>
+            <l>To blow against the feare of death and dying? </l>
+            <l>What comforts vnsicke Eloquence can sound, </l>
+            <l>And yet all fayles vs in the poynt of trying. </l>
+            <l>For whilst we reason with the breath of safety, </l>
+            <l>Without the compasse of destruction liuing: </l>
+            <l>What precepts shew wee then, what courage lofty </l>
+            <l>In taxing others feares in counsell giuing? </l>
+            <l>When all thys ayre of sweet-contriued words, </l>
+            <l>Prooues but weake armour to defend the hart. </l>
+            <l>For when this lyfe, pale feare and terror boords, </l>
+            <l>Where are our precepts then, where is our arte? </l>
+            <l>O who is he that from himselfe can turne, </l>
+            <l>That beares about the body of a man? </l>
+            <l>Who doth not toyle and labour to adiorne </l>
+            <l>The day of death, by any meanes he can? </l>
+            <l>All this I speake to th'end my selfe t'excuse, </l>
+            <l>For my base begging of a seruile breath, </l>
+            <pb xml:id="ep000360-071-b"/>
+            <l>Wherein I graunt my selfe much t'abuse, </l>
+            <l>So shamefully to seeke t'auoyd my death. </l>
+          </sp>
           <sp who="#ep000360-arius" xml:id="ep000360-e106830">
             <speaker>Arius. </speaker>
             <l>Philostratus, that selfe same care to liue, </l>
@@ -1278,6 +1286,7 @@
         </div>
         <div type="chorus" xml:id="ep000360-e109530">
           <head>CHORVS. </head>
+          <sp who="#ep000360-chorus">
           <lg>
             <l>O Fearefull frowning NEMESIS, </l>
             <l>Daughter of IVSTICE, most seuere, </l>
@@ -1351,6 +1360,7 @@
             <l>As wee, so they that treate vs thus, </l>
             <l>Must one day perrish like to vs. </l>
           </lg>
+          </sp>
         </div>
       </div>
       <div type="act" xml:id="ep000360-e110190">
@@ -1796,6 +1806,7 @@
         </div>
         <div type="chorus" xml:id="ep000360-e114210">
           <head>CHORVS. </head>
+          <sp who="#ep000360-chorus">
           <lg>
             <l>MIsterious Egipt, wonder breeder, strict religions strange obseruer, </l>
             <l>State-ordrer Zeale, the best rule-keeper, fostring still in feruor: </l>
@@ -1848,6 +1859,7 @@
             <l>That our spoyles may spoyle your greatnes, ouercome with our deuises. </l>
             <l>Fill full your hands, and carry home Inough from vs to ruine Rome. </l>
           </lg>
+          </sp>
         </div>
       </div>
       <div type="act" xml:id="ep000360-e114670">
@@ -1995,14 +2007,16 @@
           <list>
             <item>NVNTIVS. </item>
           </list>
-          <l>AM I ordaind the carefull Messenger, </l>
-          <l>And sad newes-bringer of the strangest death, </l>
-          <l>Which selfe hand did vpon it selfe infer, </l>
-          <l>To free a captiue soule from seruile breath? </l>
-          <l>Must I the lamentable wonder shew, </l>
-          <l>Which all the world must grieue and meruaile at? </l>
-          <l>The rarest forme of death in earth below, </l>
-          <l>That euer pitty, glory, wonder gat. </l>
+          <sp who="#ep000360-nuntius">
+            <l>AM I ordaind the carefull Messenger, </l>
+            <l>And sad newes-bringer of the strangest death, </l>
+            <l>Which selfe hand did vpon it selfe infer, </l>
+            <l>To free a captiue soule from seruile breath? </l>
+            <l>Must I the lamentable wonder shew, </l>
+            <l>Which all the world must grieue and meruaile at? </l>
+            <l>The rarest forme of death in earth below, </l>
+            <l>That euer pitty, glory, wonder gat. </l>
+          </sp>
           <sp who="#ep000360-chorus" xml:id="ep000360-e116000">
             <speaker>Chor. </speaker>
             <l>What newes bring'st thou, can Egipt yet yeeld more </l>
@@ -2355,6 +2369,7 @@
         <div type="chorus" xml:id="ep000360-e119060">
           <pb xml:id="ep000360-098-a"/>
           <head>CHORVS. </head>
+          <sp who="#ep000360-chorus">
           <lg>
             <l>THen thus we haue beheld </l>
             <l>Th'accomplishment of woes, </l>
@@ -2454,6 +2469,7 @@
             <l>Doth Order order so </l>
             <l>Disorders ouer-thro? </l>
           </lg>
+          </sp>
         </div>
         <trailer>FINIS. </trailer>
       </div>

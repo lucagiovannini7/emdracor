@@ -160,6 +160,11 @@
         <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2023-04-12">(LG) added extra segmentation.</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listEvent>
@@ -235,7 +240,8 @@
               <l>GIve us what no man here is master of, </l>
               <l>(Breath) leave us pray, my father Cardinall </l>
               <l>Can by the Physicke of Philosophy </l>
-              <l>et al agen in order. Leave us, pray. exeunt </l>
+              <l>et al agen in order. Leave us, pray.</l>
+              <stage>exeunt</stage> 
             </sp>
             <sp who="#ep000235-cardinal" xml:id="ep000235-e100430">
               <speaker>Car. </speaker>
@@ -333,6 +339,8 @@
               <l>The secret drifts of Kings are depthlesse Seas. </l>
             </sp>
             <stage xml:id="ep000235-e101080">Exeunt. </stage>
+          </div>
+          <div type="scene">
             <stage xml:id="ep000235-e101090">A Table set out cover'd with blacke: two waxen Tapers: the Kings Picture at one end, a crucifix at the other, Onaelia walking discontentedly weeping to the Crucifix, her Mayd with her, to them Cornego. </stage>
             <floatingText>
               <body>
@@ -1345,6 +1353,8 @@
               <l>I'le lose a limbe before the heart shall mourne. </l>
             </sp>
             <stage xml:id="ep000235-e107360">Exeunt. </stage>
+          </div>
+          <div type="scene">
             <stage xml:id="ep000235-e107370">Manent Daenia, Alba. </stage>
             <sp who="#ep000235-daenia" xml:id="ep000235-e107380">
               <speaker>Daen. </speaker>
@@ -1740,6 +1750,8 @@
               <l>Be it an ominous charme to call up warre. </l>
             </sp>
             <stage xml:id="ep000235-e109870">Exeunt. </stage>
+          </div>
+          <div type="scene">
             <stage xml:id="ep000235-e109880">Enter Cornego, Onaelia. </stage>
             <sp who="#ep000235-cornego" xml:id="ep000235-e109890">
               <speaker>Corn. </speaker>
@@ -2153,6 +2165,8 @@
               <l>Streames smooth and slowly running, are most deepe. </l>
             </sp>
             <stage xml:id="ep000235-e112440">Exeunt. </stage>
+          </div>
+          <div type="scene">
             <stage xml:id="ep000235-e112450">Enter King, Queene, Malateste, Valaseo, Lopez. </stage>
             <sp who="#ep000235-king" xml:id="ep000235-e112460">
               <speaker>Kin. </speaker>
@@ -2993,6 +3007,8 @@
               <l>Dangers (like Starres) in darke attempts best shine. </l>
             </sp>
             <stage xml:id="ep000235-e117550">Exeunt. </stage>
+          </div>
+          <div type="scene">
             <stage xml:id="ep000235-e117560">Enter Cornego, Baltazar. </stage>
             <sp who="#ep000235-cornego" xml:id="ep000235-e117570">
               <speaker>Cor. </speaker>
@@ -3153,6 +3169,8 @@
             </sp>
             <stage xml:id="ep000235-e118360">Enter King attended. </stage>
             <stage xml:id="ep000235-e118370">Exeunt omnes. </stage>
+          </div>
+          <div type="scene">
             <sp who="#ep000235-king" xml:id="ep000235-e118380">
               <speaker>Kin. </speaker>
               <l>A private roome, </l>
@@ -3895,6 +3913,8 @@
               <l>Good. </l>
             </sp>
             <stage xml:id="ep000235-e122920">Exeunt. </stage>
+          </div>
+          <div type="scene">
             <stage xml:id="ep000235-e122930">Enter Queene, Malateste. </stage>
             <sp who="#ep000235-queen" xml:id="ep000235-e122940">
               <speaker>Quee. </speaker>
@@ -4011,6 +4031,8 @@
               <l>To turne this Brides day to a day of doome. </l>
             </sp>
             <stage xml:id="ep000235-e123720">Exeunt. </stage>
+          </div>
+          <div type="scene">
             <stage xml:id="ep000235-e123730">A Banquet set out, Cornets sounding; Enter at one dore Lopez, Valasco, Alanzo, No: after them King, Cardinall, with Don Cockadillio Bridegroome, Queene and Malateste after. At the other dore Alba, Carlo, Roderigo, Medina and Daenia leading Onaelia as Bride, Cornego and Iuanna after, Bartazar alone, Bride and Bridegroome kisse, and by the Cardinall are joyn'd hand in hand: King is very merry, hugging Medina very lovingly. </stage>
             <sp who="#ep000235-king" xml:id="ep000235-e123740">
               <speaker>Kin. </speaker>

@@ -251,6 +251,11 @@
           </person>
         </listPerson>
       </particDesc>
+      <revisionDesc>
+        <listChange>
+          <change when="2023-04-12">(LG) added extra segmentation.</change>
+        </listChange>
+      </revisionDesc>
       <textClass>
         <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
       </textClass>
@@ -336,9 +341,9 @@
       </div>
     </front>
     <body>
-      <div type="play" xml:id="ep000378-e100620">
-        <pb xml:id="ep000378-004-b"/>
-        <head>IF THIS BE NOT A GOOD PLAY, THE DIVELL IS IN IT. </head>
+      <pb xml:id="ep000378-004-b"/>
+      <head>IF THIS BE NOT A GOOD PLAY, THE DIVELL IS IN IT. </head>
+      <div type="scene">
         <stage xml:id="ep000378-e100630">Enter (at the sound of hellish musick,) Pluto, and Charon. </stage>
         <sp who="#ep000378-pluto" xml:id="ep000378-e100640">
           <speaker>Plu. </speaker>
@@ -746,6 +751,8 @@
           <l>How ere they sleepe, there's one wakes here below. </l>
         </sp>
         <stage xml:id="ep000378-e103200">Exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000378-e103210">¶ Enter Alphonso (King of Naples) Crownde, wearing Robes Imperiall, Swordes of State, Maces, &amp;c. being borne before him, by Octauio Astolfo, (2. vnckles) Narcisso, Iouinelli, Brisco, (Counts) with others, Counte Spendola meeting them. </stage>
         <sp who="#ep000378-spendola" xml:id="ep000378-e103220">
           <speaker>Spen. </speaker>
@@ -1423,6 +1430,8 @@
           <l>Till then, Pleasures wings, to their full bredth be spread. </l>
         </sp>
         <stage xml:id="ep000378-e107370">Exeū. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000378-e107380">Enter Scumbroth, ringing a Bell; Alphege, a Fryer, &amp; Shackle-soule, in a Friers weede, with cloth to lay. </stage>
         <sp who="#ep000378-scumbroth" xml:id="ep000378-e107390">
           <speaker>Scum. </speaker>
@@ -1931,6 +1940,8 @@
           <l>Pluto makes Sackle-soule president of Diuels. </l>
           <stage xml:id="ep000378-e110470">Exit. </stage>
         </sp>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000378-e110480">Enter K. Octauio, Narcisso, Iouinelli, Spendola. </stage>
         <sp who="#ep000378-king" xml:id="ep000378-e110490">
           <speaker>K. </speaker>
@@ -3070,6 +3081,8 @@
           <l>The yongmans whore, the saint of him that sold. </l>
         </sp>
         <stage xml:id="ep000378-e117320">Exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000378-e117330">Enter Prior, Alphege Hillary, and Friers with pruning kniues, spades, &amp;c. met by Subprior, and Shackle-soule. </stage>
         <sp who="#ep000378-subprior" xml:id="ep000378-e117340">
           <speaker>Sub. </speaker>
@@ -3374,6 +3387,8 @@
           <l>Braue battailes I fight you, but ile win the day. </l>
         </sp>
         <stage xml:id="ep000378-e119230">Exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000378-e119240">Manet, Astolpho, Enter Octauio and Ermynhilda. </stage>
         <sp who="#ep000378-erminhild" xml:id="ep000378-e119250">
           <speaker>Erm. </speaker>
@@ -3425,6 +3440,8 @@
           <l>Whose King has lost all, but the name of King. </l>
         </sp>
         <stage xml:id="ep000378-e119600">Exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000378-e119610">Enter Subprior with an earthen pot, and a lanthorne; Scumbroath with him with a peice. </stage>
         <sp who="#ep000378-subprior" xml:id="ep000378-e119620">
           <speaker>Sub. </speaker>
@@ -4361,6 +4378,8 @@
           <l>If wee can his safety, if not, (our owne prouide.) </l>
         </sp>
         <stage xml:id="ep000378-e125070">Exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000378-e125080">Enter Barteruile like a Turke;— Lurchall. </stage>
         <sp who="#ep000378-bartervile" xml:id="ep000378-e125090">
           <speaker>Bar. </speaker>
@@ -5755,6 +5774,8 @@
           <l>And the Gallows shall haue thee, else hang me. Away </l>
         </sp>
         <stage xml:id="ep000378-e133640">Exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000378-e133650">Enter Scumbroth. </stage>
         <sp who="#ep000378-scumbroth" xml:id="ep000378-e133660">
           <speaker>Scum: </speaker>
@@ -6255,6 +6276,8 @@
           <l>To sportfull Hymen, God of Mariage. </l>
         </sp>
         <stage xml:id="ep000378-e136490">(Exeunt. </stage>
+      </div>
+      <div type="scene">
         <stage xml:id="ep000378-e136500">The play ending, as they goe off, from vnder the ground in seuerall places, rise vp spirits, to them enter, leaping in great ioy, Rufman, Shackle soule, and Lurchall, discouering behind a curten, Rauillac, Guy Faulx, Barteruile, a Prodigall, standing in their torments. </stage>
         <sp who="#ep000378-all-devils" xml:id="ep000378-e136510">
           <speaker>Omn. </speaker>
