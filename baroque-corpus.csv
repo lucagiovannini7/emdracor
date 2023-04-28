@@ -15,7 +15,7 @@ GER;13; Jakob Balde;Q65850;Iocus serius theatralis;n/a;DRA;1629
 GER;14; Johann Rist;Q66615;Irenaromachia ;n/a;TGC;1630
 GER;15; Johann Rist;Q66615;Perseus ;n/a;TRAG;1634
 GER;16; Martin Opitz;Q60946;Judith ;Q108846503;TRAG;1635
-GER;17; Andreas Gryphius;Q77214;Absurda Comica. Oder Herr Peter Squenz ;Q333566;COM;1648
+GER;17; Andreas Gryphius;Q77214;Absurda Comica oder Herr Peter Squenz ;Q333566;COM;1648
 GER;18; Daniel Casper von Lohenstein;Q66942;Ibrahim ;n/a;TRAG;1649
 GER;19; Andreas Gryphius;Q77214;Cardenio und Celinde;Q42187675;TRAG;1650
 GER;20; Johann Georg Schoch;Q1454301;Comoedia Vom Studenten-Leben;n/a;COM;1657
@@ -45,14 +45,14 @@ FRA;13; Théophile de Viau;Q462644;La Tragédie de Pasiphaé;n/a;TRAG;1627
 FRA;14; Pierre Du Ryer;Q2633293;Clitophon;n/a;TGC;1629
 FRA;15; Balthazar Baro;Q2881598;La Clorise;n/a;PAST;1632
 FRA;16; Charles Dalibray;Q2960722;Soliman;n/a;TGC;1637
-FRA;17; Pierre Corneille;Q747;Rodogune, Princesse des Parthes;Q2161210;TRAG;1644
+FRA;17; Pierre Corneille;Q747;Rodogune;Q2161210;TRAG;1644
 FRA;18; Gabriel Gilbert;Q1291302;Téléphonte;n/a;TGC;1643
 FRA;19; François Tristan l'Hermite;Q1451213;Le Parasite;Q60852768;COM;1654
 FRA;20; Molière;Q687;Sganarelle ou Le Cocu Imaginaire;Q3481105;COM;1660
 FRA;21; Jean Racine;Q742;La Thébaïde;Q3213141;TRAG;1664
 FRA;22; Adrien-Thomas Perdou de Subligny;Q2825111;La Folle Querelle ou La Critique d'Andromaque;n/a;COM;1668
 FRA;23; Thomas Corneille;Q551787;La Mort d'Achille;n/a;TRAG;1673
-FRA;24; Gaspard Abeille;Q1338057;Argélie,  Reine de Thessalie;n/a;TRAG;1673
+FRA;24; Gaspard Abeille;Q1338057;Argélie ;n/a;TRAG;1673
 FRA;25; Pierre Saint-Glas;Q110953660;Les Bouts Rimés;n/a;COM;1682
 FRA;26; Dancourt;Q2437020;Le Chevalier à  la Mode;n/a;COM;1687
 FRA;27; Dancourt;Q2437020;La Parisienne;n/a;COM;1691
@@ -117,7 +117,7 @@ SPA;25; Sor Juana Inés de la Cruz;Q183074;Los empeños de una casa;Q5980840;COM
 SPA;26; Juan de  Montenegro y Neira;n/a;La toma de Buda;n/a;AUTO;1687
 SPA;27; Francisco Bances y Candamo;Q1962299;El esclavo en grillos de oro;n/a;COM;1692
 SPA;28; Antonio de Zamora;Q606094;Ser fino y no parecerlo;n/a;COM;1692
-SPA;29; Ferdinando Romero;n/a;Aunque las razones basten,  nunca la justicia sobra;n/a;COM;1701
+SPA;29; Ferdinando Romero;n/a;Aunque las razones basten  nunca la justicia sobra;n/a;COM;1701
 SPA;30; Antonio de Zamora;Q606094;Duendes son los alcahuetes y el espíritu Foleto;n/a;COM;1709
 ENG;1; Thomas Norton - Thomas Sackville;Q337443 - Q670967;Gorboduc;n/a;TRAG;1561
 ENG;2; Ulpian Fulwell;Q7879758;Like Will to Like;n/a;INT;1568
@@ -129,7 +129,7 @@ ENG;7; Samuel Daniel;Q954735;Cleopatra;n/a;TRAG;1594
 ENG;8; Ben Jonson;Q193857;Every Man Out of His Humour;Q193857;COM;1599
 ENG;9; Samuel Daniel;Q954735;Philotas;n/a;TRAG;1605
 ENG;10; Lording Barry;Q13227038;Ram Alley;n/a;COM;1608
-ENG;11; Thomas Dekker;Q336189;If It Be Not Good,  the Devil Is in It;n/a;COM;1611
+ENG;11; Thomas Dekker;Q336189;If It Be Not Good  the Devil Is in It;n/a;COM;1611
 ENG;12; Ben Jonson;Q193857;The Staple of News;Q668812;COM;1614
 ENG;13; Thomas Dekker;Q336189;The Noble Spanish Soldier;Q7754258;TRAG;1622
 ENG;14; John Fletcher;Q312444;A Wife for a Month;Q17026288;TGC;1624
@@ -138,14 +138,14 @@ ENG;16; Thomas Nabbes;Q7792668;The Unfortunate Mother;Q20745553;TRAG;1639
 ENG;17; James Shirley;Q1349914;The Court Secret;Q16828249;TGC;1642
 ENG;18; John Denham;Q1248337;The Sophy;n/a;TRAG;1642
 ENG;19; Robert Baron;Q7341889;Mirza;n/a;TRAG;1655
-ENG;20; Thomas Tomkis;Q7794501;Lingua, or The Combat of the Tongue and the Five Senses for Superiority;Q6553973;COM;1657
+ENG;20; Thomas Tomkis;Q7794501;Lingua;Q6553973;COM;1657
 ENG;21; Thomas Porter;Q7793222;The Carnival;Q25204117;COM;1664
 ENG;22; Abraham Bailey;n/a;The Spiteful Sister;n/a;COM;1667
-ENG;23; Thomas Duffet;Q7789081;The Mock Tempest, or The Enchanted Castle;Q7751841;COM;1675
+ENG;23; Thomas Duffet;Q7789081;The Mock Tempest;Q7751841;COM;1675
 ENG;24; Thomas Shadwell;Q1230771;The Libertine;Q28457734;TRAG;1676
-ENG;25; Edward Ravenscroft;Q3048652;Dame Dobson, or The Cunning Woman;Q107556839;COM;1684
+ENG;25; Edward Ravenscroft;Q3048652;Dame Dobson;Q107556839;COM;1684
 ENG;26; Francis Fane;Q3081426;The Sacrifice;n/a;TRAG;1687
-ENG;27; Mary Pix;Q3296230;Ibrahim, the Thirteenth Emperor of the Turks;Q65054481;TRAG;1696
+ENG;27; Mary Pix;Q3296230;Ibrahim;Q65054481;TRAG;1696
 ENG;28; Peter Motteux;Q3382857;Beauty in Distress;Q104858515;TRAG;1698
 ENG;29; Nicholas Rowe;Q1382306;The Fair Penitent;n/a;TRAG;1702
 ENG;30; Susannah Centlivre;Q931103;The Man's Bewitched;n/a;COM;1709
