@@ -1,4 +1,4 @@
-language;id;;title;title_wikidata;genre;year_normalized;
+language;id;author;author_wikidata;title;title_wikidata;genre;year_normalized
 GER;1; Jos Murer;Q1704063;Absolom ;n/a;DRA;1565
 GER;2; Jos Murer;Q1704063;Hester;n/a;DRA;1567
 GER;3; Nicodemus Frischlin;Q72975;Frau Wendelgard ;n/a;COM;1579
