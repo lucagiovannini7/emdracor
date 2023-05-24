@@ -71,7 +71,7 @@
                     <person xml:id="la-baronne" sex="FEMALE">
                         <persName>La Baronne</persName>
                     </person>
-                    <person xml:id="guillemin" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="guillemin" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Guillemin</persName>
                     </person>
                     <person xml:id="le-cocher" sex="MALE">

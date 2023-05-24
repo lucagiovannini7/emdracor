@@ -55,13 +55,13 @@
                     <person xml:id="un-des-gens-assembles" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Un des Gens Assembles</persName>
                     </person>
-                    <person xml:id="le-sergent" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="le-sergent" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Le Sergent</persName>
                     </person>
-                    <person xml:id="le-crocheteur" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="le-crocheteur" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Le Crocheteur</persName>
                     </person>
-                    <person xml:id="un-laquais" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="un-laquais" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Un Laquais</persName>
                     </person>
                     <person xml:id="du-rimet" sex="MALE">

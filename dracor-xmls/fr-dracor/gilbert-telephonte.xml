@@ -51,13 +51,13 @@
                     <person xml:id="cephalie" sex="FEMALE">
                         <persName>Céphalie</persName>
                     </person>
-                    <person xml:id="le-tyran" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="le-tyran" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Le Tyran</persName>
                     </person>
                     <person xml:id="demochare" sex="MALE">
                         <persName>Demochare</persName>
                     </person>
-                    <person xml:id="amynthor" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="amynthor" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Amynthor</persName>
                     </person>
                     <person xml:id="philoclee" sex="FEMALE">
@@ -72,13 +72,13 @@
                     <person xml:id="telephonte" sex="MALE">
                         <persName>Téléphonte</persName>
                     </person>
-                    <person xml:id="tyndare" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="tyndare" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Tyndare</persName>
                     </person>
-                    <person xml:id="tydee" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="tydee" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Tydee</persName>
                     </person>
-                    <person xml:id="thoas" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="thoas" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Thoas</persName>
                     </person>
                 </listPerson>

@@ -55,9 +55,9 @@
                     <person xml:id="messager" sex="MALE">
                         <persName>Messager</persName>
                     </person>
-                    <person xml:id="choeur" sex="UNKNOWN">
+                    <personGrp xml:id="choeur" sex="UNKNOWN">
                         <persName>Choeur</persName>
-                    </person>
+                    </personGrp>
                     <person xml:id="massinisse" sex="MALE">
                         <persName>Massinisse</persName>
                     </person>
@@ -73,7 +73,7 @@
                     <person xml:id="syphax" sex="FEMALE">
                         <persName>Syphax</persName>
                     </person>
-                    <person xml:id="hiempsal" sex="FEMALE">
+                    <person xml:id="hiempsal" sex="MALE">
                         <persName>Hiempsal</persName>
                     </person>
                 </listPerson>

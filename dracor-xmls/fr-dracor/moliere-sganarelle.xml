@@ -51,13 +51,13 @@
                     <person xml:id="gorgibus" sex="MALE">
                         <persName>Gorgibus</persName>
                     </person>
-                    <person xml:id="la-suivante" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="la-suivante" sex="FEMALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>La Suivante</persName>
                     </person>
                     <person xml:id="sganarelle" sex="MALE">
                         <persName>Sganarelle</persName>
                     </person>
-                    <person xml:id="la-femme-sganarelle" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="la-femme-sganarelle" sex="FEMALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>La Femme Sganarelle</persName>
                     </person>
                     <person xml:id="gros-rene" sex="MALE">

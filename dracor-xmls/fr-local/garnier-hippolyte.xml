@@ -52,9 +52,9 @@
           <person xml:id="hippolyte" sex="MALE">
             <persName>HIPPOLYTE</persName>
           </person>
-          <person xml:id="choeur" sex="MALE">
+          <personGrp xml:id="choeur" sex="MALE">
             <persName>CHOEUR</persName>
-          </person>
+          </personGrp>
           <person xml:id="thesee" sex="MALE">
             <persName>THESEE</persName>
           </person>

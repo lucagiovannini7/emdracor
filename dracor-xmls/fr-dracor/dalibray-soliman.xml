@@ -72,7 +72,7 @@
                     <person xml:id="mustapha" sex="MALE">
                         <persName>Mustapha</persName>
                     </person>
-                    <person xml:id="le-soldat" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="le-soldat" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Le Soldat</persName>
                     </person>
                     <person xml:id="ormene" sex="MALE">
@@ -81,13 +81,13 @@
                     <person xml:id="adraste" sex="MALE">
                         <persName>Adraste</persName>
                     </person>
-                    <person xml:id="un-messager" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="un-messager" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Un Messager</persName>
                     </person>
-                    <person xml:id="le-devin" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="le-devin" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Le Devin</persName>
                     </person>
-                    <person xml:id="un-gentilhomme" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="un-gentilhomme" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Un Gentilhomme</persName>
                     </person>
                     <person xml:id="l-ambassadeur-de-perse" sex="MALE">

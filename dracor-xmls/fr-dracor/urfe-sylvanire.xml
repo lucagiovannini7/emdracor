@@ -68,9 +68,9 @@
                     <person xml:id="adraste" sex="MALE">
                         <persName>Adraste</persName>
                     </person>
-                    <person xml:id="choeur" sex="UNKNOWN">
+                    <personGrp xml:id="choeur" sex="UNKNOWN">
                         <persName>Le Choeur de Bergers</persName>
-                    </person>
+                    </personGrp>
                     <person xml:id="satyre" sex="MALE">
                         <persName>Satyre</persName>
                     </person>
@@ -83,7 +83,7 @@
                     <person xml:id="echo" sex="FEMALE">
                         <persName>Echo</persName>
                     </person>
-                    <person xml:id="messager" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="messager" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Messager</persName>
                     </person>
                 </listPerson>

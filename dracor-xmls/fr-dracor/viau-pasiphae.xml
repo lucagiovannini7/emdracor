@@ -54,61 +54,52 @@
                     <person xml:id="minos" sex="MALE">
                         <persName>Minos</persName>
                     </person>
-                    <person xml:id="silure" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="silure" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Silure</persName>
                     </person>
                     <person xml:id="l-oracle" sex="MALE">
                         <persName>L'Oracle</persName>
                     </person>
-                    <person xml:id="ambassadeurs" sex="MALE">
+                    <personGrp xml:id="ambassadeurs" sex="MALE">
                         <persName>Ambassadeurs d'Egée</persName>
-                    </person>
+                    </personGrp>
                     <person xml:id="egee" sex="MALE">
                         <persName>Egée</persName>
                     </person>
                     <person xml:id="conseiller" sex="MALE">
                         <persName>Conseiller</persName>
                     </person>
-                    <person xml:id="nautonier" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="nautonier" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Nautonier</persName>
                     </person>
                     <person xml:id="thesee" sex="MALE">
                         <persName>Thésée</persName>
                     </person>
-                    <person xml:id="une-fille" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="une-fille" sex="FEMALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Une Fille</persName>
                     </person>
-                    <person xml:id="une-autre-fille" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="une-autre-fille" sex="FEMALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Une Autre Fille</persName>
                     </person>
-                    <person xml:id="la-troupe" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <personGrp xml:id="la-troupe" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
                         <persName>La Troupe</persName>
-                    </person>
-                    <person xml:id="le-pilote" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    </personGrp>
+                    <person xml:id="le-pilote" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Le Pilote</persName>
-                    </person>
-                    <person xml:id="le-nautonnier" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
-                        <persName>Le Nautonnier</persName>
                     </person>
                     <person xml:id="ariane" sex="FEMALE">
                         <persName>Ariane</persName>
                     </person>
-                    <person xml:id="les-gardes" sex="MALE">
+                    <personGrp xml:id="les-gardes" sex="MALE">
                         <persName>Les Gardes</persName>
-                    </person>
-                    <person xml:id="l-un-des-gardes" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
-                        <persName>L un des Gardes</persName>
-                    </person>
-                    <person xml:id="deux-des-gardes" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
-                        <persName>Deux des Gardes</persName>
-                    </person>
-                    <person xml:id="premier-garde" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    </personGrp>
+                    <person xml:id="garde-1" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Premier Garde</persName>
                     </person>
-                    <person xml:id="l-autre-garde" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
-                        <persName>L Autre Garde</persName>
+                    <person xml:id="garde-2" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
+                        <persName>Autre Garde</persName>
                     </person>
-                    <person xml:id="le-geolier" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="le-geolier" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Le Geolier</persName>
                     </person>
                     <person xml:id="phedre" sex="FEMALE">
@@ -117,7 +108,7 @@
                     <person xml:id="dedale" sex="MALE">
                         <persName>Dédale</persName>
                     </person>
-                    <person xml:id="nocher" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="nocher" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Nocher</persName>
                     </person>
                 </listPerson>
@@ -1276,7 +1267,7 @@
                         <l n="773">Courage Nautonnier ramons bien d'un accort. </l>
                         <l n="774" part="I">Où tend notre sentier.</l><!--@syll="6"-->
                     </sp><!--@who="LE PILOTE"-->
-<sp who="#le-nautonnier">
+<sp who="#nautonier">
                         <speaker>NAUTONNIER.</speaker>
                         <l n="774" part="F">Vers l'étoile du Nord, </l><!--@syll="6"-->
                         <l n="775">Ayant passé la côte, on haussera les voiles.</l>
@@ -1417,19 +1408,19 @@
                         <l n="871">Ne vous amolliront, ces beautés si divines</l>
                         <l n="872">Ne feront point d'effort à vos dures poitrines !</l>
                     </sp><!--@who="ARIANE"-->
-<sp who="#l-un-des-gardes">
+<sp who="#garde-1">
                         <speaker>L'UN DES GARDES. </speaker>
                         <l n="873">Voulez-vous en leurs lieux vous rendre prisonniers.</l>
                     </sp><!--@who="L'UN DES GARDES"-->
-<sp who="#deux-des-gardes">
+<sp who="#garde-2">
                         <speaker>DEUX DES GARDES.</speaker>
                         <l n="874" part="I">Nenni.</l><!--@syll="2"-->
                     </sp><!--@who="DEUX DES GARDES"-->
-<sp who="#premier-garde">
+<sp who="#garde-1">
                         <speaker>PREMIER GARDE.</speaker>
                         <l n="874" part="M">Et vous ?</l><!--@syll="2"-->
                     </sp><!--@who="PREMIER GARDE"-->
-<sp who="#l-autre-garde">
+<sp who="#garde-2">
                         <speaker>L'AUTRE GARDE.</speaker>
                         <l n="874" part="M">Ni moi.</l><!--@syll="2"-->
                     </sp><!--@who="L'AUTRE GARDE"-->

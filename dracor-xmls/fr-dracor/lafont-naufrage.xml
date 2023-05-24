@@ -57,21 +57,18 @@
                     <person xml:id="le-gouverneur" sex="MALE">
                         <persName>Le Gouverneur</persName>
                     </person>
-                    <person xml:id="l-insulaire" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
-                        <persName>L Insulaire</persName>
+                    <person xml:id="l-insulaire" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
+                        <persName>L'Insulaire</persName>
                     </person>
                     <person xml:id="licandre" sex="MALE">
                         <persName>Licandre</persName>
                     </person>
-                    <person xml:id="grand-pretre_grande-pretresse" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
-                        <persName>Grand Pretre_grande Pretresse</persName>
-                    </person>
                     <person xml:id="la-grande-pretresse" sex="FEMALE">
                         <persName>La Grande-Prêtresse</persName>
                     </person>
-                    <person xml:id="choeur-d-insulaires" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
-                        <persName>Choeur D Insulaires</persName>
-                    </person>
+                    <personGrp xml:id="choeur-d-insulaires" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                        <persName>Choeur D'Insulaires</persName>
+                    </personGrp>
                     <person xml:id="le-grand-pretre" sex="MALE">
                         <persName>Le Grand-Prêtre de l'Ile</persName>
                     </person>
@@ -1232,7 +1229,7 @@
                         <l n="357">Je dois être brûlé tout vif... Ô sort affreux !...</l>
                         <l n="358">Mon maître, quoique mort, est, ma foi, plus heureux.</l>
                     </sp><!--@stage="aparte/cry"--><!--@who="CRISPIN"-->
-<sp who="#grand-pretre_grande-pretresse">
+<sp who="#le-grand-pretre #la-grande-pretresse">
                         <speaker>LEGRAND-PRÊTRE et LA GRANDE-PRÊTRESSE chantant ensemble.</speaker>
                         <l n="359">Crispin, il faut braver le sort.</l>
                         <l n="360">Par lui ta femme t'est ravie :</l>

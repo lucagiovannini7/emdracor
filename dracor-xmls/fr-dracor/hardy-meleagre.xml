@@ -49,12 +49,12 @@
                     <person xml:id="aristandre" sex="MALE">
                         <persName>Aristandre</persName>
                     </person>
-                    <person xml:id="choeur-de-peuple" sex="UNKNOWN">
+                    <personGrp xml:id="choeur-de-peuple" sex="UNKNOWN">
                         <persName>Choeur de Peuple</persName>
-                    </person>
-                    <person xml:id="troupe-de-paysans" sex="UNKNOWN">
+                    </personGrp>
+                    <personGrp xml:id="troupe-de-paysans" sex="UNKNOWN">
                         <persName>Troupe de Paysans</persName>
-                    </person>
+                    </personGrp>
                     <person xml:id="premier-veneur" sex="MALE">
                         <persName>I Veneur</persName>
                     </person>
@@ -64,12 +64,12 @@
                     <person xml:id="atalante" sex="FEMALE">
                         <persName>Atalante</persName>
                     </person>
-                    <person xml:id="choeur-de-filles" sex="UNKNOWN">
+                    <personGrp xml:id="choeur-de-filles" sex="FEMALE">
                         <persName>Choeur de Filles</persName>
-                    </person>
-                    <person xml:id="choeur" sex="UNKNOWN">
+                    </personGrp>
+                    <personGrp xml:id="choeur" sex="UNKNOWN">
                         <persName>Choeur</persName>
-                    </person>
+                    </personGrp>
                     <person xml:id="thesee" sex="MALE">
                         <persName>Thesée</persName>
                     </person>
@@ -79,13 +79,13 @@
                     <person xml:id="lyncee" sex="MALE">
                         <persName>Lyncée</persName>
                     </person>
-                    <person xml:id="plexipe" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="plexipe" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Plexipe</persName>
                     </person>
                     <person xml:id="toxee" sex="MALE">
                         <persName>Toxée</persName>
                     </person>
-                    <person xml:id="veneur" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="veneur" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Veneur</persName>
                     </person>
                     <person xml:id="messager" sex="MALE">

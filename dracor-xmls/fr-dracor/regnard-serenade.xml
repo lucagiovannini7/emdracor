@@ -60,19 +60,19 @@
                     <person xml:id="madame-argante" sex="FEMALE">
                         <persName>Madame Argante</persName>
                     </person>
-                    <person xml:id="leonor" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
-                        <persName>Leonor</persName>
+                    <person xml:id="leonore" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                        <persName>Leonore</persName>
                     </person>
                     <person xml:id="champagne" sex="MALE">
                         <persName>Champagne</persName>
                     </person>
-                    <person xml:id="un-venitien" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="un-venitien" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Un Venitien</persName>
                     </person>
-                    <person xml:id="choeur" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <personGrp xml:id="choeur" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Choeur</persName>
-                    </person>
-                    <person xml:id="une-musicienne" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    </personGrp>
+                    <person xml:id="une-musicienne" sex="FEMALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Une Musicienne</persName>
                     </person>
                 </listPerson>

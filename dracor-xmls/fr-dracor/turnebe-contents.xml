@@ -81,9 +81,9 @@
                     <person xml:id="thomas" sex="MALE">
                         <persName>Thomas</persName>
                     </person>
-                    <person xml:id="les-sergents" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <personGrp xml:id="les-sergents" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Les Sergents</persName>
-                    </person>
+                    </personGrp>
                     <person xml:id="alix" sex="FEMALE">
                         <persName>Alix</persName>
                     </person>

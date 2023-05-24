@@ -74,22 +74,22 @@
                     <person xml:id="hippalque" sex="MALE">
                         <persName>Hippalque</persName>
                     </person>
-                    <person xml:id="la_montagne" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
-                        <persName>La_montagne</persName>
+                    <person xml:id="la_montagne" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
+                        <persName>La Montagne</persName>
                     </person>
                     <person xml:id="marphise" sex="MALE">
                         <persName>Marphise</persName>
                     </person>
-                    <person xml:id="charles" sex="UNKNOWN"><!--WARNING: no castItem found for reference in @who-->
+                    <person xml:id="charles" sex="MALE"><!--WARNING: no castItem found for reference in @who-->
                         <persName>Charles</persName>
                     </person>
                     <person xml:id="basile" sex="MALE">
                         <persName>Basile</persName>
                     </person>
-                    <person xml:id="ambassadeurs" sex="UNKNOWN">
+                    <personGrp xml:id="ambassadeurs" sex="MALE">
                         <persName>Les Ambassadeurs de Bulgarie</persName>
-                    </person>
-                    <person xml:id="melisse" sex="MALE">
+                    </personGrp>
+                    <person xml:id="melisse" sex="FEMALE">
                         <persName>Melisse</persName>
                     </person>
                 </listPerson>
