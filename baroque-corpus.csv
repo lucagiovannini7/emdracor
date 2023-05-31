@@ -1,151 +1,151 @@
-language;id;author;author_wikidata;title;title_wikidata;genre;year_normalized
-GER;1; Jos Murer;Q1704063;Absolom ;n/a;DRA;1565
-GER;2; Jos Murer;Q1704063;Hester;n/a;DRA;1567
-GER;3; Nicodemus Frischlin;Q72975;Frau Wendelgard ;n/a;COM;1579
-GER;4; Bartholomäus Krüger;Q113689;Von dem Anfang und Ende der Welt ;n/a;DRA;1580
-GER;5; Martin Hayneccius;Q1382373;Hans Pfriem ;n/a;COM;1582
-GER;6; Georg Rollenhagen;Q1505776;Vom reichen Mann und armen Lazaro ;n/a;DRA;1590
-GER;7; Heinrich Julius;Q77557;Der Fleischhawer;n/a;DRA;1593
-GER;8; Heinrich Julius;Q77557;Von einem ungeratenen Sohn;n/a;TRAG;1594
-GER;9; Ludwig Hollonius;Q6699242;Somnium Vitae Humanae ;n/a;DRA;1605
-GER;10; Joachim Schlue;Q55133405;Isaac;n/a;COM;1606
-GER;11; Martin Rinckart;Q78323;Der Eislebische Christliche Ritter;n/a;COM;1613
-GER;12;Anonym;Q4233718;Ein ander lustig Pickelherings Spiel ;n/a;COM;1620
-GER;13; Jakob Balde;Q65850;Iocus serius theatralis;n/a;DRA;1629
-GER;14; Johann Rist;Q66615;Irenaromachia ;n/a;TGC;1630
-GER;15; Johann Rist;Q66615;Perseus ;n/a;TRAG;1634
-GER;16; Martin Opitz;Q60946;Judith ;Q108846503;TRAG;1635
-GER;17; Andreas Gryphius;Q77214;Absurda Comica oder Herr Peter Squenz ;Q333566;COM;1648
-GER;18; Daniel Casper von Lohenstein;Q66942;Ibrahim ;n/a;TRAG;1649
-GER;19; Andreas Gryphius;Q77214;Cardenio und Celinde;Q42187675;TRAG;1650
-GER;20; Johann Georg Schoch;Q1454301;Comoedia Vom Studenten-Leben;n/a;COM;1657
-GER;21; Johann Sebastian Mitternacht;Q1696208;Der unglückselige Soldat ;n/a;DRA;1662
-GER;22; Daniel Casper von Lohenstein;Q66942;Epicharis ;n/a;TRAG;1665
-GER;23; Johann Christian Hallmann;Q98928;Sophia ;n/a;TRAG;1671
-GER;24; Christian Weise;Q90798;Baurischer Machiavellus;n/a;COM;1679
-GER;25; Christian Weise;Q90798;Masaniello ;n/a;TRAG;1682
-GER;26; Joseph Anton Stranitzky;Q85811;Türckisch-bestraffter Hochmuth;n/a;TGC;1685
-GER;27; Christian Reuter;Q103304;Der ehrlichen Frau Schlampampe Krankheit und Tod ;n/a;TGC;1696
-GER;28; Johann Christian Hallmann;Q98928;Liberata;n/a;TRAG;1699
-GER;29; Barthold Feind;Q809288;Das verwirrte Haus Jacob;n/a;DRA;1703
-GER;30; Christian Weise;Q90798;Ungleich und gleich gepaarte Liebes-Alliance;n/a;COM;1708
-FRA;1; Jean De La Taille;Q1393491;Les Corrivaus;Q3231789;COM;1562
-FRA;2; Jacques Bienvenu;Q3158277;Comedie du monde malade et mal pensé;n/a;COM;1568
-FRA;3; Robert Garnier;Q113089;Hyppolite;Q3136010;TRAG;1573
-FRA;4; Robert Garnier;Q113089;Bradamante;Q64787100;TRAG;1578
-FRA;6; Odet de Turnèbe;Q3100336;Les Contents;n/a;COM;1581
-FRA;5; Pierre Matthieu;Q3386220;Aman;n/a;TRAG;1588
-FRA;7; Simon Belyard;Q3484229;Le Guisien;n/a;DRA;1592
-FRA;8; Jean de Virey;Q110953500;La Machabée;n/a;TRAG;1596
-FRA;9; Anthoine de Montchrestien;Q587273;La Carthaginoise;n/a;TRAG;1601
-FRA;10; Nicolas Soret;Q3340795;La Céciliade;n/a;DRA;1606
-FRA;11; Théophile de Viau;Q462644;Pyrame et Thisbé;Q3230535;TRAG;1617
-FRA;12; Honoré d' Urfé;Q358491;Sylvanire;Q3213001;PAST;1617
-FRA;13; Théophile de Viau;Q462644;La Tragédie de Pasiphaé;n/a;TRAG;1627
-FRA;14; Pierre Du Ryer;Q2633293;Clitophon;n/a;TGC;1629
-FRA;15; Balthazar Baro;Q2881598;La Clorise;n/a;PAST;1632
-FRA;16; Charles Dalibray;Q2960722;Soliman;n/a;TGC;1637
-FRA;17; Pierre Corneille;Q747;Rodogune;Q2161210;TRAG;1644
-FRA;18; Gabriel Gilbert;Q1291302;Téléphonte;n/a;TGC;1643
-FRA;19; François Tristan l'Hermite;Q1451213;Le Parasite;Q60852768;COM;1654
-FRA;20; Molière;Q687;Sganarelle ou Le Cocu Imaginaire;Q3481105;COM;1660
-FRA;21; Jean Racine;Q742;La Thébaïde;Q3213141;TRAG;1664
-FRA;22; Adrien-Thomas Perdou de Subligny;Q2825111;La Folle Querelle ou La Critique d'Andromaque;n/a;COM;1668
-FRA;23; Thomas Corneille;Q551787;La Mort d'Achille;n/a;TRAG;1673
-FRA;24; Gaspard Abeille;Q1338057;Argélie ;n/a;TRAG;1673
-FRA;25; Pierre Saint-Glas;Q110953660;Les Bouts Rimés;n/a;COM;1682
-FRA;26; Dancourt;Q2437020;Le Chevalier à  la Mode;n/a;COM;1687
-FRA;27; Dancourt;Q2437020;La Parisienne;n/a;COM;1691
-FRA;28; Jean-François  Regnard;Q732695;La Sérénade;n/a;COM;1694
-FRA;29; François Joseph Lagrange-Chancel;Q725459;Amasis;n/a;TRAG;1702
-FRA;30; Joseph de  Lafont;Q3185843;Le Naufrage ou La Pompe Funèbre de Crispin;n/a;COM;1710
-ITA;1; Ludovico Dolce;Q1867806;Marianna;n/a;TRAG;1565
-ITA;2; Lionardo Salviati;Q3830435;Il granchio;n/a;COM;1566
-ITA;3; Torquato Tasso;Q168962;Aminta;Q471831;PAST;1573
-ITA;4; Vincenzo Giusti;Q55228359;Irene;n/a;TRAG;1579
-ITA;5; Battista Guarini;Q542039;La idropica;n/a;COM;1584
-ITA;6; Pomponio Torelli;Q3907904;La Merope;n/a;TRAG;1587
-ITA;7; Antonio Decio;Q42941837;Acripanda;n/a;TRAG;1592
-ITA;8; Torquato Tasso;Q168962;Gli intrichi d'amore;n/a;COM;1598
-ITA;9; Giambattista Della Porta;Q334154;La carbonaria;n/a;COM;1601
-ITA;10; Silvio Fiorillo;Q3960869;La Lucilla costante;n/a;COM;1609
-ITA;11; Giovan Battista Andreini;Q1134183;Lo schiavetto;n/a;COM;1612
-ITA;12; Flaminio Scala;Q387219;Il finto marito;n/a;COM;1618
-ITA;13; Bartolomeo Tortoletti;Q30308589;Gionata;n/a;TRAG;1624
-ITA;14; Nicolò Barbieri;Q2055429;L'inavvertito;Q83893963;COM;1629
-ITA;15; Pier Maria Cecchini;Q3902918;L'amico tradito;n/a;COM;1633
-ITA;16; Decio Memmolo;Q110953695;La Susanna;n/a;TRAG;1632
-ITA;17; Vincenzo Nolfi;Q25930112;Romilda;n/a;TRAG;1643
-ITA;18; Fulvio Testi;Q594614;L'isola di Alcina;n/a;TRAG;1648
-ITA;19; Giovanni Oransi;Q114269706;Rosina;n/a;COM;1652
-ITA;20; Carlo De' Dottori;Q3659984;Aristodemo;Q3622694;TRAG;1657
-ITA;21; Giacinto Andrea Cicognini;Q653588;Il Mustafà;n/a;DRA;1663
-ITA;22; Mattias Maria Bartolommei;Q55225369;Amore opera a caso;n/a;COM;1668
-ITA;23; Girolamo Graziani;Q3768936;Il Cromuele;Q3792648;TRAG;1671
-ITA;24; Giovanni Domenico Bregolini;Q110953728;Pausania;n/a;TRAG;1679
-ITA;25; Girolamo Gigli;Q3768932;Un pazzo guarisce l'altro;n/a;COM;1687
-ITA;26; Giovanni Bonicelli;Q87067866;Pantalone bullo;n/a;COM;1688
-ITA;27; Alessandro Guidi;Q3610064;Endimione;n/a;PAST;1692
-ITA;28; Girolamo Gigli;Q3768932;I litiganti overo Il giudice impazzato;n/a;COM;1695
-ITA;29; Niccolò Amenta;Q3875827;La somiglianza;n/a;COM;1706
-ITA;30; Luigi Lodovico Riccoboni;Q3266530;Tito Manlio;n/a;TRAG;1707
-SPA;1; Alonso de  La Vega;Q5670429;Seraphina;n/a;TRAG;1566
-SPA;2; Alonso de  La Vega;Q5670429;La Duquesa de la Rosa;n/a;COM;1566
-SPA;3; Andrés Rey de Artieda;Q2835691;Los amantes;n/a;TRAG;1577
-SPA;4; Cristóbal de Virués;Q1140501;La gran Semíramis;n/a;TRAG;1579
-SPA;5; Miguel de Cervantes;Q5682;El cerco de Numancia;Q290051;TRAG;1585
-SPA;6; Félix Lope de Vega y Carpio;Q165257;El perseguido;n/a;COM;1590
-SPA;7; Félix Lope de Vega y Carpio;Q165257;La viuda valenciana;Q3726536;COM;1595
-SPA;8; Félix Lope de Vega y Carpio;Q165257;El galán castrucho;Q47502060;COM;1598
-SPA;9; Antonio Mira de Amescua;Q1773549;El esclavo del demonio;Q8773743;DRA;1605
-SPA;10; Guillén de Castro;Q457209;Las mocedades del Cid;Q2882637;DRA;1605
-SPA;11; Luis  Vélez de Guevara;Q1305828;La serrana de la vera;n/a;TRAG;1613
-SPA;12; Juan Ruiz de Alarcón y Mendoza;Q356532;La verdad sospechosa;Q5968390;COM;1619
-SPA;13; Francisco de  Monteser;Q5483139;El caballero de Olmedo;n/a;COM;1621
-SPA;14; María de  Zayas Sotomayor;Q2905689;La traición en la amistad;n/a;COM;1630
-SPA;15; Pedro Calderón de la Barca;Q170800;La vida es sueno;Q138174;DRA;1635
-SPA;16; Francisco de Rojas Zorrilla;Q1442310;Entre bobos anda el juego;Q5834363;COM;1638
-SPA;17; Francisco de Rojas Zorrilla;Q1442310;Lo que son mujeres;n/a;COM;1644
-SPA;18; Pedro Calderón de la Barca;Q170800;La segunda esposa;n/a;AUTO;1648
-SPA;19; Juan Maldonado - Diego de la Dueña -  Jerónimo de Cifuentes;n/a;La mas costante mujer;n/a;COM;1658
-SPA;20; Agustín Moreto y Cavana;Q399346;El desdén con el desdén;Q5824627;COM;1654
-SPA;21; Agustín Moreto y Cavana;Q399346;El lindo don Diego;Q5825576;COM;1662
-SPA;22; Pedro Calderón de la Barca;Q170800;Suenos hay que verdad son;n/a;AUTO;1670
-SPA;23;Juan de Matos Fragoso - Juan Bautista Diamante - Juan V�lez de Guevara;Q6301294 - Q3187575 - Q3187815;El hidalgo de la Mancha;n/a;COM;1673
-SPA;24; Juan Bautista Diamante;Q3187575;El Hércules de Ocaña;n/a;COM;1673
-SPA;25; Sor Juana Inés de la Cruz;Q183074;Los empeños de una casa;Q5980840;COM;1683
-SPA;26; Juan de  Montenegro y Neira;n/a;La toma de Buda;n/a;AUTO;1687
-SPA;27; Francisco Bances y Candamo;Q1962299;El esclavo en grillos de oro;n/a;COM;1692
-SPA;28; Antonio de Zamora;Q606094;Ser fino y no parecerlo;n/a;COM;1692
-SPA;29; Ferdinando Romero;n/a;Aunque las razones basten  nunca la justicia sobra;n/a;COM;1701
-SPA;30; Antonio de Zamora;Q606094;Duendes son los alcahuetes y el espíritu Foleto;n/a;COM;1709
-ENG;1; Thomas Norton - Thomas Sackville;Q337443 - Q670967;Gorboduc;n/a;TRAG;1561
-ENG;2; Ulpian Fulwell;Q7879758;Like Will to Like;n/a;INT;1568
-ENG;3; Nathaniel Woodes;n/a;The Conflict of Conscience;n/a;COM;1572
-ENG;4; George Gascoigne;Q333528;The Glass of Government;n/a;TGC;1575
-ENG;5; Christopher Marlowe;Q28975;Dr. Faustus;Q50919;TRAG;1587
-ENG;6; George Peele;Q704626;The Love of David and Fair Bathsheba;Q60794530;TRAG;1590
-ENG;7; Samuel Daniel;Q954735;Cleopatra;n/a;TRAG;1594
-ENG;8; Ben Jonson;Q193857;Every Man Out of His Humour;Q193857;COM;1599
-ENG;9; Samuel Daniel;Q954735;Philotas;n/a;TRAG;1605
-ENG;10; Lording Barry;Q13227038;Ram Alley;n/a;COM;1608
-ENG;11; Thomas Dekker;Q336189;If It Be Not Good  the Devil Is in It;n/a;COM;1611
-ENG;12; Ben Jonson;Q193857;The Staple of News;Q668812;COM;1614
-ENG;13; Thomas Dekker;Q336189;The Noble Spanish Soldier;Q7754258;TRAG;1622
-ENG;14; John Fletcher;Q312444;A Wife for a Month;Q17026288;TGC;1624
-ENG;15; James Shirley;Q1349914;The Example;Q7732739;COM;1634
-ENG;16; Thomas Nabbes;Q7792668;The Unfortunate Mother;Q20745553;TRAG;1639
-ENG;17; James Shirley;Q1349914;The Court Secret;Q16828249;TGC;1642
-ENG;18; John Denham;Q1248337;The Sophy;n/a;TRAG;1642
-ENG;19; Robert Baron;Q7341889;Mirza;n/a;TRAG;1655
-ENG;20; Thomas Tomkis;Q7794501;Lingua;Q6553973;COM;1657
-ENG;21; Thomas Porter;Q7793222;The Carnival;Q25204117;COM;1664
-ENG;22; Abraham Bailey;n/a;The Spiteful Sister;n/a;COM;1667
-ENG;23; Thomas Duffet;Q7789081;The Mock Tempest;Q7751841;COM;1675
-ENG;24; Thomas Shadwell;Q1230771;The Libertine;Q28457734;TRAG;1676
-ENG;25; Edward Ravenscroft;Q3048652;Dame Dobson;Q107556839;COM;1684
-ENG;26; Francis Fane;Q3081426;The Sacrifice;n/a;TRAG;1687
-ENG;27; Mary Pix;Q3296230;Ibrahim;Q65054481;TRAG;1696
-ENG;28; Peter Motteux;Q3382857;Beauty in Distress;Q104858515;TRAG;1698
-ENG;29; Nicholas Rowe;Q1382306;The Fair Penitent;n/a;TRAG;1702
-ENG;30; Susannah Centlivre;Q931103;The Man's Bewitched;n/a;COM;1709
+language,id,author,author_wikidata,title,title_wikidata,genre,year_normalized
+GER,1, Jos Murer,Q1704063,Absolom ,n/a,DRA,1565
+GER,2, Jos Murer,Q1704063,Hester,n/a,DRA,1567
+GER,3, Nicodemus Frischlin,Q72975,Frau Wendelgard ,n/a,COM,1579
+GER,4, Bartholomäus Krüger,Q113689,Von dem Anfang und Ende der Welt ,n/a,DRA,1580
+GER,5, Martin Hayneccius,Q1382373,Hans Pfriem ,n/a,COM,1582
+GER,6, Georg Rollenhagen,Q1505776,Vom reichen Mann und armen Lazaro ,n/a,DRA,1590
+GER,7, Heinrich Julius,Q77557,Der Fleischhawer,n/a,DRA,1593
+GER,8, Heinrich Julius,Q77557,Von einem ungeratenen Sohn,n/a,TRAG,1594
+GER,9, Ludwig Hollonius,Q6699242,Somnium Vitae Humanae ,n/a,DRA,1605
+GER,10, Joachim Schlue,Q55133405,Isaac,n/a,COM,1606
+GER,11, Martin Rinckart,Q78323,Der Eislebische Christliche Ritter,n/a,COM,1613
+GER,12,Anonym,Q4233718,Ein ander lustig Pickelherings Spiel ,n/a,COM,1620
+GER,13, Jakob Balde,Q65850,Iocus serius theatralis,n/a,DRA,1629
+GER,14, Johann Rist,Q66615,Irenaromachia ,n/a,TGC,1630
+GER,15, Johann Rist,Q66615,Perseus ,n/a,TRAG,1634
+GER,16, Martin Opitz,Q60946,Judith ,Q108846503,TRAG,1635
+GER,17, Andreas Gryphius,Q77214,Absurda Comica oder Herr Peter Squenz ,Q333566,COM,1648
+GER,18, Daniel Casper von Lohenstein,Q66942,Ibrahim ,n/a,TRAG,1649
+GER,19, Andreas Gryphius,Q77214,Cardenio und Celinde,Q42187675,TRAG,1650
+GER,20, Johann Georg Schoch,Q1454301,Comoedia Vom Studenten-Leben,n/a,COM,1657
+GER,21, Johann Sebastian Mitternacht,Q1696208,Der unglückselige Soldat ,n/a,DRA,1662
+GER,22, Daniel Casper von Lohenstein,Q66942,Epicharis ,n/a,TRAG,1665
+GER,23, Johann Christian Hallmann,Q98928,Sophia ,n/a,TRAG,1671
+GER,24, Christian Weise,Q90798,Baurischer Machiavellus,n/a,COM,1679
+GER,25, Christian Weise,Q90798,Masaniello ,n/a,TRAG,1682
+GER,26, Joseph Anton Stranitzky,Q85811,Türckisch-bestraffter Hochmuth,n/a,TGC,1685
+GER,27, Christian Reuter,Q103304,Der ehrlichen Frau Schlampampe Krankheit und Tod ,n/a,TGC,1696
+GER,28, Johann Christian Hallmann,Q98928,Liberata,n/a,TRAG,1699
+GER,29, Barthold Feind,Q809288,Das verwirrte Haus Jacob,n/a,DRA,1703
+GER,30, Christian Weise,Q90798,Ungleich und gleich gepaarte Liebes-Alliance,n/a,COM,1708
+FRA,1, Jean De La Taille,Q1393491,Les Corrivaus,Q3231789,COM,1562
+FRA,2, Jacques Bienvenu,Q3158277,Comedie du monde malade et mal pensé,n/a,COM,1568
+FRA,3, Robert Garnier,Q113089,Hyppolite,Q3136010,TRAG,1573
+FRA,4, Robert Garnier,Q113089,Bradamante,Q64787100,TRAG,1578
+FRA,6, Odet de Turnèbe,Q3100336,Les Contents,n/a,COM,1581
+FRA,5, Pierre Matthieu,Q3386220,Aman,n/a,TRAG,1588
+FRA,7, Simon Belyard,Q3484229,Le Guisien,n/a,DRA,1592
+FRA,8, Jean de Virey,Q110953500,La Machabée,n/a,TRAG,1596
+FRA,9, Anthoine de Montchrestien,Q587273,La Carthaginoise,n/a,TRAG,1601
+FRA,10, Nicolas Soret,Q3340795,La Céciliade,n/a,DRA,1606
+FRA,11, Théophile de Viau,Q462644,Pyrame et Thisbé,Q3230535,TRAG,1617
+FRA,12, Honoré d' Urfé,Q358491,Sylvanire,Q3213001,PAST,1617
+FRA,13, Théophile de Viau,Q462644,La Tragédie de Pasiphaé,n/a,TRAG,1627
+FRA,14, Pierre Du Ryer,Q2633293,Clitophon,n/a,TGC,1629
+FRA,15, Balthazar Baro,Q2881598,La Clorise,n/a,PAST,1632
+FRA,16, Charles Dalibray,Q2960722,Soliman,n/a,TGC,1637
+FRA,17, Pierre Corneille,Q747,Rodogune,Q2161210,TRAG,1644
+FRA,18, Gabriel Gilbert,Q1291302,Téléphonte,n/a,TGC,1643
+FRA,19, François Tristan l'Hermite,Q1451213,Le Parasite,Q60852768,COM,1654
+FRA,20, Molière,Q687,Sganarelle ou Le Cocu Imaginaire,Q3481105,COM,1660
+FRA,21, Jean Racine,Q742,La Thébaïde,Q3213141,TRAG,1664
+FRA,22, Adrien-Thomas Perdou de Subligny,Q2825111,La Folle Querelle ou La Critique d'Andromaque,n/a,COM,1668
+FRA,23, Thomas Corneille,Q551787,La Mort d'Achille,n/a,TRAG,1673
+FRA,24, Gaspard Abeille,Q1338057,Argélie ,n/a,TRAG,1673
+FRA,25, Pierre Saint-Glas,Q110953660,Les Bouts Rimés,n/a,COM,1682
+FRA,26, Dancourt,Q2437020,Le Chevalier à  la Mode,n/a,COM,1687
+FRA,27, Dancourt,Q2437020,La Parisienne,n/a,COM,1691
+FRA,28, Jean-François  Regnard,Q732695,La Sérénade,n/a,COM,1694
+FRA,29, François Joseph Lagrange-Chancel,Q725459,Amasis,n/a,TRAG,1702
+FRA,30, Joseph de  Lafont,Q3185843,Le Naufrage ou La Pompe Funèbre de Crispin,n/a,COM,1710
+ITA,1, Ludovico Dolce,Q1867806,Marianna,n/a,TRAG,1565
+ITA,2, Lionardo Salviati,Q3830435,Il granchio,n/a,COM,1566
+ITA,3, Torquato Tasso,Q168962,Aminta,Q471831,PAST,1573
+ITA,4, Vincenzo Giusti,Q55228359,Irene,n/a,TRAG,1579
+ITA,5, Battista Guarini,Q542039,La idropica,n/a,COM,1584
+ITA,6, Pomponio Torelli,Q3907904,La Merope,n/a,TRAG,1587
+ITA,7, Antonio Decio,Q42941837,Acripanda,n/a,TRAG,1592
+ITA,8, Torquato Tasso,Q168962,Gli intrichi d'amore,n/a,COM,1598
+ITA,9, Giambattista Della Porta,Q334154,La carbonaria,n/a,COM,1601
+ITA,10, Silvio Fiorillo,Q3960869,La Lucilla costante,n/a,COM,1609
+ITA,11, Giovan Battista Andreini,Q1134183,Lo schiavetto,n/a,COM,1612
+ITA,12, Flaminio Scala,Q387219,Il finto marito,n/a,COM,1618
+ITA,13, Bartolomeo Tortoletti,Q30308589,Gionata,n/a,TRAG,1624
+ITA,14, Nicolò Barbieri,Q2055429,L'inavvertito,Q83893963,COM,1629
+ITA,15, Pier Maria Cecchini,Q3902918,L'amico tradito,n/a,COM,1633
+ITA,16, Decio Memmolo,Q110953695,La Susanna,n/a,TRAG,1632
+ITA,17, Vincenzo Nolfi,Q25930112,Romilda,n/a,TRAG,1643
+ITA,18, Fulvio Testi,Q594614,L'isola di Alcina,n/a,TRAG,1648
+ITA,19, Giovanni Oransi,Q114269706,Rosina,n/a,COM,1652
+ITA,20, Carlo De' Dottori,Q3659984,Aristodemo,Q3622694,TRAG,1657
+ITA,21, Giacinto Andrea Cicognini,Q653588,Il Mustafà,n/a,DRA,1663
+ITA,22, Mattias Maria Bartolommei,Q55225369,Amore opera a caso,n/a,COM,1668
+ITA,23, Girolamo Graziani,Q3768936,Il Cromuele,Q3792648,TRAG,1671
+ITA,24, Giovanni Domenico Bregolini,Q110953728,Pausania,n/a,TRAG,1679
+ITA,25, Girolamo Gigli,Q3768932,Un pazzo guarisce l'altro,n/a,COM,1687
+ITA,26, Giovanni Bonicelli,Q87067866,Pantalone bullo,n/a,COM,1688
+ITA,27, Alessandro Guidi,Q3610064,Endimione,n/a,PAST,1692
+ITA,28, Girolamo Gigli,Q3768932,I litiganti overo Il giudice impazzato,n/a,COM,1695
+ITA,29, Niccolò Amenta,Q3875827,La somiglianza,n/a,COM,1706
+ITA,30, Luigi Lodovico Riccoboni,Q3266530,Tito Manlio,n/a,TRAG,1707
+SPA,1, Alonso de  La Vega,Q5670429,Seraphina,n/a,TRAG,1566
+SPA,2, Alonso de  La Vega,Q5670429,La Duquesa de la Rosa,n/a,COM,1566
+SPA,3, Andrés Rey de Artieda,Q2835691,Los amantes,n/a,TRAG,1577
+SPA,4, Cristóbal de Virués,Q1140501,La gran Semíramis,n/a,TRAG,1579
+SPA,5, Miguel de Cervantes,Q5682,El cerco de Numancia,Q290051,TRAG,1585
+SPA,6, Félix Lope de Vega y Carpio,Q165257,El perseguido,n/a,COM,1590
+SPA,7, Félix Lope de Vega y Carpio,Q165257,La viuda valenciana,Q3726536,COM,1595
+SPA,8, Félix Lope de Vega y Carpio,Q165257,El galán castrucho,Q47502060,COM,1598
+SPA,9, Antonio Mira de Amescua,Q1773549,El esclavo del demonio,Q8773743,DRA,1605
+SPA,10, Guillén de Castro,Q457209,Las mocedades del Cid,Q2882637,DRA,1605
+SPA,11, Luis  Vélez de Guevara,Q1305828,La serrana de la vera,n/a,TRAG,1613
+SPA,12, Juan Ruiz de Alarcón y Mendoza,Q356532,La verdad sospechosa,Q5968390,COM,1619
+SPA,13, Francisco de  Monteser,Q5483139,El caballero de Olmedo,n/a,COM,1621
+SPA,14, María de  Zayas Sotomayor,Q2905689,La traición en la amistad,n/a,COM,1630
+SPA,15, Pedro Calderón de la Barca,Q170800,La vida es sueno,Q138174,DRA,1635
+SPA,16, Francisco de Rojas Zorrilla,Q1442310,Entre bobos anda el juego,Q5834363,COM,1638
+SPA,17, Francisco de Rojas Zorrilla,Q1442310,Lo que son mujeres,n/a,COM,1644
+SPA,18, Pedro Calderón de la Barca,Q170800,La segunda esposa,n/a,AUTO,1648
+SPA,19, Juan Maldonado - Diego de la Dueña -  Jerónimo de Cifuentes,n/a,La mas costante mujer,n/a,COM,1658
+SPA,20, Agustín Moreto y Cavana,Q399346,El desdén con el desdén,Q5824627,COM,1654
+SPA,21, Agustín Moreto y Cavana,Q399346,El lindo don Diego,Q5825576,COM,1662
+SPA,22, Pedro Calderón de la Barca,Q170800,Suenos hay que verdad son,n/a,AUTO,1670
+SPA,23,Juan de Matos Fragoso - Juan Bautista Diamante - Juan V�lez de Guevara,Q6301294 - Q3187575 - Q3187815,El hidalgo de la Mancha,n/a,COM,1673
+SPA,24, Juan Bautista Diamante,Q3187575,El Hércules de Ocaña,n/a,COM,1673
+SPA,25, Sor Juana Inés de la Cruz,Q183074,Los empeños de una casa,Q5980840,COM,1683
+SPA,26, Juan de  Montenegro y Neira,n/a,La toma de Buda,n/a,AUTO,1687
+SPA,27, Francisco Bances y Candamo,Q1962299,El esclavo en grillos de oro,n/a,COM,1692
+SPA,28, Antonio de Zamora,Q606094,Ser fino y no parecerlo,n/a,COM,1692
+SPA,29, Ferdinando Romero,n/a,Aunque las razones basten  nunca la justicia sobra,n/a,COM,1701
+SPA,30, Antonio de Zamora,Q606094,Duendes son los alcahuetes y el espíritu Foleto,n/a,COM,1709
+ENG,1, Thomas Norton - Thomas Sackville,Q337443 - Q670967,Gorboduc,n/a,TRAG,1561
+ENG,2, Ulpian Fulwell,Q7879758,Like Will to Like,n/a,INT,1568
+ENG,3, Nathaniel Woodes,n/a,The Conflict of Conscience,n/a,COM,1572
+ENG,4, George Gascoigne,Q333528,The Glass of Government,n/a,TGC,1575
+ENG,5, Christopher Marlowe,Q28975,Dr. Faustus,Q50919,TRAG,1587
+ENG,6, George Peele,Q704626,The Love of David and Fair Bathsheba,Q60794530,TRAG,1590
+ENG,7, Samuel Daniel,Q954735,Cleopatra,n/a,TRAG,1594
+ENG,8, Ben Jonson,Q193857,Every Man Out of His Humour,Q193857,COM,1599
+ENG,9, Samuel Daniel,Q954735,Philotas,n/a,TRAG,1605
+ENG,10, Lording Barry,Q13227038,Ram Alley,n/a,COM,1608
+ENG,11, Thomas Dekker,Q336189,If It Be Not Good  the Devil Is in It,n/a,COM,1611
+ENG,12, Ben Jonson,Q193857,The Staple of News,Q668812,COM,1614
+ENG,13, Thomas Dekker,Q336189,The Noble Spanish Soldier,Q7754258,TRAG,1622
+ENG,14, John Fletcher,Q312444,A Wife for a Month,Q17026288,TGC,1624
+ENG,15, James Shirley,Q1349914,The Example,Q7732739,COM,1634
+ENG,16, Thomas Nabbes,Q7792668,The Unfortunate Mother,Q20745553,TRAG,1639
+ENG,17, James Shirley,Q1349914,The Court Secret,Q16828249,TGC,1642
+ENG,18, John Denham,Q1248337,The Sophy,n/a,TRAG,1642
+ENG,19, Robert Baron,Q7341889,Mirza,n/a,TRAG,1655
+ENG,20, Thomas Tomkis,Q7794501,Lingua,Q6553973,COM,1657
+ENG,21, Thomas Porter,Q7793222,The Carnival,Q25204117,COM,1664
+ENG,22, Abraham Bailey,n/a,The Spiteful Sister,n/a,COM,1667
+ENG,23, Thomas Duffet,Q7789081,The Mock Tempest,Q7751841,COM,1675
+ENG,24, Thomas Shadwell,Q1230771,The Libertine,Q28457734,TRAG,1676
+ENG,25, Edward Ravenscroft,Q3048652,Dame Dobson,Q107556839,COM,1684
+ENG,26, Francis Fane,Q3081426,The Sacrifice,n/a,TRAG,1687
+ENG,27, Mary Pix,Q3296230,Ibrahim,Q65054481,TRAG,1696
+ENG,28, Peter Motteux,Q3382857,Beauty in Distress,Q104858515,TRAG,1698
+ENG,29, Nicholas Rowe,Q1382306,The Fair Penitent,n/a,TRAG,1702
+ENG,30, Susannah Centlivre,Q931103,The Man's Bewitched,n/a,COM,1709
