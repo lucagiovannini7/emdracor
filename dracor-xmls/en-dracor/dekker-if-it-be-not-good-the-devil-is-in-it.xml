@@ -111,9 +111,6 @@
           <person xml:id="ep000378-all-devils" sex="UNKNOWN">
             <persName>All devils</persName>
           </person>
-          <person xml:id="ep000378-devil-iii" sex="UNKNOWN">
-            <persName>Devil III</persName>
-          </person>
           <person xml:id="ep000378-grumball" sex="MALE">
             <persName>Grumball (Lurchall)</persName>
           </person>
@@ -1168,7 +1165,7 @@
           <l>Let him see vs. </l>
         </sp>
         <stage xml:id="ep000378-e105780">Rufman brought in by all. </stage>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e105790">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e105790">
           <speaker>Ruff: </speaker>
           <l>The powers that guide me, guard thee, I haue heard thy name </l>
           <l>In regions far hence, where it does resound </l>
@@ -1181,7 +1178,7 @@
           <speaker>Kin: </speaker>
           <l>What are you, and whence come you? </l>
         </sp>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e105880">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e105880">
           <speaker>Ruff: </speaker>
           <l>From Heluetia. </l>
         </sp>
@@ -1194,7 +1191,7 @@
           <speaker>Iou: </speaker>
           <l>Peace you shall know hot hell time enough. </l>
         </sp>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e105940">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e105940">
           <speaker>Ruff: </speaker>
           <p>I am an Heluetian borne, the house from which I am descended, ancient and well knowne to many princes: Bohor is my name. </p>
         </sp>
@@ -1359,7 +1356,7 @@
           <l>I like a Schoole-boy should haue worne my crowne, </l>
           <l>As if I had borrowed it. </l>
         </sp>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e106950">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e106950">
           <speaker>Ruff: </speaker>
           <l>Had bin most vile. </l>
         </sp>
@@ -2003,7 +2000,7 @@
           <speaker>Nar: </speaker>
           <l>Has met some merry painter, hees drawne so liuely. </l>
         </sp>
-        <sp who="#ep000378-octavio #ep000378-jovinelli #ep000378-spendola #ep000378-octavio"
+        <sp who="#ep000378-octavio #ep000378-jovinelli #ep000378-spendola"
                  xml:id="ep000378-e110880">
           <speaker>Omn: </speaker>
           <l>Come count your newes. </l>
@@ -2079,7 +2076,7 @@
           <speaker>Bri. </speaker>
           <l>Their daring Giant, (newly reui'de) </l>
         </sp>
-        <sp who="#ep000378-octavio #ep000378-jovinelli #ep000378-spendola #ep000378-octavio"
+        <sp who="#ep000378-octavio #ep000378-jovinelli #ep000378-spendola"
                  xml:id="ep000378-e111360">
           <speaker>Omn. </speaker>
           <l>For Ioues sake lets see that. </l>
@@ -2507,7 +2504,7 @@
           <speaker>K. </speaker>
           <l>Deare Bohor doe. </l>
         </sp>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e113930">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e113930">
           <speaker>Ruff: </speaker>
           <l>I shall; Nor doe I thus your loue pursue, </l>
           <l>With seruile hopes of Golde, I neede it not: </l>
@@ -4046,7 +4043,7 @@
           <l>In their owne sattins, pay for what they ha tane, </l>
           <l>And these will goe lesse braue, tother lesse complaine. </l>
         </sp>
-        <sp who="#ep000378-narcisso #ep000378-spendola #ep000378-brisco #ep000378-jovinelli"
+        <sp who="#ep000378-king #ep000378-narcisso #ep000378-spendola #ep000378-brisco #ep000378-jovinelli"
                  xml:id="ep000378-e123090">
           <speaker>Omn. </speaker>
           <l>Ha ha! </l>
@@ -4256,7 +4253,7 @@
           <l>Who bayld him out of 〈…〉 </l>
           <l>Out of mine eye. </l>
         </sp>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e124340">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e124340">
           <speaker>Ruff: </speaker>
           <l>I neuer begd before, </l>
           <l>Pardon his crime (I intreate) and backe restore </l>
@@ -5749,7 +5746,7 @@
           <speaker>Oct. </speaker>
           <l>Sirra, wheres the King? </l>
         </sp>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e133520">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e133520">
           <speaker>Ruff: </speaker>
           <l>Warrant mee life, ile bring you to the place where you shall take him. </l>
         </sp>
@@ -5757,7 +5754,7 @@
           <speaker>Oct. </speaker>
           <l>Wult thou betray him Slaue? </l>
         </sp>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e133560">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e133560">
           <speaker>Ruff: </speaker>
           <l>Yes. </l>
         </sp>
@@ -5765,7 +5762,7 @@
           <speaker>Cal. </speaker>
           <l>Thou shalt haue life. </l>
         </sp>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e133600">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e133600">
           <speaker>Ruff: </speaker>
           <l>And you the King shall haue. </l>
         </sp>
@@ -6183,7 +6180,7 @@
           <l>Ten Kingdomes cannot buy thee; were there 10. hels </l>
           <l>Thart dambd in all, S'death! fie that house of diuels. </l>
         </sp>
-        <sp who="#ep000378-devil-iii" xml:id="ep000378-e135980">
+        <sp who="#ep000378-shacklesoul #ep000378-grumball #ep000378-rufman" xml:id="ep000378-e135980">
           <speaker>3. Diu. </speaker>
           <l>Doe: lets not want light to set forth our Reuels. </l>
         </sp>
@@ -6426,7 +6423,7 @@
           <l>Or els a bottle of posterne water to saue charges, or els a </l>
           <l>Thimble-full of lymon water, to coole my stomach the ru-● </l>
         </sp>
-        <sp who="#ep000378-devil-iii" xml:id="ep000378-e137310">
+        <sp who="#ep000378-all-devils" xml:id="ep000378-e137310">
           <speaker>Spir. </speaker>
           <l>By is swilld vp all, heres lymon, downe with't. </l>
         </sp>
@@ -6698,7 +6695,7 @@
           <speaker>Rau. </speaker>
           <l>Thine owne. </l>
         </sp>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e138890">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e138890">
           <speaker>Ruff: </speaker>
           <l>A french. </l>
           <l>The eagerest blood hound that ere came from thence; </l>
@@ -6913,7 +6910,7 @@
           <l>ith Naples Court, Citie and Frierie? </l>
           <l>We chard'de you saile thither: Is mischiefs Riuer there drie? </l>
         </sp>
-        <sp who="#ep000378-shacklesoul" xml:id="ep000378-e140110">
+        <sp who="#ep000378-rufman" xml:id="ep000378-e140110">
           <speaker>Ruff: </speaker>
           <l>Drie, No: Fat preyes for hell we all did meete, </l>
           <l>In Court, Citie, Countrey, Nay, in euery streete, </l>
