@@ -1,0 +1,2174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id= "span######" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="title">Seraphina</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Alonso</forename>
+            <nameLink>de la</nameLink>
+            <surname>Vega</surname>
+          </persName>
+          <idno type="wikidata">Q5670429</idno>
+          <idno type="pnd"></idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Internet Archive</name>
+          <idno type="URL">https://archive.org/details/TresComediasDeAlonsoDeLaVegaPelay"</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Vega, Alonso de la: Seraphina, in Tres comedias de Alonso de La Vega con un prólogo de D. Marcelino Menéndez y Pelayo de la Academia Española. 
+              Gesellschaft für Romanische Literatur, bd. VI. Dresden: Niemeyer, 1905</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="doctor" sex='MALE'>
+            <persName>DOCTOR</persName>
+          </person>
+          <person xml:id="narciso" sex='MALE'>
+            <persName>NARCISO</persName>
+          </person>
+          <person xml:id="paris" sex='MALE'>
+            <persName>PARIS</persName>
+          </person>
+          <person xml:id="nimpha" sex='FEMALE'>
+            <persName>NIMPHA</persName>
+          </person>
+          <person xml:id="cupido" sex='MALE'>
+            <persName>CUPIDO</persName>
+          </person>
+          <person xml:id="seraphina" sex='FEMALE'>
+            <persName>SERAPHINA</persName>
+          </person>
+          <person xml:id="correo" sex='MALE'>
+            <persName>CORREO</persName>
+          </person>
+          <personGrp xml:id="salvoges" sex='MALE'>
+            <persName>SALVOGES</persName>
+          </personGrp>
+          <person xml:id="alberto" sex='MALE'>
+            <persName>ALBERTO</persName>
+          </person>
+          <person xml:id="talancon" sex='MALE'>
+            <persName>TALANCON</persName>
+          </person>
+          <person xml:id="marco_athanasio" sex='MALE'>
+            <persName>MARCO ATHANASIO</persName>
+          </person>
+          <person xml:id="alguazil" sex='MALE'>
+            <persName>ALGUAZIL</persName>
+          </person>
+          <person xml:id="marimarta" sex='FEMALE'>
+            <persName>MARIMARTA</persName>
+          </person>
+          <personGrp xml:id="vozes_dentro" sex='UNKNOWN'>
+            <persName>VOZES DENTRO</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-09-27"> (LG) first encoding and formatting. Some paratexts removed. </change>
+        <change when="2022-12-04"> (LG) updated formatting</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print">
+        <desc/>
+      </event>
+      <event type="premiere" when="1566">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>Tragedia llamada Seraphina, compuesta por Alonso de la Vega. Son interlocutores la personas baxo escritas.</head>
+        <castItem>ALBERTO ÑAPOLITANO anciano.</castItem>
+        <castItem>MARCO ATHANASIO su hijo.</castItem>
+        <castItem>SERAFINA dama.</castItem>
+        <castItem>MARI MARTA moça.</castItem>
+        <castItem>TALAMON simple.</castItem>
+        <castItem>IONA Nimpha.</castItem>
+        <castItem>PARÍS enamorado.</castItem>
+        <castItem>NARCISO enamorado.</castItem>
+        <castItem>ALGUAZIL.</castItem>
+        <castItem>DOCTOR, medio nigromante.</castItem>
+        <castItem>DOS SALVAGES.</castItem>
+        <castItem>CUPIDO Dios de Amor.</castItem>
+      </castList>
+      <argument>
+        <head>Argumento del Auctor.</head>
+        <p>EN la ciudad de Napóles (muy magníficos señores) havia un rico labrador llamado Alberto Napolitano, el qual grande amistad tenia con un Cavallero mancebo que en la Corte Romana residía.  Este Cavallero tenia amores con una Matrona Romana, y huvo en ella una hija. Vino a ser, que privó tanto con el Papa, que le hizo Cardenal, y grande allegado suyo. Como él se viesse tan rico, y en estado tan prospero, y la hija (que la Tragedia, Serafina la llama), fuesse de hedad de ser casada, determinó, para su dote (a dinero) comprar le el Condado de Sancta Flor: y assí lo hizo. Fue Dios servido lleuar el Cardenal desta presente vida, y dexó por su testamentario a este amigo suyo que en Ñapóles dicho tengo que residia. Como la donzella fuesse muy hermosa, y el dote fuesse tal, offrescieronse al casamiento dos grandes Principes de Italia, entre los quales muchas guerras, y diferencias havia cadaldia. La Matrona Romana, madre desta donzella, por escusar las guerras que havia, determinó de ausentar les la donzella, y embiar la a Napóles en casa deste Alberto Napolitano, para que allí secreta y encubierta la tuviesse. Este Napolitano, tenia en casa un hijo llamado Marco Athanassio, el qual se enamoró desta donzella. La donzella soño una noche que havia de ser casada con el mas lindo hombre del mundo. No faltó quien le dixo, que el mas lindo hombre era el Amor. De aquí pende nuestra Tragedia, y marañosa trapaga: lo que adelante succedera, delicada, y gustosamente lo verán. Solo el Auctor les pide y supplica, para todo se dé cumplida attencion. Y perdonen.</p>
+      </argument>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene">
+          <head>SCENA PRIMERA.</head>
+          <stage>Interlocutores. SERAPHINA, dama. MARIMARTA moça. DOCTOR, medio nigromante.</stage>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Hay Seraphina, no eres la que ser solías, qués de ti? a dónde estás? en qué piensas? quién te robó aquel sossiego, y quietad de tu descansada vida? hay pensamiento mió, y quan affligida me tienes, que por soñar que estoy enamorada del mas hermoso hombre del mundo, tan al cabo quiés que prossiga tu intento? sus, cunpla se tu voluntad, pues tan cunplidamente has impresso en este mi coraçon tal effecto.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Ay señora Seraphina y de quando acá te has vezado a predicar?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>lo predicar, y qué has visto en mi?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>No sé, si no como te ohi rethoricar, dixe: tate, en el pulpito esta mi ama.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Buena viene la juglareja, daca amarga te veas, traes la lavor?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Si señora, la tuya y la mia traygo.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Sentémonos un poco a labrar, veamos quál se da mejor malina.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Sentémonos, señora: ay qué mala seda.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Mas mala eres tú: qual tu tienes la gana, tales se te antojan los materiales de la obra.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>E es verdad, señora, que tanta gana tengo yo de labrar, como tú de ser monja.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Assí, assí, cuydados agenos matan al Obispo, mirad por donde me lo rodea: ven acá, quiés que nos metamos monjas?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Nunca medre yo si tal pienso ni aun tú tal desseas, por que para beata tienes tu esse ogito muy risueño.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>I tú desuergonçado en mi consciencia: si apaño un chapín, doña dissoluta.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Jesús señora, pues tan presto te has de enojar? poco sabes de palacio.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Hu, chulu, lu, lu, lu.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Ha señor Doctor, cómo va de caça?</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Hu, chulu, lu, lu, lu.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>A quién digo? dominus Doctor.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Aliquid tempus, non habet falconem con silla, y freno, grupera, y falsas riendas, criatus, adornatus, en las escurrilidades, escuelas, muelas, desúnela, resimela, secundum auctoritatis nostris.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Señor Doctor, en verdad tanto hos he entendido como si no me huviessedes hablado nada.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Ego credo, credatis, que aunque queratis nunca jamas me entendays, si bien y rebien no me escuchays: es lo que yo digo señora, que si haveys visto por aquí un halcón alto, baxo, gordo, flaco, chico, grande, negro, prieto, mojo, viejo, coxo, manco, con una maleta a las ancas?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Halcón con maleta, cosa es essa que nunca la vimos, pero en la maleta qué lleva?</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Señora, en la maleta lleva sus cofias, gorgueras, çapatos, embalsámalos, gorgueras, gorguerat, como estarna de monumento, viento, cuento, pelota de viento, rallo, gallo, morzilla, y tripicallo.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Señor, y adúnde passa con esse tan buen recando?</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Señora, passo a llevar unas cartas al Dios Júpiter, que morabitur, estabitur in celum, eelorum, estrelissime, díligentias meis, báculo, trastegí, morí, borí, franco, banco, labanco, tórtola, tartugatis, espaldaraso y medio.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Dígame señor, y essa que lleva en la mano es alguna carta?</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Si señora, es carta, cartula, domina, mendrula, la qual ha passado por las sieras de Armenia, el monte Sinay, la casa sancta, la cumbre de Tabor, el sepulchro de Osma trasuntado de letra en metra, Napolitano, encalabaçabitur, de virtutem, virtutem, moçuelo, velo, reuelo, morteruelo, capirote, y ajo meno.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Señor, en todo esto si no me yerro, a mí me paresce haver le visto ventero en sierra Morena.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Si señora, el primer grado que tuve fue ser ventero.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Cómo que grados ha alcanpado?</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Infinitissimus duna mea, primus venterius, ventero, ventolabitur, herbolaribus: sabe que es herbolaribus? conoscer yeruas, coger yernas, traher yeruas, vender yemas, nunmancia, nigonmancia, ganancia, por toda Italia y Francia, et finibus Doctoris casadoris mayoris.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Señor Doctor, en quanto por lo de la nígronmancia he oydo dezir que fue una vez muy acostado a la justicia en rescebir los quinientos.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Qué quinientos?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Açtes.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Es la mayor mentira, rementira que fue dicha, pensada, ni inventada, quita te me delante, tira tira, no me hagas tomar yra.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Dexela, señor doctor.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>lo se lo dire a vuestra merced lo que passa, verdad es, que por trascender allá no sé qué puntis repuntis de nigronmantula me acostaron <stage>(como esta rapaza dixo)</stage> a la justicia, y me hizo toda aquella honra que merescia.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Assí lo creo.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Porque a mí, quanto a lo primero, no me açotaron, si no que me cavalgaron en un asno blanco que valia diez ducados como un hueuo un maravedi, y llevava unos guantes calçados, y una candela en la mano, y una soga a la garganta, con mas de una dozena de a cavallo tras de mí, que parescia un Emperador de Costantinopola.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Por cierto, señor, que me paresceys sabio.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Sí señora, muy sabio, resabio, mire si ay en que yo pueda servilla.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Sí señor, entiende se en esto de sueños?</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Vala me Dios, diga, comience, no pare.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Sabra v. m. que he soñado.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Tenga se/ y soñando tenía los ojos cerrados?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Sí señor.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Assí havia de ser ello/ vaya/ vaya/ vaya.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Infinitissimas noches que estava enamorada del mas hermoso hombre del mundo.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>I esse honbre conosceys le vos?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>No señor.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Verdad es/ que hombre soñando no se puede conoscer/ prossiga/ prossiga.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>No ay mas que prosseguir/ si no que v. m. me declare este hombre quién puede ser.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Es señora/ por que sepays/ el Amor/ que por nombre se llama Cupido.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Esse?</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Sin falta.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Tome señor Doctor/ y resciba la buena voluntad.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Mercedes señora: agora por despedida/ quiere que le enseñe un puntillo de nigromancia para que se regozije allá entre damas?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Sí señor/ pero no querría que me hiziesse algún daño.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>No aya miedo: mire me bien v. m. a la cara.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>la le veo señor.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Vehe me bien?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Si señor.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Hora buelva se de espaldas.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>la estoy buelta.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Agora veheme?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>No señor.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Que lo haze?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>No sé en verdad.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>No/ no/ no los abra/ es esto nigromancia purissima/ dos mil puntos hago de estos cadal dia señora.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Tal sea la salud del asno.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Ay diablillo.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Es albarda.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Pegantibus eius.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Quite se allá.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Enamorantibus meis.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Majaderum vestri.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Ay cachigordilla.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Arre allá doctor: dele vuestra merced señora.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Ea dale tu.</p>
+          </sp>
+          <sp who="#doctor">
+            <speaker>DOCTOR.</speaker>
+            <p>Passo/ passo señoras.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Donoso ha sido el bueno del Doctor, hermana Mari Marta/ pero entremos allá dentro que quero hablar contigo de secreto antes que venga Alberto Napolitano/ y vos vea aquí.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Vamos señora/ vamos.</p>
+          </sp>
+          <stage>Fin de la primera scena.</stage>
+        </div>
+        <div type="scene">
+          <head>SCENA SEGUNDA.</head>
+          <stage>Interlocutores. ALBERTO NAPOLITANO, Anciano. ZALANCON, simple. MARCO ATHANASIO/ hijo de Alberto. MARI MARTA moça.</stage>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Hijo Marco Athanasio/ mira.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Mire la vuestra merced.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Callemos.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No digo son que en diziendo mira hijo/ mirar le todos de patas a cuello?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Has de callar?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No digo a vuestra merced son aca al señor Marco Atasnaso.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Anda, qué buen nombre le has puesto.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Razonable, señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Assí hijo/ que mires lo que hazes/ por que si de juyzio liviano eres...</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Llevar lo ha el ayre en dos palabras:</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Vala te Dios.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Si señor/ todo lo liviano lo lleva el ayre.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Harás de suerte que tu y yo perdamos el amistad/ y aun podría ser tú también perder la vida.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No haze al caso que la pierda/ que yo la buscaré.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Qué has de buscar/ di?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>La vida si la pierde vuestra merced/ sé que a mí busca vidas me solia llamar mi madre.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Baste ya.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>lo perdí el albarda del asno en la pagiza/ y la hallé: no me da mas buscar una vida que una albarda.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Ten sossiego.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Hallen hombre/ y sea que quiera.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Cata, hijo, que el no mirar semejantes negocios trahe los hombres a términos de se perder/ por que esta donzella bien sabes que es hija del Cardenal.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Acardenalado se vea vuestra merced.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>No miras lo que dizes asno/ qué cosa es acardenalado?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No digo/ son que acardenalado que se vea vuestra merced con cocomoho/ y falda larga/ colorada como una mapola.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Echa este asno allá fuera/ quien le metió acá?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Los pies señor.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Mas entraras sin pies.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No no, señor, con pies entré a servicio y mandado de vuestra merced/ havia de entrar despeado como acá?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Entra te allá.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Entro, señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Assí, hijo, que mires lo que hazes / por que si adelante pasea lo de hasta aqui/ no alcançarás gracia si no la maldición de mi mano para quantos dias bivieres.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Señor padre, gran rato ha que con tu doctrina y castigo me vienes siguiendo / yo no puedo sentir la causa de mi culpa / y tu reprehensión / supplicote tiemples tu yra reposando tu coraçon/ y mas largamente te me declares/ por que con juyzio abierto sea corregido/ y emendado.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>La risa/ siu ninguna gana/ en el cuerpo me retoça/ viendo con quán fingida ynorancia me respondes/ sabiendo como sabes que es en ti mas publico lo que digo/ que en mi memoria las notorias palabras que de mi lengua salen.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>la señor te he respondido conforme a lo que de mí siento / yo no sé qué mas te dezir/ si tus palabras mas no declaras.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>I ven aca, Marco Athanasio: negar me has tú que tu simple y torpe necedad no se aya dispuesto artas/ z infinitissimas vezes a tratar palabras de amor con mi menor Seraphina/ a quien yo por mas que por señora tengo/ y tu havrias de tener?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Por tal la tengo/ y oixala ella a mi por su esclavo me quisiesse.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Qué dizes? qué hablas entre dientes?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Digo señor/ que el que tales palabras en mi perjuyzio habló/ tenia gana de rebolver me contigo.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>No lo hagas tú/ que nadie sera tan malo/ que no lo siendo por la boca lo eche.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Por la obediencia que te devo señor padre/ yo no te puedo contradezir: pero yo andar enamorado de Seraphina/ ni yo tal pense/ ni a un ya que lo pensara fuera dino para ello?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Hora no es menester mas, con tiempo te aviso, por lo que a ti cunple, y a mi toca: si lo contrario hizieres, el tienpo doy por testigo.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ten, ten, tengase vuestra merced, ha passado acá?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Quién?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>La mona, que ha hecho un estrago del diablo en casa.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Cómo assi?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Las caças nueuas de V. M. cogidas la mona entre las manos, y con los dientes descose la martingala, y tira con ella la puerta afuera.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Dios me libre de tal ensayo, en esse cobro havias puesto mis calças?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>lo, señor? la mona las engarrafó.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>lo te prometo que te tengo de hazer ahorcar.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ea, ahorcar? rie se vuestra merced?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>lo me rio, pues aguarda, marimarta.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Saca una soga.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Hela aquí, señor.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Tan presto la hallaste?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Marco Athanasio, échasela al cuello.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>I que me han de ahorcar de veras?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Mas pense que burlando.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>O que hará mi madre desque sepa qu'ando en estos peligros, en toda mi vida me ahorcaron por martingala si agora no, Señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Que quiés? di.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Mire que la mona tiene la culpa.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Da qué arte? sepamos.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>lo se lo dire a v. m. Las calças estavan descuydadas sobre el arcaz grande, entró la mano, tomólas: dixe le yo, dexa las calças que son de señor: la mona empeço me de hazer cocos, que a lo que entendí dixo, quiero me las calçar: dixe yo no teneys razón, señora mona: dixo la mona: si tengo, señor Talancon: y assi que, señor, desta manera.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Ea acaba, ahorca le.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Aguardad, pese a san Pito, ya que me ahorcays dexadme morir con gusto.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Dexate de palabras.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Aguardad señor Atasnasno, y qué prisa teneys? sé que no soys diablillo, que estay s hurgando y añuscando la muerte: señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Qué ay?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>lo tengo de dar toda la martingala?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Tú la has de dar, o te han de ahorcar por ella.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No vasta que dé yo el Martin y la mona la gala?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Ahorca le.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Aguardad pesia san, Señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Qués esto?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Huvo algún sastre que fuesse abogado de las martingalas?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>No, por qué lo dizes?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Para rogar que me la deparasse si fuesse possible.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Acaba, di Credo.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Martingala.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Di Credo.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Martingala.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Por qué no dizes Credo?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Por que no señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Como, porqué no, traydor?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Porque no me ahorcan a mi por el Credo, si no por la Martingala.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Sus baste, por essa gracia que dixo suelta le: qué hazes, majadero?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No han de ahorcar a su merced?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Pues a él havian de ahorcar?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Qué diablos me sé yo, si no que como me ahorcavan a mi, dixe: tate, a la buelta todos yremos ahorcados en dança,</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Acaba, entra te de ahi.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ni a vuestra merced tampoco?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Qué hazes majadero? hazes el daño tú, y quiés que me ahorquen a mi.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No haze al caso, que soga ay aquí para todos.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Hora sus baste, baste, Talancon, entremonos de aquí, y a vos Marco Athanasio olvide se hos lo dicho.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Mas cuydado tengo yo dello que v. m.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Hora no es menester mas, que ya hos conozeo yo a vos.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA TERCERA.</head>
+          <stage>MARCO ATHANASIO hijo de Alberto. MARI Marta moça. SERAPHINA dama. TALANCON simple.</stage>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Ha, que aya havido sentimiento mi padre de mis amores! o fortuna grande, y en qué perplexidad me veo puesto, que de una parte me paresce bien obedescer a mi padre, y de otra al amor, y que fogosamente al uno destos tengo de desechar: pues si desecho a mi padre, ya veys quan desechado sere de su gracia, si desobedezco al Amor, havre de obedescer la muerte.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Qué es esto, señor Marco Athanasio? ha sabido algo mi señor, que me paresce que lo entreoy denantes?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Que no es nada, Marimarta, acá sobre otra cosa era: pues dezime, hermana, qué tenemos de Seraphina?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>El diablo abasta, hartas vezes se lo digo y no me responde nada, pero reyr te has de un sueño que me dixo que havia soñado: y negro sueño, que tan deveras lo tomó como si despierta estuviera.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>I qué es ello?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Dixo, que soñana una noche que se havia de casar con el mas lindo hombre que en el mundo ay, ni huvo.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Si esso es assi, no soy yo el que esse sueño dize.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Al diablo, dixo la un Nigromante el otro dia que el mas lindo hombre del mundo era el Amor: tan en hora negra se lo dixo, que todo su appelido es el Amor, y que al amor quiere, y al amor ama, y que otro no ha de ser su marido, si el no.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Tras buen juego vamos por mi vida, mira <stage>(peccador de mi)</stage> si se lo puedes apartar del pensamiento.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Hartas vezes lo he provado, pero ninguna cosa aprovecha.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Hora pues bien está Marimarta, que pues el Amor anda entre medias, el lo verna a remediar: queda en buen hora.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Yaya vuestra merced con Dios. Qué desatino del diablo, enamorarse de una cosa tan de ayre como es el Amor, sin cuerpo, ni figura: por que el amor no es otra cosa, sino una figura desvariada que por los ojos atraviessa: pero sea lo que fuere, que quales fueren las romerías, tales serán las veneras.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ola, ce Marimarticula, o marticala.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Mala marticala te mate, sé que a mí Marimarta me suelén llamar.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Pues Marimarta, o Marimartes, o marimiercoles, sé que en mi tierra a las monas como a ti las suelen llamar.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>I qué llevas ahi?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Los pollos que hechaste el otro dia.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Jesús, y a donde los llevas?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Señor mandó poneilos al escuela, y voy les a comprar sendas cartillas.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Corre ve, maldito seas de Dios, tornalos a la gallina.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No mora ya la gallina en casa.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Pues dónde mora?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>En otra casa, que ya ha hecho Joan, Joan.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Como en otra, di?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>yo te lo dire, como fui a tomar los pollos, al passar que passé boló la gallina por alto, y al caher cayó en la olla que estava para comer.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Jesús, Jesús, hay qué hará mi señora?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>I qué diablos ha de her? antes lo agradescera que la hize con dos comidas, que al comer puede comer el cuerpo de la gallina, y la pluma fiambre guardalla para cenar.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Ola Marimarta.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Señora.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Qué es lo que hazes?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>No sé qué me hago, que ha echado a perder este tochazo los pollos, con la gallina.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Esso digo que es testi.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Digo que es verdad.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Digo que es mentí: cata que hos he d’spavilare essas narízes.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Passo, Talancon, qué es esto?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Digo, que los pollos helos aquí, y la gallina está en ollada, donde no saldra sino le ayudan.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Anda, bonazo, que tales recaudos sueles tu hazer.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>I que malos recaudos? esso tiene merescido quien tiene cargo de echar las gallinas en la olla.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Pluguiera a Dios que primero te quebraras un ojo que tal hizieras.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Pluguiera a dios que primero te quebraras essas marizuelas don ocico de urraca, golosa/ offresco te al diablo, lame ollas.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Aguárdame.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Sí/ oixte/ aguarda.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Hora dexemos esto, Marimarta/ y dime si sabes lo que el otro dia te pregunté.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Ha/ ha/ ha.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>De que te iyes?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>No me tengo de reyr señora/ viendo que una donzella tan sabia como tú se enámorasse de quien no vio/ ni verá jamas?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Como no? jamas soñé cosa que verdad no me saliesse/ y esta/ ne creo que será menos que las otras/ pues el Nigromante me dixo que era el Amor / que ha por nombre Dios Cupido.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Ay señora Seraphina/ olvida esso que es vanidad/ y mira que Marco Athanasio te ama / y este es el mejor camino.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>No me lo mientes/ que al amor amo y quero/ y el me ha de matar/ o dar la vida: y si tú me le hazes ver/ en paga te daré la mejor saya que tengo.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Hora señora/ tu quiés que te diga lo que te podría dezir el mejor doctor que ay en el mundo?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>lo? si por cierto: y qué es?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Pues mira/ has de saber que el amor no tiene padre/ ni patria/ ni padastro/ si no que mora en mi, y en ti, y en todos aquellos que aman lo que bien les paresce.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Al fin, tú no tienes gana de me hazer plazer? pues yo no he de parar hasta que el Amor en persona comunique lo que en mi coraçon ay: entrate allá dentro, que tengo que hazer un poco. Estoy la mas confusa muger del mundo en querer mi ventura que amasse a quien no solamente me aborresce, pero da legitima causa/ que con desseo, biviendo, muera.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Con licencia de tu suppremo valor, aunque indigno, mi señora, me atrevo a entrar y parescer en tu presencia.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Licencia, señor Marco Athanasio, yo como huéspeda venida aquí, al señor de casa, la devo pedir y demandar.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>El señorío, reyna mia, todo es tuyo, y no solamente le tienes sobre la casa, pero sobre mi, que señor della ser solia: pero dime, amada señora, qué es la causa que aun con alegre gesto mirar no me quieres? sabiendo, como sabes, que a mi mismo me querría yo desagradar por tener te a ti contenta.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Señor no te maravilles, por que yo estoy so la mano y amparo de tu padre, por la causa que de mi patria <stage>(como ya sabes)</stage> procede, a cuyo respecto, de ti, como de su hijo devo ser guardada, assí en la honra, como en todo lo demas: y pues assí es, supplicote que en cosas de amor no me hables, por que ni a ti conviene, ni a mí es cosa que me cumple.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QUARTA.</head>
+          <stage>Interlocutores. ALBERTO NAPOLITANO. MARCO ATHANASIO. SERAPHINA dama. TALANCON simple. IVNA Nimpha. PARÍS Cauallero. NARCISO Cavallero.</stage>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Alómenos, Marco Athanasio, podra se dezir por ti: Castígame mi madre, y yo atrompose las. Qué cosa es, que un hombre como tú no mirasse el mal camino en que andas, y el menosprecio que de tu padre das, y el fin y cabo de mi honra y fama, sabiendo como sabes y entiendes que en esta donzella como en un espejo de claro azero me miro, por ser quien es, y de la suerte que a mi poder ha venido.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Señor padre, no te angusties, ni afflijas, que nuestra platica no es tan profana como tú la hazes: y si de mi no te crehes, ella te informará si yo desonestidad ninguna con ella he hablado, ni dicho.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>No por cierto, señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Hora no es menester mas, que lo que por ojo se vee, fácilmente se adevina: y esto, hija, no caresce si no de poca obediencia, por que hartas y muchas vezes a mi hijo dicho tengo, que por un solo Dios, solo acompañado con vos no se vea: y veo, que por hazerme a mi pesar, mientras mas va peor lo haze: pues Marco Athanasio, procura, y ten por cierto que en mi casa y compañía a mí me cumple que no estés: vete, vete en buen hora, mancebo eres, para su acompañamiento qual quier señor en su casa te, terna.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Por cierto padre y señor, que si en ello plazer alguno te hago, no digo yo por el tiempo que tu quisieres/ pero por toda mi vida.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Que por amor de Dios señor, por mi causa tal apartamiento no se haga.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Hija/ ello está bien hecho/ no cumple mas/ vaya en buen hora.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>A mí me plaze señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Que/ cosa es que un hijo de mi casa/ cerradura y llaue de mis puertas/ abrir deviera?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Al alma señor me allega en ver que por mí tanta pesadumbre rescibes.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Por vos hija/ nunca Dios tal quiera/ pero sabed que yo me entiendo y sé lo que hago.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Espritos/ pritos/ pritos.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Quita/ quita te allá, majadero, que nos mojas.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>I a dónde vas dessa manera?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Han visto por acá algún esprito de los de Mari Marta?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Como esprito?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Está Mari Marta espritada/ y vo le a sacar los espritos.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Otra asnada.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Si juro al ciego/ setecientos y tantos espritos tiene debaxo de la vira de un çapato.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Pues ven acá/ no havia mas aprovado que tú para sacarlos?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>lo no so harto bien provado.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>I en qué eres provado veamos?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>lo le dire a. Y. M. que tan provado soy/ que a provaduras me comí toda una olla de nabos que estava para una cofadria.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Pues ven acá/ qué sabes tú para sacar espritos?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>lo le dire a vuestra merced qué sé: yo sé desde el sécula creata/ hasta el ganduxato. Mari Marta: son mire como los saco: espritos/ pritos/ pritos.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Acaba entra te de ahí, no estes nesceando.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Venga se vuestra merced comigo, verme los ha sacar: espritos, espritos.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Señor, y es verdad que tenga Mari Marta spiritus?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>lo, hija, no lo sé, quiero entrar allá dentro a ver lo que passa, quedad en buen hora.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>I en ella vaya vuestra merced. Estoy la mas angustiada muger del mundo, que dos mil pensamientos cada memento me recrescen, y con ellos desatino como una desvariada, que hartas, y muchas vezes estoy para yr y saber este Amor a dónde haze su manida, pues veo en quanto lo desseo una insignia, o señal de parte suya no me viene.</p>
+          </sp>
+          <sp who="#narciso #paris #nimpha">
+            <stage>Entran dos Cavalleros que son Narciso, y París, y una Nimpha, cantando.</stage>
+            <stage>Cancion.</stage>
+            <l>Tened temor, que Amor da combate,</l>
+            <l>guardad, donzella, que n’os mate.</l>
+            <l>Seraphina que amays a Cupido,</l>
+            <l>no fieys del, que a muchos ha mentido.</l>
+            <l>Que a mi, y a este ha vencido a remate,</l>
+            <l>guardad donzella que n’os mate.</l>
+            <l>Tened temor, que Amor da combate,</l>
+            <l>guardad donzella que n’os mate.</l>
+          </sp>
+          <sp who="#nimpha">
+            <speaker>NIMPHA.</speaker>
+            <p>Donzella de abominable, y desvariado pensamiento, yo una de las Nimphas Náyades, de parte del soberano Amor, y Dios Cupido, con la compañía que ves, soy venida a tu presencia: enojado Cupido de tu atrevimiento, conmigo te dize, y manda, quel pensamiento que de amalle tienes, se desvie, porque tu flaqueza no se deve ygualar con un Rey, y Dios Cupido, a quien el mundo tanto vassallage haze: pero por te satisfazer, te embia dos Cavalleros de los que en hermosura, y gentileza por el mundo premio han llevado, que escojas dellos el que mejor te paresciere.</p>
+          </sp>
+          <sp who="#narciso">
+            <speaker>NARCISO.</speaker>
+            <p>Hermosa donzella, yo soy el alindado Narciso, que de ver su rostro en la clara fuente de si mismo se enamoró: si de mi gentileza eres agradada, yo y aqueste otro Cavallero que aquí ves somos embiados a tu presencia, que escojas de nosotros el que mas a ti te agradare: y para esto nos responde con tu delicada y suave boz cantando aquello que determinares.</p>
+            <stage>Cancion.</stage>
+            <l>Muera, muera el amador,</l>
+            <l>que al Amor no manda señor.</l>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Hay de ti, triste donzella, que estos conbites presentes todos son tientos de Amor, que deve el Amor saber la lealtad que le tengo, la qual yo no perdere por cosa ni don que me sea dado. Señores, vuestras lindezas conozco en todo ser muy graciosas y acabadas por cierto, pero en satisfacion de mi desseo nada a mí me satisfaze, que por dones, ni amenazas que me vengan del Amor, al Amor no he de dexar.</p>
+          </sp>
+          <sp who="#paris">
+            <speaker>PARIS.</speaker>
+            <p>No? pues hermosa donzella aparta lo de ti, y con esto queda en paz, que nosotros nos vamos cantando.</p>
+            <stage>Cancion.</stage>
+            <l>Dime, Amor, dime, Amor, quándo</l>
+            <l>has de ser tú de mi vando?</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA QUINTA.</head>
+          <stage>Interlocutores. MARCO ATHANASIO. TALANCON simple. MARI MARTA moça. ALBERTO NAPOLITANO. SERAPHINA dama. El ALGUAZIL.</stage>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Si mi padre Alberto Napolitano, la herida que yo en mi coraçon siento, algún tanto a él le lastimasse, tan cruelmente de su casa echado no me huviera, por la qual ausencia no lo passo conforme a quien soy, por me faltar el dinero, pero callar cumple, el remedio me ha venido a las manos, si le puedo encabestrar.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>To, to, to.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Este es Talancon.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>To, to, to.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Oyes, Talancon, baste ya.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No puedo yo topear quanto quisiere?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Sí por cierto, hermano, ven acá, dónde vas?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ha visto passar por acá vuestra merced el galgo de casa?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>lo no, por qué?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ha huvido allá una renzilla del diablo, han reñido el galgo y Mari Marta: y agora el pobre galgo de enojado, apañó sus calças, y camisas, y ha se hido por ahí a delante.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Dexalo, que él se bolvera: conosces me?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>I quién es?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Marco Athanasio, ya no me conosces?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ha señor Marco Atasnaso, y acá está vuestra merced?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>No bivo ya en casa, hermano.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ni a un Dios le dexe bivir tampoco.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Porqué, hermano Talancon?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Por que hazia en casa mas costa de sopas abahadas, que haze el asno de grançones de paja acevadada.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Hora dexemos las gracias, Talancon, que no es tiempo dellas, ven acá, sabes de un cofre que está a la cabecera de la cama de mi padre?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Y no que está barreado como rexa de capilla mayor?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Esse mismo: has de saber que tengo en él mis gorras, no quiero mas de que lo tomes, y lo baxes aqui baxo.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No tengo de hazer mas de tomallo, y chápete con el acá?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Assi, no has de hazer mas desso, y mira que no te vea nadie.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No, no, al diabro, yo mismo no me vere.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Oyes, Talancon.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Señor.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Mira que lo traygas que no te sienta la tierra.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No, no señor, vala me Dios: y digo señor, he de traher cama y todo?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>No, si no el cofre solo.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Mire vuestra merced, como estava a par de la cama pense, cama y todo se a de abaxar.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Anda, trahelo breue.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Qué digo señor, he de venir yo dentro o fuera del cofre?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Pues dentro havias de venir?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Qué diablos me sé yo? si no que dixe, tate, por que no me vean mejor es que venga dentro.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Aguija, anda.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>la vo señor, pierda cuydado, que desto de acarrear cofres, no ay amo en la villa que ventaja me lleue.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Quiero me hazer a esta parte, por que con la oscuridad de la noche no me vean.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Rezio ayre haze, la vela pienso que me ha de matar: Jesús, encuentro bueno me dé Dios, ya tenemos disfreçadios a la puerta: en el meneo conozco le yo por mi vida. A gentil hombre: assí assí, tape se bien, piensa que no lo he conoscido? A, señor Marco Athanasio.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>A, maldita seas de Dios, que no me aprovechó ataparme de ti.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Assí, assí, los hijos vengan a la obediencia de sus padres: y qué hazes por aquí, señor? que si tu padre lo sabe/ tememos en que entender.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Por vida tuya, hermana, que te vayas, que estoy aguardando la moça deste vezino.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Afuera que voy encofrado.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Que llevas?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>El cofre de las gorras.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Jesús/ Jesús: torna/ ton</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Dexa lo, Marimarta.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Hay no señor, por amor de Dios.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Moços/ moços/ qués esto? quién me ha robado?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Señor no se apassione vuestra merced, que el cofre del dinero aqui está.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>O traydores/ ladrones tengo yo en mi casa?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ave se/ que me está esperando.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Quién te espera traydor?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>No lo digas.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>El chiquillo mi señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>O traydor/ que él havia de ser: adónde?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Elo allí do está escondido.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Ha mal hombre/ buen officio has deprendido.</p>
+          </sp>
+          <sp who="#alguazil">
+            <speaker>ALGUAZIL.</speaker>
+            <p>Quien está aqui? qué bozes son estas?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>O señor, que me havian robado.</p>
+          </sp>
+          <sp who="#alguazil">
+            <speaker>ALGUAZIL.</speaker>
+            <p>Robado/ quién? vaya preso.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Que no ay quien vaya preso, señor/ que es el hijo de mi señor Alberto Napolitano.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Cómo no?/ tomaldo señor/ y ahorquen le luego.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Tenga que me desloma.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Asno, tente. Señor padre/ siendo yo hijo de quien soy.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No havia de andar sin cofre de gorras.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Oye te, nescio.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Pues havia de andar un honbrazo tamaño como esse por la ciudad desgorrado?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Assí que señor padre / siendo hijo de quien soy no havia de andar tan necessitado de dineros por la ciudad.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Señor/ que pesan mucho estas gorras.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Señor Alguazil, mirad que hos requiero de parte del Rey/ que vaya preso y a buen recando por ladrón.</p>
+          </sp>
+          <sp who="#alguazil">
+            <speaker>ALGUAZIL.</speaker>
+            <p>lo preso sí lleveria <stage>(sic)</stage> / pero no querría que después hos pesasse.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Pesar?/ llevalde y ahorquen le luego.</p>
+          </sp>
+          <sp who="#alguazil">
+            <speaker>ALGUAZIL.</speaker>
+            <p>Señor Marco Athanasio, andad acá comigo.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Vamos señor/ que pues mi padre lo manda, suya es la afrenta que no mia.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Camina/ camina/ que bien es que a otros sea esto escarmiento, y a tí castigo.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Vamos, que me canso.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>A do vas tu?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Pense que havian de yr presas también las gorras.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Sossiega te, que esso meresce quien tienes <stage>(sic)</stage> moços bonos en su casa: oyes lo Marimarta?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Sube con este moço esse cofre allá arriba.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Aynda me a sostenelle, hija del diablo.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA SEXTA.</head>
+          <stage>Interlocutores. ALBERTO NAPOLITANO, anciano. SERAPHINA, dama. TALANCON simple. Dos SALVOGES.</stage>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>O sancto Dios, porque vean qué ensartamiento de hijo es este, hazer al moço que le baxasse el cofre de mis dineros haziendole enereyente que era el que tenia sus gorras: ya no sabe hombre de quién se fiar.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Mi señor, gran pena tengo de la tuya, y mas por haver yo sido la causa dello.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Vos hija, nunca Dios tal quiera, fue la causa tener yo un ruyn hijo.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Pues señor un don te quero pedir, y por ser el primero ne me lo deves negar.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Por cierto, hija Seraphina y señora, que en todo hos querría yo complazer.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Pues señor, ya sabes que por mí aquellos Principes de Italia, sobre quál por muger me ha de llenar, tienen guerra, y entre ellos mucha gente muere cada dia: pues no sea mi desgracia tan grande que por mi tantos desastres acahezcan: basten señor los de mi patria, sin que en Napoles, y en tu misma casa, por mí tu hijo tanto mal aya rescebido, que fue ausentalle de tu casa, y de alli le ha succedido la prisión, y la afrenta que se le ha hecho.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Quiere lo mi ventura hija, qué quereys? pero para en esso en que hos podré yo complazer?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>En atorgar el don que pedido tengo, y es, que de la cárcel sea suelto y librado.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Por cierto hija y señora, que para escarmiento suyo, y exemplo de algunos todo castigo rescibiera: pero para esso yo le daré todo recaudo de diveros para lo que huviere menester.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Suelte se agora de la cárcel, que después tú harás lo que te fuere demandado.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Qué quieres? que pasmado está: acaba, no hablas?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Llamava vuestra merced?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>lo te llamava.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ohí roznar al asno, y dixe: tate, mi señor me deve llamar.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Quítate me delante, mirad con qué demanda ha salido.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No me culpe V. M. porque Mari Marta me dixo, que le semejava en estremo.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Pues en qué le parezco yo, di?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>En la habla, como si él proprio fuera, y en las orejas, y en la largura, y en la condición, y en todo esso.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Hora, hija, yo voy hazer lo que me haveys demandado.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Merced será grande para mí, señor.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Va se vuestra merced?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Sí que me voy, qué quieres?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No digo son que se vaya: y vuestra merced señora no viene?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>lo no.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No querría que la hurtasen como al cofre de señor.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Anda que no harán, vete.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No sé nada que andan gauiluchos de noche.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Hay de mi, que el desseo grande que de ver al Amor tengo, un punto de descanso a mí no dexa llegar. Qué crueldad es esta sinon Amor? qué descuydo tan grande? qué aborrescimiento tan esquivo? que viendo me abrasada en tus ardientes llamas, ya que otra merced en pago hazer no me quieras, no te me huvieras dado a conoscer tan solo un momento: y esto no va, si no que viene de ti, por ser cruelissimo, o yo no te merezco: pero Amor, ya que otra cosa no goze si no de tu vista, goze yo de algunas aparencias de tu figura, o por visión, o señales, o pintura, que con ello sere algo satisfecha.§Villancico.</p>
+          </sp>
+          <sp who='#salvoges'>
+            <stage>Entran dos Salvages cantando.</stage>
+            <l>El que de liviano sueño se creyere,</l>
+            <l>yrá donde aquesta fuere.</l>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Hay astribulada demi, y entre qué brutal gente metida me veo.</p>
+          </sp>
+          <sp who="#salvoges">
+            <speaker>SALVOGES.</speaker>
+            <p>Atrevida donzella, primero que nuestra feroz mensageria sepas, se cumplirá el desseo que de ver la figura del Amor y Dios Cupido tienes: alça los ojos, y ver lo has en este escudo pintado como tú lo has pedido.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>O delicada pintura: agora creo que mas hermoso eres que yo pensana: que pues tan lindo eres en pintura, mas lo serás señor en presencia, a cuya causa quedaré mas abrasada de tu fuego.</p>
+          </sp>
+          <sp who="#salvoges">
+            <speaker>SALVOGES.</speaker>
+            <p>Muera, muera la atrevida donzella pues se quiere ygualar con quien deve de servir. El Amor te manda que lo olvides, y vayas cruelmente presa por ello.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Por mas que bien empleada doy mi prisión, y la muerte, sin esso, si necessaria fuere, antes que me aparte del Amor, rescebire.</p>
+          </sp>
+          <sp who="#salvoges">
+            <speaker>SALVOGES.</speaker>
+            <p>No, pues cúmplase el mandado del Dios Cupido, y echalde essa gruessa cadena a la garganta, y pregonando su delicto con nosotros vaya.</p>
+            <stage>Cancion.</stage>
+            <l>Esta es la justicia que manda hazer Amor,</l>
+            <l>al que con malicia se yguala en su valor.</l>
+          </sp>
+          <trailer>Fin de la sexta Scena.</trailer>
+        </div>
+        <div type="scene">
+          <head>SCENA SÉPTIMA.</head>
+          <stage>Interlocutores. MARCO ATHANASIO hijo de Alberto. CUPIDO Dios de Amor. TALANCON simple. SERAPHINA dama.</stage>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Después que mi padre Alberto Napolitano me solto, por ninguna via ni manera yo he podido ver a Seraphina mi señora, ya que yo la aya visto, en sus obras, y semblante veo que mientras yo mas la amo mayormente me aborresce, y todo su clamor della es por Cupido, pero claro está, que siendo él quien es, que della no ha de hazer cuenta. Hora yo determino de hazer una cosa, y no sé si saldré con ella: y es de procurar de verme rostro a rostro con Cupido, y supplicalle me traspasse alguna parte del afficion que a él, sin provecho ninguno, esta dama le tiene: que pues con tan justa razón se lo pido, no será licito si no que vse comigo de clemencia.</p>
+          </sp>
+          <sp who="#cupido">
+            <speaker>CUPIDO.</speaker>
+            <p>Fiel y leal amador, antes vengo que me llames, pide la merced que tu quisieres, que voluntad traygo para te la otorgar.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>O clementissimo señor, las rodillas por el suelo te supplico ayas piedad de mi atribulado coraçon, y ablandes la rudeza del que por contrario tengo.</p>
+          </sp>
+          <sp who="#cupido">
+            <speaker>CUPIDO.</speaker>
+            <p>Indignado ya de aquella que tanto te aborresce, por querer amarme, no siendo ygual mia, la mandé arrebatadamente llevar a vuos Salvages de la Floresta solitaria: pero por te hazer señalado favor, traspassando te parte de la facultad mia, te digo que hagas lo siguiente en nombre mió: toma mi arco, y mi enerbolada flecha, con la qual los duros corajones traygo a mi servicio, y viste te en pastoril trage, por que con el suyo conformes, y si vieres que como hasta aqui te aborresce, suelta essa mi penetrante flecha, que luego a la hora serás della demasiadamente querido.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>O amorosissimo señor, con obediencia el presente don de tus manos rescibo, y con el mismo habito que mandas lo voy a poner por la obra:</p>
+          </sp>
+          <sp who="#cupido">
+            <speaker>CUPIDO.</speaker>
+            <p>Ve, que de todo ello soy contento.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Pues tanto me va en lo que Dios Cupido mé ha mandado, no será licito echallo en olvido.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Afuera, afuera, aue se, v. m. señor.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Qués esto? di qué has?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No viene ahi, señor?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Quién?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Aquella con que alcançan los paxaros del vido, apañón con media çamarra que la llevava para mi amo.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Jesús: pues no diras quién es?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Aquella, aquella comadre.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>La comadreja diras.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>La comadre, o comadreja, ella venia tras mi.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Pues de cosa tan chica havias miedo?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Como el hombre aya de haver miedo qué se me da mas de cosa chica que grande: quanti mas que si v. m. fuera de mi casta también le huviera miedo como yo.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Pues de qué casta eres?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>lo/ de casta de paxaros: mi padre se llamava Lope çorromicalo: y mi madre Teresa Golondrina.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>lo lo creo: ven acá hermano/ quiés trocar comigo esse habito? Tal Ha que se burla vuestra merced.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Que me burlo: pues aguarda y vello has por la otra: toma, cubre te esta capa/ y ponte esta espada/ y esta gorra.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ponga se v. m. esse cucurucho/ y esta caperuça.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Estoy bien?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No ay quien le conozca: yo estoy gallano? también agora no me cumple tener miedo a la Comadreja, quiero me entrar cantando, por que no me empezca el demonio en mí. Agua, dios, agua, que la tierra lo demanda.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>O cómo me quadra el habito, paresce que lo hizieron para mi: ca arco dorado, y enerbolada flecha, en viendo la caça al ojo, heñida en el coraçon, porque muera, siu que por alto se hos vaya.</p>
+          </sp>
+          <sp who='#seraphina'>
+            <stage>Sale Seraphina en trage de pastora cantando esta Cancion.</stage>  
+            <stage>Cancion.</stage>      
+            <l>Hay Amor, querays me ayudar</l>
+            <l>en guerras de amar.</l>              
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Entre las mas espessas ramas desta floresta oygo un sabroso sonido: acercando se me viene, apercebido quiero atender.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>I quién es el aborrescido pastor que a esta floresta solitaria a buscar la caça procura venir?</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Pues tan galana cierva por la floresta anda, no sola, pero mas que acompañada se puede llamar: y dichoso el caçador que a manos, o a braço blanda y amorosamente caçar la pudiesse.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Ay señor Marco Athanasio, y esse habito tan baxo para vos no pertenesce.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Ligeramente, Seraphina señora, de vos he sido conoscido en la visión, si del amor y en el amor alguna noticia teneys?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Tengo tanta, que por tener demasiada, en busca, y en fin dél por esta floresta solitaria, y en hábitos d’ pastora como me ves, voy captiva.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>I si hos amo, no me amareys?</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>No, porque del todo estoy arrojada a donde, sin ayuda del Amor, ser levantada no podré.</p>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Hay esquina donzella, y qué amor al mió aventajar me puede? aguarda, aguarda, no te vayas, que pues Amor es tu thema, Amor con herbolada saeta herirá tu coraçon.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Hay de mí!</p>
+          </sp>
+          <sp who="#vozes_dentro">
+          <stage>Cantan dentro.</stage>
+          <l>Herida cayó la cierva</l>
+          <l>en la floresta,</l>
+          <l>en la floresta.</l>
+          </sp>
+          <sp who="#marco_athanasio">
+            <speaker>MARCO ATHANASIO.</speaker>
+            <p>Desmayo tan largo? minguna cosa me contenta: Diosa mia Seraphina: señora, alad vuestro delicado cuerpo de las espinosas yervas: abrid los ojos, y vereys aquel que sin vos no tiene remedio ninguno: ella es yda desta vida: o cruel arco y desasortada flecha, que vosostros en lugar de remedio, mi mal haueys doblado: o cruel, ingrato desconoscido Dios de Amor, en que te offendi yo, porque tan malamente me huviesses lastimado? con palabras falagueras, con la vida me combidaste, y en muerte desaforada mi esperana has convertido. Ea, crueles manos carniceras, enemigas de mi bien, pues con mi señora fan falsa y cruelmente hos huvistes, agora con su leal siervo también usad vuestra crueza.</p>
+          </sp>
+          <sp who="#vozes_dentro">
+            <stage>Cantan dentro.</stage>
+            <l>Marco Athanasio muerto se ha,</l>
+            <l>este es el pago, pago, pago</l>
+            <l>que Amor da.</l>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Con herbolado fuego de Amor en el coraçon me siento herida. Hay angustiada de mi, y quién es el que delaute de mí a mis pies veo tendido? Mi querido.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Pues quién le dio la muerte sin temor? Amor.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>En pago del bien das el pago assí? Sí.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>De Amor me siento herida, y no sé a quién amo cierto. Al muerto.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Pues quién le mato si a mi servicio le trayo? Tu desmayo.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>Pues para su muerte no ay remedio alguno? Ninguno.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>I quién eres tu que hasta aqui me has respondido? Cupido.</p>
+          </sp>
+          <sp who="#seraphina">
+            <speaker>SERAPHINA.</speaker>
+            <p>O falsario, y sin lealtad Cupido, queriéndote yo me negavas, y agora que mi corajon está vencido y amador del que me ama, para mayor ansia, delante muerto me lo pusiste. Hay, Marco Athanasio, quán clara y amorosamente has mostrado el amor que me tuviste: y pues en la vida tan mal pago te di, en la muerte con mi muerte te será gualardonado.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENA OCTAVA.</head>
+          <stage>Interlocutores. MARIMARTA moça. TALANCON simple. ALBERTO NAPOLITANO. CORREO.</stage>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Jesús, Jesús: o tristes mancebos.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>De que lloras, Marimarta? quien te ha abofeteado?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Hay Talancon, Marco Athanasio, y Seraphina muertos: tú no los ves? hay Seraphina!</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Hay la cecina!</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Hay Marco Athanas!</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Hay Sathanas! que le quieres a Sathanas, hija del diablo?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Qués esto? qués esto? qué haveys vosotros? por qué llorays?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Hay, señor, abre los ojos.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Abre los ojos, no te duermas, quita te essas lagañas.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Calla asno. O desdichado viejo, y quan mal se a havido contigo la fortuna!</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Hay fortuna!</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Qué ha con la fortuna señor Marimarta?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Qué dizes?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Si ha reñido vuestra merced con la fortuna, o Seraphina, o Marco Atasnaso?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Harto riñen por cierto.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Pues llámelos, y no suflra que riñan mas.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Qué han de llamar? no ves que están muertos.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Que están muertos? pues no me lo podía desir al prencepio: llore, llore, v. m.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>O triste sino.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>O tinto vino.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Calla tú, no me lastimes mas. Di Marimarta, como ha sido esto?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>lo no lo sé en verdad, señor, mas de que andando los a buscar, los hallé desta manera.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Señor, los hallamos tendidos como lechones.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>O triste viejo, y qué cuenta daras desta donzella a su madre?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Qué quiés?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Quiere que le trayga su rosario de cuentas grandes?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Para qué, di?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Para que tenga que dar cuenta todo el año a todos.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Oye te: mira Marimarta, entra allá dentro, y saca un paño de presto para cobrir estos mancebos.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Si haré, señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>O Seraphina, para qué aportaste en mi casa? para dar con tu muerte fin y confienço de desauentura á mis pobres canas, pues fuiste causa que perdiesse un hijo solo y heredero que tenia.</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>He aquí el paño, señor.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Echad se lo ay encima.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Ten de ahí, Marimarta, sabes llorar por canto de Organo?</p>
+          </sp>
+          <sp who="#marimarta">
+            <speaker>MARIMARTA.</speaker>
+            <p>Por qué lo dizes?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Por que llores por el punto de la, la, la que es el muy dolorido: a cuba llora, offresco te al diablo.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Ohios, que no sé quién viene.</p>
+          </sp>
+          <sp who="#correo">
+            <speaker>CORREO.</speaker>
+            <p>Muy excellente señor, la muy noble matrona Romana, madre de la donzella Seraphina te embia esta carta, y un vaso de brevage: la razón, y el para qué es, que aquellos dos Principes, que sobre casar con Seraphina traen guerra, están desafiados persona por persona: y para escusar que mas gente no muera, esperan la donzella, para que en el campo sea puesta, y aquel que de los dos venciere se la lleve.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Negra, y triste llevada harán.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Negros días biva vuestra merced.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Negra ventura sea la tuya.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Negra la tengo de tener?</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Si negra.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Negra sea: ha, ha.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Por qué gimes?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Por que me ha echado sobre mí negra ventura: a echar me la parda o amarilla pudiera se teñir, mas sobre lo negro no ay tintura.</p>
+          </sp>
+          <sp who="#correo">
+            <speaker>CORREO.</speaker>
+            <p>I dize assí la madre, que le embies la donzella, o sino que ella quema escusar la batalla que entre estos dos principes anda, para lo qual mas querría que su hija muriese, y para esto te embia este vaso de brevage, y te promete, si assí lo hazes, para tu hijo te dara el Condado de Sancta Flor, que ella pordote tiene, y que muerta se la embies, para que viendo la muerta aquellos dos Principes se aparten de la cruel enemistad que se tienen.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Amigo, el Condado para mi hijo tarde viene, pues está muerto como ves.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Muy tarde: ha que cenamos mas de dos horas y media, y paseó el gato, y derramó la olla en la ceniza.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Oye, que no hablan contigo.</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>No digo, son que el correo viene tarde a cenar.Señor Correo.</p>
+          </sp>
+          <sp who="#correo">
+            <speaker>CORREO.</speaker>
+            <p>Que quiés?</p>
+          </sp>
+          <sp who="#talancon">
+            <speaker>TALANCON.</speaker>
+            <p>Quiero le acertar, meta se despresto en algún bodegón de por ahi, por su vida.</p>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO.</speaker>
+            <p>Matar la donzella, para ella do es menester brevage, ni veneno, que ya ella me paresce que ha ganado por la mano: así desse ataúd, y lleven se a la triste sepultura.</p>
+          </sp>
+          <sp who="#vozes_dentro">
+            <stage>Canción.</stage>
+            <l>Con solloços abundantes lloraremos</l>
+            <l>la muerte destos amantes que trahemos.</l>
+          </sp>  
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

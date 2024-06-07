@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="fre######" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Machabee</title>
+        <title type="sub">tragedie, du martyre des sept freres, et de Solomone leur mere</title>
+        <author>
+          <persName>
+            <forename>Jean</forename>
+            <nameLink>de</nameLink>
+            <surname>Virey</surname>
+          </persName>
+          <idno type="wikidata">Q110953500</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Google Books</name>
+          <idno type="URL">https://books.google.de/books?id=lcirVO7qLEQC</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Virey, Jean de. La Machabee (1596). Rouen: Petit Val, 1611.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="solomone" sex='FEMALE'>
+            <persName>SOLOMONE</persName>
+          </person>
+          <person xml:id="sosander" sex='MALE'>
+            <persName>SOSANDER</persName>
+          </person>
+          <person xml:id="soldat_2" sex='MALE'>
+            <persName>LE DEUXIEME SOLDAT</persName>
+          </person>
+          <person xml:id="areth" sex='MALE'>
+            <persName>ARETH</persName>
+          </person>
+          <person xml:id="roy" sex='MALE'>
+            <persName>LE ROY ANTIOCHUS</persName>
+          </person>
+          <person xml:id="bacchide" sex='MALE'>
+            <persName>BACCHIDE</persName>
+          </person>
+          <person xml:id="achar" sex='MALE'>
+            <persName>ACHAR</persName>
+          </person>
+          <person xml:id="aber" sex='MALE'>
+            <persName>ABER</persName>
+          </person>
+          <person xml:id="machir" sex='MALE'>
+            <persName>MACHIR</persName>
+          </person>
+          <person xml:id="appelle" sex='MALE'>
+            <persName>APPELLE</persName>
+          </person>
+          <person xml:id="gouverneur" sex='MALE'>
+            <persName>LE GOUVERNEUR</persName>
+          </person>
+          <person xml:id="machabee" sex='MALE'>
+            <persName>MACHABEE</persName>
+          </person>
+          <person xml:id="iacob" sex='MALE'>
+            <persName>IACOB</persName>
+          </person>
+          <person xml:id="soldat_4" sex='MALE'>
+            <persName>LE QUATRIEME SOLDAT</persName>
+          </person>
+          <person xml:id="furie" sex='FEMALE'>
+            <persName>FURIE</persName>
+          </person>
+          <person xml:id="soldat_1" sex='MALE'>
+            <persName>LE PREMIER SOLDAT</persName>
+          </person>
+          <person xml:id="soldat_3" sex='MALE'>
+            <persName>LE TROISIEME. SOLDAT</persName>
+          </person>
+          <person xml:id="iudas" sex='MALE'>
+            <persName>IUDAS</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-09-29">(LG) first encoding and formatting. Removed paratexts.</change>
+        <change when="2023-02-08"> (LG) updated formatting. </change>
+        <change when="2023-03-30"> (LG) added scene div. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1596">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>PERSONNAGES.</head>
+        <castItem>SOLOMONE, <roleDesc>mere des sept freres.</roleDesc></castItem>
+        <castItem>MACHABEE, <roleDesc>le premier.</roleDesc></castItem>
+        <castItem>ABER, <roleDesc>le second.</roleDesc></castItem>
+        <castItem>MACHIR, <roleDesc>le troisiéme.</roleDesc></castItem>
+        <castItem>IUDAS, <roleDesc>le qu'atriéme.</roleDesc></castItem>
+        <castItem>ACHAR, <roleDesc>le cinquiéme.</roleDesc></castItem>
+        <castItem>ARETH, <roleDesc>le sixiéme.</roleDesc></castItem>
+        <castItem>IACOB, <roleDesc>le septiéme.</roleDesc></castItem>
+        <castItem>Antiochus, <roleDesc>LE ROY.</roleDesc></castItem>
+        <castItem>SOSANDER. <roleDesc>Prevost d'ANTIOCHUS.</roleDesc></castItem>
+        <castItem>Le PREMIER SOLDAT.</castItem>
+        <castItem>Le SECOND SOLDAT.</castItem>
+        <castItem>Le TROISIEME SOLDAT.</castItem>
+        <castItem>Le QUATRIEME SOLDAT.</castItem>
+        <castItem>APPELLE, <roleDesc>gouverneur de l'armee.</roleDesc></castItem>
+        <castItem>BACCHIDE, <roleDesc>Capitaine.</roleDesc></castItem>
+        <castItem>Le GOUVERNEUR du Leopard.</castItem>
+        <castItem>FURIE infernalle.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene">
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Q Bien aimez enfans que la sage nature</l>
+            <l>M'a donnez jusqu'icy pour douce nourriture,</l>
+            <l>Enfans aussi bien nez aussi beaux et parfaits</l>
+            <l>Que le ciel cristallin en produisit iamais.</l>
+            <l>Las! seroit-il bien vi ay que ce songe effroyable,</l>
+            <l>Peust produire l'effet d'un grief ai lamentable</l>
+            <l>O femme qui te poingt et te bourrelle ainsi,</l>
+            <l>Ton dolent estomac sans espoir de merci?</l>
+            <l>Qui est cet ennemy qui si pres te regarde</l>
+            <l>Tu n'apperçois ; or que ceste ombre fuyarde,</l>
+            <l>Un soin meurtrier ne rient en un mortel lien</l>
+            <l>Tu es tousiours en peur et si tu ne vois rien,</l>
+            <l>Ah! puis que si souvent ce resueur me menace</l>
+            <l>Ie ne peux esperer qu'une breve disgrace,</l>
+            <l>Un grand malheur me suit: car iamais tant soit peu</l>
+            <l>Mon cour n'avoit este penetré d'un tel feu.</l>
+          </sp>
+          <sp who="#machabee">
+            <speaker>MACHABEE.</speaker>
+            <l>O mere nourrisante, ô mere debonnaire,</l>
+            <l>D'où procede ce mal qui vous est ordinaire?</l>
+            <l>D'où procedent ces cris, d'où procedent ces pleurs</l>
+            <l>Ella peur de tomber en si tristes malheurs?</l>
+            <l>Helas! declarez-nous ceste angoisse soudaine:</l>
+            <l>Afin que nous portions la moitié de la peine,</l>
+            <l>En nous celant ainsi cet ennuy soucieux,</l>
+            <l>Vous nous rendez tous sept, par sept fois malheureux.</l>
+          </sp>
+          <sp who="#aber">
+            <speaker>ABER.</speaker>
+            <l>Helas mere fœconde! helas mere benigne!</l>
+            <l>Nous peut-il arriver plus subite ruine,</l>
+            <l>Plus sinistre malheur plus de mal et tourment</l>
+            <l>Que de vous voir ains pleurer incessamment?</l>
+            <l>Declarez vostre ennuy mere ie vous suplie,</l>
+            <l>L'apoctume crevee est a demi guarie,</l>
+            <l>Il n'est point de poison plus mortelle auiour d’huy</l>
+            <l>Que de ne vouloir point descouvrir son ennuy.</l>
+          </sp>
+          <sp who="#machir">
+            <speaker>MACHIR.</speaker>
+            <l>Si ce Roy Caldean ce Roy Babilonique</l>
+            <l>Est celuy qui vous rend ainsi melancolique,</l>
+            <l>Si de Hierusalem venerable cité</l>
+            <l>Pour avoir l’Eternel tant de fois irrité,</l>
+            <l>Et de nos chers voisins vous pleurez la ruine,</l>
+            <l>Consolons nous Madame en la bonté divine</l>
+            <l>Qui nous peut visiter de son luisant Soleil,</l>
+            <l>Et chasser ce nuage en un petit clin d'œil.</l>
+          </sp>
+          <sp who="#iudas">
+            <speaker>IUDAS.</speaker>
+            <l>Ie ne fay point de donte, ô mere pitoyable</l>
+            <l>Du bon Eleazar pere tres-venerable</l>
+            <l>Que les peines, les coups, le bourrelé tourment,</l>
+            <l>À la mort ne vous ait faschee amerement:</l>
+            <l>Mais il est bien beureux puis qu'il est mort paisible</l>
+            <l>Trespasse en la foy du Seigneur invincible.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Vrayemet le souvenir d'un tant soudain malheur,</l>
+            <l>Mon enfant me fait bien redoubler ma douleur,</l>
+            <l>Toutesfois il y a encor une autre chose.</l>
+          </sp>
+          <sp who="#machabee">
+            <speaker>MACHABEE.</speaker>
+            <l>Helas! dites le nous.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SALOMONE.</speaker>
+            <l>Mes chers enfans ie n'ose:</l>
+            <l>Car ie crains de vous rendre envers moy mal contens ;</l>
+            <l>Et n'en rapportera pas le fruit que le pretens.</l>
+          </sp>
+          <sp who="#achar">
+            <speaker>ACHAR.</speaker>
+            <l>Comment en doutez-vous? ô mere naturelle,</l>
+            <l>Ny a-il que cela qui vostre esprit bourrelle,</l>
+            <l>Avez-vous apperçeu quelque chose de nous</l>
+            <l>Helas! qui vous ait peu esmouvoir à courroux?</l>
+            <l>Plustost, plustost la terre humide et spacieuse</l>
+            <l>M'engloutisse tout vif dans sa fente boueuse,</l>
+            <l>Que nostre chere mere da qui nous aime tant</l>
+            <l>Reçoive desplaisir iamais de son enfant.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SALOMONE.</speaker>
+            <l>Vous me contraignez tous par vos larmes coulantes</l>
+            <l>Chetive de conter mes passions cuisantes</l>
+            <l>Vous me contraignez toros de ne vous celer plus,</l>
+            <l>Ce songe imaginaire de discours si confus,</l>
+            <l>Que i ay en mon esprit et declarer de bouche</l>
+            <l>La chose librement qui de plus pres nous touche,</l>
+            <l>O mortelle douleur helas! helas! comment</l>
+            <l>Pourray-ie à mon discours donner commencements ?</l>
+            <l>Il faut franchir le pas, l’ay premis de le dire,</l>
+            <l>Sachez donc mes enfins qu'un trop sanglant martyre</l>
+            <l>M'espouvante tousiours si tost que le sommeil,</l>
+            <l>Simulachre de mort a fait fermer mon œil:</l>
+            <l>Mais quel martyre helas! ô douleur trop mortelle</l>
+            <l>C'est de mes chers enfans, par une mort cruelle,</l>
+            <l>Pensant prendre repos surviennent les bourreaux,</l>
+            <l>Qui vous font recevoir un million de maux,</l>
+            <l>Si ceste cruauté tant brutalle et horrible</l>
+            <l>Advenoit par effect, seroit-il bien possible,</l>
+            <l>Que vous puisiez porter un si cruel tourment?</l>
+            <l>C'est le poinct qui me met en si grand pensement.</l>
+          </sp>
+          <sp who="#machabee">
+            <speaker>MACHABEE.</speaker>
+            <l>Madame, pensez-vous que le sang Isaacide,</l>
+            <l>D'où nous sommes extraits soit si lasche et timide</l>
+            <l>Que pour crainte de maux et de peril mortel</l>
+            <l>Nous voullions quitter le venerable autel?</l>
+            <l>Ie parle le premier comme aisné de mes freres,</l>
+            <l>Et sçay bien que leurs cours et vertus singulieres</l>
+            <l>Ne pourront consentir iamais non plus que moy,</l>
+            <l>Pour crainte d'un tyran a prendre une autre loy.</l>
+          </sp>
+          <sp who="#aber">
+            <speaker>ABER.</speaker>
+            <l>Quand ie devrois servir aux bourreaux de curee,</l>
+            <l>Et que machair seroit par leurs mains dechiree,</l>
+            <l>Quand ie ferois bruslé tout vif à petit feu,</l>
+            <l>L'on ne pourra ma foy esbransler tant soit peu,</l>
+            <l>Ni le tyran n'aura iamais sur moy victoire.</l>
+          </sp>
+          <sp who="#machir">
+            <speaker>MACHIR.</speaker>
+            <l>Aux vaillans est l’honneur et aux hardis la gloire,</l>
+            <l>Mes freres bien aiméz iamais le verd Laurier,</l>
+            <l>Ne se donne qu'au bon et genereux guerrier</l>
+            <l>Et ceste gloire icy mourant pour la querelle</l>
+            <l>De Dieu n'est pour un an: mais elle est eternelle.</l>
+          </sp>
+          <sp who="#iudas">
+            <speaker>IUDAS.</speaker>
+            <l>Madame, et pensez-vous que pour crainte de mort,</l>
+            <l>Pour crainte de tourmens et violent effort</l>
+            <l>Du superbe tyrant et de ses satelites,</l>
+            <l>Nous ne voulions plus estre enfans Abrahamites?</l>
+            <l>Plustost nous desirons passer par le milieu</l>
+            <l>Des flammes, que quitter la sainte loy de Dieu,</l>
+            <l>L'inexorable mort est aux humains commune,</l>
+            <l>Et faut que vos enfans courent mesme fortune,</l>
+            <l>Mais que iamais ils soyent traistres ny apostats</l>
+            <l>Mere nous vous prions de ne le croire pas.</l>
+          </sp>
+          <sp who="#achar">
+            <speaker>ACHAR.</speaker>
+            <l>Si l'Eternel seigneur qui iamais ne se lasse</l>
+            <l>De bien faire aux humains nous maintient en sa grace,</l>
+            <l>Nous nous tiendrens heureux et mes freres et moy</l>
+            <l>De mourir constamment pour nostre sainte foy.</l>
+          </sp>
+          <sp who="#areth">
+            <speaker>ARETH.</speaker>
+            <l>Avez-vous pas esté toujours la nourriciere</l>
+            <l>De vos tendres enfans, quelle famme est angere</l>
+            <l>Pensez-vous qui nous ait nourris et allaidez</l>
+            <l>Pour estre de ses meurs barbares infectez?</l>
+            <l>N'avons nous pas tous sept, ô mere naturelle,</l>
+            <l>Tiré le lait neigeux de la blanche mammelle?</l>
+            <l>Ayans este nourris d'une mesme chaleur,</l>
+            <l>Devons nous pas gouster d'une mesme douleur?</l>
+            <l>Vostre sang est le nostre et de vostre chair teindre,</l>
+            <l>La nostre mesmement l'Eternel a fait prendre,</l>
+            <l>Aussi devons tous sept e d'une volonté</l>
+            <l>Mourir en soustenant la pure verité.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>De mon petit lacob l’inexperte ieunesse</l>
+            <l>Ne pourroit soustenir une telle rudesse,</l>
+            <l>lamais son tendre corps ne pourroit supporter</l>
+            <l>Le bourrelé tourment qu'il luy faudroit porter.</l>
+          </sp>
+          <sp who="#iacob">
+            <speaker>IACOB.</speaker>
+            <l>O mere pitoyable, ô mere autant fæconde</l>
+            <l>Qu'il s'en pourroit trouver auiourd'huy parle monde,</l>
+            <l>Mere douce et benigne, laquelle chasque jour,</l>
+            <l>Comme à son cher mignon, m'a donné son amour,</l>
+            <l>Si de tous vos enfans, ie suis plus ieune d'ange,</l>
+            <l>Ie n'ay moins de vouloir, ie n'ay moindre courage</l>
+            <l>Pour le seul nom de Dieu de soustenir la mort,</l>
+            <l>Que le plues vertueux de tous et le plus fort:</l>
+            <l>N'ayez souci de moy vostre doctrine sainte</l>
+            <l>Sera tant que vivray dedans mon cœur emprainte,</l>
+            <l>Ie n'oublieray iamais pour crainte de tourmens</l>
+            <l>Iusqu'au dernier soupir vos bons enseignemens.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SALOMONE.</speaker>
+            <l>O combien en mon ceur ie vous prise et honore!</l>
+            <l>O race de Dauid qui nous produit encore</l>
+            <l>En ce temps nuageux de si parfaits rameaux,</l>
+            <l>O genereux enfans! ô celestes flambeaux,</l>
+            <l>La mort desquels pourra toute la Palestine</l>
+            <l>Empescher de tomber en extreme ruine,</l>
+            <l>Seigneur, ie te supplye que lesang de nous tous</l>
+            <l>Au moins vueille appaiser quelque peu ton courroux,</l>
+            <l>Que lesang des enfans en de leur trisse mere</l>
+            <l>Puisse assouvir le cour du tyran, adversaire:</l>
+            <l>Ce que ie vous ay dit mes enfans n'est point faux,</l>
+            <l>Car de bref nous ferons menee par les bourreaux</l>
+            <l>Au Roy Anthiocus ce n'estoit point mensonge,</l>
+            <l>De vous mettre en avant cet effroyable songe</l>
+            <l>De nostre prise: helas! l’ay repeu mesmement</l>
+            <l>Par l'un de mes amis bon advertissement,</l>
+            <l>Le prevost est parti pour nous venir tous prendre:</l>
+            <l>Mais ce feroit abus de nous penser deffendre</l>
+            <l>Et de nous enfuir: helas! de toutes pars,</l>
+            <l>Sont logez par les champs gendarmes et soldars,</l>
+            <l>Par ainsi mes enfans ie vous prie et exhorte</l>
+            <l>s'il vient, que promptement on luy ouvre la porte,</l>
+            <l>Puis que c'est le vouloir du Monarque divin:</l>
+            <l>Mais premier que de voir une si triste fin,</l>
+            <l>Permettez mes enfans gracieux que ie baise</l>
+            <l>Pour la derniere fois vos bouches à mon aise.</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER SOLDAT.</speaker>
+            <l>Il n'y en a pas un de nous tous qui ait fain</l>
+            <l>De mener son chenal, Prevost allons nous loin?</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Voyez-vous ce chasteau le long de ceste pleine?</l>
+            <l>C'est le lieu compagnons où c'est que ie vous meine</l>
+            <l>Il faut saisir la porte et entrer promptement</l>
+            <l>Avant que nous soyons descouverts nullement,</l>
+            <l>Toutesfois si par force ils se faisoyent conquerre</l>
+            <l>De leur ferois razer leur chasteau contre terre.</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME SOLDAT.</speaker>
+            <l>Feroyent-ils bien cela? vragment ie ne crois pas</l>
+            <l>Qu'ils soyent si malheureux d'avancer leur trespas.</l>
+          </sp>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME. SOLDAT.</speaker>
+            <l>Ce sont trois ieunes gens et sans experience,</l>
+            <l>Qui n'auront pas moyen de se mettre en deffence.</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME SOLDAT.</speaker>
+            <l>Coila la porte ouverte et n'y a point de gens</l>
+            <l>Ala garde d'icelle:</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Entrons doncques dedans</l>
+            <l>Compagnons, compagnons la porte est ià gaignee.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SALOMONE.</speaker>
+            <l>Hé! quel bruit est-ce là? ô pauvre infortunee,</l>
+            <l>Nous voici desia pris, courage mes enfans</l>
+            <l>Ne vous estonnez-point de voir tous ces tyrans.</l>
+          </sp>
+          <sp who="#machabee">
+            <speaker>MACHABEE.</speaker>
+            <l>Il n'y en a un seul quis'estonne ma mere,</l>
+            <l>Le courage nous croit de voir nostre adversaire.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Madame, et vous auffi seigneurs autant parfaits</l>
+            <l>Que nature prodigne en enfant a iamais,</l>
+            <l>Le grand Roy d'Antioche et de toute l'Asie</l>
+            <l>Souhaite de vous voir, par ainsi ie vous prie</l>
+            <l>De vous acheminer et venir avec nous,</l>
+            <l>Quand pour vos beaux enfans il les pouruoira tous</l>
+            <l>Aux honneurs de sa court, l’ay charge de vous dire</l>
+            <l>Que c'est le plus grand bien auiourd'huy qu'il desire.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Ie croy que mis enfans nourris sous autres lois</l>
+            <l>Ne veullent mendier la faveur de vos Rois.</l>
+          </sp>
+          <sp who="#machabee">
+            <speaker>MACHABEE.</speaker>
+            <l>Seigneur les nourrissons que produit l'Eufratique</l>
+            <l>Ne s'accordent iamais à la loy Mosaique.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>De tenir tels propos il y auroit danger,</l>
+            <l>Ce pendant il nous faut promptement defloger.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Allons puis qu’ainsi est, de nous faire contraindre</l>
+            <l>La peine mes enfans ne nous enseroit moindre.</l>
+          </sp>
+          <sp who="#appelle">
+            <speaker>APPELLE.</speaker>
+            <l>Vous dis-ie pas un jour que ceste nation,</l>
+            <l>Seroit forte a dompter pour la religion?</l>
+            <l>El qu'à peine iamais on y mettroit police,</l>
+            <l>Sire, d'Eleazar le tourment de supplice</l>
+            <l>Leur nourrist dans le cour un si bouillant courroux</l>
+            <l>Qu'ils ne font point d'estat de mal-parler de vous,</l>
+            <l>Et contre vostre Edict, tellement ils s'irritent</l>
+            <l>Que du haut des maisons plusieurs se precipitent,</l>
+            <l>Et est en verité horrible chose a voir.</l>
+          </sp>
+          <sp who="#bacchide">
+            <speaker>BACCHIDE.</speaker>
+            <l>Sire, severement il vous y faut pourvoir</l>
+            <l>J'ay tousiours entendu que des Rois la clemence</l>
+            <l>Trop benigne et humaine, est signe d'arrogance.</l>
+            <l>L'iniustice, douceur, faveur benignité,</l>
+            <l>Sont les vrays nourriciers de toute iniquitė,</l>
+            <l>Faites-en tant brusler couper dc leurs testes</l>
+            <l>Que les autres vaincus accourent aux requestes.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Chacun prenne un quartier et que de tous costez</l>
+            <l>Ils soyent cruellement punis et tourmentez:</l>
+            <l>Ceux qui m'obeiront ie veux qu'on les guerdonne,</l>
+            <l>Mais à un seul mutin ie ne veux qu'on pardonne,</l>
+            <l>Et toy pere des Dieux, lupiter haut-tonnant,</l>
+            <l>Me veux tu point aider a punir maintenant</l>
+            <l>Ceste perverse gent tousiours à toy contraire?</l>
+            <l>Donne nous du Dieu-febure et duquel tu es pere</l>
+            <l>Des instrumens forgez d'une telle façon,</l>
+            <l>Que leur sang appaiser puisse ton nourrison,</l>
+            <l>Oh, voicy mon Prevost.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>SIRE, ie vous amene</l>
+            <l>Une Dame honorable, Une Dame ancienne</l>
+            <l>Entre tous les humains qui n'est autre sinon</l>
+            <l>Une autre porte sceptre et seconde Iunon:</l>
+            <l>voila ses nourrissons enfans de bonne grace,</l>
+            <l>Extraits d'une bien noble et vertueuse race,</l>
+            <l>Si bons, si bien nourris, si beaux et gracieux,</l>
+            <l>Qu'il semble proprement que ce soyent demy-dieux?</l>
+            <l>Tout se portera bien si vous pouvez tant faire</l>
+            <l>De les pouvoir gaigner par humaine priere:</l>
+            <l>Car par force ou rigueur l’ay bien veu ce matin,</l>
+            <l>Que ne pourrez mollir leur cœur diamantin.</l>
+            <l>Si vous leur pouyez donc sans force ou violence,</l>
+            <l>Faire gouster un peu la libre sapience</l>
+            <l>Des doctes Caleens, et qu'ils vueillent aimer</l>
+            <l>Ce que vous aimez mieux, ce qui vous est plus cher</l>
+            <l>Le reste embrassera votre sainte doctrine</l>
+            <l>Car se sont des plus grands de toute Palestine.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Faites les donc venir car ie desire assez</l>
+            <l>De les voir à ma court les premiers advancez.</l>
+            <stage>Il parle à elle et à ses enfans.</stage>
+            <l>Ie vous ay fait venir dame tres-vertueuse,</l>
+            <l>Dame bien estimeee et doublement heureuse,</l>
+            <l>Pour estre accompagnee au declin de ces ans,</l>
+            <l>Pour gracieux support de si nobles enfans.</l>
+            <l>le vous ay fait venir non pour vostre dommage:</l>
+            <l>Mais pour votre profit honneur et advantage</l>
+            <l>De vos sept demi-dieux, ie vous prie n'ayez peur</l>
+            <l>De voir tant de soldats pres de leur Empereur:</l>
+            <l>far ils seront autant envers vous debonnaires,</l>
+            <l>Comme ils font aux mutins odieux adversaires,</l>
+            <l>Qui m'aime de bon cour il se peut asseurer</l>
+            <l>D'avoir autant d'honneur que t'on peut esperer.</l>
+            <l>Et vous et vos enfans que tant i’ayme et honore</l>
+            <l>Vous pouvez bien iuger que vous avez encore,</l>
+            <l>un Roy qui vous fera bien plus parfait amy</l>
+            <l>Qu'aux autres dessusdits qu'il n'aime qu'à demy</l>
+            <l>Ne refusez donc point ie vous pry' l'alliance</l>
+            <l>D'un Roy victorieux qui à tant de puissance.</l>
+            <l>Ne faites point meurtrir ces corps tendres de beaux</l>
+            <l>Pour ne vouloir manger de la chair de pourceaux</l>
+            <l>Combien que mox Edict publié m'y convie.</l>
+            <l>De l'exercer sur vous, ie n'aurois pas envie</l>
+            <l>Quand ie serois contraint encor de venir là,</l>
+            <l>Mais pitoyable yeux ne pourroyent voir cela.</l>
+            <l>Advisez mes enfans de beautez admirable,</l>
+            <l>Lequel de ces beaux points vous est plus profitable</l>
+            <l>De la guerre où la paix, qui sont devant vos yeux</l>
+            <l>Regardez lequel c'est que vous aimez le mieux.</l>
+            <l>Vostre cher delicate face gratieuse,</l>
+            <l>N'est point pour soustenir une force nerveuse.</l>
+            <l>Un bras gros et ossu, qui tousiours frapperoit,</l>
+            <l>Sur vostre tendre corps tant que frapper pourroit.</l>
+            <l>Celuy qui maintenant vostre salut annonce,</l>
+            <l>c'est un Roy demi-dieu, donnez luy donc responce.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Cela fieroit fort mal, ô Roy, que les enfans</l>
+            <l>Que i’ay porte neuf mois chacun dedans mes flancs;</l>
+            <l>Vousissent maintenant parler devant leur mere.</l>
+            <l>Sçache donc que iamais pour crainte de nous faire</l>
+            <l>Endurer des tourmens et sousfrir mille maux,</l>
+            <l>Par te couppes-iarets, et inhumains bourreaux,</l>
+            <l>Nous ne quitterons point nostre loy Mosaïque.</l>
+            <l>C'est un acte meschant cruel et tyrannique,</l>
+            <l>De nous vouloir forcer par telle impieté</l>
+            <l>Changer les saintes loix de nostre antiquité,</l>
+            <l>Pour nous faire adorer une masse muette,</l>
+            <l>Ne representant rien qu'une chose imparfaite,</l>
+            <l>Ne representant rien que le bois seulement,</l>
+            <l>Ou la pierre dequoy est fait le bastimens,</l>
+            <l>Si ieunes mes enfans tu les penses confondre,</l>
+            <l>Ie les pense assez bien instruits pour te respondre,</l>
+            <l>Ce seroit temps perdu de nous vouloir prescher,</l>
+            <l>Car quant l'on nous deuroit fierément arracher,</l>
+            <l>Avec un fer ardent et mordantes tenailles</l>
+            <l>Le foye, les poumons, le cœur et lesent ailles,</l>
+            <l>To ne pouras iamais ny mes enfans ny moy,</l>
+            <l>E branler tant fait peu nostre aimantine foy:</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Vrayment il fait beau voir une femme pleurarde</l>
+            <l>Parmy tant de malheurs qui soit si babillarde.</l>
+            <l>Sosander faites les promptement retirer.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>le me doutois assez qu'on ne pourroit tirer</l>
+            <l>Autre confession mantenant de leur bouche.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Vrayment voicy un cas qui de trop pres me touche,</l>
+            <l>Qui me fera peut estre à la fin enrager.</l>
+            <l>Oy effrongne Charon infernal passager,</l>
+            <l>Que me sert-il d'emplir si souvent ta nasselle</l>
+            <l>Dece peuple mutin, dece peuple rebelle?</l>
+            <l>Quand ie ne puis atteindre au bout de mes souhaits</l>
+            <l>Mausade forgeron, pied tortu que tes traits</l>
+            <l>Sont aigus de naurer aussi bien les grands Princes,</l>
+            <l>Comme les plus petits des infimes Provinces,</l>
+            <l>Non, non, ie ne veux plus demeurer en ce lieu:</l>
+            <l>Car ie croy qu'il ya quelque esprit faux-dieu,</l>
+            <l>Qui quelque grand malheur sinistrement me brasse,</l>
+            <l>Dedans un feu ardant, ie suis plus froid que glace,</l>
+            <l>ie mange plus que trois et si n'ay que los os,</l>
+            <l>Mon esprit inconstant ne prend aucun repos,</l>
+            <l>D'advis et de pensers ie change d'avantage</l>
+            <l>Qu'un milion d'oiseaux ne changent de ramage,</l>
+            <l>Par les vagues de l'air, la poudre au gré du vent,</l>
+            <l>Lors qu'il souffle plus fort ne tourne si souvent</l>
+            <l>Qu'au lict ie fais de tours lors que la nuit ombreuse</l>
+            <l>Me devroit redoubler une heure plus heureuse,</l>
+            <l>Ma vie n'est pas vie, mais une affliction,</l>
+            <l>Pire que de pariure et paillard Ixion.</l>
+            <l>Ce soin renaist tousiours, j'ay l'ame tourmentee</l>
+            <l>Plus que le foye encor du larron Promethee.</l>
+            <l>Bief io veux aller voir si l'Euffrate fameux</l>
+            <l>Me voudra point donner un repos plus heureux,</l>
+            <l>le ne veux retenir que le tiers de l'armce,</l>
+            <l>Le reste demeura par toute la ludee.</l>
+            <l>Vrayment vous en serez (Appelle) gouverneur,</l>
+            <l>le vous cognois assez capitaine d'honneur,</l>
+            <l>Et si ces obstinez ne voulayent point entendre</l>
+            <l>A suyvre mes Edicts qu'on en face tant pendre,</l>
+            <l>Que les plus grans chemins en soyent tous infectez</l>
+            <l>Bacchide, les captifs aux prisons arrestez</l>
+            <l>Faites les may venir, ils suyviront ma coche</l>
+            <l>Au celebre triomphe esperé d'Antioche,</l>
+            <l>Et faites suyvre aussi Solomone et ses fils,</l>
+            <l>l'estime qu'ils seront là dedans convertis,</l>
+            <l>Aussi tot qu'il auront perdu la cognoissance</l>
+            <l>De leurs pays, chasteaux, et iardins de plaisance.</l>
+            <l>Si ie change de lieu, ils m'ont tant irrité</l>
+            <l>Que ie ne veux pourtant changer de volonté.</l>
+            <l>Prenez huit legions, il faut que ie m'en aille,</l>
+            <l>Et les faites marcher en ordre de bataille.</l>
+          </sp>
+          <sp who="#bacchide">
+            <speaker>BACCHIDE.</speaker>
+            <l>Sire, l’accompliray vostre commandement.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Bacchide, ie vous pri’ que ce soit promptement.</l>
+          </sp>
+          <stage>Bacchide va querir les caprifs, et Solomone et ses enfans, et les ameine liez à Antiochus, cependant la Furie iouëra, et les clauses subsequentes.</stage>
+          <sp who="#furie">
+            <speaker>LA FURIE.</speaker>
+            <l>Voila nostre tyran voila nostre Monarque</l>
+            <l>Prest de tomber aux mains de la cruelle Parque,</l>
+            <l>Ie l'ay si bien conduit, ie l'ay si bien rangé,</l>
+            <l>Qu'il est au desespoir et demi enragé,</l>
+            <l>Il ne faut pas encor toutesfois qu'il perisse</l>
+            <l>Avant que d'avoir fait des Juifs un sacrifice,</l>
+            <l>De veux que ces mutins par un double malheur,</l>
+            <l>Avant son desespoir esprouvent sa fureur.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Appelle, advisez bien que ma loy soit gardee</l>
+            <l>univer sellement au pays de Iudee,</l>
+            <l>Ie veux par ce moyen grand renom acquerir.</l>
+          </sp>
+          <sp who="#appelle">
+            <speaker>APPELLE.</speaker>
+            <l>Sire, n'en ayer coin, i’en feray tant mourir</l>
+            <l>Qu'on en verra bien peu asseurez de leurs testes,</l>
+            <l>En vous remerciant de l'honneur que me faites.</l>
+            <l>Moy indigne d'avoir un tel gouvernement,</l>
+            <l>Esperant qu'en vurez parfait contentement.</l>
+          </sp>
+          <sp who="#bacchide">
+            <speaker>BACCHIDE.</speaker>
+            <l>Si tost qu'il vous plaira defloger de Solime</l>
+            <l>Voila vos gens tous prests ô princce magnanime,</l>
+            <l>Dites moy s'il vous plaist du nombre des captifs,</l>
+            <l>Voulez-vous faire aussi marcher tous les petits?</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Quoy dont? si vous trouvuez la chose pitoyable;</l>
+            <l>Mon triomphe en sera beaucoup plus honorable.</l>
+            <l>Faites au petit pas tousiours marcher vos gens,</l>
+            <l>Bacchide, de patir ie voy bien qu'il est temps,</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE</speaker><stage>PRISONNIERE AVEC CES FILS.</stage>
+            <l>Mes bien aimez enfans, te tyran execrable,</l>
+            <l>Pense-il vaincre ainsi nostre cœur indomptable,</l>
+            <l>Pour nous avoir tirez de nos plaisans chasteaux</l>
+            <l>Et fait conduire icy par ses sanglants bourreaux?</l>
+            <l>Quoy? pour avoir saisi nos biens hereditaires,</l>
+            <l>Pense nous estonner plustost que par prieres,</l>
+            <l>Pour la peur d'une noire et  estroite prison,</l>
+            <l>Pense-il estouffer notre sainte raison?</l>
+            <l>Iamais, iamais le vil et penible servage</l>
+            <l>Ne pourra refroidir nostre noble courage,</l>
+            <l>Iamais crainte de mort ou d'un superbe Roy</l>
+            <l>Ne pourront esbransler nostre immortelle foy.</l>
+          </sp>
+          <sp who="#machabee">
+            <speaker>MACHABEE.</speaker>
+            <l>O quelle pitié de voir nostre cité deserte,</l>
+            <l>Et nostre terre aussi de morts toute couverte,</l>
+            <l>Qu'il faille toutes fois que cet usurpateur</l>
+            <l>De tant de sang humain n'assouvisse son cœur?</l>
+            <l>Helas! helas! faut-il par la caute malice</l>
+            <l>D'un tyran si cruel tant de peuple perisse?</l>
+            <l>Qu'en Iudee les champs de tous costez soyent plains</l>
+            <l>De meurtriers outrageux et bourreaux inhumains ?</l>
+            <l>Mon Dieu ie te supplie humblement que nos testes</l>
+            <l>Puissent en peu de temps accoiser ces tempestes.</l>
+          </sp>
+          <sp who="#aber">
+            <speaker>ABER.</speaker>
+            <l>Autresfois l'on a ven Israel oppressé</l>
+            <l>Pour avoir coup sur coup l'Eternel offensé,</l>
+            <l>Ce n'est pas le premier Roy tyran de Caldee,</l>
+            <l>Qui soit ainsi venu saccager de Indee,</l>
+            <l>Mais tous ces maux ici et ceux que l’ay predis</l>
+            <l>Sont tousiours advenus par le peché des Iuifs.</l>
+            <l>Entre les plus heureux celuy-là le doit estre,</l>
+            <l>Qui parmi tant de maux fait devant tous paroistre</l>
+            <l>Qu'il est homme de bien, et qui peut eviter</l>
+            <l>Le vice trop commun et le peche domter.</l>
+          </sp>
+          <sp who="#machir">
+            <speaker>MACHIR.</speaker>
+            <l>Iamais Dieu debonnaire et  benin ne s'irrité</l>
+            <l>Contre son aimé peuple de race Abrahamite,</l>
+            <l>Sans y estre forcé, et ples bien vivans</l>
+            <l>Sont tousiours chastiez avecques les meschans:</l>
+            <l>Car la vertu ne peut appertement reluire</l>
+            <l>Qu'au milieu du tourment de plus cruel martyre</l>
+            <l>Comme l'or le plus clair et le plus precieux</l>
+            <l>Dans le feu plus ardant tousiours s'esprouve mieux</l>
+            <l>Aussi plus apparoilla vertu souveraine</l>
+            <l>Du serviteur de Dieu au milieu de la paine.</l>
+          </sp>
+          <sp who="#iudas">
+            <speaker>IUDAS.</speaker>
+            <l>Apres la mort du preux et  vaillant Josué</l>
+            <l>Le peuple fur d'erreur tellement imbue,</l>
+            <l>Qu'il s'en falloit bien peu que toutes leurs lignees</l>
+            <l>Ne fussent par assauts de guerre ruinees.</l>
+            <l>Par le glaive trenchant l'on voit esgalement</l>
+            <l>De bons et de mauvais recevoir chastiment:</l>
+            <l>Et si le seul piche du ieune Beniamite</l>
+            <l>Al'endroit de l’ espouse du femme de Levite,</l>
+            <l>Fut cause d'esmouvoir l’ire de Dieu sur eux.</l>
+            <l>Combien avons nous veu de tels seditieux?</l>
+            <l>Combien avons nous veu de tels Gabaonites</l>
+            <l>Dedans Hierusalem, combien d'Israelites</l>
+            <l>Ont mesprisé les loix dos peres anciens,</l>
+            <l>Pour suivre de nos jours l'erreur des Syriens,</l>
+            <l>Premier que l'Eternel se soit mis en cholere,</l>
+            <l>Pour armer contre vous ce cruel adversaire?</l>
+          </sp>
+          <sp who="#achar">
+            <speaker>ACHAR.</speaker>
+            <l>Peut-il pas susciter un Cenez l'immortel</l>
+            <l>Pour remettre en honneur le venerable autel,</l>
+            <l>Pour remettre en honneur le superbe edifice</l>
+            <l>Basti par Salomon l'hostie et sacrifice ?</l>
+            <l>Peut-il pas susciter un autre Gedeon</l>
+            <l>Pour chasser les tyrans de notre nation?</l>
+            <l>Un autre Josue, un Sanson magnanime</l>
+            <l>Pour remettre en honneur le peuple da Solime,</l>
+            <l>Et pour la liberté remettre en Israel,</l>
+            <l>Sacrer divia meut un autre Samuel.</l>
+            <l>Dien tout puissant qui est protecteur d'innocence</l>
+            <l>Les pourra relever par sa douce clemence,</l>
+            <l>Tousiours le ciel n'esmen ses foudres dessus nous,</l>
+            <l>Aussi n'est pas tousiours le Seigneur en courroux,</l>
+            <l>Quand il a chastie la Davidique race,</l>
+            <l>Il l’a visite apres de sa benigne grace.</l>
+          </sp>
+          <sp who="#areth">
+            <speaker>ARETH.</speaker>
+            <l>Puis donc qu'il a permis ceste captivité</l>
+            <l>Si pour la précieuse et franche liberté,</l>
+            <l>Et pourbien maintenir les statuts de nos peres</l>
+            <l>Nous mourrons maintenant tous ensemble mes freres,</l>
+            <l>Ce nous est un grand bien, ce nous est un grand heur,</l>
+            <l>D'estre tyrannisez, et qu'il plaise au Seigneur</l>
+            <l>Se servir de nos corps, afin que la victoire</l>
+            <l>En puisse mieux un iour manifester sa gloire.</l>
+          </sp>
+          <sp who="#iacob">
+            <speaker>IACOB.</speaker>
+            <l>Mes freres, nous avons pour un iour de tourment</l>
+            <l>Un celeste repos perpetuellement,</l>
+            <l>Et pour un bien mondain fragile et perissable,</l>
+            <l>Nous acquerrons de Dieu l'amour incomparable.</l>
+            <l>C’est un grand heur pour nous, ma mere, c'est pourquoy</l>
+            <l>Craindre nous ne devons la cruauté du Roy.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Mes enfans, imprimez en vos ames parfaites</l>
+            <l>L'exemple des martyrs et anciens Prophetes,</l>
+            <l>Et vous verrez comment, pour le seul nom de Dieu</l>
+            <l>La persecution sur les bons avoir lieu,</l>
+            <l>Et comme les tyrans par leur folle arrogance</l>
+            <l>Ont tousiours fait meurtrir l’incoupable innocence,</l>
+            <l>Abel premier martir par son frere Cain</l>
+            <l>Ne fut-il pas occis en aguet de chemin?</l>
+            <l>Envieux seulement, pour luy voir davantage</l>
+            <l>Dub-fail qu'il n'avoit mené en pasturage.</l>
+            <l>Isaac voulut-il pas que du trinchant cousteau</l>
+            <l>Son tendre col luy fust coupee sur le coupeau</l>
+            <l>Du mont, où David fist depuis basti, le templet</l>
+            <l>N'est-ce pas un miroir, n'est-ce pas un exemple.</l>
+            <l>Pour tous ses chers nepueux de toute humilité ?</l>
+            <l>Jacob voyant son frere Esau irrité</l>
+            <l>Contre luy, fut contraint de quitter fa patrie</l>
+            <l>Et s'enfuir aussi tost en Mesopotamie,</l>
+            <l>Où il fut bien vingt ans banni de sa maison.</l>
+            <l>Ioseph ne fut-il pas fort long temps en prison</l>
+            <l>Pour avoir reietté les iniustes prieres</l>
+            <l>D'une femme impudique, ey mesmes tous les freres</l>
+            <l>L'avoyent-il pas vendu aux Arabes meschans?</l>
+            <l>Pensez à la vertu de ces trois beaux enfans,</l>
+            <l>Quoy qu'ils fussent iettez dans l'ardante fournaise</l>
+            <l>Pas un d'eux ne sentit la chaleur de la braise.</l>
+            <l>Regardez Daniel et ses  afflictions,</l>
+            <l>Qui pour crainte de mort, dans la fosse aux Lyons</l>
+            <l>Où ils l’avoyent ietté, ne voulut iamais taire</l>
+            <l>L'hommage qu'il devoit au Seigneur debonnaire</l>
+            <l>Tous ces exemples là ne nous font proposer</l>
+            <l>Que pour nostre salut et d'en estre advisez,</l>
+            <l>Considerez encor mes enfans ie vous prie,</l>
+            <l>Le tesmoignage saint du Prophete Isaye:</l>
+            <l>si l'on te fait passer (dit-il) par le milieu</l>
+            <l>Des flammes, soustenant la parole de Dieu,</l>
+            <l>Croy que le feu foit aspre et la braise attisee,</l>
+            <l>Pour tout cela ta obair n'en sera consommee.</l>
+            <l>Passons encor plus outre, et voyons qu'il est dit</l>
+            <l>Sur le mesme propos au Psalme de David.</l>
+            <l>Les tribulations des instes, et leurs peines</l>
+            <l>Seront de tous costez grandes e inhumaines,</l>
+            <l>Et puis en Salomon, le bois de vie est mis</l>
+            <l>Pour ceux qui de tout temps sagement ont appris</l>
+            <l>A faire le vouloir du Monarque celeste.</l>
+            <l>Mais que veut dire encor d'Ezechiel le textes</l>
+            <l>Que ses os secs vivront: sinon que l'Eternel</l>
+            <l>Entend recompenser, d'un los sempiternel</l>
+            <l>Ceux qui auront pour luy des peines tyranniques,</l>
+            <l>Et de Moyse aussi regardez les Cantiques</l>
+            <l>Où il est dit ainsi, pour certain ie tueray</l>
+            <l>Et puis apres celà, vivre ie vous feray,</l>
+            <l>La longueur de vos iours, que ie vous ay donnee</l>
+            <l>Est veritablement en mes mains arrestee.</l>
+            <l>Ces discours serviront de rafraichissemens,</l>
+            <l>Mes bien aimez enfans, au milieu des tourmens.</l>
+          </sp>
+          <sp who="#machabee">
+            <speaker>MACHABEE.</speaker>
+            <l>Madame, du tyran l'insatiable rage</l>
+            <l>N'amolira iamais nostre ferme courage</l>
+            <l>Par la grace de Dieu, nous sommes assez fors</l>
+            <l>Pour attendre ses durs de violens efforts:</l>
+            <l>Nous sommes resolues, ieunes comme nous sommee,</l>
+            <l>De soustenir les coups de ces robustes hommes:</l>
+            <l>Nous sommes resolus, de suyvre les sentiers</l>
+            <l>De tous ces genereux et braves devanciers</l>
+            <l>Que vous avez nommez: et pour crainte quelconque</l>
+            <l>N’entrer dans le chemin où nous ne fus mes oncque,</l>
+            <l>Ce tyran ne pourra iamais avoir moyen</l>
+            <l>De nous empoisonner d'un erreur Caldeen:</l>
+            <l>Car nous sommes extraits d'une trop bonne race</l>
+            <l>Pour ainsi nous laisser emporter par menace.</l>
+          </sp>
+          <sp who="#aber">
+            <speaker>ABER.</speaker>
+            <l>Qu'il allume des feux, qu'il acere des dards</l>
+            <l>Pour nous faire mourir par ses bourreaux soldars</l>
+            <l>Qu'il invente des maux et peines plus cruelles</l>
+            <l>Pour rompre et desmembrer nos forces naturelles,</l>
+            <l>Qu'il face deschirer nos corps par gros lambeaux,</l>
+            <l>Qu'il face decouper nos nombres par morceaux,</l>
+            <l>Le tyran pour cela n'aura point ceste gloire</l>
+            <l>Sur le moindre des sept, d'emporter la victoire.</l>
+          </sp>
+          <sp who="#machir">
+            <speaker>MACHIR.</speaker>
+            <l>Tout ainsi comme on void les guerriers genereux</l>
+            <l>Au son de la trompette estre plus courageux,</l>
+            <l>Plusieurs autres aussi, ausquels la pasle crainte</l>
+            <l>Auroit desia donné quelque petite attainte,</l>
+            <l>Se r'asseurer au soin d'un si vif instrument,</l>
+            <l>Et charger l'ennemy bien plus alaigrement:</l>
+            <l>Ainsi serons nous tous excitez davantage</l>
+            <l>A la voix et clamour d'un tyran plein de rage:</l>
+            <l>Ainsi serons tous sept plus forts et plus hardis,</l>
+            <l>Si tost que nous orrons les effroyables cris</l>
+            <l>Des bourreaux inhumains: et la peur qu'on nous donne</l>
+            <l>D'une cruelle mort iamais ne nous estonne.</l>
+            <l>Nous devons louer Dieu, qu'un tant heureux debat</l>
+            <l>Fous face enitrer au champ d'un si brave combat.</l>
+          </sp>
+          <sp who="#iudas">
+            <speaker>IUDAS.</speaker>
+            <l>Comme pourroit forcer un homme seul la porte</l>
+            <l>Du logis qui feroit gardé d'une cohorte:</l>
+            <l>D'hommes fort bien armez ? et lequels iour et nuit</l>
+            <l>Scauroyent ce qu'on seroit et ce qu'on auroit dit.</l>
+            <l>Comme seroit aimé, le serviteur du maistre</l>
+            <l>Qui volontairemeni luy auroit esté traistre ?</l>
+            <l>Comme seroit aimé, de Dieu l'homme menteur</l>
+            <l>Qui le descognoistroit pour pere et Createur?</l>
+            <l>Et qui le renviroit aussi devant les hommes</l>
+            <l>Nous voudroit-il tirer de la peine où nous sommes?</l>
+            <l>Afin de nous donner dans le ciel radieux</l>
+            <l>Comme à ses vrays enfans un repas tant heureux,</l>
+            <l>Toutes ces choses là se feroyent bien à peine,</l>
+            <l>Et ne reste qu'avoir une foy bien certaine</l>
+            <l>Afin de maintenir, iusqu'à l'extremité</l>
+            <l>En mourant constamment la pure verité.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Mes enfans ie voy bien que la divine essence</l>
+            <l>Assiste maintenant vostre pure innocence,</l>
+            <l>Et voy bien clairement que les cieux sont ouvers</l>
+            <l>Pour vous laissei passer quelque iour à travers,</l>
+            <l>Afin d'aller donner à vostre grand misere</l>
+            <l>Un doux repos au sein d'Abraham nostre pere.</l>
+            <stage>Elle prie à genous.</stage>
+            <l>Te te prie humblement, ô Seigneur immortel,</l>
+            <l>Qui donnas seur passage aux enfans d'Israel</l>
+            <l>A travers la mer rouge, evitant la furie</l>
+            <l>De ce Roy Memphien voisin d'Etiopie,</l>
+            <l>Qu'il te plaise donner favorable support</l>
+            <l>A moy et mes enfans, aux soupirs de la mort:</l>
+            <l>Que l'effort du tyran du trop sanglant carnage</l>
+            <l>Ne-puisse pas domter notre hardi courage.</l>
+          </sp>
+          <sp who="#achar">
+            <speaker>ACHAR.</speaker>
+            <l>Mes freres bien aimez, allons ioyeusement</l>
+            <l>Pour recevoir la gloire et l'honneur du tourment.</l>
+          </sp>
+          <sp who="#areth">
+            <speaker>ARETH.</speaker>
+            <l>Allons vaincre tous sept par forte patience</l>
+            <l>Du superbe tyran la rude violence.</l>
+          </sp>
+          <sp who="#iacob">
+            <speaker>IACOB.</speaker>
+            <l>Quoy que ie fois fort ieune, on verra par effet</l>
+            <l>Si ie juis digne d'estre au nombre de vous sept:</l>
+            <l>Que si ma tendre chair vous semble trop douilleite</l>
+            <l>I'ay le courage grand et l'ame tresbien faite.</l>
+          </sp>
+          <sp who="#furie">
+            <speaker>FURIE INFERNALE.</speaker>
+            <l>Rien ne me sert d'avoir, à ce Roy tenebreux</l>
+            <l>C’et Orque Stygien, ce serpent monstrueux,</l>
+            <l>Envoyé tant de fois multitude infinie</l>
+            <l>De volleurs, de meurtriers et de mauvaise vie:</l>
+            <l>Quoy que de telles gens ie luy en donne assez,</l>
+            <l>Si ne puis-ie pourtant avoir un seur accez</l>
+            <l>Avec cet envieux: et me faut tousiours estre</l>
+            <l>Hors de son noir manoir, tant es fort à cognoistre.</l>
+            <l>Ce fut moy, qui causa la grand combustion</l>
+            <l>En la propre maison du royal Pandion</l>
+            <l>Par la desloyauté de son gendre Teree.</l>
+            <l>Ie suscitay depuis, la fureur de Medee</l>
+            <l>Contre son propre frere, et de ses deux cousteaux</l>
+            <l>Te luy fis decouper ses enfans par morceaux.</l>
+            <l>Œdipe occist-il pas, par mon conseil, son pere,</l>
+            <l>Et puis tout aussi tost prient à femme fa mere?</l>
+            <l>Phalaris tres-cruel Roy des Agringentins,</l>
+            <l>Les meurtres qu'il commist par les subtils engins,</l>
+            <l>Et l'inceste de Phedre en la mort d'Ypolite</l>
+            <l>Tout cela fust-il pas commis à ma pour suite?</l>
+            <l>Circe enfant du Soleil, laquelle de son temps</l>
+            <l>Arrestoit un chacun par ses enchantemens,</l>
+            <l>Luy donnay-ie pas l'art et moyen de ce faire?</l>
+            <l>Ie suis du peuple Hebrieu, le cruel adversaire,</l>
+            <l>J'ay fait armer cent fois les Roys Assyriens.</l>
+            <l>Les nerueux Philistins du tous autres Payens</l>
+            <l>En despit de leur Dieu, pour leur faire la guerre.</l>
+            <l>l'ay si bien fait brusler ces jours toute leur terre</l>
+            <l>Et tuer tans de gens que tout y est desert.</l>
+            <l>La rage et la fureur d'Antiochus, me sert</l>
+            <l>Aioüer ce mistere, et faut que la Gorgone</l>
+            <l>Me donne le moyen de pouvoir Solomone</l>
+            <l>Divertir de son Dieu, les fils mesmement,</l>
+            <l>Ou bien qu'à à mon retour ie sois mise au tourment.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>ANTIOCHUS.</speaker>
+            <l>Et bien Prevost, comment se portent nos affaires?</l>
+            <l>Vaincrons-nous par amour Machabee et ses freres?</l>
+            <l>Depuis nostre retour, et qu'ils sont en prison</l>
+            <l>Avez-vous point fondé s'ils viendront à raison?</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Sire, c'est temps perdu pour vray, de s'y attendre</l>
+            <l>Qu'oy qu'on leur puisse dire on n'y peut rien apprendre.</l>
+            <l>Iamais vous ne pourrez les avoir par douceur:</l>
+            <l>Car i’ay bien descouvert le secret de leur cœur.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>ANTIOCHUS.</speaker>
+            <l>Par Jupin Dieu tonnant, s'ils me font d'avantage</l>
+            <l>Par leurs folles erreurs, aigrir en mon courage</l>
+            <l>Ils verront quel profit, avant qu'il soit demain,</l>
+            <l>il ya d'irriter un Prince tant humain.</l>
+            <l>Faites les moy venir tous sept et Solomone.</l>
+            <l>Sosander, pour le seur c'est elle qui leur donne</l>
+            <l>Tout ce mauvais conseil: s'ils se font tourmenter,</l>
+            <l>I'ay bien deliberé de luy faire porter</l>
+            <l>Une double douleur: car pour la penitence</l>
+            <l>Premier qu'elle ils mourront tous sept en fa presence.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Or sus sus, puis que c'est la volonté du Roy</l>
+            <l>Allors les donc querir: compagnons suivez-moy.</l>
+            <l>Dame, voici le temps qu'il vous faut estre sage</l>
+            <l>Quoy qu'ayez eu l'esprit iusqu'ici fort volage.</l>
+            <l>Si vous aimez le Roy et ses Edits aussi</l>
+            <l>Il sera bien joyeux de vous prendre à mercy:</l>
+            <l>Venez donc recevoir et tous vos enfans mesme</l>
+            <l>Le dernier iugement de sa bonté supreme:</l>
+            <l>Vous ferez sagement de vous mettre à genoux</l>
+            <l>Car c'est le vray moyen d'appaiser son courroux:</l>
+            <l>Si vous estes mutins, si vous estes rebelles</l>
+            <l>il vous fera porter des peines si cruelles</l>
+            <l>Que tous huit, maudirez cent et cent fois le jour</l>
+            <l>Que vous n'avez cerché sa grace et son amour.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Nous ne mettons iamais le genoil contre terre</l>
+            <l>Pour crainte de tourmens, de perilou de guerre</l>
+            <l>Sinon devant le Dieu de nos sages ayeux,</l>
+            <l>Qui a tousiours aimé la race des Hebrieux.</l>
+            <l>Quant vostre Roy, cent fois escumeroit de rage</l>
+            <l>Nous avons aceré nostre animé courage</l>
+            <l>Pour mieux luy resister:  son glaive mortel</l>
+            <l>De l'amour que portons au seigneur eternel,</l>
+            <l>Ne nous pourra iamais aucunement distraire.</l>
+            <l>Nous pouvons bien mourir: mais nullement nous taire</l>
+            <l>Pour crainte de tourment, quand il est question</l>
+            <l>Maintenir hardiment nostre religion.</l>
+            <l>Et ne peut-on forcer iamais nos consciences.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>En sommes nous donc là, est-ce ainsi que tu penses</l>
+            <l>Nous abuser, avec ton babil mensonger?</l>
+            <l>Tu verras maintenant, quel peril et danger</l>
+            <l>Il y a d'irriter va le puissant Monarque.</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER SOLDAT.</speaker>
+            <l>Premier que vous ayez de la cruelle Parque</l>
+            <l>Esprouvé les efforts en vos tristes esprits,</l>
+            <l>Vous vous repentirez cent fois, de n'avoir pris</l>
+            <l>Quelque goust au conseil que le prevost vous donne.</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME SOLDAT.</speaker>
+            <l>Ie croy qu'ils veulent bien que le roy leur pardoNne</l>
+            <l>Mais de luy obeir, il n'en faut point parler.</l>
+          </sp>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME. SOLDAT.</speaker>
+            <l>Or fus don Beaux danseurs, il vous convient aller</l>
+            <l>Recevoir iugement selon vostre merite.</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME SOLDAT.</speaker>
+            <l>Ils sont en grand danger, s'ils ne prennent la fuite.</l>
+            <l>Nous les garderons bien toutesfois de courir,</l>
+            <l>Puis qu'ils sont obstinez ils doyuent tous mourir</l>
+            <l>D'une mort violente, afin que leurs miseres:</l>
+            <l>Donne crainte et frayeur aux autres adversaires,</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Sire, voila la mere et les enfans aussi</l>
+            <l>Qui plus que marbre blanc ont le cœur endurci,</l>
+            <l>Qui ne font point d'estat de vostre bonne grace</l>
+            <l>En refusant vos dons, et pour crainte ou menace</l>
+            <l>De les faire mourir trestous cruellement,</l>
+            <l>Au mespris de vos loix, on voit appertement</l>
+            <l>Qu'ils sont fort résolus de perir tous ensemble .</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Par le Dieu haut tonnant, Sosander, il me semble</l>
+            <l>Qu'ils font une grand faute et sont hors de raison,</l>
+            <l>De vouloir postposer l'honneur de ma maison</l>
+            <l>Au Dieu sans pouvoir: puis que ceste folie</l>
+            <l>Leur fait tant oublier le salut de leur vie,</l>
+            <l>Faites les approcher et que le parle à eux.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Compagnons, amenez promptement ces Hebrieux.</l>
+          </sp>
+          <stage>Le Roy parle aux enfans, pensant les décevoir pour leur ieunesse, la mere estant au milieu d'eux.</stage>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>O genereux enfans, chef d'œuvre de nature,</l>
+            <l>Nourriçons bien aimez du tres sage Mercure,</l>
+            <l>Enfans bien accomplis en parfaite beauté,</l>
+            <l>Ie ne suis contre vous tellement irrité</l>
+            <l>Que pour vous avancer, ie ne face paroistre</l>
+            <l>Ma liberalle main de grandeur de mon sceptres</l>
+            <l>Combien que vous soyez au nombre des captifs,</l>
+            <l>Si vous aimay-ie mieux que tous les autres Iuifs.</l>
+            <l>Vrayment ie ne veux estre estimé tant barbare</l>
+            <l>Que de persecuter une beaute si rare,</l>
+            <l>le ne veux pas t […] si long temps en prison</l>
+            <l>Tant de princes sortis d'une mesme maison:</l>
+            <l>Et si ie ne suis moins ravi de votre grace</l>
+            <l>Que i’admire le sang de vostre bonne race</l>
+            <l>Toutes ces choses là, m'induissent grandement</l>
+            <l>A vous vouloir aimer tous sept parfaitement</l>
+            <l>Rentrer un peu en vous, que vostre esprit s'esveille</l>
+            <l>Sur ses promesses là enfans, ie vous conseille</l>
+            <l>De prendre le parti qui vous est le plus seur,</l>
+            <l>Er n'endurcissez point contre droit vostre cœur,</l>
+            <l>En reiettant ainsi par superbe arrogance</l>
+            <l>Mes constitutions de divine ordonnance:</l>
+            <l>Evitez, evitez non seulement l'effort</l>
+            <l>Des tourmens mais aussi la tres-cruelle mort.</l>
+            <l>le vous veux faire grands, ô enfans admirables,</l>
+            <l>Et vous pourvoir d'estats tres-beaux et honorables,</l>
+            <l>le vous veux faire tous riches et opulens</l>
+            <l>Et par dessus encor les hommes de ce temps.</l>
+            <l>Quittez moy cet erreur, mettez en oubliance</l>
+            <l>De vos peres ayeuls la trop folle creance.</l>
+            <l>Reduisez vous ensemble, aux observations</l>
+            <l>Communes du pays: que ces religions</l>
+            <l>Qui vous ont abusez, toutes ces resueries</l>
+            <l>D'election de chair et de ceremonies</l>
+            <l>Soyent mises sous le pied: nature ne veut pas</l>
+            <l>Que lon mesprise ainsi les tresors d'ici bas.</l>
+            <l>Vous faites donc encor des gestes deshonnestes</l>
+            <l>Contemnant mon Edit, vous branslez tous les testes</l>
+            <l>En vous mocquant de moy, sus dressez, les tourmens</l>
+            <l>Soldats, presentement: grilles crucimens.</l>
+            <l>Rocs, poinctes, garots, chaudieres, estrapades,</l>
+            <l>Frixoires, et gibets, poignettes, et onglades</l>
+            <l>Tenailles, gans de fer, manotes de rouleaux,</l>
+            <l>Qu'on ne laisse pas un des instrumens nouveaux</l>
+            <l>Lesquels i’ay fait bastir pour meurtrir et pour poindre,</l>
+            <l>Pour les iambes et bas cruellement estraindre,</l>
+            <l>Pour serrer doigts et mains, et punir les mutins</l>
+            <l>Qui mesmes devant moy pensent faire les fins.</l>
+          </sp>
+          <sp who="#furie">
+            <speaker>FURIE INFERNALE.</speaker>
+            <l>Nostre cas va tresbien, le Roy transporté d'ire</l>
+            <l>Maintenant rien que sang et meurtre ne desire.</l>
+            <stage>On dresse les tourmens.</stage>
+            <l>le luy ay inventé, des tourmens si cruels</l>
+            <l>Que iamais pour le monde il n'en fut veu de tels.</l>
+            <l>La peine sera telle, et le mal si terrible</l>
+            <l>A la mere et ses fils, qu'il seroit impossible</l>
+            <l>Qu'ils peussent résister aux bourreaux inhumains</l>
+            <l>Avant qu'il soit une heure, ils seront tous contrains</l>
+            <l>De renier leur Dieu et prendre loy nouvelle.</l>
+            <l>Et bien craignez vous point ceste peine mortelle</l>
+            <l>Et ces tourmens qui font apprestez pour vous tous?</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE SECOND SOLDAT.</speaker>
+            <l>Ils ne respondent rien, ie croy que le courroux</l>
+            <l>Et le bouillant despit leur a fermé la bouche.</l>
+          </sp>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME. SOLDAT.</speaker>
+            <l>Vrayment si est-ce un poinct qui de fort pres les touche,</l>
+            <l>Et sont prests de tomber en un piteux arroy.</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME SOLDAT.</speaker>
+            <l>Ie m'envoy, compagnons, advertir nostre Roy</l>
+            <l>Que les tourmens sont prests, afin qu'en sa presence</l>
+            <l>Ces gallans soyent punis de leur coupable offence,</l>
+            <l>Sire, quand vous voudrez avoir le passetemps</l>
+            <l>De ces luifs, nous avons dresse tous les tourmens.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>C’est bien dit: toutesfois avant que de les mettre</l>
+            <l>Au tourment, ie desire encor un peu cognoistre</l>
+            <l>Si la peur les fait point changer de volonté.</l>
+            <l>Enfans ieunes et beaux, si vous avez esté</l>
+            <l>Abusez iusqu'ici, ie vous permets encore</l>
+            <l>Quitter ce Dieu, qui n'est pas digne qu'on l'honore.</l>
+            <l>Sacrifiez, enfans, sur cet autel nouveau,</l>
+            <l>Et goustez hardiment de la chair de pourceau.</l>
+            <l>Prenez exemple à moy, pensez-vous que l’abuse</l>
+            <l>Des Dieux si lourdement? vous aurez une excuse</l>
+            <l>Qui servira beaucoup, estans entre mes mains</l>
+            <l>Vous direz que la peur vous y a tous contrains.</l>
+          </sp>
+          <sp who="#solomone #machabee #aber #machir #iudas #achar #areth #iacob">
+            <speaker>SOLOMONE et SES FILS, tous ensemble</speaker>
+            <l>O Roy, ne pense point que la parolle sainte</l>
+            <l>Nous face abandonner nostre loy pure et sainte.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Vous ne voulez donc pas changer d'opinion ?</l>
+          </sp>
+          <sp who="#solomone #machabee #aber #machir #iudas #achar #areth #iacob">
+            <speaker>TOUS ENSEMBLE.</speaker>
+            <l>Plustost mourir, que prendre autre religion.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Ie vous feray porter des peines tres-ameres.</l>
+          </sp>
+          <sp who="#solomone #machabee #aber #machir #iudas #achar #areth #iacob">
+            <speaker>TOUS ENSEMBLE.</speaker>
+            <l>Pour le moins nous mourrons en la foy de nos peres.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Là là, vous parlerez aiourd'huy bien plus bas.</l>
+          </sp>
+          <sp who="#solomone #machabee #aber #machir #iudas #achar #areth #iacob">
+            <speaker>TOUS ENSEMBLE.</speaker>
+            <l>N’espargne point nos corps, fay ce que tu voudras.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Contemnez- vous ainsi ma force et ma puissance?</l>
+          </sp>
+          <sp who="#solomone #machabee #aber #machir #iudas #achar #areth #iacob">
+            <speaker>TOUS ENSEMBLE.</speaker>
+            <l>En Dieu nous avons mis toute nostre esperance.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Qui est ce Dieu, duquel vous estes tant soigneux ?</l>
+          </sp>
+          <sp who="#solomone #machabee #aber #machir #iudas #achar #areth #iacob">
+            <speaker>TOUS ENSEMBLE.</speaker>
+            <l>C'est le Dieu d' Abraham en de tous les Hebrieux.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Vous peut-il guarantir de ma forte iustice ?</l>
+          </sp>
+          <sp who="#solomone #machabee #aber #machir #iudas #achar #areth #iacob">
+            <speaker>TOUS ENSEMBLE.</speaker>
+            <l>Les siens souffrent toujours pour reparer le vice.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Il a charmé vos cœurs, c'est un magicien.</l>
+          </sp>
+          <sp who="#solomone #machabee #aber #machir #iudas #achar #areth #iacob">
+            <speaker>TOUS ENSEMBLE.</speaker>
+            <l>C’est celuy qui a fait tout le monde de rien.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Voulez-vous tous mourir en obstiné courage?</l>
+          </sp>
+          <sp who="#solomone #machabee #aber #machir #iudas #achar #areth #iacob">
+            <speaker>TOUS ENSEMBLE.</speaker>
+            <l>Tu perds temps de vouloir nous prescher davantage.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Et ne craignez-vous point ces feux et ces cousteaux.</l>
+          </sp>
+          <sp who="#solomone #machabee #aber #machir #iudas #achar #areth #iacob">
+            <speaker>TOUS ENSEMBLE.</speaker>
+            <l>Decouppe si tu veux nostre chair par morceaux:</l>
+            <l>Pour cela nostre foy n'en sera violee.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>le veux parler à vous en secret, Machabee.</l>
+            <l>Vrayment c'est vostre mere, ainsi comme ie croy,</l>
+            <l>Qui fait faire à vous sept si peu d'estat de moy:</l>
+            <l>Mais c'est le naturel des femmes idolatres</l>
+            <l>D'estre tousiours ainsi folles opiniastres.</l>
+            <l>Vous commettriez sur vous une grand cruauté</l>
+            <l>Permettant de meurtrir, ceste fraische beauté</l>
+            <l>Que nature vous a sagement eslargie</l>
+            <l>Pour parfait ornement de vostre propre vie.</l>
+            <l>Taschez de conserver ce qui vous est plus cher.</l>
+            <l>C'est un mespris des Dieux, de vouloir empescher</l>
+            <l>L'issuë du destin et longueur des annees,</l>
+            <l>Qui peur, vivre ioyeux vous sont determinees.</l>
+            <l>le m'avante vers vous, et vous preste la main</l>
+            <l>Pour chasser ce cruel et barbare dessein:</l>
+            <l>Le furieux poussé d'une démence extreme</l>
+            <l>El bien souvent gardé de se tuer soy-mesme</l>
+            <l>Par un vigilant soin, de ses plus chers amis.</l>
+            <l>Preservez moy ce corps, puisqu'il vous est permis</l>
+            <l>Librement de ce faire, offrant en sacrifice</l>
+            <l>Ce qui est ordonné par ma sainte justice.</l>
+            <l>Quittez-moy le conseil d'une folle qui n'a</l>
+            <l>Qu'un vouloir de perir qui la guide à cela.</l>
+            <l>Quoy qu'elle-ait dessus vous maternelle puissance</l>
+            <l>Cela n'opere pas dedans la conscience.</l>
+            <l>Qu'elle se perde seule, et laissez l'incertain</l>
+            <l>Pour embrasser le bien qui vous est plus certain.</l>
+          </sp>
+          <sp who="#machabee">
+            <speaker>MACHABEE.</speaker>
+            <l>Tu t'abuses, ô Roy, de vouloir entreprendre</l>
+            <l>Par tes blandissemens captieux me surprendre.</l>
+            <l>Tu ne me vaincras pas ainsi par ton parler,</l>
+            <l>Du rocher naufrageux, tous les flots de la mer</l>
+            <l>Quoy qu'ils soyent agitez d'une forte tempeste,</l>
+            <l>Ne pourroyent emporter un esclat de la teste:</l>
+            <l>Aussi ne pourras-Iu amollir tant soit peut</l>
+            <l>L'inestimable amour que ie purte à mon Dieu.</l>
+            <l>Quelle raison as-tu, ô tyran execrable,</l>
+            <l>Aime sang, d'estre ainsi le meurtrier implacable</l>
+            <l>Des homme innocens, es que tu sois aussi</l>
+            <l>A tous gerres de maux en ton cour endurci?</l>
+            <l>Tu as beau caqueter, ô Roy, tu as beau faire,</l>
+            <l>Çar nostre desir est, de mourir pour complaire</l>
+            <l>Au Dieu de nos ayeux: pour crainte de tourmens</l>
+            <l>Nous ne lairrons iamais les saints commancemens</l>
+            <l>Par Moyse enseignez nostre Docteur et maistre.</l>
+            <l>Et toy, c'est ton honneur, que de faire paroistre</l>
+            <l>Que des iustes tu sois le grand persecuteur,</l>
+            <l>Amateur d’iniustice, e le vray inventeur</l>
+            <l>De toute iniquité: ceste misericorde</l>
+            <l>Que tu nous presches tant ce seroit une corde</l>
+            <l>Pour nous precipiter: ce seroit un support</l>
+            <l>Beaucoup plus dangereux que la sanglante mort.</l>
+            <l>Mais nous sommes armez, d'une telle esperance</l>
+            <l>Qu'en mesprisons tes dons du royalle puissance,</l>
+            <l>Nous mesprisons ta grace, de nous mocquors tous huict,</l>
+            <l>Des propos scandaleux que tu tiens iour et nuict.</l>
+            <l>La mort d'Eleazar, pere tres-venerable,</l>
+            <l>Tousiours devant nos yeux se presente imitable.</l>
+            <l>Le fruit qu'on a reçcu de sa peine et du tourment</l>
+            <l>Est tousiours imprimé en nostre entendement.</l>
+            <l>L'exemple est si nouveau, que fa sainte doctrine</l>
+            <l>Ne seroit pas si tost hors de nostre poictrine.</l>
+            <l>Fais brusler par morceaux sur le gril nostre chair</l>
+            <l>Ou bien nous fais tous vifs, fa tu veux, escorcher,</l>
+            <l>Fais prendre à tes bourreaux des bruslantes tenailles</l>
+            <l>Pour mieux nous arracher le cœur et les entrailles,</l>
+            <l>Pour cela il n'auras victoire dessus nous.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Ie suis tant transporté, de rage en de courroux</l>
+            <l>Voyant ainsi causer ce fol en ma presence:</l>
+            <l>Dont ie perds tout espoir de prendre patience.</l>
+            <l>Sus, sus qu'on prenne en main chacun un fouelt-tout neuf</l>
+            <l>De tres longues courgees, qui soyent de cuir de bœuf,</l>
+            <l>A trois noueux cordons, et que sa peau douillette</l>
+            <l>L'on decoupe depuis le pied iusqu'à la teste.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Soldats afin d'assoir vos coups mieux à propos.</l>
+            <l>Liez luy ses deux mains par derriere le dos.</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER SOLDAT.</speaker>
+            <l>Vous verrez maintenant si ie ne dois pas estre</l>
+            <l>Digne d'estre appellé en cet office maistre.</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIESME SOLDAT.</speaker>
+            <l>Pour monstrer que l’entens aussi bien ce mestier</l>
+            <l>Comme toy, ie m'envois commencer le premier.</l>
+          </sp>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIESME SOLDAT.</speaker>
+            <l>Or sus, sus compagnons, frappons donc tout ensemble.</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME SOLDAT.</speaker>
+            <l>Pour les coups qu'on luy donne il ne plaint ni ne tremble</l>
+            <l>Non plus que s'il estoit un bien ferme rocher.</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER.</speaker>
+            <l>l'ay pitié de luy voir coupper sa tendre chair,</l>
+            <l>Pour cela toutes fois il ne pleure ni crie.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Mon ami si tu veux sauver ta pauvre vie</l>
+            <l>Fais ce qu'il plaist au Roy.</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME.</speaker>
+            <l>Vrayment il ne dit mot,</l>
+            <l>Nous l'avons tant batu qu'il en est idiot.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Il faut que sur la roue à ceste heure on l'estende</l>
+            <l>Ainsi qu'en un rondeau, qu'à ses pieds on pende:</l>
+            <l>Deux fers qui soyent fort gros, de ceste pesanteur,</l>
+            <l>Il souffrira grand mal et douleur en son cœur.</l>
+            <l>En luy tirant ainsi les entrailles par force.</l>
+          </sp>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME.</speaker>
+            <l>S'il ne meurt promptement pour ceste rude entoree</l>
+            <l>Il faut dire qu'il a son ame de travers.</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME.</speaker>
+            <l>Le voilà sur la roue, apportez-moy ces fers</l>
+            <l>Que ie luy mette aux pieds.</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER.</speaker>
+            <l>C'est chose pitoyable,</l>
+            <l>De coir ainsi patir ce pauvre miserable.</l>
+          </sp>
+          <sp who="#machabee">
+            <speaker>MACHABEE.</speaker>
+            <l>O grand persecuteur de la divinité</l>
+            <l>Tyran insuportable et plain de cruauté,</l>
+            <l>Qui pense exterminer la race Abrahamide,</l>
+            <l>Celuy, qu'ores tu riens est-il un homicide,</l>
+            <l>Un infame adultere, un iarron, un colleur,</l>
+            <l>Est-il empoisonneur, est-il un querelleur,</l>
+            <l>Ou quelque autre nourri parmi te commun vice?</l>
+            <l>Plustost tu le verras amateur de iustice,</l>
+            <l>Et vraj observateur de nostre sainte Loy:</l>
+            <l>Ta rouë ne m'est point, ô miserable Roy,</l>
+            <l>Sigriefue a endurer, qu'ell puille davantage</l>
+            <l>Flechir mon invincible et geneveux courage:</l>
+            <l>Desia mon ame a pris par le vouloir divin</l>
+            <l>Sa conversation dans le ciel cristallin,</l>
+            <l>Et a ià pris son vol au travers de la nuë</l>
+            <l>Dont les anges ioyeux chantent pour sa venuë.</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME.</speaker>
+            <l>Il a beau implorer la faveur de son Dieu.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Puis qu'il n'est encor mort, iettez-le dans le feu</l>
+            <l>Tout ainsi comme il est estendu sur la rouë.</l>
+          </sp>
+          <stage>Ils le iettent dans le feu.</stage>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME.</speaker>
+            <l>Mon ami si ton Dieu est forcier et qu'il iouë</l>
+            <l>D'enchantement, de luy qu'il t'aide maintenant:</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER.</speaker>
+            <l>Voici estrange cas, par Iupin dieu-tonnant,</l>
+            <l>D'estre dedans cefeu il semble qu'il luy plaise</l>
+            <l>Et qu'il ne sente point la chaleur de la braise.</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE SECOND.</speaker>
+            <l>Quoy qu'il perde sa force il a l'entendement:</l>
+            <l>Aussi bon et entier comme au commencement:</l>
+            <l>Et moy i’en suis tant las, que l’en suis hors d'aleine.</l>
+          </sp>
+          <sp who="#machabee">
+            <speaker>MACHABEE.</speaker>
+            <l>Mes freres bien-aimez, que ma cruelle peine</l>
+            <l>Ne vous estonnez pas, prenez exemple à moy</l>
+            <l>Car ie meurs le premier constamment pour la foy</l>
+            <l>De mon courage fort contempler la confiance,</l>
+            <l>Mesprisez du tyran la superbe arrogance,</l>
+            <l>Soyez soldats de Dieu, bien plustost que de luy:</l>
+            <l>Car il peut rabaisser voire des aiourd'huy</l>
+            <l>S'il luy plaist son orgueil, et de l'affligé mesme</l>
+            <l>Haut eslever l’opprobre et la gloire supresme.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Qu'on luy couppe la langue avecques un cousteau,</l>
+            <l>Et qu'on l'escorche apres, tout ainsi comme un veau,</l>
+            <l>Et pour dernier supplice, il le faut en arriere</l>
+            <l>letter ainsi dedans la bouillante chandiere.</l>
+          </sp>
+          <stage>Ils coupent la langue.</stage>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME.</speaker>
+            <l>Sça la langue chetif, tu as trop blasphemé.</l>
+          </sp>
+          <stage>Ils l'escorchent.</stage>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER.</speaker>
+            <l>Tu feras, de la peau maintenant de fermé,</l>
+            <l>Escorchons compagnons.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Vrayment il plaint encore,</l>
+            <l>S'il est plus guere ainsi, il faudra que ie plore</l>
+            <l>Tant son tourment est grand, iettez-le donc dedans</l>
+            <l>Car nous avons affaire apres à d'autre gens.</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME.</speaker>
+            <l>Il est bien chaudement: mais c'est chose certaine</l>
+            <l>Que si les autres fix nous font autant de peine</l>
+            <l>Il n'y aura moyen de pouvoir resister.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE</speaker>
+            <stage>à genoux.</stage>
+            <l>le te prie, ô mon Dieu, qu'il te plaise assister</l>
+            <l>Ames autres enfans, leur foy soit redoublee</l>
+            <l>A l'exemple du preux et vaillant Machabee.</l>
+            <l>O felicité grande, ô qu'heureux est le iour</l>
+            <l>Qu'il a rendu l'esprit paisible en ton amour.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Or ça voyons un peu si cet autre gendarme</l>
+            <l>Aura le cœur d'attendre une si chaude alarme</l>
+            <l>Er si rude combat, comme son frere aisné</l>
+            <l>Aber, aprochez-vous ne soyez obstine:</l>
+            <l>Ores devant vos yeux, vostre frere peu sage</l>
+            <l>De sa legereté à rendu tesmoignage.</l>
+            <l>O spectale piteux, vous l'avez veu aussi</l>
+            <l>Se perdre comme un fol: ne faites pas ainsi,</l>
+            <l>Observez mes Edicts, ou bien ie vous asseure</l>
+            <l>Que sans aucun respit vous mourrez à ceste heure.</l>
+          </sp>
+          <sp who="#aber">
+            <speaker>ABER.</speaker>
+            <l>Tyran abominable, dit comment penses-tu</l>
+            <l>Pour me tant menacer rabaisser ma vertu?</l>
+            <l>Ie fais autant d'estat de ta chaude colere</l>
+            <l>Comme de ta promesse, et la mort de mon frere</l>
+            <l>M'embrase encores plus en l'amour de mon Dieu,</l>
+            <l>Tu vis Eleazar ce vieil pere, au milieu</l>
+            <l>Des tourmens, mespriser la force de tes hommes.</l>
+            <l>Tu vis son asseurance, et nous autres qui sommes</l>
+            <l>Tous ieunes et dispos devons-nous moin savoir</l>
+            <l>De cœur et de vertu, de force et de pouvoir?</l>
+            <l>Comme cognoistrois-tu nostre constance forte</l>
+            <l>Sinon en deschirant nos corps de telle sorte.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Qu'on me face venir ce griffu Leopard</l>
+            <l>Promptement Sosander: car il est desia tard.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Orsus, va donc querir le maistre qui le traicte</l>
+            <l>Et qu'il ameine icy ceste cruelle beste.</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER SOLDAT.</speaker>
+            <l>Gouverneur amenez l'animal furieux</l>
+            <l>Pour dismembrer Aber, l'un de nos sept Hebrieux,</l>
+            <l>Le Roy prendra plaisir que vif il le devore.</l>
+          </sp>
+          <sp who="#gouverneur">
+            <speaker>LE GOUVERNEUR.</speaker>
+            <l>Voila qui va tresbien, car il n'a point encore</l>
+            <l>(Dont l’estois tres-marri) ce jourd'huy desiéune;</l>
+            <l>Ainsi sa maiesté me l'avoit ordonné,</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Or sus que ce chetif promptement on luy donne.</l>
+          </sp>
+          <stage>Ils le présentent à Aber.</stage>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER.</speaker>
+            <l>Il ne vent nullement toucher à sa personne.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Voila vrayment des tours de son vieil precepteur</l>
+            <l>Moyse Hebrieu, qui fut un parfait enchanteur.</l>
+            <l>Ie verray' s'il aura tousiours ceste puissance</l>
+            <l>D'user si bardiment de l'art de nigromance,</l>
+            <l>Gouverneur remenez ce farouche animal.</l>
+          </sp>
+          <sp who="#gouverneur">
+            <speaker>LE GOUVERNEUR.</speaker>
+            <l>Puisqu'il a tant senti, sans luy faire aucun mal</l>
+            <l>Il y a quelque Dieu qui l'a pris en sa garde.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Or sus, sus compagnons chacun de vous regarde</l>
+            <l>A l'estriller si bien qu'il ne s'en mocque point.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Pour estre mieux dipos, mettez-vous pourpoinct</l>
+            <l>Vous en fraperez tous beaucoup plus à vestre oise.</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME.</speaker>
+            <l>Prevost i’en suis content, ie fuis chant comme braise</l>
+            <l>Tant ie suis travaillé.</l>
+          </sp>
+          <stage>Ils le fouettent.</stage>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME.</speaker>
+            <l>Et un, deux, trois.</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME.</speaker>
+            <l>Et t'abuses-tu là, pour rien ie ne voudrois</l>
+            <l>Conter autant de coups comme il faut quel’en donne.</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER.</speaker>
+            <l>Il ne plaint ni ne deut.</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME.</speaker>
+            <l>C’est dequoy ie m'estonne.</l>
+            <l>On diroit, à le voir, qu'il ne sent point de coups</l>
+          </sp>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME.</speaker>
+            <l>Si est-il bien frotté et dessus du dessous.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Ouvrez-luy l'estomac, car ie veux qu'on luy voye</l>
+            <l>Le poumon, intestins, et les lobes du foye:</l>
+            <l>Et puis que chacun prenne à sa main un cousteau,</l>
+            <l>Du col iusques aux pieds, pour luy oster la peau.</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME.</speaker>
+            <l>Que son corps fust desia en noire pourriture,</l>
+            <l>Nous sommes tous lassez, faisons donc l'ouverture</l>
+            <l>Compagnon aide-moy: ô quell’ pitié voici.</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER.</speaker>
+            <l>Horrible chose à voir, i’en ay le cour transi.</l>
+          </sp>
+          <sp who="#aber">
+            <speaker>ABER.</speaker>
+            <l>O que la mort es douce, ô qu'elle est agreable</l>
+            <l>A celuy qui la prend d'une amour charitable</l>
+            <l>Pour Dieu son createur: plus il est tourmenté,</l>
+            <l>Plus reçoit de loyer à perpetuité.</l>
+            <l>D'avantage, ô tyran inhumain, et barbare;</l>
+            <l>Combien que ces tourmens soyent de façon si rare,</l>
+            <l>Combien que tes bourreaux soyent de frapper si las,</l>
+            <l>D'exercer cruauté iamais n'assouviras:</l>
+            <l>Car il est de besoin que tu esprouves mesme</l>
+            <l>(Iniuste usurpateur) par la douleur extreme</l>
+            <l>Que ie te voy souffrir, surmontant ton desir</l>
+            <l>Par patience helas! i’aye plus de plaisir</l>
+            <l>Que ie ne sens d'ennuy de tourment et tristesse,</l>
+            <l>Quoy que la peine soit tre sgriesve qui m'opresse:</l>
+            <l>I'endure mieux le mal que tu me fais porter,</l>
+            <l>Que tu ne prens plaisir à mon corps tourmenter.</l>
+            <l>Combien que mes travaux, et mes peines soyent grandes,</l>
+            <l>Bien moindre est ma douleur, que de toy qui commandes</l>
+            <l>Et en me tourmentant tu es plus tourmenté,</l>
+            <l>Ma patience aussi te rend plus despité.</l>
+            <l>Fais ce que tu voudras ne pourras encore</l>
+            <l>Fuir le iugement du Seigneur que i’adore.</l>
+            <l>La peine, que l'esprit prophane et Caldeen</l>
+            <l>Ne peut iamais comprendre en son erreur Payen</l>
+            <l>De tante eternité pour vray t'est preparee</l>
+            <l>Execrable tyran, ton ame est destinee</l>
+            <l>Au supplice eternel, et ne pourra iamais</l>
+            <l>Imiter le malheur lequel ie te promets.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Sus sus, escorchiez-le, vrayment c'est une honté</l>
+            <l>Obstiné comme il est qu'il ne face aucun conte,</l>
+            <l>Ni du Roy, ni de nous.</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME.</speaker>
+            <l>Or le tiens par la teste,</l>
+            <l>Qu'il soit donc escorché comme un'pauvre beste.</l>
+          </sp>
+          <stage>Il rend l'esprit avec ioye.</stage>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Seigneur, il a rendu l'esprit entre tes mains</l>
+            <l>Que mes autres enfans, s'il te plait, ne soient moins</l>
+            <l>Hardis du courageux pour porter ta querelle</l>
+            <l>Que ces deux qui sont morts d'une cruauté telle.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Or regardez Machir, combien a profitė</l>
+            <l>De vostre frere Alber la dure fermete:</l>
+            <l>Fuyez un tel danger, et perilleux naufrage,</l>
+            <l>Par la faute d'autruy on doit devenir sage.</l>
+            <l>Esquel mal trouvez-vous aux sacrifices tels</l>
+            <l>Que ie veux estre faits sur nos fumeux autels ?</l>
+          </sp>
+          <sp who="#machir">
+            <speaker>MACHIR.</speaker>
+            <l>Comme nous sommes tous. Ô cruel adversaire.</l>
+            <l>Les naturels enfans d'un pere e d'une mere,</l>
+            <l>Ainsi pareillement, que nous avons tous sept</l>
+            <l>Esté dans le berceau nourris d'un mesme laict:</l>
+            <l>Aussi sommes nous tous de la bonté divine</l>
+            <l>Amateurs, et suyvons une mesme doctrine:</l>
+            <l>Ainsi nous voulons tous, et d'un consentement</l>
+            <l>Esprouver coup sur coup l'effet de ton tourment,</l>
+            <l>Tu te trompes, ô Roy, le penser de la sorte</l>
+            <l>Forcer na conscience avecques ta main forte:</l>
+            <l>Par ainsi ne perd temps: car ie suis pour patir</l>
+            <l>Et non pas pour respondre, où pour me repentir</l>
+            <l>Iamais, iamais mon cœur ne sera idolatre.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Comment vous faites donc le fol opiniatre?</l>
+            <l>Qu'on dresse promptement cet instrument nouveau</l>
+            <l>Ce tourment qui est fait en forme de rondeau.</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER SOLDAT.</speaker>
+            <l>Sire le voila prest, que vous plaist-il qu on face?</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Ie rahaisseray bien maintenant son audace,</l>
+            <l>Attachez luy soldats, et ses mains et ses bras</l>
+            <l>Avecques ses deux pieds en tirant contre bas.</l>
+            <l>Puis que son ventre foit, et sans misericorde,</l>
+            <l>Serré par plusieurs iours d'une bien grosse corde:</l>
+            <l>Estant en cet estat son corps haut flevé,</l>
+            <l>Vous verrez l'instrument bravement esprouvé.</l>
+          </sp>
+          <stage>Ils le mettent aux tourmens,</stage>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME SOLDAT.</speaker>
+            <l>Or sus donc compagnons travaillons, le temps presse.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>De l'éspine du dos la ioincture se laisse</l>
+            <l>Separer de son lieu, ô furieux tourment,</l>
+            <l>Les iambes et les bras s'arrachent mesmement.</l>
+          </sp>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIESME SOLDAT.</speaker>
+            <l>Il n'a partie au corps qui ne soit ià distraitte.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Sus, ostez-luy la peau promptement de la teste,</l>
+            <l>Et luy couppez apres et les mains et les pieds,</l>
+            <l>I'enrage de le voir, pour mal que luy factez</l>
+            <l>Endurer, toutesfois il semble qu'il se iouë.</l>
+            <l>Cela fait, liez-le dessus cest'autre rouë</l>
+            <l>Et puis le laissez-là mourir tout à loisir.</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME SOLDAT.</speaker>
+            <l>Compagnons i’ay au cœur un fascheux desplaisir</l>
+            <l>De voir ce patient sousfrir tant de misere.</l>
+          </sp>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER.</speaker>
+            <l>Tout cela n'y fait rien, cependant il faut faire</l>
+            <l>En despit qu'en ayons, tout ce qu'il plaist au Roy.</l>
+          </sp>
+          <sp who="#machir">
+            <speaker>MACHIR.</speaker>
+            <l>Tyran, nous endurons tout ceci pour la foy,</l>
+            <l>Mais toy, quies autheur de nostre grief martyre</l>
+            <l>Tu auras quelquefois un tourment beaucoup pire.</l>
+            <l>O bon pere Abraham, avance un peu ta main</l>
+            <l>Afin de me tirer s'il te plaist en ton sein.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Il faut coupper sa langue, et pour peine derniere</l>
+            <l>Qu'on le iette aussi tost dans l'ardante chaudiere.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>O Dieu qui as tousiours esté nostre support</l>
+            <l>Donne à mes autres fils, un courage aussi fort.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Iudas, soyez plus sage, implorez la clemence,</l>
+            <l>Du Roy, qui est fort prompt à pardonner l'offence</l>
+            <l>Quelque grande qu'ell fort, lors qu'il en est requis</l>
+            <l>Vous aurez son amour, en gardant ses Edicts,</l>
+            <l>La victoire qu'on peut acquerir sans carnage</l>
+            <l>Tousiours à Iupiter grand Dieu pluist davantage.</l>
+          </sp>
+          <sp who="#iudas">
+            <speaker>IUDAS.</speaker>
+            <l>La, là, vous perdez temps miserables bourreaux,</l>
+            <l>Tout ainsi que vos feux, vos roes et vos couteaux</l>
+            <l>Vos captieux propos et sanglante menace</l>
+            <l>Ne me pourra priver de la benigne face</l>
+            <l>Du Seigneur tout-puissant qui m'a pris à merci:</l>
+            <l>Iamais vous ne pourrez me si parer aussi</l>
+            <l>De la sainte union de mes bien-aimez freres.</l>
+            <l>Ie ne fais point d'estat de vos feintes prieres,</l>
+            <l>Continuez vos coups, si tost que vus pourrez</l>
+            <l>Car le soleille baisse, alors vous me verrez</l>
+            <l>Plus ioyeux au tourment que nous n'avez d'envie</l>
+            <l>De mi persecuter, e d'arracher marie.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Que maudit soit le iour que ie fus curieux</l>
+            <l>De faire apprehender ces obstinez Hebriaux:</l>
+            <l>Ils me font enrager, à cestuy qui blaspheme</l>
+            <l>Qu’on luy couppe la langue, et puis ie veux moy mesme</l>
+            <l>L'attacher au posteau: car vous estes lassez,</l>
+            <l>Quant il aura les bras derriere rinu[c]ez</l>
+            <l>Vous luy verrez les os de sa poitrine iende</l>
+            <l>Tournez en droite pointe, et tous les nofe s'estende</l>
+            <l>Aidez-moy compagnons.</l>
+          </sp>
+          <stage>Le Roy l'attache luy-mesme en la façon qu'il est dit.</stage>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME.</speaker>
+            <l>Qu'il souffre de douleur!</l>
+            <l>Quell’ pitié d'estre tant obstiné en son cour!</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Tost, tost que sur la rouë à ceste heure on le iette</l>
+            <l>Ie voy bien qu'il se meurt.</l>
+          </sp>
+          <stage>Les mains ioinctes il rend l'esprit, le mettant en la rouë.</stage>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME.</speaker>
+            <l>Frere prens par la teste</l>
+            <l>Et moy d'autre costé, ie prendray par ici.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Sois aux autres Seigneur, pitoyable à mercy</l>
+            <l>Quoy qu'ils soyent fort tendrets, donne leur le courage</l>
+            <l>De mespriser l'effort du tyran et sa rage.</l>
+          </sp>
+          <stage>Se presente lay-mesme au tourment.</stage>
+          <sp who="#achar">
+            <speaker>ACHAR.</speaker>
+            <l>O Roy abominable, ô tyran oppresseur</l>
+            <l>Ie me presente à toy, d'un invincible cœur</l>
+            <l>Pour estre tourmenté avant que lon me touche,</l>
+            <l>Le n'attens point cruel, que tu ouvre la bouche</l>
+            <l>Pour me le commander: le pur sang respandu</l>
+            <l>De ces quatre innocens iustement t'a rendu</l>
+            <l>Odieux envers Dieu, et du tout condamnable</l>
+            <l>A l'éternelle gehenne et peine perdurable.</l>
+            <l>le feray le cinquième, afin que par le fer</l>
+            <l>Tant plus en meurtriras plus grand soit ton Enfer:</l>
+            <l>Respons, belle sauvage, entre les plus cruelles,</l>
+            <l>Quel mal avons-nous fait: pourquoy tu nous bourrelles?</l>
+            <l>Tu dis qu'on meritons et le glaive et le feu</l>
+            <l>Pour ce que nous faisons sacrifice au vray Dieu:</l>
+            <l>C'est la mesme raison, laquelle nous inuite</l>
+            <l>A mourir constamment et ne prendre la fuite.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Sus, qu'il soit empoigné et mis dans ce vaisseau</l>
+            <l>Avecques presse à vis, for corps en un monceau</l>
+            <l>Soit ramené en bas faisant toucher sa teste</l>
+            <l>Par force à ces genoux: puis apres qu'on le mette</l>
+            <l>Dans les autres tourmens: car ie veux qu'il n'ait moins</l>
+            <l>De peine et de douleur que ces freres germains.</l>
+          </sp>
+          <sp who="#achar">
+            <speaker>ACHAR.</speaker>
+            <l>O tyran, vois-tu pas que plus tu te despites</l>
+            <l>Et plus mes peines sont legeres et petites:</l>
+            <l>Que ce m'est plus grand ioye et consolation</l>
+            <l>Quand tu fais redoubler ma dure passion.</l>
+            <l>S'il te plaist mettre fin à ma triste misere.</l>
+            <stage>Il rend l'esprit.</stage>
+            <l>Ie te rends mon esprit, ô Seigneur debonnaire.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Or sus, dites Areth, lequel vous aimez mieux</l>
+            <l>Ou bien d'estre puni comme un seditieux,</l>
+            <l>Ou recevoir honneur qui vous soit profitable?</l>
+          </sp>
+          <sp who="#areth">
+            <speaker>ARETH.</speaker>
+            <l>Quoy que ie sois plus ieune, ô tyran execrable</l>
+            <l>Que ceux que tu as fait mourir cruellement,</l>
+            <l>Mon esprit toutesfois resemble entierement</l>
+            <l>A leurs heureux esprits, et faut que le patisse</l>
+            <l>En mon corps ainsi qu'eux, pour la sainte iustice</l>
+            <l>Et gloire du Seigneur, car nous avons esté</l>
+            <l>Ensignez tous ensemble aux loix de verité.</l>
+            <l>Commande tes bourreaux, impiteux et terribles;</l>
+            <l>Qu'ils apliquent sur moy tes tourmens si horribles</l>
+            <l>Et le temps que tu veux employer a prescher</l>
+            <l>Soit employe plustost à combattre ma chair.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>C'est donc de pis en pis, maudite soit la race</l>
+            <l>Que ie nepuis gaigner par douceur ou menace.</l>
+            <l>Qu'il soit la testé en bas lie à ce posteau</l>
+            <l>Pour mieux luy estourdir son suente cerveau,</l>
+            <l>Par descente d'humeurs froides et aquatiques.</l>
+          </sp>
+          <stage>Ils l'attachent en un posteau la teste en bas.</stage>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER.</speaker>
+            <l>Qui voudroit bien purger des fluxios Bacchiques</l>
+            <l>En voila le moyen.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Allumer un beau feu</l>
+            <l>Vis à vis pour le cuire et rostir peu à peu</l>
+            <l>Ainsi la peau, ses nerfs, s'estendront, et sa rage</l>
+            <l>En languissant tousiours, accroistra davantage.</l>
+          </sp>
+          <stage>On allume le feu vis à vis de luy.</stage>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME.</speaker>
+            <l>Vrayment vous voila bien compere, chauffez-vous</l>
+            <l>A vostre aise, et passez ainsi vostre courroux.</l>
+          </sp>
+          <sp who="#areth">
+            <speaker>ARETH.</speaker>
+            <l>O genereux combat, ô constante bataille,</l>
+            <l>O guerresainte bonne, ô timide canaille</l>
+            <l>Vous estes beaucoup plus espouventez que moy?</l>
+            <l>Regardez les vaillans champions de la foy,</l>
+            <l>De leur martyre tel, la fameuse couronne</l>
+            <l>Et la punition que l'Eternel vous donne</l>
+            <l>Perpetuellement: ô Roy, qui as esté</l>
+            <l>Le premier inventeur de ceste cruauté,</l>
+            <l>Il ne faut que nous fix, par divine vengeance,</l>
+            <l>Pour estaindre ton sceptre et royalle puissance.</l>
+            <l>Ton feu certes est froid, il n'a point de chaleur</l>
+            <l>Et nos corps sont plus forts que ta rage et fureur.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Percez-luy les costez d'alesnes bien picquentes,</l>
+            <l>Et pour son grand blaspheme et paroles mordantes</l>
+            <l>Soldats, coupper sa langue, et que son corps tremblant</l>
+            <l>Soit aussi tost ietié dans ce cuveau bouillant.</l>
+          </sp>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME.</speaker>
+            <l>Par lupin, qui a fait de le ciel et la nuë,</l>
+            <l>Ie suis tant travaillé que ma force est perdue.</l>
+          </sp>
+          <stage>Ils le tourmentent de la façon predite. Il rend l'esprit.</stage>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME.</speaker>
+            <l>Or sus, fus, bastons-nous, car le jour clair et beau</l>
+            <l>S'en va céder le lieu au decroissant flambeau.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>O mere bien heureuse, et tant bien fortunee</l>
+            <l>Qu'il ne me reste plus detoute malignee</l>
+            <l>Que Iacob mon mignon, qui n'ait de ce faux Roy</l>
+            <l>Eprouvé les tourmens, pour accomplir la Loy.</l>
+            <l>Combien qu'il soit encor, ô mon Dieu ieune d'aage</l>
+            <l>Donne luy s'i lte plaist un resistant courage.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Venex ça mon enfant, i’ay grand pitié de vous</l>
+            <l>Vous estes pour le seur Facob, celuy de tous</l>
+            <l>Que i’ay le mieux aimé, si vous avez envie</l>
+            <l>De sauver vostre honneur et sauver vostre vie</l>
+            <l>Asseurez-vous de moy: car ie vous pourvoirray</l>
+            <l>Aux estats de ma court le mieux que ie pourray</l>
+            <l>Si vous voulez fuir, ces tourmens et ses peines</l>
+            <l>Vous serez le premier de tous mes capitaines,</l>
+            <l>Si tost que vous serez d'aage de commander,</l>
+            <l>Mon fils, vous devez bien sagement regarder</l>
+            <l>Par l'exemple d'autruy ce que vous devez faire,</l>
+            <l>Au moins ie ne suis pas la cruel adversaire</l>
+            <l>Comme l'on penseroit: puis que l’aime à mon tour</l>
+            <l>Cil qui me veut aimer, d'un reciproque amour.</l>
+            <l>Dame escoutez un peu: l'animal plus farouche</l>
+            <l>A loin de conserver l'aimé fruit de sa couche:</l>
+            <l>Vous qui devez avoir par plus forte raison</l>
+            <l>L'honneur de vos enfans et de votre maison</l>
+            <l>Tousiours devant vos yeux, estes vous si barbare</l>
+            <l>Souffrir qu'une noblesse et famille tant rare</l>
+            <l>Soit ainsi ruinee? au moins pensez de moy</l>
+            <l>Que ie fais envers vous office de bon Roy,</l>
+            <l>Ei ne tiendra qu'à vous que lacob, lequel l’aime</l>
+            <l>Ne soit mis en honneur aussi bien que vous mesme,</l>
+            <l>Dame, conseillez luy d'cuiter le tourment</l>
+            <l>Et devisez ensemble en secret hardiment.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Mon fils regarde bien à ce qui se presente,</l>
+            <l>Contemple la vertu de ta mere dolente</l>
+            <l>Et son ventre foecond, qui ta neuf mois porté</l>
+            <l>Et par trois ans entiers doucement alaicté,</l>
+            <l>Quit'a tousiours nourri, en la foy de l'Eglise</l>
+            <l>Et enseigné les loix du precepteur Moyse,</l>
+            <l>Regarde bien mon fils de la terre et les cieux,</l>
+            <l>Contemple ce qui est contenu en iceux,</l>
+            <l>Regarde la clarte des estoilles courantes,</l>
+            <l>Et de ces deux flambeaux les faces reluisantes,</l>
+            <l>Sçachez que l'Eternel par un divin moyen</l>
+            <l>Toutes ces choses là voulut faire de rien</l>
+            <l>Mesme le genre humain, qui est le plus bel œuvre</l>
+            <l>Et le plus precieux que nature descœuvre,</l>
+            <l>Ne crains point un tyran, qui est usurpateur</l>
+            <l>De nostre sainte terre, ains fois imitateur</l>
+            <l>De tes frères qui tous nous ont monstré la voie</l>
+            <l>De iouyr bien heureux d'une eternelle ioye.</l>
+          </sp>
+          <sp who="#iacob">
+            <speaker>IACOB.</speaker>
+            <l>Tout se portera bien, soldats defliez-moy</l>
+            <l>Car ie veux en secret aller parler au Roy,</l>
+          </sp>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME.</speaker>
+            <l>Vous faites bien lacob, sa maiesté desire</l>
+            <l>Que vous n'enduriez point un si cruel martyre,</l>
+            <l>Vous voila deflié, allez parler à luy.</l>
+          </sp>
+          <stage>Au lieu d'aller parler au Roy, il va vers la chaudiere boüillante.</stage>
+          <sp who="#iacob">
+            <speaker>IACOB.</speaker>
+            <l>O Roy le plus meschant qui soit pour le iourd'huy,</l>
+            <l>Regnant par l'univers, tyran insupportable,</l>
+            <l>Un Prince doit-il estre ainsi abaminable?</l>
+            <l>Qui t'a vestu de pourpre et mis dessous ta main</l>
+            <l>Un si puissant Royaume? ô barbare inhumain,</l>
+            <l>Qui t'a fait grand? sinon celuy., auquel tu donnes</l>
+            <l>La persecution on nos propres personnes.</l>
+            <l>Penses-tu point mourir, toy qui es si cruel</l>
+            <l>Envers les Palestins et peuple d'Israel?</l>
+            <l>Quoy que tu sois pourveu de royalle puissance,</l>
+            <l>Penserois-tu plustost emporter la balance</l>
+            <l>Si nous estions poisez chacun de son coste?</l>
+            <l>Exerce si tu veux sur moy ta cruauté</l>
+            <l>Voila mon pasle corps, lequel ie te prensente</l>
+            <l>Pour estre mis dedans ceste chaudiere ardente,</l>
+            <l>Si tu as invente quelque plus grief tourment</l>
+            <l>Qu'il soit par ces bourreaux dresse bien pröptement</l>
+            <l>Car sur tout ie desire aller apres mes freres</l>
+            <l>Et souffrir ainsi qu'eux des douleurs tres-ameres.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>O serpent infernal; qui attires mon cœur</l>
+            <l>Au but d'une enragee et tigrine fureur,</l>
+            <l>O traistre soin rongeard et glouton qui devores</l>
+            <l>Tous mes sens corporels et mon esprit encores,</l>
+            <l>Avance promptement tout ce qui peut rester</l>
+            <l>Sans me laisser long temps languissant contrister:</l>
+            <l>Avance hardiment le comble de mes peines</l>
+            <l>Puis qu'ainsi ie cognais mes esperances vaines.</l>
+            <l>Seray-ie coup sur coup vaincu devant mes yeux,</l>
+            <l>Et bravé tant de fois par ces mutins Hebrieux?</l>
+            <l>Sus, qu'on luy mette au nez des senteurs fort puantes,</l>
+            <l>Et qu'on le couche apres dans des presses tournantes,</l>
+            <l>Estant le ventre en haut de son longo estendu.</l>
+          </sp>
+          <stage>Ils le mettent ainsi.</stage>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME.</speaker>
+            <l>Malheureux, si au Roy tu te fuwes rendu</l>
+            <l>TU ne serois frappE d'une telle tempeste.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Courage mon enfant, ie vous tiendray la teste</l>
+            <l>Afin de Soulager un peu vostre tourment.</l>
+            <stage>Elle le baile, et luy foustient la teste au Tourment.</stage>
+            <l>Que ie vous baise encor une fois seullement</l>
+            <l>Car c'est le dernier bien que ie vous pense faire.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Faites-noy retirer ceste sacheuse mere</l>
+            <l>Et soudain luy couppez les iambes et les bras :</l>
+          </sp>
+          <sp who="#iacob">
+            <speaker>IACOB.</speaker>
+            <l>Ie te prie mon Dieu, de n'abandonner pas</l>
+            <l>Au milieu des tourmens, les femmes ni les hommes</l>
+            <l>Qui seront affligez ainsi comme nous sommes.</l>
+            <l>Mon ame tost s'en va avec mes saints ayeux.</l>
+            <stage>Il rend l'esprit.</stage>
+            <l>Reçoy-la s'il te plaist, au nombre des esleuz.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Compagnons, on perdroit sa peine et sa parolle</l>
+            <l>De penser amollir le cœur de ceste folle.</l>
+            <l>Sus, fus, despoüillez-là, que ses poings soyent liez</l>
+            <l>Bien-tost, et qu'un chacun ait les bras desployez</l>
+            <l>Pour decoupper menu ses mammelles pendantes</l>
+            <l>Qui ont nourri l'effet de mes peines cuisantes.</l>
+          </sp>
+          <sp who="#sosander">
+            <speaker>SOSANDER.</speaker>
+            <l>Hastez-vous, vous voyez que le soleil nous fuit</l>
+            <l>Pour ceder à la froide et tenebreuse nuict.</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME.</speaker>
+            <l>Mettons bas le pourpoint.</l>
+          </sp>
+          <stage>Ils la fouettent.</stage>
+          <sp who="#soldat_1">
+            <speaker>LE PREMIER.</speaker>
+            <l>Or sus fus, Damoyselle,</l>
+            <l>Il faut un peu grater vostre fraische mammelle.</l>
+          </sp>
+          <sp who="#soldat_2">
+            <speaker>LE DEUXIEME.</speaker>
+            <l>Vrayment ie n'en peux plus, compagnons arrester</l>
+            <l>Suffist-il pas d'avoir deschiré ses costez?</l>
+          </sp>
+          <sp who="#soldat_3">
+            <speaker>LE TROISIEME.</speaker>
+            <l>Au diable soyent les Iuifs, leurs loix et leurs disputes,</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Roy ambitieux, ceux que tu persecutes</l>
+            <l>Valent bien mieux que loy, que me t'informais-tu</l>
+            <l>Le premier comme i’ay par cy devant vescu ?</l>
+            <l>J'ay garde chasteté virginalle, et en l'aage</l>
+            <l>Qu'on me permist, ie pris en loyal mariage</l>
+            <l>Un Gentilhomme autant accompli en sçavoir</l>
+            <l>Et autant vertueux que l'on en pourroit voir.</l>
+            <l>L’ay produit des enfans, quoy que tu peusses dire</l>
+            <l>Qui ne meritoyent point on si cruel martyre.</l>
+            <l>Regretter toutesfois ie ne veux, ni les doy</l>
+            <l>Puis qu'ils sont ainsi morts constamment pour la foy:</l>
+            <l>Tyran ie ne crains point que iamais il se treuve</l>
+            <l>Que i’aye mesmement commis faute estant vefue</l>
+            <l>Combien que mon mary las! Ie fust absenté</l>
+            <l>Ie luy ay neant moins garde fidelité.</l>
+            <l>Qui te fait donc ainsi destruire me lignee?</l>
+            <l>Rien sinon que la dure de triste destinee</l>
+            <l>Qui t'appelle aux enfers, pour estre à ton sieurs mais</l>
+            <l>Puni cruellement pour te maux que tu fais.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>LE ROY.</speaker>
+            <l>Ostez la promptement ell' m'est trop desplaisante</l>
+            <l>Et la iettez dedans la chaudiere boüillante.</l>
+          </sp>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>O mort douce et plaisante, ô tourment bien heureux</l>
+            <l>Qui guides mon esprit seurement dans les cieux.</l>
+            <l>Dieu tout puissante bon, tant que se peut estendre.</l>
+            <l>Ma clameur, ie te veux graces de bon cœur rendre</l>
+            <l>De nous avoir donné un courage assez fort</l>
+            <l>Pour supporter les coups e violent effort</l>
+            <l>Du superbe tyran, qui par son arrogance</l>
+            <l>Pensoit vaincre mes fils  et leur adolescence,</l>
+            <l>Mais il estoit trop foible, ô pere souverain,</l>
+            <l>Puis que tu avois pris leur bon droit en ta main,</l>
+          </sp>
+          <sp who="#soldat_4">
+            <speaker>LE QUATRIEME.</speaker>
+            <l>V'a prescher si tu veux dedans ceste chaudiere.</l>
+          </sp>
+          <stage>En rendant l'esprit, il tombe des foudres du ciel qui troubla fort Antiocus.</stage>
+          <sp who="#solomone">
+            <speaker>SOLOMONE.</speaker>
+            <l>Reçoy doncques mon ame ô seigneur debonnaire.</l>
+          </sp>
+          <sp who="#roy">
+            <speaker>ANTHIOCUS.</speaker>
+            <l>O Cretois ravissant, penses-tu m'estonner</l>
+            <l>Pour voir dessu sma teste horriblement tonner?</l>
+            <l>Pour avoir maintenant, par un grand coup de foudre</l>
+            <l>Mis une portion de mon palais en poudre?</l>
+            <l>Es-tu tant abusé que de favoriser.</l>
+            <l>Celuy qui t'a voulu fierement mespriser?</l>
+            <l>Aurois-tu bien le cœur de porter la querelle</l>
+            <l>Du peuple circoncis hipocrite et rebelle?</l>
+            <l>Ie t'en despite au fort, car quand tu le voudrois</l>
+            <l>Ingrat Dieu que tu es, faire ne le pourrois.</l>
+            <l>Ie suis assez pourveu de force et de pussance</l>
+            <l>Pour retrancher du tout ta superbe arrogance:</l>
+            <l>Ie suis beaucoup plus fort que le ferme rocher</l>
+            <l>Qui ne craint vent ni vague au milieu de la mer,</l>
+            <l>Ie despite les cieux, ie despite la terre</l>
+            <l>Qui voudroyent s'esmouvoir pour me faire la guerre</l>
+            <l>Penses-tu lupiter estre plus grand que moy?</l>
+            <l>Suis-ie pas fils de Roy es plus grand Roy que loy? .</l>
+            <l>Quel profit auras-tu, quel honneur, quelle gloire</l>
+            <l>Que te peuple mutin emporte la victoire?</l>
+            <l>Te suffisoit-il pas, d'avoir à ces Hebrieux</l>
+            <l>Permis de me braver ainsi devant tes yeux?</l>
+            <l>Et me faire souffrir, mille et mille molestes</l>
+            <l>Sans m’envoyer encor tes foudres et tempestes?</l>
+            <l>Est-ce là le guerdon, de l'avoir tant aimé</l>
+            <l>Et tousiours le grand Dieu en mon cœur estimé?</l>
+            <l>Garde le Ciel vouté, les flambeaux et la nuë</l>
+            <l>Ie ne veux plus de toy, car la paille c'est rompue</l>
+            <l>Entre nous pour le seur, ie desire bien mieux</l>
+            <l>Commander aux enfers qu'estre second aux Cieux:</l>
+            <l>Un iour aux lieux profonds ie feray bien paroistre</l>
+            <l>A Pluton, où ie suis que ie veux estre maitre.</l>
+          </sp>
+          <sp who="#furie">
+            <speaker>FURIE.</speaker>
+            <l>Prince Saturnien et Monarque infernal</l>
+            <l>Qui commande paisible au manoir Avernal,</l>
+            <l>Pourquoy sont les esprits noirs et diaboliques</l>
+            <l>Reserrez sans rien faire aux lieux Acherontiques?</l>
+            <l>Dont il me desplaist fort, des ames tous les jours?</l>
+            <l>Ne vois-tu pas aussi, combien nous est contraire</l>
+            <l>La mort d'Eleazar, les sept fils et la mere?</l>
+            <l>Que s'ils avoyent esté de leur Dieu divertis</l>
+            <l>Cela eust esbranle la foy de tous les Iuifs.</l>
+            <l>Seule suis demeuree a faire la poursuite</l>
+            <l>Car les autres avoyent aux enfers pris la fuite,</l>
+            <l>C'est pourquoy les tourmens que l’avois mis en main</l>
+            <l>De ce superbe Roy et tyran inhumain,</l>
+            <l>Ne m'ont de rien servi, et que mes entreprises</l>
+            <l>Ont redoublé l'honneur des amès circoncises.</l>
+            <l>Mais, Orque stygien, combien que tu sois Roy</l>
+            <l>De tout temps, vois in point que l'on s'attaque à toy</l>
+            <l>Que ce fol enragé, ce grand foudre de guerre,</l>
+            <l>Ne se contente point de commander en terre,</l>
+            <l>Et qu'il vent entreprendre encor apres sa mort</l>
+            <l>Aux Palais tenebreux demeurer le plus fort.</l>
+            <l>Ie l’ay si bien dressé et mis l'orgueil en teste,</l>
+            <l>Qu'il ne craint plus ni Dieu, ni foudre, ni tempeste,</l>
+            <l>Et presume en son cœur, qu'il n'y ait aiourd'huy</l>
+            <l>Aux cieux et aux enfers un plus grand Roy que luy,</l>
+            <l>Quant il aura senti, les efforts de la Parque</l>
+            <l>Et traverse le Styx dans l'infernalle barque,</l>
+            <l>Quoy que son cœur soit mis dans un riche cercueil</l>
+            <l>Son ame esprouvera le fruit de son orgueil.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

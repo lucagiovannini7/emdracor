@@ -1,0 +1,3443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="span######" xml:lang="esp" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La gran Semíramis</title>
+        <author>
+          <persName>
+            <forename>de Virués</forename>
+            <surname>Cristóbal</surname>
+          </persName>
+          <idno type="wikidata">Q1140501</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title>La gran Semíramis</title>
+          <author>Cristóbal de Virués</author>
+          <editor>Teresa Ferrer Valls</editor>
+          <idno type="URL">https://emothe.uv.es/biblioteca/textosXML/EMOTHE0559_LaGranSemiramis.xml</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY 4.0</ab>
+              <ref target="https://creativecommons.org/licenses/by/4.0/"
+                >Lizenzvertrag</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="gion">
+            <persName>GIÓN</persName>
+          </person>
+          <person sex="MALE" xml:id="diarco">
+            <persName>DIARCO</persName>
+          </person>
+          <person sex="FEMALE" xml:id="semiramis">
+            <persName>SEMÍRAMIS</persName>
+          </person>
+          <person sex="MALE" xml:id="zameis">
+            <persName>ZAMEIS</persName>
+          </person>
+          <person sex="MALE" xml:id="janto">
+            <persName>JANTO</persName>
+          </person>
+          <person sex="MALE" xml:id="troilo">
+            <persName>TROILO</persName>
+          </person>
+          <person sex="MALE" xml:id="menon">
+            <persName>MENÓN</persName>
+          </person>
+          <person sex="MALE" xml:id="nino">
+            <persName>NINO</persName>
+          </person>
+          <person sex="MALE" xml:id="teleucro">
+            <persName>TELEUCRO</persName>
+          </person>
+          <person sex="MALE" xml:id="oristenes">
+            <persName>ORISTENES</persName>
+          </person>
+          <person sex="MALE" xml:id="tigris">
+            <persName>TIGRIS</persName>
+          </person>
+          <person sex="MALE" xml:id="creon">
+            <persName>CREÓN</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="pueblo">
+            <persName>PUEBLO</persName>
+          </personGrp>
+          <person sex="MALE" xml:id="celabo">
+            <persName>CELABO</persName>
+          </person>
+          <person sex="MALE" xml:id="zopiro">
+            <persName>ZOPIRO</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-11-16">(DS/LG) conversion from source and editing.</change>
+        <change when="2023-02-22">(LG) removed who-tags for "prologo" and "tragedia".</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written" when="1579">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="span######" name="wikidata" passive="Q12949240"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>FIGURAS QUE HABLAN</head>
+        <castItem>
+          <role>NINO</role>
+          <roleDesc>rey de Asiria</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MENÓN</role>
+          <roleDesc>su capitán general</roleDesc>
+        </castItem>
+        <castItem>
+          <role>SEMÍRAMIS</role>
+          <roleDesc>mujer de Menón</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ZAMEIS NINIAS</role>
+          <roleDesc>hijo de Nino y de Semíramis</roleDesc>
+        </castItem>
+        <castItem>
+          <role>JANTO</role>
+          <roleDesc>consejero del rey</roleDesc>
+        </castItem>
+        <castItem>
+          <role>CREÓN</role>
+          <roleDesc>lo mismo</roleDesc>
+        </castItem>
+        <castItem>
+          <role>TROILO</role>
+          <roleDesc>lo mismo</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ORISTENES</role>
+          <roleDesc>lo mismo</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ZOPIRO</role>
+          <roleDesc>criado de Menón</roleDesc>
+        </castItem>
+        <castItem>
+          <role>CELABO</role>
+          <roleDesc>soldado</roleDesc>
+        </castItem>
+        <castItem>
+          <role>TIGRIS</role>
+          <roleDesc>lo mismo</roleDesc>
+        </castItem>
+        <castItem>
+          <role>TELEUCRO</role>
+          <roleDesc>lo mismo</roleDesc>
+        </castItem>
+        <castItem>
+          <role>GIÓN</role>
+          <roleDesc>lo mismo</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DIARCO</role>
+          <roleDesc>portero</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PUEBLO</role>
+        </castItem>
+        <castItem>
+          <role>PRÓLOGO</role>
+        </castItem>
+        <castItem>
+          <role>TRAGEDIA</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="prologue">
+        <head>PRÓLOGO</head>
+        <stage>
+          <l>Como el sabio pintor en varias formas</l>
+          <l>con los colores y pinceles muestra</l>
+          <l>de fuertes y prudentes capitanes,</l>
+          <l>de poderosos príncipes y reyes,</l>
+          <l>las célebres vitorias y altos triunfos,</l>
+          <l>dignos de eterna y memorable historia,</l>
+          <l>para dechado de las almas nobles</l>
+          <l>que al punto ecelso de virtud aspiran,</l>
+          <l>así el poeta con divino ingenio,</l>
+          <l>ya con una invención cómica alegre,</l>
+          <l>ya con un caso trágico admirable</l>
+          <l>nos hace ver en el teatro y s[c]ena</l>
+          <l>las miserias que traen nuestros pechos,</l>
+          <l>como el agua del mar los bravos vientos.</l>
+          <l>Y todo para ejemplo con que el alma</l>
+          <l>se despierte del sueño torpe y vano</l>
+          <l>en que la tienen los sentidos flacos,</l>
+          <l>y mire y siga la virtud divina.</l>
+          <l>Con este fin, con este justo intento,</l>
+          <l>hoy en su traje trágico se ofrece</l>
+          <l>la vida y muerte de la gran Semíramis,</l>
+          <l>tirana reina de la grande Asiria.</l>
+          <l>Y solamente porque importa advierto</l>
+          <l>que esta tragedia, con estilo nuevo</l>
+          <l>que ella introduce, viene en tres jornadas</l>
+          <l>que suceden en tiempos diferentes:</l>
+          <l>en el sitio de Batra la primera,</l>
+          <l>en Nínive famosa la segunda,</l>
+          <l>la tercera y final en Babilonia.</l>
+          <l>Formando en cada cual una tragedia,</l>
+          <l>con que podrá toda la de hoy tenerse</l>
+          <l>por tres tragedias, no sin arte escritas.</l>
+          <l>Ni es menor novedad que la que dije</l>
+          <l>de ser primera en ser de tres jornadas,</l>
+          <l>y de esto al fin y lo demás se advierta</l>
+          <l>con su alto ingenio cada cual, y admita</l>
+          <l>lo que más la virtud en si despierte,</l>
+          <l>que es el fin justo a que aspirar se debe.</l>
+        </stage>
+      </div>
+      <div type="act">
+        <head>Jornada I</head>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>El fiero son del temeroso asalto,</l>
+          <l>que enciende y hiela los humanos pechos,</l>
+          <l>subía por el aire a lo más alto</l>
+          <l>de los eternos estrellados techos,</l>
+          <l>cuando, con amoroso sobresalto,</l>
+          <l>en medio de las armas y pertrechos,</l>
+          <l>me dieron, mi dulcísima querida,</l>
+          <l>nueva de vuestra súbita venida.</l>
+          <l>Arremetía ya al abierto muro,</l>
+          <l>puestos los ojos en la gloria y fama,</l>
+          <l>pero sabiendo que llegastes, juro</l>
+          <l>que me trajo volando a vos mi llama.</l>
+          <l>Y aunque el honor viniendo me aventuro,</l>
+          <l>verá quien me juzgare, si me infama,</l>
+          <l>que importa más gozar de vos, mi cielo,</l>
+          <l>que cuanta gloria puede darme el suelo.</l>
+          <l>Semíramis querida, ¿es cierto, es cierto</l>
+          <l>que llegastes a ver al que os adora,</l>
+          <l>al que es sin vos un cuerpo casi muerto</l>
+          <l>que eternamente gime, pena y llora?</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Amado esposo, alegre y dulce puerto</l>
+          <l>de mis deseos, si llegara ahora</l>
+          <l>a ser universal reina del mundo,</l>
+          <l>al bien de veros fuera bien segundo.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>Era tal el dolor de verme ausente</l>
+          <l>de vos, que sois mi bien, mi gozo y gloria,</l>
+          <l>acrecentaba tanto el fuego ardiente</l>
+          <l>de mis dulces deseos la memoria,</l>
+          <l>que tuviera sin duda la inclemente</l>
+          <l>muerte ya de mi vida la vitoria,</l>
+          <l>si no esperara verme en esos ojos,</l>
+          <l>que convierten en glorias mis enojos.</l>
+          <l>No los peligros de la guerra airada,</l>
+          <l>ni sus trances crueles i furiosos,</l>
+          <l>no el ver la frágil vida aventurada</l>
+          <l>en los bravos rencuentros temerosos,</l>
+          <l>no el ver de la fortuna la enojada</l>
+          <l>cara, con mil desdenes rigurosos,</l>
+          <l>mellaran de mi pecho los aceros,</l>
+          <l>sino solo dejar, mi bien, de veros.</l>
+          <l>Y no vitorias que la guerra ofrezca,</l>
+          <l>ni prósperos sucesos i grandezas,</l>
+          <l>ni ver que mi apellido i nombre crezca</l>
+          <l>con hazañas notables i proezas,</l>
+          <l>ni ver que la fortuna me enriquezca</l>
+          <l>con sus mayores bienes i riquezas,</l>
+          <l>darán contento a esta alma que os adora,</l>
+          <l>sino solo gozar de vos, señora.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Según eso, podéis estar contento,</l>
+          <l>Menón, querido esposo, pues os pago</l>
+          <l>con otro tal vuestro amoroso intento,</l>
+          <l>y con mi fe la vuestra satisfago.</l>
+          <l>Y, si es verdad que lo que digo siento,</l>
+          <l>bien lo podéis juzgar por lo que hago,</l>
+          <l>en haber emprendido este viaje</l>
+          <l>con este al mío diferente traje.</l>
+          <l>Pero dejemos cosas tan sabidas</l>
+          <l>como son las conformes voluntades</l>
+          <l>que tienen abrazadas nuestras vidas</l>
+          <l>para firmes y eternas amistades,</l>
+          <l>y decidme las cosas sucedidas</l>
+          <l>en la gran rebelión de estas ciudades,</l>
+          <l>y el punto de la guerra, y algún hecho</l>
+          <l>de vuestro valeroso brazo y pecho.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>De mí no hay que decir más de que atiendo,</l>
+          <l>por segunda persona del gran Nino,</l>
+          <l>a mi gobierno y cargo, prosiguiendo</l>
+          <l>de la alta gloria el áspero camino,</l>
+          <l>a los graves peligros ofreciendo,</l>
+          <l>con el favor de mi fatal destino,</l>
+          <l>esta vida, que solo por ser vuestra</l>
+          <l>la fortuna le da la amiga diestra.</l>
+          <l>La guerra siempre ha sido y es tan brava,</l>
+          <l>tan cruel, tan sangrienta y rigurosa</l>
+          <l>que al cielo parecía que admiraba,</l>
+          <l>y a la tierra tenía temerosa.</l>
+          <l>El sol con tristes rayos lo mostraba,</l>
+          <l>y con la faz sangrienta y tenebrosa,</l>
+          <l>y de la triste tierra mil temblores</l>
+          <l>mostraban sus espantos y temores.</l>
+          <l>Pero, ¿cuál cielo o tierra o elemento,</l>
+          <l>cuál animal, cuál piedra o cuál acero</l>
+          <l>dejará de mostrar gran sentimiento</l>
+          <l>habiendo visto aquel conflito fiero</l>
+          <l>en que murieron un millón y un cuento</l>
+          <l>de hombres de las dos partes, y el primero</l>
+          <l>el sabio Zoroastes, rey famoso</l>
+          <l>de este pueblo soberbio y belicoso?</l>
+          <l>Retirose después de esta batalla</l>
+          <l>el príncipe Alejandro con la gente</l>
+          <l>dentro de esta fortísima muralla,</l>
+          <l>adonde se defiende osadamente.</l>
+          <l>Ningún ardid, ninguna fuerza halla,</l>
+          <l>aunque mil cada día Nino intente,</l>
+          <l>para poder entrar la fuerte tierra,</l>
+          <l>en diez meses que dura el cerco y guerra.</l>
+          <l>Hoy con todo el ejército arremete</l>
+          <l>a la fuerte ciudad por cinco partes,</l>
+          <l>y son, sin el asalto de hoy, ya siete</l>
+          <l>sin mellar sus soberbios baluartes.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>¿Y cómo por aquí no se acomete?</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>En vano son las fuerzas y las artes</l>
+          <l>para sitio tan áspero y tan fuerte.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Antes, señor, es flaco y llano, advierte.</l>
+          <l>En estos altos riscos confiados</l>
+          <l>tienen, según lo veo, sin defensa</l>
+          <l>todas estas almenas los cercados,</l>
+          <l>seguros de tener por aquí ofensa;</l>
+          <l>y así, mientras que de esto descuidados</l>
+          <l>acuden todos a la furia inmensa</l>
+          <l>de la gente de Nino, fácilmente</l>
+          <l>subir por aquí puede alguna gente.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>No digáis más, señora, que ya al cabo</l>
+          <l>estoy de vuestro heroico pensamiento.</l>
+          <l>El consejo discreto y sabio alabo,</l>
+          <l>y en obra le pondré luego al momento.</l>
+          <l>Zopiro, vuela y llámame a Celabo</l>
+          <l>y di que, con presteza de ave o viento,</l>
+          <l>y con sus valerosas camaradas,</l>
+          <l>hasta aquí siga en vuelo tus pisadas.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l part="I">Yo voy volando.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l part="F">Ve en un punto y vuelve.</l>
+        </sp>
+        <stage>(MENÓN, SEMÍRAMIS.)</stage>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>Y vos, dulce Semíramis, querida,</l>
+          <l>al corazón, que en fuego se resuelve,</l>
+          <l>y en él, cual Fénis, halla nueva vida,</l>
+          <l>mientras vuestro valor y ser revuelve,</l>
+          <l>dalde en vuestra alma albergue y acogida,</l>
+          <l>para que entienda de ella las grandezas</l>
+          <l>y goce sus tesoros y riquezas.</l>
+          <l>De ese divino espíritu que anima</l>
+          <l>esa belleza, única en el mundo,</l>
+          <l>de ese divino aviso que es la prima,</l>
+          <l>y de ese rico ingenio sin segundo,</l>
+          <l>de ese valor que pone espanto y grima,</l>
+          <l>y de ese entendimiento tan profundo,</l>
+          <l>tan acertado aviso estaba cierto.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Tengo vuestra alma en mí y por eso acierto.</l>
+        </sp>
+        <stage>(MENÓN, SEMÍRAMIS, ZOPIRO, CELABO, TIGRIS, GIÓN, TELEUCRO, [PUEBLO].)</stage>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Capitán valeroso y señor mío,</l>
+          <l>¿qué se ofrece en que emplee mi persona</l>
+          <l>y las de Tigris, Gión y Teleucro?</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>Seas, Celabo amigo, bien llegado.</l>
+          <l>Sabiendo tu valor, esfuerzo y honra,</l>
+          <l>y la de tus valientes camaradas,</l>
+          <l>os envié a llamar para que un caso</l>
+          <l>emprendáis, digno del heroico pecho</l>
+          <l>que cada cual en otros ha mostrado.</l>
+          <l>Por esta parte veo sin defensa</l>
+          <l>al enemigo, por la confianza</l>
+          <l>que en estas peñas enriscadas tiene.</l>
+          <l>Pienso, sin duda, amigos míos fieles,</l>
+          <l>que, si arrimáis escalas, fácilmente</l>
+          <l>podéis veros los cuatro sobre el muro,</l>
+          <l>y en él subidos, en lo demás callo,</l>
+          <l>pues sé lo que sabéis en tales trances,</l>
+          <l>y lo que pueden vuestras manos fuertes.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Tigris, traé volando aquí una escala.</l>
+          <l>Tú, famoso general, advierte</l>
+          <l>que primero verás hechos pedazos</l>
+          <l>los cuerpos de estas fuertes camaradas,</l>
+          <l>y el de Celabo, tu mayor amigo,</l>
+          <l>que vernos retirar un pie, si acaso</l>
+          <l>para poner los nuestros sobre el muro</l>
+          <l>la fortuna nos da la amiga mano.</l>
+        </sp>
+        <sp who="#tigris">
+          <speaker>TIGRIS</speaker>
+          <l>Ya la escala y el ánimo están prestos.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Pues arrímala luego al fuerte muro</l>
+          <l>y, con vuestra licencia, yo el primero</l>
+          <l>subo por ella al trono de la gloria,</l>
+          <l>donde la eternidad ponga mi nombre</l>
+          <l>en boca de la fama, pregonera</l>
+          <l>de heroicos hechos como el que emprendemos.</l>
+        </sp>
+        <sp who="#tigris">
+          <speaker>[TIGRIS]</speaker>
+          <l>Y yo te sigo con deseo ardiente</l>
+          <l>de ser segundo en tus famosas obras.</l>
+        </sp>
+        <sp who="#gion">
+          <speaker>GIÓN</speaker>
+          <l>Yo, a tales dos, procuro ser tercero,</l>
+          <l>para que llegue el nombre de mi espada</l>
+          <l>donde llegan mis altos pensamientos.</l>
+        </sp>
+        <sp who="#teleucro">
+          <speaker>TELEUCRO</speaker>
+          <l>Y si entre tales tres yo fuere cuatro,</l>
+          <l>gloria será que podré ser con ella</l>
+          <l>famoso eternamente en todo el mundo.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>Ea, valientes y animosos hombres,</l>
+          <l>que este es el día que os ofrece el cielo,</l>
+          <l>pues demás del honor, que es primer premio,</l>
+          <l>el segundo que yo ofreceros puedo,</l>
+          <l>debajo de mi fe y palabra ofrezco</l>
+          <l>que será cual merecen vuestros pechos.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Y yo con tu licencia también subo.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>No esperaba yo menos de tu espíritu.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>¡Mueran, mueran! ¡Vitoria, Asiria, Nino!</l>
+        </sp>
+        <sp who="#pueblo">
+          <speaker>PUEBLO</speaker>
+          <l>¡Libertad, Batra! ¡Al arma, al arma, al arma!</l>
+        </sp>
+        <stage>(Después de gran batalla dentro, salen NINO, MENÓN, SEMÍRAMIS, CELABO, TIGRIS, GIÓN, TELEUCRO, ZOPIRO.)</stage>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Soldados valerosos y prudentes,</l>
+          <l>del suelo y cetro Asirio honor y gloria</l>
+          <l>para todos los siglos y las gentes,</l>
+          <l>a vosotros se debe la vitoria</l>
+          <l>y el alto triunfo de este alegre día,</l>
+          <l>de quien tendrá la eternidad memoria.</l>
+          <l>Vuestra prudencia y vuestra valentía</l>
+          <l>han dado honroso fin a mi jornada,</l>
+          <l>cuando la suerte en duda le tenía.</l>
+          <l>Y así vuestra alta empresa y señalada,</l>
+          <l>demás del premio eterno que granjea,</l>
+          <l>por mí será también gratificada.</l>
+          <l>Haré yo, buen Celabo, que se vea,</l>
+          <l>por el premio que os diere, cuál fue el hecho,</l>
+          <l>y que en él mire quien valer desea.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>[CELABO]</speaker>
+          <l>El premio es agradarte, y satisfecho</l>
+          <l>cada cual de nosotros queda habiendo</l>
+          <l>en tu servicio este servicio hecho,</l>
+          <l>del cual solo Menón la causa siendo,</l>
+          <l>a él solo, señor, todo se debe</l>
+          <l>cuanto yo pude obrar obedeciendo.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>No es bien, Celabo, que el oído cebe</l>
+          <l>en esas tus corteses alabanzas,</l>
+          <l>sin que con cortesía las repruebe.</l>
+          <l>Tú el premio, tú el honor, Celabo, alcanzas</l>
+          <l>con tus fuertes y honrados compañeros.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Cesen los cumplimientos y crianzas,</l>
+          <l>todos sois valerosos caballeros,</l>
+          <l>todos mostráis prudencia y fortaleza,</l>
+          <l>dos cosas contra quien no hay ofenderos,</l>
+          <l>y sepa yo quién fue de esta proeza</l>
+          <l part="I">el inventor.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="M">Menón.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l part="F">Señor, no ha sido</l>
+          <l part="I">sino esta sierva tuya.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">Vuestra Alteza</l>
+          <l part="I">me dé la mano.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l part="F">Levantaos. Yo os pido</l>
+          <l>que el caso me contéis estensamente,</l>
+          <l>y quién es el que es hombre en el vestido,</l>
+          <l>y vos le dais el nombre diferente.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>Cuando tuve el gobierno de la Siria,</l>
+          <l>poderoso monarca y rey del mundo,</l>
+          <l>tus haciendas y tierras visitando,</l>
+          <l>al lago de Ascalón llegué, do estaba</l>
+          <l>Sima, el gran mayoral de tus ganados,</l>
+          <l>en cuya casa, como me alojase,</l>
+          <l>a Semíramis vi, su hija única,</l>
+          <l>de la cual me pagué tanto, que luego</l>
+          <l>la pedí por mujer al viejo padre,</l>
+          <l>que me la dio, con gran contento y gusto,</l>
+          <l>y yo la recibí con gozo y gloria.</l>
+          <l>De allí vine a servirte en esta guerra,</l>
+          <l>y a mi mujer de allí la envié a Nínive,</l>
+          <l>donde ha estado, aunque sola, acompañada</l>
+          <l>de mis padres, mis deudos y mi alma.</l>
+          <l>No la quise traer comigo entonces,</l>
+          <l>así por escusarle los trabajos</l>
+          <l>del militar desasosiego, como</l>
+          <l>por pensar que la guerra fuera breve.</l>
+          <l>Pero viendo alargarse la jornada</l>
+          <l>y crecer la pasión en mí de ausencia,</l>
+          <l>pedile que viniese a verme, y ella,</l>
+          <l>en este traje puesta, vino, a causa</l>
+          <l>de venir más segura y desenvuelta.</l>
+          <l>Hoy llegó, y en llegando, como supo</l>
+          <l>de mí el asalto que se daba a Batra</l>
+          <l>y viese este lugar, ella dio el orden</l>
+          <l>que Celabo y los suyos han tenido</l>
+          <l>para hacer la varonil hazaña,</l>
+          <l>y este es extensa y brevemente el caso.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Hame puesto, por cierto, maravilla.</l>
+          <l>Pero, Menón, antes que sea más tarde,</l>
+          <l>id a poner en orden el ejército,</l>
+          <l>haciendo que la gente se retire</l>
+          <l>a sus alojamientos y que quede</l>
+          <l>la ciudad con la guardia que conviene.</l>
+          <l>Celabo y los demás que están presentes</l>
+          <l>vayan con vos, y en tanto en este puesto</l>
+          <l>puede quedar Semíramis comigo.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>Harase todo lo que mandas luego.</l>
+        </sp>
+        <stage>(NINO, SEMÍRAMIS.)</stage>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>¿Que de Nínive llegáis?</l>
+          <l>¿Es posible? ¿Creerelo?</l>
+          <l>Por cierto en lo que mostráis</l>
+          <l>antes creo que del cielo,</l>
+          <l>hermosa dama, bajáis.</l>
+          <l>Y está muy claro de ver</l>
+          <l>que esa belleza y aviso</l>
+          <l>dan cierto indicio de ser</l>
+          <l>un ángel del paraíso,</l>
+          <l>no, como fingís, mujer.</l>
+          <l>Pero si sois verdadera</l>
+          <l>mujer, y yo devaneo,</l>
+          <l>pienso que sois lo que fuera</l>
+          <l>un ángel, a lo que creo,</l>
+          <l>si un ángel cuerpo tuviera.</l>
+          <l>Casi más que naturales</l>
+          <l>mil cosas en vos se ven,</l>
+          <l>con que dais claras señales</l>
+          <l>de las que por fe se creen</l>
+          <l>de espíritus celestiales.</l>
+          <l>Hasta aquí, en las más hermosas</l>
+          <l>lo más que visto se ha</l>
+          <l>es una mezcla de cosas,</l>
+          <l>que son tenidas acá</l>
+          <l>por más lindas y preciosas;</l>
+          <l>y estas con tanta belleza,</l>
+          <l>con tal orden y artificio</l>
+          <l>puestas por Naturaleza,</l>
+          <l>que den admirable indicio</l>
+          <l>de su poder y grandeza.</l>
+          <l>Mas es sobrenatural</l>
+          <l>cuanto en vos miro y contemplo,</l>
+          <l>y así creo, viéndoos tal,</l>
+          <l>que sois verdadero ejemplo</l>
+          <l>del divino original;</l>
+          <l>que en vos la descompostura,</l>
+          <l>cuánto más queráis usalla,</l>
+          <l>vencerá a la compostura,</l>
+          <l>donde más perficionalla</l>
+          <l>naturaleza procura;</l>
+          <l>y vuestra sombra será</l>
+          <l>luz más eficaz y clara</l>
+          <l>que la luz que ella dará</l>
+          <l>a la más hermosa y rara</l>
+          <l>imagen que pintará.</l>
+          <l>¡Oh, cuán bienaventurado!</l>
+          <l>¡Oh, cuán de veras dichoso</l>
+          <l>es, señora, el que ha llegado</l>
+          <l>a ser vuestro amado esposo,</l>
+          <l>a ser vuestro esposo amado!</l>
+          <l>Y quizá, si a mano viene,</l>
+          <l>no lo sabrá conocer,</l>
+          <l>que ordinariamente aviene</l>
+          <l>no saber hombre entender</l>
+          <l>la dicha cuando la tiene.</l>
+          <l>¡No fuera Nino Menón,</l>
+          <l>aunque Menón fuera Nino!</l>
+          <l><stage>[Aparte.]</stage>
+            (Mas, ¡que poco corazón!</l>
+          <l>Si a serlo me determino,</l>
+          <l>¿quién hará contradición?</l>
+          <l>Mas, ¿harele fuerza yo?</l>
+          <l>Sí, pues me la hace a mí</l>
+          <l>el amor, que me rindió.</l>
+          <l>¡Qué presto que he dicho sí!</l>
+          <l>¡Qué cierto agüero de un no!</l>
+          <l>Mas no es tiempo ya de estar</l>
+          <l>suspenso ni embelesado.</l>
+          <l>Quiérome aquí remediar,</l>
+          <l>pues la fortuna me ha dado</l>
+          <l>ocasión, tiempo y lugar.)</l>
+          <l>Bella Semíramis, veo...</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Señor, no me digas más.</l>
+          <l>Ya adivino tu deseo.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Con adivinar harás</l>
+          <l>que crea más lo que creo,</l>
+          <l>que es de potencias divinas</l>
+          <l>el adivinar. Mas di,</l>
+          <l>señora, lo que adivinas.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Adivino lo que oí</l>
+          <l>y entiendo lo que imaginas.</l>
+          <l>Creo que quieres hacer,</l>
+          <l>contra toda ley y fuero,</l>
+          <l>aquesta triste mujer,</l>
+          <l>de mujer de un caballero,</l>
+          <l>esclava de tu querer.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>No sufriré tal. Ahora</l>
+          <l>digo que adivinas mal.</l>
+          <l>Por mi esposa y mi señora</l>
+          <l>te quiero, y hacerte igual</l>
+          <l>con esta alma que te adora.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Príncipe y señor, pues miras</l>
+          <l>a la obligación que tienes</l>
+          <l>y de la pasión retiras</l>
+          <l>la razón, con que te avienes</l>
+          <l>en las obras con que admiras,</l>
+          <l>y pues a tus pensamientos</l>
+          <l>tu generoso valor</l>
+          <l>dio siempre fines contentos,</l>
+          <l>haciéndote vencedor</l>
+          <l>contra mil fieros intentos,</l>
+          <l>ese valor tan profundo</l>
+          <l>no te falte ahora aquí,</l>
+          <l>si le quieres sin segundo,</l>
+          <l>pues es más vencerse a sí</l>
+          <l>que vencer a todo el mundo.</l>
+          <l>Y más que será notado</l>
+          <l>en un rey tan poderoso,</l>
+          <l>ya que así lo hayas pensado,</l>
+          <l>hacerse por fuerza esposo</l>
+          <l>de esposa de su criado.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>No curéis de adelgazar</l>
+          <l>tanto lo que hace un rey,</l>
+          <l>pues es de considerar</l>
+          <l>que su voluntad es ley,</l>
+          <l>y cual ley se ha de guardar;</l>
+          <l>y más viendo que le fuerza</l>
+          <l>al rey otro rey mayor,</l>
+          <l>y en su pretensión se esfuerza,</l>
+          <l>que es el poderoso Amor,</l>
+          <l>contra quien ni hay ley ni fuerza.</l>
+          <l>Así que dejando aparte</l>
+          <l>livianos inconvenientes,</l>
+          <l>faltos de razón y de arte,</l>
+          <l>tomad los casos presentes</l>
+          <l>como el amor los reparte,</l>
+          <l>y no os duela de Menón,</l>
+          <l>que le daré por mujer,</l>
+          <l>en vuestra satisfación,</l>
+          <l>quien no lo pudiera ser</l>
+          <l>sino por vuestra ocasión.</l>
+          <l>A mi hija le prometo,</l>
+          <l>y aunque pierde más en vos</l>
+          <l>y él es valiente y discreto,</l>
+          <l>no fueran pares los dos</l>
+          <l>sino por vuestro respeto.</l>
+          <l>Así que él y vos y yo</l>
+          <l>ganamos, y siendo así,</l>
+          <l>pues el amor lo ordenó,</l>
+          <l>justo es que me deis el sí,</l>
+          <l>y sería injusto el no.</l>
+          <l>Dándome este sí, señora</l>
+          <l>de mis estados seréis,</l>
+          <l>y de esta alma que os adora,</l>
+          <l>y estado al igual tendréis</l>
+          <l>del ánimo que en vos mora.</l>
+          <l>Así vuestro ser tendrá</l>
+          <l>el grado que le conviene,</l>
+          <l>sin quien sin razón está.</l>
+          <l>Mas Menón veo que viene,</l>
+          <l>y él por mí os lo rogará.</l>
+        </sp>
+        <stage>(NINO, SEMÍRAMIS, MENÓN.)</stage>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>Queda, señor, como mandaste en orden</l>
+          <l>la gente del ejército y del pueblo:</l>
+          <l>la una por cuarteles dividida,</l>
+          <l>y la otra rendida ya y sujeta.</l>
+          <l>Hay un cuerpo de guardia en cada plaza</l>
+          <l>de aquel cuartel que cada nación tiene,</l>
+          <l>y en el Alcázar alojé tu guardia,</l>
+          <l>y allí Creonte, su capitán, queda</l>
+          <l>repartiendo las guardas y las postas.</l>
+          <l>Allí también, porque en estremo es grande</l>
+          <l>el Alcázar real y fuerte y rico,</l>
+          <l>la gente de tu casa y corte alojan.</l>
+          <l>Al fin todos están bien repartidos,</l>
+          <l>y todo está en el orden que conviene.</l>
+          <l>Yo llegué a tiempo, cuando fui al Alcázar,</l>
+          <l>que pude entrar con la primera gente</l>
+          <l>que al saco de él entraba cudiciosa,</l>
+          <l>y subiendo el primero, en una cuadra,</l>
+          <l>después de unos hermosos corredores</l>
+          <l>y de dos grandes salas, entré, y hallo</l>
+          <l>en ella una visión horrenda y brava,</l>
+          <l>un horrendo espetáculo espantoso;</l>
+          <l>al príncipe Alejandro, desarmado,</l>
+          <l>vi, tinto en sangre desde el pie a la frente,</l>
+          <l>sin espada ni daga, sino sola</l>
+          <l>esta soga cruel, con que ahorcado</l>
+          <l>estaba de las verjas de una reja,</l>
+          <l>que a aquella cuadra sale de un retrete.</l>
+          <l>Al tiempo que yo entré, aun vi las piernas</l>
+          <l>y los brazos moverse, y sentí un grito</l>
+          <l>ronco, triste, espantoso y mal formado.</l>
+          <l>Corrí volando y con la espada al punto</l>
+          <l>corté la soga para dalle vida,</l>
+          <l>pero por presto que lo hice, tarde</l>
+          <l>fue para el desdichado de Alejandro,</l>
+          <l>que sin alma cayó ante mí, poniendo</l>
+          <l>terrible horror y lástima y espanto</l>
+          <l>a los que vimos el doliente caso.</l>
+          <l>Esta es la soga que quité al cuitado,</l>
+          <l>que la traje comigo para ejemplo</l>
+          <l>de los crueles casos de fortuna.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>También quiso mostrarnos Alejandro</l>
+          <l>su furor diabólico en la muerte</l>
+          <l>como en la vida. Justa paga tiene</l>
+          <l>de sus soberbios y arrogantes hechos.</l>
+          <l>Pero dejemos estas cosas y oye,</l>
+          <l>Menón querido, una en que mi gusto,</l>
+          <l>mi contento y mi gloria se atraviesan.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>No es otro mi deseo y mi cuidado</l>
+          <l>sino que tú, señor, de cualquier suerte,</l>
+          <l>de gloria y de contento y gusto goces.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Ya sabes el aviso y la belleza</l>
+          <l>de Sosana, mi hija tan amada,</l>
+          <l>ya de su estado y sangre la grandeza</l>
+          <l>está, Menón, bien claro averiguada,</l>
+          <l>y que de mis tesoros la riqueza</l>
+          <l>por dote para ella está guardada.</l>
+          <l>A ella, pues, con cuanto la enriquezco,</l>
+          <l>en trueco de Semíramis te ofrezco.</l>
+          <l>Quiero decir, Menón, que a tu querida</l>
+          <l>Semíramis me des por mujer mía,</l>
+          <l>y tomes tú a Sosana, enriquecida</l>
+          <l>de toda mi riqueza y monarquía;</l>
+          <l>y es justo de ti ser agradecida</l>
+          <l>esta mi petición y cortesía,</l>
+          <l>pues, siendo yo tu rey, te pido aquello</l>
+          <l>que de potencia puedo yo tenello.</l>
+          <l>Las gracias de Semíramis me han hecho</l>
+          <l>tan suyo, ¡oh, mi Menón!, que te prometo</l>
+          <l>que consumiera mi encendido pecho</l>
+          <l>si te tuviera mi deseo secreto.</l>
+          <l>Haz por tu rey este amoroso hecho,</l>
+          <l>con voluntad, pues eres tan discreto.</l>
+          <l>Dame un sí por respuesta, pues en pago</l>
+          <l>mi yerno y mi gobierno y rey te hago.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>Aunque suspenso, atónito y pasmado</l>
+          <l>me tiene tu demanda, señor mío,</l>
+          <l>y si es o no de veras lo tratado</l>
+          <l>no sepa ni distinga mi albedrío;</l>
+          <l>y aunque en confusas dudas engolfado</l>
+          <l>de acertar a salvarme desconfío,</l>
+          <l>en vez del «sí», que pides por tal gusto,</l>
+          <l>a darte un «no» me fuerza el amor justo.</l>
+          <l>Y digo que aunque el cielo me atormente</l>
+          <l>con sus mayores fuerzas y tormentos,</l>
+          <l>y tú, señor, airado e inclemente,</l>
+          <l>pruebes en mí mil fieros pensamientos,</l>
+          <l>y aunque me abrase el fuego eterno, ardiente,</l>
+          <l>y un caos hagan de mí los elementos,</l>
+          <l>y aunque vuelva a no ser, que es mayor mengua,</l>
+          <l>no podrá dar tal «sí», jamás mi lengua.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>¡Oh, villano, grosero, mal nacido,</l>
+          <l>torpe, bárbaro, vil desventurado!</l>
+          <l>¿Tal respuesta me das? Al fin ha sido</l>
+          <l>respuesta de villano vil, rogado.</l>
+          <l>Mas, pues tan locamente has respondido,</l>
+          <l>quedarás de tu loco osar pagado</l>
+          <l>con llevarme a Semíramis sin darte</l>
+          <l>de ella, de mí, ni de mi hija parte.</l>
+        </sp>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>Rey y señor, escucha, atiende, espera.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>No me repliques, quédate, y advierte</l>
+          <l>que ha de ser esta vez la vez postrera</l>
+          <l>que he de hablarte, que he de oírte o verte.</l>
+          <l>Juro por Dios de darte la más fiera,</l>
+          <l>la más cruel, la más amarga muerte</l>
+          <l>que pueda dar un rey, si con destierro</l>
+          <l>no purgas tú la culpa de este yerro.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Rey, mira que es injusto lo que haces.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l part="I">Ven tú conmigo.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">¿Dónde, sin mi esposo?</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Donde tenga tu ser lo que merece.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="I">¡Oh, injusto apartamiento!</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l part="F">Basta, vamos.</l>
+        </sp>
+        <stage>(MENÓN.)</stage>
+        <sp who="#menon">
+          <speaker>MENÓN</speaker>
+          <l>¡Oh, bárbaro inhumano,</l>
+          <l>ingrato a mis servicios,</l>
+          <l>cruel, tirano, inico, injusto y fiero!</l>
+          <l>Con rigurosa mano</l>
+          <l>en medio de tus vicios,</l>
+          <l>mostrándose el gran Júpiter severo,</l>
+          <l>te ponga en este miserable trago,</l>
+          <l>y me dé con tu muerte justo pago.</l>
+          <l>Cansada y triste vida,</l>
+          <l>vida cansada y triste,</l>
+          <l>que como nave de contrarios vientos,</l>
+          <l>acá y allá traída,</l>
+          <l>nunca jamás pudiste</l>
+          <l>llegar a puerto con tus pensamientos,</l>
+          <l>sino por un inmenso mar de penas</l>
+          <l>corriendo has ido con las velas llenas,</l>
+          <l>no hagas resistencia,</l>
+          <l>no me impidas mi intento,</l>
+          <l>no me persigas más, no me atormentes,</l>
+          <l>huye de mi presencia,</l>
+          <l>deja ya tu aposento</l>
+          <l>a la remediadora de las gentes,</l>
+          <l>a la muerte dulcísima, que es sola</l>
+          <l>quien en mi bien las armas enarbola.</l>
+          <l>Alma desventurada,</l>
+          <l>si de la cárcel fuerte</l>
+          <l>en que estás, con tan ásperas prisiones,</l>
+          <l>prendida y amarrada,</l>
+          <l>libre deseas verte,</l>
+          <l>no aguardes, si estas pierdes, ocasiones;</l>
+          <l>está donde la muerte el dardo vibra,</l>
+          <l>y de tu muerte y tu pasión te libra.</l>
+          <l>Sin vos, cabello de oro,</l>
+          <l>sin vos, nevada frente,</l>
+          <l>sin los arcos del cielo, sin los soles,</l>
+          <l>que al inmenso tesoro</l>
+          <l>vencen del rico Oriente,</l>
+          <l>y a las luces del cielo y arreboles,</l>
+          <l>y sin vos, boca, que ganáis la raya</l>
+          <l>en olores a Arabia y a Pancaya,</l>
+          <l>sin vos, pecho de armiño,</l>
+          <l>adonde albergan junto</l>
+          <l>Mercurio, Marte, Júpiter, Diana</l>
+          <l>y el poderoso niño,</l>
+          <l>teniendo ahí en su punto</l>
+          <l>cuanto bien da naturaleza humana;</l>
+          <l>y sin las manos que en las blancas palmas</l>
+          <l>tienen mil corazones y mil alma.</l>
+          <l>Y, al fin, sin ti señora,</l>
+          <l>que eres mi alma y vida,</l>
+          <l>no puedo yo vivir, no, no es posible.</l>
+          <l>Llegue, pues, ya la hora</l>
+          <l>de la muerte querida,</l>
+          <l>en que yo salga de este mal terrible.</l>
+          <l>Y tú, dulce Semíramis, si tienes</l>
+          <l>acuerdo aún de mis pasados bienes,</l>
+          <l>si de aquella dulzura,</l>
+          <l>si de aquel gozo y gloria,</l>
+          <l>y si de aquella firme confianza,</l>
+          <l>que en esta desventura</l>
+          <l>hacen tan triste historia</l>
+          <l>y entonces eran bienaventuranza,</l>
+          <l>y, al fin, si te acordares del constante</l>
+          <l>y rico amor de tu primer amante,</l>
+          <l>con lágrimas siquiera</l>
+          <l>celebra mi martirio,</l>
+          <l>y al alma que tu cielo solo quiere</l>
+          <l>no le seas austera,</l>
+          <l>cuando en el suelo asirio</l>
+          <l>sin ella el cuerpo de Menón cayere,</l>
+          <l>sino con tu piadoso pecho dale</l>
+          <l>albergue tal que con su fe se iguale.</l>
+          <l>Vos, lazo, que sacastes</l>
+          <l>de estas miserias tristes</l>
+          <l>al discreto Alejandro, en vos fiado,</l>
+          <l>el bien que le causastes,</l>
+          <l>la vida que le distes,</l>
+          <l>dalda también a aqueste desdichado,</l>
+          <l>pues, sin duda, el traeros fue que el cielo</l>
+          <l>quiere que vos me deis este consuelo.</l>
+          <l>Vos, lazo, que instrumento</l>
+          <l>sois para mi remedio,</l>
+          <l>no os conjuréis con mi contraria suerte,</l>
+          <l>sino cumplid mi intento,</l>
+          <l>sedme propicio medio</l>
+          <l>para que salga de esta triste muerte,</l>
+          <l>de esta muerte que llama vida el mundo,</l>
+          <l>con ceguedad y con error profundo.</l>
+          <l>Soldados valerosos,</l>
+          <l>que cada paso y punto</l>
+          <l>ponéis la vida en manos de la muerte,</l>
+          <l>y en mil hechos famosos</l>
+          <l>el alma y vuestro punto</l>
+          <l>entregáis al rigor de vuestra suerte,</l>
+          <l>siguiendo los furores y los gustos</l>
+          <l>de estos crueles príncipes injustos;</l>
+          <l>discretos cortesanos,</l>
+          <l>que con honrado intento</l>
+          <l>y con el alma de esperanzas llena</l>
+          <l>seguís estos tiranos,</l>
+          <l>sírvaos a todos mi rabiosa pena,</l>
+          <l>pues harto bien hará mi mala suerte</l>
+          <l>si a otros causa vida y a mí muerte.</l>
+          <l>Recibe, amada esposa,</l>
+          <l>mi alma con la tuya,</l>
+          <l>y tú, lazo, recibe esta garganta</l>
+          <l>con vuelta presurosa,</l>
+          <l>para que en breve huya</l>
+          <l>el alma de pasión y pena tanta;</l>
+          <l>y vos, aire, no deis el cuerpo amigo</l>
+          <l>a la tierra do reina mi enemigo.</l>
+          <l>Semíramis querida,</l>
+          <l>esposa mía amada,</l>
+          <l>gloria mía, llegaos, llegá la mano,</l>
+          <l>y en huyendo mi vida,</l>
+          <l>esta alma, dedicada</l>
+          <l>a solo vuestro cielo soberano,</l>
+          <l>téngala en él la mano poderosa</l>
+          <l>que me distes, Semíramis, de esposa.</l>
+          <l>Ya voy, ya parto, espera,</l>
+          <l>señora, no te alejes;</l>
+          <l>Semíramis, no huyas de tu esposo,</l>
+          <l>y a la luciente esfera,</l>
+          <l>sobre los altos ejes,</l>
+          <l>donde tienes tu trono suntuoso,</l>
+          <l>pues con tan grande fe te llamo y sigo,</l>
+          <l>llévame, mi Semíramis, contigo.</l>
+        </sp>
+        <stage>(MENÓN, ZOPIRO, CELABO.)</stage>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Notables casos, admirables hechos,</l>
+          <l>horrendos espetáculos se han visto</l>
+          <l>hoy en esta ciudad, Celabo amigo.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Estoy, Zopiro, atónito y pasmado,</l>
+          <l>que con haber tantas batallas visto,</l>
+          <l>tantos sacos y asaltos de ciudades,</l>
+          <l>digo que, cuanto he visto junto, es menos</l>
+          <l>de lo que hoy ha pasado de miseria</l>
+          <l>en este miserable y triste pueblo.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>¡Qué lástima era ver las damas bellas</l>
+          <l>tratadas por mil bárbaros soldados</l>
+          <l>tan rigurosa, tan violentamente!</l>
+          <l>¡Qué compasión el grito de los niños,</l>
+          <l>qué terneza los llantos de los viejos,</l>
+          <l>qué horror la muerte de los fuertes mozos,</l>
+          <l>qué temor la braveza y furia airada</l>
+          <l>de la crueles armas vencedoras</l>
+          <l>de las gentes, indómitas, feroces,</l>
+          <l>qué confusión el diligente saco,</l>
+          <l>el bullicioso ardiente y fiero robo</l>
+          <l>de la cruel y cudiciosa gente,</l>
+          <l>qué espanto, qué recelo el fuego airado</l>
+          <l>que se prendía por los altos techos,</l>
+          <l>qué terror, qué fiereza los rumores,</l>
+          <l>las altas estampidas y estallidos</l>
+          <l>que las casas y templos, muro y torres</l>
+          <l>daban, viniendo con su peso abajo!</l>
+          <l>¡Oh, soberano artífice del mundo,</l>
+          <l>y en cuán inormes formas se ha mostrado</l>
+          <l>la sangrienta crueldad en este día!</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Zopiro, ya es razón que demos vuelta</l>
+          <l>hacia palacio, que Menón no dudo</l>
+          <l>sino que ya estará en su alojamiento</l>
+          <l>gozando de Semíramis a solas.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Según la deseaba y según la ama,</l>
+          <l>no hay duda en eso. Vamos, como mandas.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>¡Eterno Dios!, ¿es ilusión, es sueño,</l>
+          <l>es fantasma, es demonio lo que veo?</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>¡Ay, Celabo, querido, no es fantasma,</l>
+          <l>no es ilusión, no es sueño ni demonio,</l>
+          <l>sino Menón! ¡Menón, el sin ventura!</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>¿Quién le ha podido dar tan fiera muerte?</l>
+          <l>¿Quién a un hombre tan bueno así ha tratado?</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>¿Qué consejo tendremos en tal caso?</l>
+          <l>¿Qué debemos hacer, Celabo amigo?</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Quitémosle de aquí, que es lo más justo,</l>
+          <l>y al rey le presentemos, pues es cierto</l>
+          <l>que, según lo que el rey le debe y ama,</l>
+          <l>hará pesquisa y ejemplar castigo</l>
+          <l>de maldad tan inorme y tan horrenda.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l part="I">Dices muy bien.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="M">Desátale.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l part="F">Sostenle.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="I">Tenle tú de los pies.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l part="M">Ya tengo.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="F">Vamos.</l>
+        </sp>
+        <trailer>FIN DE LA PRIMERA JORNADA</trailer>
+      </div>
+      <div type="act">
+        <head>Jornada II</head>
+        <stage>NINO, SEMÍRAMIS, en hábito de reina, DIARCO.</stage>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Rey y señor, pues ya la paz gozamos,</l>
+          <l>libres de los trabajos de la guerra,</l>
+          <l>y en tu famosa Nínive habitamos,</l>
+          <l>suplícote, por cuanto el cielo encierra,</l>
+          <l>que una merced que ya me has prometido</l>
+          <l>tenga su efeto en esta amada tierra.</l>
+          <l>Ahora puedes ser, señor, servido</l>
+          <l>de mandar que se junte tu Consejo</l>
+          <l>para que sea mi deseo cumplido.</l>
+          <l>Ahora hay tiempo, espacio y aparejo,</l>
+          <l>no lo dilates más, así los hados</l>
+          <l>te dejen ver tu hijo, cual tú, viejo.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Sean los consejeros convocados.</l>
+          <l>Di tú, Diarco, que los llamen luego,</l>
+          <l>si ya no están, como mandé, llamados.</l>
+        </sp>
+        <stage>(NINO, SEMÍRAMIS.)</stage>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Deseo mujeril, mujeril ruego</l>
+          <l>te ha de parecer este, no lo dudo,</l>
+          <l>y como cosa de donaire y juego.</l>
+          <l>Pero verás, señor, a lo que acudo,</l>
+          <l>y aunque por burla tengas esto ahora,</l>
+          <l>yo mostraré quizá mi ingenio agudo.</l>
+          <l>Esta mujer, que como un dios te adora,</l>
+          <l>dará con esto fin a un pensamiento</l>
+          <l>que para tu descanso le atesora.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Bastará que te cause a ti contento</l>
+          <l>para que a mí me dé descanso y gusto,</l>
+          <l>no el descanso y el bien, pero el tormento.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Justa paga a mi amor, deseo justo</l>
+          <l>a mi fe y afición, es el que muestras</l>
+          <l>gustando de lo mismo que yo gusto;</l>
+          <l>y aunque de esto me has dado siempre muestras,</l>
+          <l>dándome siempre a mí la mayor parte</l>
+          <l>de tus fortunas prósperas y diestras,</l>
+          <l>puedo, rey y señor, certificarte,</l>
+          <l>según estimo la merced presente,</l>
+          <l>que en ella has acabado de mostrarte.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Siempre te amé con este amor ardiente,</l>
+          <l>siempre mi voluntad, gozo y deseo</l>
+          <l>fue tu contento y gozo solamente.</l>
+          <l>Tus ojos son la luz con que yo veo,</l>
+          <l>tu alma, como a ti, me da a mí vida,</l>
+          <l>tu gloria sola es la que yo deseo.</l>
+          <l>Por ti, dulce Semíramis querida,</l>
+          <l>a lo imposible intentaré camino,</l>
+          <l>sin que a mi voluntad el serlo impida.</l>
+          <l>Jamás sino en tus gustos imagino,</l>
+          <l>jamás sino en Semíramis reposa</l>
+          <l>el pensamiento y ánimo de Nino.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Tu gran Belo, tu Juno poderosa</l>
+          <l>acrecienten tus años y tu nombre</l>
+          <l>con edad y con fama milagrosa.</l>
+          <l>A nuestro hijo Ninias veas tan hombre</l>
+          <l>como tú eres, y por ti, en mil guerras</l>
+          <l>el suyo aumente y tu real renombre.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>No haya vecinas ni remotas tierras</l>
+          <l>que por él no te ofrezcan cuantos bienes</l>
+          <l>producen sus campañas y sus sierras.</l>
+        </sp>
+        <stage>(NINO, SEMÍRAMIS, DIARCO.)</stage>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l>Janto, Creón, Troilo y Oristenes</l>
+          <l>han venido a Consejo, y ahí aguardan</l>
+          <l>lo que de tu servicio les ordenes.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Entren luego, decildo, que ya tardan.</l>
+        </sp>
+        <stage>(NINO, SEMÍRAMIS, JANTO, CREÓN, TROILO, ORÍSTENES, DIARCO.)</stage>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>El hacedor del universo mundo</l>
+          <l>os haga largos siglos venturosos.</l>
+        </sp>
+        <sp who="#creon">
+          <speaker>CREÓN</speaker>
+          <l>El que gobierna y rige cielo y tierra,</l>
+          <l>rija y gobierne vuestras reales almas.</l>
+        </sp>
+        <sp who="#troilo">
+          <speaker>TROILO</speaker>
+          <l>La luz del grande Dios os guíe y salve.</l>
+        </sp>
+        <sp who="#oristenes">
+          <speaker>ORISTENES</speaker>
+          <l>Dios poderoso guarde vuestras vidas.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Sentaos, como soléis, en vuestros puestos,</l>
+          <l>y tú, señora, siéntate a mi diestra,</l>
+          <l>y vos traé mi cetro y mi corona.</l>
+          <l>Bien sé que sabéis todos cuán de veras</l>
+          <l>he querido a la reina desde el día</l>
+          <l>que se vieron en Batra mis banderas</l>
+          <l>plantadas, por su industria, en honra mía,</l>
+          <l>y entiendo que entendéis que las esferas</l>
+          <l>con sus fuerzas y cursos y armonía</l>
+          <l>no pueden en mí más de lo que puede</l>
+          <l>la reina, que comigo a todo ecede.</l>
+          <l>Creo también que conocéis cuán justo</l>
+          <l>es que la reina pueda en mí de este arte,</l>
+          <l>pues es en todo su querer y gusto</l>
+          <l>lleno de discreción, de industria y arte.</l>
+          <l>No hay caso, no hay suceso justo o injusto,</l>
+          <l>que de su gusto y voluntad me aparte,</l>
+          <l>y así en esta ocasión solo es mi intento</l>
+          <l>hacer su voluntad y su contento.</l>
+          <l>Pídeme que le dé por cinco días</l>
+          <l>el gobierno de todos mis estados,</l>
+          <l>dejando yo todas las veces mías,</l>
+          <l>toda mi potestad y mis cuidados.</l>
+          <l>Es su intención probar las monarquías,</l>
+          <l>y el gobierno mayor de sus estados.</l>
+          <l>Sea por esto, o sea lo que fuere,</l>
+          <l>que yo solo reparo en que lo quiere,</l>
+          <l>por ser este su gusto, es mi deseo,</l>
+          <l>y por ser de los dos, debéis hacerle</l>
+          <l>los cuatro, en vez del reino que poseo,</l>
+          <l>pues es sin duda para engrandecerle.</l>
+          <l>Y pues ningún inconveniente veo</l>
+          <l>ni por la reina puede en esto haberle,</l>
+          <l>antes es cierto de su ingenio grande</l>
+          <l>que cosas admirables haga y mande,</l>
+          <l>vuestra respuesta pido brevemente</l>
+          <l>por el orden y estilo acostumbrado.</l>
+        </sp>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>Es mi respuesta en esto, rey clemente,</l>
+          <l>dar gusto a vuestro intento enamorado.</l>
+        </sp>
+        <sp who="#creon">
+          <speaker>CREÓN</speaker>
+          <l>En ese parecer Creón consiente.</l>
+        </sp>
+        <sp who="#troilo">
+          <speaker>TROILO</speaker>
+          <l>Yo siempre vuestro gusto he deseado.</l>
+        </sp>
+        <sp who="#oristenes">
+          <speaker>ORISTENES</speaker>
+          <l>Ningún inconveniente en esto veo.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Pues dese alegre fin a mi deseo.</l>
+          <l>Sentaos, reina y señora, en este asiento</l>
+          <l>que es dedicado a la real persona.</l>
+          <l>Tomá este cetro, y séaos ornamento</l>
+          <l>de verdadera reina esta corona.</l>
+          <l>Con ecesivo amor, gozo y contento</l>
+          <l>de su mano el gran Nino aquí os corona,</l>
+          <l>y os doy, como pedís, por cinco días,</l>
+          <l>todo el gobierno de las tierras mías.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Yo lo recibo con inmensa gloria,</l>
+          <l>y pido al grande Belo, vuestro padre,</l>
+          <l>de quien en simulacros la memoria</l>
+          <l>tenéis, con la de Juno, vuestra madre,</l>
+          <l>que alargue vuestra vida y fama y gloria</l>
+          <l>tanto que con la suya frise y cuadre,</l>
+          <l>y que a Zameis Ninias, nuestro hijo,</l>
+          <l>gocemos con eterno regocijo.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Con esto queda vuestro gusto hecho.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Con esto estoy contenta y satisfecha.</l>
+        </sp>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>Yo inclino ante mi reina el rostro y pecho.</l>
+        </sp>
+        <sp who="#creon">
+          <speaker>CREÓN</speaker>
+          <l>Yo ratifico la obediencia hecha.</l>
+        </sp>
+        <sp who="#troilo">
+          <speaker>TROILO</speaker>
+          <l>Yo doy, con adoraros, fin al hecho.</l>
+        </sp>
+        <sp who="#oristenes">
+          <speaker>ORISTENES</speaker>
+          <l>Deso mismo Oristenes aprovecha.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Yo con eso soy reina ya y señora,</l>
+          <l>y os doy licencia que os partáis ahora.</l>
+          <l>Y asimismo, también, señor, os pido</l>
+          <l>que os vais ahora vos a recrearos,</l>
+          <l>que, pues habéis mi voluntad cumplido,</l>
+          <l>yo quiero comenzar a descansaros.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Yo os obedezco, pues os he ofrecido</l>
+          <l>el alma para siempre contentaros.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Y tú, Diarco, escucha: yo te ruego</l>
+          <l>que a Celabo y Zopiro llames luego.</l>
+        </sp>
+        <stage>(SEMÍRAMIS.)</stage>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>El descanso y el bien que te procuro,</l>
+          <l>Nino infelice, es el que da la muerte,</l>
+          <l>y por el alma de Menón te juro</l>
+          <l>que ha de ser, si yo puedo, de esta suerte;</l>
+          <l>y aunque me veo en un abismo escuro</l>
+          <l>yo buscaré como a salir acierte,</l>
+          <l>placando el alma que suspira y llora</l>
+          <l>y siendo yo, como deseo, señora.</l>
+        </sp>
+        <stage>(SEMÍRAMIS, CELABO, ZOPIRO.)</stage>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="I">Reina y señora mía.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">¡Oh, mi Celabo!</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="I">Aquí estoy pronto.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">Deja de eso, y vuela</l>
+          <l part="I">a poner por la obra...</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="F">Estoy al cabo.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="I">Mira...</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="F">¿Qué? ¿De mi esfuerzo se recela?</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Bien sé tu esfuerzo, y tu valor alabo,</l>
+          <l>y entiende que esta reina se desvela</l>
+          <l>en darle a su medida el ser y estado.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Solo con agradarte estoy pagado.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Con todo eso, desde aquí tú eres</l>
+          <l>capitán de mi guardia, y a ti quiero,</l>
+          <l>Zopiro amigo, pues mi gusto quieres,</l>
+          <l>hacerte mi privado camarero;</l>
+          <l>a los que ahora son, vida y haberes</l>
+          <l>les tengo de quitar. Pero primero</l>
+          <l>ve a echar, Celabo, a todo el fundamento</l>
+          <l>conforme a nuestro ya tratado intento.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Yo voy volando, y ten por hecho el hecho.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Así de tu valor espero y fío.</l>
+          <l><stage>(SEMÍRAMIS, ZOPIRO.)</stage>Zopiro, tú, con discreción y pecho,</l>
+          <l>harás también otro consejo mío:</l>
+          <l>a Ninias ve por este oculto estrecho</l>
+          <l>y entra diciendo como yo te envío,</l>
+          <l>y esta carta le da, la cual leída,</l>
+          <l>de tres mi voluntad será entendida.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Puedes tener, señora, por muy cierto</l>
+          <l part="I">que es lo que mandas hecho.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">Así lo creo,</l>
+          <l>y no te pesará, porque te advierto</l>
+          <l>que has de ser tú, Zopiro, mi recreo.</l>
+          <l>Y no te muestro ahora más abierto</l>
+          <l>mi corazón, mi intento y mi deseo.</l>
+          <l>Presto confío que lugar tendremos</l>
+          <l>para que más despacio lo tratemos.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>En todo estoy, señora, a ti sujeto.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="I">Ve luego, mi Zopiro.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l part="F">Voy volando.</l>
+        </sp>
+        <stage>(SEMÍRAMIS.)</stage>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>¡Qué gracioso, qué lindo, qué discreto,</l>
+          <l>qué airoso, qué galán, qué dulce y blando!</l>
+          <l>Pues de disimulado y de secreto</l>
+          <l>mil muestras de él he visto, y voy notando</l>
+          <l>que nadie en nada puede aventajarle,</l>
+          <l>resuelta estoy, y tengo de gozarle.</l>
+          <l>Pero, mis pensamientos amorosos,</l>
+          <l>dejadme ahora en paz, mientras la guerra</l>
+          <l>de mis altos deseos valerosos</l>
+          <l>hace temblar y estremecer la tierra.</l>
+          <l>Los filos acerados, rigurosos,</l>
+          <l>que en la vaina mil años ha que encierra</l>
+          <l>mi corazón, dejad que ahora corten,</l>
+          <l>que tiempo habrá después que se reporten.</l>
+          <l>Tiempo después habrá para gozarme,</l>
+          <l>no con un Nino torpe y asqueroso;</l>
+          <l>tiempo tendré después para emplearme</l>
+          <l>en un Zopiro dulce y amoroso;</l>
+          <l>tiempo tendré para desencerrarme</l>
+          <l>de un cautiverio infame y afrentoso,</l>
+          <l>que ha ya diez y seis años que en mí reina,</l>
+          <l>con título de reina, sin ser reina.</l>
+          <l>Ahora lo seré, no hay duda en ello,</l>
+          <l>aunque la tierra se revuelva y hunda;</l>
+          <l>ahora sacaré del yugo el cuello,</l>
+          <l>aunque Amón con sus rayos me confunda;</l>
+          <l>ahora a mis deseos pondré el sello.</l>
+          <l>De estas trazas mi gozo y bien redunda,</l>
+          <l>de aquí sucederá y, si no sucede,</l>
+          <l>cosa no habrá que no intentada quede.</l>
+        </sp>
+        <stage>(SEMÍRAMIS, CELABO.)</stage>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>¡Oh, reina dichosísima y sublime!</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>¿Qué es, mi Celabo? ¿Cómo negociaste?</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="I">Muy bien.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">Cuéntalo, pues, puntualmente.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Llegué al retrete, donde el rey estaba,</l>
+          <l>habiendo antes ya visto con cuidado</l>
+          <l>la antecámara sola y otra pieza,</l>
+          <l>y entré dentro con rostro alegre y libre.</l>
+          <l>Preguntome: «¿Qué buscas? ¿A qué entraste?»</l>
+          <l>Yo, sin le responder palabra alguna,</l>
+          <l>cierro tras mí la puerta, y con él luego,</l>
+          <l>y arrójole de pechos en su cama,</l>
+          <l>y entonces saco este puñal en alto</l>
+          <l>y con osado corazón le digo:</l>
+          <l>«Hasta sacarte el alma, al cielo juro,</l>
+          <l>te meteré este hierro por el cuerpo,</l>
+          <l>si no me estás humilde y obediente</l>
+          <l>a cuanto aquí de tu persona vieres</l>
+          <l>que dispone mi mano, gobernada</l>
+          <l>de asoluto poder y justo intento».</l>
+          <l>Con lastimosa voz entonces quiso</l>
+          <l>hablarme no sé qué. Yo dije: «Basta;</l>
+          <l>no me hables, no ruegues, ni reclames».</l>
+          <l>Calló pasmado, atónito y temblando,</l>
+          <l>cubierto todo de un sudor helado,</l>
+          <l>en amarillo y cárdeno teñido</l>
+          <l>el viejo rostro y las caducas manos,</l>
+          <l>las cuales, vueltas para atrás, con fuertes</l>
+          <l>lazos le até, y de esta suerte luego</l>
+          <l>por la escala secreta de la torre,</l>
+          <l>al centro de ella, le he bajado, adonde</l>
+          <l>en una gran cadena queda puesto.</l>
+          <l>Con su llave maestra abrí las puertas,</l>
+          <l>y con ella después cerré al salirme,</l>
+          <l>sin decirnos palabra el uno al otro,</l>
+          <l>y sin que nadie me haya visto vengo.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Tu discreción, fuerte Celabo, admiro,</l>
+          <l>pues tan de veras has mi gusto hecho.</l>
+          <l>Ahora solo resta que Zopiro</l>
+          <l>haga con esa discreción su hecho,</l>
+          <l>y con ojos al fuerte mozo miro,</l>
+          <l>que no le faltará valor y pecho,</l>
+          <l>pues es discreto como tú y osado,</l>
+          <l>y a los que tales son ayuda el hado.</l>
+          <l>Y cuanto más que no es dificultoso</l>
+          <l>sino fácil el caso a que le envío.</l>
+          <l>Harase, y luego el alto y generoso</l>
+          <l>intento mostraré, como confío,</l>
+          <l>con lo cual en el mundo el más famoso</l>
+          <l>ha de ser mi valor y el nombre mío</l>
+          <l>de cuantos en su heroica y alta historia</l>
+          <l>haga la eternidad viva memoria.</l>
+          <l>Zopiro y tú me ayudaréis en todo,</l>
+          <l>y, como amigos fieles verdaderos</l>
+          <l>míos y de Menón, haréis de modo</l>
+          <l>que muestren ya sus filos mis aceros.</l>
+          <l>Serví, mientras mis cosas acomodo,</l>
+          <l>que después yo sabré satisfaceros.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Satisfechos, señora, quedaremos,</l>
+          <l>cuando con los servicios te agrademos.</l>
+        </sp>
+        <stage>(SEMÍRAMIS, CELABO, ZOPIRO.)</stage>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Hízose de la suerte que mandaste,</l>
+          <l>serenísima reina, tu contento.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>¡Oh, mi Zopiro!, gustaré en estremo</l>
+          <l>que me des cuenta, sin que falte cosa,</l>
+          <l>de todo lo que en eso ha sucedido,</l>
+          <l>porque, conforme a ello, trace y haga</l>
+          <l>lo que más conviniere a mi propósito.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Hallé, señora, al príncipe en su sala</l>
+          <l>con dos pajes holgándose y jugando.</l>
+          <l>Llegueme a él y díjele que iba</l>
+          <l>a darle de tu parte aquel recaudo,</l>
+          <l>que mandase salir aquellos pajes,</l>
+          <l>que era secreto, y él mandolo luego.</l>
+          <l>Leyó la breve carta con presteza,</l>
+          <l>miró la firma, reconoció el sello,</l>
+          <l>y luego, algo alterado, dijo: «No sé</l>
+          <l>qué pretende mi madre en este caso,</l>
+          <l>pero por fuerza habré de obedecerla,</l>
+          <l>pues con tanto rigor me niega y veda</l>
+          <l>que sin dalle respuesta, luego, luego,</l>
+          <l>haga lo que me manda. Vamos, vamos».</l>
+          <l>Esto diciendo, pártese furioso</l>
+          <l>por la tribuna al templo, donde, siendo</l>
+          <l>de la sacerdotisa conocidos,</l>
+          <l>y diciéndole el príncipe que a ella</l>
+          <l>queríamos hablar sola, metionos</l>
+          <l>dentro de su aposento. En él cerrados,</l>
+          <l>diole Ninias la carta. Ella leyóla,</l>
+          <l>y, admirada del caso y obediente,</l>
+          <l>al momento sacó de una arca suya</l>
+          <l>un su vestido, el cual se puso Ninias,</l>
+          <l>desnudándose de este que aquí traigo.</l>
+          <l>Al fin él queda hecho una doncella</l>
+          <l>entre las otras vírgines vestales,</l>
+          <l>y en el rostro, que es ese mismo tuyo,</l>
+          <l>juzgarán todos que eres tú, sin duda.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Y aún por tener el rostro tan de veras</l>
+          <l>mi hijo como el mío, entiendo cierto</l>
+          <l>que no me saldrán vanas mis quimeras</l>
+          <l>y las notables cosas que concierto.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Digo, Celabo, que si a Ninias vieras...</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Es encarecer eso desconcierto,</l>
+          <l>pues es milagro de Naturaleza</l>
+          <l>sus tan conformes rostros y belleza.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Y más ahora, de mujer vestido.</l>
+          <l>Digo que estuve yo casi confuso,</l>
+          <l>con saber el negocio tan sabido,</l>
+          <l>después que de mujer Ninias se puso.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Pues a mí me veréis con su vestido</l>
+          <l>el ardid astutísimo que uso:</l>
+          <l>él la madre será, yo seré el hijo,</l>
+          <l>con grande gozo nuestro y regocijo.</l>
+          <l>Ahora, mientras entro yo a mudarme</l>
+          <l>y a tomar cierta carta conveniente,</l>
+          <l>al Consejo llamad, y entrá a llamarme,</l>
+          <l>cuando aquí esté, vosotros solamente.</l>
+          <l>Para que mi intención se entable y arme</l>
+          <l>y se dé fin a mi deseo ardiente,</l>
+          <l>diligencia conviene con cordura,</l>
+          <l>que es madre de la próspera ventura.</l>
+          <l>Esta da fin gustoso al pensamiento</l>
+          <l>y las dificultades rinde y doma.</l>
+          <l>Haced los dos con esta mi contento,</l>
+          <l>pues el de todos felizmente asoma.</l>
+          <l>Yo me entro a lo que digo a mi aposento.</l>
+          <l part="I">Dame, Zopiro, ese vestido.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l part="F">Toma.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Y, amigos, no haya falta ni descuido,</l>
+          <l>pues de lo que os encargo me descuido.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Harase todo lo que mandas luego.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Puedes de ello, señora, descuidarte.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Así, fieles amigos, os lo ruego,</l>
+          <l>pues os ha de caber la mayor parte.</l>
+        </sp>
+        <stage>(ZOPIRO, CELABO.)</stage>
+        <sp who="#zopiro">
+          <speaker>[ZOPIRO]</speaker>
+          <l>¿Hay pecho igual, Celabo? Un vivo fuego</l>
+          <l>prenden en él naturaleza y arte.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>[CELABO]</speaker>
+          <l>Mejor haremos de su pecho esamen,</l>
+          <l>deja que mande que al Consejo llamen.</l>
+        </sp>
+        <stage>(ZOPIRO.)</stage>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>¡Oh, fortuna!, ¿hay cosa igual</l>
+          <l>en ligereza a tu rueda?</l>
+          <l>¿Hay corriente a que no eceda</l>
+          <l>tu corriente perenal?</l>
+          <l>Ayer fue Nino un monarca,</l>
+          <l>y alcanzó a serlo en el mundo</l>
+          <l>tras el monarca segundo,</l>
+          <l>que se reservó en el arca,</l>
+          <l>y es hoy un triste cautivo,</l>
+          <l>presas las manos y pies;</l>
+          <l>aunque no sé si lo es,</l>
+          <l>porque dudo que esté vivo.</l>
+          <l>Consuelo nace de aquí</l>
+          <l>para mí de una esperanza,</l>
+          <l>que, pues en todo hay mudanza,</l>
+          <l>también podrá haberla en mí.</l>
+          <l>Mas, ¿cómo que podrá haberla?</l>
+          <l>Sin duda que devaneo,</l>
+          <l>pues la mudanza que veo</l>
+          <l>en mí dejaba de verla.</l>
+          <l>¿Yo no soy el que era ayer</l>
+          <l>del rey un pobre escudero,</l>
+          <l>y hoy no soy ya camarero</l>
+          <l>de la reina, su mujer?</l>
+          <l>Camarero, y escogido</l>
+          <l>tan a su contento soy,</l>
+          <l>que en ella conocí hoy</l>
+          <l>el pecho por mí encendido;</l>
+          <l>que aquel mirar tiernamente</l>
+          <l>y aquel grande ofrecimiento</l>
+          <l>dan muestras de sentimiento</l>
+          <l>por algún deseo ardiente.</l>
+          <l>Mas débome de engañar,</l>
+          <l>que su altivo corazón</l>
+          <l>ni tiene amor ni afición</l>
+          <l>sino a ser reina y mandar.</l>
+          <l>Este solo es su ejercicio,</l>
+          <l>este solo es su deseo,</l>
+          <l>aunque tras esto bien creo</l>
+          <l>que seguirá cualquier vicio.</l>
+          <l>Bien se le echará de ver,</l>
+          <l>y a fe que yo me despierte,</l>
+          <l>que es esa pasión de suerte</l>
+          <l>que no se puede esconder.</l>
+          <l>¡Graciosa cosa sería</l>
+          <l>que sucediese yo a Nino!</l>
+          <l>Mas, ¿qué cosas imagino?</l>
+          <l>¡Qué liviana fantasía!</l>
+          <l>Como subo las escalas</l>
+          <l>de la privanza y favor,</l>
+          <l>ya la ambición, ya el amor</l>
+          <l>me levantan con sus alas.</l>
+          <l>Pues debría de mirar</l>
+          <l>cuán presto puedo caer,</l>
+          <l>y acordarme que vi ayer</l>
+          <l>al grande Nino reinar,</l>
+          <l>y hoy creo que está amarrado</l>
+          <l>en una triste prisión,</l>
+          <l>y acordarme de Menón,</l>
+          <l>su tan querido y privado.</l>
+          <l>Mas ya de todo me acuerdo,</l>
+          <l>y en la buena o mala suerte</l>
+          <l>me servirá de que acierte</l>
+          <l>a tener algún acuerdo.</l>
+        </sp>
+        <stage>(ZOPIRO, CELABO.)</stage>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Ya el portero fue volando</l>
+          <l>a convocar el Consejo.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Dime, Celabo, ¿y el viejo,</l>
+          <l part="I">vive?</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="F">¿Quién? ¿Nino? Penando</l>
+          <l>en una mazmorra escura</l>
+          <l>está el triste sepultado.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>¡Para rey tan señalado,</l>
+          <l>miserable sepultura!</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>¿Eso te da pena alguna?</l>
+          <l>Llore quien llorare y gima,</l>
+          <l>como yo me vea encima</l>
+          <l>de la rueda de fortuna.</l>
+          <l>Harto ha gozado del mundo</l>
+          <l>él y sus privados todos.</l>
+          <l>Ahora, por varios modos,</l>
+          <l>dennos el lugar segundo.</l>
+          <l>Deje el reino Nino y sea</l>
+          <l>Semíramis reina ahora</l>
+          <l>y, si a los dos nos mejora,</l>
+          <l>cien mil años le posea.</l>
+          <l>Aunque la casa se arda,</l>
+          <l>no niegues que es ser mejor</l>
+          <l>tú camarero mayor,</l>
+          <l>yo capitán de la guarda.</l>
+          <l>Y lo menos que tendremos</l>
+          <l>es esta merced primera.</l>
+          <l>Zopiro, de esta manera</l>
+          <l>son del mundo los estremos.</l>
+          <l>Suben y bajan los hombres</l>
+          <l>en el mundo, porque es rueda</l>
+          <l>que siempre sin cesar rueda</l>
+          <l>y así de esto no te asombres,</l>
+          <l>que es fuerza que, si al rodar,</l>
+          <l>la rueda en ruedo ha de ir,</l>
+          <l>el de abajo ha de subir,</l>
+          <l>y el de arriba ha de bajar.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Bien veo que de esa suerte,</l>
+          <l>por entre varios estremos</l>
+          <l>vamos desde que nacemos</l>
+          <l>hasta llegar a la muerte,</l>
+          <l>la cual, si es buena, no importa</l>
+          <l>que a la veloz rueda asida</l>
+          <l>vaya en rodeo la vida</l>
+          <l>por carrera larga o corta.</l>
+        </sp>
+        <stage>(CELABO, ZOPIRO, DIARCO.)</stage>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l>Ya está el Consejo aquí. ¿Qué es de la reina?</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Ahora iremos a llamarla. Entre.</l>
+        </sp>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l>Ya entra, veisle allí, avisalda luego.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="I">Zopiro, vamos.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l part="F">Vamos luego, anda.</l>
+        </sp>
+        <stage>(JANTO, CREÓN, TROILO, ORISTENES, DIARCO.)</stage>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>Digo, Creón, que es cosa graciosísima</l>
+          <l>el mandarnos llamar tan presto a todos.</l>
+        </sp>
+        <sp who="#creon">
+          <speaker>CREÓN</speaker>
+          <l>Alguna grande novedad sospecho.</l>
+        </sp>
+        <sp who="#troilo">
+          <speaker>TROILO</speaker>
+          <l>Tras la que hoy ha hecho el rey, por cierta</l>
+          <l>cualquiera novedad puede tenerse.</l>
+        </sp>
+        <sp who="#oristenes">
+          <speaker>ORISTENES</speaker>
+          <l>Y más siendo mujer la que lo ordena.</l>
+        </sp>
+        <stage>(SEMÍRAMIS, en hábito de su hijo, JANTO, CREÓN, TROILO, ORISTENES, CELABO, ZOPIRO, DIARCO.)</stage>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>¡Oh, consejeros de mi padre amados</l>
+          <l>y de mi amada madre tan queridos!,</l>
+          <l>sentaos, como soléis, en los estrados</l>
+          <l>y abrid a mis razones los oídos;</l>
+          <l>sean mis tristes casos escuchados,</l>
+          <l>y sean mis cuidados socorridos.</l>
+          <l>Leed Janto esta carta, pero quiero</l>
+          <l>que el sello y firma y letra veáis primero.</l>
+        </sp>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>De la reina es la letra y firma y sello.</l>
+        </sp>
+        <sp who="#creon">
+          <speaker>CREÓN</speaker>
+          <l>Suyo es el sello y suya es firma y letra.</l>
+        </sp>
+        <sp who="#troilo">
+          <speaker>TROILO</speaker>
+          <l>Bien conocida es letra y firma y sello.</l>
+        </sp>
+        <sp who="#oristenes">
+          <speaker>ORISTENES</speaker>
+          <l>No hay que dudar en sello o firma o letra.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Pues conocéis la letra y firma y sello,</l>
+          <l>dejad el sello y firma, oíd la letra.</l>
+          <l>Leed y oíd la letra de esa carta,</l>
+          <l>de esa importante, cuanto triste, carta.</l>
+        </sp>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>«Semíramis, tristísima, infelice</l>
+          <l>más que cuantos nacieron en el mundo,</l>
+          <l>con la pena mayor, con el más fuerte</l>
+          <l>y más bravo dolor que sentir puede</l>
+          <l>un corazón humano, enternecido</l>
+          <l>del amor conyugal divino y santo,</l>
+          <l>esta carta os escribe, ¡oh, consejeros</l>
+          <l>del monarca sublime de la Asiria,</l>
+          <l>y primeras cabezas de sus reinos!,</l>
+          <l>porque hagáis lo que dispone el cielo,</l>
+          <l>lo que el eterno Dios manda y ordena,</l>
+          <l>con voluntad de vuestro rey amado,</l>
+          <l>de mi querido, de mi dulce Nino,</l>
+          <l>y también de sus padres Belo y Juno,</l>
+          <l>los cuales en un carro de oro puro,</l>
+          <l>de lucientes estrellas tachonado,</l>
+          <l>y con la luz del sol y de la luna</l>
+          <l>y los colores de la aurora y iris</l>
+          <l>en mil varias pinturas compartido,</l>
+          <l>de seis cisnes blanquísimos tirado,</l>
+          <l>decendieron del cielo, y en la pieza</l>
+          <l>adonde nos dejastes del Consejo,</l>
+          <l>con majestad y gloria inmensa entraron,</l>
+          <l>y en mi presencia, ¡oh, caso estraño y grande!,</l>
+          <l>el gran Belo arrojó a su amado hijo,</l>
+          <l>a mi querido esposo, rey y padre,</l>
+          <l>un fuego vivo con que en viva llama</l>
+          <l>todo le convirtió del pie a la frente.</l>
+          <l>Luego, tras esto, su querida Juno,</l>
+          <l>sacando un vaso transparente y rico,</l>
+          <l>le roció con un cristal potable,</l>
+          <l>o fuese agua o fuese ambrosía o nétar,</l>
+          <l>con que apagó la llama y volvió Nino</l>
+          <l>en su forma primera, mas trocado</l>
+          <l>el hábito y vestido que traía</l>
+          <l>en un manto real rico y pomposo,</l>
+          <l>blanco y resplandeciente como el día.</l>
+          <l>Entonces le tomaron de las manos</l>
+          <l>sus padres, y en aquel triunfante carro</l>
+          <l>a los pies le sentaron en un solio</l>
+          <l>de cristal liso, relumbrante y puro,</l>
+          <l>sembrado de claveles y alelíes,</l>
+          <l>de rosas, de jazmines y azucenas.</l>
+          <l>Tras esto, en voz de majestad afable,</l>
+          <l>el grande padre Belo brevemente</l>
+          <l>me dijo a mí, nombrándome: "Semíramis,</l>
+          <l>la voluntad del grande Dios y mía,</l>
+          <l>de mi Juno y tu Nino, es que gobierne,</l>
+          <l>que sea universal rey y monarca,</l>
+          <l>el mozo Zameis Ninias, tu buen hijo,</l>
+          <l>en vez de su buen padre, que al eterno</l>
+          <l>trono de gloria con Amón llevamos,</l>
+          <l>y tú luego recógete en el templo</l>
+          <l>con las divinas vírgines vestales".</l>
+          <l>Y alzando más la voz y despidiendo</l>
+          <l>de los ojos y faz vivas centellas,</l>
+          <l>diciendo prosiguió: "Mira, Semíramis,</l>
+          <l>que intentar lo contrario no presumas</l>
+          <l>si no quieres pasar la mayor pena,</l>
+          <l>el castigo mayor, más bravo y fuerte</l>
+          <l>que puede dar el grande Amón glorioso".</l>
+          <l>Y apenas estas últimas palabras</l>
+          <l>el gran Belo dijo cuando, abriendo</l>
+          <l>las blancas alas y las negras bocas,</l>
+          <l>los cisnes hermosísimos partieron,</l>
+          <l>cantando con dulcísima armonía,</l>
+          <l>y por el aire con suave curso</l>
+          <l>el rico carro al cielo conducieron.</l>
+          <l>Yo, pues, ¡oh, fieles consejeros nuestros!,</l>
+          <l>yo, Semíramis pía y riligiosa,</l>
+          <l>que al grande Dios obedecer procuro</l>
+          <l>y que sus justas amenazas temo,</l>
+          <l>encerrándome luego en este templo</l>
+          <l>de las vestales vírgines sagradas,</l>
+          <l>con esta carta a mi querido Ninias</l>
+          <l>os envío y entrego, y ruego y pido</l>
+          <l>que sea, como Dios ordena y manda,</l>
+          <l>sucesor de los reinos de su padre,</l>
+          <l>haciendo que mañana le coronen</l>
+          <l>los sacerdotes en el templo grande</l>
+          <l>públicamente, junto todo el pueblo,</l>
+          <l>ante el altar de Amón y las imágenes</l>
+          <l>de sus agüelos, el gran Belo y Juno;</l>
+          <l>y de mí no se acuerde nadie nunca,</l>
+          <l>no haya memoria de esta desdichada</l>
+          <l>y triste viuda que fue reina un hora</l>
+          <l>hoy del templo de Vesta. Yo: Semíramis».</l>
+        </sp>
+        <sp who="#creon">
+          <speaker>CREÓN</speaker>
+          <l>¿Hay más estraño caso y más divino?</l>
+        </sp>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>Divino caso, sí, pero no estraño,</l>
+          <l>sino muy propio al merecer de Nino.</l>
+        </sp>
+        <sp who="#troilo">
+          <speaker>TROILO</speaker>
+          <l>No recibís, señor, en eso engaño,</l>
+          <l>sino muy en lo cierto estáis, pues esto</l>
+          <l>es del valor de Nino el desengaño.</l>
+        </sp>
+        <sp who="#oristenes">
+          <speaker>ORISTENES</speaker>
+          <l>Gran confusión y admiración me ha puesto</l>
+          <l>un suceso tan nuevo y prodigioso,</l>
+          <l>tan admirable, repentino y presto.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Yo estoy suspenso, atónito y medroso,</l>
+          <l>¡oh, mis amigos fieles y queridos!,</l>
+          <l>y en lo que he de hacer estoy dudoso.</l>
+        </sp>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>No turbes, fuerte joven, tus sentidos.</l>
+          <l>Cuanto tu madre escribe aquí haremos</l>
+          <l>los cuatro, como somos advertidos.</l>
+        </sp>
+        <sp who="#creon">
+          <speaker>CREÓN</speaker>
+          <l>Mañana por la obra lo pondremos.</l>
+        </sp>
+        <sp who="#troilo">
+          <speaker>TROILO</speaker>
+          <l>Mañana te daremos la corona.</l>
+        </sp>
+        <sp who="#oristenes">
+          <speaker>ORISTENES</speaker>
+          <l>Mañana como rey te adoraremos.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>A los cuatro encomiendo mi persona,</l>
+          <l>y encargo que se cumpla el mandamiento</l>
+          <l>de quien a los rebeldes no perdona.</l>
+        </sp>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>Todo será a su gusto y tu contento,</l>
+          <l>y pues esto así queda concertado,</l>
+          <l>alegra el corazón y el pensamiento.</l>
+          <l>Nosotros llevaremos el cuidado,</l>
+          <l>y con esto podemos irnos luego,</l>
+          <l>y tú queda contento y consolado.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Al poderoso Dios eterno ruego</l>
+          <l>que os guíe de tal suerte en este hecho,</l>
+          <l>que de él resulte amor, paz y sosiego.</l>
+          <l><stage>(SEMÍRAMIS, CELABO, ZOPIRO.)</stage>¿Qué os parece a vosotros de lo hecho?</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Que es celestial tu espíritu y prudencia.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Que es divino el valor de tu gran pecho.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Celabo, ahora tú, con diligencia,</l>
+          <l>saca de la prisión con sus prisiones</l>
+          <l>a Nino, y traile luego a mi presencia.</l>
+          <l><stage>(SEMÍRAMIS, ZOPIRO.)</stage>Ya mayor libertad y ya ocasiones</l>
+          <l>me ofrece el cielo y da, Zopiro amigo,</l>
+          <l>para tratar con vos otras razones.</l>
+          <l>Ya que puedo tratar más claro, digo</l>
+          <l>que vos, Zopiro, solamente quiero</l>
+          <l>que seáis el que pueda más comigo.</l>
+          <l>Por ser mi amor, seréis mi camarero;</l>
+          <l>por ser yo vuestra, quiero yo escogeros</l>
+          <l>por mi regalo y gusto verdadero.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Yo por serviros y satisfaceros</l>
+          <l>a ofreceros la vida estoy dispuesto,</l>
+          <l>y quisiera mil vidas ofreceros.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>¡Ay, que me divertía! Amigo, presto,</l>
+          <l>toma esta llave y vuela a mi aposento,</l>
+          <l>y trai el vaso que en la mesa he puesto.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l part="I">Dame la llave.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">Toma, mi contento.</l>
+          <l><stage>(SEMÍRAMIS.)</stage>Todo sucede bien, en popa acude</l>
+          <l>de la felicidad el largo viento.</l>
+          <l>No hay cosa en que repare ya ni dude.</l>
+          <l>Mañana seré rey y reina junto,</l>
+          <l>y solo lo sabrá quien me desnude,</l>
+          <l>el cual será Zopiro, y si barrunto</l>
+          <l>que por él o Celabo ha de saberse,</l>
+          <l>morirán por mi mano, que en su punto</l>
+          <l>de hoy más mi voluntad ha de ponerse.</l>
+        </sp>
+        <stage>(SEMÍRAMIS, NINO, CELABO, ZOPIRO.)</stage>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Sacrílego, malvado,</l>
+          <l>inclemente verdugo riguroso,</l>
+          <l>pues dices que has pensado</l>
+          <l>darme fin tan cruel, tan lastimoso,</l>
+          <l>dámele presto, tu crueldad no llegue</l>
+          <l>a tanto que este bien solo me niegue.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>He aquí; te traigo a Nino,</l>
+          <l>como mandaste, puesto en sus prisiones.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>¡Oh, eterno Dios divino!,</l>
+          <l>¿qué es lo que de mi hijo y mí dispones,</l>
+          <l>y qué, señor piadoso, permitiste</l>
+          <l>de la mujer querida que me diste?</l>
+          <l>Hijo mío querido,</l>
+          <l>mi verdadero amor y mi esperanza,</l>
+          <l>¿qué furia te ha regido?,</l>
+          <l>¿quién causa en ti tan áspera mudanza?,</l>
+          <l>¿qué quieres, di, de tu amoroso padre?,</l>
+          <l>y di, ¿qué has hecho de tu dulce madre?</l>
+          <l>Si mis reinos deseas,</l>
+          <l>sin que por tales medios los alcances,</l>
+          <l>haré que los poseas;</l>
+          <l>no pasen, hijo, tan crueles trances</l>
+          <l>por este padre tuyo que te adora,</l>
+          <l>y ante ti tan injustamente llora.</l>
+          <l>Mas si, según sospecho,</l>
+          <l>con la misma crueldad tu madre has muerto,</l>
+          <l>rompe luego mi pecho,</l>
+          <l>sea este triste corazón abierto,</l>
+          <l>donde ella vive como en reino suyo,</l>
+          <l>y de donde procede el propio tuyo.</l>
+          <l>Dime luego, no tardes,</l>
+          <l>hijo, si vive tu querida madre.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Digo que no la aguardes.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Pues mata luego, pérfido, a tu padre;</l>
+          <l>mata, hijo cruel, al padre luego</l>
+          <l>con veneno, con soga, o hierro, o fuego.</l>
+          <l>No quiero ya la vida.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Ni aquí ninguno te la da tampoco.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>¡Oh, traidor parricida!,</l>
+          <l>al grande Dios, a Belo y Juno invoco</l>
+          <l>para que con eterno fuego horrible</l>
+          <l>castiguen tu delito atroz, terrible.</l>
+          <l>Dadme ya con que muera,</l>
+          <l>verdugos inhumanos y sangrientos.</l>
+          <l>Ninias, mira que espera</l>
+          <l>tu madre en los eternos aposentos,</l>
+          <l>que a mí me des, como le diste, muerte,</l>
+          <l>porque corramos una misma suerte.</l>
+          <l>Semíramis querida,</l>
+          <l>que por tan impía muerte y tan inorme</l>
+          <l>haces de mí partida,</l>
+          <l>yo con tu fin haré mi fin conforme,</l>
+          <l>que yo me daré muerte con mi mano,</l>
+          <l>si dar no me la quiere este tirano.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Sí quiero darla, y luego.</l>
+          <l>Zopiro, dale el vaso que la tiene,</l>
+          <l>y en un inmenso fuego</l>
+          <l>luego le echad, y no temáis que pene.</l>
+          <l>Yo me entro, que a un metal, a un duro canto</l>
+          <l>pueden mover aquel amor y llanto.</l>
+        </sp>
+        <stage>(NINO, CELABO, ZOPIRO.)</stage>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Dame, dame el veneno</l>
+          <l>que es mi vida, mi gloria y mi consuelo,</l>
+          <l>pues, entrando en el seno,</l>
+          <l>saldrá mi alma para ir al cielo,</l>
+          <l>donde está mi Semíramis querida,</l>
+          <l>que es mi consuelo, que es mi gloria y vida.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>Todo se lo ha bebido.</l>
+          <l>¡Oh, fuerte corazón, oh, amor estraño,</l>
+          <l>cuánto en esto has podido!</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>Ya me parece cada punto un año</l>
+          <l>de los que tardo a ver mi esposa amada,</l>
+          <l>sobre el cielo y estrellas asentada.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Quiero desengañarte,</l>
+          <l>no mueras, triste rey, tan engañado.</l>
+          <l>La que de aquí se parte</l>
+          <l>es tu mujer, que de tu hijo amado</l>
+          <l>el parecer del rostro y el vestido</l>
+          <l>tiene, con que tú la has desconocido.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>¿Qué dices, enemigo?</l>
+          <l>¿Que es posible, cruel? ¿Que es eso cierto?</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Verdad pura te digo.</l>
+        </sp>
+        <sp who="#nino">
+          <speaker>NINO</speaker>
+          <l>¡Oh, bravo desatino y desconcierto!</l>
+          <l>¡Ay, desdichada vida! ¡Ay, triste muerte!</l>
+          <l>¡Oh, cruel!, ¡oh, inhumana!, ¡oh, fiera suerte!</l>
+          <l>Amigos, socorredme,</l>
+          <l>duélaos dolor tan bravo y espantoso.</l>
+          <l>Traed luego, traedme</l>
+          <l>algún licor y antídoto precioso</l>
+          <l>que venza y rinda esta ponzoña fiera.</l>
+          <l>No consintáis que con tal pena muera.</l>
+          <l>Mirad que soy yo Nino,</l>
+          <l>el rey que como hijos os amaba,</l>
+          <l>el que como divino</l>
+          <l>cada cual de vosotros adoraba,</l>
+          <l>aquel rey natural que padre os era:</l>
+          <l>no consintáis que con tal pena muera.</l>
+          <l>Si en los ásperos riscos</l>
+          <l>del Cáucaso entre fieras no nacistes,</l>
+          <l>si entre los basiliscos,</l>
+          <l>criados para tanto mal no fuistes,</l>
+          <l>si no son vuestras almas piedra dura,</l>
+          <l>doleos de mi terrible desventura.</l>
+          <l>Mas ya el remedio es tarde,</l>
+          <l>¡oh, fiera rigurosa, horrible y brava,</l>
+          <l>tal castigo te guarde</l>
+          <l>la mano justiciera! A quien te amaba,</l>
+          <l>a quien te amaba más que a sí, ¡oh, traidora!,</l>
+          <l part="I">¡oh, pérfida Semíramis!...</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="F">Llegó la hora</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l>No me digas palabra</l>
+          <l>sino tenle de ahí, Celabo, luego,</l>
+          <l>pues sin que boca se abra</l>
+          <l part="I">se entiende todo.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="F">Vamos, y en un fuego,</l>
+          <l>como mandó la reina, le pondremos</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l part="I">Tenle de ahí.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l part="M">Sostenle tú.</l>
+        </sp>
+        <sp who="#zopiro">
+          <speaker>ZOPIRO</speaker>
+          <l part="F">Aguijemos.</l>
+        </sp>
+        <trailer>FIN DE LA SEGUNDA JORNADA</trailer>
+      </div>
+      <div type="act">
+        <head>Jornada III</head>
+        <stage>SEMÍRAMIS, en hábito de reina, ZAMEIS NINIAS, en hábito de príncipe, JANTO, CREÓN, TROILO, ORISTENES, CELABO, DIARCO, PUEBLO.</stage>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Ya el tiempo con su vuelo acostumbrado</l>
+          <l>ha traído a tal punto mis deseos</l>
+          <l>que libre, sin ficiones ni rodeos,</l>
+          <l>muestre mi corazón fuerte y osado.</l>
+          <l>El capitán y rey tan señalado,</l>
+          <l>que con tan grandes triunfos y trofeos</l>
+          <l>de persas, medos, libios, nabateos,</l>
+          <l>y de otros mil sus templos ha adornado</l>
+          <l>no ha sido Ninias, como habéis creído,</l>
+          <l>¡oh, mis vasallos fuertes y leales!,</l>
+          <l>sino su madre, puesta en su vestido.</l>
+          <l>Yo he sido el capitán de los Reales,</l>
+          <l>y mi querido hijo es quien ha sido</l>
+          <l>virgen entre las vírgines vestales.</l>
+          <l>Para deciros esto aquí he venido,</l>
+          <l>ya cual me veis, como mujer vestida,</l>
+          <l>y traigo a Ninias, de hombre ya vestido.</l>
+          <l>Él Semíramis es, la recogida,</l>
+          <l>en rostro y traje nada diferente</l>
+          <l>a mí, que he sido rey, por él tenida.</l>
+          <l>Ya llegó al punto mi deseo ardiente</l>
+          <l>de que el mundo por mí en su punto viese</l>
+          <l>una mujer heroica y ecelente,</l>
+          <l>una mujer que en guerra y paz rigiese</l>
+          <l>fuertes legiones, pueblos ordenados,</l>
+          <l>y que en todo a mil reyes ecediese.</l>
+          <l>Después que al cielo los divinos hados</l>
+          <l>a mi Nino llevaron, que ha seis años,</l>
+          <l>ya visto habéis, varones estimados,</l>
+          <l>por cuántas furias he rompido y daños,</l>
+          <l>cuántos bravos peligros he allanado,</l>
+          <l>y qué rigores he vencido estraños;</l>
+          <l>y con vuestro valor, por mí ordenado,</l>
+          <l>los difíciles casos que he emprendido,</l>
+          <l>los altísimos hechos que he osado;</l>
+          <l>cuán a mi honra de ellos he salido,</l>
+          <l>y mi famosa Babilonia cuánto</l>
+          <l>he, con trofeos mil, enriquecido.</l>
+          <l>No hay reino en cuantos son del mundo espanto,</l>
+          <l>que no tiemble de Asiria y se le rinda</l>
+          <l>oyendo solo de su fama el canto.</l>
+          <l>Pues si está Babilonia fuerte y linda,</l>
+          <l>con muros, fosos, torres, templos, puentes,</l>
+          <l>bien claro con la vista se deslinda.</l>
+          <l>Todos, al fin, los que me estáis presentes,</l>
+          <l>sabéis aquestas y otras maravillas,</l>
+          <l>que espantarán las venideras gentes,</l>
+          <l>y así será escusado referillas,</l>
+          <l>sino solo rogaros que se admita</l>
+          <l>Ninias, mi hijo, a las reales sillas,</l>
+          <l>pues que mi voluntad ya le habilita</l>
+          <l>y, con la reclusión y monjil traje,</l>
+          <l>otra cualquier dificultad le quita.</l>
+          <l>Vuestro aplauso será fiel homenaje,</l>
+          <l>que de vasallos, de hombres tan leales,</l>
+          <l>no quiero más señal ni mayor gaje.</l>
+          <l>Partíos, y con pregones generales</l>
+          <l>se divulgue el suceso de este día,</l>
+          <l>haciéndose por él fiestas reales;</l>
+          <l>y el contento y el gozo y la alegría</l>
+          <l>sea respuesta de este parlamento,</l>
+          <l>y entone vuestro aplauso su armonía.</l>
+          <l>Idos, pues, ya, y este común contento</l>
+          <l>sientan luego de Asiria los confines.</l>
+        </sp>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>Vaya tu vida y nombre en largo aumento.</l>
+        </sp>
+        <sp who="#pueblo">
+          <speaker>PUEBLO</speaker>
+          <l>Vaya tu vida y nombre en largo aumento.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Toquen las cajas, suenen los clarines.</l>
+        </sp>
+        <stage>(SEMÍRAMIS, ZAMEIS.)</stage>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l>Pasmado queda el pueblo del engaño</l>
+          <l>en que tan dulcemente le has traído,</l>
+          <l>con mi nombre y mi rostro y mi vestido,</l>
+          <l>en mil guerras un año y otro año;</l>
+          <l>y alegre del presente desengaño,</l>
+          <l>cada cual de los dos reconocido,</l>
+          <l>con general aplauso y alarido</l>
+          <l>te alaba nuestro pueblo y el estraño;</l>
+          <l>y yo asimismo loo tu grandeza</l>
+          <l>y encarezco tu espíritu elevado,</l>
+          <l>y admiro tu prudencia y fortaleza;</l>
+          <l>y ser tu hijo y ser de ti estimado</l>
+          <l>tengo por mayor suerte y más riqueza</l>
+          <l>que si del alto Amón fuera engendrado.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l><stage>[Aparte.]</stage>
+            (Eso me causa a mí mortal tristeza,</l>
+          <l>eso me quita a mí todo el contento</l>
+          <l>que puede dar tu celestial belleza.</l>
+          <l>Mas, ¿qué furioso disparate intento?</l>
+          <l>¿A dónde me despeñan mis deseos?</l>
+          <l>¿Dónde vuela mi vano pensamiento?)</l>
+        </sp>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l part="I">¿Qué hablas entre ti?</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">Mil devaneos.</l>
+        </sp>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l part="I">Pues ¿qué pasión los causa?</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">Mil pasiones.</l>
+        </sp>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l part="I">¿No puedo yo saberlas?</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">Por rodeos.</l>
+        </sp>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l>No entiendo, amada madre, tus razones.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>¡Qué dulce nombre, amada, y cuán acedo</l>
+          <l>es el de madre, que con ese pones!</l>
+          <l>Tan grande es mi pasión, que ya no puedo</l>
+          <l>disimulalla más ni resistilla.</l>
+          <l>Ya, ya me rindo, ya rendida quedo.</l>
+          <l>Ya no puedo mi pena diferilla,</l>
+          <l>mas ¿cómo la diré? ¿Qué voz, qué aliento,</l>
+          <l>qué palabras tendré para decilla?</l>
+          <l>Inmenso es mi dolor y mi tormento,</l>
+          <l>helada estoy y en medio estoy de un fuego,</l>
+          <l part="I">todo por...</l>
+        </sp>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l part="M">¿Dónde vas?</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l part="F">A mi aposento.</l>
+        </sp>
+        <stage>(ZAMEIS.)</stage>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l>Bien fuera torpe yo, bien fuera ciego</l>
+          <l>si la maldita causa no entendiera</l>
+          <l>que de razón te priva y de sosiego.</l>
+          <l>Juzgar mejor tu plática pudiera</l>
+          <l>si tu desenfrenada y torpe vida</l>
+          <l>tan bien como la sé no la supiera.</l>
+          <l>¡Oh, mujer sin vergüenza y atrevida,</l>
+          <l>a las viles torpezas sensuales</l>
+          <l>del todo avasallada ya y rendida!</l>
+          <l>Al fin llegáis a ser las que sois tales,</l>
+          <l>en seguir sin vergüenza el apetito,</l>
+          <l>peores que los brutos animales.</l>
+          <l>Yo, yo tengo la culpa, que permito</l>
+          <l>que reine una mujer engañadora.</l>
+          <l>Pues, muera yo si el reino no le quito.</l>
+          <l>¿Pensabas, madre pérfida y traidora,</l>
+          <l>hacer de mí lo que de mil has hecho</l>
+          <l>desde que de mi reino eres señora?</l>
+          <l>¡Oh, fiero corazón!, ¡oh, inorme pecho!,</l>
+          <l>si yo quisiera un tiempo me gozaras</l>
+          <l>en tu lacivo, infame y sucio lecho;</l>
+          <l>después, como a los otros, me mataras</l>
+          <l>por encubrir estas maldades fieras,</l>
+          <l>que el cielo las descubre y hace claras.</l>
+          <l>No son sospechas estas ni quimeras:</l>
+          <l>cuando del templo me sacó Sintabo,</l>
+          <l>me lo dijo con pruebas verdaderas;</l>
+          <l>tu condición desde el principio al cabo</l>
+          <l>me dijo y, aunque entonces le creía,</l>
+          <l>mejor ahora de creelle acabo;</l>
+          <l>la muerte de mi padre me decía,</l>
+          <l>la cual, con pena dolorosa y fuerte,</l>
+          <l>amargamente yo llorando oía.</l>
+          <l>¡Oh, padre amado!, permití que acierte</l>
+          <l>a vengar vuestra muerte lastimosa,</l>
+          <l>si puedo yo a mi madre dar la muerte;</l>
+          <l>si por vengaros no es injusta cosa</l>
+          <l>matar a quien me trajo en sus entrañas,</l>
+          <l>yo mataré a mi madre rigurosa;</l>
+          <l>daré fin con su muerte a sus marañas,</l>
+          <l>acabarán sus vicios y maldades,</l>
+          <l>sus diabólicas artes y sus mañas;</l>
+          <l>evitaré sus fieras crueldades,</l>
+          <l>cortarele en agraz su vil deseo;</l>
+          <l>gozaré yo mis reinos y ciudades.</l>
+          <l>Por el eterno Dios que adoro y creo</l>
+          <l>que, si segunda vez osa tratarme</l>
+          <l>de su lacivo pensamiento y feo...</l>
+          <l>Mas, ¿dónde del enojo veo llevarme?</l>
+          <l>¿A qué la justa ira me convida?</l>
+          <l>¿Cómo, por qué, y de quién quiero vengarme?</l>
+          <l>¿Quién dará muerte a quien le dio la vida?</l>
+        </sp>
+        <stage>(SEMÍRAMIS, ZAMEIS.)</stage>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>¿Dónde me podré acoger</l>
+          <l>para que pueda valerme?</l>
+          <l>¿Quién me podrá socorrer,</l>
+          <l>si junta para ofenderme</l>
+          <l>amor todo su poder?</l>
+          <l>Ninias, si de mi pasión</l>
+          <l>conoces la furia loca,</l>
+          <l>no quieras, pues no es razón,</l>
+          <l>que la descubra la boca,</l>
+          <l>pues la muestra el corazón.</l>
+          <l>Humíllate a mis querellas</l>
+          <l>y repara en mis tormentos,</l>
+          <l>pues bastan ellos y ellas</l>
+          <l>para detener los vientos</l>
+          <l>y derribar las estrellas.</l>
+          <l>No desprecies el dolor</l>
+          <l>que muestran mi ojos tiernos,</l>
+          <l>mira que le causa amor,</l>
+          <l>que en cielos, tierra y infiernos</l>
+          <l>es universal señor.</l>
+          <l>Si en el alma y cuerpo y faz</l>
+          <l>te juzga toda la tierra</l>
+          <l>por ángel del cielo, haz</l>
+          <l>que tenga ya fin mi guerra,</l>
+          <l>pues es de ángeles dar paz.</l>
+          <l>Duélate mi pena fuerte</l>
+          <l>y mi pasión dolorida,</l>
+          <l>trueca mi contraria suerte,</l>
+          <l>preserva mi triste vida,</l>
+          <l>evita mi fiera muerte.</l>
+        </sp>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l>Que vienes fuera de ti,</l>
+          <l>sin alguna duda, creo.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Bien puedes creello así,</l>
+          <l>pues el mal con que peleo</l>
+          <l>a mí me saca de mí.</l>
+        </sp>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l>Para fin de esto y remate</l>
+          <l>dos cosas mi alma me inspira,</l>
+          <l>metida en este combate,</l>
+          <l>y ardiendo en saña y en ira:</l>
+          <l>o que te deje, o te mate.</l>
+          <l>Mas, aunque tal seáis vos,</l>
+          <l>el dejaros y irme elijo</l>
+          <l>de estos pensamientos dos,</l>
+          <l>así por ser vuestro hijo,</l>
+          <l>como por temer a Dios.</l>
+        </sp>
+        <stage>(SEMÍRAMIS.)</stage>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Mayor dolor que la muerte</l>
+          <l>me causará el alejarte,</l>
+          <l>que mi tormento más fuerte</l>
+          <l>será no poder mirarte,</l>
+          <l>pues mi mayor gloria es verte.</l>
+          <l>Muera, y sea en tu presencia,</l>
+          <l>que muerte será gustosa,</l>
+          <l>y no viva yo en ausencia,</l>
+          <l>que es muerte más rigurosa</l>
+          <l>y más áspera sentencia.</l>
+          <l>No puedo sin ti pasar,</l>
+          <l>no puedo sin ti vivir;</l>
+          <l>por fuerza te he de buscar,</l>
+          <l>por fuerza te he de seguir,</l>
+          <l>por fuerza te he de alcanzar.</l>
+          <l>No puedes huir de mí,</l>
+          <l>que he de correr mucho yo,</l>
+          <l>pues quiere que sea así</l>
+          <l>el cruel que me hirió,</l>
+          <l>dejándote sano a ti.</l>
+        </sp>
+        <stage>(SEMÍRAMIS, CELABO.)</stage>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Reina y señora, si es justo</l>
+          <l>que quien de veras desea</l>
+          <l>tu contentamiento y gusto</l>
+          <l>sepa claramente y vea</l>
+          <l>tu descontento y desgusto,</l>
+          <l>la causa di del que muestra</l>
+          <l>tu rostro triste y turbado,</l>
+          <l>y confía de mi diestra,</l>
+          <l>como siempre has confiado,</l>
+          <l>en la suerte adversa y diestra.</l>
+          <l>De verte turbada así</l>
+          <l>importante causa arguyo,</l>
+          <l>no me la encubras a mí.</l>
+        </sp>
+        <sp who="#semiramis">
+          <speaker>SEMÍRAMIS</speaker>
+          <l>Si me tardo, me destruyo.</l>
+          <l>Después sabrás más de mí.</l>
+        </sp>
+        <stage>(CELABO.)</stage>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Alguna de sus máquinas fabrica</l>
+          <l>esta mujer, más que el demonio astuta.</l>
+          <l>Algún nuevo edificio ya edifica</l>
+          <l>con su fuerza tirana y absoluta.</l>
+          <l>Eres mujer de condición inica,</l>
+          <l>y cruel y tirana y resoluta,</l>
+          <l>eres mujer, al fin, brava y temida,</l>
+          <l>no me espanto que seas atrevida.</l>
+          <l>Y el ver que cuanto emprende le sucede</l>
+          <l>según su pretensión, hará que emprenda</l>
+          <l>cualquiera empresa, pues la dicha ecede</l>
+          <l>a la virtud y a cualquier otra prenda,</l>
+          <l>y, quien dichoso se conoce, puede</l>
+          <l>soltar en todo a su placer la rienda,</l>
+          <l>lo que no, aunque más sea, el desdichado</l>
+          <l>que está con su desdicha acobardado.</l>
+          <l>Aunque esta ni por ser dichosa osa,</l>
+          <l>ni por ser valerosa o avisada,</l>
+          <l>sino por ser soberbia y ambiciosa,</l>
+          <l>y verse en real silla entronizada;</l>
+          <l>por ser mujer, por verse poderosa,</l>
+          <l>por tener la cruel tiranizada</l>
+          <l>esta infelice y grande monarquía</l>
+          <l>que estar en mano varonil debría.</l>
+          <l>Si, aunque se sirva al hombre más preciado</l>
+          <l>y de más ser que pueda acá ofrecerse,</l>
+          <l>es el servir un yugo tan pesado</l>
+          <l>que no hay con él quien pueda revolverse,</l>
+          <l>quien es de una mujer avasallado</l>
+          <l>¿de qué miseria no podrá dolerse?</l>
+          <l>¡Oh, triste Asiria, a una mujer rendida!</l>
+          <l>¡Oh, servitud amarga y dolorida!</l>
+          <l>¡Oh, triste servitud, tormento eterno</l>
+          <l>de este engañoso y miserable suelo!</l>
+          <l>¡Oh, alegre libertad, regalo tierno</l>
+          <l>del amoroso favorable cielo!</l>
+          <l>¡Oh, servitud, en este mundo infierno,</l>
+          <l>lleno de horror, de rabia y desconsuelo!</l>
+          <l>¡Oh, libertad dulcísima y querida!</l>
+          <l>¡Oh, servitud amarga y dolorida!</l>
+          <l>Yo lo puedo afirmar, que he padecido</l>
+          <l>lo que puede ofrecer fortuna en esto,</l>
+          <l>y en un profundo golfo sumergido</l>
+          <l>me he visto, y en las nubes tal vez puesto.</l>
+          <l>Mas en la cumbre del favor subido,</l>
+          <l>o sin él, desvalido y descompuesto,</l>
+          <l>siempre la libertad deseo y lloro,</l>
+          <l>la libertad, que es el mayor tesoro.</l>
+          <l>Y si es miseria estar generalmente</l>
+          <l>sujeto el hombre como está el vasallo,</l>
+          <l>quien en particular lo está, ¿qué siente?</l>
+          <l>Yo pudiera decillo, pero callo,</l>
+          <l>callo que es el dejarme impertinente,</l>
+          <l>pues con esto no puedo remediallo.</l>
+          <l>Sirvo en la guerra y en la corte, donde</l>
+          <l>la fiel lealtad corrida el rostro esconde,</l>
+          <l>la fiel lealtad que de la infiel tirana</l>
+          <l>simulación el rostro esconde y huye;</l>
+          <l>la cual de luz sofisticada y vana</l>
+          <l>vestida, sus bellezas se atribuye,</l>
+          <l>y tentadora, hipócrita, inhumana,</l>
+          <l>paz y quietud, vida y honor destruye,</l>
+          <l>y ambiciosa, insolente y temeraria</l>
+          <l>es de virtud, sacrílega falsaria;</l>
+          <l>la infiel simulación que es bravo un lobo</l>
+          <l>disfrazado en un manso corderillo,</l>
+          <l>que en leales amigos hace un robo</l>
+          <l>que posible no le es restituillo,</l>
+          <l>la infiel simulación, inmenso un globo</l>
+          <l>imposible a cuadrallo ni a medillo,</l>
+          <l>que a su circunferencia es diferente</l>
+          <l>el centro oculto inesplicablemente.</l>
+          <l>¡Oh, traidor!, ¿al amigo, que obligado</l>
+          <l>con obras de lealtad te tiene, vendes?</l>
+          <l>Infiel, por ofender quien te ha enojado,</l>
+          <l>¿al fiel que nunca te dio enojo ofendes?</l>
+          <l>Si queda el inocente así engañado,</l>
+          <l>por dicha, ¿al cielo así engañar pretendes?</l>
+          <l>Hipócrita, cruel, ¿de esa manera</l>
+          <l>viertes, envuelta en miel, ponzoña fiera?</l>
+          <l>¡Que entre soldados, cuyos fieles pechos</l>
+          <l>tienen en igualdad del mundo el peso,</l>
+          <l>haya quien pague tan infames pechos</l>
+          <l>a la traición, tan sin juicio y seso,</l>
+          <l>que, por satisfacer viles despechos</l>
+          <l>de guerra, den por contraseño el beso</l>
+          <l>a quien de paz, cual es, le da y recibe</l>
+          <l>y ni traición ni culpa en sí concibe!</l>
+          <l>Bien es, memoria, que me representes</l>
+          <l>estas miserias, por quien yo me veo</l>
+          <l>verter del corazón amargas fuentes,</l>
+          <l>aunque en pasarlas con valor me empleo.</l>
+          <l>¡Traidores, envidiosos, insolentes!,</l>
+          <l>usáis, en la traición de tal rodeo,</l>
+          <l>envolviendo mentiras con verdades,</l>
+          <l>que no hay averiguaros las maldades.</l>
+          <l>Mas, ¡oh, cielo!, a quien todas son más claras</l>
+          <l>que el sol más claro del sereno día,</l>
+          <l>tú al de estos perseguido al fin amparas,</l>
+          <l>si él los perdona y solo en ti confía,</l>
+          <l>si a tus templos acude, si a tus aras</l>
+          <l>ofrece el alma limpiamente y pía,</l>
+          <l>si obediente a su príncipe en el mundo</l>
+          <l>ama al del cielo y teme al del profundo.</l>
+          <l>¡Oh, guerra!, ¿quién en ti esperanza pone?,</l>
+          <l>¿quién de ti fía?, ¿quién de ti no huye?,</l>
+          <l>¿quién a dejarte ya no se dispone?,</l>
+          <l>¿quién contigo sus cuentas no concluye?</l>
+          <l>¡Oh, corte!, cuyo caos se compone</l>
+          <l>de todo cuanto la quietud destruye,</l>
+          <l>¿quién siente tus traiciones y mentiras,</l>
+          <l>qué espera de tus furias y tus iras?</l>
+          <l>Que ya, si no es doblado y fementido,</l>
+          <l>si no es disimulado y cauteloso,</l>
+          <l>si no es falso, sagaz y entremetido,</l>
+          <l>si no es adulador, si no es chismoso,</l>
+          <l>jamás el hombre se verá valido,</l>
+          <l>por más que sea discreto y valeroso,</l>
+          <l>que al valor el favor no lo acompaña</l>
+          <l>si va desnudo de artificio y maña.</l>
+          <l>Si no tienes de víbora la lengua,</l>
+          <l>que veneno mortal vierta, si tienes</l>
+          <l>el ser malsín y el ser traidor a mengua,</l>
+          <l>si con virtud o con razón te avienes,</l>
+          <l>si tu lengua no trueca o si no amengua</l>
+          <l>con falsos males verdaderos bienes,</l>
+          <l>ya casi ni en la guerra ni en la corte</l>
+          <l>cosa tendrás a tu medida y corte;</l>
+          <l>que envidia ya los ánimos confunde</l>
+          <l>y, de suerte los ojos encandila,</l>
+          <l>que no hay ver cosa en su bien redunde,</l>
+          <l>si el ajeno no abate y le aniquila.</l>
+          <l>ella todo el metal de vicios funde,</l>
+          <l>Ella todo el licor de ellos distila,</l>
+          <l>en todo tiempo, en toda parte lidia</l>
+          <l>contra virtud, venciendo siempre envidia.</l>
+          <l>Con solo un instrumento, el más ligero</l>
+          <l>y el más pesado que formó natura,</l>
+          <l>este mostro infernal, horrendo y fiero,</l>
+          <l>el bien del mundo destruir procura,</l>
+          <l>instrumento de carne carnicero,</l>
+          <l>lengua de envidia vil, lengua perjura,</l>
+          <l>¡de cuán heroicas máquinas maquinas</l>
+          <l>y pones en efeto las ruinas!;</l>
+          <l>lengua pesada, leve más que pluma,</l>
+          <l>lengua leve, pesada más que plomo,</l>
+          <l>no hay cosa que en el mundo ser presuma</l>
+          <l>cual eres tú de más y menos tomo.</l>
+          <l>Eres mi vida, eres mi muerte, en suma</l>
+          <l>según uso de ti, según te tomo,</l>
+          <l>pero infiel, levantando testimonios,</l>
+          <l>eres ministro fiel de los demonios.</l>
+          <l>¡Oh, fiera, oh, brava envidia!, entronizada</l>
+          <l>en alto trono de inorancia horrenda,</l>
+          <l>con dosel de mentira autorizada,</l>
+          <l>que a verdad y virtud la luz defienda,</l>
+          <l>del fiero corazón alimentada,</l>
+          <l>que no alcanza de bien sola una prenda,</l>
+          <l>del que mil tiene, mísero tormento,</l>
+          <l>infierno de ese que te da alimento.</l>
+          <l>¡Oh, maldiciente, mísero y cuitado!,</l>
+          <l>mira con qué te paga y te contenta</l>
+          <l>ese tu mentiroso y vil bocado,</l>
+          <l>que de vanas palabras te sustenta;</l>
+          <l>que un dicho malicioso, trasnochado,</l>
+          <l>tienes en tanto precio y tanta cuenta</l>
+          <l>que a trueco, dices, que por bueno quede.</l>
+          <l>¡Un amigo por él perderse puede!</l>
+          <l>Piérdele, charlador, nadie quiera</l>
+          <l>no solo ser amigo tuyo, pero</l>
+          <l>ni dar oídos a tu lengua fiera,</l>
+          <l>harto castigo a tu pecado fiero;</l>
+          <l>harto castigo, pero el justo fuera</l>
+          <l>(esecutado con rigor severo)</l>
+          <l>a tu lengua, envidioso maldiciente,</l>
+          <l>cortártela y clavártela en la frente.</l>
+          <l>¡De qué daños es causa y qué maldades,</l>
+          <l>de qué penas, angustias y pasiones,</l>
+          <l>de qué miserias y calamidades,</l>
+          <l>de qué infortunios y persecuciones,</l>
+          <l>de qué atroces insultos y crueldades,</l>
+          <l>de qué injustas afrentas y prisiones,</l>
+          <l>cuando la envidia o la malicia mueve</l>
+          <l>la lengua infame y a mentir se atreve!</l>
+          <l>Si es el decir verdad, en daño siendo</l>
+          <l>de tu prójimo, di, pecado grande,</l>
+          <l>¿cuánto mayor será, traidor, mintiendo,</l>
+          <l>y solo porque envidia te lo mande?</l>
+          <l>Vicio infernal, atroz, pecado horrendo,</l>
+          <l>merecedor que Dios te lo demande,</l>
+          <l>ser, por tu lengua vil, honras y vidas</l>
+          <l>con maliciosas chismes afligidas.</l>
+          <l>En decir bien, en causar bien, en cuanto</l>
+          <l>bien puede desear procurar debe</l>
+          <l>mover la lengua el hombre siempre, y tanto</l>
+          <l>gusto en esto tendrá cuando le pruebe</l>
+          <l>que, como en cielo de deleite santo,</l>
+          <l>hará que en gustos mil el alma cebe,</l>
+          <l>gozando en ella, en abundante copia,</l>
+          <l>el premio de virtud que es ella propia.</l>
+        </sp>
+        <stage>(CELABO, DIARCO.)</stage>
+        <sp who="#diarco">
+          <speaker>[DIARCO]</speaker>
+          <l>¿Quién, con rebelde corazón y infame,</l>
+          <l>sigue, aunque se interese el bien del mundo,</l>
+          <l>estos tiranos bárbaros crueles</l>
+          <l>que el cielo para fuerte azote nuestro,</l>
+          <l>por nuestras graves culpas, les da el mando,</l>
+          <l>el poder y el gobierno de la tierra?</l>
+          <l>¡Oh, poderoso Dios!, ¿qué ha de ser esto?,</l>
+          <l>¿en qué podemos ya parar los hombres,</l>
+          <l>si somos ya más fieros que las fieras?</l>
+          <l>¿Qué castigo podrá darnos tu mano</l>
+          <l>que iguale a nuestras culpas y maldades?</l>
+          <l>Poco será si envía otro diluvio,</l>
+          <l>si no es de fuego eterno y riguroso.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>¿Qué congoja, qué lástima, qué duelo,</l>
+          <l>Diarco, a tal esclamación te obliga?</l>
+          <l>¿Hay novedad alguna? ¿Hay algún caso</l>
+          <l>que te refresque ahora esa miseria?</l>
+        </sp>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l>¡Oh, Celabo, Celabo!, escucha, atiende,</l>
+          <l>sabrás el caso más inorme y fiero,</l>
+          <l>la maldad más atroz, cruel y horrible</l>
+          <l>que puede cometer un hombre aleve.</l>
+          <l>Saliendo ahora del real retrete</l>
+          <l>y llegando a la puerta de la cuadra</l>
+          <l>que sale al aposento de la reina,</l>
+          <l>sintiendo voces, acerqué los ojos</l>
+          <l>al agujero de la cerradura</l>
+          <l>por ver quién era el que en aquella parte</l>
+          <l>tan sin respeto se descomponía,</l>
+          <l>y vi, ¡oh, Celabo!, una visión horrible,</l>
+          <l>un terrible espetáculo espantoso;</l>
+          <l>a Semíramis vi, bañada en sangre,</l>
+          <l>asirse de las manos de su hijo</l>
+          <l>y echarle al cuello los hermosos brazos,</l>
+          <l>diciéndole, con rostro que moviera</l>
+          <l>a compasión leones y serpientes,</l>
+          <l>palabras cuyo son confusamente</l>
+          <l>oía yo, aunque jamás alguna</l>
+          <l>compreender distintamente pude,</l>
+          <l>bien que en sus ojos, bien que en sus afetos,</l>
+          <l>mostraba claramente que pedía</l>
+          <l>al cruel hijo, al hijo inorme y fiero,</l>
+          <l>merced, la desdichada, de la vida;</l>
+          <l>la cual el áspid sordo, el tigre bravo,</l>
+          <l>le quitó luego con su infame espada,</l>
+          <l>dándole dos heridas en los pechos</l>
+          <l>que cada cual pasaba a las espaldas.</l>
+          <l>¡Oh, triste!, ¡oh, fiero!, ¡oh, detestable caso!</l>
+          <l>Cayó la triste en tierra y, en cayendo,</l>
+          <l>Ninias se fue por el retrete suyo,</l>
+          <l>tras sí cerrando tres o cuatro puertas.</l>
+          <l>Yo quedé, siempre viendo a la cuitada,</l>
+          <l>a la triste Semíramis, que vuelta</l>
+          <l>con mortal ansia en su sentido, dando</l>
+          <l>dos altos y tristísimos gemidos,</l>
+          <l>en tierra puso el codo y la mejilla</l>
+          <l>sobre la palma, y con voz triste y alta,</l>
+          <l>como rabiando, de esta suerte dijo:</l>
+          <l>«¡Hijo cruel, ingrato,</l>
+          <l>sacrílego, inhumano,</l>
+          <l>enemigo perverso, mal nacido!,</l>
+          <l>¿tan fiero desacato,</l>
+          <l>tan atrevida mano</l>
+          <l>en la que te ha engendrado y te ha parido?</l>
+          <l>¡Oh, mundo ya perdido!,</l>
+          <l>¿de quién podrá fiar el hombre triste</l>
+          <l>si a mí mi hijo amado,</l>
+          <l>por ser de mí adorado,</l>
+          <l>me da la muerte? Pero no naciste</l>
+          <l>tú de mí, fiera horrible,</l>
+          <l>que es imposible, pues que tal hiciste,</l>
+          <l>cruel, fiero, inhumano.</l>
+          <l>¿Yo te traje en mi vientre?</l>
+          <l>¿Yo en mis tiernas entrañas te he engendrado?</l>
+          <l>No, no; en el suelo hircano,</l>
+          <l>o en el egipcio, entre</l>
+          <l>las fieras más crueles te has criado,</l>
+          <l>de ellas alimentado,</l>
+          <l>de ellas nacido y engendrado has sido.</l>
+          <l>Las amas te trocaron</l>
+          <l>y al que parí mataron,</l>
+          <l>que no es posible ser de mí nacido</l>
+          <l>un monstro tan disforme,</l>
+          <l>que tan inorme mal ha cometido.</l>
+          <l>Los fieros animales</l>
+          <l>respetan las entrañas</l>
+          <l>donde tomaron ser y se engendraron.</l>
+          <l>¿Qué furias infernales</l>
+          <l>con sus crueles sañas</l>
+          <l>a ti, perverso hijo, te criaron?</l>
+          <l>¿Cómo, di, te incitaron</l>
+          <l>a dar la muerte a quien te dio la vida,</l>
+          <l>y a quien la propia suya</l>
+          <l>a la voluntad tuya,</l>
+          <l>con un inmenso amor, tuvo rendida?</l>
+          <l>¿Es este amargo trago</l>
+          <l>el justo pago de tu fe debida?»</l>
+          <l>Diciendo así, con un furor rabioso,</l>
+          <l>dio tres o cuatro vueltas por el suelo,</l>
+          <l>queriendo levantarse, y asentada</l>
+          <l>volvió a decir con la ansia de la muerte:</l>
+          <l>«¡Que así dejo morirme!</l>
+          <l>¡Que no busco remedio!</l>
+          <l>¡Que no hay reparo a mi enemiga suerte!</l>
+          <l>¡Que no hay quien quiera oírme!</l>
+          <l>¡Que ya no hay ningún medio</l>
+          <l>para evitar tan miserable muerte!</l>
+          <l>¡Oh, trago amargo y fuerte!</l>
+          <l>¡Oh, muerte repentina, acelerada,</l>
+          <l>como ladrón salida</l>
+          <l>a robarme la vida</l>
+          <l>en medio de mi prospera jornada!,</l>
+          <l>¿ahora acometiste,</l>
+          <l>cuanto me viste andar más descuidada?</l>
+          <l>¿Es esta mi esperanza?</l>
+          <l>¿Son estos mis contentos?</l>
+          <l>¿Es este el triunfo y gloria de mis glorias?</l>
+          <l>¿Dónde está mi pujanza?</l>
+          <l>¿Qué son de mis intentos?</l>
+          <l>¿Qué de mis grandes hechos y vitorias?</l>
+          <l>¿Son estas sus memorias?</l>
+          <l>Mi bien un breve sueño ha sido apena,</l>
+          <l>mis años y mis días,</l>
+          <l>mis gozos y alegrías,</l>
+          <l>así han pasado como larga vena</l>
+          <l>de agua corriente y viva</l>
+          <l>que el curso aviva a la marina arena».</l>
+          <l>Y luego, echada en tierra, agonizando,</l>
+          <l>con los ojos clavados en el cielo,</l>
+          <l>con ronca voz quebrada en mil sollozos,</l>
+          <l>nombrando siempre el nombre de su hijo,</l>
+          <l>la triste alma salió, dejando el cuerpo</l>
+          <l>anegado en la sangre de sus venas.</l>
+          <l>Esto acabo de ver, esta es la causa</l>
+          <l>de mi congoja, de mi duelo y lástima.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Diarco, no te admire ni te asombres,</l>
+          <l>que son justicias del eterno cielo,</l>
+          <l>porque esa miserable y fiera hembra,</l>
+          <l>a quien dices que el hijo ha dado muerte,</l>
+          <l>mató al marido por quitarle el reino</l>
+          <l>y, mientras de él ha sido reina, ha muerto</l>
+          <l>a más de mil mancebos con quien ella</l>
+          <l>ha dado fin a su apetito ciego,</l>
+          <l>gozando a cada cual sola una noche,</l>
+          <l>o solo un día en su laciva cama,</l>
+          <l>y ella luego después les daba muerte</l>
+          <l>por no ser descubierta por alguno</l>
+          <l>mientras anduvo de varón vestida;</l>
+          <l>entre los cuales mozos mal logrados</l>
+          <l>por sus manos murió aquel buen Zopiro,</l>
+          <l>después de haber gozado de él un tiempo.</l>
+          <l>¡Al fin mostraste bien, mujer perversa,</l>
+          <l>ser nacida de madre infame y torpe!</l>
+        </sp>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l>¿Cómo que fue de infame madre hija?</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Sí, que tú, como todos, aun no sabes</l>
+          <l>lo que yo sé del nacimiento de esta.</l>
+          <l>No fue su padre Sima el ganadero,</l>
+          <l>como pensó Menón el desdichado,</l>
+          <l>y todos los demás tienen creído;</l>
+          <l>un hombre vil y bajo fue su padre,</l>
+          <l>su madre fue Derceta, una ramera,</l>
+          <l>la cual al lago de Ascalón llegando</l>
+          <l>la tomó el parto allí, y allí dio al mundo</l>
+          <l>esta hija, y allí dio el alma ella,</l>
+          <l>dejando la reciente criatura</l>
+          <l>entre matas y peñas, al arbitrio</l>
+          <l>de la cruel fortuna, que tan próspera</l>
+          <l>y tan amiga le fue entonces, cuanto</l>
+          <l>le ha sido ahora falsa y enemiga.</l>
+          <l>Proveyó que unas aves la criasen</l>
+          <l>llamadas Semirámides, de donde</l>
+          <l>el nombre le pusieron los pastores</l>
+          <l>que vieron aquel caso, y la llevaron</l>
+          <l>a Sima, el mayoral de los ganados,</l>
+          <l>que después la crio cual hija propia</l>
+          <l>hasta que se casó Menón con ella.</l>
+          <l>De este solar, de este linaje viene</l>
+          <l>esta mujer cruel, torpe y soberbia.</l>
+        </sp>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l>Estrañas cosas son las que me dices,</l>
+          <l>pero también, Celabo, considera</l>
+          <l>la maldad que es matar su madre un hombre,</l>
+          <l>y demás de esto, acuérdate del fuerte,</l>
+          <l>del bravo y alto corazón y espíritu</l>
+          <l>de esta cuitada y miserable reina.</l>
+          <l>No te olvides, pues eres buen testigo,</l>
+          <l>de cuando armada desde el pie a la frente</l>
+          <l>sobre veloz caballo, fiero y alto,</l>
+          <l>la vías entrar entre la gente armada</l>
+          <l>de Egipto y Persia y Libia y Etiopía;</l>
+          <l>y no te olvides, que es injusta cosa,</l>
+          <l>de cuando sobre el alto y ancho Indo</l>
+          <l>puso dos mil bajeles, reforzados</l>
+          <l>de admirables pertrechos nunca vistos,</l>
+          <l>de máquinas fortísimas y nuevas,</l>
+          <l>de marineros pláticos y diestros,</l>
+          <l>de municiones y de bastimentos,</l>
+          <l>de chusma, palamenta, jarcias y armas,</l>
+          <l>los cuales se llevaron hasta el río</l>
+          <l>sobre carros tirados de camellos,</l>
+          <l>allanando en mil partes altos montes,</l>
+          <l>levantando en mil partes hondos valles,</l>
+          <l>a cuya famosísima jornada</l>
+          <l>íbamos dos millones de personas,</l>
+          <l>y la tercera parte de a caballo;</l>
+          <l>acuérdate, Celabo, ten memoria</l>
+          <l>de la naval batalla, del conflito</l>
+          <l>fiero, cruel, horrendo y espantoso,</l>
+          <l>en que mostró la reina tanto esfuerzo,</l>
+          <l>mandando que embistiesen sus bajeles</l>
+          <l>con los del poderoso Escaurobates,</l>
+          <l>rey de las grandes Indias Orientales,</l>
+          <l>y entre las aguas, fuegos, flechas, piedras,</l>
+          <l>dardos, lanzas y espadas de las fieras,</l>
+          <l>inumerables gentes del rey indio;</l>
+          <l>ya te acuerdas, Celabo, la braveza,</l>
+          <l>el inmenso valor y gallardía,</l>
+          <l>la fortaleza y varonil prudencia</l>
+          <l>que la reina mostró, principalmente</l>
+          <l>cuando llegó a embestir su fuerte fusta</l>
+          <l>la real capitana del contrario,</l>
+          <l>que, en lugar de aterrarse el tierno pecho</l>
+          <l>de una tierna mujer y delicada,</l>
+          <l>la volvieron más fuerte y animosa</l>
+          <l>los altos estampidos del encuentro</l>
+          <l>bravo, terrible, horrendo y temeroso,</l>
+          <l>los bravos truenos, las inormes muertes</l>
+          <l>de los crueles golpes del acero,</l>
+          <l>de las ardientes llamas de los fuegos,</l>
+          <l>de las corrientes de las altas aguas,</l>
+          <l>y al fin de las horribles furias sueltas</l>
+          <l>entre la gente inumerable y brava,</l>
+          <l>y el ver que el fuego entre las aguas queme</l>
+          <l>soldados, marineros, chusma, ropa,</l>
+          <l>mástiles, jarcias, remos, pavesadas,</l>
+          <l>batallolas, filares, filaretes,</l>
+          <l>ballesteras, crujía, popa, proa</l>
+          <l>y, aun con las obras muertas, la rajola,</l>
+          <l>las costillas, la quilla y todo el vaso,</l>
+          <l>no la espantaba, antes la encendía</l>
+          <l>en valor, en braveza, esfuerzo y ánimo,</l>
+          <l>tanto que su bajel rindió al contrario</l>
+          <l>y de más de otros mil tuvo vitoria.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Bien tengo en la memoria, bien me acuerdo,</l>
+          <l>Diarco, de las grandes maravillas</l>
+          <l>que esta mujer ha hecho en estos años</l>
+          <l>que en hábito de hombre disfrazada</l>
+          <l>ha sido rey y capitán famoso,</l>
+          <l>alcanzando vitorias y trofeos</l>
+          <l>de todos sus contrarios, sino solo</l>
+          <l>de aquellos que consigo el hombre trae,</l>
+          <l>que son los viles apetitos ciegos,</l>
+          <l>de quien ha sido siempre avasallada.</l>
+        </sp>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l>Pues, ¿qué diré de su gobierno grande</l>
+          <l>que en la paz comenzaba ya a mostrarse,</l>
+          <l>y de las grandes obras y edificios</l>
+          <l>que ha levantado?</l>
+          <l>Esta ciudad nos sea testimonio.</l>
+          <l>Dilo tú, Babilonia ilustre y noble,</l>
+          <l>dígalo tu soberbio y fuerte muro,</l>
+          <l>de ladrillo cocido, fabricado</l>
+          <l>con hierro y con betún del Is asido,</l>
+          <l>alto docientos pies y ancho cincuenta,</l>
+          <l>y que rueda diez leguas puesto en cuadro,</l>
+          <l>y que abraza al gran Eúfrates en medio,</l>
+          <l>de cien puertas fortísimas cerrado,</l>
+          <l>y que tiene trecientas altas torres.</l>
+          <l>¿Qué diré de los huertos milagrosos,</l>
+          <l>qué de la grande copa o pila de oro,</l>
+          <l>qué del retrato suyo y de cien damas</l>
+          <l>hechos de un monte, y qué de aquel retrato</l>
+          <l>que, la mitad tranzada del cabello</l>
+          <l>y suelta la mitad muestra, mostrando</l>
+          <l>que estando en punto tal, le vino aviso</l>
+          <l>que Babilonia se le rebelaba</l>
+          <l>y, cual estaba, así acudió volando</l>
+          <l>a dar remedio al daño urgente, y diole</l>
+          <l>antes de dar las trenzas que esperaba</l>
+          <l>el dorado cabello al viento suelto?</l>
+          <l>Notable ejemplo de inmortal memoria</l>
+          <l>para remedio de alterados pueblos,</l>
+          <l>súbita, rigurosa medicina,</l>
+          <l>a súbita, pestífera dolencia.</l>
+          <l>¿Qué diré, pues, del célebre obelisco,</l>
+          <l>qué de la puente, qué del alto templo</l>
+          <l>qué de los otros dos lienzos de muro,</l>
+          <l>que madre son en la ciudad al río,</l>
+          <l>qué del orden, gobierno y policía</l>
+          <l>de esta grande república admirable?</l>
+          <l>Obra todo y hechura del ingenio,</l>
+          <l>del corazón, del ánimo invencible</l>
+          <l>de esta fuerte mujer que, inútil peso,</l>
+          <l>yace en la tierra fría, fría tierra.</l>
+          <l>¡Oh, vanos pensamientos de los hombres!,</l>
+          <l>¿para qué tanto amáis las vanidades?</l>
+          <l>Mirá cuán poco dura el bien del suelo,</l>
+          <l>cuán cierto en el mayor contento y gozo</l>
+          <l>es el afán, la pena y desventura;</l>
+          <l>mirá la que alcanzó el mayor renombre</l>
+          <l>que jamás hasta ella nadie tuvo,</l>
+          <l>pues fue la gran Semíramis llamada,</l>
+          <l>mirad cual yace, ¡oh, fiero caso!, muerta</l>
+          <l>a manos de su hijo amado y único.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Diarco, escucha, ¿qué ruido suena?</l>
+          <l part="I">A Ninias oigo.</l>
+        </sp>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l part="F">Él es, sin duda; él viene.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Esperemos aquí, sea lo que fuere.</l>
+        </sp>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l>Hele do asoma; y juntamente vienen</l>
+          <l>los consejeros en su compañía.</l>
+        </sp>
+        <stage>(ZAMEIS, JANTO, CREÓN, TROILO, ORISTENES, CELABO, DIARCO.)</stage>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l>Después que con tal gozo y alegr[ía]</l>
+          <l>os partistes de aquí, mi madre amada,</l>
+          <l>que según yo sospecho, ya sabía</l>
+          <l>que su postrera hora era llegada,</l>
+          <l>mil cosas admirables me decía</l>
+          <l>en amorosas lágrimas bañada,</l>
+          <l>y, en medio de su plática suave,</l>
+          <l>le vi mudado el rostro y cuerpo en ave.</l>
+        </sp>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l><stage>[Aparte.]</stage>
+            (¡Hay cosa igual! ¿No adviertes la mentira</l>
+          <l>que de la muerte de su madre ordena?</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>Sí advierto, y veo que parece en eso,</l>
+          <l>como en el rostro, a su atrevida madre.)</l>
+        </sp>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l>Dos ojos pequeñuelos, encendidos,</l>
+          <l>sus dos claras estrellas se tornaron,</l>
+          <l>la mejillas perdió, frente y oídos,</l>
+          <l>la boca y la nariz pico formaron,</l>
+          <l>dos alas los dos brazos estendidos,</l>
+          <l>piernas y pies en garras se trocaron,</l>
+          <l>pechos, espaldas, cuello y cuerpo, en suma,</l>
+          <l>todo se le cubrió de blanca pluma.</l>
+          <l>En una hermosísima paloma</l>
+          <l>al fin vi convertida la difunta,</l>
+          <l>la cual, mirando al cielo, el vuelo toma</l>
+          <l>hacia el Oriente con una alta punta;</l>
+          <l>en esto veo que en el cielo asoma</l>
+          <l>una a mis ojos agradable junta:</l>
+          <l>a Nino y Juno y al potente Belo</l>
+          <l>entonces asomados vi en el cielo.</l>
+          <l>En una blanca nube, perfilada</l>
+          <l>de rubís, perlas y oro relumbrante,</l>
+          <l>la real compañía vi asomada</l>
+          <l>por los claros balcones de levante,</l>
+          <l>adonde la paloma, ya llegada,</l>
+          <l>fue con amorosísimo semblante,</l>
+          <l>de aquellas tres personas recebida</l>
+          <l>y en su divino alcázar acogida.</l>
+          <l>Hirió nuestros oídos, en el punto</l>
+          <l>que llegó la paloma al cielo santo,</l>
+          <l>un tan suave y dulce contrapunto,</l>
+          <l>un tan sonoro y regalado canto,</l>
+          <l>que allá me arrebató con ellos junto,</l>
+          <l>con gloria tal, con gusto y gozo tanto,</l>
+          <l>que por gozarle eternamente diera</l>
+          <l>mil vidas, si mil vidas poseyera.</l>
+          <l>Esto es sucintamente lo que pasa,</l>
+          <l>y lo que de mi madre amada vimos.</l>
+          <l>¡Oh, fortuna cruel, corta y escasa!,</l>
+          <l>¿en qué, hijo y vasallos, te ofendimos?</l>
+        </sp>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>Fuera en nosotros el llorar sin tasa</l>
+          <l>si no quedara en ti lo que perdimos,</l>
+          <l>y el llanto fuera justo en ti si el cielo</l>
+          <l>no te diera, señor, tanto consuelo.</l>
+          <l>Pero, pues el eterno Dios piadoso,</l>
+          <l>que en bien del hombre eternamente vela,</l>
+          <l>por ese medio estraño y milagroso</l>
+          <l>de la visión tu espíritu consuela,</l>
+          <l>y a nosotros y al pueblo venturoso</l>
+          <l>en tu herencia mil bienes nos revela,</l>
+          <l>tú enfrena del dolor esos estremos,</l>
+          <l>y nosotros contigo nos gocemos.</l>
+        </sp>
+        <sp who="#creon">
+          <speaker>CREÓN</speaker>
+          <l>Conviene, ¡oh, sabio príncipe dichoso!,</l>
+          <l>que la divina voluntad se haga.</l>
+        </sp>
+        <sp who="#troilo">
+          <speaker>TROILO</speaker>
+          <l>Y más viendo que siempre Dios piadoso</l>
+          <l>junta la medicina con la llaga.</l>
+        </sp>
+        <sp who="#oristenes">
+          <speaker>ORISTENES</speaker>
+          <l>Y viendo que el ingrato y desdeñoso</l>
+          <l>la paciencia de Dios gasta y estraga,</l>
+          <l>que es juntamente Dios fuerte y suave,</l>
+          <l>clemente, justiciero, afable y grave.</l>
+        </sp>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l><stage>[Aparte.]</stage>
+            (¡Qué priesa que se dan a consolarle!</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l>¡Esos son los engaños de los hombres!)</l>
+        </sp>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l>Todo lo entiendo, pero no es posible</l>
+          <l>que pueda tanto la mortal flaqueza</l>
+          <l>que resista del todo un mal terrible,</l>
+          <l>aunque no falte al alma fortaleza,</l>
+          <l>siendo esta llaga en parte tan sensible,</l>
+          <l>dándomela el dolor con tal presteza,</l>
+          <l>es imposible no sentir tormento</l>
+          <l>y enfrenar el primero movimiento.</l>
+        </sp>
+        <sp who="#celabo">
+          <speaker>CELABO</speaker>
+          <l><stage>[Aparte.]</stage>
+            (¡Qué fingir tan astuto y engañoso!</l>
+        </sp>
+        <sp who="#diarco">
+          <speaker>DIARCO</speaker>
+          <l>En cuerpo y alma todo es cual su madre.)</l>
+        </sp>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l>Pero ya reportado, amigos, digo</l>
+          <l>que es gran razón que en vez de desconsuelo</l>
+          <l>con vosotros me goce yo, y comigo</l>
+          <l>que vosotros tengáis gozo y consuelo,</l>
+          <l>pues, como debo, en hacer esto sigo</l>
+          <l>la voluntad del hacedor del cielo,</l>
+          <l>cuya mano, que pone y quita leyes,</l>
+          <l>tiene los corazones de los reyes.</l>
+          <l>Y así, conforme a esto, me resuelvo</l>
+          <l>en que se vuelva el llanto en regocijo,</l>
+          <l>pues contra el cielo sin razón me vuelvo</l>
+          <l>si de lo que él se alegra yo me aflijo.</l>
+          <l>Ya de esta suerte sobre mí revuelvo</l>
+          <l>y lo mejor al bien común elijo,</l>
+          <l>al bien de todos, que es lo que el rey justo</l>
+          <l>ha de mirar primero que a su gusto.</l>
+          <l>Mañana con pregones se publique</l>
+          <l>este fin de mi madre milagroso,</l>
+          <l>y [de] mi corazón se notifique,</l>
+          <l>haciéndose aparato suntuoso.</l>
+          <l>Y justo es que esta hora ya se aplique</l>
+          <l>al corporal descanso y el reposo:</l>
+          <l>partíos, pues, ¡oh, fieles consejeros!,</l>
+          <l>en mi reino y mi alma los primeros.</l>
+        </sp>
+        <sp who="#janto">
+          <speaker>JANTO</speaker>
+          <l>El poderoso Dios contigo quede.</l>
+        </sp>
+        <sp who="#creon">
+          <speaker>CREÓN</speaker>
+          <l>El cielo guarde tu real persona.</l>
+        </sp>
+        <sp who="#troilo">
+          <speaker>TROILO</speaker>
+          <l>Dios, señor, te prospere como puede.</l>
+        </sp>
+        <sp who="#oristenes">
+          <speaker>ORISTENES</speaker>
+          <l>Dios engrandezca tu real corona.</l>
+        </sp>
+        <stage>(ZAMEIS, CELABO, DIARCO.)</stage>
+        <sp who="#zameis">
+          <speaker>ZAMEIS</speaker>
+          <l>Felizmente la muerte me sucede</l>
+          <l>de esta tigre cruel, de esta leona,</l>
+          <l>la cual, amigos, muy contraria ha sido</l>
+          <l>de lo que habéis ahora de mí oído.</l>
+          <l>Tomá esta llave, abrí esa puerta, y fío</l>
+          <l>de los dos esto, y fiara mi vida.</l>
+          <l>Ese sangriento cuerpo, muerto y frío,</l>
+          <l>es mi madre, no en ave convertida;</l>
+          <l>y de este caso y del intento mío</l>
+          <l>yo os haré relación larga y cumplida.</l>
+          <l>Ahora vamos con presteza luego</l>
+          <l>a dar ese lacivo cuerpo al fuego.</l>
+        </sp>
+      </div>
+      <div type="epilogue">
+        <head>(TRAGEDIA.)</head>
+        <stage>
+          <l>De valor, de bondad, de cortesía,</l>
+          <l>de engaño, de maldad y de malicia,</l>
+          <l>de discreción, de amor, de valentía,</l>
+          <l>de pasión, de rencor y de cudicia,</l>
+          <l>de vicio, de crueldad, de tiranía,</l>
+          <l>de gobierno, de paz y de milicia,</l>
+          <l>ilustre ejemplo doy al alma ilustre</l>
+          <l>con que su lustre, como debe, ilustre.</l>
+        </stage>
+        <trailer>FIN DE LA TRAGEDIA DE LA GRAN SEMÍRAMIS</trailer>
+      </div>
+    </body>
+    <back/>
+  </text>
+</TEI>

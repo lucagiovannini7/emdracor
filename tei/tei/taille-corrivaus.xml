@@ -1,0 +1,2056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="fre######" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les Corrivaus</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Jean</forename>
+            <nameLink>de</nameLink>
+            <surname>La Taille</surname>
+          </persName>
+          <idno type="wikidata">Q1393491</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Internet Archive from Google Books</name>
+          <idno type="URL">https://archive.org/details/uvresdejeandela02ariogoog</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>De La Taille, Jean: ŒUVRES DE JEAN DE LA TAILLE SEIGNEUR DE BONDAROY, oubliées d'après des documents inédits PAR René de Maulde, Ancien élève de l'École des Chartes. COMÉDIES. Paris: Léon Willem, 1879.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="fremin" sex="MALE">
+            <persName>FREMIN</persName>
+          </person>
+          <person xml:id="felix" sex="MALE">
+            <persName>FELIX</persName>
+          </person>
+          <person xml:id="benard" sex="MALE">
+            <persName>BENARD</persName>
+          </person>
+          <person xml:id="philandre" sex="MALE">
+            <persName>PHILANDRE</persName>
+          </person>
+          <person xml:id="claude" sex="MALE">
+            <persName>CLAUDE</persName>
+          </person>
+          <person xml:id="gillet" sex="MALE">
+            <persName>GILLET</persName>
+          </person>
+          <person xml:id="alizon" sex="FEMALE">
+            <persName>ALIZON</persName>
+          </person>
+          <person xml:id="restitue" sex="FEMALE">
+            <persName>RESTITUE</persName>
+          </person>
+          <person xml:id="felippes" sex="MALE">
+            <persName>FELIPPES</persName>
+          </person>
+          <person xml:id="iaqueline" sex="FEMALE">
+            <persName>IAQUELINE</persName>
+          </person>
+          <person xml:id="gerard" sex="MALE">
+            <persName>GERARD</persName>
+          </person>
+          <person xml:id="nourrice" sex="FEMALE">
+            <persName>NOURRICE</persName>
+          </person>
+          <person xml:id="filadelfe" sex="MALE">
+            <persName>FILADELFE</persName>
+          </person>
+          <person xml:id="euvertre" sex="MALE">
+            <persName>EUVERTRE</persName>
+          </person>
+          <person xml:id="le_medicin" sex="MALE">
+            <persName>LE MEDICIN</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    <textClass>
+      <keywords>
+        <term type="genreTitle">Comedy</term>
+      </keywords>
+      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+    </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-09-29">(LG) First formatting and editing. Removed paratexts.</change>
+        <change when="2022-12-04">(LG) updated formatting.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1573">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written" when="1562">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <div type="prologue">
+        <head>LE PROLOGUE</head>
+        <p>Il semble, Messieurs, à vous voir ainsi assemble en ce lieu, que vous y soyez venus pour ouir une Comédie: vrayement vous ne serez point deceu sde vostre intention. Une Comédie pour certain vous y verrez, non point une farce ny une moralité: car nous ne nous amusons point en chose ne si basse ne si sotte, et qui ne monstre qu'une pure ignorance de nos vieus François. Vous y verrez iouer une Comédie faite au patron, à la mode, et au pourtrait des anciens Grecs, Latins, et quelques nouveaux Italiens, qui premiers que nous ont enrichi le magnifique et ample cabinet de leur langue de ce beau ioyau: une Comédie, di-ie,qui vous agreera plus (si vous estes au moins admirateurs des choses belles) que toutes (ie le diray librement), les farces et moralité qui furent oncques iouees en France. Aussi avons nous grand désir de bannir de ce Royaume telles badineries et sottises, qui comme ameres espiceries ne font que corrompre le goust de nostre langue, et vous monstrer au parangon d'icelles le plaisir et la douceur qu'a une Comédie faite selon l’art, comme est ceste cy, et qui n'a moins de grace en nostre vulgaire que les Latines, et Italiennes au leur. Aussi me puis-ie bien vanter que nostre langue pour le présent n'est en rien inférieure à la leur, tant pour bien exprimer nos conceptions que pour enrichir et orner quelque chose par éloquence. Nous sçavons bien qu’il y aura quelques uns qui avec un hochement de teste et froncement de sourcil ne feront pas cas de Comédie comme chose trop commune {ce leur semble) encor qu'elle soit rapportée à l’art d’un Terence, aioustans que c’est à faire à gens de basse et vile condicion que de faire des ieus pour passetemps aux autres. À ceux-là on respondra (si d'avanture ils méritent response) qu'ils ne sçauent que c'est d’une Comédie faite selon l'art, et qu'on en iouë bien rarement en France de telle sorte: d'autant que les Plautes, les Terences et les Ariostes y sont rares, lesquels, bien qu'ils fussent grands personnages, n'ont dédaigné défaire tels ieus. Et si on m'allègue qu'on iouë ordinairement assez de ieus qui ont ce nom de Comédies et Tragédies, je leur rediray encores que ces beaux tiltres sont mal assortis à telles sottises, lesquelles ne retiennent rien de la façon ny du style des anciens. Au moyen de quoy nous voudrions bien qu'on se desaccoustumast d'ouir et défaire telz ieus et telles malplaisantes farces et moralité, qui sont de nostre creu y et que cependant on prist la pacience d'ouir une Comédie toute entière, naïve, et faite à l’antique, et telle que si nous eussions sceu comment que c'estoit et la récréation qu'il y a, te suis seur que nous l'eussions pieça faite nostre. Apprenez donc désormais que c'est de Part d'icelle que mesmes ceux qu'on estime sçavans n'ont pas entendu, et la plus part de ceus qui s'en sont meslez ne l'ont pas pratiqué, et puis après la naturalisons en nostre langue, comme ont des ta fait les Italiens. Or est-il ainsi que nous avons appelle ceste Comédie: LES CORRIVAUS, à cause qu'il y a en icelle deus ieunes hommes amoureux, qui prétendent en un mesme endroit. Au reste elle vous représentera comme en un miroir le naturel et la façon défaire d'un chascun du populaire: comme des vieillards, des ieunes gens, des serviteurs, des filles de bonne maison et autres. Escoutez donc soigneusement tout ce qu'on y dira: car si vous faisiez autrement, vous perdriez à sçavoir l'histoire, et par ainsi vous auriez un maigre plaisir et passetemps, mais à fin que vous ne ahaniez point tant à entendre le discours de ce qui est icy contenu, ie vous vais faire quelque ouverture de l'Argument, qui est tel:Quant le Roy pour faire son voyage d'Allemaigne envoya son armée en Lorraine, et mesmement près de Metz, en une ville prochaine nommée Tout, il y eut quelques citoyens qui de crainte et frayeur s'enfuirent hors de la ville de Metz, ne sachant point ce que nos gens devoient faire si pres. Entre autres il y eut un bon citoyen veuf, nommé le sire Benard qui de grand haste s'enfuit avecq un sien fils, et laissa sa maison pleine de quelques meubles, et dedans une sienne petite fille laquelle il ne peut emmener avecques soy y ou pour n'avoir eu le loysir, estant la garse malade, ou par oubliance, ou pour quelque autre inconvenient: tanty a qu’il n'avoitque ces deux enfans, le fils nommé Philadelfe et la fille Fleurdelis, laquelle peu de temps après fut enlevée par un gendarme nommé Fremin de la compaignie du Connestable, après qu'il fut entré dans Metz. Iceluy l'emporta (par compassion qu'il en eut) en son pais de Picardie, ou il la nourrit comme sa propre fille. Depuis il quitta son pais à cause des guerres ordinaires qui y estoient, et s'en vint demourer en ceste ville avec sa fille putative, à fin d’user le reste de ses iours en paix et en tranquillité. Cependant Benard de Metz, ainsi surnommé, revint de la fuyte en sa maison, et ayant cognu la perte de sa fille et de ses meubles, eut crainte que de la en avant les guerres continuelles ne luy feissent encor perdre davantage, et mesmes son fils unique qui luy restoit, de manière qu'il l'envoye devant en ceste ville, et le feit venir chez une riche veufue appellee Dame Jacqueline, qu'il cognoissoit de longue main, pour puis après ayant mis ordre à ses affaires s'y en venir demourer tout à fait. Mais son fils Philadelfe n'eut pas à grand'peine mis le pied dans la maison de son hostesse, qu'il deuint bien fort amoureux de sa fille, nommée Restitue. Et pour le faire court, il feit si bien ses besongnes du commencement qu'il obtint d'elle ce qu'il desiroit le plus, et de la en après son amour si violente se refroidit: et peu à peu mettant en oubly sa première amie, il en feit une nouvelle, mettant toute son affection en une autre ieune fille sa voysine, qu'on estimoit estre [fi]lle d'un Picard. De vous dire qu'elle estoit, vous le sçaurez à la fin de la Comédie: mais tant y a que elle ne fut pas seulement aymee de Filadelfe, mais aussi d'un autre ieune homme beau et de bonne grace % qu'on appelloit Euvertre: et pour ce que la fille fut refusée à tous les deus en mariage sous couleur de quelques honnestes occasions, iceux entreprindrent de l'avoir par le moyen qui leur seroit le plus facile. Or ce Picard avoit en sa maison une chambrière assez d m aage, qui avoit à nom Alizon, et un serviteur nommé Claude, duquel Filadelfe s'accointa: si bien qu'iceluy luy promit qu'aussi tost que son maistre s'en seroit allé dehors, il le feroit entrer ou seroit la fille qu'il aymoit, et qu’alors il feroit d'elle à son plaisir. D'autre costé Euvertre avec presens et prières aborda si bien la chambrière qu'elle luyne promit autant qu'on avoit fait à Filadelfe, sinon que davantage elle mit cestuy-ci en la bonne grace de sa ieune mais tresse. Or scachez que chascun d'eux ne sçavoit rien des entreprises de son compaignon, et sans se douter l’un de l’autre demourerent en cest accord, attendant que le père de la fille saillist de son logis pour aller quelque part. Cependant (mais le diable y ait part) ie ne vous scaurois dire le reste: voyci venir ceste Restitue qui fut tant prodigue de soy à Filadelfe et quivient de dire quelque secret à sa nourrice. Escoutez doncques un peu que c'est. Adieu tout le monde.</p> 
+      </div>
+      <castList>
+        <head>LES PERSONNAGES</head>
+        <castItem>RESTITUE, jeune fille.</castItem>
+        <castItem>SA NOURRICE,</castItem>
+        <castGroup>
+          <castItem>FILADELFE,</castItem>
+          <castItem>EUVERTRE,</castItem>
+          <roleDesc>jeunes hommes.</roleDesc>
+        </castGroup>
+        <castGroup>
+          <castItem>CLAUDE,</castItem>
+          <castItem>FELIPPES,</castItem>
+          <roleDesc>serviteurs.</roleDesc>
+        </castGroup>
+        <castItem>ALIZON, chambrière</castItem>
+        <castGroup>
+          <castItem>BENARD,</castItem>
+          <castItem>GERARD,</castItem>
+          <roleDesc>vieillardz.</roleDesc>
+        </castGroup>          
+        <castItem>FREMIN, picard.</castItem>
+        <castItem>IACQUELINE, vieille dame.</castItem>
+        <castItem>LE MEDICIN,</castItem>
+        <castItem>FILANDRE, maistre du guet de la ville.</castItem>
+        <castGroup>
+          <castItem>GILLET,</castItem>
+          <castItem>FELIX,</castItem>
+          <roleDesc>valletz.</roleDesc>
+        </castGroup>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head>ACTE PREMIER</head>
+        <div type="scene">
+          <head>SCÈNE PREMIÈRE.</head>
+          <stage>RESTITUE, jeune file, et sa NOURRICE.</stage>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Or, tu as, ma Nourrice, entièrement ouy le secret de mon coeur, et ce qui causoit mes complainctes, qu'il m'a fallu te découvrir à la fin, ne te pouvant rien celer, quand ie m'efforceroy de ce faire. Mais d'autant que la chose (ainsi que tu peus voir) m'importe, comme celle qui concerne et mon honneur et presques ma vie, ne t'esmerveille si iusques	icy, t'ayant tousiours tenuë en suspens, i'ay différé à te la déceler, et si ie te prie encor de la tenir tellement secrette que personne ne s'en puisse seulement douter que tu la saches, pour m'aider après en ce qu'il me sera de besoing.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Vray'ment voire, comme s'il y en avoit d'autres à qui vous la puissiez plus seurement communiquer qu'à vostre Nourrice. Déa, ie ne m'esbahy plus maintenant, si vous faisiez tant de difficulté de me le dire: aussi je ne sçavoy’ que signifioit cela, Restitue, que depuis un mois en ça vous ne faisiez autre chose que de vous plaindre, de vous tourmenter, et de faire des sanglots qu'on eust bien ouy du bout de la ville. Maintenant vous aviez à me dire ie ne sçay quoy, tantost vous ne l'aviez plus, maintenant vous vous ravisiez, tantost vous changiez d'opinion et rechangiez cent fois le iour. Ayant veu le temps que vous et moy menions une vie ioyeuse, ie croyois que vous feussiez devenue une vraye Religieuse, une toute saincte, une droicte Magdaleine. Aussi comme le monde avoit desia réputation de vous, il ne le faut point dire! «C'est la plus sage, la plus austère, la plus cecy, la plus cela, iamais on ne la voit rire, iamais ne sort de sa maison, iamais n'est amoureuse de personne: » mais à ce que ie voy, c'est bien autre chose qui faisoit que, du premier coup, vous n'osiez me dire vostre maladie de neuf mois. Mais quoy, Restitue? Si n'en faut-il pourtant pleurer, ny se desconforter ainsi... Et bien, c'est un enfant que vous arez, Dieu; mercy, le monde au moins sera certain de ne faillir point de vostre costé. Hé Jésus Maria, nous avons esté (ce me semble) ieunes, et amoureuses nostre part comme les autres: et si i'ay eu autresfois mon pelisson de seize ans aussi bien que vous, voire qu'on m'a (peut-estre) autant rembouré que le vostre, mais ie n'entrois point en telles frenaisies de desespoir? comme vous faictes.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Hà maudit soit le iour que iamais...</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Que servent toutes ces plainctes, et ces larmes? Mais plutost, belle Dame, dechiffrez-moy par le menu par qui, quand, et comment vous avez laissé aller le chat au fourmage?</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Premièrement, sçaches que c'est du fait de Filadelfe.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>De ce ieune gentilhomme qui se tient en nostre maison.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Ouy.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Mais dictes moy, dictes moy comment?</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Aussi tost qu'il fut entré en nostre maison pour y demourer, selon que son père Benard luy avoit enchargé à son départ de Mets leur ville, il s'amouracha de moy.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>C'a esté un grand cas que ie ne me suis appercevë de cecy.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Si fut son amour de telle sorte, qu'en un instant il chang’a sa première intention de vacquer aux lettres et aux armes et autres exercices où s'addonnent les gentils-hommes, et delibera que ie serois moy seulle sa vacation et son estude, de sorte qu'il venoit la plus part du temps deviser seul avecques moy: mais que veux-tu que ie te die tant? et pourquoy te conté -ie mon malheur, puisqu'il n'y a plus de remède?</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Et bien, s'il est allé seul en vostre chambre, voire iusques dans vostre lict (comme il est croyable), s'en doit on pourtant désespérer? Prenez que ce soient petites follies en amour que vous avez faictes, peult-estre sans y penser. Il fault seulement adviser que vostre mère ny autre s'apperçoive du faict.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>C'est cela à quoy ie te vouloy prier que tu m'aydasses, et aussi de faire que ie soys bien tost delivree de cest enfant.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>J'y pourvoiray: mais dictes moy devant, n'y a il point pour le présent quelque promesse de mariage entre vous deux?</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Et bien! que veux tu dire par cela?</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Je le dy, pource que ce ne seroit point trop mal à propos, si les choses venoient bien à poinct, que vous prissiez à mary ce Filadelfe: ainsi cacheriez vous vostre honneur soubs ce manteau de mariage, s'il venoit à estre entaché de quelque souilleure. Mais qu'avez vous à branler la teste? Je gage que vous ne luy avez point fait promettre la foy.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Enda non: il ne m'est point souvenu de luy en tenir aucun propos: mais quand il me l'auroit promise, que me serviroit cela?</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Vous voulez dire qu'il le pourroit nyer, à cause qu'il n'y a pas de tesmoings, ou bien qu'il s'en pourra en aller quand bon luy semblera, d'autant qu'il est estranger.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Ce n'est pas ce que ie crain: il n'a garde de s'en aller, ma Nourrice, pour deux causes que ie sçay bien: il ne bougera toute sa vie de ceste ville, et s'il est presque impossible qu'il me puisse espouser. Or regarde ou tu en es.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Comment me dittes vous cela, veu qu'il n'est en ceste ville que pour un temps, et qu'il est de Mets en Lorraine, où se tient encor pour ce iourd'huy son père?</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>As tu point encores entendu comme Filadelfe, quand il vint, apporta une lettre, par laquelle son père Benard mandoit à ma mère qu'après qu'il auroit vendu tous ses biens et mis fin à quelques procès qu'il avoit, il s'en viendrait demourer tout à fait en ceste ville avec son fils?</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Voire-mais, qui meut Benard de quitter son pais?</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Que veux tu que ie te die? Un homme qui est sur l'aage, qui est veuf, et qui est en continuelles guerres, fait-il pas bien de se retirer en une ville qui est paisible, bonne et seure, et quitter son pais, auquel il a reçeu et reçoit iournellement tant d'inconveniens, à cause de la guerre, par laquelle mesmes (ainsi que m'a dit Filadelfe) il a perdu une sienne fille, quand nos gens entrèrent dans Mets.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Or bien laissons cela. Qui vous engardera d'espouser vostre Filadelfe?</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>N'as tu pas encores sçeu qu'il a esté si ingrat envers moy que de m'avoir laissée là, et qu'il a rangé du tout son amitié à la fille de ce Picard nostre voisin?</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Voulez-vous dire à Fleurdelys, fille du sieur Fremin, lequel a quitté son pays, à cause des guerres, pour venir demourer en ceste ville?</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Ouy, te dis-ie. Filadelfe aime sa fille, dont ie créve de dépit. Encor s'il estoit seul à l'aymer, mais à ce que i'ay peu entendre,il y en a d'autres, mesmes un ieune homme de ceste ville nommé Euvertre, fils du Sire Gérard, qui l'ayme aussi bien que luy, et est mieux aymé d'elle. Songe, Nourrice, le tort qu'on me fait.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Ha c'estoit de cecy, dont Gillet son vau-neant de serviteur me barbouilloit, ayant bien beu, et nos noyses estans appaise es, que nous avons coustumierement ensemble. Il se plaignoit à moy qu'il falloit qu'il fust tousiours sur les pieds, tantost pour aller deçà, tantost pour aller delà, tantost pour aller parler à un Claude serviteur du père de Fleurdelis, duquel son maistre s'estoit acointé, à fin de l'ayder en ses amours: desquelles il ne me souvenoît plus, si vous ne m'en eussiez ramenteuë.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Or parle maintenant. Ay-ie raison de vouloir son alliance?</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Je ne dy plus mot: toutefois vous n'avez que faire de vous tourmenter avant le temps. Je trouveray bien manière de sauver et vostre honneur et vostre fruit.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Par quelle manière?</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Dittes à Dame Jacqueline, vostre mère, que vous vous trouvez un peu mal disposée.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Comme ie suis de fait.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Et que vous voudriez bien un peu prendre l'air des champs: ie suis certaine que, selon sa coustume, elle vous envoyera avecques moy à Bellair vostre metairie, qui n'est qu'à quatre lieues d'icy.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Et bien que ferons nous là?</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Nous trouverons mille moyens pour vous delivrer de vostre enfant, sans que personne s'en puisse appercevoir, car ie vous monstreray que ie sçay faire un tour de maîtrise.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Vostre advis me semble fort bon: allon espier le temps pour parler à ma mère.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Ho ho: mais n'est ce pas icy celuy dont il est question? Il fait volontiers quelque menée: car il n'a esté d'auiourdhuy en la maison.</p>
+          </sp>
+          <sp who="#restitue">
+            <speaker>RESTITUE.</speaker>
+            <p>Laissons le là, ie te prie.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE II.</head>
+          <stage>FILADELFE Seul.</stage>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Ha ie sçay bien, Restitue, sans que plus tu me le donnes à entendre par te cacher ainsi de moy, que ie te fays tort, portant amitié à autre qu'à toy: mais quoy? qui est celuy qui ne connoit les forces d'amour? Qui ne connoit qu'il est aveugle, ieune et volage, sans loy et sans raison? C'est par luy que ie n'ay non plus de repos que si i'avois le vif argent soubs les pieds. Et pour ceste cause, te n'ay fait que tracasser par toute la ville pour voir si ie trouverois Claude serviteur de ma cruelle maistresse. à fin qu'il me dize des nouvelles d'elle. Je suis contraint de pratiquer ce vallet, pour estre une bonne ayde et seur moyen à mes amoureuses entreprises, lesquelles ie ne puis plus différer, à cause que mon père sera icy de bref: et, luy venu, toute commodité et tout moyen me sera retranché. Mais ce qui me fait encor plus haster, c'est que i'ay un Corrival, lequel il me faut devancer, si ie puis, à ce qu'il n'aye, premier que moy, la iouissance de ma chère Fleurdelys. Mais voiez venir à la bonne heure celuy que ie cherche.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE III.</head>
+          <stage>CLAUDE et FILADELFE.</stage>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Le voicy à la fin, Dieu mercy.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Et bien, Claude, qu'elles nouvelles?</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Fort bonnes. Voicy le iour que vous avez le lus désiré.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Comment?</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>J'ay tant fait que mon maistre s'en ira auiourd'huy dehors, et devant qu'il soit uns heure, ie vous feray entrer où sera vostre bienaymee Fleurdelys.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>O que ie suis ayse!</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Maintenant avisez à vostre faict.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>J'y ay pourveu: car i'ay apostez deux miens compagnons qui me doivent ayder en cecy: et de ce pas ie m'en vais me tenir prest à la rue pour entrer aussi tost que vous aurez ouvert la porte. Mais comment me pourras tu advertir quand ton maistre sera parti?</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Je vous feray signe par la porte de derriere, que ie lairray tout exprès deuérouillee.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Quel signe me feras tu?</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>J'auray une torche en main, et en feray trois tours: cela vous signifiera le tems qu'il faudra entrer.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Mais n'y at-it personne en vostre maison qui me puisse destourber?</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Ne vous souciez point de cela, il n'y a seulement qu'Alizon ceste vieille chambrière, dont ie trouveray bien moyen de m'en deffaire.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>C'est assez. Se m'en iray, ce pendant, d’icy â la rue, ou mes compaignons me viendront trouver. Au reste, Claude, tu sçais bien les dons et presens que ie t'ay promis, encor qu'il me soit impossible de té recompenser du moindre plaisir que tu me fais.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Je vous prie, ne me parlez plus de cela. Le seul don, que ie vous demande en ceste affaire icy, c'est que vous la teniez secrette et que vous faciez de sorte qu'on ne se doute en rien de moy, qu'il semble qu'en ce cas ie ne sois n consentant, ny prestant ayde: mesmement quand vous entrerez dans la salle où la fille sera, Dieu sçait comme ie feray de l'esbahy, de l’estonné, et de l'ignorant!</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Je t'ay desia dit que ie tiendray tout secret.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Si vous faisiez autrement, ie parirois ma perte, et serois ruiné: d'autant que mon maistre ne va coup à la ville qu'il ne nous recommande la fille mille fois.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>N'as tu rien fait entendre à Fleurdelis de ma part?</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Nenny certes, Filadelfe: car ie sçay bien que, si ie luy voulois parler de vostre amitié, ce seroit abus, elle ne s'y arresteroit iamais.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Cet un merveilleux cas. Suis-ie si contrefait, et de si mauvaise grace, qu'elle ne me puisse aymer? Suis-ie si contraire, et dissemblable à elle, et à ses complexions, que nous ne puissions cy après viure ensemble en amitié?CLAUDE.Je ne sçay quel dissemblable: si ce n'estoit que ie vous ay ouy dire que vous n'aviez point de seur, ie croyrois qu'elle vous fust de quelque chose, tant elle vous ressemble. Mais ne me voulez vous autre chose?</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Non: mais as tu point veu mon vallet que i'avois envoyé, il y a trois heures, pour te chercher?</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Je ne l'ay point veu.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Il se sera amuzé quelque part à yvrongner.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE IIII.</head>
+          <stage>GILLET, vallet de Filadelfe; FILADELFE.</stage>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Vrayement ie seroy bien un grand sot, pendant que mon maistre demeine une vie amoureuse, si de ma part ie ne me iettois aussi sur l'amour: non point de la sorte qu'il fait, car il est de ces amoureux transis, qui ne s'amusent qu'à une, et sont deux ou trois ans à lanterner, sans qu'à la fin ils viennent au poinct. Auiouid'huy qu'il m'a envoyé chercher Claude, ie me suis à boa escient ebaudy sur l'amour.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Ho voicy mon homme. Je me veulx un peu retirer pour voir sa façon de faire.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Car quand i’ay veu que de prime face ie n'ay point rencontré mon homme, ie me suis embarqué très bien en ceste prochaine hostellerie.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Voicy mon compte. Par Dieu ie t'en puniray bien.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Auquel lieu, après que d'intrade i'ay beu seulement sis ou sept fois, ie descens en la cuysine (car ie suis plus amoureux d'y estre que les Salemandres dans le feu), ie trouve céans la chambrière de l'hoste, belle comme un ange.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Vrayement voire: c'est une brave damoyselle.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Elle m'a pieu bien fort. Poux le faire court, nous adcordons nos pièces ensemble: car penseroit on qu'il y eut chambrière si huppee et si farouche qui m'osast contre-dire, à moy di-ie qui suis, ie ne diray point?</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>O le beau personnage que c'est!</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>De ma nature, ie ne me veulx point vouer à une seule sainte, et quand ie trouve des chausses de mesmes mon pourpoint, ie les prens. Aussi la bonne sourys at-elle pas plus d'un trou à se retirer? Ainsi par touts les Diables, fault il faire, non point s'amuser, comme les amoureus de Quaresme, à faire l'Alquemie en amour et en tirer la quinte-essence, et qui se trouvent tous jours après avoir bien fantastique, les mains pleines de vent.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Tu paries proprement, ainsi qu'il appartient à un tel homme que tu es.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Hà voicy mon maistre. Je changeray propos, sans faire semblant de l'avuor veu.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Et viença, pendart, d'où viens tu?</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>D'où vous m'aviez envoyé, Monsieur.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>As tu trouvé Claude?</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Ouy.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Tu as menty, meschant, il m'a dit une fois qu'il ne t'avoit point veu. Ce galland icy ne bouge des Tavernes, asseure toy qu'amourd'huy ie te... Mais il fault bien devant faire autre chose. Il m'a fait oublier ce que ie luy voulois dire. J'ay tant d'affaires, que ie ne sçay ausquels attendre. Hà voyrement, va t'en chez Camille et François, leur dire ainsi que le iour et l'heure est venue que ie leur avois ditte l'autre iour: partant qu'ils s'en viennent pour l'affaire qu'ils sçauent en la rue prochaine du logis de Fremin avec tout l’equipage qu'il faut. Cours viste, es tu revenu? Que grongnes tu entre tes dents, maraut que tu es? Ne bouge. Je seroy encor plus beste de bailler quel qu message â cest yurongne icy. Il vault mieux que i'y voise moy mesmes. Seulement vien me trouver tantost en la rue, après que tu auras fait quelque provision d'armes pour toy, à fin qu'en cest affaire icy, tu me serves d'un o eu chiffre.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Trop bien cela, Monsieur, laissez m'en faire. Corbieu, il n'y a homme plus vaillant que moy. Croyez d'un cas que ie ne demoureray pas des derniers .. s'enten à fuir, si la battaille me baste mal.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ACTE DEUXIEME</head>
+        <div type="scene">
+          <head>SCENE PREMIERE.</head>
+          <stage>EUVERTRE, un ieune homme – FELIPPES, son serviteur.</stage>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Favt-il que les biens ayent tant de puissance sur les hommes? Fault-il qu’une vertu, qu'une grande beauté, et qu'une noblesse soient prisées si peu si elles ne sont accompagnées de richesses? Faut-il que les pierres précieuses, les diamans, les rubis, et les emeraudes, à qui ie compare les bonnes parties de Fleurdelys, soient déprisees pour n'estre enchassées dans For? Ne vauldroit-il pas mieux avoir une femme qui eust affaire de biens, que des biens qui aient affaire d'une femme?</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Et bien, Euvertre, que me vouliez-vous?EUVERTRE.Ha te voicy tout à poinct, ie t’avois envoyé quérir.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Mais de quoy est-ce que vous vous plaigniez à part vous?</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>C'estoit de l’avarice de mon pere.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Qu'est-ce qu'il vous a fait ?</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Je te le diray: et par mesme moyen tu entendras en quoy c'est que ie te veus employer.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Ne faittes que dire.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>En premier lieu, tu dois sçavoir que i'ayme une fille ieune d'un quinze ans, honneste, de bonne grace, et belle en perfection; et si tous les iours elle devient plus belle et fresche, comme la rose, qui à l'heure à l'heure sort du bouton, et croist quant et quant le soleil. Elle s'appelle Fleurdelys, fille d'un Picard qui est venu nouvellement demourer en ceste ville, nommé le sieur Fremin. Ne la connois tu pas bien?</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Pourquoy non! Elle est aymee, à telles enseignes, d’un Filadelfe voisin de ce Picard.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Tu du vray.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Et bien qu'est-il de faire en cecy. Voulez vous que nous lui rompions la teste?</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Atten que ie t’aye dit tout mon affaire. Depuis le temps que i'ay mis mon cueur en ceste fille (il y a environ deux mois) i'ay tasché par tous moyens d'en iouir: et mesmes il n'a pas esté iusques là que ie ne l'aye fait demander en mariage: mais mon père (qui est avare et chiche, comme tu sçays) à cause qu'il voyoit le père de Fleurdelys un peu souffreteus, comme celuy qui a despendu beaucoup de son bien à hanter les guerres, me contredit aigrement, et me tança fort et ferme, disant que i'estois trop ieune, et que ce n'estoit pas encor à moy à parler de mariage: voyla pourquoy ie me plaignois à cest heure à part moy: mais somme toute, i'ay délibéré (puis que mon père n'y veut point autrement entendre) d'avoir la fille, par le moyen plus expédient pour moy.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Venez au poinct.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Tu dois entendre que Fremin, père de la fille, a dedans sa maison une chambrière assez agee.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>N'est-ce pas Alizon?</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Ouy.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>O la bonne dame que c'est! Passez, passez outre.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Je me suis si bien acointé d'elle par presens prières, et courtoysies, qu'elle a fait quelque message pour moy à ma Fleurdelys, et m'a mis quelque peu en sa grace, et en son amitié. Or il n'y a que huit iours qu'elle me dit pour toute résolution qu'elle me feroit bien entrer où seroît la fille, quand son maistre Fremin iroit dehor, et qu'estant entré, ie feisse ce qu'il seroit en moy. Partant i'ay délibéré de l’enlever par force, s'elle ne veut consentir à mon vouloir.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Mais aussi Euvertre?</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Quel mais aussi! Hà ne me contredis point: cela est desia en moy arresté.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Deà faites-en comme vous l'entendrez, Et bien que voulez-vous faire de moy?</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Ceste chambrière Alizon m'a ce matin averty par mon lacquais qu'elle avoit quelque chose à me dire. Je me doute que c'est possible son maistre qui s'en va dehors. Je voudrois que ce fust auiourd'huy, tandis que mon père est allé aux champs. Voyla la cause pourquoy ie t'ay fait venir icy près du logis à ce Fremin, à fin de te prier que tu m'aydes à enlever ceste fille, s’il en est besoing.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Voire mais, pourrions-nous bien faire cela nous deux ?</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Calixte mon compagnon me doit ayder: et partant il nous faut retirer en sa maison prochaine de celle à Fremin, à fin de nous tenir prest, quand Alizon ouvrira l'huis. Il doit aussi faire provision d'armes pour nous trois.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Si ie puis, ie ne vous faudray point au besoing, puis qu'ainsi est. Mais pourrons-nous faire cela seurement? N'y aurat-il personne pour nous empescher?</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Qui diable' nous empescheroit? Il est bien vray, que i'ay ce gentil Filadelfe pour corrival: mais que nous sçauroit-il faire, ne sçachant rîen de nostre complot?</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Jereniebieu, quand nous le rencontrerions, il n'est pas homme pour nous: et si vous asseure qu'il ne sera non plus à vostre Fleurdelys que s'il estoit son frère.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Mais voicy Alizon qui sort de sa maison. Re tire-toy chez Calixte, et m'atten là: elle me veut dire possible cela dont ie me doute.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Je me veux auiourd'huy donner du bon temps, tandis que ce vieux resveur de mon maistre s'en est allé pourmener hors la ville. Il ne gaignera point tant en un mois que nous en dépendrons en une heure.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCÈNE II</head>
+          <stage>ALIZON, chambrière – EUVERTRE.</stage>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Mais que tous les Diantres me doit-il auiourd'huy advenir, que i'ay songé ceste nuit le plus terrible songe du monde? Je ne songe iamais telles follies qu'il ne m'advienne quelque cas de nouveau, ou quelque triboulle-mesnage. Si est-ce que i'ay ouy dire autrefois qu'on fait mal de mettre foy à telles choses.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Que fais-tu, Alizon, que tu t'arraisonnes ainsi à part toy ? Quand aurons nous la Quasimodo? Parles tu de la vie des Saincts, ou des playes de S. François?</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Hà, Euvertre, i'estoy sortie pour vous trouver, selon que ie vous avois mandé ce matin.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Et bien, que me veulx-tu dire?</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Mon maistre s'en va tout à cest, heure à la ville.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>O que tu me fais aise! Et bien comment me feras tu entrer où sera ma Fleurdelys?</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>J'ouuriray nostre porte de derrière, devant laquelle ie vous feray signe, c'est à sçavoir de ma quenouille trois tours, à fin que par cela vous connoissiez quand il sera temps d'entrer par ceste mesme porte.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Il suffit, ie me tiendray prest en la maison d'un mien compaignon vostre voisin. Mais ie crain qu'il n'y ait quelqu'un chez vous qui puisse destourner mon entreprise. Il me semble qu'il y a un serviteur en vostre maison qu'on nomme Claude, ie serois bien content de ne l'y voir point.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Ne vous chaille: ie m'en depestreray bien. Faudrat-il pas qu'il voise quérir son maistre?</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Alizon, si tu fais cela pour moy, ie sçay bien où est le plus beau demiceint du monde, et la plus belle paire de patinostres que tu veis de ta vie: ie te les donneray, outre beaucoup d'autres presens que ie pourray faire.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Ho, pour cela non force: mais vous rediray-e que vous teniez çecy secret, afin que Fremin ne se doute point de moy?</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Baste, ie te l'ay tant de fois iuré: mais veu ce que tu me promets, il faut diligenter mes apprestz, car ie n'ay que chommer.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Allez, aussi bien voicy desia Fremin qui sort du logis pour s'en aller.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCÈNE III.</head>
+          <stage>FREMIN, Picard – ALIZON.</stage>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Alizon, tandis que ie m'en vais à la ville pren bien gardé sur Fleurdelys, entens-tu? et ne bouge de la maison. Quand tout est dit, si l'affaire ne me pressoit i'eusse esté content de ne bouger: car le cueur me dit ie ne sçay quoi de mauvais. Quoi que ce soit, ne la laisse point sortir hors du logis.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Ma foy, seigneur Fremin, si vous m'eussiez creu, il y a long temps que vous ne fussiez plus en la crainte et peine où vous estes touchant vostre fille, vous l'eussiez mariée très bien en un bon lieu que ie vous avois dit. Vous en avez fait à vostre teste: or bien, soit. Mais à qui la pensez-vous marier? à un prince, volontiers.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Penses-tu que si i'eusse trouvé quelque party raisonnable pour elle, que i'eusse tant delayé? Tu sçais bien comme i'en suis sollicité tous les iours, et mesmes d'un Euvertre, fils de Gérard Gontier, riche citoyen, mais son père ne s'y est pas bonnement accordé.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Vous en ferez à vostre plaisir: si est-ce qu'en bonne foy il me semble que vous la faites trop ieusner.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Il t'est advis que toutes femmes te ressemblent. Tu m'entens bien.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Mais au rebours, il vous est advis que tout le monde est aussi froid comme vous.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Il est bien vray que ie ne m'y échauffe pas tant que tu voudrois bien.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Mais, mon dommage, qui presques n'en pouvez plus. Et si vous en faites encor quelquesuns des vostres, c'est si peu souvent que cela ne se doit mettre en ligne de compte.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Or bien laissons cela: si on me demande tu diras que ie suis allé parler au capitaine Chandiou, et que ie ne tarderay guieres.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ACTE TROISIEME</head>
+        <div type="scene">
+          <head>SCÈNE PREMIÈRE</head>
+          <stage>IAQVELINE, vieille dame – la NOURRICE.</stage>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Mettez peine de vous réiouir, Restitue: ie yeux ce que vous voulez, si vous tenez chaudement dessus vostre lict.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Hé ma foy, vous faites très bien, dame Jacqueline, de lui accorder qu'elle s'en vienne avecques moy prendre un peu l’air aux champs. Aussi bien elle se, trouve toute mal.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Je ne refuse point qu'elle ny voise, et moy mesmes ie luy eusse tint compaignie, n'eust esté que i'atten tous les iours le père de Filadelfe. Mais il me fasche que ie ne sçay à la vérité ce qu'elle a ainsi à se plaindre.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Que voudriez-vous qu'elle eust la pauvre fille? Ne pensez-vous point qu'estre toujours à une ville à n’avoir aucun plaisir, d'estre tousjours dans une chambre enfermée, ou dans une église à prier Dieu, cela ne soit assez suffisant pour la rendre mal disposée?</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Dieu me la veuille garder: ie serois bien marrie qu'elle eust mal, la pauvre fille, car oultre que ie a'ay qu'elle d'enfant, ie te puis bien dire, en son absence, que c'est la plus honneste fille du monde: elle n'est point mondaine, elle ne tait point parler d'elle comme un tas d'autres: elle ne hante point avec les ieunes hommes, comme ie sçay qu'on dit de nos voisines: elle est tousiours en prière et en oraison: elle vit proprement en sainte.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>O comme vous en dittes bien la verite! Elle est pleine d'un bon fruit: ceux que la hantent en sçauent bien que dire.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Mais voicy le médecin que i'avois mandé à ce qu'il vint voir sa maladie avant qu'elle s'en allast aux champs, car on n'y recouvre pas des médecins aiseement.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Le diable y ait part: ie gage que le cas va mal pour moy.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCÈNE II.</head>
+          <stage>LE MÉDECIN et LES SVSDITTES.</stage>
+          <sp who="#le_medicin">
+            <speaker>LE MEDICIN.</speaker>
+            <p>Selon les signes que m'a dit le garçon, ce doit estre icy quelque part son logis. Mais seroit-ce point bien là la dame que ie cherche.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Ouy, Monsieur, c'est elle.</p>
+          </sp>
+          <sp who="#le_medicin">
+            <speaker>LE MEDICIN.</speaker>
+            <p>le suis venu, à vostre mandement, sçavoir ce que vous vouliez de moy.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>C'est pour voir ma fille qui se porte mal: et pour ce que ie la veus envoyer aux champs, i'eusse bien voulu que devant vous m'eussiez dit à la vérité que c'est qu'elle a, à fin qu'elle se gouverne selon ce que vous luy aurez ordonné pour sa santé-</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Pleust or à Dieu que cestuy-ci devint tantost aveugle, ou ceste-ce sourde.</p>
+          </sp>
+          <sp who="#le_medicin">
+            <speaker>LE MEDICIN.</speaker>
+            <p>De quoy se plaint-elle?</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Rien d'autre chose, sinon qu'elle a perdu l'appétit, et luy prent par fois quelques douleurs d'estomac, quelques evanouissements et tranchées.</p>
+          </sp>
+          <sp who="#le_medicin">
+            <speaker>LE MEDICIN.</speaker>
+            <p>Ce ne sera rien, non: toutesfois ie ne vous en sçaurois rien dire à la vérité que premier ie ne l'aye veuë, voire son urine s'il en est question.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>C'est bien dit: entron dedans.</p>
+          </sp>
+          <sp who="#le_medicin">
+            <speaker>LE MEDICIN.</speaker>
+            <p>Entron: mais le diable y ait part, i'ay oublié mes lunettes.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Ne laissez pas d'entrer. Il n'en faut ia si c'est pour voir la fille, car elle est assez grosse, et par trop voire. Hélas! ie gausse icy à part moy, et si n'en ay point d'envie. Ce beau médecin ne faudra pas de dire que la fille est grosse aussi tost qu'il l'aura veuë. Il a esté mandé si soudain et si à l'impourviste qu'il ne m'a esté possible de l'emboucher. Encor il est nouvellement venu en ces quartiers, et ne cognoist point la fille, de sorte que pensant qu'elle soit mariée, il cuidera bien faire de dire la vérité. Au pis aller ie vas voir ce qu'il fera.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCÈNE III.</head>
+          <stage>CLAUDE et ALIZON.</stage>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Puis que ie ne voy plus personne en la rue est temps de faire le signe que i'ai promis à Filadelfe.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Puis que Claude et Fremin s'en sont allez, il faut que faille bailler l'assignation à Euvertre.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>J’ay desia ouvert l'huis de derrière par ou ils doyuent entrer.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Je vien tout à point de trouver nostre huys de derrière deverouillé par ie ne sçay qui.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Qu'est-ce que i'oy parler derrière moy? Hà c'est Alizon, ceste vieille diablesse. Que le diable face maintenant une anatomie de sa cervelle: elle me gastera tout.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Ne voye-ie pas là Claude? Hò bon gré en ait ma vie, il me destourbera.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Si faut-il trouver façon de m'en depestrer vistement. Vien ça, que fais-tu icy t</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Toy mesmes qu'y fais-tu?</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Que veus-tu faire de cette quenouille?</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Et toy, que veus-tu faire de cette torche?</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>C'est pour aller quérir mon maistre.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Que ne le vais-tu donc quérir, sans aller ainsi tournoyant à l’entour d'icy.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Et toy mesmes, que ne vais-tu filler avec ta quenouille chez les voisins, comme est ta coustume?</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Il ne me plaist pas.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>O Dieu, cette femme me fera, à peine que ie ne dy. Mais Alizon, ie ne me veux fascher contre toy. Va t'en et fay ce que ie te dy.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Mais, Claude, ie te dy que ie n'en feray rien.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Tu n'en feras donc rien, ô vieille sorcière!</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Non, te dis-ie, vilain, infame.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Et va va, n'as-tu pas esté autrefois pour tout potage une bonne, tu m'entends bien?...</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Dy, dy hardiment. Tu en as menti, meschant, ie ne suis point telle. Par la mercy Dieu, ie te feray desdire cette parolle.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Mot, n'en parlons plus. Ce ne m'est honneur de débattre avec toy.Alizon, ie te prie, va t'en, et me laisse là.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Va t'en toy-mesmes.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Si tu me fais une fois lacher le manche de ceste torche...</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Par la mercy Dieu si tu approches, ie te bailleray si verd dronos de ceste quenouille...</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Par la mort, si tu me fasches, ie te rompray ceste folle et lourde teste; mais ie suis encor plus fol de m'arrester à elle. Que diable m'en souciay-ie? Doy-ie différer pour elle ce que i'ay entrepris?</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Il s'en va doncques: que fust-il pendu par le col! Il n'est pas qu'il ne veuille faire quelque diablerie, puis qu'il avoit si grande envie de me chasser. Tant y a qu'il faut que i'attende qu'il se soit un peu plus esloingné devant que ie face ce que i'ay promis.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE IIII.</head>
+          <stage>LA NOURRICE, ALIZON.</stage>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Ie voudroy que ce beau médecin et tous les médecins du monde fussent au diable. Que maudite en soit la race! N'avoy-ie pas bien dit qu'il ne failliront point de dire à la mère que sa fille est oit grosse? J’avois beau luy faire signe de l'œil, des doigts, et du pied, marchant sur le sien. Vrayement nostre complot d'aller aux champs est bien rompu à ceste heure.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>le veux sçavoir de quoy se plainct ceste cy. Hò, mon Dieu, mon Dieu, quel bruit oy-ie en nostre logis? Il me semble que i'oy entrer des gens à la foulle par l'autre porte. Seroit-ce point Euvertre? Si ne luy ay-ie point encor fait signe. Je vais voir quel tintamarre c'est. Hò, i'oy Fleurdelys qui crie à l'ayde.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>O que volontiers ie trouverois Filadelfe, pour luy dire iniures, et pour luy conter le beau chef-d'œuvre qu'il a faict en nostre maison! Helas, quelle pitié c'est de voir maintenant la fille qui se débat et s'arrache les cheueux! et voir d'autre costé la mère qui pleure, qui crie, qui tempeste, et avec un million d' iniures presse sa fille de lui dire qui luy a fait ce déshonneur. Encore si son amy ne l'eust abandonnée! Hà! Restitue, Restitue, tu donnes bien exemple aux ieunes Damoiselles de ne se fier tant à ces ieunes hommes qui ont le visage si poupin et poly sus la fleur de leurs beaux ans, car tout appétit soudain se faict en eux, et soudain se meurt, ainsi que feu de paille. Ils font ny plus ny moins que le chasseur qui poursuit par grand travail sa proye et par monts, et par boys, et par vaux: l'aura il prise, il ne s'en soucie plus. Ainsi est-il de ces ieunes gens, auront-ils eu la victoire sus vous autres Dames, et obtenu ce que plus ils desiroyent, ils vous laissent là, et lors vous vous plaignez d'estre faittes serves qui paravant estiez maistresses. Non que ie vous deffende d'aymer, seulement ie vous admonneste de fuir ce premier poil follet inconstant et léger , et de cueillir les fruicts non trop verdelets ny trop aigres, qu'ils ne soyent aussi trop meurs. Hò, hò, d'où vient cestuicy si eschaufé avec ceste broche, et ce cabasset en teste!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE V.</head>
+          <stage>GILLET, et LA NOURRICE.</stage>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>De demourer là vertu-bieu? et parmy des espees nues, en-han!</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Hé parmanenda c'est Gillet. Tant mieus: ie sçauray qu'est devenu son maistre.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Or y voize qui voudra: de moy, je me sauve pour y retourner autre fois. Corps-bien, ie me veux un peu épargner. Recepuoir là des coups de baston, hen! et avec des ieunes fols amoureux frappans sans dire gare, vertubieu!</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Je ne sçay s'il est encores faché contre moy des iniures que nous nous entredismes hier au soir en la cuisine après soupper, et de quoy nous primes tous deux la cheure. Hò, Gillet, d'où viens-tu ainsi avec ceste broche?</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>D'où ie vien, vertubieu? Corbieu, ie vien d'une belle entreprise. O comme i'en ay abbatu, froissé, assommé, et rué par terre ! J'en ai cuidé embrocher un tout vif s'il ne se fust retiré.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Mais dy moy à bon escient que c'est, et pourquoy tu es ainsi accoustré.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Tu n'es pas secrette à demy.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Si suis, ne te chaille de cela.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Sache qu'on a fait à mon maistre Filadelfe...</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Où est-il ton maistre? Que fust-il au diable, ou bien qu'il se fust rompu et le col et les iambes quand premièrement il mit le pied en nostre maison, tant il y a fait un bel esclandre!</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Comment? Qui at-il? Quoy? Qu'est-ce?</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>le te le diray une autre fois: acheve seulement, à fin que ie sache où il est.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Que veus-tu que ie te die tant? On luy a fait signe, nous sommes entrez à la foulle, il a pris la fille par dessous les bras, elle s'est escriee, une vieille survenue ie ne sçay d'où a crié encor plus fort qu'elle, un autre ieune homme est venu au bruit de ces criardes, il nous a destournez, ils s'en sont entrebattus, et moy d'escamper.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>le n'enten rien à ce que tu dis: mais tant y a tu t’en es enfuy vilainement, laissant (peut estre) ton maistre au besoing.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>M’amie, tu n’entens point encores que c'est que du camp. Penses-tu qu'une bonne fuite ne soit pas meilleure qu'une mauvaise attente.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Comment? tu tranchois nagueres tant du braue.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>C’est follie de parler à toy, qui n'entens point comment c'est qu'on fait à la guerre.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Hà vrayement, tu es un beau marmouset.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Marmouset! Corps bieu, ie te fourreray ceste broche au travers du corps: ne fay que dire: mais ma foy, la chair ne vaut pas l'embrocher. Où sont, où sont ores les paillars qui ont assailly mon maistre? Que ne les tien-ie ores icy? Corps bieu ie les... Hò Dieu, n'en est-ce pas icy un qui vient? Me voyla mort. Il me cherche. Où m'enfuiray-ie? Je te pcie, Thomasse, revanche moy.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Comment? tu estois tantost si hardy!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE VI.</head>
+          <stage>FELIPPES, GILLET, et la NOURRICE.</stage>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Me voyla échappé, Dieu mercy, de la main de ces meschans sergens du guet: et puis vous tenez là sans fuir, pour voir s'ils ne vous mèneront pas bien et gentiment en prison.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Hò c'est mon compaignon Felippes, le serviteur de Gérard. le ne me soucie gueres que ie ne face bien paix avecques luy.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Te voicy donc, Gillet, et viença, beau sire, n'est-ce pas toy qui viens de porteries armes contre Euvertre mon ieune maistre! ie ne sçay qui me tient que ie ne te...</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Hé, pardonnez luy, aussi bien at-il esté des premiers à s'enfuir.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Je ne me suis point enfuy, non: ie me suis: sauvé seulement: ie ne t'ose dire, Felippot, que tu en ayes fait ainsi.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Va, touche là, tu es bon compaignon.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Et bien qu'est-il de nos maistres? Qu'est-il devenu de leurs différents et de leur meslee?</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Les voyla tous deux qu'on meine en prison et Claude serviteur de Fremin, que bon gré en ait ma vie.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>En prison Filadelfe? et comment cela?</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Ainsi que mon maistre et moy, suyuant le signe que nous avoit fait la chambrière Alizon, courrions à la maison de Fremin pour faire lascher prise à ton maistre qui s'estait desia saisi de la fille Fleurdelys, et qu'iceux contestoyent fermement ensemble, en faisant un merveilleux bruit avecques leurs espées nues, les gens de la rue ont commencé bien fort à se scandaliser, et, nous blasmant dequoy nous voulions forcer publiquement une fille, se sont pris à ietter des pierres et du feu. A ce bruit, Filandre, le maistre du guet de ceste ville, est ie ne sçay comment survenu avecques ses sergens, et mettant la main sur eux trois, les a menez ou en prison, ou en son logis, ie ne sçay lequel. Les autres qui accompaignoyent Éuuertre et ton maistre s'en sont enfuis qui deçà qui delà.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Au moins il n'y a personne de blessé.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Non, Dieu mercy.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Ie ne m'en soucie donc'plus. Sur ma foy suis d'advis de prendre le moins que nous pourrons les matières à cueur: car Nostradamus dit qu'il n'y a rien plus contraire pour ceux qui veulent viure à leur aize. Que nos inaistres qui ont fait la faute, en portent la folle enchere s'ils veulent.LA NOURRICE.Aussi feront-ils, ie t'en asseure, s'ils sont en tel lieu.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Or qu'ils s'appointent là s'ils le trouvent bon: et qu'ils s'entregrinsent les dens comme deux chiens qui rongent un os: ce pendant donnons nous du bon temps.FELIPPEPar dieu tu as raison, Gillet. le ne vis iamais homme qui entendist mieux les matières que toy.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Voulons-nous doncques bien faire? Allons nous rafreschir bien et beau dans une hostellerie icy près où i'ai esté ce iourd'huy: là nous ferons des Gentilhommes, aussi bien de ces maistres icy on n'en a iamais autre chose.FELIPPEC'est bien dit: mais tu n'as point fait provisione de gibier surquoy nous puissions décharger l'hacquebuse.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Mon amy, il y a la dedans la plus belle garce du monde, chambrière de l'hoste.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Allons donc: mais helas, nos maistres?</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Quoy, nos maistres?</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Allon, allon, qu'on ne nous voye plus ainsi.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Adieu, Nourrice.</p>
+          </sp>
+          <sp who="#nourrice">
+            <speaker>NOURRICE.</speaker>
+            <p>Allez allez, voyla de gentils serviteurs! Mais à ce que ie voy, Restitue est bien vangee de Filadelfe. O que Dame Iacqueline sera estonnee d'ouir cecy! O que Benard de Mets son père sera bien plus estonné, mais qu'il vienne! D'autre costé que dira Gérard le père d'Euvertre? Et Fremin quand il sçaura qu'on aura voulu ravir sa fille? Quant à moy ie m'en vais me cacher quelque part, sans rien dire à personne de ce que i'ay ouy.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE VII.</head>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Ne vous souciez de rien, non, Fleurdelys, et ne pleurez. Tenez vous à la maison, ie m'en vais où te vous ay dit. Or si ie ne me vange de Claude, ie veus qu'on ne parle jamais de moy, si ie ne l'en paye, si ie n'en fais faire à Fremin telle punition que, le pendart qu'il est , hò, hò, il sçaura à tout le moins si ie suis telle qu'il pense. le feray que tout le fait retombera sur ses epaulles, puis qu'aussi bien il est en prison comme les autres. Mais il me semble que Fremin disoit qu'il s'en alloît chez le capitaine Chandiou. Il me le faut aller trouver là.</p>
+            </sp>
+        </div>        
+      </div>
+      <div type="act">
+        <head>ACTE QUATRIÈME</head>
+        <div type="scene">
+          <head>SCENE PREMIÈRE.</head>
+          <stage>GILLET tout seul.</stage>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Mais ne yoicy pas un grand malheur: nos beuvettes ont esté entrerompue en l’hostellerie par la soudaine arrivée du sire Benard père de mon maistre: i'ay pensé en me dérobant d'en venir icy advertir dame Jacqueline: mais comment le pourray-ie dire aussi à mon maistre? O Fortune, que tes faicts sont merveilleux, qui as choisy ce iour malencontreux pour faire venir cestui-cy de Mets, païs si loingtain, à fin que pour sa bienvenue, on luy die de si plaisantes nouvelles de son fils et qu'il vienne empescher nostre collation, qui est pis que tout. Mais le voicy desia avec son serviteur, il y aura bien tantost à crier: mais de quoy me souciay-ie? à eux le débat. Ce pendant ie m’en retourne trouver mon compaignon que i'ay laissé audict lieu, laissant passer les plus chargez.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE II</head>
+          <stage>BENARD, vieillard. FELIX, son vallet.</stage>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Ie disois que nous ne trouverions iamais le chemin, tant ceste ville est grande, et les rues fascheuses à tenir. Que t'en semble, Felix? N'es tu point bien las?</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Comment Diable ne seroy-ie las, après avoir tant tracassé parmy ceste ville, et après avoir eu tant de maux à venir de vostre païs de Lorraine iusques icy? Encor si nous nous fussions rafreschis en l'hostellerie où nous sommes descendus: mais ie n'ay iamais eu le loisir de me ruer tant soit peu en cuysine, tant vous aviez de haste de venir voir vostre fils.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Pour certain, il me tarde beaucoup que ie ne le voye. le crain qu'il ne soit tombé en quelque inconvenient, ou qu'il ne soit amaigry depuis que ie ne l'a veuy. Mais dy moy, ne suis ie pas bien heureux de m'estre venu habituer en vue si bonne ville que ceste cy, et d'avoir quitté nostre misérable païs, subiet à tant de guerres?</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>J'ay grand’peur que nous n'ayons laissé un purgatoire, pour venir en un enfer .</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Vis tu iamais ville, où les gens fussent plus courtois et mieux appris?</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Au diable l'un qui nous ait présenté à boire.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Tu ne respons à propos. le te dy que c'est icy la plus belle ville du monde, où il y aye les plus belles rues, les plus belles maisons, les plus belles Eglises, les plus belles Religions, et les plus beaux Palais.</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Or vous estimerez ce qu'il vous plaira, mais ie ne trouve rien plus beau en ceste ville, que ces rostisseries si bien arrangées, dont les bonnes odeurs me sont venues en passant.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Tu ne parles que de ce qui t'est propre, beste que tu es.</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Et quoy, ne sçavez vous pas bien?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Tay toy: sachons qui est ceste-cy qui sort.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE III.</head>
+          <stage>DAME IACQUELINE, BENARD, FELIX.</stage>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Ha vray dieu, que ma fille m'a bien trompée!</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>le croy que c'est icy le logis où se tient mon fils.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Où trouveray-ie, moy malheureuse, où trouveray-ie ce meschant paillard, qui a deshonoré ma fille?</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>A qui en veut ceste cy tant eschauffee?</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Par la mercy dieu, ie luy arracherois les yeux avec les ongles, et le dechirerois en pièces, si ie le tenois.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Il me semble connoitre ceste cy.</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Mon maistre, disoy-ie pas bien que nous estions en enfer! Voyla Proserpine qui en sort.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>O que son père n'est-il maintenant en ceste ville! comme ie parlerois bien à luy de m'avoir envoyé un tel gallant!</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Ce m'aist-Dieux, c'est Dame Iacqueline à qui i’ay envoyé mon fils, ou mes yeux me trompent. le veux parler à elle. Dieu vous gard', Dame Iacqueline, vous soyez la bien trouvee. Comment vous portez vous? Que fait mon fils Filadelfe? Ne me connoissez vous plus? le suis...</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Hé, Dieu vous gard', Seigneur Benard. Hé vous voicy donc tout à poinct: ie ne demandois pas mieux pour vous dire à tout le moins inture. Or à la mal'heure doncq soyez vous venu, beau sire, qui m'avez envoyé un si meschant fils, que la malle-mort vous puisse casser les os, et les iambes à tous deux!</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Quelle salutation!</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Tay toy, ie crain que ceste femme icy ne soit devenue hors du sens depuis que ie ne l’ay veue.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>le voudroy que vostre fils se fust rompu le col, quand premier il mit le pied céans.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Mais que vous a il fait, mon fils?</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Qu'il m'a fait, mercy Dieu! le voudroy qu'il fust au gibet, et vous aussi qui me l’avez envoyé.</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Dame, ie tous prie, ne parlons point de noises: nous n'avons point souppé, ie ne sçay pas comme vous l'entendez: parlons d'entrer en vostre logis, ie vous supplie, car nous sommes bien las et altérez.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Te veux tu taire, beste?</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Mais venez ça, meschant et affronteur, m'avez vous envoyé vostre fils pour me ruiner? ie ne sçay qui me tient que présentement ie ne vous... meschant trompeur que vous estes.</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Quelle courtoisie parisienne! A ce que ie voy, nous sommes taillez de ne soupper point. Mon maistre, disiez vous pas que les gens de ceste ville estoient si courtois?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Sus retire toy d'icy, pendart, puisque tu ne te veux pas taire.</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>I'ayme donc mieux m'en aller repaistre quelque part.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>V t'en au grand Diable.</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Mais plustost te m'en iray au petit Diable de ceste ville reprendre l'usure du temps que i'ay perdu à ne boire point. Or débattez tous deux tout vostre saoul.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Mais venez ça, Dame Iacqueline, qui vous meut de me dire inïures, à cause de mon fils? Dequoy vous plaignez vous de luy? Puis-ie mais de quelque chose? Telles iniures sont mal-seantes en une telle personne que vous, et plus encor en mon endroit.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Encore auray-je tort de me plaindre, infame.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Que ne me dictes vous donc que c'est ?</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p> C'est que rostre fils a deshonoré ma maison pour le bon traictement que ie luy ay fait.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Comment cela?</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Il a violé ma fille, puis qu'il faultque ie le die.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Violé! Est-il possible! ce n'est qu'un ieune garçon que luy!</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Quel ieune garçon? Ieune garçon qui a fait à ma fille un autre garçon, désolée que ie suis.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Las! fault-il maintenant que le père reçoyue reproche pour son fils? Moy qui tout ioyeux m'en venoy user le reste de mes iours en ceste ville, qui pensoy trouver icy la paix avec mon fils et ceste femme, i'y trouve, helàs! une plus forte guerre que ie n'avois au lieu dont ie suis venu.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>C'est, c'est plustost à moy à me plaindre qu'à vous. Qui trouveray-ie désormais, qui voudra de ma fille pour femme? Elle n'ozera plus hausser le front devant ses autres compaignes: elle ne s'ozera plus trouver aux bonnes compagnies, ny aux assemblées publiques. Pensez que desia tout son cas se sçait par toute la ville. On en fera des comptes et chansons parmy les carrefours. On ne tiendra plus d'autres propos chez les accouchées, que d'elle et de moy. Nous serons monstrees au doit d'un chacun.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Mais où est-il ce meschant garçon? que ie le voye, que ie parle à luy, et qu'à tout le moins ie descharge en partie mon cueur sur luy.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Il n'a esté tout auiourd'huy en nostre maison.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Où le chercheray-ie doncques? Las, i'ay plus de besoing de repos que de travail. Ceux cy que ie voy ne me le pourront-ils point bien enseigner?</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Peut estre que si. Voicy un mien voisin qui le connoist bien.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCÈNE IIII.</head>
+          <stage>FREMIN, ALIZON, IACQUELINE, BENARD.</stage>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Mais aussi sçais tu bien que Fleurdelys n'est de rien coupable en «est affaire icy? ny oy mesmement?</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Ne vous ay-ie tant de fois dit que ce meschant Claude est cause de tout, et que ça esté luy qui les a fait entrer avecques armes dans la maison?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Si ne puis-ie oster de ma fantasie qu'en ce cas tu n'ayes tint le sac. Et ça esté bien ma faulte de te l'avoir baillée en garde.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Mais plustost de ce que vous avez tant mis à la marier: ie me doutoy tousiours bien qu'il en adviendroit autant.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Hau, ie t'asseure qu'elle sera mariée au premier qui m'en parlera; ie voudroy seulement avoir trouvé ses parents.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Seigneur Fremin, ne nous sçauriez vous dire ou est Philadelfe, ce ieune homme qui se tient en ma maison?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Alizon, cestuy là n'est-il pas l’un de ces deux ieunes hommes que tu dis avoir esté menez en prison?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>En prison, mon fils Filadelfe !</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Comment! Ce Filadelfe est-il vostre fils?</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Ouy.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Vrayement, beau Sire, vous avez un gentil fils, bien complexionné, et de bonnes mœurs! Mieux eust vallu ne l'avoir iamais engendré, veu le scandale qu'il m'a fait auiourd'huy.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Hélas, ou suis-ie arriué! l'entre d'un bourbier en un autre, et de fiéure en chaud-mal. Tout le monde se plaint de mon fils. Auquel entendray-ie? Mais dictes moy, pourquoy mon fils est-il prisonnier?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Mon amy, vostre fils est à bon droit où ie le demande, ie vous en asseure. De moy il me fault entrer en ma maison pour y mettre ordre et sçavoir de ma fille la vérité.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Hà misérable que ie suis!</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Vous avez un très méchant fils. Il s'est mis en effort de ravir avec gens armez la fille de cestuicy, de laquelle il s' est oit amouraché, il y a bien deux mois.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Helàs, me voyla....</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Il ne s'est donc point contenté de l'amour deshonneste qu'il a portée à ma fille, sans faire encor l'amour à cestecy, le meschant qu'il est!</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Mais ainsi qu'il entroit de force en nostre maison, et qu'il avoit desia mis la main sur la fille, voicy venir Philandre le maistre du Guet qui l’a très bien mené en prison, avec un autre ieune homme qui avoit fait mesme entreprise.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Me voyla mort à ce coup.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Or mourez quand vous voudrez, ie m'en revois à nostre maison tancer encor ma fille à bon escient, et luy conter ces nouvelles.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Attendes encor un peu, pour vous demander.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>le n'ay pas loisir: demeurez icy à parler en l'air si vous voulez.</p>
+          </sp>
+          <sp who="#alizon">
+            <speaker>ALIZON.</speaker>
+            <p>Il m'en fault aussi en aller: voyla mon maistre qui m'appelle.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Hé Dieu! Dieu de Paradis, que feray-ie? que diray-ie? de quel costé me tourneray-ie? Tout ainsi que de toute personne ie suis delaissé, au cas pareil toute consolation, tout espoir, tout confort me délaisse. Ay-ie eschappé tant de fortunes, tant de périls de guerres, tant de malencontres, pour me voir destruit à iamais, et mon fils devenu meschant? Qu'est-ce de la perte des biens temporels, d'une petite fille perdue à Mets par les guerres, de la mort de ses parens, et de la perte de ses amys, au pris de cecy! O mauvais fils, bourreau de ma vie et meurtrier de ma renommée? t'avoy-ie envoyé en ceste ville pour y faire telles meschancetez! Maudit soit le iour, l'heure, et le moment que ie fay iamais mis au monde? O que cecy deust bien apprendre tous hommes maintenant à ne souhaiter point tant d'avoir enfans, et combien qu'en leur ieune age ils donnent grande espérance d'eux, il ne fault rien auiourd’huy pour les corrompre. Ha si maintenant i’avois icy ma fille Fleurdelys que i'ay perdue, ce maudit Filadelfe se pourroit bien tenir asseuré que ie le reniroys pour fils. Mais puis que ie n'ay plus que luy, ie voy bien que ie seray contraint de pourchasser sa delivrance plustost que de le laisser en ceste sorte: mais ie suis si las qu'à peine puis-ie advancer un pied devant l'autre. Or revoicy celuy que ie doy courtiser, si ie veux tirer ce meschant de prison.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE V.</head>
+          <stage>FREMIN et BENARD.</stage>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Tes grandes complaintes, homme de bien, tes pitoyables pleurs, et tes durs sanglots m'ont contraint de sortir icy, veu mesmes qu'ils pourroient bien esmouvoir à pitié, par manière de dire, les pierres et rochers, voire les plus reuesches bestes du monde. le suis venu te donner secours, ayde et conseil, moy qui suis homme, et par tant l'humanité n'est point hors de moy.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Je ne sçay comment ie vous doy remercier d'une si aimable et honneste offre: et veu vostre courtoisie, ie ne puis croire que vous soyez de ceste ville, où ils sont si mal-gracieux.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Aussi ne suis-ie, estant né en Picardie.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>A la bonne heure. Puisdonc que si liberallement vous me promettez toute douceur, ie vous prie ne veuillez avoir esgard au tort que vous prétendez que mon fils ait fait à vous et à l'honneur de vostre fille, et que vous coulliez au long de sa grande faute. Ne veuillez tourmenter ma pauvre et chetive vieillesse d'informations, de procédures, de citations, et de chiquaneries. Ne me iectez point en proye à ces gourmans et gloutons d'avocats de ceste ville, qui en moins de rien succeroient toute ma substance, mes os et mon avoir.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Vous dictes vray de cela.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Je confesse le tort de mon fils: mais relaschez luy quelque chose de vostre bon droit. Songez que c'est d'une ieunesse et d'une folle amour, et qu'il ne tienne à vous qu'il ne soit delivré. Je me soubmets à toute telle satisfaction qu'il vous plaira.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Mon amy, ie sçay bien que vault tout ce que vous avez dit, car i'ay esté parmy le monde en beaucoup de lieux pour le sçavoir, et mesmement à Mets, d'où ie sçày bien que vous estes. J'entens bien que c'est d'amour et de ieunesse et, si i'estoy en mon païs comme ie suis en cestui-cy, ie me tiens tant vostre amy que de cecy ny d'autre chose ie ne ferois que ce qu'il vous plairoit.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Helàs, ie vous en remercie.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Et sans cela, ie me dois tant plus condescendre à vostre volonté, comme plus vous abusez, touchant le païs, la maison et le lieu d'où est ceste fille Fleurdelys.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Je voudroy n'ouïr iamais ce nom de Fleurdelys; mais achevez.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Pourquoy cela?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Il rengrege mes vieilles douleurs, d'autant que i'ay perdu une mienne petite fille de ce nom et ne açay, pour le présent, s'elle est vive ou morte.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Voyla grand cas ! où la perdistes vous?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>En la ville de Mets.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>En la ville de Mets! et quand?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Quand les François entrèrent dedans la ville. Mais pourquoy vous enquestez vous ainsi? Cela ne fait que m'attrister d'avantage d'en parler: achevez ce que vous me vouliez dire.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Non, non, ie suis content de sçavoir cecy, et pour cause; comment la perdites vous?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>le la lais say par mesgarde dans ma maison de grand' haste que i'avois pour eschapper hors la ville, quand les Françoys se vindrent camper devant Toul, ville prochaine de Mets: car nous fusmes quelques citoiens qui eusmes peur, ne sachants quelle issue devoit advenir d'une si grande armée du Roy si près de nous: ioinct aussy que nous favorisions plutost le party de l'Empereur que du Roy, et par ainsi Ion nous pouvoit estimer mauvais françois. Bien est vray que si i'eusse sceu la ville devoir estre rendue de telle sorte, ie n'en fusse ia sorty. Quand donc le Connestable de France entra avec quelques gens armez dans la ville, et à la foulle, quelques uns de sa compagnie trouvuerent ma maison. Mais que me sert de dire tout cecy I</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>O Dieu! pourroit ce bien estre ce dont ie me suis douté du commencement! Vous laissâtes donc vostre fille seul le en vostre maison: et quel aage pouvoit elle avoir?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Cinq ans.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>C'est iustement pour venir au compte: et se nommoit Fleurdelys?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Ouy. Mais à quel propos tout cecy?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Attendez un peu. Si vous la revoyiez d'aventure, la recognoistriez vous bien?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Agrand'peine: toutefois s'il m'en ressouvient bien, il me semble qu'elle a un petit seing rouge soubs l'oreille gauche , comme d'une petite fraize, ce qui luy est advenu à une cheute. Mais mon Dieu, seroit-il bien possible que vous m'en puissiez dire des nouvelles, puis que vous enquestez si curieusement?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>O Dieu, me permettrois tu bien auiourd'huy ce que i'ay tant désiré de fois, à fin que ie ne soys plus en peine et en charge! Or, entendez à ceste heure ce que ie voulois tantost dire, et puis après regardez si c'est vostre fille, celle dont ie parleray. Je disoys donc que ie me dois tant plus condescendre à ce que vous voulez, comme plus vous vous abusez touchant le païs et le père de ceste fille que vostre fils a voulu ravir, et qui se nomme Fleurdelys.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Quoy? n'est-ce pas vostre fille?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Non, encores que la plus part des gens de ceste ville ait pensé qu'elle soit mienne, mais ie n'eus oncques enfans: quant à ceste-cy, elle est de Mets.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Dictes moy s'il vous plaist, comment donc est elle tombee en vos mains?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Pour vous dire la vérité, ie n'ay encores sçeu au vray qui estoit son père. Or tel que vous me voyez, i'ay suivy les armes l'espace de vingt ans, et presques en la compagnie du connestable que vous venez de nommer, et estois l'un de ceux qui à la foulle entrèrent avec luy dans Mets: là où (comme celuy qui cherchois à loger avec beaucoup de mes compaignons) i'entray dans une maison où il n'y avoit personne fors qu’une petite fille âgée de quatre ou cinq ans, mais bien quelques meubles.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>O fortune, me donnerais tu bien cest heur que de me rendre ma fille!</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Tout aussi tost que la fille me vit, elle m'appella son père, ce qui m’outrepercea si bien le cueur que ie la pris et la fis porter en ma maison en Picardie, là où ie l'ay fait tousiours nourrir comme mienne par ma femme, dont ie n'ay lignée.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Quels habits avoit elle quand vous la pristes?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Une petite robbe de taffetas changeant et vue perle pendue à son oreille: soutient appelloit ce nom de Laurence.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Ces loi t le nom de sa nourrice. Or c'est donc ma fille pour certain: ie n'en veux plus douter. le vous prie, que ie la voye, viste: ie ne la verray iamais assez à temps.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>le ne demande autre chose, entron dedans.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>le verray bien si elle resemblera à sa feu mère.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Croyez, Sire, que vous la trouverez bien belle et de belle taille.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act">
+        <head>ACTE CINQUIÈME.</head>
+        <div type="scene">
+          <head>SCENE PREMIÈRE.</head>
+          <stage>BENARD, père d'Euvertre.</stage>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Mais est-il bien possible que mon fils ait eu la meschanceté , la malice et la hardiesse d'entrer par force d'armes dans une maison, à fin d'outrager l'honneur de la fille de leans! A-il fait telle follie et tel scandale en si peu de temps que i'ay esté absent de la maison! n'a-il point eu de honte? n'a-il point craint son père? le suis si coleré et si fasché, que si ie ne descharge bien tost mon courroux sur luy, ie suis pour mourir. Pleust à, Dieu que je luy eusse accordé d'espouser ceste fille, puis qu'il m'en rompoit tant la teste, car je croy bien que le trop rigoureux refus que ie luy en fis luy a fait entreprendre cecy. Voire-mais, voicy celuy pour qui ie suis venu icy, à fin de le delivrer de la prison, où Ion m'a dit qu'il est.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE II.</head>
+          <stage>FREMIN, BENARD, GERARD</stage>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Bien qu'il me face presque mal de perdre ainsi ma fille putativue que i'ay tant aymée, si suys-ie bien content qu'elle ayt recouvert son père. Mais ne vous disoy-ie pas bien qu'elle estoit honneste, sage, et belle?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Ouy vrayement, dont ie seray toute ma vie tenu à vous, qui me l'avez si bien nourrie, et eslevée. Mais avez vous veu comme elle estoit honteuse, et esbahie quand ie luy levoys un peu les cheveus dessus l'oreille gauche pour voir si ie la recognoistroys à ce sein rouge que ie vous disois?</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>le ne veux encor rompre leur propos.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Mais comme elle pleuroit de grande ioye quand elle vous a recognu? et comme naturellement elle enduroit les embrassements de son père!</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Que diriez vous de mon fils, qui a esté si malheureux que d'aimer sa sœur par amour deshonneste, et vouloir commettre villennie eu son endroit?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Faulte de cognoistre ses parens: mais que diriez-vous de ce que ie vien d'aviser? De le marier à ceste Restitue dont vous me parliez, et donner Fleurdelys à cest Euvertre qui m'en a tant importuné.</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>Nomme-il pas mon fils?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Seroit-ce pas bien faict?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>En doutez-vous? Vous ay-ie pas dit que ie m'accorde à tout ce que vous me direz?</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>Dieu gard' Seigneur Fremin! On m'a dit que mon fils...</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Sire, voicy le père d'Euvertre dont nous parlons.</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>... A fait quelque esclandre devant vostre maison?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Sire Gérard, ce n'est pas à moy qu'il se faut adresser touchant cela: c'est à cestuy cy père de la fille que vostre fils ayme tant.</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>Comment, n'estes-vous pas donc son père?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>le n'estoy que son père putatif, car voicy son vray père nouvellement arrivé en ceste ville. Nous vous conterons tantost comme il l’a recognue.</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>Ho mon gentilhomme donc, ie vous prie.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Mon amy, ie sçay bien que vous me voulez dire et serois bien ingrat si ie ne vous faisois une pareille honnesteté et courtoisie que m'a faicte ce bon Seigneur icy, qui m'a courtoisement accordé semblable requeste que la rostre, pensant encor que ma fille fust la sienne.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Mais, sça'vous, Gérard, ce que nous disions à cest' heure?</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>Quoy?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Vous avez fait difficulté quelquefois de marier vostre fils à la nouvelle fille de cestuy-cy, à cause que ie ne pouvois pas bailler grand argent pour le mariage: or n'en faictes plus, puisque la fille a maintenant un autre père trop plus riche que moy, luy qui est des plus grands citoyens de Mets.</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>Vrayement vous me grattez où il me démange, le ne demande pas mieux que ceste alliance soit faicte, pourveu qu'il en soit content.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Le plus content du monde.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Il ne reste donc plus que d'aller appaiser Dame Iaqueline, et la faire certaine de tout nostre complot, à fin qu'elle n'ait plus occasion de se mescontenter de vous.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Hau, Seigneur Fremin, voyla Philandre le maistre du guet, qui vient tant à point: ie suis seur qu'entendant tout cecy, il delivrera aysément vos gents.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Vous sçavez qu'il est bien à nostre commandement, pour les plaisirs que nous luy avons faicts autrefois.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE III.</head>
+          <stage>PHILANDRE, maistre du guet, et les susdicts.</stage>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Ie ne sçay comment le sire Gérard, le Seigneur Fremin et Dame Iaqueline entendent que ie tienne dans mon logis de leurs gents comme en prison: ie suis bien de leurs amys et leur voudrois faire plaisir avant que la chose allast plus avant.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Monsieur, nous vous prions...</p>
+          </sp>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Hà, voicy ceux que ie cherchois: et bien que voulez-vous dire de vos gents?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Nous vous prions, dis-ie, d'entrer s'il vous plaist avec nous dans ce logis de Dame Iaqueline pour entendre une chose bien merveilleuse: et puis après nous parlerons des prisonniers.</p>
+          </sp>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Entron: mais vous sçavez ce que i'en pourrois faire par raison, car ie ne les puis tenir ainsi long temps en mon logis sans les bailler en main de iustice.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Entron doncques tous. Mais ie ne sçay où est allé ce pendart de mon vallet.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE IIII.</head>
+          <stage>GILLET, FELIX, FELIPPES, serviteurs.</stage>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Fy de ceux qui espargnent des rentes. Mais que te semble de la garce que tu sçais?</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Elle me semble bonne bague, on met de pires pierres en œuvre.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>N’avons-nous pas fait une vie de gentilshommes!</p>
+          </sp>
+          <sp who="#felix">
+            <speaker>FELIX.</speaker>
+            <p>Quant est de moy ie me passeroy bien de Paradis si i'avoy tousiours à mener une telle vie en ce monde, et remercie la fortune qui m'a fait aller (sans que i'y pensasse) en l'hostellerie ou vous estiez vous deux.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>C'est Dieu qui t'a conduit si bien à propos, volontiers qu'il sçavoit bien que tu demandois tels gens que nous. Nous estions bien en train quand tu es survenu, mais tu nous a remis en besoigne. Tu n'en dis rien; qu'as-tu, Felippot, que tu es ainsi melancolicque?</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>I’ay peur que ce vin que i'ay beu ne m'entre trop avant dans la teste: il commence à me gaigner desia.</p>
+          </sp>
+          <sp who="#gillet">
+            <speaker>GILLET.</speaker>
+            <p>Mais, Félix, allon voir nostre vieil maistre, et luy dire qu'il est venu tout à point pour payer nostre escot.</p>
+          </sp>
+          <sp who="#felippes">
+            <speaker>FELIPPES.</speaker>
+            <p>Et moy que deviendray-ie! Mais quand i'y pense, ie voudroy bien sçavoir qu'est devenu mon ieune maistre, et où il est maintenant. Hà voirement il ne me souvient plus qu'il est en prison: ie suis yure, cecroy-ie! il est temps que ie pense à luy. Mais qui sont ceux qui sortent du logis de Dame Iaqueline? Hau, i'entrevoye, ce me semble, mon vieil maistre. Que diable fait-il avec le maistre du guet de cette ville? Me voudroit-il bien faire prendre par luy? Il vaut mieux que ie m'en fuye.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE V.</head>
+          <stage>PHILANDRE, FREMIN, BENARD, GERARD, IAQVELINE.</stage>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Puis que Dieu par mystère, et par sa providence, a voulu permettre telle chose, il ne faut pas qu'il tienne à moy seul que tout ne vienne à bonne et ioyeuse fin.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Monsieur, puisqu'il vous plaist nous les delivrer à pur et à plein, voulons-nous bien faire, à fin d'en avoir du passetemps?</p>
+          </sp>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Comment?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>C'est que vous les faciez venir tous liez et garrotez sans les advertir de rien, pour leur faire au moin belle peur, et pour voir la mine et contenance qu'ils feront.</p>
+          </sp>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>C'est bien dit: ie les vais faire venir présentement, car ce n'est qu'icy auprès qu'ils sont.</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>Allez. Vrayement nous pouuons bien dire de Philandre qu'il est seul entre les gens de iustice qui soit droit et rond: la plus part des autres sont avares, et par trop amateurs de leur profit particulier, qui pour une petite apparence de droit et de raison, font à pochetées un million de petis procès, et les amoncellent.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Maintenant ne sommes-nous pas tans contents?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>O que ie suis aise de voir tels bons appointemens!</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>De moy, ie suis seulement fâchée du mauvais accueil que ie vous ay fait en tous disant iniures.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Hé Dame Iaqueline, ne pensez plus à cela, il n'y a celuy ny celle qui par iuste collere n'en fist bien autant.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Mais sçavez-vous que ie vien de songer, et qu'il seroit bon que vous fissiez?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Dittes ie vous prie.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Votts scavez que ceste bonne Dame est femme de bien, hoimeste, et riche.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>le n'en fais doute.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Elle est seule, elle n'a personne qui ait regard et commandement sur elle. Elle est bonne mesnagere, bien logée, bien ameublée de ce qui luy faut. Elle n'a que débattre n'avec un beau-fils, ne belle-fille, ne belle-sœur, ne cousins, ne cousines, ne parents du costé de feu son mary.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Que voulez-vous dire par cela?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Que de vous deux ne fissiez qu'une bonne maison.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Comment?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Puis que le fils espouse la fille, ie dy que le père espouse la mère.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Moi, que ie l' espouse.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Ouy, vous.</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>C'est par mon Dieu bien advisé à Fremin.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Mais que dictes-vous? me conseilleriez-vous bien vous autres, moy qui viens sur les soixante ans, que i'espouse une qui n'en a gueres moins?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Faictes cela si vous m'en croyez: vous serez bien logé avec elle, aussi bien n'avez-vous point encor de maison en ceste ville.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Que vous en semble. Dame Iacqueline?</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Mais à vous?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>le m'en rapporte à vostre vouloir.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Et moy au vostre.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>I’en suis donc content de ma part.</p>
+          </sp>
+          <sp who="#iaqueline">
+            <speaker>IAQUELINE.</speaker>
+            <p>Et moy aussi de la mienne,</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Or Dieu soit loué donc de tout. Il nous faudra faire par ainsi trois nopces pour deux.</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>Hau, ne sont-ce pas icy nos gens qui viennent?</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Ouy. Il nous faut faire bonne mine.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>SCENE VI.</head>
+          <stage>FILADELFE, EUVERTRE, CLAUDE, serviteur, PHILANDRE, FREMIN, GERARD, BENARD.</stage>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Helas, nous veut-on desia faire mourir!</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Où nous mené t'on maintenant? pleust à Dieu iamais n'avoir esté né!CLAUDE.Ie pariray bien maintenant ma perte à quiconques voudra, chetif et misérable que ie suis!</p>
+          </sp>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Il ne faut point crier avant qu'on vous escorche: on vous appreste bien d'autres ieus, et d'autres festes.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Je voudrais estre mort desia: hé que dira mon père mais qu'il sache cecy au lieu ou il est si loing maintenant!</p>
+          </sp>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Or songez à vous: voicy ceux qui vous doivent iuger, et donner leur dernière sentence.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Comment, nostre procès est-il desia fait?</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>N'appeliez point de ce qu'ils jugeront, si vous estes sages.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>l'ay la mort entre les dents.</p>
+          </sp>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Tenez, messieurs les luges, voicy des prisonniers que ie remetz entre vos mains, pour en estre fait ce que vous en ordonnerez. Sus sus mettez-vous à genous, et n'abaissez point tant les yeux comme tous faictes.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>O Dieu! est-ce là mon père que ie voy! O terre, ouvre-toy, et me cache.</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Helas, voyla mon maistre, ie suis mort.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Que regardez-vous tant cest homme icy, Philadelfe? il semble que vous l'ayez veu autrefois.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Hé Dieu? seroit-ce bien là mon père, qui est venu de Mets icy! Hà, làs! ie voudrai maintenant estre cent pieds sous terre.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Il a honte, et des plaisance dé ton péché, qui est un bon signe en luy.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>le ne me sçaurois plus tenir, il faut que ie l'embrasse. O mon fils, mon amy!</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Mais voyez l'affection paternelle!</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Mon père, ie vous prie de me pardonner la faute que i'ay commise, et ne me punir selon que i'ay offensé. I'aduovë avoir grandement failly.</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>Mon père, ie vous supplie me pardonner aussi.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Voire-mais, Philadelfe, outre l'offense que vous avez faitte auiourd'huy, vous ne dittes pas ce que vous avez fait à la fille de Dame Iaqueline.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>O Dieu sçait-on cela? Maintenant ie consens qu'on me punisse; ie ne veux plus qu'on me pardonne.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Si ne serez vous pas punis selon que vous avez tous trois mérité: premièrement pour esclarcir le faict...</p>
+          </sp>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Voicy vostre sentence.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>On vous advertit, Filadelfe, que la fille que vous avez voulu enlever par force est vostre propre sœur charnelle.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Qui! Fleurdelys est-elle ma sœur?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Ouy, on vous contera tantost comme on l’a recogneuë.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Secondement, vous Euvertre, on vous advertit que vous espouserez ceste sœur que vous avez voulu ravir: par ce moyen ne soyez plus en discord, et vivez comme frères.EVVERTREIl ne tiendra pas à moy.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Tiercement, vous, Philadelfe, espouserez Restitue que voicy, qui se porte bien à ceste heure: c'est celle que vous avez tant aymée au commencement: car aussi bien i'espouséray sa mère.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>O que i'en suis ayse!</p>
+          </sp>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Or voyla en quoy vous estes condamnez. Sus donc qu'ils soyent déliez.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Est-il bien possible, qu'il soit vray ce qu'on nous dit et ce qu'on nous faitl Song’ay-ie point!</p>
+          </sp>
+          <sp who="#euvertre">
+            <speaker>EUVERTRE.</speaker>
+            <p>le ne purs quasi mettre foy à ce que ie voy de mes propres yeux. Pourrois-ie bien avoir tant de biens, de plaisirs, et de contentera ens pour un coup!</p>
+          </sp>
+          <sp who="#claude">
+            <speaker>CLAUDE.</speaker>
+            <p>Quant à moy ie né pensé point que ce soit songe, puisque à veuë d'œil et à bon esciant on me deslie.</p>
+          </sp>
+          <sp who="#gerard">
+            <speaker>GERARD.</speaker>
+            <p>Or maintenant que ie voy mon fils en liberté, me voyla le plus content et satisfait du monde.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>Et moy qui pensois venir demeurer icy sans y trouver parent, ny amy, i'en ay Dieu mercy autant que si i'y fusse tousiours demeuré, quand ie n'au rois que ceux qui sont icy presens.</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Et moy qui estois aussi estranger, suis-ie pas bien heureux d'avoir l'amitié et le support de vous autres!</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Mais comment tout cecy est-il advenu?</p>
+          </sp>
+          <sp who="#fremin">
+            <speaker>FREMIN.</speaker>
+            <p>Sus entron au logis, nous avons bien a vous en conter.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>Avabt que d'entrer, ie tous prie, mon père, de faire du bien pour l'amour de moy à Claude que voicy serviteur a Fremin, car il m'a voulu faire beaucoup de plaisirs.</p>
+          </sp>
+          <sp who="#benard">
+            <speaker>BENARD.</speaker>
+            <p>le ne l'oubliray pas, ne vous chaille. Or Seigneur Philandre, et vous tant qu'estes icy, ne faillez d'honorer par vostre présence les trois nopces.</p>
+          </sp>
+          <sp who="#philandre">
+            <speaker>PHILANDRE.</speaker>
+            <p>Aussi ne ferons-nous.</p>
+          </sp>
+          <sp who="#filadelfe">
+            <speaker>FILADELFE.</speaker>
+            <p>A Dieu Messieurs: et faictes bruit des mains, en signe que nostre ieu vous a pieu.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

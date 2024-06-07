@@ -1,0 +1,2567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="span######" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="title">La duquesa de Rosa</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Alonso</forename>
+            <nameLink>de la</nameLink>
+            <surname>Vega</surname>
+          </persName>
+          <idno type="wikidata">Q5670429</idno>
+          <idno type="pnd"></idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Internet Archive</name>
+          <idno type="URL">https://archive.org/details/TresComediasDeAlonsoDeLaVegaPelay"</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Vega, Alonso de la: Seraphina, in Tres comedias de Alonso de La Vega con un prólogo de D. Marcelino Menéndez y Pelayo de la Academia Española. 
+              Gesellschaft für Romanische Literatur, bd. VI. Dresden: Niemeyer, 1905</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="page_3" sex='MALE'>
+            <persName>PAGE III</persName>
+          </person>
+          <person xml:id="romero_3" sex='MALE'>
+            <persName>ROMERO III</persName>
+          </person>
+          <person xml:id="thome" sex='MALE'>
+            <persName>THOME</persName>
+          </person>
+          <person xml:id="page_5" sex='MALE'>
+            <persName>PAGE V</persName>
+          </person>
+          <person xml:id="remedio" sex='UNKNOWN'>
+            <persName>REMEDIO</persName>
+          </person>
+          <person xml:id="valentin" sex='MALE'>
+            <persName>VALENTIN</persName>
+          </person>
+          <person xml:id="bravonel" sex='MALE'>
+            <persName>BRAVONEL</persName>
+          </person>
+          <person xml:id="duquesa" sex='FEMALE'>
+            <persName>DUQUESA</persName>
+          </person>
+          <person xml:id="moço" sex='MALE'>
+            <persName>MOÇO</persName>
+          </person>
+          <person xml:id="page_2" sex='MALE'>
+            <persName>PAGE II</persName>
+          </person>
+          <person xml:id="loaysa" sex='MALE'>
+            <persName>LOAYSA</persName>
+          </person>
+          <person xml:id="page_4" sex='MALE'>
+            <persName>PAGE IV</persName>
+          </person>
+          <person xml:id="criado" sex='MALE'>
+            <persName>CRIADO</persName>
+          </person>
+          <person xml:id="verdad" sex='UNKNOWN'>
+            <persName>VERDAD</persName>
+          </person>
+          <person xml:id="romero_2" sex='MALE'>
+            <persName>ROMERO II</persName>
+          </person>
+          <person xml:id="page_1" sex='MALE'>
+            <persName>PAGE I</persName>
+          </person>
+          <person xml:id="tostadillo" sex='MALE'>
+            <persName>TOSTADILLO</persName>
+          </person>
+          <person xml:id="duque" sex='MALE'>
+            <persName>DUQUE</persName>
+          </person>
+          <person xml:id="portugues" sex='MALE'>
+            <persName>PORTUGUES</persName>
+          </person>
+          <person xml:id="mayordomo" sex='MALE'>
+            <persName>MAYORDOMO</persName>
+          </person>
+          <person xml:id="romero_1" sex='MALE'>
+            <persName>ROMERO I</persName>
+          </person>
+          <person xml:id="hermano" sex='MALE'>
+            <persName>HERMANO</persName>
+          </person>
+          <person xml:id="infante" sex='MALE'>
+            <persName>INFANTE</persName>
+          </person>
+          <person xml:id="consuelo" sex='UNKNOWN'>
+            <persName>CONSUELO</persName>
+          </person>
+          <personGrp xml:id="pages" sex='UNKNOWN'>
+            <persName>PAGES</persName>
+          </personGrp>
+          <personGrp xml:id="alabarderos" sex='UNKNOWN'>
+            <persName>ALABARDEROS</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-09-27"> (LG) first encoding and formatting. Some paratexts ("introito") removed. </change>
+        <change when="2022-04-12"> (LG) updated formatting. </change>
+        <change when="2022-03-30"> (LG) added configurations. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print">
+        <desc/>
+      </event>
+      <event type="premiere" when="1566">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="INSERT"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <div type="front">
+        <head>Comedia de la Duquesa de la Rosa. Es invencion muy delicada: y por muy gentil y delicado estilo compuesta. 1566.</head>
+      </div>
+      <castList>
+        <head>Son Interlocutores en la presente Comedía las personas en la plana siguiente contenidas.</head> 
+        <head>Interlocutores.</head>
+        <castItem>DUQUESA de la Rosa.</castItem>
+        <castItem>DUQUE de la Rosa.</castItem>
+        <castItem>Tres CAVALLEROS romeros.</castItem>
+        <castItem>Un PORTUGUES</castItem>
+        <castItem>MOÇO del portugués</castItem>
+        <castItem>INFANTE DULCE LYRIO</castItem>
+        <castItem>Tres PAGES.</castItem>
+        <castItem>TOME santos simple.</castItem>
+        <castItem>MAYORDOMO del duque.</castItem>
+        <castItem>BRAVONEL criado d’l mayor.</castItem>
+        <castItem>LOAYSA lacayo.</castItem>
+        <castItem>PAGE del Duque de la Rosa.</castItem>
+        <castItem>CRIADO del Duque.</castItem>
+        <castItem>El Bachiller VALENTÍN</castItem>
+        <castItem>TOSTADILLO su criado.</castItem>
+        <castItem>HERMANO del mayordomo.</castItem>
+        <castItem>CONSUELO.</castItem>
+        <castItem>VERDAD.</castItem>
+        <castItem>El REMEDIO.</castItem>
+        <castItem>CANTORES quando sacan a justiciar la Duquesa.</castItem>
+      </castList>
+      <argument>
+        <head>Argumento.</head>
+        <p>En el reyno de Dinamarca (muy Magnifico auditorio) havia un Rey que una hija muy hermosa tenia: a cuya fama, un Infante de Castilla la vino á servir a la corte de su padre. Succedio que en Castilla faltó Rey, y fue forçado a este Infante (que Dulcelyrio se llamava) partirse de aquella señora que tanto quería: la qual (por gratificarle los servicios passados) le dio un riquissimo anillo de su mano. Andando el tiempo, el Rey, padre desta señora, casóla con el duque de la Rosa: y para que vuestras mercedes entiendan el successo de nuestra marañosa Comedia, que relatada tengo, el Auctor les ruega, y supplica tengan para todo cunplida atención y especialmente en una cautela, y falso testigo, que por un Mayordomo del duque de la Rosa, a la duquesa le fue levantado. Et vale.               </p>
+      </argument>
+    </front>
+    <body>
+      <div type="act">
+        <div type="configuration">
+          <sp who="#duquesa #romero_1 #romero_2 #romero_3">
+            <stage>Entra la duquesa con tres Cavalleros vestidos como romeros, cantando lo siguiente.</stage>
+            <stage>Canción.</stage>
+            <l>O qué de perdones traygo</l>
+            <l>de Sanctiago, de Sanctiago.</l>
+            <l>Sanctiago patrón de España</l>
+            <l>nos guia, y nos acompaña,</l>
+            <l>y es su grandeza tamaña</l>
+            <l>que hasta en moros haze estrago,</l>
+            <l>de Sanctiago, de Sanctiago.</l>
+            <l>O qué de perdones traygo,</l>
+            <l>de Sanctiago, de Sanctiago.</l>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Devemos dar infinitas gracias al hazedor, y sustentador del mundo , pues en este viage y romería tan buena andança havemos traydo, que después que de la Rosa partimos , hasta la sublime casa del señor Sanctiago, havemos venido con tanto sossiego y quietud.</p>
+          </sp>
+          <sp who="#romero_1">
+            <speaker>ROMERO I.</speaker>
+            <p>Qué le peresce a la señora duquesa, que tierra tan buena y abandosa es esta de Castilla?</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Ella es tal, y tan buena, que bien en ella se paresce la loa y buena fama que en el Reyno de Francia ha florescido: y vengo en especial admirada de ver las grandezas que en la casa del señor Sanctiago he visto: qué gozo, qué holgura, qué alegría en mi anima sentía, pensando si digna fuesse de alcanar las muchas perdonanças que allí á los estraños peregrinos están concedidas.</p>
+          </sp>
+          <sp who="#romero_2">
+            <speaker>ROMERO II.</speaker>
+            <p>Con la buena intención, y limpieza todo se alcança, señora duquesa: pero dexado esto a parte, caminemos, que a la buelta de Castilla havemos llegado.</p>
+          </sp>
+          <stage>Entra un Portugués, y su moço: y dize el Portugués.</stage>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Sol, sol, sol: fa, fa, fa: mi, mi: re, re: ola moço limpay ovis, chamay essos homes.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>Que los llame, Señor? y si me dan la respuesta con los bordones?</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Chamay ca digo.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>No querrán venir.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Chamay ca digo.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>No querrán señor.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Chamay, non seja el demo.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>I quien dire que los llama?</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Dezey que Brasco Figueyra, párente du Rey, hermanno de Arçobispo de Bergana, que foy Capitán en las partes de Alen, y de Aquén: anday/ anday.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>Señores/ mi señor hos llama.</p>
+          </sp>
+          <sp who="#romero_3">
+            <speaker>ROMERO III.</speaker>
+            <p>Quien es vuestro señor?</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>El mayor ladrón que ay en todo Portugal.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Que yo perro?</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>Espere vuestra merced que yo lo dire.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Sus / dezey.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>Sepa vuestra merced/ que ladrones acá en Castilla son los mayores hidalgos.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Iso verdá.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>Sí, guarde nos Dios.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Poys ende vos digo fídalgos/ que seu de hos mayores ladrones que sajan en todo Portugal.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Harto bueno es esso: pero qué es lo que quereys, señor portugués.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Heu vos dire queu quero: ollay ca dama preçada/ vos non cuydays que morro por vostro amor?</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Por mi morís?</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Si por vos morro.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Pues morios.</p>
+          </sp>
+          <sp who="#romero_1">
+            <speaker>ROMERO I.</speaker>
+            <p>Finahos, señor.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>O corpo de deus!</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Diganos quán enamorado es por su vida.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Heu vos dire quán enamorado seu/ conosceys a deus de Amor/ que chamays acá en Castella deus Cupido?</p>
+          </sp>
+          <sp who="#romero_2">
+            <speaker>ROMERO II.</speaker>
+            <p>Muy bien, señor.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Poys boto a deus que fuy miño criado veynte dus años/ y aun almoaço mifios cavallos: o vis mogo/ dezey a essos homes como seu enamorado.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>O/ mi amo / es un terroncico de amor/ siete años anduvo enamorado de una borrica.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Qué borrica, cachopo?</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>Yo le dire señor: sepa v. m. que borrica en España quiere dezir linda dama.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>He possible?</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>Sí señor/ por yr mas encubierto.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Heu vos digo fidalgos/ que en Portugal no me posso defender de borricas.</p>
+          </sp>
+          <sp who="#romero_3">
+            <speaker>ROMERO III.</speaker>
+            <p>Por cierto bueno es esso.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Fa / fa: la/ la/ la.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Es músico, señor portugués?</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Sí miña señora/ heu so músico du rey, músico du Infante.</p>
+          </sp>
+          <sp who="#romero_1">
+            <speaker>ROMERO I.</speaker>
+            <p>Lindo músico será?</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Heu vos dire que musiquiño so, que ha miña bozeziña suelen acudir papagayos/ ruyseñores/ tortulillas / fasta las avezillas que se chaman corbezifios.</p>
+          </sp>
+          <sp who="#romero_2">
+            <speaker>ROMERO II.</speaker>
+            <p>No nos hara una merced, señor portugués.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Fare ducentas/ aun trecentas.</p>
+          </sp>
+          <sp who="#romero_3">
+            <speaker>ROMERO III.</speaker>
+            <p>Que cante un poquito/ y ayudar le hemos nosotros.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Heu so muy contento.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Pues sus señor empiece.</p>
+          </sp>
+          <sp who="#portugues">
+          <stage>Canta el portugués/ y responden todos a concierto.</stage>
+            <p>Miña dama/ miña miñacomo sos tan bonitiña.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>ñafete.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Miño criado.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>ñafete.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>O corpo de deus miño moço he.</p>
+          </sp>
+          <sp who="#moço">
+            <speaker>MOÇO.</speaker>
+            <p>ñafete.</p>
+          </sp>
+          <sp who="#portugues">
+            <speaker>PORTUGUES.</speaker>
+            <p>Aguarday/ aguarday.</p>
+          </sp>
+          <stage>Entrase el portugués tras su moço.</stage>
+          <sp who="#romero_1">
+            <speaker>ROMERO I.</speaker>
+            <p>Donoso ha sido el bueno del portugués, señora Duquesa.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Donoso por cierto: pero/ si hos paresce/ caminemos que a la ciudad de Burgos havemos llegado.</p>
+          </sp>
+          <stage>Entra un page/ y dize.</stage>
+          <sp who="#page_1">
+            <speaker>PAGE II.</speaker>
+            <p>Illustrissima romera/ un Cavallero que en esta cuidad reside/ acostumbrado de hospedar a semejantes passageros/ por mi te supplica/ quieras rescebir algún servicio para ayuda del camino.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>La merced en esse caso yo la rescibo/ y se haga como por él es mandado.</p>
+          </sp>
+          <stage>Entra el Infante Dulcelyrio/ y dize a la duquesa.</stage>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Bien sea llegada la Excellente romera/ y noble compañía.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Y bien hallado el que con tanta voluntad nos hospeda / Cavallero.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Según el merescimieto de presencia tan generosa/ será muy poco mi servicio. Ola pages, despachado.</p>
+          </sp>
+          <sp who="#pages">
+            <stage>Entran pages con la colación, y cantan esta Canción.</stage>
+            <l>O colación Real tan generosa,</l>
+            <l>que para gente tal no falta cosa,</l>
+            <l>que para gente tal no falta cosa.</l>
+          </sp>
+          <stage>Entra Thome sanctos siervo de la duquesa, con un saco al cuello, y dize.</stage>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Assí, assí engullir y dalle, no sobrarían para Thome sanctos media dozena de nabos confeytados, o algún pedaço de repollo en escabeche?</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Con quién lo has hermano? o con quién bives?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Con quien bives? con Dios y con el plato de los confeytes: o cuerpo de san mostrama, venís hos por essosvericuetos, y dexays al hombre espepitado de hambre?</p>
+          </sp>
+          <sp who="#romero_2">
+            <speaker>ROMERO II.</speaker>
+            <p>Mas havian le de traher en una litera al señor?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Hora no hable tanto el barbas de quajar mal rallado, que non paresce son gatazo de refitorio, o donado mostrenco de los frayles Gerolimos.</p>
+          </sp>
+          <sp who="#romero_2">
+            <speaker>ROMERO II.</speaker>
+            <p>Parezca lo que paresciere, hermano, qué te va?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Ha que se corre.</p>
+          </sp>
+          <sp who="#romero_2">
+            <speaker>ROMERO II.</speaker>
+            <p>No me corro.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Yaya se de espacio.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Sossiega te hermano: llega te acá, page, da de bever a la Excellente romera.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>En zarapitos se te tornen en el cuerpo.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Sancto Dios, este es el anillo que yo al Infante Dulcelyrio di quando se partió de Francia!</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Es la verdad.</p>
+          </sp>
+          <sp who="#romero_2">
+            <speaker>ROMERO II.</speaker>
+            <p>Con quién hablas, señora?</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>No con nadie.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Con el copetan del vino que se coló.</p>
+          </sp>
+          <sp who="#romero_2">
+            <speaker>ROMERO II.</speaker>
+            <p>Sossiegate tú, pues no hablan contigo.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>I aun desso me pesa a mi que no hablen comigo, que engullen y tragan, y el pobre de Thome Sanctos que se esté adentro como aça de atabalero.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>En grande manera, noble Cavallero, se agradesce el principal rescebimiento que nos haveys hecho.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>A mí no me han rescebido.</p>
+          </sp>
+          <sp who="#romero_3">
+            <speaker>ROMERO III.</speaker>
+            <p>Oye te, nescio.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>A los que no comen, no los resciben.</p>
+          </sp>
+          <sp who="#romero_1">
+            <speaker>ROMERO I.</speaker>
+            <p>No callaras!</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>A tiempo me vea que servir lo pueda, señor.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Illustre romera, mejor es la voluntad que el servicio presente.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Harta voluntad trahia yo de comer, mas no me aprovechado nada.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Y todo ha sido poco.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Y bien poco, pues no me he visto bocado en la boca.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Según lo que tu bondad meresce.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Harto merescía mi hambre según estava de hambrienta.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>A Dios, a Dios, mi señor, que es tiempo de seguir la jomada.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Y vaya con ellos.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>A Dios mi señor, a dios, que ojos que me vieron yr de vuestra casa, no pretenden deverse hartos en ella.</p>
+          </sp>
+          <sp who="#romero_3">
+            <speaker>ROMERO III.</speaker>
+            <p>A dios.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>El hos acompañe.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Harto desaconpañado vo yo de comida, que me van hendo las tripas guergueritas como paxaritos de agua.</p>
+          </sp>
+          <sp who="#romero_3">
+            <speaker>ROMERO III.</speaker>
+            <p>Porqué lloras, hermano?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>No lloro yo porque me vo desta villa.</p>
+          </sp>
+          <sp who="#romero_3">
+            <speaker>Pues porqué?</speaker>
+            <p></p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Porque vo desahusado de comida.</p>
+          </sp>
+          <sp who="#romero_3">
+            <speaker>ROMERO III.</speaker>
+            <p>Si no lo has por mas desso, anda que a la venta comerás.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Adelante tengo de yr? yo hos juro al cielo de Dios, que en llegar a la venta me tengo de engullir venta y ventero, platos y escudillas, y quanto en la venta huviere.</p>
+          </sp>
+          <sp who="#romero_1 #romero_2 #romero_3">
+            <stage>Entran se cantando los romeros, y queda se Thome Sanctos solo.</stage>
+            <l>A fuera pesares fuera,</l>
+            <l>nadie se fatigue y pene,</l>
+            <l>pues que la linda romera</l>
+            <l>ya de Sanctiago viene.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Bien hazen de cantar pues van bien repapilados, que no de balde dire un latín en el libro de Celestina, que bien canta harta después de Martha. Ea vos don lio bien hos podeys yr por vuestro pie, y agradesceldo a mis pies como no me voy cavallero en vos, que de pura compassion lo dexo: que yo tenia una hermana, tía, sobrina, parienta de una bezina de mi madre, que era de las bien validas para estos negocios, que no entrava en pendencias que no saliesse con las narizes quebradas: anda, anda, o pobre lio que tan muerto de hambre vays como yo.</p>
+          </sp>
+          <stage>Entra el Mayordomo del duque de la Rosa, y dize.</stage>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Hermosa, y linda dama ha venido de Sanctiago la duquesa de la Rosa mi señora, que quando esta romería prometida fue yua mala de una cierta dolencia: y agora el duque mi señor viendo la venir buena y sana, con su venida está muy alegre, y contento: y mas yo, que tan captívo y subjecto de su amor quedé, que un punto de descanso, ni sossiego en mi corazón no tengo: hora yo determino de dárselo a entender, puesto caso que yo sea su criado, y Mayordomo del duque su marido, mi mucha importunación la vencerá, o yo podré poco.</p>
+          </sp>
+          <stage>Entra Bravonel, criado del Mayordomo.</stage>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Tray dores, ladronazos, desonrabuenos, que no me pesa, sino como matando a uno dellos, no los maté a todos.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Sossiegate diablo, qué, has muerto alguno?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Uno no mas, señor.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Pues vete a la yglesia.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Que no me acojo a la yglesia, Señor, por matar uno.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Y si viene la justicia?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Aunque venga el mesmo diablo le haré taraçnes, como anguilas en caçuela.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Y tu espada?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Ya hay quien la guarda, señor.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Cuenta me como ha sido esso.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Yo te lo contaré, señor: havrás de saber que viniendo de la casa de las mugeres topé siete rufiancillos en corro que estavan murmurando , y alabavanse que me havian...</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Que te havian?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Hombre era yo que me havian...</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Acaba ya.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Diz que me havian visto açtar por las calles acostubradas de Talavera con seis bolsas de cuero al cuello: hombre era yo dessos vellacos? yo, señor, que vi esto, eché mano a mi espada, y maté al uno dellos, y los otros que vieron el pleyto mal parado, tomaron la, calle abaxo: ay por aquí un par de piedras?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Y la espada perdistela?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>No señor, mal aya yo, que no me quiere entender: sino que como vi que se me yuan de pies, tomé mi espada por la punta, y tíresela al uno dellos, como quien tira a banda de palomas, y dexé se la clavada en las espaldas que no parescia si no purisimamente assaeteado.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Maravillosamente lo heziste, Bravonel.</p>
+          </sp>
+          <stage>Entra Loaysa Lacayo.</stage>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Ha señor Bravonel.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Quién es? afuera.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>No huyays, que vuestro amigo Loaysa soy.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Que no soy amigo de rufianzillos.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Teneos, señor.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Tenido es: señor Loaysa, por vida vuestra que me conteys qué pendencia ha sido esta de mi criado Bravonel.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Que no lo sabe, señor.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Yo se lo contaré señor, que no ha sido nada, sino que unos pagezillos de aquí de casa de mi amo le quitaron el espada, y le dieron de bofetones.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>A mí bofetones, señor Loaysa?</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>A vos bofetones.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Mirad lo que dezis, señor Loaysa.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Digo que es verdad que hos dieron de bofetones.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Entrambos a dos?</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Entrambos a dos.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>El uno no mas, buen grado aya dios, señor Loaysa, que el otro no me llegó sino con la punta de los dedos.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Qué mas me da con la mano que con los dedos?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Soy yo hombre que muero por la verdad.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Ha que barbullón que eres: por dios, señor Loaysa, que me havia hecho encreyente que de siete que eran havia muerto el uno dellos, y al otro havia clavado la espada por las espaldas.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>La espada, señor, veys la aqui, que por me hazer a mí merced se la embian aquellos amigos mi os.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Sancto Dios!</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Hora vení acá, señor Loaysa, que para con vos yo no puedo negar que me dieron de bofetones, pero alabarse aquellos grandissimos tacaños que me vieron açotar por las calles acostumbradas de Talavera, es uno de los mayores testimonios, que se pueden levantar á hombre desta vida.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Esso señor Bravonel no se puede negar, que como vi lo uno vi lo otro.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Que me açotaron a mí, señor Loaysa?</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Que hos açotaron a vos, señor Bravonel.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Que vos lo vistes?</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Que yo lo vi.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Catad lo que dezís, señor Loaysa.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Mirá, señor Bravonel, no me teneys que negar: vení aca, no hos acordays de un pagezillo que hos dixo en un cantón: ha Bravonel, a esso havias de venir?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Quando yna cavallero en el asno?</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Entonces, mal aya la fortuna.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Ta, ta, teneos, erades vos un pagezillo de una gorreta colorada, y unas caigas blancas?</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Esse proprio.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>No cumple mas, verdad es que me açotaron, pero açotáronme con toda la honra del mundo, que no me llevaron pr callejuelas, sino por las calles principales, donde era visto de damas, y cavalleros, y llevana tras mi mas de trezientos mochachos.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Es verdad por cierto, señor.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Vení acá, señor Loaysa, y no hos paresce a vos que son aquellos unos grandísimos fulleros, en dezir que me açotaron con seys bolsas de cuero al cuello?</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Señor Bravonel, esso es verdad, que yo hos vi açotar, y con seys bolsas de cuero.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Con seys bolsas?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Con seys bolsas de cuero?</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>De cuero.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Mirad que no eran de cuero, señor Loaysa.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Pues de qué eran?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Las tres eran de cuero, las tres de carmesin finísimo, mal grado aya yo.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Pues qué da mas el uno que el otro?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Algo da, señor, en no ser los hombres mentirosos: y es bien que salga a luz la verdad:</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Toma tu espada, y entra te allá dentro.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Que no la quiero, señor.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Porqué no la quieres?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Porque no, señor. Quiere que me la quiten otro dia, y que sea ocasión de dezirme en la cara, lo que esse desonra buenos me dixo?</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Cómo, loque dixe fue mentira por ventura?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>No sino verdad, señor Loaysa, abaste.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Pues tome su espada.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Toma, toma tu espada, acabemos.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Tomo la, señor; bien a su cargo vaya si algún daño me succediere por ella.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>A Dios, señor Bravonel.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Mire señor Loaysa, de aquesto que ha paseado aqui, no teneys necessidad de dar cuenta a nadie, porque si lo saben los mochachos, a puros çapatazos me cosseran la tierra.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Perde cuydado.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>O que honrado moço. Señor Loaysa.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Qué quereys, hermano?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Si es menester por tu servicio que mate alguno, o dé algún redomazo, o atraviesse la cara, no cumple sino hazerme del ojo.</p>
+          </sp>
+          <sp who="#loaysa">
+            <speaker>LOAYSA.</speaker>
+            <p>Bien: beso las manos.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Es ydo?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Ya no paresce.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>O hí de puta y que pieça: bien lo ha visto vuestra merced? de los bellaquísimos, y entuviadores moços es que ay en el mundo.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Porqué no se lo decías delante?</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Bueno, señor, y si me diera algún plantufazo, esso me ganara.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Anda, anda, entra te allá dentro.</p>
+          </sp>
+          <sp who="#bravonel">
+            <speaker>BRAVONEL.</speaker>
+            <p>Ya querría estar sessenta leguas de aqui.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Entra se Bravonel, y queda el Mayordomo solo.</stage>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Bueno es estado el fanfarrón de Bravonel mi criado: pero qué digo, la Duquesa mi señora viene: ella es sin duda.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Ola, Mayordomo.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Señora.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>El duque mi señor ha venido de misa?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>No señora, que aun es temprano.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Distes recaudo a toda la gente que vino comigo de romería?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Sí, señora, que para contentar a los que te sirven no es menester avisarme, especialmente que mis obras y pensamientos no es otra cosa si no en tu servicio esmerarse.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Por tanto con mas razón quedaré obligada a te lo agradescer, y pagar como a leal criado.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Sancto Dios, leal me ha llamado, errado me ha el nombre, que mis obras mas son en traycion que no en lealtad.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Qué dizes. Mayordomo? qué hablas entre dientes?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Digo, señora, que te soy tan leal, y tan leal te es mi coraçon que pienso perder la vida en la demanda.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Qué demanda? qué palabras son essas? habla claro que no te entiendo, que al siervo con su señora no le cumple hablar por cifras.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Siervo me ha llamado, acovardado me ha, alastrado estoy como el pollo so el ala del Milano. Gran señora, tu siervo y criado verdad es que lo soy, pero los criados de los señores suelen rescebir mercedes, y assi yo, como cativo, y subgecto de tu amor, querría que por tu mano me viniesse alguna gracia de aquellas que a los que tal desseo tienen suele venir.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Passo, passo, Mayordomo, coge la rienda que vas muy desenfrenado: di con quién hablas?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Con mi señora.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Traydor, pues cómo para con tu señora tan desmedido eres?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Perdona me señora, que por muerto se tiene el herido que no siente los puntos de su herida, tu amor me hirió, por ti y por tu mano deseo de ser curado.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Refrena, refrena tu desseo, torna en tí: di, traydor, en tan poco tu pensamiento me tiene: sabiendo que soy hija del valeroso Rey de Dinamarcha, y muger d'l generoso duque de la Rosa, Infanta Real, virtuosa, y limpia desque nascí: y cómo con un vil hombre como tu criado y siervo de mi marido havia de acometer tal vileza?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Sossiegue se, señora.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Cómo sossiegue se? piensa, y tantea bien lo que has acometido, porque desde aquí te juro por lo que devo a bondad, si en ello mas hablas ni entiendes, que el duque mi señor sea sabidor d'llo; queda te queda te, que ante tan mal hombre como tú no me conviene parar</p>
+          </sp>
+          <stage>Entra se la duquesa, y queda el Mayordomo muy affrentado.</stage>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Corrido, y demasiadamente afrentado quedo/ en ver las palabras que la duquesa me ha dicho, la qual injuria vengar me conviene con gran vigilancia, y solicitud, porque de otra manera yo seria del duque en poco tenido, y de la duquesa menos preciado: pero yo hos le ordire una tela que de mi quede exemplo para los nascidos, y por nascer.</p>
+          </sp>
+          <stage>Entra Thome Sanctos.</stage>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Señor Mayordomule. Y. M. ha visto por acá el alma del gallo prieto?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Cómo el alma del gallo prieto?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Cayó la chimenea de casa sobre el gallo, y matóle; y para que se levante, no podemos hallar el alma en toda la casa.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Buscar se ha, pero ven acá, conosces a mi hermano?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Sí señor, no es aquel pardo de las orejas largas?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Qual?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Aquel de los cantaros, y aguaderas.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>El asno?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Sí esse asno.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Ven acá, por ventura soy yo asno, que tengo de ser hermano suyo?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>No se espante vuestra merced, que como Dios le hizo hombre le podia hazer asno con cantaros y aguaderas.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Anda que no te digo sino a mi hermano, aquel que me habló en la plaça estotro día.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Aquel de los dos pies?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Pues hay hombre que tenga quatro pies?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Si señor, aquel que yo dezia tenia quatro.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Anda nescio, que no te digo si no mi hermano: conosces le?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Si señor, muy bien le conozco.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Pues corre, ve allá, y dile que al duque mi señor le han traydo un presente de conservas, que tome estas con que haga colación, y que le pido por merced que en saliendo de casa me venga a hablar.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Que en saliendo de casa le venga a hablar a vuestra merced, señor: no seria mejor que viniesse sin salir de casa, por que si lloviere no se moge?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Anda, tonto, di se lo, que el sabra lo que ha de hazer.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Y qué son lo que llevo aquí señor?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Conservas.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Qué son conservas?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>Conservas son espiritos.</speaker>
+            <p></p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Mas par dios? y es cosa de morir?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Mira que si llegas a ellas luego te morirás.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Tirte a fuera, paño espritado, no seas diabro que me engañes.</p>
+          </sp>
+          <stage>Entra un page.</stage>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>A do vas hermano Thome Sanctos?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>O hermano page, qué conosces me?</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Mira si te conozco: a do vas?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Aqui me embia mi amo el segundo.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>No te entiendo.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>El mayordomule, con unos pocos de espritos para su hermano, tomate los allá.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Mirad el asno, a las conservas llama espiritos.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Ava que son espritos, ava que bullen: no ves como saltan?</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Que no son: ven acá, quies que nos espritemos los dos?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Espritate tu par diez.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Ven acá, toma este, y come te lo.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Come te lo tú.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Yo ya he comido, toma, diablo.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Bien, a tu cargo vaya: sus, encomiendo me a dios, ya me voy espritando, ya me muero, ya pueden tocar por mí los badajos, din dan, din dan, ha que me toma, ha que me fino.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Tente, tente, qué descolorido que te has parado!</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Mas par dios.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Cómo estás?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Espritado dulce.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Pues aguarda que yo me quiero espritar.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>No hagas, ava que te morirás.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>No haré.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>A qué espritazo tan grande tomas!</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Estoy aborrido.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Y si te mueres?</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Nunca otro mal venga.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>A que te paras amarillo, ya te descoloras!</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Ha que me toma, ha que me muero.</p>
+          </sp>
+          <stage>El simple le da un bofetón.</stage>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>A que respecto me diste?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Calla nescio, que si no acudiera en darte el bofetón, passava peligro de serta alima desse cabo de sierra Morena con quinze leguas.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Yen acá, quies que los engañemos?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Cómo?</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Que nos espri temos los dos pintos?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Que seamos dos ados?</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Si hermano.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Vaya, que a la primera puñada te les sacuda en aquellas narizes.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Toma tú este, y yo estotro.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Mayor esprito llevas tu.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Yo, estoy determinado, y aborrescido de la vida.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Si: está aborrido este mochacho, pues sus a una encomiendo me adiós: ha que estrago va haziendo el mió.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Pues el mió pajas.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Ha que me toma.</p>
+          </sp>
+          <sp who="#page_2">
+            <speaker>PAGE II.</speaker>
+            <p>Ha que me dexa.</p>
+          </sp>
+          <stage>Sale el Mayordomo con un palo.</stage>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>A casa, a casa don villano insensalo, y vos también don rapazuelo: haveys visto qué cosa del diablo, que las conservas que embiava a mi hermano se han comido: si no tiene en su casa otra cosa buen recando se tiene, pero qué digo? helo aquí donde viene.</p>
+          </sp>
+          <stage>Entra el hermano del Mayordomo.</stage>
+          <sp who="#hermano">
+            <speaker>HERMANO.</speaker>
+            <p>O señor hermano, mucho ha madrugado vuestra merced.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>No estoy aqui sin causa, hermano mió: oydme dos palabras que mucho cumplen a la honra del duque de la Rosa señor nuestro.</p>
+          </sp>
+          <sp who="#hermano">
+            <speaker>HERMANO.</speaker>
+            <p>Y qué es, señor hermano?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Yo hos lo dire: haveys de saber que la duquesa al duque, maleficio y adulterio le comete.</p>
+          </sp>
+          <sp who="#hermano">
+            <speaker>HERMANO.</speaker>
+            <p>Sancto dios: o traycion jamas pensada, contra tan buen cavallero como es el duque de la Rosa mi señor: y esso cómo lo sabeys, hermano mió?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Yo hos lo dire: haveys de saber, que quatro o cinco noches ha que le ando espiando a un gentil hombre que no sé quién es, que le mete cada noche la Duquesa de tras de las cortinas de su cama.</p>
+          </sp>
+          <sp who="#hermano">
+            <speaker>HERMANO.</speaker>
+            <p>Qué remedio ternemos para ello? y cómo se hará?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Yo hos lo dire: y para que este negocio por nosotras mas atestiguado sea, y el duque sepa la verdad de lo que passa, quiero yo que vos por otros ojos lo veays.</p>
+          </sp>
+          <sp who="#hermano">
+            <speaker>HERMANO.</speaker>
+            <p>De qué manera, hermano?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Que esta noche, secreta y encubiertamte hos metays tras las cortinas de la cama de la duquesa, que yo hos daré entrada para ello: y desde allí ved y atalayad todo lo que pasea, que aun no sereys bien dentro, quando el gentil honbre <stage>(que tal atrevimiento tiene)</stage> entre allá a la hora.</p>
+          </sp>
+          <sp who="#hermano">
+            <speaker>HERMANO.</speaker>
+            <p>Sus pues vamos, señor hermano, y pongamos lo por obra.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Entran se, y sale el bachiller Valentín llamando a su moço Tostadillo.</stage>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Oyes, Tostadillo, mochacho, vente tras mí poco a poco, y trahe me essa cesta, y essos plan tufos; daca, daca, daca: cosa del diablo que pense que venia tras mí, y havrá se quedado tras algún cantón, adormido, hora yo le quiero llamar. Oyes, mochacho, angélico, Tostadillo, diablo.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Señor, señor, señor: y quién te ha de entender llamando al honbre por mil maneras de nombres?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Qués lo que hazias, dí?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Estava señor dando la ración a los gaticos.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Ven acá, picaste la ensalada al halcón?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Sí señor, sí señor, sí señor.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Anda, andacá, que voy a hablar á mi enamorada la duquesa.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Que enamorado eres?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Enamorado, y poeta delicatissimo.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Que también eres poeta?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Soy poetissimo, tengo sciencias divinidades que echar por esta boca: quies que te diga una coplilla que sea toda hecha un terrón de amor?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Diga, diga, diga.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Cupido gran dios de Amor, Rey de gran merescimiento, yo me acuerdo que tenias media calça y jaraguel: qué te paresce?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Bueno, bueno, si no que no has dicho nada, que essas yo las he visto espremidas en las trezientas de Joan de mena.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Otra será, por que tengo hechas muchas.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Quieres que te diga una coplica de las que yo sé.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Que también sabes tú hazer coplas?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Sí, sí, sí señor.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Cosa del diablo es esta! no hos digo yo, también mi criado es poeta: un dia destos han de ser los gatos y perros poetas en mi casa.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Oye me, señor.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Di.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Poeta muy abrigaño , querría saber de vos si comeriades al presente un pastel gentil caliente con un mollete de a quatro.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>O qué bueno: mas espera dezir te otra que vaya y te lleve el nonbre de encuentro.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Diga, diga, diga.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Tostadillo, tostadillo, tostado te veas al sol, la nariz tienes de perro, y fuyste ángel el dia de Corpus Christi.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Quies, señor, que te diga una coplita en latín que sea corta, y quadrada?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Di, di, di, ea.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Piquiris, blanquis, Corpus encarras quis, multis termentina, vaca vobis, bonum, bonete, brete donde quiera que me assienta.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Vala te el diablo, qué cosa: oye si será bien hecho esto que tengo acordado, en viendo a la duquesa que la vea, le tengo de dezir. Salvia, salvete, salvatoren dolima nostra, hermosuram tibí. Que quiere dezir dolima nostra?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Yo no lo sé, señor.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Mirad el asno, yo no lo sé que lo digo, y espanta se él de no sabello. Hermosuram tibi perliquitenciam nostram, subida por los cursos cursores enastabitur amoris meos. Qué te paresce?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p> Muy bien me paresce, pero, señor, no has dicho nada.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Como di?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>No sabes que como es muger no se le entiende latín?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Pues no me lo podías dezir al principio, y assí como lo estudié en latín, estudiaralo en romance.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Señor, dime, sabes lo que le has de dezir?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>No.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Mira, tú le has de dezir en viendo que la veas: mas qué digo yo? antes de decirle nada le has de quitar el bonete.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Pues que antes de dezirle nada le tengo de quitar el bonete? cata que vas errado, que ella no trahe bonete.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>El tuyo a ella.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Ha, el mió a ella.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p> Si señor: y le has de dezir: Señora, yo querría esto, y esto.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>En viendo que la vea le tengo de dezir. Yo querría esto, y esto.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Si señor, si señor.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Avate, avate, ves la qual viene? qué magestad que trahe: o qué le tengo de dezir: ponte detras de mi, oye.</p>
+          </sp>
+          <stage>Entra la Duquesa, y dize el Bachiller.</stage>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Señora, el excelso y la magestad de <stage>(todo theologia lo que digo)</stage> la facundissima paternidad de vuestra perliquitencia de la dependente: o que turbado estoy de los carrillos de la cama de vuestra: va la me dios, qués esto? de los cabellos de la mano de la alta inaniaculata: o qué asno que me he quedado, vala me Dios! Tostadillo.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Quién es el asno, sepamos.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>No es nadie, yo soy señora para servir a vuestra merced: dixe bien, Tostadillo?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Y cómo, y cómo.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>No sabremos quién es?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Un asno.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Un diablo que te lleve: y quién te lo preguntana a ti, maldito seas de dios? Señora, ego sum el Doctor subtil Valentin, terno derno, moderno, dedicado para el invierno.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>No puedo acabar de entender qué quereys.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Señora, supplicar a vuestra merced sea servida de me dar esto, y esto.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Y qué quiere dezir esto/ y esto?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Yo no lo sé, mi criado lo sabe que me lo mandó señora: dixe bien, Tostadillo?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Y cómo y cómo.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Oyga qué le quiero dezir, señora mia: yo querría que vuestra merced me diesse una.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Una qué?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Una oreja de las de v. m. para engastonalla en plata.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Mas un majadero tan grande como vos, anaos de ahi.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Tostadillo, o que me buelvo loco! vistes el pellisco que me dio quando passó?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Pellisco?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Pellisco que sono como una castañeta.</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Mas se suena.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Qué se suena?</p>
+          </sp>
+          <sp who="#tostadillo">
+            <speaker>TOSTADILLO.</speaker>
+            <p>Que es un asno vuestra merced.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Que soy el diablo que te lleve, tacaño, aguarda.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Entra se el Bachiller, y sale el mayordomo.</stage>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Bien tramado llevo mi negocio, que á mi hermano dexo metido tras las cortinas de la cama de la duquesa, pero aqui es de menester mirar una cosa, que...</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Señor mayordomule: a, señor mayordomule.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Que quies di?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Cómo la llaman en su tierra a la longaniza en latín?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>No me quieres otro?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>No señor.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Assador la llaman.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Assador, pues assadorum et longanizatur, y amassatur.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Y pues, qu'es lo que quieres?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Digo señor: qué tanta longaniza es menester para empringar una quadema de pan?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Medio palmo si abasta.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Perdonabitur, aguardabitis molis michi.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>No es mas desso?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>No señor.</p>
+          </sp>
+          <stage>Buelve a su platica.</stage>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>En fin digo que es menester mirar una cosa, que si el duque viene y a mi hermano halla metido tras las cortinas de su cama, y queriendo le apremiar sobre este negocio, ha de venir a dezir que por mi consejo, y mandado lo hizo, por donde yo podría ser castigado por ello: es menester que determinadamente/ que quando yo y el duque lleguemos a las cortinas de su cama/ dé de puñaladas a mi hermano/ hasta que muera: y esto aprovechará de dos cosas/ la una que viendo el duque que yo a mi hermano mato por restaurar su honra, temá me en possession de criado leal como hasta aqui me ha tenido. La otra/ que mi cautela quedará encubierta/ y havrá lugar de prosseguir y passar adelante: pero qué digo/ el duque mí señor paresce que viene.</p>
+          </sp>
+          <stage>Entra el DUQUE.</stage>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Qué hazeys mayordomo? comprastes aquel cavallo que vimos ayer?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Si señor, ciento y veynte ducados di por el, aunque allegados a la razón bien dará vuestra señoría la ganancia por la perdida.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Cómo assí? tiene alguna falta el cavallo?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>No señor, el cavallo muy bueno es, pero la falta no está si no en tu casa, y aun en cosa que a ti mucho te toca.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Qué es esto mayordomo? sepa lo yo, por que con tiempo se remedie.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Señor yo soy tu criado, y ha que te sirvo veynte y dos años, en los quales siempre he procurado tu honra y buena fama.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Ya es manifiesto esso, hijo mió, ya es manifiesto.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Y en un negocio que descubrir te quiero, aun que en ello entreviene mi proprio hermano, y a él le ha de costar la vida, mas estimo yo señor tu honra, y fama que la vida de mi hermano, y aunque a bueltas entrara padre y madre, e hijos y muger, si los tuviera. Assi que, señor, como prudente lo govierna/ y con pasciencia lo corrige/ y aun castiga/ si menester fuere.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Qué es esto mayordomo? que el coraçon me da saltos/ y la sangre se me altera/ y congoxas/ y augustias de muerte me han tomado: qué es esto?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Pues sabra vuestra señoría/ que la duquesa su muger/ y mi señora/ con mi hermano maleficio y grande adulterio le cometen.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Cómo/ cómo?</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Digo señor/ que la duquesa tu muger/ y mi señora/ con mi hermano se rebuelve.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Sancto dios: es possible? mira lo que dizes, mayordomo.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Señor, digo lo que passa: y sino lo quieres creer entra comigo / que yo le he visto tras las cortinas de tu cama.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Esso passa!/ entra allá dentro: o adversa/ y traydora fortuna.</p>
+          </sp>
+          <stage>Entrase/ y el mayordomo saca su hermano/ y el duque a la duquesa.</stage>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Salí/ salí, don traydor, qué a vuestro señor mas lealtad se ha de tener.</p>
+          </sp>
+          <sp who="#hermano">
+            <speaker>HERMANO.</speaker>
+            <p>Yo, hermano? y que hize?</p>
+          </sp>
+          <stage>Saca el mayordomo un puñal/ y mata su hermano.</stage>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Aun hablays don traydor?/ tomad/ tomad/ pues que tan mal mirastes lo que al duque mi señor tanto le importuna a su honra.</p>
+          </sp>
+          <stage>Muerto el hermano/ dize el duque a la duquesa.</stage>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Qué hos paresce, señora? qué cuenta de vos haveys dado?</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Yo señor duque/ nunca contra tu honra hize cosa que no deviesse.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>No es menester mas/ que por los ojos se ha visto: mirad vos, mayordomo.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Señor.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Vos mismo la poned en essa fortaleza con muy buenas guardas/ hasta que de su culpa se descargue/ o sea castigada por ello.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Sus/ sus/ vaya vuestra señoría.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>O mala hembra traydora.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Puesta la duquesa en la torre/ lamentando dize.</stage>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Hay desdichada de ti, duquesa/ en amargo punto/ y en afortunado signo tú en la Rosa te casaste/ pues tus alegres bodas han dado tan mal succeso. Ay padre mió Rey de Dinamarcha/ que en casarme con el duque de la Rosa pensavas que aventajavas mi suerte/ y ha rodeado mi desdicha/ y tu deshonra.</p>
+          </sp>
+          <stage>Sale el DUQUE.</stage>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Señora duquesa, gran rato ha que os estoy escuchando/ y no teneys de quien quedaros si no de vos misma/ pues vos fuistes la causa de vuestro mal/ y mi desonra/ la qual pluguiera a Dios antes mi vida se acabara que yo a tal tiempo llegara, y mis ojos nunca tal vieran.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Ay, señor duque, mis peccados, por haver yo en otra cosa a dios offendido lo han causado, que deste que acusada soy, ni tal pense, ni tal prisión merezeo.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>No teneys disculpa que os abone, pues a manos, y sin red fuystes caçada: el remedio que teneys es solo uno: y es, que dentro de tres meses deys Cavallero que con mi mayordomo, sobre la verdad se conbata: donde no, passado el termino, vuestro delicto sera pregonado, y vos por justicia, y con justicia sereys quemada.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Yo quemada, señor duque?</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Vos quemada.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Tan cruel se quiere mostrar V. S. contra mi? y dar mas crédito a un vil honbre, que a tu querida muger, hija de Rey Infanta Real, y limpia desde que nasci: en qué consiste, señor duque?</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Vuestro yerro, duquesa, es manifiesto, pues ante vos fue muerto el causante por su carnal hermano, estimando mas mi honra, que derramar su propria sangre, lo qual vos, como mala, no quisistes mirar: hora yo me voy, tened cuenta en lo que hos he dicho.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Entra se el duque, y dize la duquesa.</stage>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Ay captiva, y amarga muyer, que hasta aqui eras tenida por espejo de casadas, y quando niña las donzellas en ti se miravan: y agora, por traycion, assentada con las malas, y borrada del libro de la lealtad!</p>
+          </sp>
+          <sp who="#verdad #remedio #consuelo">
+            <stage>Entra la Verdad, y el Consuelo, y el Remedio cantando.</stage>
+            <l>Ay de ti triste duquesa,</l>
+            <l>ay de tí.</l>
+            <l>Ay duquesa lastimada</l>
+            <l>de las mas tristes que vi,</l>
+            <l>sin culpa te tienen presa,</l>
+            <l>pues culpa en ti no sentí,</l>
+            <l>ay de ti.</l>
+            <l>Sin culpa te tienen presa</l>
+            <l>pues culpa en ti no sentí,</l>
+            <l>cautelosamente mueres</l>
+            <l>si Dios no buelve por ti,</l>
+            <l>ay de ti.</l>
+            <l>Cautelosamente mueres</l>
+            <l>si Dios no buelve por ti,</l>
+            <l>pero por darte remedio</l>
+            <l>todos venimos aqui.</l>
+            <l>ay de tí.</l>
+            <l>Ay de ti triste duquesa, ay de ti.</l>
+          </sp>
+          <stage>Dize la Verdad.</stage>
+          <sp who="#verdad">
+            <speaker>VERDAD.</speaker>
+            <p>Llamemos la desde aquí, pues la prisión suya de nosotros ha puesto tierra en medio. A, señora duquesa.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Duquesa no, muger sin ventura sí: quién me llama?</p>
+          </sp>
+          <sp who="#verdad">
+            <speaker>VERDAD.</speaker>
+            <p>La Verdad.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Essa me tiene a mí por enemiga, pues la cautelosa mentira me haze detener en esta torre: a, Verdad, hija eres de dios, porqué no buelves por tus hermanos?</p>
+          </sp>
+          <sp who="#verdad">
+            <speaker>VERDAD.</speaker>
+            <p>Sossiegate, duquesa excellente, que quiriendo bolver por mi, baxé del cielo a la tierra, a donde mi patrimonio y heredad tengo antes que el mundo se formasse, y para tu descanso, traygo al Consuelo, y al Remedio en mi compañía: oye el consuelo que Consuelo te dara.</p>
+          </sp>
+          <sp who="#consuelo">
+            <speaker>CONSUELO.</speaker>
+            <p>Duquesa noble y escogida, yo soy el Consuelo, que por la Verdad, que ves, a tu presencia soy traydo, consuélate, y mira que para los buenos tiene dios guardadas las adversidades semejantes: la verdad aunque se tarda, bivira, peresciendo la cantelosa mentira, y consumiendo los ministros inventores della: con prudencia te govierna, y a la virtude te recoge: y mira, cómo por cautelosa traycion, has quedado en muy mas altos quilates de virtud según tú eres, y tu casto bivir meresce.</p>
+          </sp>
+          <sp who="#remedio">
+            <speaker>REMEDIO.</speaker>
+            <p>Pues la Verdad te esfuerça, y el Consuelo te ha consolado, duquesa excellente, yo el Remedio, por la Verdad, en tu presencia traydo, digo, que el mejor remedio que tienes para tu libertad, es que embies a Castilla a llamar al Infante Dulcelyrio, que pues tanto amor en la corte del Rey tu padre te tuvo, en este peligroso trance no te olvidará, y pues lo que desseas has visto, queda en paz que nos vamos.</p>
+          </sp>
+          <sp who="#verdad #remedio #consuelo">
+            <stage>Entran se cantando esta Canción.</stage>
+            <l>A Dios, a Dios matrona encarcelada,</l>
+            <l>esfuerça, no desmayes, ten prudencia,</l>
+            <l>porque de la divina providencia,</l>
+            <l>serás en tal peligro remediada.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Entra el doctor Valentín, y llama a la torre, y dize.</stage>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>O domina duquesam tibí perliquitenciam vestra, salvia salvete, saínete, cundí, cundida como mancha de azeyte.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Ay señor bachiller, qué hos paresce en qué ha parado la bien querencia que el duque mi señor me tenia?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>En muy mal ha parado por cierto, labo ravit, clamavit, sospiravit, clamaran, celum, celorum, almoadilla sum, que non merescentur labores vuestras, torto, tortolilla, razón habetis d’ lachrymis lachrimarum vertatur duquesam vobis.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Mirad si tengo razón de llorar.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Si por cierto señora, yo tanbien lloraré quanto pudiere, soltabit, llorabit, encantabit, desencantabit, encalabaçabitur torrentis tibi duna, ona, ona, athaona, ocico y cara • de mona, desecha te veas, duquesa, que assi tienes en ti la torre aprisionada.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Mirad lo que dezis, señor bachiller.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>No sé lo que me digo señora, que de puro apassionado lo digo, y ya que lo diga teme razón, porque la razón pende de la razón: racionatis diacitron con dongolondron, encalabaçatis datis matis: assí que lo que podré hazer por v. m. es...</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Qué?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Pare.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Y qué me da?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Una baraja de naypes d’ los de Joan Virida con que se huelgue.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Naypes me da? y con quién tengo de jugar?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Que sola está?</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Sola estoy.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Sienpre sea assi/ nunca dios mas conpannia le dé.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Agora dexemos esso, señor bachiller.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Ya lo voy dexando/ qué manda v. m.?</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Que por me hazer merced/ encubiertamente a Castilla lleveys esta carta al Infante Dulcelyrio: y allende de la carta/ de palabra le direys el gran peligro en que estoy/ y que se acuerde del amor que en tienpo de unra ninnez nos tuvimos/ y que nunca mejor que agora pagar se pudo.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Yo lo haré señora brevissime/ organea tus/ alforjudas mihi/ y el camino real a cuestas/ por valles/ senderos/ cuestas barbechos/ llanos/ montes/ montannas/ sierras/ breñas/ breñales/ bardas/ bardales/ carrascales/ viñas/ huertos / barros / lodos / cenagales / y mas andando trapo rastrando: pero dígame, señora, y en qué tengo de yr?</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Por la posta/ porque vays mas presto.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Y la posta en qué yrá cavallera?</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Vos cavallero en ella/ entendeys lo?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Ya ya señora/ besantibus manus caixcos carrillos de vuestra reverencia / o reverendissima paternidad: a Castilla/ a Castilla/ a Castilla.</p>
+          </sp>
+          <stage>Entra el Infante Dulcelyrio.</stage>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Muchos dias son passados que no he sabido si la duquesa de la Rosa mi señora llegó buena del camino quando de la romería venia: y no sé si della fuy conoscido quando en mi palacio la hospedé: pero si seria/ por que en la copa del vino le eché la sortija que ella me dió quando de su palacio me partí: mas qué digo? qué gente es esta?</p>
+          </sp>
+          <stage>Entra el bachiller Valentín.</stage>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>No somos gente/ ni venimos dessa Casta.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Pues quien soys?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Ego sum el Arcediano subtil Valentín subido sobre lo quiríes de los encaramados robles/ çarças/ garças/ marca/ mosca/ rosca/ cogida/ trahida/ buscada mensagerum carta mecum tibi.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Carta me traeys? y de quién es?</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>De la muy escogida/ embiada rebatida/ y sacada por bruxola y alquitara/ clara/ vara/ larga/ corta/ gruessa delgada/ verde/ azul/ y colorada/ parda/ chueca/ rueca manteca/ señora doña mamueca.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Sus que la carta lo dirá.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Si señor/ ella va escripta con las hiemas de los dedos menniques/ chiques/ fiques/ tentariques/ y de las texidas/ tramadas por las damas/ dueñas/ donzellas/ biudas/ casadas/ beatas/ monjas/ taronjas/ escriptas sin lisonjas la mañana de sant Toribio.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Señor yreys/ y direys a la señora duquesa/ que a mí me pesa mucho de su mal.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Pesar le d’ dios: tal se fiava de v. m.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Pero partir yo para la Rosa/ no podré porque estoy acá un poco ocupado en negocios que mucho me importan.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Que si señor por amor de dios/ alómenos por haver yo acá venido.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Andá señor/ que os digo que no puedo yr.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Que si hará, señor.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Anda con dios/ tira de ahi.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Que nunca allá vays/ ni dios allá os lleve/ que yo me yre y bolcere/ y verne/ y me combatiré con vos/ con él/ con ella/ armudo/ armatus/ gatus/ garanatus/ vestido de malla/ yerro/ azero/ plomo/ cobre/ latón/ azogue/ bogue/ y me yre que no se ahogue.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Anda de ahi.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Digo que yo me yre/ y tu quedarás para siempre jamas/ yendo me y no me vereys/ y si me vieredes al reves en buen Francés hecho/ haro/ himeta/ capa/ zarro/ cubero/ blanco/ prieto sopla en queto de moleto.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Hios ya si quereys.</p>
+          </sp>
+          <sp who="#valentin">
+            <speaker>VALENTIN.</speaker>
+            <p>Digo que ya me yre/ y ya que me vaya yrme de peña en peña/ de biga en viga/ pacarete con liga/ ligatus/ atado/ armado/ preso/ prendido/ engarrafado con cadenas/ garfiones/ grilles/ arcillos/ çarcillantibus perentrelas mihiereta par de oreja.</p>
+          </sp>
+          <stage>Vase el dotor/ y dize el Infante.</stage>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>A mí me conviene caminar liberalmente para la Rosa: y si dixe que no quería yr fue por yr mas enenbierto/ y assi yo determino de yr y vestirme en hábitos de frayle/ y haré lo possible por confessar a la duquesa/ y si veo que en su confession no es culpante/ pondré me en batalla con el cavallero que por contrario tiene/ hora sus, yo voy a ponello por obra.</p>
+          </sp>
+          <stage>Entrase el Infante/ y havuiendose rescebido la duquesa respuesta que no puede venir/ sale a la torre/ y dize.</stage>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Ya mis hados todos se han levantado contra mi/ pues el Infante Dulcelyrio/ en quien la esperan a de mi remedio tenia/ tan secamente me responde que venir no puede por mí a tomar batalla/ de dios me venga el remedio/ pues los favores humanos me faltan.</p>
+          </sp>
+          <stage>Entra un page a denunciar la muerte a la duquesa.</stage>
+          <sp who="#page_3">
+            <speaker>PAGE III.</speaker>
+            <p>Illustrissima señora, el duque mi señor conmigo te manda que con un frayle que ante ti presto veras/ te confiesses/ por que de los tres meses que por termino te dió/ oy es el postrero dia.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Pues el duque mi señor lo manda, muera yo y su honra biva: y quién es el frayle?</p>
+          </sp>
+          <sp who="#page_3">
+            <speaker>PAGE III.</speaker>
+            <p>No hay nadie que le conozca señora/ mas de que al duque mi señor supplicó le diesse licencia para te confessar.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Aquí me tiene sin culpa/ muera/ haga loque su señoría mandare.</p>
+          </sp>
+          <stage>Entra Thome Sanctos con un haz de leña.</stage>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Quién da real y medio por la lefia?</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Y para qué es la leña?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Para quemar a la duquesa.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>A mi? ay triste desdichada!</p>
+          </sp>
+          <stage>Entra se de la ventana la duquesa.</stage>
+          <sp who="#page_3">
+            <speaker>PAGE III.</speaker>
+            <p>Para qué se lo dixiste, maldito seas?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Que no se lo havia de dezir?</p>
+          </sp>
+          <sp who="#page_3">
+            <speaker>PAGE III.</speaker>
+            <p>No.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Diz que no/ haze me hablar la leña que pesa como todos los diablos.</p>
+          </sp>
+          <sp who="#page_3">
+            <speaker>PAGE III.</speaker>
+            <p>Pon la leña ahi/ y ve por lumbre: sal de baxo tontazo.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Bien está assi/ porque no se enlode.</p>
+          </sp>
+          <sp who="#page_3">
+            <speaker>PAGE III.</speaker>
+            <p>Sal de ahí presto antes que te dé.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Passo, pese al diablo/ mas qué saludable cosa es el garrote para hazer levanatar un asno del suelo!</p>
+          </sp>
+          <sp who="#page_3">
+            <speaker>PAGE III.</speaker>
+            <p>Cosa excellente: trahe lumbre presto.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>No será mejor llevar allá la leña?</p>
+          </sp>
+          <sp who="#page_3">
+            <speaker>PAGE III.</speaker>
+            <p>Para qué?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Para que venga encendido carro/ y carretero/ y mudas y quanto huviere.</p>
+          </sp>
+          <sp who="#page_3">
+            <speaker>PAGE III.</speaker>
+            <p>Anda, haz lo que te mando.</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Entra el duque/ y el mayordomo armado de guerra/ y dize el duque.</stage>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Mayordomo/ cunple hos estar en este campo armado/ hasta que de la duquesa justicia se aya hecho/ que ya podra ser que algún Cavallero della se duela, y con vos querrá verse en batalla.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Señor/ como la razón/ y la justicia lleve conmigo/ no digo con uno/ pero con ciento havre batalla/ y pensare vencerlos.</p>
+          </sp>
+          <sp who="#alabarderos">
+            <stage>Entran los alabarderos y guarda/ que trahen a sentenciar la duquesa cubierta de negro, y entran cantando el pregón.</stage>
+            <l>Esta es la justicia que mandan hazer de esta señora por alevosa y desleal/</l>
+            <l>mandan la quemar por ello/</l>
+            <l>mandanla quemar por ello/</l>
+            <l>quien tal haze que tal pague/</l>
+            <l>quien tal haze que tal pague.</l>
+          </sp>
+          <stage>Arrodillada la duquesa dize.</stage>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>A ti juez universal me querello/ y alço mi clamor/ entristecida/ y ante tu juyzio pongo mi anima/ dale el castigo que en esto que la inculpan meresce.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Espantado estoy, mayordomo/ en ver que el termino se va concluyendo/ y cavallero no viene que con vos quiera tener batalla/ de lo qual me pesa/ que si la duquesa muere/ muere mi honra/ y con el Rey su padre contino terne guerra: pero qué digo / mayordomo hazeos a una van da que contrario teneys.</p>
+          </sp>
+          <stage>Entra el Infante Dulcelyrio armado.</stage>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Alevoso Cavallero/ y disfamador de Illustre/ y delicada sangre/ apercíbete/ que yo armado de la verdad combatiré tu mentira.</p>
+          </sp>
+          <sp who="#mayordomo">
+            <speaker>MAYORDOMO.</speaker>
+            <p>Pues por la obra lo verás.</p>
+          </sp>
+          <stage>Cahe muerto el mayordomo/ y vase el Infante/ y dize el duque.</stage>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Muerto cayó el mayordomo/ por do se fue el que le mató?</p>
+          </sp>
+          <sp who="#page_4">
+            <speaker>PAGE IV.</speaker>
+            <p>Huyendo fue por no ser conoscido.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Gran señor a tu sierva oyste/ mil gracias te doy por ello.</p>
+          </sp>
+          <stage>Entra Thome Sanctos.</stage>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>O qué mayordomada que dió!/ dezi? han cayó de arriba/ Jesús broquel y todo está muerto.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>O traydor quán bien empleada ha sido en ti la muerte; olo, moços, licuad me lo alia dentro. Señora duquesa perdonadme/ pues en nada aveys sido culpante.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Señor la verdad jamas perescio/ y lo que tu heziste a todo eras obligado.</p>
+          </sp>
+          <sp who="#duque">
+            <speaker>DUQUE.</speaker>
+            <p>Hora pues vamos/ entremos en la ciudad/ y bivamos con mucha paz.</p>
+          </sp>
+          <sp who="#duque #duquesa">
+            <stage>Entran se cantando.</stage>
+            <l>En tan peligroso passo</l>
+            <l>la verdad va vitoriosa,</l>
+            <l>muerta queda en campo raso</l>
+            <l>la mentira cautelosa.</l>
+          </sp>
+          <stage>Entra un criado del duque, y dize.</stage>
+          <sp who="#criado">
+            <speaker>CRIADO.</speaker>
+            <p>lamas vino una desdicha, que otra no viniesse al encuentro: acabados de escapar de la traycion que a la duquesa le fue levantada, al duque mi señor le ha dado una fiebre de cabeça, que de los médicos está ya despedido.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Ha señor, ha se de bolver al monte esta leña?</p>
+          </sp>
+          <sp who="#criado">
+            <speaker>CRIADO.</speaker>
+            <p>Dexa me, que no estoy de tu tempre.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Está destemplado como guitarra?</p>
+          </sp>
+          <stage>Entra el page llorando.</stage>
+          <sp who="#page_4">
+            <speaker>PAGE IV.</speaker>
+            <p>O mi señor el duque de la Rosa.</p>
+          </sp>
+          <sp who="#criado">
+            <speaker>CRIADO.</speaker>
+            <p>Sancto Dios, ya deve ser muerto.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Quien derramó la olla?</p>
+          </sp>
+          <sp who="#criado">
+            <speaker>CRIADO.</speaker>
+            <p>Qué olla? no hablamos aquí de olla.</p>
+          </sp>
+          <sp who="#page_4">
+            <speaker>PAGE IV.</speaker>
+            <p>O duquesa biuda, y desnuda.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Que estava la carne cruda?</p>
+          </sp>
+          <sp who="#criado">
+            <speaker>CRIADO.</speaker>
+            <p>Qué carne, hermano?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>La de la olla.</p>
+          </sp>
+          <sp who="#page_4">
+            <speaker>PAGE IV.</speaker>
+            <p>O qué perdición tan grande.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Y cómo si fue perdición! que dezian todos los vezinos: bendita sea tal olla que assi nos harta de cozina.</p>
+          </sp>
+          <sp who="#criado">
+            <speaker>CRIADO.</speaker>
+            <p>En hartarte a ti todos estavan contentos: dezi, page, a donde lo entierran?</p>
+          </sp>
+          <sp who="#page_4">
+            <speaker>PAGE IV.</speaker>
+            <p>En el enterramiento de su padre.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Que entierran al gato, señor?</p>
+          </sp>
+          <sp who="#criado">
+            <speaker>CRIADO.</speaker>
+            <p>A qué gato?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Al que derramó la olla.</p>
+          </sp>
+          <sp who="#criado">
+            <speaker>CRIADO.</speaker>
+            <p>Tira te de ahi.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>O pobre gato enterrado en vida!</p>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>Entra el Infante Dulcelyrio y un page, y dize.</stage>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Nueva cierta he sabido que el duque de la Rosa es muerto, el tiempo mas aparejado me ha venido para poder casarme con la duquesa mi señora. Ola, page, llama a essa puerta.</p>
+          </sp>
+          <sp who="#page_5">
+            <speaker>PAGE 5</speaker>
+            <p>Ha de casa. Aqui ladran perros dentro. No deve ser esta la puerta principal, pues tantos perros responden en ella.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Pues por essa quero entrar para mas secretamente hazer mis negocios, sus ve, toma a llamar.</p>
+          </sp>
+          <sp who="#page_5">
+            <speaker>PAGE 5</speaker>
+            <p>Ha de casa.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Vala hos el demonio: yo hos juro al cielo de Dios que si apaño de un par de ladrillazos que hos haga yr en hora mala.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Sossiega te, hermano, corre ve y dile a la señora duquesa que un cavallero estrangero le quiere hablar.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Ela aquí donde viene, que no paresce si no que la llamaron con campanilla.</p>
+          </sp>
+          <stage>Entra la duquesa.</stage>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Salve y guarde al Cavallero, de do bueno?</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Estrangero soy señora, y de tu merced mal conoscido.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Quién soys, señor?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Yno que açotaron en Orihuela.</p>
+          </sp>
+          <sp who="#page_5">
+            <speaker>PAGE 5</speaker>
+            <p>Oye te nescio: a quién açotaron?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>A un melcochero que vendía pasteles.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Quién soys galan?</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>El Infante Dulcelyrio de Castilla, señora.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>El Infante Dulcelyrio no soys vos Cavallero, y si lo soys no paresceys el.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Sí soy, señora.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>No soys.</p>
+          </sp>
+          <sp who="#page_5">
+            <speaker>PAGE V.</speaker>
+            <p>Oye te tú!</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>No te acuerdas?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Diga que no se acuerda.</p>
+          </sp>
+          <sp who="#page_5">
+            <speaker>PAGE V.</speaker>
+            <p>Calla tú, asno.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Quando viniendo de Sanctiago en romería, en mi palacio te hospedé, y en la copa del vino que te di a bever eché el anillo que tú me diste quando me partí de la corte del Rey tu padre.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Ya hos conzco, Cavallero.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Ya hos conoscemos, y sabemos quien soys.</p>
+          </sp>
+          <sp who="#page_5">
+            <speaker>PAGE V.</speaker>
+            <p>Quién es?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Yno de los mayores vellacos que....</p>
+          </sp>
+          <sp who="#page_5">
+            <speaker>PAGE V.</speaker>
+            <p>Quién es el vellaco di, el Infante?</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>No, señor, si no un primo hermano del gato que se comio la olla.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Pero un hombre que viendo el grande peligro y aprieto en que yo estava, embiandos a llamar, me embiastes a dezir que vuestro remedio no tenia, no devia parescer ante mis ojos.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Señora, porque sepas que con mas lealtad te he servido, yo soy el que con hábitos de frayle te confesse, y viendo en tu confession no ser culpante me puse en batalla con el mayordomo del Duque tu marido, y le maté.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Pues veamos, en matalle, porqué te fuiste?</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Por no ser conoscido del duque.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Por cierto a Cavallero que por mi en tal peligro se puso, no le puedo yo pagar, si no es tomándole por marido.</p>
+          </sp>
+          <sp who="#thome">
+            <speaker>THOME.</speaker>
+            <p>Oixte, essa te repulgo, aborrucio, yo pense que se quería poner Abbadessa de los pasteleros: y dize que se quiere casar la señora biuda.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Essa misma intención me ha traydo a mi de Castilla, mi señora.</p>
+          </sp>
+          <sp who="#duquesa">
+            <speaker>DUQUESA.</speaker>
+            <p>Pues, sus, por agora vete a tu posada hasta tanto que dé cuenta a los que mas soy obligada, y se haga el casamiento con regozijo, y auctoridad de todos.</p>
+          </sp>
+          <sp who="#infante">
+            <speaker>INFANTE.</speaker>
+            <p>Pues vamos, mi señora, y sea como a ti plaze.</p>
+          </sp>
+          <sp who="#infante #duquesa">
+          <stage> Entran se cantando.</stage>
+            <l>O valerosa fiesta de sobrada alegría</l>
+            <l>pues el Infante y la duquesa</l>
+            <l>se casan en este día.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

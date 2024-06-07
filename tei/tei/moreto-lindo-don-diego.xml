@@ -1,0 +1,2524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="span######" xml:lang="esp" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>El lindo don Diego</title>
+        <author>
+          <persName>
+            <forename>Agustín</forename>
+            <surname>Moreto y Cavana</surname>
+          </persName>
+          <idno type="wikidata">Q399346</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>El lindo don Diego</title>
+          <author>Agustín Moreto</author>
+          <editor>Francisco Sáez Raposo</editor>
+          <idno type="URL">https://emothe.uv.es/biblioteca/textosXML/EMOTHE0548_ElLindoDonDiego.xml</idno>
+          <availability>
+            <licence>
+              <ab>CC-BY 4.0</ab>
+              <ref target="https://creativecommons.org/licenses/by/4.0/"
+                >Lizenzvertrag</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="MOSQUITO">
+            <persName>MOSQUITO</persName>
+          </person>
+          <person sex="FEMALE" xml:id="LEONOR">
+            <persName>DOÑA LEONOR</persName>
+          </person>
+          <person sex="FEMALE" xml:id="INÉS">
+            <persName>DOÑA INÉS</persName>
+          </person>
+          <person sex="MALE" xml:id="MARTÍN">
+            <persName>MARTÍN</persName>
+          </person>
+          <person sex="MALE" xml:id="DIEGO">
+            <persName>DON DIEGO</persName>
+          </person>
+          <person sex="MALE" xml:id="LOPE">
+            <persName>LOPE</persName>
+          </person>
+          <person sex="MALE" xml:id="MENDO">
+            <persName>DON MENDO</persName>
+          </person>
+          <person sex="FEMALE" xml:id="BEATRIZ">
+            <persName>BEATRIZ</persName>
+          </person>
+          <person sex="FEMALE" xml:id="CRIADA">
+            <persName>CRIADA</persName>
+          </person>
+          <person sex="MALE" xml:id="JUAN">
+            <persName>DON JUAN</persName>
+          </person>
+          <person sex="MALE" xml:id="TELLO">
+            <persName>DON TELLO</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-11-18">(DS/LG) conversion from source and editing.</change>
+        <change when="2022-03-30"> (LG) added configurations. </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written" when="1662">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="INSERT" name="wikidata" passive="Q5825576"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>PERSONAS</head>
+        <castItem>
+          <role>DON TELLO</role>
+          <roleDesc>viejo</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DON JUAN</role>
+        </castItem>
+        <castItem>
+          <role>DOÑA INÉS</role>
+        </castItem>
+        <castItem>
+          <role>DOÑA LEONOR</role>
+        </castItem>
+        <castItem>
+          <role>MOSQUITO</role>
+          <roleDesc>gracioso</roleDesc>
+        </castItem>
+        <castItem>
+          <role>BEATRIZ</role>
+          <roleDesc>criada</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DON DIEGO</role>
+        </castItem>
+        <castItem>
+          <role>DON MENDO</role>
+        </castItem>
+        <castItem>
+          <role>LOPE</role>
+          <roleDesc>criado</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MARTÍN</role>
+          <roleDesc>criado</roleDesc>
+        </castItem>
+        <castItem>
+          <role>[CRIADA]</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head>Jornada I</head>
+        <div type="configuration">
+          <stage>Salen DON TELLO, viejo, y DON JUAN, galán.</stage>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <stage>[A MOSQUITO.]</stage>
+            <l>(¿Qué haces?)</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(El diablo lo fragua.</l>
+            <l>¡De quien me parió reniego!)</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>¿Por qué no me habláis, don Diego?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Tiene la boca con agua.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(¿Llevas dinero?)</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[A MOSQUITO.]</stage>
+            <l>(Ni blanca.)</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(Pues, ¿a qué has de entrar allá?)</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[A MOSQUITO.]</stage>
+            <l>(Pues, ¿qué riesgo en eso habrá?)</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(Donde está tu mano franca,</l>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(¿A la condesa?)</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[A MOSQUITO.]</stage>
+            <l>(¿Pues no?</l>
+            <l>¿Eso quieres que la arguya?</l>
+            <l>Ni aun a una crïada suya</l>
+            <l>no se lo estorbara yo.)</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(¿Qué dices? Que eso es quedar</l>
+            <l>en una acción afrentosa.)</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[A MOSQUITO.]</stage>
+            <l>(Hermano, si ella es golosa,</l>
+            <l>¿téngolo yo de pagar?)</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(¡Aquesto es cosa perdida!)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>¡Ay, desdichada de mí!</l>
+            <l>Don Juan viene por allí.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>¡Su primo! ¡Pese a mi vida!</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="I" rend="indent">¿Quién?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">Don Juan de par en par.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>¿Pues ahora qué hemos de hacer?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Irnos, y tú defender</l>
+            <l>que no nos pueda alcanzar.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l rend="indent">Y si no puedo atajalle,</l>
+            <l>si acaso viene muy fuerte,</l>
+            <l part="I">¿qué he de hacer?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">Dalle la muerte.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="I">¿Dalle la muerte?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">O matalle.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l rend="indent">¿Y si no trae mal humor</l>
+            <l>y detenelle por bien</l>
+            <l part="I">puedo?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">Matalle también.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Pues, ¡sus! Manos a labor.</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l rend="indent">No permitáis que se acabe</l>
+            <l>de arriesgar la vida mía.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Váyase vueseñoría,</l>
+            <l>que ya estoy pensando el cabe.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="I" rend="indent">Detenedle bien.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">Sí haré.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Ya podemos escurrir.)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Detenedle sin reñir.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Sin reñir le mataré.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(Arranquemos a correr</l>
+            <l>mientras él queda en arrobo.)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A MOSQUITO.]</stage>
+            <l>(¡Jesús! Harta voy de bobo.)</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(No es poco para mujer.)</l>
+          </sp>
+          <stage>(Vanse.)</stage>
+        </div>
+        <div type="configuration">
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l rend="indent">A mucho quedo empeñado</l>
+            <l>si este hombre en seguirla da,</l>
+            <l>pero bien hecho será,</l>
+            <l>que un primo es medio cuñado.</l>
+          </sp>
+          <stage>(Sale DON JUAN.)</stage>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l rend="indent">En haberme detenido</l>
+            <l>con tal cuidado don Tello,</l>
+            <l>reconozco que es verdad</l>
+            <l>lo que les dijo don Diego</l>
+            <l>y, pues aquí le he alcanzado,</l>
+            <l>he de averiguar su intento.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Hombre, mira lo que haces,</l>
+            <l>que vas andando y muriendo.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">¿Señor don Diego?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">Don Juan,</l>
+            <l part="I">¿qué queréis?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="F">Buscando os vengo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Como no paséis de aquí,</l>
+            <l>seré muy servidor vuestro.</l>
+            <l>Mas si pasáis adelante,</l>
+            <l>¡por las llaves de San Pedro!,</l>
+            <l>que lo habéis de pasar mal.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Lo que yo deciros quiero,</l>
+            <l>aquí os lo puedo decir.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>De vida sois, según eso.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Vos habéis dicho delante</l>
+            <l>de vuestra prima y don Tello</l>
+            <l>que aquella mujer tapada,</l>
+            <l>que agora os iba siguiendo,</l>
+            <l>la recatabais de mí</l>
+            <l>por importarme su empeño.</l>
+            <l>Yo sé que esto es imposible,</l>
+            <l>porque yo en Madrid no tengo</l>
+            <l>mujer que pueda importarme,</l>
+            <l>ni por amor, ni por deudo.</l>
+            <l>Y siendo ansí que es fingido,</l>
+            <l>de vos entender pretendo</l>
+            <l>para qué fin lo fingisteis.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Esto es peor, ¡vive el cielo!,</l>
+            <l>porque si él fuera tras ella</l>
+            <l>le matara sin remedio,</l>
+            <l>porque ya lo había pensado.</l>
+            <l>Pero, matarle por esto,</l>
+            <l>no lo he pensado, y no es fácil.)</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">¿Qué decís?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">Ya voy a ello.</l>
+            <l>Señor don Juan, que yo dije</l>
+            <l>a mi tío ese embeleco</l>
+            <l>para escaparme de allí</l>
+            <l>es verdad, y no lo niego,</l>
+            <l>que lo que yo una vez digo</l>
+            <l>ha de estar dicho in eternum.</l>
+            <l>Pero, ¿eso a vos qué os importa?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pues, vos, ¿siendo caballero</l>
+            <l>lo dudáis? El que se entienda</l>
+            <l>que dama o parienta tengo</l>
+            <l>tan liviana que de mí</l>
+            <l>anda con otros huyendo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Pues, si vos sabéis que es falso</l>
+            <l>y os aseguráis en eso,</l>
+            <l>¿qué importa que yo os lo diga?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>El que no lo piensen ellos,</l>
+            <l>que la opinión no es lo que es,</l>
+            <l>sino lo que entiende el pueblo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Pues, ¿mi tío es pueblo acaso?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Es parte dél, que es lo mesmo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Don Juan, esto no os importa</l>
+            <l>más de que no tenga celos</l>
+            <l>Leonor de lo que yo dije,</l>
+            <l>como es vuestro galanteo.</l>
+            <l>Remediado esto, ¿habrá más?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Yo no os pido nada de eso.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Pues veis aquí que lo dije,</l>
+            <l>que es la verdad, ¿qué remedio?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Que vos habéis de decir,</l>
+            <l>a todos los que lo oyeron,</l>
+            <l>el intento que tuvisteis</l>
+            <l>y que yo os obligo a ello.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>¡No es nada la añadidura!</l>
+            <l>¿Desdecirme yo? Eso es bueno.</l>
+            <l>Antes me volviera moro.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pues aquí no hay otro medio.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Pues más que nunca le haya.</l>
+            <l>¡Bien quedaba yo con eso</l>
+            <l>para ir a la plaza en Burgos</l>
+            <l>a hablar con los caballeros,</l>
+            <l>que el toro de las dos madres</l>
+            <l>no hiciera más ruido entre ellos!</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pues, ¿cómo habéis de excusallo?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>¿Cómo? ¡Por Dios, que me huelgo!</l>
+            <l>¿Usted me tiene por rana,</l>
+            <l>con dos manos y diez dedos</l>
+            <l>y cinco palmos de espada</l>
+            <l>y libra y media de acero?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pues, aguardad y veamos</l>
+            <l>si es más posible otro medio.</l>
+            <l>¿Esa mujer os importa?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Y mucho, y a no ser eso,</l>
+            <l>si ella no me importa, a ella</l>
+            <l>le importo yo, que es lo mesmo,</l>
+            <l>porque me quiere que rabia.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pues, si vos sabéis que es cierto</l>
+            <l>que ella no me importa a mí,</l>
+            <l>dadle a entender a don Tello,</l>
+            <l>con acaso o con industria,</l>
+            <l>quién es, para que con esto</l>
+            <l>se sepa que no es mujer</l>
+            <l>con quien dependencia tengo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(¡Por Dios, que la hacíamos buena!</l>
+            <l>¡Que me pida el majadero</l>
+            <l>que yo publique a su prima!</l>
+            <l>¡Válgate el diablo el empeño!</l>
+            <l>Yo no sé cómo él lo oyó,</l>
+            <l>porque lo dije bien quedo.)</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>¿Os parece esto mejor?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>¿Vos tenéis entendimiento?</l>
+            <l>¿Yo manifestar la dama?</l>
+            <l>No se pide eso a un gallego.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pues, don Diego, aquí no hay modo</l>
+            <l>de excusarse nuestro duelo,</l>
+            <l>porque yo no he de apartarme</l>
+            <l>de vos sin ir satisfecho.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Pues, veníos a mi lado,</l>
+            <l>que yo os doy licencia de eso</l>
+            <l>como durmamos aparte.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pero esto ha de ser riñendo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(¡Mas matalla! Vive Dios,</l>
+            <l>que si reñimos por esto</l>
+            <l>se ha de enojar la condesa,</l>
+            <l>porque es fuerza del empeño</l>
+            <l>de librarla de su primo,</l>
+            <l>y si le mato la pierdo.</l>
+            <l>Pues matalle si reñimos</l>
+            <l>ya pienso que lo estoy viendo,</l>
+            <l>que al primer uñas abajo</l>
+            <l>se me resbala, y laus Deo.)</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Don Diego, si esto ha de ser,</l>
+            <l>ya es en vano perder tiempo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>¿En fin, hemos de reñir?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>No tiene el lance otro medio,</l>
+            <l part="I">y si ha de ser...</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">Aguardad.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">Pues, ¿qué queréis?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">Que primero</l>
+            <l>protesto que soy forzado,</l>
+            <l>porque importa para el cuento.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Eso a mí nada me importa.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>¡Válame Dios! Yo me entiendo.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Sacad, don Diego, la espada.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Comenzad diciendo el Credo</l>
+            <l part="I">y abreviadle.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="F">¿Para qué?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Por no daros hasta el tiempo</l>
+            <l>de la vida perdurable.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Eso agora lo veremos.</l>
+          </sp>
+          <stage>(Sale DON MENDO.)</stage>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>¿Qué es esto, primo? ¿Don Juan?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Los dos tenemos un duelo</l>
+            <l>que nos obliga a reñir,</l>
+            <l>y vos, como caballero,</l>
+            <l>no nos lo habéis de estorbar.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Si es justo, yo lo prometo.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Es justo, y él lo dirá.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>No es sino injusto y muy necio.</l>
+            <stage>(Aparte.)</stage>
+            <l>(Yo me he de escapar del lance</l>
+            <l>enredando en él a Mendo.)</l>
+            <l>Primo, don Juan galantea,</l>
+            <l>como lo muestra su intento,</l>
+            <l>a nuestra prima Leonor.</l>
+            <l>Yo, por salir sin empeño</l>
+            <l>con una mujer de casa,</l>
+            <l>queriéndola ver mi suegro,</l>
+            <l>que era cosas de don Juan</l>
+            <l>dije a mi tío en secreto,</l>
+            <l>llegando él a esta ocasión</l>
+            <l>por salir della sin riesgo.</l>
+            <l>Desto resulta sin duda</l>
+            <l>que Leonor dél tenga celos,</l>
+            <l>y él, para satisfacerla,</l>
+            <l>que esto no puede ser menos,</l>
+            <l>quiere que yo me desdiga.</l>
+            <l>Yo le digo que no puedo.</l>
+            <l>Sobre esto hemos de reñir.</l>
+            <l>Venistes vos a este tiempo</l>
+            <l>y no he de reñir yo agora,</l>
+            <l>porque no es igual el riesgo,</l>
+            <l>que un primo al lado es ventaja,</l>
+            <l>como lo dice el proverbio.</l>
+            <l>Esto supuesto, don Juan,</l>
+            <l>buscadme vos cuerpo a cuerpo,</l>
+            <l>que solo yo os reñiré</l>
+            <l>cuanto fuere gusto vuestro,</l>
+            <l>menos lo que fuere justo.</l>
+            <l part="I">Adiós, primo.</l>
+          </sp>
+          <stage>(Vase.)</stage>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="F">Oíd, don Diego.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Esperad, señor don Juan,</l>
+            <l>que ya con mi primo el duelo</l>
+            <l>no tenéis, sino conmigo,</l>
+            <l>y aquello es después de aquesto.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">¿Por qué?</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l part="F">Porque habiendo causa</l>
+            <l>de reñir en dos empeños,</l>
+            <l>de ser llamado a llamar,</l>
+            <l>el ser llamado es primero.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pues vos, ¿por qué me llamáis?</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Porque yo a casarme vengo</l>
+            <l>con doña Leonor, mi prima,</l>
+            <l>siendo vos testigo dello.</l>
+            <l>Y habiéndoos hecho mi amigo,</l>
+            <l>galantearla en secreto</l>
+            <l>es traición y vos debierais,</l>
+            <l>a ley de buen caballero,</l>
+            <l>decírmelo llanamente</l>
+            <l>antes que yo hubiera hecho</l>
+            <l>empeño en la voluntad,</l>
+            <l>que entonces estaba a tiempo</l>
+            <l>de ver lo que bien me estaba</l>
+            <l>sin el dolor de los celos.</l>
+            <l>Y, pues esta queja es justa,</l>
+            <l>salgamos al campo luego,</l>
+            <l>que allí de esta sinrazón</l>
+            <l>me satisfará mi acero.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Si la queja que tenéis</l>
+            <l>por lo que dijo don Diego,</l>
+            <l>antes de llamarme al campo</l>
+            <l>me la hubiérades propuesto,</l>
+            <l>yo os dejara aquí sin ella.</l>
+            <l>Mas ya llamado al empeño,</l>
+            <l>no os quiero satisfacer,</l>
+            <l>aunque era razón y puedo,</l>
+            <l>porque después de reñir</l>
+            <l>quiero que vos, satisfecho,</l>
+            <l>sepáis que, por no excusarlo,</l>
+            <l>no os satisfice pudiendo.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Si eso es así, yo os lo pido.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Ya os respondo que no puedo.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Pues, vamos a la campaña.</l>
+          </sp>
+          <stage>(Sale DON TELLO.)</stage>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Tened. ¿Dónde vais, don Mendo?</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Señor, yo a don Juan al campo</l>
+            <l>a divertirnos le ruego</l>
+            <l>que vamos, y este favor</l>
+            <l part="I">recibo dél.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="F">Yo os lo debo</l>
+            <l>por serviros. A esto vamos,</l>
+            <l>si dais licencia, don Tello.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Yo, a don Mendo he menester,</l>
+            <l>y de tal divertimiento</l>
+            <l>siento estorbaros el gusto.</l>
+            <stage>(Aparte.)</stage>
+            <l>(En lo que oí y lo que veo</l>
+            <l>en sus semblantes conozco</l>
+            <l>que iban los dos a algún duelo,</l>
+            <l>y habiéndomelo negado,</l>
+            <l>averiguarlo no puedo.</l>
+            <l>Esto sin duda resulta</l>
+            <l>de aquel lance de don Diego,</l>
+            <l>que no le he podido hallar</l>
+            <l>para saber el empeño.</l>
+            <l>Estorbarlo aquí es forzoso</l>
+            <l>hasta ver el fundamento.)</l>
+            <l>Don Mendo, veníos conmigo.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Voy, señor, a obedeceros.</l>
+            <stage>[A DON JUAN.]</stage>
+            <l>(Forzoso es disimular,</l>
+            <l>por mi tío, nuestro intento.)</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <stage>[A DON MENDO.]</stage>
+            <l>(Sois atento, yo os lo estimo,</l>
+            <l>mas ya faltaros no puedo.)</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <stage>[A DON JUAN.]</stage>
+            <l>(Yo, en pudiendo, os buscaré.)</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <stage>[A DON MENDO.]</stage>
+            <l>(Forzosamente soy vuestro.)</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¿Qué es lo que decís, don Juan?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Me despido de don Mendo.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>No os despidáis, que también</l>
+            <l>a vos os pido lo mesmo.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Iré gustoso a serviros.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Ansí asegurarlo quiero.)</l>
+            <l part="I">Venid conmigo.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="F">Ya vamos.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <stage>[A DON JUAN.]</stage>
+            <l>(Lo dicho, dicho.)</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <stage>[A DON MENDO.]</stage>
+            <l>(Eso ofrezco.)</l>
+          </sp>
+          <stage>(Vanse.)</stage>
+        </div>
+        <div type="configuration">
+          <stage>(Salen DOÑA INÉS y LEONOR.)</stage>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l rend="indent">Esto pasa, Leonor. Don Juan, ingrato,</l>
+            <l>me pagó con tal trato</l>
+            <l>la fe que me debía.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l>¿Y sabes tú si la verdad sería</l>
+            <l>lo que dijo don Diego?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Mira tú si es verdad, pues se fue luego,</l>
+            <l>y, en su traición vencido,</l>
+            <l part="I">aún no me ha vuelto a ver.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l part="F">Eso habrá sido</l>
+            <l>porque te vio irritar de su porfía,</l>
+            <l>y tú que no te vea le has mandado.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Y, ¿por eso no ha vuelto, Leonor mía?</l>
+            <l>O no sabe de amor o está culpado,</l>
+            <l>que en celos que despiden al amante</l>
+            <l>nunca habla el corazón, sino el semblante.</l>
+            <l>El pecho más furioso y enojado,</l>
+            <l>de celos asaltado,</l>
+            <l>cuando de oír satisfacción se excusa,</l>
+            <l>no la despide porque la rehúsa,</l>
+            <l>sino la esfuerza y, cuando la revoca</l>
+            <l>por oír la mayor, no quiere poca.</l>
+            <l>Que la mujer de celos más herida</l>
+            <l>que a su amante despida,</l>
+            <l>cuando él vuelve y rendido se le ofrece,</l>
+            <l>aun la satisfacción tibia agradece,</l>
+            <l>porque, cuando es de poco fundamento,</l>
+            <l>no agrada la razón, sino el intento.</l>
+            <l>Yo, Leonor, por mi daño</l>
+            <l>he visto cara a cara el desengaño,</l>
+            <l>y, pues yo de mi culpa soy testigo,</l>
+            <l>le lograré, aunque sea en mi castigo.</l>
+            <l>Yo a mi padre no tengo resistencia,</l>
+            <l>mi decoro es la ley de mi obediencia,</l>
+            <l>a esta atención, aun dél correspondida,</l>
+            <l>por no faltar perdiera yo la vida,</l>
+            <l>pues ya que dél estoy tan agraviada,</l>
+            <l>con mi muerte he de verme castigada.</l>
+            <l>Hoy a don Diego le daré la mano.</l>
+            <l>Si tarde he de morir, alivio gano,</l>
+            <l>pues sólo de esta suerte</l>
+            <l>puedo abreviar los plazos a mi muerte.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l>Pues caso que don Juan te haya faltado,</l>
+            <l>casarte con un hombre tan privado</l>
+            <l>de razón y de gusto, ¿es buen remedio?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Para morir más presto, ése es el medio.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l part="I">Don Juan viene aquí dentro.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Pues, hermana,</l>
+            <l>yo sé de amor la condición tirana,</l>
+            <l>y aunque en mi mismo honor haga el estrago,</l>
+            <l>lo atropellaré todo por su halago.</l>
+            <l>Si le veo, aunque sea desatento,</l>
+            <l>no me he de resolver a lo que intento.</l>
+            <l>Tú mi resolución le manifiesta,</l>
+            <l>que yo a esperarte voy con la respuesta.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l>¿Pues eso intenta tu rigor? ¿No advierte</l>
+            <l>que él sin duda vendrá a satisfacerte?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>De eso quiero excusarme,</l>
+            <l>porque más creo que vendrá a engañarme.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l>Pues, hasta verlo, espérale siquiera.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Qué le faltaba a amor si ver pudiera?</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l part="I">En fin, ¿no le has de ver?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Eso pretendo.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l part="I">Pues yo se lo diré.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">De él voy huyendo.</l>
+            <l>Pero, ¿qué les importa a mis enojos</l>
+            <l>si dejo el corazón con huir los ojos?</l>
+            <l>Pero si vuelvo, ¡por quien soy!, no miro</l>
+            <l>que perezosamente me retiro.</l>
+            <l>Mucho rigor es éste que resuelvo.</l>
+            <l>De aquí le oiré, que ni me voy, ni vuelvo.</l>
+          </sp>
+          <stage>(Sale DON JUAN.)</stage>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l rend="indent">Llegando don Tello a casa,</l>
+            <l>nos mandó en ella esperarle</l>
+            <l>y fue a buscar a don Diego.</l>
+            <l>Sin duda, presume el lance.</l>
+            <l>Si entre tanto hablar pudiese</l>
+            <l>a Inés, fuera alivio grande</l>
+            <l>de la pena en que me tiene.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l>Señor don Juan, Dios os guarde.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">Hermosa Leonor.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l part="F">Mi hermana,</l>
+            <l>viéndoos pasar adelante,</l>
+            <l>al entrar por esta sala,</l>
+            <l>se retiró. Perdonadme</l>
+            <l>que os diga que, por no hablaros,</l>
+            <l>que no puedo yo quitarle</l>
+            <l>a esta noticia forzosa</l>
+            <l>lo que tiene de desaire.</l>
+            <l>De dárosla me excusara,</l>
+            <l>mas me ha obligado a que os hable</l>
+            <l>por ella, y entre ella y vos</l>
+            <l>es fuerza que a vos os falte.</l>
+            <l>Mi hermana, señor don Juan,</l>
+            <l>no sé si quejas lo causen,</l>
+            <l>o la precisa obediencia</l>
+            <l>del precepto de mi padre,</l>
+            <l>-uno u otro o esto solo,</l>
+            <l>que aunque nazca de ambas partes</l>
+            <l>es sin duda que esta ley</l>
+            <l>será lo que más la arrastre-,</l>
+            <l>hoy se casa con mi primo,</l>
+            <l>y desto el retiro nace,</l>
+            <l>que no fuera justo hablaros</l>
+            <l>estando en este dictamen</l>
+            <l>con esta resolución.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>No paséis más adelante,</l>
+            <l>señora, si no intentáis</l>
+            <l>que el corazón me traspasen</l>
+            <l>las flechas que mi desdicha</l>
+            <l>de mis finezas le hace.</l>
+            <l>Si eso nace de su queja,</l>
+            <l>la luz del cielo me falte</l>
+            <l>o la de sus ojos bellos,</l>
+            <l>que esotra, por más süave,</l>
+            <l>si he dado causa a su enojo,</l>
+            <l>y piérdala yo esta tarde</l>
+            <l>si en mí, de otro pensamiento,</l>
+            <l>aun lo que no es culpa cabe.</l>
+            <l>Si su primo me ha culpado,</l>
+            <l>malicioso o ignorante,</l>
+            <l>cualquiera engaño es delito</l>
+            <l>si no se espera el examen.</l>
+            <l>Condenar sin causa a un reo</l>
+            <l>es rigor y, ya que pase,</l>
+            <l>no otorgarle apelación</l>
+            <l>es gana de condenarle.</l>
+            <l>Y si es tan severa ley</l>
+            <l>el precepto de su padre,</l>
+            <l>máteme su ejecución,</l>
+            <l>mas ella no lo adelante.</l>
+            <l>Muera yo, a no poder más,</l>
+            <l>porque mi estrella me ultraje,</l>
+            <l>mas no ella, que no es todo uno</l>
+            <l>que ella o mi estrella me maten.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <stage>[Al paño.]</stage>
+            <l>(Bien huía yo de oírle.</l>
+            <l>¡Oh, amor tirano, cobarde,</l>
+            <l>a la ofensa tan ligero</l>
+            <l>como al rendimiento fácil!)</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l>Don Juan, a vuestras razones,</l>
+            <l>aunque muevan mis piedades,</l>
+            <l>no puedo yo responderlas,</l>
+            <l>que, aun por consuelo, es en balde.</l>
+            <l>Esto me mandó deciros</l>
+            <l>mi hermana, y agora darle</l>
+            <l>esa respuesta por vos</l>
+            <l>es cuanto está de mi parte.</l>
+            <l>A esto voy, guárdeos el cielo.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">¿Podré esperar?</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l part="F">No se agravie</l>
+            <l>vuestro amor si no saliere,</l>
+            <l>que, si no es que ella lo mande,</l>
+            <l>yo no tengo a qué volver.</l>
+            <l part="I">Adiós.</l>
+          </sp>
+          <stage>(Sale DON MENDO, al paño, oyendo el postrer verso.)</stage>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="F">Leonor, escuchame.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(¡Válgame el cielo! ¿Qué veo?)</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l part="I">¿Qué dices?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="F">Pues, son crueldades,</l>
+            <l>que las templéis os suplico.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l>Cuanto está aquí de mi parte,</l>
+            <l>ya lo sabes, eso haré.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>En fin, ¿no decís que aguarde?</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l>No está en mi mano, don Juan.</l>
+            <l>Esto es fuerza, perdonadme.</l>
+          </sp>
+          <stage>(Vase.)</stage>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pues yo, antes que su rigor,</l>
+            <l>iré a que mi amor me mate.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Para eso está aquí mi espada</l>
+            <l>cuando ese despecho os falte.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <stage>[Al paño.]</stage>
+            <l>(¡Cielos! Don Mendo ha venido,</l>
+            <l>ya salir no puedo a hablalle.)</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>¿Qué es lo que decís, don Mendo?</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Que ya en mi enojo no caben</l>
+            <l>mas dilaciones, don Juan,</l>
+            <l>cuando, después de avisarme</l>
+            <l>que amáis a Leonor don Diego,</l>
+            <l>de esa culpa hallo este amante.</l>
+            <l>Salgamos, don Juan, al campo,</l>
+            <l>que ya, aunque pudierais darme</l>
+            <l>satisfacción muy precisa,</l>
+            <l>no la quiere mi coraje.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pues, hacéis mal, ¡vive Dios!,</l>
+            <l>que ya roto el primer lance,</l>
+            <l>en éste, por muchas causas,</l>
+            <l>os la diera yo bastante.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Pues, salgamos a reñir.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Vuestro es el puesto, guiadle.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <stage>[Al paño.]</stage>
+            <l>(¿Qué escucho? ¡Válgame el cielo!)</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>A vos os toca ir delante.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>No toca eso sino a vos,</l>
+            <l>que habéis de escoger la parte.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Pues, venid, si a mí me toca.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">Ya os voy siguiendo.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(¡Ay, pesares!)</l>
+          </sp>
+          <stage>(Sale.)</stage>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l part="I">¿Quién es?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Quien, oyéndoos, sale</l>
+            <l>a excusaros ese empeño.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>No presumo que eso es fácil.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Sí es, que yo puedo deciros,</l>
+            <l>fïada de vuestra sangre,</l>
+            <l>lo que, de atento, don Juan</l>
+            <l>es forzoso que os recate.</l>
+            <l>Vos al campo le llamáis</l>
+            <l>creyendo que a Leonor ame,</l>
+            <l>y sabed que va a reñir</l>
+            <l>de noble, mas no de amante.</l>
+            <l>Don Juan, señor, ha seis años</l>
+            <l>que, viéndome en el pasaje</l>
+            <l>de México a España, puso</l>
+            <l>los ojos en mí y él sabe</l>
+            <l>los desdenes, los rigores</l>
+            <l>que llora su amor constante</l>
+            <l>hasta ganarme licencia</l>
+            <l>para pedirme a mi padre.</l>
+            <l>Desde aquí les di a mis ojos</l>
+            <l>licencia para agradarse</l>
+            <l>de verle, y a los oídos</l>
+            <l>del contento de escucharle,</l>
+            <l>pero no a pasar de aquí,</l>
+            <l>porque el mismo sol no arde</l>
+            <l>en tan puros esplendores</l>
+            <l>como él recatos me aplaude.</l>
+            <l>Que aunque confieso que tuve</l>
+            <l>inclinación a sus partes,</l>
+            <l>a su atención, su fineza,</l>
+            <l>en la mujer noble nace</l>
+            <l>la inclinación y el agrado</l>
+            <l>tan dentro de los umbrales</l>
+            <l>de su decoro, que apenas</l>
+            <l>el que la logra la sabe.</l>
+            <l>Y inferid con la pureza</l>
+            <l>que pudo serme agradable</l>
+            <l>la asistencia de su amor,</l>
+            <l>pues siendo ya, por mi padre</l>
+            <l>y vuestro primo, imposible</l>
+            <l>que yo con don Juan me case,</l>
+            <l>sin escrúpulo lo dice</l>
+            <l>una mujer de mi sangre.</l>
+            <l>Esto supuesto, don Mendo,</l>
+            <l>conoceréis cuán de balde</l>
+            <l>vuestro temor os provoca,</l>
+            <l>cuando don Juan es mi amante.</l>
+            <l>De esto no os quedará duda,</l>
+            <l>porque fuera error notable</l>
+            <l>presumir que una mujer</l>
+            <l>de mi obligación os llame</l>
+            <l>y, compasiva del riesgo</l>
+            <l>que ve en reñir dos galanes,</l>
+            <l>quiera fingirse un desdoro</l>
+            <l>para excusarlos un lance.</l>
+            <l>La fineza que don Juan</l>
+            <l>por mí en su silencio añade,</l>
+            <l>se la pago en publicar</l>
+            <l>lo que en él fuera desaire.</l>
+            <l>Y a vos os pido, en albricias</l>
+            <l>de que sé que Leonor hace</l>
+            <l>tanta estimación de vos</l>
+            <l>como es justo que ella os pague,</l>
+            <l>que, cesando esto, no sólo</l>
+            <l>de este caso no se hable,</l>
+            <l>mas, quedando en vuestro oído,</l>
+            <l>a la memoria no pase.</l>
+            <l>Y vos, don Juan, pues ya veis</l>
+            <l>el empeño de mi padre</l>
+            <l>y que vuestra petición</l>
+            <l>no se previno a ser antes,</l>
+            <l>olvidad vuestro cariño,</l>
+            <l>que en los hombres es muy fácil.</l>
+            <l>Digo fácil, ¡ay, de mí!</l>
+            <l>Es pena más tolerable,</l>
+            <l>porque ellos pueden tener</l>
+            <l>sin culpa las variedades.</l>
+            <l>Y si esto os cuesta dolor,</l>
+            <l>que lo imposible lo aplaque,</l>
+            <l>o el retiro le mitigue,</l>
+            <l>o el sufrimiento le sane</l>
+            <l>o, para que se la lleve,</l>
+            <l>dad vuestra esperanza al aire,</l>
+            <l>que, a ser el de mis suspiros,</l>
+            <l>yo sé que fuera bastante,</l>
+            <l>porque yo, siendo forzoso,</l>
+            <l>para el plazo desta tarde</l>
+            <l>he dispuesto mi obediencia,</l>
+            <l>como debo. Dios os guarde,</l>
+            <l>que yo, dejándoos amigos,</l>
+            <l>como es deuda en pechos tales,</l>
+            <l>voy contenta de haber sido</l>
+            <l>el iris de vuestras paces.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Oíd, señora, escuchad,</l>
+            <l>que en un alivio tan grande</l>
+            <l>como el que de vuestro aviso</l>
+            <l>a mis esperanzas nace,</l>
+            <l>os debo yo, agradecido,</l>
+            <l>fineza que las iguale.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Vos fineza a mí? ¿En qué modo?</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>En hacer que vuestro padre,</l>
+            <l>sea o no contra mi primo,</l>
+            <l>a vos con don Juan os case.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Esa fineza es por él,</l>
+            <l>si él la solicita amante,</l>
+            <l>que para mí no es lisonja.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Señora, ¿pues tanto vale</l>
+            <l>el crédito de un engaño,</l>
+            <l>que por él así me trates?</l>
+            <l>Y agora, que estando ya</l>
+            <l>don Mendo de nuestra parte,</l>
+            <l>no importa que esto más sepa.</l>
+            <l>Seguí a don Diego, y él sabe</l>
+            <l>que confesó en su presencia</l>
+            <l>que sólo porque tu padre</l>
+            <l>no viese aquella mujer...</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>No vais, don Juan, adelante,</l>
+            <l>que aqueso es satisfacción</l>
+            <l>y aquí no os la pide nadie.</l>
+            <stage>(Aparte.)</stage>
+            <l>(¡Oh, lo que miente el recato!)</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Señora, si deso nace</l>
+            <l>algún descontento vuestro,</l>
+            <l>yo, por hallarme delante,</l>
+            <l>soy testigo que don Juan</l>
+            <l>no la conoce ni sabe</l>
+            <l>quién es, y que él lo fingió.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Eso, don Mendo, es tratarme</l>
+            <l>con más llaneza que es justo.</l>
+            <l>Don Juan ni mujer ni nadie</l>
+            <l>me ha dado desabrimiento,</l>
+            <l>pues, ¿por qué me satisface?</l>
+            <stage>(Aparte.)</stage>
+            <l>(¡Quiera amor que sea verdad,</l>
+            <l>que, aunque le pierda, es süave!)</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Si tu enojo lo publica,</l>
+            <l>¿qué importa que lo recates?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Por no oír eso me voy.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Señora, escucha un instante.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="I">¿Qué me queréis?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="F">Esto sólo:</l>
+            <l>si don Mendo malograse</l>
+            <l>la dicha que ha prometido,</l>
+            <l>¿será tu amor de mi parte?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Yo amor? No sé qué es amor.</l>
+            <l>Después de que yo me case</l>
+            <l>sabré de eso, que agora ignoro.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Aunque en mi pena lo calles,</l>
+            <l>lo permitirá tu agrado.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Mirad que viene mi padre.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l>Retirémonos, don Juan.</l>
+          </sp>
+          <stage>(Vase.)</stage>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Ya yo os sigo, id vos delante.</l>
+            <l>Señora, no me permitas</l>
+            <l>que con tal dolor me aparte</l>
+            <l part="I">de tu presencia.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Don Juan,</l>
+            <l>¿qué me quieres? ¿Ya no sabes</l>
+            <l>los pesares que me cuestas?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Pues, ¿ya no ves de qué nacen?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Qué importa el verlo al perderte?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>¿Eso no puede enmendarse?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¡Pluguiera al cielo pudiese!</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">¿Qué dices?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Que no te pares.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">Eso es desvío.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Es temor.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">¡Qué pena!</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Que entra mi padre.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">¡Mal haya el peligro!</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Amén.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l part="I">Quédate a Dios.</l>
+          </sp>
+          <stage>(Vase.)</stage>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Él te guarde.</l>
+          </sp>
+          <stage>(Sale BEATRIZ.)</stage>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l part="I">¿Señora?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">Beatriz, ¿qué es eso?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Con el viejo, en este instante,</l>
+            <l>si no corro doy de hocicos.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Dónde has estado esta tarde?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Señora, en un gran empeño.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="I">¿Qué ha sido?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l part="F">Fui a echar los naipes</l>
+            <l>porque don Diego te deje,</l>
+            <l>y, según las cartas salen,</l>
+            <l>o mentirá el rey de bastos</l>
+            <l>o no ha de querer casarse.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Crédito das a esas cosas?</l>
+            <l>¿No ves que son disparates?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Pues, ¿un rey ha de mentir?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Deja esas vulgaridades.</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Tú verás en lo que para.</l>
+            <l>Mas dejando esto a una parte,</l>
+            <l>¿hasta cuándo ha de durar</l>
+            <l>el estar yo, por mis paces,</l>
+            <l>de embozada en el retiro,</l>
+            <l>que es ya cosa intolerable?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>A mi padre hablaré agora.</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Pues él y Mosquito salen,</l>
+            <l>y más que vienen hablando</l>
+            <l>en el caso de los naipes.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¿Qué dices? Pues, ¿eso es cierto?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Tú verás lo que ello pare,</l>
+            <l>y si quieres entendello,</l>
+            <l>retírate aquí un instante.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Harelo, aunque es desatino,</l>
+            <l>por ver en ello a mi padre.</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>(Salen DON TELLO y MOSQUITO.)</stage>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l rend="indent">Tú has de saber de este caso</l>
+            <l>todo lo que en ello hubiere.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Señor, cuanto yo supiere</l>
+            <l>lo diré más que de paso.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l rend="indent">Pues, yo te hallé en el zaguán,</l>
+            <l>¿quién era aquella mujer?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>La condesa era, a mi ver.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I">¿Quién?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">La prima de don Juan.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I" rend="indent">¿Qué dices?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">Como ahora es día,</l>
+            <l>la vi ella por ella expresa.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I">¿La condesa?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">La condesa</l>
+            <l>condada, su señoría.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I" rend="indent">¡Válgame Dios!</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">Y a mí y todo.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>De gran empeño salí</l>
+            <l>estando don Juan allí.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>¿Y yo no andaba en el lodo?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A DOÑA INÉS.]</stage>
+            <l>(Verás lo que se alborota.)</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(Pues, ¿qué semejanza tiene</l>
+            <l>con los naipes que previene</l>
+            <l part="I">la condesa?)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A DOÑA INÉS.]</stage>
+            <l>(Ésa es la sota.)</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(¡Cielos! Yo mi desengaño</l>
+            <l>agradezco haber sabido.)</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Mosquito, estoy aturdido</l>
+            <l>de un suceso tan extraño.</l>
+            <l rend="indent">Pues, ¿ella buscole a él</l>
+            <l>o cómo allí llegó a estar?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>(Aparte.)</stage>
+            <l>(¡Cielos! ¿Cómo he de escapar</l>
+            <l>de aqueste viejo crüel</l>
+            <l rend="indent">que a dudas me ha de moler</l>
+            <l>y se aventura el enredo?</l>
+            <l>Mas sólo librarme puedo</l>
+            <l>no dejándome entender.)</l>
+            <l rend="indent">Yo, señor, al conocella</l>
+            <l>la vi que al zaguán entró,</l>
+            <l>y un pobre entonces llegó</l>
+            <l>que no dio limosna ella.</l>
+            <l rend="indent">El pobre pasó adelante,</l>
+            <l>don Diego vino tras él,</l>
+            <l>y repitiendo el papel</l>
+            <l>vino el pobre vergonzante.</l>
+            <l rend="indent">Traía un vestido escaso</l>
+            <l>de color, y Dios me acuerde</l>
+            <l>que no era tal, sino verde.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Pues, ¿el vestido es del caso?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l rend="indent">Habiendo el pobre salido,</l>
+            <l>vino la condesa luego,</l>
+            <l>y, cuando vino don Diego,</l>
+            <l>vino porque había venido.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I" rend="indent">¿Quién había venido?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">Él.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Luego ¿ella le fue a buscar?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>No, señor, porque al entrar</l>
+            <l>ella entraba con aquél,</l>
+            <l rend="indent">y el pobre, que entraba cuando</l>
+            <l>entraba él, no llegó.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Pues, ¿quién era aquél que entró?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Eso es lo que voy contando.</l>
+            <l rend="indent">Entró ella, y cuando entraba</l>
+            <l>entró el pobre, y fue don Diego,</l>
+            <l>y como entró con sosiego,</l>
+            <l>después de entrado allí estaba.</l>
+            <l rend="indent">Y de esto se quedó loco,</l>
+            <l>porque entraba muy esquivo.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¡No lo entiendo, por Dios vivo!</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Pues eso, ni yo tampoco.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(Beatriz, ¿qué es lo que está hablando</l>
+            <l part="I">Mosquito?)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A DOÑA INÉS.]</stage>
+            <l>(Los naipes son.)</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(Pues, ¿qué es esta confusión?)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A DOÑA INÉS.]</stage>
+            <l>(¿No ves que está barajando?)</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l rend="indent">¿Quién a quién vino a buscar?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Luego, ¿no lo has entendido?</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>No, ni explicarte has sabido.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Pues vuélvotelo a explicar.</l>
+            <l rend="indent">Él buscó a quien le buscaba,</l>
+            <l>porque ella buscando vino,</l>
+            <l>y, buscando de camino,</l>
+            <l>él buscó lo que allí estaba,</l>
+            <l rend="indent">y el pobre que los buscó</l>
+            <l>no buscó duelos ajenos.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Agora lo entiendo menos.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Pues, ¿qué culpa tengo yo?</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l rend="indent">Tú has de apurar mis enojos.</l>
+            <l part="I">¿Qué dices?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">¿Hay tal rigor?</l>
+            <l>¡Viven los cielos, señor,</l>
+            <l>que lo vi con estos ojos!</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I" rend="indent">¿Qué es lo que viste?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">Esta historia.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¿Qué historia? Que en tu torpeza</l>
+            <l>no tiene pies ni cabeza.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Pues no será pepitoria.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l rend="indent">¿Sabes tú si él della es dueño</l>
+            <l part="I">o tiene empeño?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">¿Hay tal? Como</l>
+            <l>Yo no soy su mayordomo,</l>
+            <l>¡que sé yo si tiene empeño!</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l rend="indent">¡Anda, vete, mentecato,</l>
+            <l part="I">que eres un simple!</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Eso quiero.)</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¿Para qué apuro yo dudas</l>
+            <l>donde me avisa un ejemplo?</l>
+            <l>No hay honra puesta en mujer</l>
+            <l>segura de aquestos riesgos.</l>
+            <l>Y hoy, pues me le da este acaso,</l>
+            <l>lograr el aviso quiero</l>
+            <l>casando luego a mis hijas.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(Beatriz, aunque yo no entiendo</l>
+            <l>a Mosquito, el desengaño</l>
+            <l>he logrado de mis celos,</l>
+            <l>y en albricias salgo a hablar</l>
+            <l part="I">por ti a mi padre.)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A DOÑA INÉS.]</stage>
+            <l>(Eso espero.)</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="I">Padre y señor.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="F">Inés mía.</l>
+            <l part="I">¿Quién viene contigo?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l part="F">El ruego</l>
+            <l>de Beatriz me ha condolido.</l>
+            <l>Por ella a pedirte vengo</l>
+            <l>que vuelvas a recibilla.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Si es tu gusto, ¿cómo puedo</l>
+            <l>negártelo? Quede en casa.</l>
+          </sp>
+          <stage>(Sale DON DIEGO al paño.)</stage>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>A decir vengo resuelto</l>
+            <l>a mi tío que disponga</l>
+            <l>de mi prima, pues yo tengo</l>
+            <l>mejor boda en la condesa.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Ya se logró tu deseo,</l>
+            <l>agradécelo a mi padre.</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Los pies mil veces te beso.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Ya tú quedas recibida,</l>
+            <l>y yo dello muy contento.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(¿Qué es lo que miro? ¡Ay, Jesús,</l>
+            <l>que hemos dado con los huevos</l>
+            <l>en la ceniza, Beatriz!)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A MOSQUITO.]</stage>
+            <l>(¿Qué es lo que dices?)</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(Don Diego</l>
+            <l>está viendo esta función.)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A MOSQUITO.]</stage>
+            <l>(Saliose todo el puchero.)</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Inés, ven a prevenirte,</l>
+            <l>que ya todo está dispuesto</l>
+            <l>y os habéis de desposar</l>
+            <l>luego que venga don Diego.</l>
+          </sp>
+          <stage>(Vase.)</stage>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>¡Ay de mí, Beatriz! ¿Qué dices?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Vete, señora, allá dentro,</l>
+            <l>que estoy en un gran conflito</l>
+            <l>y estriba en él tu remedio.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Sin vida voy a esperarte.</l>
+          </sp>
+          <stage>(Vase.)</stage>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>¡Villano, no hagas extremos</l>
+            <l>viendo mi resolución,</l>
+            <l>que con amor no hay respetos!</l>
+            <l>Yo he de ser de su traición</l>
+            <l>testigo estando aquí dentro,</l>
+            <l>y aquí he de ver si a mis ojos</l>
+            <l>se atreve el falso a ofendellos.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(¡Jesús, qué bien la ha enhebrado!)</l>
+            <l>Señora, ¿pues tú haces eso?</l>
+            <l>¿Una mujer de tus prendas</l>
+            <l>se finge humilde, en desprecio</l>
+            <l>de su honor, y se acomoda</l>
+            <l>por crïada de don Tello</l>
+            <l>que puede ser tu lacayo?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>El amor dora los yerros.</l>
+            <l>Yo he de ver con esta industria</l>
+            <l>si se casa o no don Diego.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[Al paño.]</stage>
+            <l>(Señores, ¿qué es lo que escucho?</l>
+            <l>Mil cruces me estoy haciendo.</l>
+            <l>¡Y dirán que no me alabe!</l>
+            <l>Un testimonio de aquesto</l>
+            <l>tengo de enviar a Burgos.)</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>¿Y qué ha de decir don Diego</l>
+            <l part="I">si esto ve?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l part="F">¿Qué ha de decir?</l>
+            <l>El alma, ¡viven los cielos!,</l>
+            <l>le he de sacar si se casa.</l>
+            <l>Déjame ya, o mi despecho</l>
+            <l>dará voces como loca.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Señora, oíd, deteneos.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>¡Ay, señor, pues has venido,</l>
+            <l>mira qué locura ha hecho!</l>
+            <l>¡Témplala, que está hecha un tigre!</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Y un basilisco, un veneno.</l>
+            <l>Aquí vengo a ver, traidor,</l>
+            <l>si se hace hoy el casamiento.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>¿Qué casamiento? Pues yo,</l>
+            <l>¿no sabéis ya que soy vuestro?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>No fío de eso, tirano.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="I">Pues, ¿de qué fiáis?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l part="F">De mi incendio,</l>
+            <l>que ha de abrasar esta casa</l>
+            <l>si aquí ofendida me veo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Señores, ¿esto es encanto?</l>
+            <l>¿Mi talle es pacto secreto?)</l>
+            <l>Señora, ¿pues no advertís</l>
+            <l>que yo permitir no puedo</l>
+            <l>esto siendo vuestro esposo?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>No hay que tratar, yo he de verlo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="I">¿Qué habéis de ver?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l part="F">Si esta noche</l>
+            <l part="I">te casas.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">No temáis eso.</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>No puede un amor que es fino...</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="I">¿Pues el lustre?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l part="F">Todo es menos.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="I">¿Y el decoro?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l part="F">No hay decoro.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="I">¡Por Dios, que os volváis!</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l part="F">No quiero.</l>
+          </sp>
+          <stage>(Sale DON TELLO.)</stage>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¡Hola! ¿Qué voces son éstas?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(Señor, por su honor te ruego</l>
+            <l>que disimules agora.)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Señor, el señor don Diego</l>
+            <l>de mi señora está hablando.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¿Qué habláis, sobrino? ¿Qué es esto?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Señor, me dice que diga...</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¿Qué has de decir tú? ¡Esto es bueno!</l>
+            <l>¿Apenas te han recibido</l>
+            <l>y empiezas ya a hacer enredos?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(¿Y he de sufrir yo que trate</l>
+            <l>este vejezuelo clueco</l>
+            <l>a mi mujer deste modo?)</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(¡Disimula, por San Pedro!)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Yo, señor, no enredo nada.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¡Éntrate, loca, allá dentro!</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Tú lo eres, y tu alma,</l>
+            <l>y mientes como mal viejo.)</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(Sufre, señor, que te pierdes.)</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I">¿No te vas?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l part="F">Ya te obedezco.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="I">¡Vive Dios!...</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(¡Calla crüel!)</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(¿Qué dices?)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(Que ahora veremos</l>
+            <l part="I">si te casas.)</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(¿Eso dudas?)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(A oírlo voy.)</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(Yo me huelgo.)</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <stage>[A DON DIEGO.]</stage>
+            <l>(Pues aquesta es la ocasión.)</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[A BEATRIZ.]</stage>
+            <l>(Aquí lo verás.)</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="F">¿Qué es eso?</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Hacer lo que me has mandado.</l>
+          </sp>
+          <stage>(Vase.)</stage>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Llama a tus señoras luego.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Más señora es ella que ellas</l>
+            <l>lo que va de mí a un cochero.)</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Sobrino, con vuestras cosas</l>
+            <l>estoy en tanto desvelo</l>
+            <l>que hasta veros desposados</l>
+            <l>yo no he de tener sosiego.</l>
+            <l>Todo está ya prevenido</l>
+            <l>y sólo a vos os espero</l>
+            <l>por salir deste cuidado.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>¿De tanto gusto es ser suegro</l>
+            <l>que a serlo os dais tanta priesa?</l>
+            <l>¿No es mejor, pues estáis viejo,</l>
+            <l>que lo dilatéis un poco</l>
+            <l>y os dure el oficio menos?</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¿Qué es dilatarlo o por qué?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Por unos días, que aquesto</l>
+            <l>no ha de ser cochite hervite,</l>
+            <l>que una boda no es buñuelo.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I">¿Qué días?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">Cuatro o seis años,</l>
+            <l>que ello se hará andando el tiempo.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¿Qué llamáis cuatro o seis años?</l>
+            <l>¡Ni una hora! ¡Ni un momento!</l>
+            <l>¡Luego os habéis de casar!</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Pues yo casarme no puedo.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Acabose, esto dio lumbre.)</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>¿Qué decís, que no os entiendo?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Que no me puedo casar.</l>
+            <l part="I">¿Lo entendéis agora?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Menos.)</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I">¿Por qué?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">Porque soy casado.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Y yo soy testigo dello.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I">¿Vos casado?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">In facie Ecclesiae.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I">Pues, ¿con quién?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">Eso no puedo</l>
+            <l>decir, porque es un amigo.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Pues, villano, ¡vive el cielo!,</l>
+            <l>que en ti he de tomar venganza</l>
+            <l>de tan osado desprecio.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>¡Ay, señores, que se matan!</l>
+          </sp>
+        </div>
+        <div type="configuration">
+          <stage>(Salen por una parte DOÑA INÉS y DOÑA LEONOR, por otra DON JUAN y DON MENDO.)</stage>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>¿Qué es esto, señor don Tello?</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <l part="I">Tío, ¿qué es esto?</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <stage>[A DOÑA LEONOR.]</stage>
+            <l>(¡Ay, Leonor,</l>
+            <l>que mi muerte estoy temiendo!)</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l>Padre, ¿qué enojo os irrita?</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Un agravio de don Diego,</l>
+            <l>que dice que está casado</l>
+            <l>cuando yo darle prevengo</l>
+            <l>a mi hija por esposa.</l>
+          </sp>
+          <sp who="#MENDO">
+            <speaker>DON MENDO</speaker>
+            <stage>[Aparte.]</stage>
+            <l>(Esto es que tomó el consejo</l>
+            <l>de doña Inés y lo excusa</l>
+            <l>valiéndose deste medio,</l>
+            <l>mas yo en favor de don Juan</l>
+            <l>he de enmendar el empeño.)</l>
+            <l>Tío, aunque don Diego ha dicho</l>
+            <l>que está casado, no es cierto.</l>
+            <l>Él, después que vino, supo</l>
+            <l>que don Juan tenía intento</l>
+            <l>de pediros a mi prima,</l>
+            <l>y él ha sido tan discreto</l>
+            <l>que lo calló enamorado</l>
+            <l>por veros en otro empeño.</l>
+            <l>Don Diego por él lo deja.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>No lo dejo tal por eso,</l>
+            <l>sino porque estoy casado,</l>
+            <l>digo otra vez, y no puedo.</l>
+            <l>¿Quiere usted que me encorocen?</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Hagaislo o no por aquello,</l>
+            <l>don Juan, ¿es esto verdad?</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Yo, señor, si la merezco,</l>
+            <l>no aspiro a mayor ventura</l>
+            <l>que la de ser hijo vuestro.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Yo me honro mucho con vos,</l>
+            <l>y el castigo más severo</l>
+            <l>deste necio es que la pierda.</l>
+            <l>Dadle a Inés la mano luego.</l>
+          </sp>
+          <sp who="#JUAN">
+            <speaker>DON JUAN</speaker>
+            <l>Con el alma y con mil vidas.</l>
+          </sp>
+          <sp who="#INÉS">
+            <speaker>DOÑA INÉS</speaker>
+            <l>Con otras tantas le aceto.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Vos, Mendo, dadla a Leonor.</l>
+          </sp>
+          <sp who="#LEONOR">
+            <speaker>DOÑA LEONOR</speaker>
+            <l>Con gozo se la prevengo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Pues ahora verán mi boda,</l>
+            <l>supuesto que ésas se han hecho.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Antes se ha de ver la mía.</l>
+            <l>Señor, yo hago lo que veo.</l>
+            <l>Beatriz se casa conmigo.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l>Yo darla el dote prometo.</l>
+            <l>Dila que salga acá fuera.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Señor, tened a don Diego,</l>
+            <l>porque no me descalabre,</l>
+            <l>que aquí se acaba el enredo.</l>
+            <l>¡Ah, Beatriz! Dame esa mano.</l>
+          </sp>
+          <stage>(Sale BEATRIZ.)</stage>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Yo, aunque indigna, te la ofrezco.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>¡Ah, pícaro! ¿A mi mujer</l>
+            <l>tienes tal atrevimiento?</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="I">¿Qué mujer?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">Ésta que veis</l>
+            <l part="I">es mi mujer.</l>
+          </sp>
+          <sp who="#TELLO">
+            <speaker>DON TELLO</speaker>
+            <l part="F">¡Bien, por cierto!</l>
+            <l>¿Y por aquesta crïada</l>
+            <l part="I">dejáis a mi hija?</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="F">¡Esto es bueno!</l>
+            <l>¿Qué crïada? Que es condesa</l>
+            <l>y se disfrazó de celos.</l>
+            <l>Descubríos ya, señora.</l>
+          </sp>
+          <sp who="#BEATRIZ">
+            <speaker>BEATRIZ</speaker>
+            <l>Yo descubriros no puedo</l>
+            <l>más de que soy Beatricilla</l>
+            <l>y vos el lindo don Diego.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l part="I">Pues, ¿cómo es esto?</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l part="F">Mamola.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>¡Villano! ¡Viven los cielos...!</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Aquí no hay a qué apelar,</l>
+            <l>que no lo sufriera el pueblo.</l>
+          </sp>
+          <sp who="#DIEGO">
+            <speaker>DON DIEGO</speaker>
+            <l>Pídase si quedo mal.</l>
+          </sp>
+          <sp who="#MOSQUITO">
+            <speaker>MOSQUITO</speaker>
+            <l>Y castigado este necio</l>
+            <l>a gusto de los oyentes,</l>
+            <l>aquí, con aplausos vuestros,</l>
+            <l>dichosamente el poeta</l>
+            <l>da fin al «Lindo don Diego».</l>
+          </sp>
+        </div>
+        <trailer>FIN</trailer>
+      </div>
+    </body>
+    <back/>
+  </text>
+</TEI>

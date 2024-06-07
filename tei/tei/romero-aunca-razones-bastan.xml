@@ -1,0 +1,3501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="span######" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Aunque las razones basten, nunca la Justicia sobra</title>
+        <title type="sub"/>
+        <author>
+          <persName>
+            <forename>Ferdinando</forename>
+            <surname>Romero</surname>
+          </persName>
+          <idno type="wikidata">Q115010598</idno>
+          <idno type="pnd"/>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Google Books</name>
+          <idno type="URL">https://books.google.de/books?id=oLZXAAAAcAAJ</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Romero, Fernando: Aunque las razones basten, nunca la Justicia sobra. Madrid: Diego Martinez Abad, 1701.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="europa" sex="UNKNOWN">
+            <persName>Europa</persName>
+          </person>
+          <person xml:id="rey" sex="MALE">
+            <persName>Rey</persName>
+          </person>
+          <person xml:id="uno" sex="UNKNOWN">
+            <persName>Uno</persName>
+          </person>
+          <person xml:id="aplauso" sex="UNKNOWN">
+            <persName>Aplauso</persName>
+          </person>
+          <person xml:id="nimpha_1" sex="FEMALE">
+            <persName>Nimpha I</persName>
+          </person>
+          <person xml:id="nimpha_2" sex="FEMALE">
+            <persName>Nimpha II</persName>
+          </person>
+          <person xml:id="asia" sex="UNKNOWN">
+            <persName>Asia</persName>
+          </person>
+          <person xml:id="minerva" sex="FEMALE">
+            <persName>Minerva</persName>
+          </person>
+          <person xml:id="otro_1" sex="UNKNOWN">
+            <persName>Otro I</persName>
+          </person>
+          <person xml:id="otro_2" sex="UNKNOWN">
+            <persName>Otro II</persName>
+          </person>          
+          <person xml:id="embuste" sex="UNKNOWN">
+            <persName>Embuste</persName>
+          </person>
+          <person xml:id="grande_2" sex="MALE">
+            <persName>Grande II</persName>
+          </person>
+          <person xml:id="grande_1" sex="MALE">
+            <persName>Grande I</persName>
+          </person>
+          <person xml:id="africa" sex="UNKNOWN">
+            <persName>Africa</persName>
+          </person>
+          <person xml:id="marte" sex="MALE">
+            <persName>Marte</persName>
+          </person>
+          <person xml:id="firmeza" sex="UNKNOWN">
+            <persName>Firmeza</persName>
+          </person>
+          <person xml:id="amor" sex="UNKNOWN">
+            <persName>Amor</persName>
+          </person>
+          <person xml:id="iusticia" sex="UNKNOWN">
+            <persName>Iusticia</persName>
+          </person>
+          <personGrp xml:id="musicos" sex="UNKNOWN">
+            <persName>Musicos</persName>
+          </personGrp>
+          <person xml:id="fortuna" sex="UNKNOWN">
+            <persName>Fortuna</persName>
+          </person>
+          <person xml:id="america" sex="UNKNOWN">
+            <persName>America</persName>
+          </person>
+          <person xml:id="fama" sex="UNKNOWN">
+            <persName>Fama</persName>
+          </person>
+          <person xml:id="dentro_1" sex="UNKNOWN">
+            <persName>Dentro I</persName>
+          </person>
+          <person xml:id="dentro_2" sex="UNKNOWN">
+            <persName>Dentro II</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-11-02">(LG) first encoding and formatting.</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1701">
+        <desc/>
+      </event>
+      <event type="premiere">
+        <desc/>
+      </event>
+      <event type="written">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <castList>
+        <head>Persone que hablan en ella.</head>
+        <castItem>El Rey.</castItem>
+        <castItem>El Aplauso.</castItem>
+        <castItem>El Amor.</castItem>
+        <castItem>Marte.</castItem>
+        <castItem>La Fama.</castItem>
+        <castItem>Minerva.</castItem>
+        <castItem>La Fortuna.</castItem>
+        <castItem>La Firmeza.</castItem>
+        <castItem>Africa.</castItem>
+        <castItem>Assia.</castItem>
+        <castItem>America.</castItem>
+        <castItem>Europa.</castItem>
+        <castItem>La Iusticia.</castItem>
+        <castItem>Grandes de España.</castItem>
+        <castItem>Nimphas.</castItem>
+        <castItem>Embuste gracioso.</castItem>
+        <castItem>Criados.</castItem>
+        <castItem>Músicos.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <head>JORNADA PRIMERA.</head>
+        <stage>Correse una cortina, y fe descubre durmiendo el Aplauso à el tiempo mismo que aparece en lo alto la Fama sobre un Aguila, con un clarin en la mano, y traversando el Teatro canta los versos siguientes.</stage>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Despierta, cesse ya el ocio,</l>
+          <l>mira Joven, que te espera</l>
+          <l>el mas luzido concurso,</l>
+          <l>la prevención mas discreta;</l>
+          <l>porque de tu labio</l>
+          <l>la dulce cadencia</l>
+          <l>ensalce, publique,</l>
+          <l>la gloria, la fiesta,</l>
+          <l>que nobles afectos,</l>
+          <l>en discreta idèa</l>
+          <l>dedican, tributan,</l>
+          <l>previenen, aprestan</l>
+          <l>a el mayor prodigio,</l>
+          <l>que el Orbe venera</l>
+          <l>Emporeo de luzes,</l>
+          <l>de rayos afrenta:</l>
+          <l>despierta, despierta,</l>
+          <l>que à ingeniosos desvelos</l>
+          <l>no es justo que duermas.</l>
+        </sp>
+        <stage>Ocultase à el tiempo mismo que despierta el Aplauso, se vantandose acelerado.</stage>
+        <sp who="#aplauso">
+          <speaker>Apla.</speaker>
+          <l>Valgame el Cielo! que escucho</l>
+          <l>del ayre ne la vaga Sfera</l>
+          <l>no se oia acorde acento,</l>
+          <l>cuya consonancia diestra</l>
+          <l>se aprovechò del silencio</l>
+          <l>para herir con mas violencia,</l>
+          <l>cuyos ecos à mi oido</l>
+          <l>iban dirigiendo el tema?</l>
+          <l>Dulce embarazo del ayre,</l>
+          <l>que con suave cadencia,</l>
+          <l>quanto animoso me incitas,</l>
+          <l>tanto dudoso me dexa;</l>
+          <l>qué pretendes, que á el Aplauso</l>
+          <l>ossadamente despiertas?</l>
+          <l>Mas siguiendo iré los ecos,</l>
+          <l>que en la diafana Esfera,</l>
+          <l>vestigios son de un acento,</l>
+          <l>que me excita, que me alienta;</l>
+          <l>pues fu voz repite</l>
+          <l>en acorde tema</l>
+          <l>con métrica dulçura.</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Dentro la Fama cantando</speaker>
+          <l>Despierta despierta etc.</l>
+          <stage>Vase.</stage>
+        </sp>
+        <stage>Sale el Rey, Grandes de España, y acompañamiento de criadas, y canta la Música.</stage>
+        <sp who="#musicos">
+          <speaker>Música.</speaker>
+          <l>De un exercito de rayos</l>
+          <l>huyendo se và el horror,</l>
+          <l>que oy à conquistar las sombras</l>
+          <l>armado ha salido el Sol.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Repetid essa dulçura,</l>
+          <l>que es suave suspension</l>
+          <l>del oído; porque son,</l>
+          <l>si el cuydado las apura,</l>
+          <l>lisonjas de muy segura</l>
+          <l>condición; si en sus ensayos</l>
+          <l>desmiente el ardor desmayos,</l>
+          <l>que es bien se mire el cuydado</l>
+          <l>à las luzes avivado.</l>
+          <stage>Con la Música.</stage>
+          <l>de un exercito de rayos.</l>
+        </sp>
+        <sp who="#grande_1">
+          <speaker>Grand. 1.</speaker>
+          <l>Alguna evasion si quiera</l>
+          <l>ha tener el anhelo,</l>
+          <l>que de un continuo desvelo</l>
+          <l>es nociva la tarea.</l>
+          <l>En vuestro alivio se emplea</l>
+          <l>tanta lealtad, tanto amor,</l>
+          <l>que del preciso temor</l>
+          <l>del afan con que os advierte,</l>
+          <l>solo el rato que os divierte</l>
+          <stage>Con la Música.</stage>
+          <l>Huyendo se và el horror.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Amigos, de esta lealtad</l>
+          <l>siempre mi agradecimiento</l>
+          <l>serà paga; pero atentos</l>
+          <l>en el metro reparad,</l>
+          <l>y vereis que su verdad</l>
+          <l>con mas cuydado me assombra,</l>
+          <l>quando el empeño que nombra,</l>
+          <l>es que acuda à toda prisa</l>
+          <l>(porque nunca es mas precisa</l>
+          <stage>Con la Música.</stage>
+          <l>que oy) à conquistar las sombras.</l>
+        </sp>
+        <sp who="#grande_2">
+          <speaker>Grande 2.</speaker>
+          <l>Qué divino entendimiento!</l>
+          <l>Señor, sin tanta fatiga</l>
+          <l>serà bien que se consiga</l>
+          <l>el triunfo de tu ardimiento,</l>
+          <l>pues no ay duda, que un aliento</l>
+          <l>solo de tu invicto ardor</l>
+          <l>serà sobrado arrebol,</l>
+          <l>que haga de las sombras ruinas;</l>
+          <l>pues en tus luzes divinas</l>
+          <stage>Con la Musica</stage>
+          <l>armado ha salido el Sol.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Solo un breve rato quiero</l>
+          <l>divertir la ociosidad</l>
+          <l>leyendo, pues si es verdad</l>
+          <l>que es amigo verdadero</l>
+          <l>el libro, necio es el hombre,</l>
+          <l>que pudiéndole ganar,</l>
+          <l>le pierde; y es de llorar</l>
+          <l>esta desdicha en el Orbe,</l>
+          <l>y que pocos se han de hallar</l>
+          <l>de esta calidad, pues todo</l>
+          <l>aspiran por varios modos</l>
+          <l>à algún fin particular.</l>
+          <l>Que se halla reparad,</l>
+          <l>que à algún logro se encamina</l>
+          <l>la intimidad, que es mas fina</l>
+          <l>de la mas fina amistad.</l>
+          <l>Prudente Tito dezia,</l>
+          <l>que aquel dia no contava,</l>
+          <l>que un amigo no ganava,</l>
+          <l>con los demas que vivia.</l>
+          <l>Si un amigo tanto vale,</l>
+          <l>y cor tan poco se adquiere,</l>
+          <l>necio serà el que no quiere</l>
+          <l>tan à poca cosa hallarse.</l>
+          <l>Si el discurso se comprara,</l>
+          <l>otro prudente dezia,</l>
+          <l>quien mas menester lo avria,</l>
+          <l>fuera el que menos gastàra.</l>
+          <l>Quien ella razón apoya</l>
+          <l>no este empleo perderà;</l>
+          <l>pero nunca adquirirà</l>
+          <l>el necio tan alta joya.</l>
+        </sp>
+        <sp who="#grande_1">
+          <speaker>Grand. 1.</speaker>
+          <l>Señor, oy se han publicado</l>
+          <l>las fiestas, con que leal</l>
+          <l>el afecto, en gloria tal,</l>
+          <l>dedica al verte aclamado.</l>
+          <l>Sirva à tu Deidad de culto</l>
+          <l>lo fino de su alborozo,</l>
+          <l>pues de tal feudo su gozo</l>
+          <l>solo podrá ser tributo.</l>
+          <l>Con obsequios diferentes</l>
+          <l>se aprestan a festejaros,</l>
+          <l>que del logro de agradaros</l>
+          <l>tienen las dichas pendientes.</l>
+          <l>Bien se advierte su deseo</l>
+          <l>entre su felicidad,</l>
+          <l>pues de tanta variedad</l>
+          <l>hazen tan vistoso empleo.</l>
+          <l>Saraos, mascas, toros,</l>
+          <l>grande variedad de juegos,</l>
+          <l>comedias, musicas, juegos,</l>
+          <l>obstentando por mil modos</l>
+          <l>de su fineza el primor;</l>
+          <l>pero sera singular, señor,</l>
+          <l>si llega à lograr</l>
+          <l>en la Academia mayor,</l>
+          <l>que el Ingenio ha celebrado</l>
+          <l>los aplausos que previenen</l>
+          <l>à tu grandeza, pues tienen</l>
+          <l>por assumpto publicado,</l>
+          <l>qual, señor, de tus primores</l>
+          <l>serà el que mas acredita</l>
+          <l>tu immensidad infinita:</l>
+          <l>qual, pues, entre las mayores</l>
+          <l>luzes, que en vos se veneran</l>
+          <l>se obstenta mas refulgente,</l>
+          <l>mas radiante, mas luziente,</l>
+          <l>y le le advierte à qualquiera</l>
+          <l>que esta empressa à investigar</l>
+          <l>se aperciba en confusiones,</l>
+          <l>mil discretas condiciones,</l>
+          <l>que tiene alli de observar.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Nunca de tanta lealtad</l>
+          <l>que, me prometì, os confiesso</l>
+          <l>menor gloria que interesso.</l>
+          <l>Un breve rato dexad,</l>
+          <l>que en el empleo mas noble,</l>
+          <l>que ocupa el entendimiento,</l>
+          <l>divertido el pensamiento</l>
+          <l>leyendo su dicha logre.</l>
+          <l>Libros traed, y avisad</l>
+          <l>quando del despacho es horá;</l>
+          <l>que en su ocupación</l>
+          <l>mejora mi empleo.</l>
+        </sp>
+        <sp who="#grande_1 #grande_2">
+          <speaker>Grandes.</speaker>
+          <l>Tu Magestad</l>
+          <l>guarde el Cielo eternamente.</l>
+          <stage>Vans.</stage>
+        </sp>
+        <stage>Ponen libros sobre un bufete, sientase el Rey, y toma uno en mano.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Empressas, su descripcion</l>
+          <l>dize Politicas, son</l>
+          <l>muy utiles: qué prudente</l>
+          <l>serà el Principe, què culto,</l>
+          <l>que à su doctrina arreglado,</l>
+          <l>en la flor de su cuidado,</l>
+          <l>coxa tan opimo fruto!</l>
+          <stage>Lee.</stage>
+          <l>Con alhago, y con rigor,</l>
+          <l>el mote es de este problema,</l>
+          <l>y và cifrando en su emblema</l>
+          <l>de un cavallo en el furor.</l>
+          <l>Bien dize, que el vulgo fiero</l>
+          <l>es bruto, es monstruo indomable</l>
+          <stage>Lee.</stage>
+          <l>Medios son de sujetarte</l>
+          <l>lo suave, y lo severo:</l>
+          <l>no el ser duro justiciero</l>
+          <l>es el timbre mas plausible</l>
+          <l>pues à vezes lo apacible</l>
+          <l>es medio mas eficaz;</l>
+          <l>pero siempre lo sagaz</l>
+          <l>serà prudencia invencible.</l>
+          <stage>Reclinase.</stage>
+          <l>Parece que de la vida</l>
+          <l>treguas el sueño previene</l>
+          <l>à la tarea, si tiene</l>
+          <l>alivio alguna fatiga.</l>
+          <l>Bien serà, pues, que consiga</l>
+          <l>en esta dulce prision</l>
+          <l>del sentido, la evasion</l>
+          <l>de un desvelo, que esforçoso,</l>
+          <l>que un cuydado riguroso</l>
+          <l>tenga alguna suspensión.</l>
+        </sp>
+        <stage>Duermese, canta dentro la Musica y sale la Iusticia disfrazada, en trage de Dama.</stage>
+        <sp who="#musicos">
+          <speaker>Mus.</speaker>
+          <l>Aves, flores, fuentes, plantas,</l>
+          <l>todas oìd en dulce assonancia</l>
+          <l>del Sol mas radiante la mas bella gala.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>De este Adonis la gala repetid suaves.</l>
+        </sp>
+        <sp who="#musicos">
+          <speaker>Mus.</speaker>
+          <l>Aves</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Copiad de este Cupido los primores.</l>
+        </sp>
+        <sp who="#musicos">
+          <speaker>Mus.</speaker>
+          <l>Flores.</l>
+          <l>A este Narciso festejad corrietes.</l>
+        </sp>
+        <sp who="#musicos">
+          <speaker>Mus.</speaker>
+          <l>Fuentes.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Corona à este Marte en glorias tantas.</l>
+        </sp>
+        <sp who="#musicos">
+          <speaker>Mus.</speaker>
+          <l>Plantas.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Todas venid à festejarle,</l>
+          <l>quantas la dulçura lograreis de este acento,</l>
+          <l>y aun seràn corto aplauso de su aliento.</l>
+        </sp>
+        <sp who="#iusticia #musicos">
+          <speaker>Ella, y Musica.</speaker>
+          <l>Aves, Flores, Fuentes, Plantas.</l>
+        </sp>
+        <stage>Dize el Rey durmiendo.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Monstruo horrible, escandalo horroroso,</l>
+          <l>espere tu disignio, tu cruel furioso,</l>
+          <l>tu denuedo sangriento,</l>
+          <l>que en mi espada hallaràs justo escarmiento.</l>
+          <l>Tu a una Deidad te atreves la mas bella,</l>
+          <l>que dexo por ser Sol, de ser Estrella?</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Vàlgame Dios! El Rey està dormido,</l>
+          <l>y su aspecto advertido,</l>
+          <l>parece que en fantasticos enojos,</l>
+          <l>ò se engañan mis ojos,</l>
+          <l>ò su semblante dize tan ayrado</l>
+          <l>el enojo, que atiende mi cuydado;</l>
+          <l>y à el verte tan sañudo,</l>
+          <l>en vivo marmol me transformo, y mudo.</l>
+        </sp>
+        <stage>Despiertas Rey alterado, y al sacar la espada cae desmayada la Iusticia, à el tiempo mismo que su Majestad la coge en los brazos.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Muera tu rigor fiero,</l>
+          <l>y à mi espada postrad.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Valgame el Cielo!</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Cobrad, hermoso encanto de mi vida, qué veo?</l>
+          <l>la libertad perdida,</l>
+          <l>que hallareis en mis brazos:</l>
+          <l>mas aun lo mismos que toco, no lo creo.</l>
+          <l>Ensueño, ò fantasia?</l>
+          <l>La Dama à quien valiente defendia</l>
+          <l>de un monstruo, que intentava hazer pedazos,</l>
+          <l>no es la que està en mis braços?</l>
+          <l>Qué sueño prodigioso! que portento!</l>
+          <l>Quien sois, Deidad hermosa? mas mi aliento</l>
+          <l>como no te dà vida? quando el alma</l>
+          <l>en tan inquieta calma,</l>
+          <l>con tan continuo anhelo,</l>
+          <l>te ofrece en dulce union.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Valgame el Cielo!</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Parece que recobra nueva vida.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Si ha llegado, Señor, a estar perdida,</l>
+          <l>aun mas dichosa en este logro he sido,</l>
+          <l>pues en tus brazos nueva la he adquirido;</l>
+          <l>que quando ya mi vida se recobra</l>
+          <l>del imminente riesgo en que zozobra,</l>
+          <l>Fénix serà, pues ya le vivifica</l>
+          <l>la pyra en que feliz se sacrifica.</l>
+          <l>De oy mas podra fin padecer desmayos,</l>
+          <l>esperar el furor de vuestros rayos;</l>
+          <l>pues en tal ardimiento</l>
+          <l>eterno aliento adquiere en vuestro aliento,</l>
+          <l>y à tus plantas rendido</l>
+          <l>el mio, gran senor, està ofrecido.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Si à mis braços, señora, te levantas,</l>
+          <l>feliz sera mi amor, pues mis plantas,</l>
+          <l>fuera soberbia, fuera desatino</l>
+          <l>tener postrado cielo tan divino!</l>
+          <l>y pues de tus razones</l>
+          <l>advierto solo un mar de confusiones</l>
+          <l>per quedar de quien eres informado,</l>
+          <l>primero te dirè lo que ha pasado.</l>
+          <l>Rendido à la quietud tan repetida,</l>
+          <l>que parentesis haze à nuestra vida,</l>
+          <l>apenas se viò el alma,</l>
+          <l>en tan confusa calma,</l>
+          <l>aun no bien despedida,</l>
+          <l>treguas dando el cansancio de la vida,</l>
+          <l>quando assaltado miro el pensamiento</l>
+          <l>del mas raro portento.</l>
+          <l>Soñava, pues, que el monte discurria,</l>
+          <l>y que apenas moviò la bateria,</l>
+          <l>con rumor tan distinto</l>
+          <l>de ramos el confuso laberinto,</l>
+          <l>quando al latido de un lebrel ligero,</l>
+          <l>diviso mi atencion un monstruo fiero.</l>
+          <l>Valiente le seguì,</l>
+          <l>y apenas de la vista le perdì,</l>
+          <l>quando una voz el passo me embaraza</l>
+          <l>pues dezia: A una Dama despadaza</l>
+          <l>la fiera tan horrenda,</l>
+          <l>ella dezia: no ay quien me defienda?</l>
+          <l>con aliento postrado.</l>
+          <l>Yo entonces animoso, quanto ossado,</l>
+          <l>Saquè la espada, y acudi valiente,</l>
+          <l>y como al darle muerte</l>
+          <l>ardiò mi enojo en llama tan activa,</l>
+          <l>aun pudo devorar mi fantasia.</l>
+          <l>Despertè, y en el suelo</l>
+          <l>vide tu hermoso cielo,</l>
+          <l>ajado el rosicler de tu semblante;</l>
+          <l>y como todo fue en va mismo instante,</l>
+          <l>en mis braços te acojo,</l>
+          <l>creyendo que e ras infeliz despojo</l>
+          <l>de tan sangrienta saña</l>
+          <l>A mis dudas aora desengaña,</l>
+          <l>pues no he visto aora el peregrino</l>
+          <l>Candor de vuestro rostro tan divino.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <stage>Aparte.</stage>
+          <l>Albricias, coraçon mio,</l>
+          <l>que ya parece que el alma</l>
+          <l>en este dichoso anuncio</l>
+          <l>alguna vida restaura.</l>
+          <l>No diré que la Iusticia soy,</l>
+          <l>ni que estoy disfrazada;</l>
+          <l>esperando mejor tiempo</l>
+          <l>para que quede lograda</l>
+          <l>la ocasion tan oportuna,</l>
+          <l>que mis deseos aguardan.</l>
+          <l>Mi nombre es Nise, Señor,</l>
+          <l>mi calidad la mas alta</l>
+          <l>de quantas venera el mundo,</l>
+          <l>pues de vuestra Real Casa,</l>
+          <l>desciendo por linea recta.</l>
+          <l>Ausente, Señor, me hallava,</l>
+          <l>que por muerte de mis padres,</l>
+          <l>que en mejor Reyno descansan,</l>
+          <l>ciertos disturbios huyendo,</l>
+          <l>huve de dexar mi Patria.</l>
+          <l>Aora, Señor, que el Cielo,</l>
+          <l>con su providencia rara,</l>
+          <l>benigno nos ha ofrecido</l>
+          <l>tan soberano Monarca,</l>
+          <l>se ha divulgado en el Orbe</l>
+          <l>de tus grandezas la fama.</l>
+          <l>Yo vine con la noticia</l>
+          <l>de las fiestas publicadas,</l>
+          <l>con que Madrid oy festeja,</l>
+          <l>gran Senor, vuestra llegada;</l>
+          <l>y deseosa de veros,</l>
+          <l>como tan interesada,</l>
+          <l>Señor, en la gloria vuestra,</l>
+          <l>discurri modo, hallé traza</l>
+          <l>de entrar dentro en vuestro quarto</l>
+          <l>adonde durmiendo estavas;</l>
+          <l>y à el mismo tiempo que os vì</l>
+          <l>sacar furioso la espada</l>
+          <l>con temeroso respeto</l>
+          <l>caì en el suelo turbada,</l>
+          <l>que no fuera noble accion,</l>
+          <l>si al ver vuestra indignada,</l>
+          <l>no madara de semblante,</l>
+          <l>de espiritu no mudara.</l>
+          <l>Desperté, Señor, y hallème,</l>
+          <l>la propicia morada</l>
+          <l>de vuestros divinos braços,</l>
+          <l>dulce asylo, donde el alma,</l>
+          <l>por no llegar à perderlo</l>
+          <l>quisiera estar desmayada</l>
+          <l>siempre.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Qué hermoso milagro!</l>
+          <l>Señora, mejor Alcàzar</l>
+          <l>ya os apercibe mi pecho.</l>
+          <l>Yo os ruego, hermosa Diana,</l>
+          <l>que pues estàis en la Corte,</l>
+          <l>ségun tu labio declara.</l>
+          <l>de huespeda, y forastera,</l>
+          <l>querais mejorar de estancia</l>
+          <l>viniéndoos à mi Palacio,</l>
+          <l>que à el contacto de tu planta</l>
+          <l>Cielo serà, serà Esfera,</l>
+          <l>que con tal Deidad usana,</l>
+          <l>giorias comunique à el mundo;</l>
+          <l>que no sé que oculta causa</l>
+          <l>miro en tus ojos, que à mas</l>
+          <l>de la singular de Dama,</l>
+          <l>immensa prerrogativa,</l>
+          <l>mas estimulo me arrastra.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Dichosa seré, si logro</l>
+          <l>tan sumptuosa morada:</l>
+          <l>mas temo, Señor, no sé</l>
+          <l>aquella fiera tyrana</l>
+          <l>si me darà algún tremor,</l>
+          <l>quando en sueños me amenaza.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Pues donde ha de estar la fiera?</l>
+        </sp>
+        <stage>Sale el Embuste.</stage>
+        <sp who="#embuste">
+          <speaker>Emb.</speaker>
+          <l>Aqui está Señor.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Aguarda:</l>
+          <l>Què has dicho, vivien los Cielos</l>
+          <l>Siendo en su espiritu noble</l>
+          <l>la condicion mas immensa,</l>
+          <l>y à quien de esta se atribuya</l>
+          <l>la soberana influencia</l>
+          <l>debiendo à su propiedad</l>
+          <l>las consecuciones de ella.</l>
+          <l>No ay duda que de este empeño</l>
+          <l>Lo mas dificil del Tema,</l>
+          <l>es declarar por mayor,</l>
+          <l>siendo todas tan immensas,</l>
+          <l>una qualidad; no ay duda</l>
+          <l>que en el mar de sus grandezas,</l>
+          <l>del mas culto la mensura,</l>
+          <l>sera temeraria empresta;</l>
+          <l>pues de tantas perfecciones</l>
+          <l>la gran liberal Maestra</l>
+          <l>podrà aprender mas milagros,</l>
+          <l>que à su monstruosa potencia</l>
+          <l>se atribuyen, pues podrà</l>
+          <l>en tan soberana Escuela</l>
+          <l>estudiar nuevos prodigios</l>
+          <l>la sabia Naturaleza.</l>
+          <l>Mas en fin, heroyco Marte,</l>
+          <l>sagrada, hermosa Minerva,</l>
+          <l>bien sabéis que soy la Fama,</l>
+          <l>y que si alguno pudiera</l>
+          <l>de sus Lauros, de sus Glorias</l>
+          <l>ofrecer alguna seña,</l>
+          <l>yo he de ser; por esso os llamo,</l>
+          <l>porque unidamente opuestas,</l>
+          <l>mi cuydado desempeñen</l>
+          <l>oy las Armas, y as Letras;</l>
+          <l>porque siendo ambas à dos</l>
+          <l>los Polos de la Noblezas;</l>
+          <l>y siendo este gran Monarca</l>
+          <l>nuevo empleo de las Ciencias</l>
+          <l>nuevo assombro de las Armas</l>
+          <l>pues su valor, y prudencia</l>
+          <l>tan igualas compitiendo,</l>
+          <l>se emolan en la grandeza.</l>
+          <l>Y siendo yo quien à un tiempo</l>
+          <l>de tan raras excelencias</l>
+          <l>presto à el ayre la noticia,</l>
+          <l>pues en mi Trompa parlera;</l>
+          <l>si acaso no se engrandecen,</l>
+          <l>se aplauden, y lisonjean.</l>
+          <l>Claro està que he de ser oy</l>
+          <l>à quien dignamente premiàn</l>
+          <l>con el Laurèl prometido</l>
+          <l>de tan plausible Academia;</l>
+          <l>y vosotros siendo el medio</l>
+          <l>de la gloria de este Tema</l>
+          <l>seréis à quien se dedique</l>
+          <l>la abreviada Primavera</l>
+          <l>de este Laurèl, que os provoca,</l>
+          <l>de este Lauro, que os alienta.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Tardo me culpa el deseo</l>
+          <l>de esta dilatada empressa.</l>
+        </sp>
+        <sp who="#minerva">
+          <speaker>Min.</speaker>
+          <l>Siglos siento los instantes,</l>
+          <l>que omite mi diligencia.</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Pues à emprender.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>A triunfar.</l>
+        </sp>
+        <sp who="#minerva">
+          <speaker>Min.</speaker>
+          <l>A la lid.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>A la palestra.</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Porque en glorias tantas.</l>
+        </sp>
+        <sp who="#minerva">
+          <speaker>Min.</speaker>
+          <l>Publiquen primores,</l>
+        </sp>
+        <sp who="#marte #fama">
+          <speaker>Marte, y la Fama cantando</speaker>
+          <l>las Aves, las Flores,</l>
+        </sp>
+        <sp who="#minerva #fama">
+          <speaker>Minerva, y la Fama.</speaker>
+          <l>las Fuentes, las Plantas.</l>
+        </sp>
+        <stage> Sale el Aplauso por dando saliò la Fama.</stage>
+        <sp who="#aplauso">
+          <speaker>Aplaus.</speaker>
+          <l>Siguiendo el acorde acento,</l>
+          <l>que arrebatada la idèa</l>
+          <l>es imàn de los sentidos,</l>
+          <l>donde se articula llega</l>
+          <l>mi anhelo: prodigio hermoso;</l>
+          <l>què me quieres?</l>
+          <l>Deidad bella,</l>
+          <l>dulce hechizo, hermoso encanto,</l>
+          <l>que con celestial cadencia,</l>
+          <l>quanto con el metro incitas,</l>
+          <l>tanto con el eco elevas.</l>
+          <l>Mas cuy das mirada,</l>
+          <l>hermosissima Sirena,</l>
+          <l>si para matar despues</l>
+          <l>son los claveles que alternas;</l>
+          <l>advierte que no es razon,</l>
+          <l>que lo bizarro desmientas</l>
+          <l>con tal cruel tyrania;</l>
+          <l>pues que lo es, no ay duda, aquella</l>
+          <l>que a sù traycion aspirando,</l>
+          <l>con rigurosa cautela,</l>
+          <l>para lograr lo cruel, se valiò de lo alagueña.</l>
+          <l>En fin, señora, ay de mi!</l>
+          <l>si ya las luzes severas</l>
+          <l>de vuestros divinos ojos,</l>
+          <l>sin mas delito que verlas,</l>
+          <l>me abrasaron; no ay razón,</l>
+          <l>porque aora tu clemencia</l>
+          <l>no me pague compassiva,</l>
+          <l>lo que me quitò violenta.</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Heroyco Aplauso, cuyo dulce nombre</l>
+          <l>festeja todo el Orbe,</l>
+          <l>aun mas que agradecida</l>
+          <l>tu voluntad me dexa, y tu venida.</l>
+          <l>Yo soy en fin la Fama,</l>
+          <l>cuyo ruidoso imperio el mundo aclama;</l>
+          <l>y siendo tu el Aplauso celebrado,</l>
+          <l>mal podrà mi cuydado</l>
+          <l>negarse à tus primores,</l>
+          <l>repitiendose en ambos los favores;</l>
+          <l>mas ya de tus afectos</l>
+          <l>el valor he de vèr en los efectos.</l>
+          <l>Oy sabràs que en Madrid se ha publicado</l>
+          <l>Una insigne Academia, y que nombrado</l>
+          <l>en ella por Iuez, y Presidente</l>
+          <l>el assiento te dàn mas eminente,</l>
+          <l>Minervas Marte viene aprestados</l>
+          <l>al favor empeñados</l>
+          <l>de mi razon, pues me seràn Padrinos;</l>
+          <l>y fio en tus favores peregrinos</l>
+          <l>me harà tu mano el singular favor</l>
+          <l>del Laurèl que se ofrece a vencedor</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Apla.</speaker>
+          <l>Con saber que tu vàs, para empeñarme,</l>
+          <l>diligencia escusada es el llamarme;</l>
+          <l>pues siempre mi cuydado,</l>
+          <l>no ay duda, me tendrà tan aprestado</l>
+          <l>para seguirte, como tu precepto.</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Si, pero mi concepto</l>
+          <l>siempre advierte, que tienes de apoyar.</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Apla.</speaker>
+          <l>Esso ya a mi cuydado, pues dexar</l>
+          <l>que mi passion atroz</l>
+          <l>mal podrà dar lugar à que tu voz</l>
+          <l>digà quando en el ocio me divierta</l>
+        </sp>
+        <stage>El, y la Fama cantandoDespierta, despierta, &amp;c.</stage>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Con que segura irè à la gran Palestra,</l>
+          <l>yendo mi desempeño en la accion vuestra.</l>
+        </sp>
+        <stage>Sale el Embuste pobremente vestido y muy roto.</stage>
+        <sp who="#embuste">
+          <speaker>Emb.</speaker>
+          <l>Y si vuesarced, señora Fama,</l>
+          <l>menester ha un Escudero,</l>
+          <l>Paje, Criado, Lacayo,</l>
+          <l>GentiIhombre, Mandadero,</l>
+          <l>Menino, Portero, Eunuco,</l>
+          <l>Guardamas, Cocinero,</l>
+          <l>Mayordomo, Secretario,</l>
+          <l>(y aun àser Sotacochero</l>
+          <l>me aplico) podrà llevarme</l>
+          <l>à la Corte, y no interesso</l>
+          <l>mas que tan sola una capa</l>
+          <l>con que pueda andar cubierto;</l>
+          <l>pues solo traygo esta triste,</l>
+          <l>y no tan triste, que creo</l>
+          <l>que toda se me haze bocas</l>
+          <l>à puro estarse riyendo;</l>
+          <l>sino es ja por descubrirme,</l>
+          <l>pues que estàn cantando creo,</l>
+          <l>que esta con tanto zurcido</l>
+          <l>es capa de un Embustero.</l>
+          <l>Vea vuesarced si me dà otra</l>
+          <l>en algún oficio de estos,</l>
+          <l>porque con la capa vieja</l>
+          <l>avrè de andar descubierto;</l>
+          <l>y es cofa afrentosa verse</l>
+          <l>desnudo el Embuste, y creo</l>
+          <l>serà esta la vez primera</l>
+          <l>que me falto capa: hazemos?</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Y quien es el buen Soldado?</l>
+        </sp>
+        <sp who="#embuste">
+          <speaker>Emb.</speaker>
+          <l>De ser tan roto me quexo,</l>
+          <l>sin llegar à ser Soldado,</l>
+          <l>y es quasi todo uno mesmo;</l>
+          <l>No me conocen vuesarcedes</l>
+          <l>en aqueste traje viejo,</l>
+          <l>que me se cae à pedazos?</l>
+          <l>Soy aquel Ministro ingerto,</l>
+          <l>que tanto sirvio en Palacio,</l>
+          <l>en aquel antiguo tiempo;</l>
+          <l>pero en fin ya mi privança</l>
+          <l>es exemplar escarmiento.</l>
+          <l>Como yo era tan valido,</l>
+          <l>vali mucho en aquel tiempo;</l>
+          <l>mas ya que no valgo un quarto,</l>
+          <l>todos de mi hazen desprecio,</l>
+          <l>y como me vèn caldo,</l>
+          <l>dizen no se les dà un bledo,</l>
+          <l>de quien no se les da nada.</l>
+          <l>Hà pobreza, y lo que has hecho!</l>
+          <l>una comission me han dado,</l>
+          <l>que no se le diera à un Negro.</l>
+          <l>Como he quedado sin cargo</l>
+          <l>de novedades Correo me han hecho,</l>
+          <l>y solo me ocupo</l>
+          <l>en dezir quatro embelecos,</l>
+          <l>casos raros de la Corte</l>
+          <l>à cien Idiotas parleros,</l>
+          <l>presumidos de Estadistas,</l>
+          <l>que hablan a diestro, y siniestro,</l>
+          <l>y se Ies vi todo el dia</l>
+          <l>en dezir: por el Correo</l>
+          <l>me ha venido una Gazeta</l>
+          <l>que dize, que por tal Puerto</l>
+          <l>se han descubierto mil Naves;</l>
+          <l>y que son de Turcos fieros,</l>
+          <l>que vienen à toda España</l>
+          <l>a llevar à sangre, y fuego;</l>
+          <l>y aqui entran arbitrando</l>
+          <l>si convenia hazer esto:</l>
+          <l>uno dize, es peligroso,</l>
+          <l>se perderà todo el Reyno:</l>
+          <l>dize otro, no ay Soldados?</l>
+          <l>assi fuera en otros tiempos!</l>
+          <l>y si fuera Herodes este,</l>
+          <l>que dizen que và viniendo;</l>
+          <l>contra qual de estos viniera?</l>
+          <l>La novedad que oy tenemos,</l>
+          <l>dize otro muy hergido,</l>
+          <l>merece la celebremos.</l>
+          <l>Me avisa mi Confidente</l>
+          <l>que se han quitado los pechos</l>
+          <l>por el Rey nuestro señor,</l>
+          <l>Dios se lo pague en el Cielo</l>
+          <l>que estavamos despechados</l>
+          <l>con tanto pagar de pechos;</l>
+          <l>y aqui goviernan el mundo;</l>
+          <l>Solo este es ya el ministerio</l>
+          <l>que me ocupa, porque solo</l>
+          <l>tienen establecimiento</l>
+          <l>mis leyes entre holgazanes.</l>
+          <l>Sacristanes, y Barberos,</l>
+          <l>Sastres, y Boticarios, Viejas,</l>
+          <l>quatro Hidalgos circunspectos</l>
+          <l>de la Mancha, que en hablar</l>
+          <l>del Rey, y de sus Consejos</l>
+          <l>todo el dia se les và,</l>
+          <l>y se les và todo el tiempo.</l>
+          <l>Con esto se desayunan,</l>
+          <l>y suelen cenar con esto:</l>
+          <l>no es muy linda comission</l>
+          <l>la que me ha quedado? si esto</l>
+          <l>basta à que vuesarced me conozca,</l>
+          <l>y si no claro, direlo.</l>
+          <l>Sepa que soy el Embuste,</l>
+          <l>esto basta, que no creo</l>
+          <l>que me harà desconocido</l>
+          <l>el estado en que me veo.</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Pues como te has atrevido</l>
+          <l>à detenerte indiscreto</l>
+          <l>donde brilla la verdad?</l>
+        </sp>
+        <sp who="#embuste">
+          <speaker>Emb.</speaker>
+          <l>Dize vuesarced bien, soy un puerco;</l>
+          <l>mas como suele otras vezes</l>
+          <l>brillar, y vista por dentro</l>
+          <l>le hallan en el fondo vidrio,</l>
+          <l>al que diamante entendieron.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Pues vive Dios, si me enfado</l>
+          <l>Villano, loco, embustero.</l>
+        </sp>
+        <sp who="#embuste">
+          <speaker>Emb.</speaker>
+          <l>Oye vuesarced, si soy Villano,</l>
+          <l>Cortesano suy algún tiempo.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>No te vas?</l>
+        </sp>
+        <sp who="#embuste">
+          <speaker>Emb.</speaker>
+          <l>Seor Carranca,</l>
+          <l>embayne vuesarced, que ya irèmos:</l>
+          <l>pues vive Dios que he de darles.</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Apl.</speaker>
+          <l>Con el mas común enredo;</l>
+          <l>este es chasco quotidiano.</l>
+          <l>Vuesarcedes vayan corriendo,</l>
+          <l>si hàn de hallarse en la Academia, z</l>
+          <l>porque todo està dispuesto:</l>
+          <l>ya ay fixados mil Carretes,</l>
+          <l>que emplazan à el Unverso</l>
+          <l>para esta tarde; y assi</l>
+          <l>no detenerse un momento.</l>
+          <stage>Vase</stage>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Me llevarà mi cuydado</l>
+          <l>en alas de mi deseo.</l>
+          <stage>Vase.</stage>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Apl.</speaker>
+          <l>Pues à lograr de mi dicha;</l>
+          <l>Irè, el mas feliz empleo.</l>
+          <stage>Vase.</stage>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Yo la gloria.</l>
+        </sp>
+        <sp who="#minerva">
+          <speaker>Min.</speaker>
+          <l>Yo los triunfos.</l>
+          <l>Ambos.</l>
+          <l>Del prometido trofeo.</l>
+        </sp>
+        <stage>Vans.</stage>
+      </div>
+      <div type="act">
+        <head>JORNADA SEGUNDA</head>
+        <stage>Ruido de caza, y dizen dentro.</stage>
+        <sp who="#uno">
+          <speaker>Uno.</speaker>
+          <l>Seguidla todos al valle.</l>
+        </sp>
+        <sp who="#otro_1">
+          <speaker>Otro.</speaker>
+          <l>Guarda la fiera, huye al cerro.</l>
+        </sp>
+        <sp who="#otro_2">
+          <speaker>Otro.</speaker>
+          <l>Monteros, seguidle todos,</l>
+          <l>que el fiero monstruo siguiendo</l>
+          <l>animoso el Rey se alcxa.</l>
+        </sp>
+        <stage>Dize el Rey dentro.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Aunque te sepulte el centro,</l>
+          <l>al impulso de mi braço,</l>
+          <l>despojo serà sangriento.</l>
+          <stage>Sale.</stage>
+          <l>Adonde, espantosa fiera,</l>
+          <l>se oculta tu aspecto fiero?</l>
+          <l>Talarè el bosque hasta hallar</l>
+          <l>el objeto tan horrendo</l>
+          <l>de mi fatiga.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Dent. la Iust.</speaker>
+          <l>Ay de mi!</l>
+          <l>valedme, piadiosos Cielos.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Pero què es esto que escucho?</l>
+        </sp>
+        <sp who="#uno">
+          <speaker>Dent. Uno.</speaker>
+          <l>Acudid, acudid presto,</l>
+          <l>que a una Dama despedaza</l>
+          <l>el monstruo horrible sangriento.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Id todos à socorrerla;</l>
+          <l>pero què aguarda mi aliento?</l>
+        </sp>
+        <stage>Entrase sacando la espada, y salen por otra puerta Grandes de España, Monteros, y acompañamiento de criados.</stage>
+        <sp who="#grande_1">
+          <speaker>Grand. 1.</speaker>
+          <l>Fuerte valor! raro asobro!</l>
+          <l>alas me preste el aliento.</l>
+        </sp>
+        <sp who="#grande_2">
+          <speaker>Gran. 2.</speaker>
+          <l>Señor, primer mi Vida</l>
+          <l>sirva de escudo à tu esfuerço.</l>
+        </sp>
+        <stage>Al irse por donde entro el Rey, sale con la Iusticia en los braços.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>No es necessario, que ya</l>
+          <l>à los silos de este azero,</l>
+          <l>quintos bebiò parasismos</l>
+          <l>vitales, bomita alientos.</l>
+          <l>Hermosa Deidad, venced:</l>
+          <l>mas què es lo que miro Cielos?</l>
+          <l>No es Nise, mi dueño hermoso?</l>
+          <l>mas mirando tu sol bello,</l>
+          <l>aun por mas que lo averiguo,</l>
+          <l>ni lo toco, ni lo creo.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Señor, como podrà hallar,</l>
+          <l>ni mi discurso el concepto</l>
+          <l>el idioma, el labio mio,</l>
+          <l>la explicacion, el deseo,</l>
+          <l>ni mi voluntad rendida</l>
+          <l>el justo agradecimiento</l>
+          <l>à favor tan soberano,</l>
+          <l>si vuestro heroyco aliento,</l>
+          <l>si vuestro bizarro impulso</l>
+          <l>casi en el vale postrero</l>
+          <l>del estrago mas fatal,</l>
+          <l>me llevo al sagrado puerto</l>
+          <l>de vuestros divinos braços,</l>
+          <l>donde cobrè nuevo aliento?</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>No ha sido vano el anuncio</l>
+          <l>de aquel misterioso sueño!</l>
+          <l>Pues bellissimo prodigio,</l>
+          <l>dulze hechizo de mi afecto,</l>
+          <l>vos en el bosque, y expuesta</l>
+          <l>al desayre mas severo,</l>
+          <l>al mas proceloso acaso,</l>
+          <l>y al peligro mas acerbo?</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Señor, si bien advertis,</l>
+          <l>que soy de tus rayos bellos</l>
+          <l>Girasol que amante sigo</l>
+          <l>de tus luzes, Clicie nuevo,</l>
+          <l>abrasada Mariposa</l>
+          <l>de tu divino ardimiento,</l>
+          <l>Salamandra de tu ardor,</l>
+          <l>y Imàn de tu norte cierto</l>
+          <l>no estrañaras mi venida?</l>
+          <l>pues mal, Señor, mi deseo</l>
+          <l>me permitiera escuaarla,</l>
+          <l>si en do qual vès Clicie nuevo</l>
+          <l>Salamandra, Mariposa,</l>
+          <l>Girasol, y Imàn à un tiempo</l>
+          <l>De tus rayos, de tu norte,</l>
+          <l>de tu ardor, y tu ardimiento</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Mucho el favor os estimo;</l>
+          <l>mas otra vez, bello objeto</l>
+          <l>de mi amor, si por mi vida,</l>
+          <l>no me costèis otro empeño</l>
+          <l>que temo vuestro peligro,</l>
+          <l>y no os quiero tan al riesgo;</l>
+          <l>ademàs de que no es bien</l>
+          <l>las Damas de vuestro empleo</l>
+          <l>aventuren el recato</l>
+          <l>por un galante despejo.</l>
+          <l>La politica mas docta,</l>
+          <l>las mas prudente, dos medios</l>
+          <l>os previene que se observan</l>
+          <l>sin tocar en los estremos;</l>
+          <l>ambos son, que aveis de ser</l>
+          <l>unas veces sin despego,</l>
+          <l>familiares para todos,</l>
+          <l>y con un agrado honesto</l>
+          <l>solicitando el cariño,</l>
+          <l>nunca negarse al afecto;</l>
+          <l>que no serà bien que el vulgo,</l>
+          <l>que es de la accion Fiscal fiero,</l>
+          <l>vuestra aspereza censure;</l>
+          <l>mas con tal limite aquesto,</l>
+          <l>que el pundonor no lo sienta?</l>
+          <l>mas otras vezes que el riesgo</l>
+          <l>se ha de encontrar en el pasto,</l>
+          <l>arbitrio serà muy cuerdo</l>
+          <l>que atràs se buelva el recato,</l>
+          <l>pues se escusaràn con esto</l>
+          <l>los contingentes tan duros</l>
+          <l>à que acra os aviais puesto;</l>
+          <l>de modo que las acciones</l>
+          <l>medidas siempre à lo honesto,</l>
+          <l>no las toque la llaneza,</l>
+          <l>y aunque las mire el respeto,</l>
+          <l>ño lo rigido las mande,</l>
+          <l>que lo reñirà el afecto;</l>
+          <l>y aquesta diversidad</l>
+          <l>ha de entenderse en los tiempos:</l>
+          <l>en unos todo el recato</l>
+          <l>se ha de aplicar al honesto</l>
+          <l>modo, con que ha de negarse</l>
+          <l>al publico luzimiento,</l>
+          <l>huyendo la ligereza:</l>
+          <l>en otros, que el pudor bello</l>
+          <l>no se expone tanto al daño,</l>
+          <l>se depone lo severo</l>
+          <l>esparciendo lo bizarro.</l>
+          <l>Aquestos son los dos medios,</l>
+          <l>que la politica enseña,</l>
+          <l>que ceñido su con texto,</l>
+          <l>solo es, que aveis de portaros</l>
+          <l>en vuestro gran ministerio,</l>
+          <l>siendo à un tiempo de ninguno,</l>
+          <l>con ser de todos à un tiempo.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Señor, solo mi alved rio</l>
+          <l>pende de un precepto vuestro.</l>
+        </sp>
+        <sp who="#grande_1">
+          <speaker>Gran. 1</speaker>
+          <stage>Aparte</stage>
+          <l>Mas que à natural prodigio</l>
+          <l>es el que en el Rey contemplo.</l>
+        </sp>
+        <sp who="#grande_2">
+          <speaker>Gran 2.</speaker>
+          <l>Què discurso tan divino!</l>
+          <l>què soberano talento!</l>
+          <l>què resolucion tan fixa!</l>
+          <l>y què claro entendimiento!</l>
+        </sp>
+        <sp who="#grande_1">
+          <speaker>Gran. 1.</speaker>
+          <l>Mil vezes en hora buena</l>
+          <l>sea, Señor, el trofeo</l>
+          <l>de vuestro heroyco braço,</l>
+          <l>de vuestro bizarro aliento.</l>
+        </sp>
+        <sp who="#grande_2">
+          <speaker>Gran. 2.</speaker>
+          <l>Lo mismo, Señor, os dize</l>
+          <l>puesto à tus plantas mi afecto.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Nobles amigos, los braços</l>
+          <l>os respondan; con què estremo,</l>
+          <l>con què, dezid, premiarà</l>
+          <l>mi voluntad el cortejo,</l>
+          <l>que tan repetidamente</l>
+          <l>à vuestra lealtad le debo?</l>
+        </sp>
+        <sp who="#grande_1 #grande_2">
+          <speaker>Ambos.</speaker>
+          <l>Solo, Señor, el serviros</l>
+          <l>es paga de nuestro afecto.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Parece que ya la hora</l>
+          <l>haze inoportuno el tiempos:</l>
+          <l>cesse ya de tan suave</l>
+          <l>fatiga, tan noble empleo:</l>
+          <l>luego dezid que nos vamos.</l>
+        </sp>
+        <sp who="#grande_1">
+          <speaker>Gran 1.</speaker>
+          <l>Ola, avisad los Monteros,</l>
+          <l>que manda su Magestad</l>
+          <l>vayan recogiendo luego.</l>
+          <l>el venatorio aparato.</l>
+          <l>Mañana, gran Señor, pienso</l>
+          <l>se celebra la Academia;</l>
+          <l>y que han ocurrido entiendo</l>
+          <l>de todo el Orbe, Señor,</l>
+          <l>los mas luzidos Ingenios,</l>
+          <l>y tal concurso, que es oy</l>
+          <l>Madrid un breve bosquejo</l>
+          <l>de la maquina del mundo,</l>
+          <l>donde el Aplauso discreto</l>
+          <l>en ella ha de presidir</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Nunca me prometio menos;</l>
+          <l>largueza la gran noticia</l>
+          <l>de los Españoles pechos:</l>
+          <l>ya yol tan nobles servicios,</l>
+          <l>darè el merecido premio.</l>
+          <l>Hermosa Nise, advertid,</l>
+          <l>que el cariño mio atento,</l>
+          <l>primer lugar os previene</l>
+          <l>en el loable argumento.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Vos Señor, me engrandecèis</l>
+          <l>conforme el Augusto, el Regio</l>
+          <l>espiritu que os anima.</l>
+          <l>Siempre, gran Señor, mi intento</l>
+          <l>fue de hallarme en la Palestra</l>
+          <l>a defender mi concepto.</l>
+        </sp>
+        <sp who="#grande_1">
+          <speaker>Gran 1.</speaker>
+          <l>Señora, quien interessa</l>
+          <l>tanto en el aumento vuestro</l>
+          <l>como yo, y quien àserviros</l>
+          <l>solo dedica su anhelo</l>
+          <l>el debido parabièn</l>
+          <l>darà solo aso deseo.</l>
+        </sp>
+        <sp who="#grande_2">
+          <speaker>Gran. 2.</speaker>
+          <l>Mil anos vivais, señora,</l>
+          <l>en el voluntario estremo,</l>
+          <l>que tal Monarca os previene;</l>
+          <l>y adonde pueda mi afecto</l>
+          <l>solo a precio de serviros</l>
+          <l>lograr el dichoso premio</l>
+          <l>de agradaros.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>A Excelencias guarde mil años el Cielo</l>
+          <l>que en deuda tan conocida</l>
+          <l>solo mi agradecimiento</l>
+          <l>serà de tantos favores.</l>
+          <l>justa paga, pues grangeo</l>
+          <l>en sus designios tan nobles,</l>
+          <l>nueva gloria, y honor nuevo</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Vamos luego, vèn señora.</l>
+        </sp>
+        <sp who="#grande_1 #grande_2">
+          <speaker>Grandes.</speaker>
+          <l>Siempre sois el movil cierto</l>
+          <l>de nuestros passos.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Y siempre son leyes vuestros preceptos.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Si pero han de ser medidos</l>
+          <l>al hermoso agrado vuestro.</l>
+        </sp>
+        <stage>Canta dentro la Musica, y sale el Amor con arco, y flechas, y como le pintan</stage>
+        <sp who="#musicos">
+          <speaker>Mus.</speaker>
+          <l>Afuera, guàrdense todos,</l>
+          <l>que vibrando sale Amor</l>
+          <l>entre arpones de Rapaz</l>
+          <l>dulzes las flechas de un Dios</l>
+          <stage>Saliendo</stage>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Sin que de mi Aljava el tiro,</l>
+          <l>sin que el herir de mi Arpon,</l>
+          <l>el mas duro coraçon</l>
+          <l>quede preservado, aspiro</l>
+          <l>al mayor triunfo, pues miro</l>
+          <l>que aun en los celestes Globos</l>
+          <l>se obstenta por varios modos</l>
+          <l>mi poder; y pues me a lienta</l>
+          <l>mi Imperio, no aya al ma essenta.</l>
+        </sp>
+        <sp who="#amor #musicos">
+          <speaker>El, y la Música.</speaker>
+          <l>Afuera, guàrdense todos.</l>
+        </sp>
+        <stage>Haze que va a disparar la flecha, y al despedirla sale la Fortuna, y la coxe.</stage>
+        <sp who="#fortuna">
+          <speaker>For.</speaker>
+          <l>Espera (nadie se guarde)</l>
+          <l>que si tu rigor sangriento</l>
+          <l>vibra assi el Arpon violento,</l>
+          <l>ya le esperarà cobarde</l>
+          <l>todo coraçon: aguarde</l>
+          <l>de tus flechas</l>
+          <l>el rigor que en su acertado primor</l>
+          <l>ha de aver suave alguna,</l>
+          <l>pues tambièn soy la Fortuna.</l>
+        </sp>
+        <sp who="#fortuna #musicos">
+          <speaker>Ella y Musica</speaker>
+          <l>Que vibrando sale Amor.</l>
+        </sp>
+        <stage>Sale la Firmeza, y coxele assimismo la flecha.</stage>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>No tu engañosa azechança,</l>
+          <l>mudable, Fortuna, intente</l>
+          <l>borrar fementidamente</l>
+          <l>del Amor, con tu inconstancia,</l>
+          <l>la glorias; y si tu mudança</l>
+          <l>con tan indigno disfraz,</l>
+          <l>quiere honestarse sagaz</l>
+          <l>mi valor, pues soy firmeza</l>
+          <l>d tirar gustos empieza.</l>
+        </sp>
+        <sp who="#firmeza #musicos">
+          <speaker>Ella, y Musica</speaker>
+          <l>Entre arpones de Rapaz.</l>
+        </sp>
+        <stage>Haze que va a tirarla, y buelve à coxerla el Amor.</stage>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Espere vuestro donayre,</l>
+          <l>porque si solo al impulso</l>
+          <l>de vuestra mano, su curso</l>
+          <l>se vè Cometa en el ayre,</l>
+          <l>irà expuesta a algún desayre.</l>
+          <l>La Saeta dexad vos,</l>
+          <l>que oy he de vèr de las dos</l>
+          <l>quien mas victorias me gana</l>
+          <l>y quien haze soberana</l>
+        </sp>
+        <sp who="#amor #musicos">
+          <speaker>El, y Musica</speaker>
+          <l>Dulzes las flechas de un Dios;</l>
+          <l>Y de vosotras qualquiera,</l>
+          <l>que en la fuerza de mis tiros</l>
+          <l>me dè mas renombre, adquiera</l>
+          <l>de mis flechas el dominio.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Immortal tè hàre en la Esfera.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Fir.</speaker>
+          <l>yo harè que en bronces sè esculpan</l>
+          <l>los lauros de tu firmeza.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Yo imprimirè tu inconstancia</l>
+          <l>en los exes de mi Rueda.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>Quieres verlo? pues escucha</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Quieres verlo? pues espera</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>Por eternizar su nombre</l>
+          <l>cria la inculta maleza</l>
+          <l>de una roca, un roble altivo;</l>
+          <l>de tan estraña firmeza,</l>
+          <l>que Atlante ser de las nubes</l>
+          <l>puede emprender su sobervia.</l>
+          <l>Muèstralo, como quien dize,</l>
+          <l>hijo es de mi existencia,</l>
+          <l>y assi no pretenda el tiempo</l>
+          <l>extinguir de su entereza</l>
+          <l>la constancia, que su nombra</l>
+          <l>han deternizar sus señas.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Criase al pie de este roble,</l>
+          <l>debil ser de una flaqueza</l>
+          <l>una caña, que inconstante</l>
+          <l>a todos vientos flaquea,</l>
+          <l>siendo por varia, y mudable</l>
+          <l>en la inclinacion que obstenta,</l>
+          <l>diseño de mis acciones,</l>
+          <l>propia imagen de mi Rueda.</l>
+          <l>Sucede que un Uracan,</l>
+          <l>fiero aborto de la tierra,</l>
+          <l>và talando en sus rigores</l>
+          <l>quanto encontro su inclemencia.</l>
+          <l>Llego al roble, y como hallè</l>
+          <l>en se orgullo resistencia,</l>
+          <l>cebose en èl, y arrancòle,</l>
+          <l>quedando su fortaleza,</l>
+          <l>al impulso de los vientos,</l>
+          <l>despajo de ser violencia.</l>
+          <l>Siguiò del viento la caña</l>
+          <l>la condicion, con que es fuerça</l>
+          <l>quedase libre, adquiriendo</l>
+          <l>con su vida, fama eterna.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>Viste Tortolilla amante,</l>
+          <l>que fatigando la selva</l>
+          <l>hizo potro de una rama,</l>
+          <l>donde en repetidas quexas;</l>
+          <l>adustamente cantava</l>
+          <l>de su consorte la ausencia:</l>
+          <l>Y si acaso la tardança</l>
+          <l>de su tormento las cuerdas</l>
+          <l>aprieta, lo dexa tronco</l>
+          <l>que no examine su pena;</l>
+          <l>y si la ansiosa fatiga</l>
+          <l>de su anhelo no le encuentra,</l>
+          <l>en premisas de su muerte,</l>
+          <l>busca la rama mas seca,</l>
+          <l>la mas arida de quantas</l>
+          <l>desnudo la edad severa,</l>
+          <l>y alli con tristes gemidos,</l>
+          <l>en mal formadas endechas</l>
+          <l>de su conforte difunto</l>
+          <l>celebra tristes exequias.</l>
+          <l>y guarda de su viudez</l>
+          <l>hasta la muerte la pena?</l>
+          <l>Pues por aquesta constancia,</l>
+          <l>por esta heroyca firmeza,</l>
+          <l>el amor de esta avecilla</l>
+          <l>el mas aplaudido llega</l>
+          <l>à ser, de quantos la fama</l>
+          <l>en varias historias cuenta.</l>
+          <l>Mira qual darà mas lauros</l>
+          <l>al imperio de tu flechas,</l>
+          <l>lo insigne de mi constancia,</l>
+          <l>o la mas infame afrenta,</l>
+          <l>que en un proceder mudable</l>
+          <l>precisamente se encuentra.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Viste en la verde esmeralda</l>
+          <l>Dè la mas florida yedra,</l>
+          <l>dos Gilgerillos amantes</l>
+          <l>de los ayres Filomenas,</l>
+          <l>que haziendo de sus pimpollos</l>
+          <l>dulze talamo, conciertan</l>
+          <l>con reciprocos carinños</l>
+          <l>quinto en gorgeos celebran?</l>
+          <l>y que asfaltados à un tiempo</l>
+          <l>de la mañosa cautela</l>
+          <l>de un Cazador, que pirata</l>
+          <l>y de sus libertades piensa</l>
+          <l>ser, desamparan el nido,</l>
+          <l>y en su disgusto conciertan</l>
+          <l>volverse à juntar en èl</l>
+          <l>al instante que la ausencia</l>
+          <l>del Cazador permitiesse</l>
+          <l>à sus deseos la buelta?</l>
+          <l>Pues sucede que al instante</l>
+          <l>el Cazador con cautela</l>
+          <l>de liga les llenò el nido;</l>
+          <l>y que de los dos apenas</l>
+          <l>el un Gilgerillo ausente</l>
+          <l>se viò, quando con tibieza,</l>
+          <l>ò medroso del peligro,</l>
+          <l>ò olvidado con la ausencia</l>
+          <l>de su amor, no bolviò à èl;</l>
+          <l>y el otro que persevera</l>
+          <l>en su amoroso cuydado,</l>
+          <l>guiado de su firmeza</l>
+          <l>bolviò à èl, adonde preso</l>
+          <l>de su esclavitud, empieza</l>
+          <l>à llorar la esquiva suerte:</l>
+          <l>luego del amor sequexa,</l>
+          <l>maldize de sus afectos</l>
+          <l>la mas nociva firmeza,</l>
+          <l>y dize que es engañosa</l>
+          <l>tu condicion, quanto acerba;</l>
+          <l>pero el otro que mudable</l>
+          <l>se halla libre de la estrecha</l>
+          <l>prision de su compañero,</l>
+          <l>alegremente festeja</l>
+          <l>lo heroyco de tu inconstancia</l>
+          <l>lo benigno à tu grandeza:</l>
+          <l>mira quien mas te acredita</l>
+          <l>de qualquier condicion de estas?</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>La mia, pues acredita</l>
+          <l>de tus impulsos la fuercça</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>For.</speaker>
+          <l>La mia, pues ennoblece</l>
+          <l>mas de tu Arpon las Saetas.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Esperad, que à un tiempo mismo</l>
+          <l>las contrarias, las diversas</l>
+          <l>propiedades repugnantes</l>
+          <l>de vuestra naturaleza</l>
+          <l>he de aprovechar, pues ambàs</l>
+          <l>oy con la union mas diversa,</l>
+          <l>en el empeño mas noble,</l>
+          <l>en el mas heroyco Tema,</l>
+          <l>en la empresta mas dificil</l>
+          <l>de la vistosa Academia,</l>
+          <l>que oy nos llama, aveis de hallaros</l>
+          <l>siguiendo la competencia</l>
+          <l>de parte de mi concepto.</l>
+        </sp>
+        <sp who="#fortuna #firmeza">
+          <speaker>Ambas.</speaker>
+          <l>Pendiente de tu precepto</l>
+          <l>està nuestra diligencia.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Bien sabèis que à nuestra España</l>
+          <l>la Magestad mas Augusta,</l>
+          <l>el mas Invicto Monarca</l>
+          <l>ilustra, afrenta del Sol,</l>
+          <l>nuevo honor de la gran rama</l>
+          <l>de quien es nuevo pimpollo,</l>
+          <l>en cuya florida gala</l>
+          <l>tanta hermosura le ofrece</l>
+          <l>al noble Laurèl de Austria;</l>
+          <l>como à España Primaveras,</l>
+          <l>y como Estios à Francia;</l>
+          <l>porque no ay planta, ni flor,</l>
+          <l>que à sus luzes soberanas</l>
+          <l>dexen de ser girasoles,</l>
+          <l>que unas mueran, y otras nàzcan</l>
+          <l>mustias, quantas ya le pierden</l>
+          <l>floridas quantas le ganan;</l>
+          <l>que al menos en los afectos,</l>
+          <l>en la memoria, en las almas</l>
+          <l>yo vincularè su gloria,</l>
+          <l>yo eternizarè su gala.</l>
+          <l>A este prodigio oy festejan</l>
+          <l>los Ingenios de mas fama;</l>
+          <l>à ambas à dos os provoco,</l>
+          <l>porque la Idea tan rara,</l>
+          <l>que el Tema de oy apercibe,</l>
+          <l>viniendo à la soberana</l>
+          <l>Palestra, que nos combida,</l>
+          <l>sigais en la publicada</l>
+          <l>Academia, à un tiempo mismo,</l>
+          <l>que os debe aqueste Monarca</l>
+          <l>el realce que mas le ilustra</l>
+          <l>el lustre que mas le enfalça.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>Pues à lograr.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>A emprender.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>De tus flechas.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>De tu aljava.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>El triunfo mas victorioso</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>La victoria mas usana.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Porque el Amor solo</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>Da à tan gran Monarca.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Voluntades que obligan.</l>
+        </sp>
+        <sp who="#fortuna #firmeza #amor">
+          <speaker>Todos.</speaker>
+          <l>Finezas que le pagan.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Con que à un tiempo mismo.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>Por Amor se hallan.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>En cariños que ofrece.</l>
+        </sp>
+        <sp who="#fortuna #firmeza #amor">
+          <speaker>Todos.</speaker>
+          <l>Afectos que consagran.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Lauros que merece.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>Glorias que le pagan.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Y en Rey, y vassallos.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Con feliz ganancia.</l>
+        </sp>
+        <sp who="#fortuna #firmeza #amor">
+          <speaker>Todos.</speaker>
+          <l>Gracias que los obliga,</l>
+          <l>feudos que lo ensaldan.</l>
+          <stage>Vanse.</stage>
+        </sp>
+        <stage>Sale el Embuste cayendo y descalabrado.</stage>
+        <sp who="#embuste">
+          <speaker>Emb.</speaker>
+          <l>Lleve el diablo los muchachos,</l>
+          <l>y el antiguo refràn viejo</l>
+          <l>de que dizen las verdades,</l>
+          <l>no las dirà èl por muy nuevo</l>
+          <l>pero las dirà por loco,</l>
+          <l>segun las piedras que veo;</l>
+          <l>Una fiesta es por mi vida,</l>
+          <l>que ni guardo, ni (ay! ) celebro:</l>
+          <l>y mas infeliz privança!</l>
+          <l>ay caída mas sin sesso!</l>
+          <l>Buenos quedamos honor,</l>
+          <l>bueno està el punto: què es esto?</l>
+          <l>pienso que nos lo han cogido</l>
+          <l>ya con tan donoso asseo,</l>
+          <l>que con verguença corrido</l>
+          <l>escapàra de este empeño.</l>
+          <l>Pienso que me fui à las calças</l>
+          <l>huyendo del devaneo</l>
+          <l>de mi cabeça: què ay?</l>
+          <l>Ya me parece que veo</l>
+          <l>puesta la mano en la cholla,</l>
+          <l>un Quixote à lo moderno,</l>
+          <l>que dize: mas bien pudiera</l>
+          <l>correrse de este concepto</l>
+          <l>el Autor de la Comedia:</l>
+          <l>equivoco mal dispuesto.</l>
+          <l>Dígame, señor Censor,</l>
+          <l>me negarà, que en su genio,</l>
+          <l>y en su lengua no se halla</l>
+          <l>una virtud? y es muy cierto,</l>
+          <l>porque si aquesta consiste,</l>
+          <l>como dizen, en los medios,</l>
+          <l>mal lo harà en su mordaz lengua,</l>
+          <l>que es viciosa por estremos.</l>
+          <l>Pues sepa que assi es la mia,</l>
+          <l>que hablando mal de estos tiempos.</l>
+          <l>fue à consistir en las medias,</l>
+          <l>porque no pudo en las medias.</l>
+          <l>Valgame el diablo! què harè</l>
+          <l>si en tal estado me veo?</l>
+          <l>Ir donde no me conozcan</l>
+          <l>pienso que es el mejor medio:</l>
+          <l>mas yo dexar à Madrid,</l>
+          <l>Patria mia? À lo que entiendo</l>
+          <l>pienso que ha de ser mejor</l>
+          <l>vivir oculto, pues tengo</l>
+          <l>mil partes donde me acoxan;</l>
+          <l>pero como vivir puedo</l>
+          <l>yo encerrados sin salir</l>
+          <l>à lo publico? hà ingenio!</l>
+          <l>pues aora tu me faltas,</l>
+          <l>que estoy en mayor aprieto?</l>
+          <l>Pienso que ha de ser mejor</l>
+          <l>bolverme Santo al momento;</l>
+          <l>mas he de huir de la Corte,</l>
+          <l>que se opone mucho al serlo.</l>
+          <l>A lo mystico me acoxo,</l>
+          <l>gran refugio en estos timpos,</l>
+          <l>à que vale la hypocresia</l>
+          <l>à vezes qualquier dinero;</l>
+          <l>Ella me valga, y ampare,</l>
+          <l>y pues no hallo otro remedio,</l>
+          <l>ni he de quedar en la Corte, ò</l>
+          <l>à Dios consortes parleros,</l>
+          <l>à Dios esquinas, y Plazas,</l>
+          <l>à Dios vulgo novelero,</l>
+          <l>à Dios casas, a Dios calles,</l>
+          <l>à Dios Tertulias, y juegos,</l>
+          <l>las Gradas de San Felipe,</l>
+          <l>donde morè tanto tiempo.</l>
+          <l>A Dios todos mis amigos,</l>
+          <l>y à Dios todo el universo,</l>
+          <l>que mis culpas, y pecados</l>
+          <l>me destierran de los Reynos;</l>
+          <l>y no pàro de carrera</l>
+          <l>hasta llegar à un desierto,</l>
+          <l>adonde estarè escondido</l>
+          <l>esperando nuevo tiempo,</l>
+          <l>que pueda venir marchito,</l>
+          <l>y con mi Rosario al cuello,</l>
+          <l>con un saco de Ermitaño</l>
+          <l>engañando a todo el Pueblo;</l>
+          <l>pues ya no se acordaràn</l>
+          <l>los que de Embuste me vieron.</l>
+          <l>No me atrevo en la Academia</l>
+          <l>à hallarme: à Dios Mosqueteros.;</l>
+        </sp>
+        <stage>Vase, y sale la Iusticia de priessa, y à Marte tras de ella.</stage>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Espera, amado impossible,</l>
+          <l>bellissima fiera, aguarda.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Señor Soldado, en la guerra</l>
+          <l>no se adquiere, no se guarda</l>
+          <l>mas politica? es acaso;</l>
+          <l>ser grosseros con las Damas</l>
+          <l>especie de valentia?</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Què mayor guerra, tyrana,</l>
+          <l>si en la lid de vuestros ojos</l>
+          <l>me dìstan cruel batalla,</l>
+          <l>que triunfando de la vida</l>
+          <l>al rigor de una mirada,</l>
+          <l>el alma me has assaltado?</l>
+          <l>Y si perdi vida, y alma,</l>
+          <l>que avrà, señora, que tema!</l>
+          <l>perder mi loca arrogancia?</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Si avrà.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mar.</speaker>
+          <l>Pues què?</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>La opinion,</l>
+          <l>que es invencible muralla</l>
+          <l>aplicad à ella el valor,</l>
+          <l>que no es accion acertada,</l>
+          <l>que uno siga al que atrevido</l>
+          <l>le ha robado alguna alhaja,</l>
+          <l>si franqueada la puerta</l>
+          <l>està, la que queda en casa</l>
+          <l>expuesta mayor peligro,</l>
+          <l>por ser de mas importancia;</l>
+          <l>y mas con el fin dudoso</l>
+          <l>de si podrà, o no alcançarla:</l>
+          <l>y assi os pido que os quedeis,</l>
+          <l>no lo perdais todo.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Aguarda.</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Mirad que ya el Planeta mas sogoso</l>
+          <l>brilla en otro Oriente luminoso.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mar.</speaker>
+          <l>Nise hermosa, esperad, que aunque la Noche</l>
+          <l>en su lugubre manto desabroche;</l>
+          <l>por diamantes Estrellas</l>
+          <l>donde se hallan, mi bien, tus luzes bellas,</l>
+          <l>no harà ultrage a la luz del Sol la ausencia</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Que agradecer teneis à mi paciencia</l>
+          <l>en averos sufrido:</l>
+          <l>ved que en Palacio estamos, no atrevido.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Que es un Palacio? pues mi orgullo solo</l>
+          <l>no hiziera esto a estar en el de Apolo?</l>
+          <l>què aquesto escuche Marte!</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Si yo; pero me voy por no escucharte.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Bella Nise del alma, dueño amado</l>
+          <l>no bastava una flecha de tus ojos</l>
+          <l>para abrasarme el alma d tus enojos?</l>
+          <l>no la ausencia atormente mi cuydado</l>
+        </sp>
+        <stage>Sale el Rey oyendo los ultimos versos al mismo tiempo que se va la Iusticia.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Aguarda, vive el Cielo: què he escuchado?</l>
+          <l>pero embozarme arbitro es muy discreto.</l>
+          <stage>Embozase.</stage>
+          <l>que a mi mismo por Dios tengo respeto.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Pues se ha embozado, hazer lo mismo quiero.</l>
+          <stage>Embozase también.</stage>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Què a essa Dama dezias?</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Lo postrero</l>
+          <l>fue que le dixo mi rendido afecto,</l>
+          <l>aunque de mi despeño tu rigor me avise:</l>
+          <l>Bella Nise,</l>
+          <l>prision seràs en tan confusa calma</l>
+          <l>de el alma,</l>
+          <l>que dm la vida ya tus ojos han triunfado</l>
+          <l>dueño amado;</l>
+          <l>que aunque crueldad tus iras me han mostrado,</l>
+          <l>mas gloria no pretendo en el mirarte</l>
+          <l>que rendido a tu luz poder llamarte</l>
+          <l>Bella Nise del alma, dueño amado.</l>
+          <l>El rigor con que amor me maltratava</l>
+          <l>no bastava?</l>
+          <l>quando en mi pecho aun no quedo defecha</l>
+          <l>una flecha,</l>
+          <l>sin añadir la ausencia a mis enojos,</l>
+          <l>de tus ojos?</l>
+          <l>si el alma me llevaste por despojos</l>
+          <l>para què amor me trata de esta suerte?</l>
+          <l>pues sin la ausencia para darme muerte.</l>
+          <l>No bastava una flecha de tus ojos?</l>
+          <l>De tus laxes que importa el ausentarme,</l>
+          <l>para abrasarme?</l>
+          <l>que como porque logres mayor palma,</l>
+          <l>el alma,</l>
+          <l>el coraron que hirie ron con tus ojos</l>
+          <l>tus enojos,</l>
+          <l>te tributo rendida por despojos,</l>
+          <l>con èl, divina Nise, te has quedado;</l>
+          <l>con que nada la ausencia avrà importado</l>
+          <l>Para abrasarme el alma a tus enojos.</l>
+          <l>De tu hermosura susto la inclemencia,</l>
+          <l>no la ausencia;</l>
+          <l>porque aunque al alma en tan esquiva suerte</l>
+          <l>atormente,</l>
+          <l>logra a tu vista el puerto deseado mi cuydado,</l>
+          <l>si en el mar de mis ansias engolfado</l>
+          <l>logra su alivio quando a verte llegue,</l>
+          <l>es razon que esta dicha se le niegue?</l>
+          <l>No la ausencia atormente mi cuy dado.</l>
+          <l>Vès aqui por palabras referido</l>
+          <l>lo que la dixe, si lo has entendido,</l>
+          <l>y si no lo dirè mas descifrado</l>
+          <l>Bella Nise, &amp;c.</l>
+          <l>Esto es lo que la dixe con terneza</l>
+          <l>què como èn mi palabra mi nobleza</l>
+          <l>tiene precio infinito,</l>
+          <l>una letra si quiera no le quito,</l>
+          <l>y busco por mil modos</l>
+          <l>la explicacion mas clara para todos.</l>
+          <l>Y que yo aya tenido tolerancia</l>
+          <l>para oìr su arrogancia!</l>
+          <l>Villano, pues tu aspiras,</l>
+          <l>sin ser antes despojo de mis iras,</l>
+          <l>al bello objeto de mi fino amor?</l>
+          <l>Si el propio Marte fueras,</l>
+          <l>mi furor mas pedazos te hiziera,</l>
+          <l>que atomos tiene el Sol.</l>
+        </sp>
+        <stage>Sacan las espadas y riñen sin desembozarse.</stage>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Mucho sintiera</l>
+          <l>que malograsses vuestro aliento ossado</l>
+          <l>que estoy aficionado</l>
+          <l>à tan bizarro impulso:</l>
+          <l>mas vive el Cielo que tan raro pulso</l>
+          <l>en los siglos se ha visto!</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Una roca conquisto.</l>
+        </sp>
+        <sp who="#dentro_1">
+          <speaker>Dentr.</speaker>
+          <l>Traycion, que esta el Palacio alborotado</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Mas escucha, detente.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Lance apretado!</l>
+          <l>o que à mucho se expone</l>
+          <l>à el que la Magestad tal vez depone!</l>
+          <l>Si de mi Guarda llega el tropel fiero,</l>
+          <l>no cumplo con la ley de Cavallero</l>
+          <l>en dexar que le prendan, pues ya ossada</l>
+          <l>con la mia à medir llego su espada:</l>
+          <l>y si impedir lo quiero,</l>
+          <l>no cumplo con la ley de justiciero.</l>
+          <l>Vàlgate aqueste trance;</l>
+          <l>para librar la vida en este lance;</l>
+          <l>por aqueste baleos que está primero</l>
+          <l>podràs huir ligero</l>
+          <l>del Palacio la inquieta turbación.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Mas bien diràs en tanta confusión.</l>
+          <l>que antes que llegue su precisa saña</l>
+          <l>huya el valor que monstruo te acompaña:</l>
+          <l>mas antes que se frustre la ocasion,</l>
+          <l>arroxarme pretendo del balcon:</l>
+          <l>sin conoceros obligado estoy.</l>
+          <stage>Vas.</stage>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>A recogerme luego al punto voy,</l>
+          <l>por quietar de mi gente</l>
+          <l>el cuydado que obstenta diligente.</l>
+        </sp>
+        <stage>Vase, salen el Amor, y el Aplauso.</stage>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Digo, pues, que eternamente</l>
+          <l>la feliz correspondencia</l>
+          <l>de la fama mi influencia</l>
+          <l>te darà, y no solamente</l>
+          <l>en amarte, mas si quieres;</l>
+          <l>yo te ofrezco que consiga</l>
+          <l>tu passion, que ella te</l>
+          <l>siga donde tu cuydado fuere.</l>
+          <l>Mira si ofrecerte Amor</l>
+          <l>puede mayor conveniencia,</l>
+          <l>pues haze que aun de la ausencia</l>
+          <l>no padezcas el rigor.</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Aplaus.</speaker>
+          <l>Pues ya el Laurèl has ganado;</l>
+          <l>que tu cuydado conquista,</l>
+          <l>pues donde mi gracia assista</l>
+          <l>està el empeño sobrado;</l>
+          <l>mas ya parece, ò Amor,</l>
+          <l>que està todo prevenido;</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Yo cumplirè lo ofrecido.</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Apl.</speaker>
+          <l>Pues yo te ofrezco el favor.</l>
+        </sp>
+        <stage>Vas.</stage>
+      </div>
+      <div type="act">
+        <head>JORNADA TERCERA;</head>
+        <stage>Canta la Música, salen el Rey, Grandes y acompañamiento, Marte, Minerva, la Fama, el Aplauso, el Amor, la Fortuna, y Firmeza, y se sientan cada uno en el lugar que le pertenezca, y ha de aver al lado del Rey sobre una Rueda formado un trono en forma de Solio, de modo que fixa à ella la silla en que estè sentado su Magestiad pueda subir al movimiento de la Rueda, y ponen sobre un bufete una Corona de Laurèles, y una Targeta con la cifra del nombre de Phelipe, y como puesto en ella el assumpto de la Academia.</stage>
+        <sp who="#musicos">
+          <speaker>Music.</speaker>
+          <l>A la Palestra venid,</l>
+          <l>vereis en la Lid mayor</l>
+          <l>de tanta luz el incendio,</l>
+          <l>de tanto rayo el fulgor:</l>
+          <l>silencio, atención,</l>
+          <l>que obstentando està el assumpto</l>
+          <l>en cada letra un primor.</l>
+          <l>Venid à la hermosa, ingeniosa question:</l>
+          <l>atencion, silencio, atención.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Gran concurso!</l>
+        </sp>
+        <sp who="#grande_1">
+          <speaker>Grand. 1.</speaker>
+          <l>Ya, Señor,</l>
+          <l>para empezar, dad licencia,</l>
+          <l>la festiva competencia.</l>
+          <l>que anuncia tanto primor.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Dizes bien, y pues preside</l>
+          <l>en aquesta hermosa Balla</l>
+          <l>el Aplauso, la batalla</l>
+          <l>luego al punto les intime.</l>
+          <stage>Ap.</stage>
+          <l>Mucho estraño que no aya,</l>
+          <l>Nise, à este empeño venido;</l>
+          <l>què motivo avrà tenido?</l>
+          <l>nunca un instante desmaya</l>
+          <l>mi cuydado.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mar.</speaker>
+          <stage>Ap.</stage>
+          <l>Nise hermosa</l>
+          <l>no ha venido à esta funcion;</l>
+          <l>què será, ay Dios, la ocasion?</l>
+          <l>que un instante no reposa</l>
+          <l>mi desvelo; y desde aquel</l>
+          <l>acaso tan peligroso</l>
+          <l>no he podido vèr su hermoso,</l>
+          <l>su divino rosicler;</l>
+          <l>y fue fortuna librarme,</l>
+          <l>pues que fue el Rey he entendido</l>
+          <l>què aliento tan atrevido!</l>
+          <l>què aya llegado à obligarme,</l>
+          <l>quando pudiera ofenderme!</l>
+          <l>y que yo llegue à vencerme,</l>
+          <l>quando amor llega a abrasarme!</l>
+          <l>Ha infame passion! burlarte</l>
+          <l>pretende mi aliento fuerte;</l>
+          <l>pues el que en ti se divierte,</l>
+          <l>ni es de un cuerdo, ni es de un Marta.</l>
+          <l>Quantos cobardes has hecho</l>
+          <l>de los que mas atrevidos</l>
+          <l>blasonan? pues divertidos;</l>
+          <l>què animos? quantos pechos</l>
+          <l>tu ceguedad ha arrastrado?</l>
+          <l>quantas ruinas ocasionas?</l>
+          <l>quantas infamias pregonàs?</l>
+          <l>què vilezas no has causàdo?</l>
+          <l>de quantas glorias ultrage</l>
+          <l>viene a sèr tu loco efecto?</l>
+          <l>Hercules por un afecto</l>
+          <l>no reduxo à indigo trage</l>
+          <l>su bizarria postrada?</l>
+          <l>y haziendo al valor soborno,</l>
+          <l>por un femenil adorno,</l>
+          <l>por una aguja su espada</l>
+          <l>no trocò? Aquiles valiente</l>
+          <l>este oprobio no padece?</l>
+          <l>pues no es loco el que apetece</l>
+          <l>a este delirio imprudente?</l>
+          <l>què lastimas no ha causado</l>
+          <l>del amor la tyrania?</l>
+          <l>Avrà avido Monarquia,</l>
+          <l>que su crueldad reservado</l>
+          <l>aya? pues no es justo amar,</l>
+          <l>sacra vanos antojos</l>
+          <l>que no es bien cieguen los ojos,</l>
+          <l>quando ay tanto que mirar.</l>
+        </sp>
+        <sp who="#musicos">
+          <speaker>Mus.</speaker>
+          <l>Vereis que el mayor Philipo</l>
+          <l>reduce al tiempo menor</l>
+          <l>con la mas granada infancia,</l>
+          <l>la grandeza mas en flor.</l>
+          <l>Silencio, atencion, &amp;c</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Aplaus.</speaker>
+          <l>Ya la Musica apercibe,</l>
+          <l>en acorde suspension,</l>
+          <l>de nuestro empeño el assumpto.</l>
+          <l>Soberano, gran Señor,</l>
+          <l>que cuya grandeza el tiempo</l>
+          <l>es corto, es breve padron,</l>
+          <l>à cuyo dominio el mundo</l>
+          <l>corta Esfera es de tu Sol,</l>
+          <l>debil vasa de tu planta,</l>
+          <l>cuyos timbres, cuyo ardor</l>
+          <l>son lisonjas de los bronces,</l>
+          <l>fatigas del buril son.</l>
+          <l>Noble, luzido Concurso,</l>
+          <l>que en discreta desunion,</l>
+          <l>si à un objeto se atribuye</l>
+          <l>vuestra heroyca oposicion,</l>
+          <l>vuestros discordes conceptos</l>
+          <l>aspirando todos oy</l>
+          <l>a un mas que à la gloria vuestra</l>
+          <l>à dar el mayor blason</l>
+          <l>à quien tantos presta el mundo.</l>
+          <l>Tan divina es la question,</l>
+          <l>que aun merecerà</l>
+          <l>el vencido con glorias de vencedor</l>
+          <l>premiarlo, pues al que vence</l>
+          <l>en su misma idea diò,</l>
+          <l>tanto motivo à sus luzes,</l>
+          <l>que sirviendo de escalon</l>
+          <l>à la altura de aquel triunfo</l>
+          <l>no ay duda que consiguió</l>
+          <l>darle la mayor grandeza</l>
+          <l>à tan Regio gran Señor;</l>
+          <l>pues mal fuera aquella grande</l>
+          <l>si otra no fuera menor.</l>
+          <l>Este en fin es el assumpto,</l>
+          <l>Que la voluntad formó,</l>
+          <l>de tanto leal cariño,</l>
+          <l>de tanto encendido amor.</l>
+          <stage>Lee.</stage>
+          <l>&lt;p&gt;Entre las partes que componen à un gran Principe venerado, amado, y temido, disputase, qual resplandece mas en nuestro muy poderoso Monarca; y se ofrece este Laurèl por premio al vencedor; mas se advierte.&lt;/p&gt;</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Aguarda, no prosigas,</l>
+          <l>que por publicas ya, como sabidas</l>
+          <l>parecen escusadas</l>
+          <l>las circunstancias, quando no cansadas;</l>
+          <l>y mas ociosas, quando ya eloquente</l>
+          <l>has dicho que à vencer tan solamente</l>
+          <l>mi cuydado ha venido,</l>
+          <l>no a disputar; pues quien se ha persuadido</l>
+          <l>à que siempre la Fama</l>
+          <l>no es sola quien aclama</l>
+          <l>la grandeza mayor</l>
+          <l>y las glorias, las proezas, y el valor?</l>
+          <l>superflua es ya la Lid.</l>
+        </sp>
+        <sp who="#musicos">
+          <speaker>Music.</speaker>
+          <l>A la Palestra venid,</l>
+          <l>vereis en la Lid mayor.</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Dulce suspension del viento,</l>
+          <l>pause tu canora voz;</l>
+          <l>pues si el assumpto es qual fea</l>
+          <l>de estas partes la mayor,</l>
+          <l>y à quien tambièn se atribuya</l>
+          <l>su feliz consecucion,</l>
+          <l>razon que ya sentenciada</l>
+          <l>està en su misma razon</l>
+          <l>a mi favor, para què</l>
+          <l>esponerla en opinion?</l>
+          <l>Mio es el Laurèl florido,</l>
+          <l>por què quien con ciego error</l>
+          <l>ay que oponèrsmme intente?</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>A quel a quien le toca solamente,</l>
+          <l>porque serà desayre conocido</l>
+          <l>ver que a la Fama se hà atribuido</l>
+          <l>glorias en que se emplea,</l>
+          <l>quando el merito proprio las grangea</l>
+          <l>y mas quando en tus ecos repetido</l>
+          <l>se harà vulgar aplauso tan luzido:</l>
+          <l>mas le acredita Amor,</l>
+          <l>pues sabe reducir en su primor</l>
+          <l>a tan feliz compendio.</l>
+        </sp>
+        <sp who="#amor #musicos">
+          <speaker>El, y Musi.</speaker>
+          <l>De tanta luz el incendio,</l>
+          <l>de tanto rayo el fulgor,</l>
+          <l>pues solo el Amor le dà</l>
+          <l>quanto Augusto mereciò;</l>
+          <l>luego solo a mise debe pues</l>
+          <l>el merito le doy,</l>
+          <l>y fin èl siempre la Fama</l>
+          <l>tan fragilmente bolò,</l>
+          <l>que es fuerza que se consuma.</l>
+        </sp>
+        <sp who="#minerva">
+          <speaker>Min.</speaker>
+          <l>No harà, pues bolarà en alas de su pluma.</l>
+          <l>De mèrito mas noble, mas altivo</l>
+          <l>harè excelso a la Fama su motivo,</l>
+          <l>porque unica sea</l>
+          <l>quien consiga el trofeo en la presea</l>
+          <l>en el circulo hermoso de Laurèles,</l>
+          <l>dignissimo trofeo de sus sienes.</l>
+          <l>Mal al discurso intentas oponerte,</l>
+          <l>si el propio Tema dize desta suerte</l>
+          <l>que es el Ingenio en fin prenda mayor:</l>
+          <l>no adviertes, ciego Amor,</l>
+          <l>que publica el empeño siempre culto.</l>
+        </sp>
+        <sp who="#minerva #musicos">
+          <speaker>Ella y Music.</speaker>
+          <l>Que obstentando està el assumpto</l>
+          <l>en cada letra un primor.</l>
+          <l>Con que si la Fama sola</l>
+          <l>en este merito hallò</l>
+          <l>de sus rectoricas vozes</l>
+          <l>la causa que la alentò</l>
+          <l>suyo es el Laurèl florido,</l>
+          <l>que estoy de su parte yo:</l>
+          <l>pues quien niega que so Ciencia</l>
+          <l>es la parte que ilustrò</l>
+          <l>mas al hombre que otra alguna?</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Quien dize que le ensalça la Fortuna,</l>
+          <l>pues sola mi influencia</l>
+          <l>basta a borrarle el merito a la Ciencia;</l>
+          <l>y si feliz prosigue mi inconstancia</l>
+          <l>podrà hazer que lo logre so ignorancia.</l>
+          <l>No gran Señor, le quito a tu prudencia</l>
+          <l>el dignissimo esmalte de tu Ciencia,</l>
+          <l>pues brilla en tu divino entendimiento,</l>
+          <l>de tanta erudicion, nuevo portento.</l>
+          <l>Pues lo que aora intenta mi razón,</l>
+          <l>Es, divina Minerva, en conclusion,</l>
+          <l>darte a encender, que la Ciencia mera,</l>
+          <l>nadie logro tan soberana Esfera;</l>
+          <l>pues sino le protege lo benigno</l>
+          <l>de mi influxo propicio, con lo digno,</l>
+          <l>corto laurèl se alcança,</l>
+          <l>pues sin Fortuna, solo ay esperança.</l>
+          <l>Oy aqui aplico todo mi favor,</l>
+          <l>que mi fineza cintra vuestro error,</l>
+          <l>en las glorias que atenta so anticipo.</l>
+        </sp>
+        <sp who="#fortuna #musicos">
+          <speaker>Ella, y Music.</speaker>
+          <l>Vereis quel mayor Philipo</l>
+          <l>reduce al tiempo menor.</l>
+          <l>Mira tu si en esta Lid,</l>
+          <l>tan parcial soy del Amor,</l>
+          <l>que es èl la misma inconstancia;</l>
+          <l>que miser simbolizo</l>
+          <l>como intentarà vencerle,</l>
+          <l>si estoy de su parte yo?</l>
+          <l>Por què quien impugnarà;</l>
+          <l>si razon no le faltò</l>
+          <l>a quien tiene de su parte</l>
+          <l>a la Fortuna?</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Solo el mismo Marte,</l>
+          <l>y este en fin solo Principe valiente;</l>
+          <l>porque el valor no ha menester la suerte;</l>
+          <l>pues quando de la dicha esta pendiera</l>
+          <l>desmayarel valor tal vez pudiera,</l>
+          <l>como alentar tal vez la cobardia:</l>
+          <l>implicacion que vièramos que unia</l>
+          <l>propiedades opuestas,</l>
+          <l>tato que del valor se vèn compuestas</l>
+          <l>la honra, y la nobleza,</l>
+          <l>la gala, y gentileza:</l>
+          <l>mas de la cobardia</l>
+          <l>compuesta solo esta la villania;</l>
+          <l>y mas quando se vèn con tal primor</l>
+          <l>unidas la prudencia) el valor</l>
+          <l>pues tan heroyco engaste</l>
+          <l>nunca se hallo tuviesse algún contraste.</l>
+          <l>Esta en sin Fortuna generosa,</l>
+          <l>son las partes que ilustran la dichosa,</l>
+          <l>la gran soberania</l>
+          <l>del dueño, Atlante de esta Monarqui.</l>
+          <l>Errante el rumbo sigues del Amor</l>
+          <l>pues monstruo de prudencia y de valor</l>
+          <l>sabe esmaltar verdores de arrogancia</l>
+        </sp>
+        <sp who="#marte #musicos">
+          <speaker>El y Music.</speaker>
+          <l>Con la mas granada infancia.</l>
+          <l>Con que el Laurèl mereciò</l>
+          <l>la Fama, si sus Padrinos</l>
+          <l>Minervas, y Marte son oy;</l>
+          <l>porque què astucias, què medios,</l>
+          <l>què iras, què alhagos Amor.</l>
+          <l>Tendrá que altivos compitan</l>
+          <l>con un prudente valor?</l>
+          <l>Vuestro escarmiento segundo</l>
+          <l>serà este Ulises mayor;</l>
+          <l>desististe de este empeño</l>
+          <l>por mas conveniente doy,</l>
+          <l>que aquesta Diadema hermosa</l>
+          <l>solo aqui la mereciò</l>
+          <l>la Fama, pues ella sola:</l>
+          <l>de estos méritos formò</l>
+          <l>las vozes para su aliento</l>
+          <l>alientos para so voz,</l>
+          <l>tan constantes, que no incurran</l>
+          <l>en la natural pension</l>
+          <l>que les dà tu ereza.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>No hará, pues la Firmeza</l>
+          <l>sabrà fixar su rueda de tal suerte</l>
+          <l>que estè en el mayor solio eternamente</l>
+          <l>en el Trono elevado</l>
+          <l>se verà so renombre vinculado,</l>
+          <l>pues para que immortal está aplaudido</l>
+          <l>se verà en el Amor siempre esculpido</l>
+          <l>Lo constante, lo firme, y permanente</l>
+          <l>son las partes que al hombre noblemente</l>
+          <l>magnanimo acreditan,</l>
+          <l>mira como compitan</l>
+          <l>los epitectos que tu error mantiene</l>
+          <l>y si ya Amor le previene</l>
+          <l>quando es de este aparato movil digno,</l>
+          <l>de la feliz Fortuna lo benigno;</l>
+          <l>y atendiendo à su fragil ligereza</l>
+          <l>su duracion previene à la Firmeza;</l>
+          <l>que Fortuna, y Firmeza han convenido,</l>
+          <l>por darle à su grandeza lo florido;</l>
+          <l>si en su lozana pompa encuentra</l>
+          <l>Amor.</l>
+        </sp>
+        <sp who="#firmeza #musicos">
+          <speaker>Ella, y Music.</speaker>
+          <l>La grandeza mas en flor</l>
+          <l>Oy sera aqueste Laurèl,</l>
+          <l>digno trofeo de Amor,</l>
+          <l>que en Lides de los afectos</l>
+          <l>siempre su orgullo venciò;</l>
+          <l>y tiene à la voluntad</l>
+          <l>de parte de su razon,</l>
+          <l>padrino que en todos tiempos</l>
+          <l>is el què mas mereciò</l>
+          <l>mas si altiva permanece</l>
+          <l>vuestra tenaz presumpcion,</l>
+          <l>à la prueba me remito,</l>
+          <l>que es quièn siempre declaro</l>
+          <l>la justicia de las partes.</l>
+          <l>Ella, pues, en conclusion</l>
+          <l>justifique de cada uno</l>
+          <l>la defendida assercion.</l>
+        </sp>
+        <sp who="#musicos">
+          <speaker>Music.</speaker>
+          <l>Silencio, atencion, &amp;c.</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Aplau.</speaker>
+          <l>Buelva à repetir la Fama</l>
+          <l>la discreta conclusion</l>
+          <l>que defiende, prosiguiendo</l>
+          <l>con la prueba la question.</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Digo, que solo merece</l>
+          <l>mi opinion tan justa gloria</l>
+          <l>por ser suya la victoria</l>
+          <l>con mas razon, quando ofrece</l>
+          <l>el favor tan esforçado,</l>
+          <l>que en tales meritos gana,</l>
+          <l>pues haze mas soberana</l>
+          <l>la idèa de mi cuydado.</l>
+          <l>Este Señor singular</l>
+          <l>el mayor blason que goza,</l>
+          <l>en tanto solo lo cobra,</l>
+          <l>que afamado llega à estar</l>
+          <l>se imperio, se potestad,</l>
+          <l>sus renobres, y su historia</l>
+          <l>le hazen digno de tal gloria,</l>
+          <l>pues se vè su Magestad</l>
+          <l>de mis ecos al sonido</l>
+          <l>en sus Reynos aclamado,</l>
+          <l>en estraños venerado,</l>
+          <l>y en todos al fin temido.</l>
+          <l>Tributen por varios modos</l>
+          <l>demonstraciones de amor</l>
+          <l>unos, otros de temor,</l>
+          <l>postrando à sus plantas todos</l>
+          <l>dones, que para agradarle</l>
+          <l>su prevencion ha criado.</l>
+          <stage>Cant.</stage>
+          <l>Y pues tal hijo ha logrado</l>
+          <l>venga Europa à festejarle,</l>
+        </sp>
+        <stage>Sale Europa de Dama à lo Español, trayendo por insignia la Tiara Pontifical, y en otra mano en una salvilla una Corona, y una espada, que haziendo reverencia, y cantando os versos siguientes la ofrece a su Magestad.</stage>
+        <sp who="#europa">
+          <stage>Cant. Europ.</stage>
+          <l>Recibe gustoso,</l>
+          <l>Monarca dichoso,</l>
+          <l>ofrenda tan corta,</l>
+          <l>que mi amor te ofrece;</l>
+          <l>pues fuera luziente,</l>
+          <l>grossero presente</l>
+          <l>el Sol para quanto</l>
+          <l>tu valor merece.</l>
+          <stage>Vase.</stage>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam. cant.</speaker>
+          <l>America gozosa</l>
+          <l>perlas le trayga,</l>
+          <l>pues logrò en el Plus Ultra</l>
+          <l>tan gran Monarca.</l>
+        </sp>
+        <stage>Sale America à lo lndio, trae en una mano un Escudo, y en èl pintadas las Columnas con el Plus Pitra, y obre ellas el nombre de Philipo, y en otra una sarta de perlas, que las ofrece cantando, y como Europa.</stage>
+        <sp who="#america">
+          <speaker>Americ.</speaker>
+          <l>Recibe con mi amor</l>
+          <l>o Hercules mayor,</l>
+          <l>en señal de ser tuya,</l>
+          <l>de lealtad en muestras,</l>
+          <l>corra ofrenda de bienes,</l>
+          <l>mayor de parabienes,</l>
+          <l>pie en perlas os tributa</l>
+          <l>usana mi fineza.</l>
+          <stage>Vase</stage>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam. cant.</speaker>
+          <l>Unidas le festejen</l>
+          <l>Africa, y Asia</l>
+          <l>si rendidas obligan</l>
+          <l>busquen sus plantas.</l>
+        </sp>
+        <stage>Salen Asia vestida à lo Iudio, Africa à lo Morisco, traen tedas encendidas, y postrandose à los pies de su Magestad, cantan los versos siguientes.</stage>
+        <sp who="#asia">
+          <speaker>Asia.</speaker>
+          <l>Por Rey de Ierusalen.</l>
+        </sp>
+        <sp who="#africa">
+          <speaker>Afric.</speaker>
+          <l>Por propinqua, y vuestra esclava.</l>
+        </sp>
+        <sp who="#asia">
+          <speaker>Asia.</speaker>
+          <l>Oy postrada à vuestros pies.</l>
+        </sp>
+        <sp who="#africa">
+          <speaker>Afric.</speaker>
+          <l>A vuestras plantas postrada.</l>
+        </sp>
+        <sp who="#asia">
+          <speaker>Asia</speaker>
+          <l>Nueva grandeza os tributo.</l>
+        </sp>
+        <sp who="#africa">
+          <speaker>Afric.</speaker>
+          <l>Os ofrezco glorias tantas.</l>
+        </sp>
+        <sp who="#asia">
+          <speaker>Asia.</speaker>
+          <l>De una Corona en los timbres.</l>
+        </sp>
+        <sp who="#africa">
+          <speaker>Afric.</speaker>
+          <l>De tanto Puerto en la salva.</l>
+        </sp>
+        <stage>Levantanse.</stage>
+        <sp who="#asia">
+          <speaker>Asia.</speaker>
+          <l>Con que en todo el mundo.</l>
+        </sp>
+        <sp who="#africa">
+          <speaker>Afric.</speaker>
+          <l>Seràs sin segundo.</l>
+        </sp>
+        <sp who="#asia">
+          <speaker>Asia.</speaker>
+          <l>Solo por tus prendas.</l>
+        </sp>
+        <sp who="#africa">
+          <speaker>Afric.</speaker>
+          <l>Amado, y temido.</l>
+        </sp>
+        <sp who="#asia">
+          <speaker>Asia.</speaker>
+          <l>Pues de uno à otro Polo.</l>
+        </sp>
+        <sp who="#africa">
+          <speaker>Afric.</speaker>
+          <l>Tu renombre solo.</l>
+        </sp>
+        <sp who="#asia">
+          <speaker>Asia.</speaker>
+          <l>La Fama publica.</l>
+        </sp>
+        <sp who="#africa">
+          <speaker>Afric.</speaker>
+          <l>Con dulce sonido.</l>
+        </sp>
+        <stage>Vanse.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Assì de vuestras cervices</l>
+          <l>la fiera altivez sobervia</l>
+          <l>domara al suave yugo</l>
+          <l>de la Catholica Iglesia,</l>
+          <l>pues solo en esto confio</l>
+          <l>en la voluntad suprema,</l>
+          <l>que de tantos beneficios</l>
+          <l>he de pagar la gran deuda.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Aunque la Fama ha dexado</l>
+          <l>concluido el argumento,</l>
+          <l>dar quiero mas fundamento</l>
+          <l>à la razon que ha alegado,</l>
+          <l>pues si el merito la esfuerça</l>
+          <l>que oy lustra à nuestro Rey,</l>
+          <l>que gane el Laurèl es ley</l>
+          <l>de tanta razon la fuerça.</l>
+          <l>Digo pues, que el predicado</l>
+          <l>que mas sequito, mas loor</l>
+          <l>leda à un Rey, es el valor,</l>
+          <l>que a este invicto ha acreditado.</l>
+          <l>Lo guerrero, lo valiente,</l>
+          <l>lo esforçado, y belicoso;</l>
+          <l>es el timbre mas famoso,</l>
+          <l>que celebrò eternamente</l>
+          <l>el mundo: quantos Imperios</l>
+          <l>ganado ha la valentia</l>
+          <l>y quantos la cobardia</l>
+          <l>padeciò al fin vituperios.</l>
+          <l>El ardimiento, y la ira</l>
+          <l>son parciales del valor;</l>
+          <l>y si lo son del Amor</l>
+          <l>los cariños, como aspira</l>
+          <l>à darles la menor gloria?</l>
+          <l>Caricias le influya Amor,</l>
+          <l>que si le influyo valor,</l>
+          <l>mia es oy pues la victoria.</l>
+          <l>Cobardes haze el cariño;</l>
+          <l>el valor haze atrevidos;</l>
+          <l>y no se han visto temidos</l>
+          <l>de un diamante, ciego Niño,</l>
+          <l>tus golpes, y pues Atlante</l>
+          <l>de la Evangèlica Ley</l>
+          <l>se verà este Augusto Rey;</l>
+          <l>lo esforçado, lo triunfante</l>
+          <l>serà justo que le aliente</l>
+          <l>severo aspecto, y voz grave:</l>
+          <l>que aunque semeje suave,</l>
+          <l>quando se enoje amedrente;</l>
+          <l>y hecho su aliento una hoguera</l>
+          <l>mas bien pronuncie en rigor</l>
+          <l>que retoricas de Amor:</l>
+          <l>Arma, arma, guerra, guerra.</l>
+        </sp>
+        <stage>Suenan caxas, y clarines, y el Rey se levanta alterado.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Què belicosa armonia</l>
+          <l>assi mi valor altera?</l>
+          <l>assi mi espiritu incita?</l>
+        </sp>
+        <sp who="#dentro_2">
+          <speaker>Dent.</speaker>
+          <l>Arma, arma, guerra, guerra.</l>
+        </sp>
+        <stage>Saca el Rey furioso la espada.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Abrasarè el viento a soplos,</l>
+          <l>arderà en llamas la tierra</l>
+          <l>menor de mis alientos.</l>
+          <l>Africa aguard, Asia espera,</l>
+          <l>Que a los filos de mi espada</l>
+          <l>tu ruina veràs sangrienta.</l>
+          <l>Yo en delicias divertido?</l>
+          <l>yo entregado la tarea</l>
+          <l>del ocio? quando padece</l>
+          <l>la Fè Santa verdadera</l>
+          <l>de tanto Barbaro Infiel</l>
+          <l>la lastimosa estrañeza;</l>
+          <l>de santo Pagano infame</l>
+          <l>la tenacidad proterva,</l>
+          <l>de la Heretica infeccion;</l>
+          <l>la pravedad mas horrenda?</l>
+          <l>y espero à que me despierten</l>
+          <l>las caxas, y las trompetas?</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Repitan, pues, la armonìa.</l>
+        </sp>
+        <sp who="#dentro_2">
+          <speaker>Dentr.</speaker>
+          <l>Arma, arma, guerra, guerra.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Soldados, amigos, ola,</l>
+          <l>ponedme un cavallo apriessa,</l>
+          <l>que antes que el curso repita</l>
+          <l>esse abrasado Planeta.</l>
+        </sp>
+        <sp who="#minerva">
+          <speaker>Min.</speaker>
+          <l>Aguarda, Señor, aguarda,</l>
+          <l>escucha detente, espera,</l>
+          <l>que un impetu no es razon</l>
+          <l>triunfe assi de las potencias.</l>
+          <l>Reportaos, y mirad</l>
+          <l>que las acciones de guerra</l>
+          <l>no es bien las mande la ira</l>
+          <l>quando puede la prudencia;</l>
+          <l>pues esta aun en todos casos</l>
+          <l>es la que rige, y govierna</l>
+          <l>de todas operaciones</l>
+          <l>la dirección, que es mas cuerda.</l>
+          <l>Quien logra el feliz acuerdo:</l>
+          <l>en la indefectible ciencia;</l>
+          <l>de tanto inviperito,</l>
+          <l>que Oraculos representan?</l>
+          <l>Deidades en los Coniejos,</l>
+          <l>y en cada Sala una Esfera;</l>
+          <l>que del Consistorio Empireo</l>
+          <l>dar pudiera alguna seña,</l>
+          <l>no serà bien què al impulso;</l>
+          <l>de una lozana violencia;</l>
+          <l>de un espiritu ferviente,</l>
+          <l>materias que graves sean,</l>
+          <l>y que en ellas se aventura</l>
+          <l>la estimable conveniencia;</l>
+          <l>de un Reyno, assi se estimulen;</l>
+          <l>el orgullo y la prudencia</l>
+          <l>unidos venceran siempre.</l>
+          <l>Quantasse han perdido empressas</l>
+          <l>por sobra de animo? y quantas</l>
+          <l>ha ganado una discreta</l>
+          <l>prevencion? esta es la parte;</l>
+          <l>que à un Principe mas eleva,</l>
+          <l>y la luz que a todas luzes</l>
+          <l>mas esplendor le grangea.</l>
+          <l>Baxe, pues de mis Arcanos</l>
+          <l>la mas dichosa influencia,</l>
+          <l>que en su divino talento</l>
+          <l>mas noble quedarà empressa.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>([Mart.]</speaker>
+          <l>Venid, venid, venid Ninfas bellas</l>
+          <l>y en globos de luzes,</l>
+          <l>que alumbren, desciendan,</l>
+          <l>rayos que le presten</l>
+          <l>doctas influencias:</l>
+          <l>desciendan, desciendan.</l>
+        </sp>
+        <stage>Baxan dos Ninfas cantando, con un Globo en las manos, como nubecilla, que abrièndose descenderà un rayo de luz sobre la cabeça del Rey.</stage>
+        <sp who="#nimpha_1 #nimpha_2">
+          <speaker>Ambas cant.</speaker>
+          <l>Suspende, suspede el aceto,</l>
+          <l>que à tu voz obediente</l>
+          <l>tenemos pendiente;</l>
+          <l>la luz de tu precepto,</l>
+        </sp>
+        <sp who="#nimpha_1">
+          <speaker>Ninf. 1.</speaker>
+          <l>Penetre radiante.</l>
+        </sp>
+        <sp who="#nimpha_2">
+          <speaker>Ninf. 2.</speaker>
+          <l>Luciente brillante</l>
+        </sp>
+        <sp who="#nimpha_1">
+          <speaker>1.</speaker>
+          <l>La mejor estancia.</l>
+        </sp>
+        <sp who="#nimpha_2">
+          <speaker>2.</speaker>
+          <l>Que en madura infancia.</l>
+        </sp>
+        <sp who="#nimpha_1">
+          <speaker>1.</speaker>
+          <l>Milagroso destino.</l>
+        </sp>
+        <sp who="#nimpha_2">
+          <speaker>2.</speaker>
+          <l>Provido previno.</l>
+        </sp>
+        <sp who="#nimpha_1">
+          <speaker>1.</speaker>
+          <l>Con mayor grandeza.</l>
+        </sp>
+        <sp who="#nimpha_2">
+          <speaker>2.</speaker>
+          <l>A su sutileza.</l>
+        </sp>
+        <sp who="#nimpha_1">
+          <speaker>1.</speaker>
+          <l>Corone tu frente</l>
+          <l>Laurèl mas luciente</l>
+          <l>que de todo el Orbe</l>
+          <l>se te diera el Imperio</l>
+        </sp>
+        <sp who="#nimpha_2">
+          <speaker>2.</speaker>
+          <l>Pues no darà el mundo:</l>
+          <l>en rayo segundo</l>
+          <l>Corona que iguale</l>
+          <l>al entendimiento.</l>
+        </sp>
+        <sp who="#nimpha_1 #nimpha_2">
+          <speaker>Ambas.</speaker>
+          <l>Suspende, &amp;c.</l>
+        </sp>
+        <stage>Buelan.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Que me arrebate un impulso</l>
+          <l>triunfando assi del respeto!</l>
+          <l>què me altere, y descomponga</l>
+          <l>o de la ira un movimiento!</l>
+          <l>medios de mas eficacia</l>
+          <l>no me dà el prudente acuerdo?</l>
+          <l>pues serà bien que yo dexe</l>
+          <l>lo perspicaz de un consejo,</l>
+          <l>por abrazar de un ardor?</l>
+          <l>el impetu que es mas ciego?</l>
+          <l>El noble disignio mio</l>
+          <l>se cumpla, que del empeño</l>
+          <l>no desisto, pero sea</l>
+          <l>quanda conviniere hazerlo;</l>
+          <l>pues de este modo confio</l>
+          <l>en los auxilios supremos,</l>
+          <l>que ha de lograr mi disignio</l>
+          <l>la fatiga de mi anhelo,</l>
+          <l>pues serà la honra de Christo</l>
+          <l>digno objeto de mi empeño.</l>
+        </sp>
+        <sp who="#minerva">
+          <speaker>Min.</speaker>
+          <l>Superflua es ya del Amor;</l>
+          <l>la razon que à este argumento</l>
+          <l>le alienta, pues un Varon:</l>
+          <l>prudente siempre haze afectos</l>
+          <l>de congruentes razones,</l>
+          <l>que si estas faltan, atento</l>
+          <l>resistir sabe à los Astros</l>
+          <l>el torpe influxo, y discreto:</l>
+          <l>incitenle, ò no sus flechas,</l>
+          <l>siempre sigue los efectos</l>
+          <l>que la conveniencia dicta,</l>
+          <l>haziendole apoyo cierto</l>
+          <l>la razon de estado: aora</l>
+          <l>vea Amor, si no està ciego;</l>
+          <l>si tendràn lugar sus flechas</l>
+          <l>donde está el Entendimiento.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Si tendrán, si bien se atienda</l>
+          <l>se à tu sofistico intento,</l>
+          <l>pues fundas tu conclusión</l>
+          <l>baxo del supuesto incierto</l>
+          <l>y de que en un Varon prudente</l>
+          <l>pueden faltarle à el afecto</l>
+          <l>razones de congruencia;</l>
+          <l>siendo assi, que en todo tiempo</l>
+          <l>el cariño es quien grangea</l>
+          <l>Ia estimacion, el respecto</l>
+          <l>el aplauso, la opinion,</l>
+          <l>y el agrado: ademàs de esto,</l>
+          <l>que de mis flechas el tiro.</l>
+          <l>no solo serà en su pecho,</l>
+          <l>pues es ya de los vassallos;</l>
+          <l>en tantos pechos diversos</l>
+          <l>cada perfeccion de quantas</l>
+          <l>componen su noble aliento</l>
+          <l>nueva materia à la llama;</l>
+          <l>con que en reciproco afecto,</l>
+          <l>con voluntad amorosa</l>
+          <l>corresponden su ardimiento.</l>
+          <l>Este es el medio seguro</l>
+          <l>de obligar, y es tambièn cierto,</l>
+          <l>que los odios, o el cariño</l>
+          <l>son quien haze malo, o bueno,</l>
+          <l>el proceder, ò la accion</l>
+          <l>misma de qualquiera objeto;</l>
+          <l>se pues aun la virtud mirada:</l>
+          <l>con malevolo despego,</l>
+          <l>siempre le parece fea</l>
+          <l>al que es de la gente opuesto</l>
+          <l>se como el contrario en qualquiera</l>
+          <l>imperfeccion, que el afecto</l>
+          <l>si la mira le parece</l>
+          <l>que es mayor gracia, y propenso</l>
+          <l>por aplaudirle procura,</l>
+          <l>queriendo dorar sus yerros,</l>
+          <l>si de honestarlos el modo,</l>
+          <l>de deslumbrarlos el medio.</l>
+          <l>Pues aun vos, hermosa Fama,</l>
+          <l>si acreditais los progressos,</l>
+          <l>nunca en lengua del contrario</l>
+          <l>avràs seguido tu buelo,</l>
+          <l>que este el nombre les dà siempre</l>
+          <l>de acasos, o de sucessos</l>
+          <l>contingentes que la dicha;</l>
+          <l>les concediò, como has hecho</l>
+          <l>en los proprios, los amigos,</l>
+          <l>los parciales, y à lo menos</l>
+          <l>conforme à la voluntad</l>
+          <l>siempre se forma el concepto.</l>
+          <l>Ved si es la mas importante</l>
+          <l>Parte, que en un Rey debemos</l>
+          <l>celebrarles su cariño</l>
+          <l>le da meritos immensos;</l>
+          <l>y el ser querido le dà</l>
+          <l>los timbres, los epitectos,</l>
+          <l>los obsequios, y Ios lauros;</l>
+          <l>aclamacion y festejos:</l>
+          <l>y porque en este Señor,</l>
+          <l>entre tantos rayos bellos</l>
+          <l>oy brille la voluntad</l>
+          <l>el cariño, y los afectos,</l>
+          <l>oy gustara de mis flechas</l>
+          <l>el dulce filo su pecho.</l>
+        </sp>
+        <stage>Llegase junto à el Rey, y le da un flechazo en el pecho.</stage>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Què es esto? que de un suave,</l>
+          <l>de un dulcissimo ardimiento</l>
+          <l>parece que el coraçon,</l>
+          <l>està en deliquios deshecho,</l>
+          <l>y agradecido pretende,</l>
+          <l>assomandose al aspecto,</l>
+          <l>ò transferirse a latidos,</l>
+          <l>ò ofrecerse en los afectos</l>
+          <l>en los afectad</l>
+          <l>mas què mucho si obligado</l>
+          <l>Y en jubilos, en festejos</l>
+          <l>pretende de mis vassallos</l>
+          <l>pagar los finos afectos.</l>
+          <l>Vassallos? mal dixe, hijos;</l>
+          <l>pues con paternal est remo</l>
+          <l>premiarè de su lealtad</l>
+          <l>a fineza que les debo.</l>
+          <l>Yo acaso no soy un hombre?</l>
+          <l>los demàs no son compuestos</l>
+          <l>de naturaleza misma?</l>
+          <l>pues si del genero mesmo</l>
+          <l>somos todos, y la suerte</l>
+          <l>mas propicia, acaso ha hecho,</l>
+          <l>que de mis predecessores,</l>
+          <l>herendando el Noble, el Regio</l>
+          <l>Blason, aora me vea en</l>
+          <l>el Solio que posseo;</l>
+          <l>y siendo Dios de la Gloria,</l>
+          <l>infinito Rey Supremo,</l>
+          <l>y adornado de Divina</l>
+          <l>Naturaleza, le vemos?</l>
+          <l>que de ser Padre se digna:</l>
+          <l>pregunto, què harè yo en serlo,</l>
+          <l>y mas de hijos, à quienes</l>
+          <l>tales servicios Ies debo?</l>
+          <l>y què harè assi en aliviar</l>
+          <l>tales servicios Ies debo?</l>
+          <l>y què harè assi en aliviar</l>
+          <l>de sus trabajos el peso</l>
+          <l>tal vez? y de perdonar</l>
+          <l>tal vez qualquier desacierto,</l>
+          <l>si miro que el mismo Dios</l>
+          <l>me da de piedad exemplo?</l>
+          <l>de mantener en justicia</l>
+          <l>todo el vulgo de mis Reynos?</l>
+          <l>desocorrer à los pobres?</l>
+          <l>y en fin con igual afecto</l>
+          <l>ofrecerles como à hijos</l>
+          <l>toda el alma con que aliento?</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Ves como en toda ocasion</l>
+          <l>ocupa el lugar primero</l>
+          <l>el cariño? y que es preciso</l>
+          <l>usar dèl en todo tiempo?</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Y quando en alguno pueda</l>
+          <l>disimularse, es muy cierto,</l>
+          <l>que aquesta inconstancia noble</l>
+          <l>es tambien de Amor efecto;</l>
+          <l>pues quando aquesto convenga,</l>
+          <l>si requiere en algun tiempo</l>
+          <l>variar la propiedad</l>
+          <l>serà arbitrio muy discreto.</l>
+          <l>Aqueste en un Rey serà</l>
+          <l>mas noble procedimiento,</l>
+          <l>que otro alguno, pues serà</l>
+          <l>este el mas proprio diseño</l>
+          <l>de la Divina Iusticia.</l>
+          <l>Unas veces con estremos</l>
+          <l>se ha de explicar el Amor</l>
+          <l>con lo suave: otros tiempos,</l>
+          <l>que en su aspereza se tema</l>
+          <l>lo rigido, y lo severo;</l>
+          <l>y en aqueste mismo modo</l>
+          <l>sabrà dar castigo, y premios;</l>
+          <l>postrando siempre altivezes,</l>
+          <l>siempre humildades subiendo:</l>
+          <l>de espacio subiendo à unos,</l>
+          <l>y à otros baxando de presto,</l>
+          <l>que ha sido la perfeccion</l>
+          <l>mayor de quantas le dieron</l>
+          <l>renombre al mayor Monarca.</l>
+          <l>El continuo movimiento</l>
+          <l>serà elle de mi Rueda,</l>
+          <l>que à aqueste Principe immenso</l>
+          <l>le pondrà en el mayor Solio,</l>
+          <l>en el mas alto que vieron,</l>
+          <l>quantos hasta oy en el mundo</l>
+          <l>fueron felizes exemplos</l>
+          <l>de Fortuna: suba, pues,</l>
+          <l>al mas eminente assiento;</l>
+          <l>y el mas elevado Trono</l>
+          <l>se su digno merecimiento se</l>
+          <l>ocupe, y al fuerte impulso</l>
+          <l>de mi brazos, al grave peso</l>
+          <l>de su valor, cruxa el Exè</l>
+          <l>de mi Rueda, hasta ponerlo</l>
+          <l>en la Esfera mas sublime.</l>
+          <l>Fatigese, pues, mi aliento.</l>
+          <stage>Llega, y vale dando buelta à la Rueda, de modo que sentado su Magestad en la silla, va subiendo hasta el Solio, que avrà formado.</stage>
+          <l>à la incestante tarea</l>
+          <l>del continuo movimiento.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Deten, aguarda, Fortuna,</l>
+          <l>espera, cesse el violento</l>
+          <l>curso de tu vaga Rueda,</l>
+          <l>que si incessante la advierto</l>
+          <l>qual dizes, proseguirà</l>
+          <l>al fiero vagido expuesto;</l>
+          <l>pues en llegando à la cumbre</l>
+          <l>preciso es que baxe luego</l>
+          <l>y darè mayor caìda,</l>
+          <l>si en mas altura me veo.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>No haràs, porque la Firmeza,</l>
+          <l>sabrà ligar con esfuerço</l>
+          <l>la llanda de su inquietud:</l>
+          <l>yo fixarè su denuedo</l>
+          <stage>Llega, y prende la Rueda de una llanda con una liga, ò otra cosa, à una columna, ò parte que estè fixa, al tiempo que el Rey llego à estar debajo del Trono, donde queda sentado</stage>
+          <l>de modo, que eternamente</l>
+          <l>exista fixo tu assiento</l>
+          <l>en la mayor Gerarquia:</l>
+          <l>y esta accion te darà exemplo</l>
+          <l>en la expedicion constante,</l>
+          <l>con que fixo en tus decretos,</l>
+          <l>tan estables permanezcan,</l>
+          <l>con el valor de lo recto,</l>
+          <l>quesea a su duracion;</l>
+          <l>corta permanencia el tiempo.</l>
+          <l>Fixo en la resolucion,</l>
+          <l>siempre estable en los afectos</l>
+          <l>à constante en la adversidad,</l>
+          <l>(si tiene lugar lo adverso</l>
+          <l>en el colmo de sus glorias)</l>
+          <l>que hagan el semblante mesmo</l>
+          <l>en su animo generoso</l>
+          <l>lo propicio con lo acerbo;</l>
+          <l>en las virtudes estable,</l>
+          <l>y en las grandezas eterno,</l>
+          <l>seràn los cimbres precisos,</l>
+          <l>que en maravillosos ecos</l>
+          <l>de su Magestad publique</l>
+          <l>blasones, que haràn perpetuos</l>
+          <l>con que serà del Amor</l>
+          <l>el hermoso Laurèl bello,</l>
+          <l>que al Vencedor se promete,</l>
+          <l>pues uniò los dos opuestos</l>
+          <l>de Firmeza, y de Inconstancia,</l>
+          <l>de tanta virtud estremos,</l>
+          <l>y pues oy los aprovecha</l>
+          <l>tan bien, que cada uno de ellos</l>
+          <l>hallò tan justo lugar</l>
+          <l>en el culto, en los obsequios,</l>
+          <l>que à este Monarca dedica</l>
+          <l>ambos, tributando à un tiempo</l>
+          <l>la propiedad que le influyen</l>
+          <l>las mas heroicas, siendo</l>
+          <l>de todas quantas le ilustran,</l>
+          <l>bien serà que el justo premio</l>
+          <l>de esse Laurèl le corone,</l>
+          <l>pues es suyo de derecho</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>No serà, quando la Fama</l>
+          <l>ya le ha ganado primero.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Nunca ha podido la Fama</l>
+          <l>Lo que no pudo el afecto.</l>
+        </sp>
+        <sp who="#minerva">
+          <speaker>Min.</speaker>
+          <l>Los afectos de Amor</l>
+          <l>siempre hijos del merito fueron.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Lo meritos solo han sido</l>
+          <l>con la Fortuna bien puestos.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>La Fortuna siempre es visto</l>
+          <l>Que sue del valor trofeo.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>No será, quando me empleo</l>
+          <l>en su favor, oy le assisto,</l>
+          <l>con que es conocido error,</l>
+          <l>si la Fortuna es constante,</l>
+          <l>querer que sea bastante</l>
+          <l>contrastarla el valor.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Mil gracias, Señor immenso;</l>
+          <l>à vuestra grandeza doy</l>
+          <l>por tanto colmo de dichas,</l>
+          <l>como à tu piedad debiò</l>
+          <l>mi conocida humildad;</l>
+          <l>Mil gracias os doy, mi Dios;</l>
+          <l>y en repetidos elogios</l>
+          <l>os aclamarà mi voz</l>
+          <l>en las partes mas remotas;</l>
+          <l>donde protesto, Señor,</l>
+          <l>aunque arriesgara mil vidas,</l>
+          <l>que solicite mi ardor,</l>
+          <l>con la Evangelica Luz</l>
+          <l>de tu Santa Religion,</l>
+          <l>desterrar de las tinieblas</l>
+          <l>la tenebrosa invasion,</l>
+          <l>que tanto Barbaro ciego</l>
+          <l>padece en su mismo error.</l>
+          <l>Ojala, Señor piadoso,</l>
+          <l>que la grandeza que oy</l>
+          <l>me eleva à esta Gerarquia,</l>
+          <l>sea, mi Dios, en tu honor.</l>
+          <l>Donde os debe otro ninguno</l>
+          <l>mas beneficios que yo?</l>
+          <l>O incomprehensibles juizios!</l>
+          <l>David, que fue admiracion de</l>
+          <l>Virtud, y penitencia,</l>
+          <l>què invasion no padeciò?</l>
+          <l>què no tolerò infortunios?</l>
+          <l>què zozobras no sintiò</l>
+          <l>de una Corona, fatigas</l>
+          <l>que el peso le ocasionò?</l>
+          <l>Y quantos en fin Monarcas</l>
+          <l>de tan rara perfeccion,</l>
+          <l>el naufragio padecieron,</l>
+          <l>que el golfo cruel Ies diò</l>
+          <l>en olas de la fortuna</l>
+          <l>de tanto pielago?</l>
+          <l>que serè, mi Dios piadoso,</l>
+          <l>si el menos humilde no,</l>
+          <l>al menos quien à serviros</l>
+          <l>menos, Señor, acertò</l>
+          <l>de tanta felicidad;</l>
+          <l>logrò el tranquilo favor,</l>
+          <l>y aun en tiempo que se vè</l>
+          <l>precisa la emulacion?</l>
+          <l>Mas si es verdad que del justo</l>
+          <l>las adversidades son</l>
+          <l>regalos que Dios le embia,</l>
+          <l>delicias que le ofreciò,</l>
+          <l>las prosperidades que</l>
+          <l>se goza usano el pecador;</l>
+          <l>què vendràn a ser, cuydado?</l>
+          <l>sentido, dime, què son?</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Aplau.</speaker>
+          <l>Indeciso me detiene</l>
+          <l>de qualquier resolucion</l>
+          <l>la duda; pues ademàs</l>
+          <l>de ser dificil, que yo</l>
+          <l>se declare en el argumento,</l>
+          <l>quien es aquel que venciò,</l>
+          <l>se respecto de la igualdad</l>
+          <l>con que cada uno impugno</l>
+          <l>la razon contraria: atiendo</l>
+          <l>que estoy obligado à Amor,</l>
+          <l>se y en gratularlo interesso,</l>
+          <l>no menos que mi aficion.</l>
+          <l>Por la Fama apasionado</l>
+          <l>me miro, y en su ofension</l>
+          <l>temo malograr la dicha,</l>
+          <l>que su beldad me ofreciò.</l>
+          <l>Ademàs de que ofrecida</l>
+          <l>tengo la gracia à los dos:</l>
+          <l>ò quanto yerra el Iuez,</l>
+          <l>que tal vez se apassionò!</l>
+          <l>como el que algún beneficio</l>
+          <l>poco cuerdo recibió;</l>
+          <l>porque à unos por cariños,</l>
+          <l>y à otros por atencion,</l>
+          <l>si à verse llega inclinado</l>
+          <l>con gran peligro aplicò</l>
+          <l>la gracia de la justicia.</l>
+          <l>Evitar esta ocasion</l>
+          <l>fuera prevencion discreta;</l>
+          <l>mas sirva en resolucion</l>
+          <l>de escarmiento para otras</l>
+          <l>lo que para esta de error.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Pues diseño has sido mi parte?</l>
+          <l>quien à este Rey levantò,</l>
+          <l>el digno Trono que ocupa?</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Vuestra maña lo formo</l>
+          <l>de agena materia, quando</l>
+          <l>yo soy sola quien la diò;</l>
+          <l>criada hallasteis la causa,</l>
+          <l>y hazeis el efecto vos;</l>
+          <l>pues por sì solo, quien duda</l>
+          <l>quan nocivo es el Amor?</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Esse fuera Amor profano:</l>
+          <l>mas nuestro Dios, y Señor</l>
+          <l>las qualidades diversas</l>
+          <l>de todos entes criò,</l>
+          <l>en tal forma, que si el hombre</l>
+          <l>à su servicio aplico</l>
+          <l>su propiedad, justo obsequio;</l>
+          <l>en qualquiera recibiò;</l>
+          <l>y si erronea la malicia</l>
+          <l>de los hombres concibió;</l>
+          <l>la maldad de alguna de ellas,</l>
+          <l>es porque siempre abusò</l>
+          <l>de qualquiera que hizo mala,</l>
+          <l>se siendo buena condicion.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Y si tal vez le han herido</l>
+          <l>de alguna hermosura al Sol</l>
+          <l>los rayos de mis Saetas</l>
+          <l>una Dama quien amo</l>
+          <l>fue la Iusticia: mira aora</l>
+          <l>si es nocivo, ò no el Amor.</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Dama, que fue la Iusticia?</l>
+          <l>y quien tàl acreditò?</l>
+        </sp>
+        <stage>Sale la Iusticia en su trage, con insignias de pelo, y espada, y como la pintan.</stage>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>la misma Iusticia.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Dichas, què es lo que miro, Cielos?</l>
+        </sp>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>La misma Iusticia soy,</l>
+          <l>que hasta oy con nombre de Nise,</l>
+          <l>oculta se disfrazò,</l>
+          <l>esperando à declararme</l>
+          <l>tan oportuna ocasion,</l>
+          <l>como esta, que ya puedo</l>
+          <l>parecer sin el temor</l>
+          <l>que hasta aqui, pues me assegura</l>
+          <l>de qualquiera emulación</l>
+          <l>las finezas que he encontrado</l>
+          <l>de mi Rey en el favor.</l>
+          <l>Y porque tengo ofrecido</l>
+          <l>de defender mi opinion;</l>
+          <l>en esta Insigne Academia,</l>
+          <l>desde luego es mi assercion,</l>
+          <l>que es el timbre que le dà</l>
+          <l>mas lauro, y mayor blason</l>
+          <l>à mi Rey lo justiciero,</l>
+          <l>por ser la virtud mayor,</l>
+          <l>y entre todas, la Iusticia;</l>
+          <l>pues esta comprehendiò</l>
+          <l>y quantas el hombre executa;</l>
+          <l>y sin ella siempre hallo</l>
+          <l>la accion de mayores luzes</l>
+          <l>las tinieblas de su error.</l>
+          <l>Es verdad que la piedad</l>
+          <l>gran sequito siempre diò</l>
+          <l>à un Principe; pero es hija</l>
+          <l>de la Iusticia, y las dos</l>
+          <l>tan unidas se conciertan,</l>
+          <l>que un Rey no podrà se, no,</l>
+          <l>justiciero, sin que sea</l>
+          <l>piedoso en tal ocasión;</l>
+          <l>y mal podrà ser impioj,</l>
+          <l>si à lo justo se arreglò;</l>
+          <l>Piedad, y Iusticia tienen</l>
+          <l>identidad en la union;</l>
+          <l>y en fin con todas virtudes</l>
+          <l>siempre se identificò,</l>
+          <l>pues ninguna sin Iusticia</l>
+          <l>à la perfeccion llegò,</l>
+          <l>quando ella por si sola</l>
+          <l>à todas las excediò.</l>
+          <l>Con que mio es el Laurèl,</l>
+          <l>pues es visto que le doy</l>
+          <l>à aqueste heroyco Rey,</l>
+          <l>que mil años guarde Dios</l>
+          <l>mas grandeza, que otro alguno</l>
+          <l>pues de cariño, y temor</l>
+          <l>le consigo los efectos</l>
+          <l>con el de veneracion,</l>
+          <l>siendo estos los tres Lauros;</l>
+          <l>que oy el assumpto explicó.</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Aplau.</speaker>
+          <l>Mil gracias doy à mi suerte,</l>
+          <l>pues provida me ofreciò,</l>
+          <l>con premiar a la Iusticia,</l>
+          <l>la dificil decision,</l>
+          <l>que no encontrava mi duda</l>
+          <l>entre la Fama, y Amor;</l>
+          <l>pues si obligado de uno,</l>
+          <l>de otro apasionado estoy.</l>
+          <l>Mas quien sino es la Iusticia</l>
+          <l>dar pudo en tal ocasión</l>
+          <l>remedio tan eficaz?</l>
+          <l>Ella, pues es quien venciò</l>
+          <l>suyo es el Laurèl florido.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Quedando gustoso yo,</l>
+          <l>porque tal Deidad le gane.</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Y yo el parabien le doy;</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Aplau.</speaker>
+          <l>Recibe, hermosa Iusticia,</l>
+          <l>el justo Laurèl, que oy</l>
+          <l>con tus discretas razones</l>
+          <l>ha ganado su razón.</l>
+        </sp>
+        <stage>Dale la Corona a la Iusticia.</stage>
+        <sp who="#iusticia">
+          <speaker>Iust.</speaker>
+          <l>Mil años el Cielo os guarde,</l>
+          <l>sin que de la adulacion</l>
+          <l>la obscura infeccion padezca</l>
+          <l>vuestro solido candor.</l>
+          <l>Mas oìd, que este Laurèl</l>
+          <l>Oy le debe mi atención</l>
+          <l>à este sagrado Monarca,</l>
+          <l>à este Invicto gran Señor,</l>
+          <l>a este Atlante de la Fèy</l>
+          <l>à este Augusto defensor</l>
+          <l>de mi vida, pues con menos</l>
+          <l>no pagara mi aficion:</l>
+          <l>sus favores: èl, pues, fea</l>
+          <l>feliz remuneracion</l>
+          <l>de la libertad, y vida,</l>
+          <l>que me ha dado su valor.</l>
+          <l>Y vos, prodigio del mundo;</l>
+          <l>Recibid, no digo, no,</l>
+          <l>la cortedad de esta ofrenda;</l>
+          <l>pues fuera sobervio error</l>
+          <l>dedicar Laurèl tan breve</l>
+          <l>a quien, aun el mismo Sol</l>
+          <l>siend o coturno a tu planta,</l>
+          <l>cobrarà mayor fulgor.</l>
+          <l>Mas mi voluntad si quiera</l>
+          <l>recibe, que deseo,</l>
+          <l>y espera de todo el Orbe</l>
+          <l>con la Corona mayor,</l>
+          <l>ceñir tus Augustas sienes.</l>
+        </sp>
+        <stage>Sube por unas gradas que avrà basta el Solio, y le pone la Corona à el Rey, y canta la Música.</stage>
+        <sp who="#musicos">
+          <speaker>Musi.</speaker>
+          <l>Coronandose està el Sol</l>
+          <l>en los bracçs de la Aurora,</l>
+          <l>porque le sirven aora</l>
+          <l>de rayos à su arrebol.</l>
+        </sp>
+        <sp who="#rey">
+          <speaker>Rey.</speaker>
+          <l>Eterno vuestro primor</l>
+          <l>se goze, Deidad hermosa,</l>
+          <l>porque sea Mariposa</l>
+          <l>de vuestras luzes mi Amor.</l>
+          <l>Mal dixe, Fenix serà</l>
+          <l>inmortal de tu ardimiento,</l>
+          <l>pues quanto dure tu aliento</l>
+          <l>tanto mi Amor durarà.</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Aplau.</speaker>
+          <l>Para que conozca el mundo</l>
+          <l>que la Iusticia oy corona</l>
+          <l>que mi asiento pregona</l>
+          <l>en el Orbe sin segundo:</l>
+          <l>que aunque bastara à su frente,</l>
+          <l>el Laurèl que ha grangeado.</l>
+        </sp>
+        <sp who="#fama">
+          <speaker>Fam.</speaker>
+          <l>Por justamente afamado,</l>
+        </sp>
+        <sp who="#marte">
+          <speaker>Mart.</speaker>
+          <l>Por esforçado, y valiente.</l>
+        </sp>
+        <sp who="#minerva">
+          <speaker>Min.</speaker>
+          <l>Por su prudencia, y pericia.</l>
+        </sp>
+        <sp who="#amor">
+          <speaker>Amor.</speaker>
+          <l>Por afectuoso amante.</l>
+        </sp>
+        <sp who="#fortuna">
+          <speaker>Fort.</speaker>
+          <l>Por feliz.</l>
+        </sp>
+        <sp who="#firmeza">
+          <speaker>Firm.</speaker>
+          <l>Por constante.</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Aplau.</speaker>
+          <l>Ha querido la Iusticia</l>
+          <l>coronarle soberana;</l>
+          <l>porque quando el Laurèl logra,</l>
+          <l>vea que ella es quien le cobra.</l>
+        </sp>
+        <sp who="#iusticia #amor #aplauso #fama #fortuna #firmeza #marte #minerva #musicos">
+          <speaker>Todos.</speaker>
+          <l>Qunato el merito le gana.</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Aplau.</speaker>
+          <l>Y en fin, vea en conclusion</l>
+          <l>qualquiera torpe malicia,</l>
+          <l>que no falta la Iusticia,</l>
+          <l>aunque sobra la Razon</l>
+          <l>y pues la Corona logra</l>
+          <l>de Iusticia, todos canten.</l>
+        </sp>
+        <sp who="#iusticia #amor #aplauso #fama #fortuna #firmeza #marte #minerva #musicos">
+          <speaker>Todos.</speaker>
+          <l>Que aunque las Razones baste.</l>
+          <l>nunca la Iusticia sobra.</l>
+        </sp>
+        <sp who="#aplauso">
+          <speaker>Aplau.</speaker>
+          <l>Y acabando la Comedia,</l>
+          <l>de Don Fernando Romero,</l>
+          <l>la voluntad pide humilde,</l>
+          <l>perdon de sus muchos verros.</l>
+        </sp>
+      </div>
+      <trailer>FIN</trailer>
+    </body>
+  </text>
+</TEI>
