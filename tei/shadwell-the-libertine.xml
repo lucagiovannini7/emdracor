@@ -6487,6 +6487,7 @@
         <pb xml:id="ep000731-051-a"/>
         <head>EPILOGUE, </head>
         <stage xml:id="ep000731-e51590">Spoken by Jacomo. </stage>
+        <sp who="#ep000731-jacomo">
         <lg>
           <l>THrough all the Perils of the Play I've run, </l>
           <l>But know not how your fury I may shun; </l>
@@ -6541,6 +6542,7 @@
           </l>
           <l>And the said Articles shall be Sign'd and Seal'd. </l>
         </lg>
+        </sp>
         <trailer>FINIS. </trailer>
       </div>
     </back>
