@@ -5211,7 +5211,6 @@
             <l>The most Joviall gentleman— harke. </l>
           </sp>
           <floatingText>
-            <body>
               <div type="song" xml:id="ep000268-e133970">
                 <head>Song. </head>
                 <sp who="#ep000268-lady-plott" xml:id="ep000268-e133980">
@@ -5253,7 +5252,6 @@
                   <l>wee will bee. </l>
                 </sp>
               </div>
-            </body>
           </floatingText>
           <stage xml:id="ep000268-e134210">Enter sir Solitary, and his Lady. </stage>
           <sp who="#ep000268-solitary-plott" xml:id="ep000268-e134220">

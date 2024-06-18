@@ -1083,10 +1083,9 @@
           <p>Ha! whom have we hear? some Serenading Coxcomb. Now shall we have some damn'd Song or other, a Cloris, or a Phillis at least. </p>
         </sp>
         <floatingText>
-          <body>
             <div type="song" xml:id="ep000731-e7370">
               <head>SONG. </head>
-              <sp who="#ep000731-octavio" xml:id="ep000731-e7390">
+              <sp who="#ep000731-cloris" xml:id="ep000731-e7390">
                 <speaker>Cloris. </speaker>
                 <lg>
                   <l>When you disperse your influence, </l>
@@ -1108,7 +1107,6 @@
                 </lg>
               </sp>
             </div>
-          </body>
         </floatingText>
         <sp who="#ep000731-octavio" xml:id="ep000731-e7570">
           <speaker>Octa. </speaker>
@@ -3509,9 +3507,9 @@
           <p>Come on then; our Maids shall joyn in the Chorus: Here they are. </p>
         </sp>
         <floatingText>
-          <body>
             <div type="song" xml:id="ep000731-e27360">
               <head>SONG. </head>
+              <speaker who="#ep000731-clara #ep000731-flavia">
               <lg>
                 <l>WOman who is by Nature wild, </l>
                 <l>Dull bearded men incloses; </l>
@@ -3520,6 +3518,7 @@
                 <l>Who still himself continues sree, </l>
                 <l>Yet we poor Slaves must fetter'd be. </l>
               </lg>
+              </speaker>
               <sp who="#ep000731-chorus-maids" xml:id="ep000731-e27450">
                 <speaker>Chor. </speaker>
                 <lg>
@@ -3530,6 +3529,7 @@
                   <l>And have freedom to range, </l>
                   <l>Like to every other wild Creature. </l>
                 </lg>
+                <speaker who="#ep000731-clara #ep000731-flavia">
                 <lg>
                   <l>So gay a thing was ne'r design'd. </l>
                   <l>To be restrain'd from roving; </l>
@@ -3538,6 +3538,7 @@
                   <l>By cunning we could make men smart, </l>
                   <l>But they by strength o'rcome our Art. </l>
                 </lg>
+                </speaker>
               </sp>
               <sp who="#ep000731-chorus-maids" xml:id="ep000731-e27610">
                 <speaker>Chor. </speaker>
@@ -3545,6 +3546,7 @@
                   <l>A shame on the Curse </l>
                   <l>Of, For, &amp;c. </l>
                 </lg>
+                <speaker who="#ep000731-clara #ep000731-flavia">
                 <lg>
                   <l>How happy is the Village Maid, </l>
                   <l>Whom onely Love can fetter; </l>
@@ -3554,6 +3556,7 @@
                   <l>That lawful Prince the wisest rules, </l>
                   <l>Th▪ Usurper Honour rules but Fools. </l>
                 </lg>
+                </speaker>
               </sp>
               <sp who="#ep000731-chorus-maids" xml:id="ep000731-e27740">
                 <speaker>Chor. </speaker>
@@ -3561,6 +3564,7 @@
                   <l>A shame on the Curse </l>
                   <l>Of, For, &amp;c. </l>
                 </lg>
+                <speaker who="#ep000731-clara #ep000731-flavia">
                 <lg>
                   <l>Let us resume our antient right, </l>
                   <l>Make man at distance wonder; </l>
@@ -3569,6 +3573,7 @@
                   <l>War and Ambition hence be hurl'd, </l>
                   <l>Let Love and Beauty rule the World. </l>
                 </lg>
+                </speaker>
               </sp>
               <sp who="#ep000731-chorus-maids" xml:id="ep000731-e27870">
                 <speaker>Chor. </speaker>
@@ -6342,7 +6347,6 @@
             <p>There is some pleasure in this. </p>
           </sp>
           <floatingText>
-            <body>
               <div type="song" xml:id="ep000731-e50520">
                 <head>Song of Devils. </head>
                 <sp who="#ep000731-devil-i" xml:id="ep000731-e50540">
@@ -6410,7 +6414,6 @@
                   </lg>
                 </sp>
               </div>
-            </body>
           </floatingText>
           <sp who="#ep000731-ghost" xml:id="ep000731-e51010">
             <speaker>Stat. </speaker>

@@ -2104,7 +2104,6 @@
           </sp>
           <stage xml:id="ep000262-e112900">He falls flat on the earth, and whilst a Song is heard, the Angel writes, and vanishes as it ends. </stage>
           <floatingText>
-            <body>
               <div type="song" xml:id="ep000262-e112930">
                 <head>1. Song. </head>
                 <l>What are earthly honours, </l>
@@ -2120,7 +2119,6 @@
                 <l>It is for joy that thou to Heaven art flying: </l>
                 <l>This is not life, true life is got by dying. </l>
               </div>
-            </body>
           </floatingText>
           <sp who="#ep000262-eugenius" xml:id="ep000262-e113050">
             <speaker>Eug. </speaker>
