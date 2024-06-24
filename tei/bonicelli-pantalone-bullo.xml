@@ -260,7 +260,7 @@
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
             <p>È fenio el mandolato, è saltào su un citronato: se le busse dame o pedine, mi son un galantomo, e no me vegnì a romper el cào, perché, al sangue de tre lire e do soldi, ve farò andar quell’albasiazza furora de quel corpazzo, sier muso da zaletto, e fin che seme su ste piere cotte no gh’avemo paura de quelle màmere!</p>
-            <p>(ritorna a giocar e vi pone mezo ducato sul banco)</p>
+            <stage>(ritorna a giocar e vi pone mezo ducato sul banco)</stage>
             <p>A nu, siori scartozzi. Re e asso a sie bezzi per banda; questo è un mezo ferro; vardé, no ghe fé de deolìn, perché no gh’ho i occi fodrài de persuto, no so se m’intendé.</p>
           </sp>
           <stage>(Cinzio li getta di nuovo il denaro per terra e poi dice)</stage>
@@ -299,7 +299,7 @@
           <stage>Pantalone con Mezzetino e suoi soldati doppo il combattimento restano.</stage>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Vittoria, vittoria! Cancher siur patria, se a’ no foss stat mi a’ restévim tutt mort senz magnar più macherù ben informaiabili e imbutirabili: ma a’ me sent che ‘1 me ventr a’ ‘1 pianz, quasi dicat: «Signor Pantalone, andiamo un poco a manducare?»</p>
+            <p>Vittoria, vittoria! Cancher siur patria, se a’ no foss stat mi a’ restévim tutt mort senz magnar più macherù ben informaiabili e imbutirabili: ma a’ me sent che 'l me ventr a’ 'l pianz, quasi dicat: «Signor Pantalone, andiamo un poco a manducare?»</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -375,7 +375,7 @@
           </sp>
           <sp who="#dottore">
             <speaker>DOTTORE</speaker>
-            <p>Stamattina a’ sun andà in Pescaria per comprar del pes, ed in quel che a’ so el mercad a’ ‘1 vien un pez de baron e sì a’ ‘1 dis: mi a’ vói quel pes.</p>
+            <p>Stamattina a’ sun andà in Pescaria per comprar del pes, ed in quel che a’ so el mercad a’ 'l vien un pez de baron e sì a’ 'l dis: mi a’ vói quel pes.</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -403,7 +403,7 @@
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>Eh, no me metto in ste bagattele; co no gh’ho da voltargli la panza da drio no faremo gniente: queste le è cose da putèi e no da bravi de la mia sorte. Oh via, per contentarle, ghe darò cinquanta bastoni su la crepa; ma chi èlio mo costò, che mi no ‘1 cognosso?</p>
+            <p>Eh, no me metto in ste bagattele; co no gh’ho da voltargli la panza da drio no faremo gniente: queste le è cose da putèi e no da bravi de la mia sorte. Oh via, per contentarle, ghe darò cinquanta bastoni su la crepa; ma chi èlio mo costò, che mi no 'l cognosso?</p>
           </sp>
           <sp who="#dottore">
             <speaker>DOTTORE</speaker>
@@ -412,12 +412,11 @@
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
             <p>No me stè a dir altro, el cognosso. L’è un porco (co reverenda</p>
-            <p>parlando) che no ‘1 val un bezo, so co chi ho da far, avanti stasera vogio che el vedé a portar via in quattro.</p>
+            <p>parlando) che no 'l val un bezo, so co chi ho da far, avanti stasera vogio che el vedé a portar via in quattro.</p>
           </sp>
           <sp who="#dottore">
             <speaker>DOTTORE</speaker>
-            <p>A’ ringrazi anch mi el vostr affet, a’ sodisfarò po anch le mie</p>
-            <p>obligazion.</p>
+            <p>A’ ringrazi anch mi el vostr affet, a’ sodisfarò po anch le mie obligazion.</p>
           </sp>
           <stage>(Dottor riparte e Pantalone li va dietro e poi lo trattiene)</stage>
           <sp who="#pantalone">
@@ -458,7 +457,7 @@
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>A’ ‘1 so mi, sior.</p>
+            <p>A’ 'l so mi, sior.</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -466,7 +465,7 @@
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Se no me ‘1 desi!</p>
+            <p>Se no me 'l desi!</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -504,8 +503,8 @@
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
             <p>Mi, si ti vuol che te diga la veritàe, Nane a Castello l’è galantomo, ma quei calafài co quelle so manere, mi no vorria che catessimo da criar. Toni, in Ruga Giuffa, el gh’ha del bon vin, ma gh’è quei barcarioli dal traghetto, che i è tante bestie che per niente i catta da dir. Tita alla Crosera l’altro dì ti sa che el n’ha dà un vin che el m’ha fatto voltar le buèlle. Zanetto al Gafaro el me fa ciera, ma no ghe credo a sti gattoni. Momolo a San Polo l’è una bestia, che avemo fatto tante volte le manàtole per i pironi.</p> 
-            <p>Checo in Canareggio no ‘1 gh’ha vin che vaga un bezzo. S’andemo alla Luna gh’è quei conti dalla Mirandola che i me fa paura. Vustu che andemo alla Cerva? Ma, ohimè, che gh’è quei fachini da San Bortolamio co quelle so mazoche che i fa star in cervello. Mi anderia al Salvadego, ma gh’è quei spaderi che i porta sotto certi baiceli che no i me piase.</p> 
-            <p>Si andemo alla Scóa, gh’è quei fachini dalla Riva dall’Ogio che sempre i varda i fatti d’ altri. Mi andaria da Giacomo a Sant'Apostolo,. ma gh’è sempre sier Silvio che el me varda co malloccio. Si andemo alla Corona a Santa Margherita el capo è mio compare, ma no ‘1 sta mai a bottega, e sì el lassa che quel muso de màmera de Dorigo el faza el paron, ma mi no me piase quel so muso. Ma varda, revarda, no trovo el più galantomo, né el più magazen che gh’abbia bon vin, che mio compare Menegon ai Barri. Orsù, andé vualtri a far quel che v’ho ditto, che mi anelerò dall’Orese dal Capriccio per véder de cavarghe un po’ de moneazza, perché l’altro dì gh’ho tagiào le gambe al so nemigo. Orsù, andemo.</p>
+            <p>Checo in Canareggio no 'l gh’ha vin che vaga un bezzo. S’andemo alla Luna gh’è quei conti dalla Mirandola che i me fa paura. Vustu che andemo alla Cerva? Ma, ohimè, che gh’è quei fachini da San Bortolamio co quelle so mazoche che i fa star in cervello. Mi anderia al Salvadego, ma gh’è quei spaderi che i porta sotto certi baiceli che no i me piase.</p> 
+            <p>Si andemo alla Scóa, gh’è quei fachini dalla Riva dall’Ogio che sempre i varda i fatti d’ altri. Mi andaria da Giacomo a Sant'Apostolo,. ma gh’è sempre sier Silvio che el me varda co malloccio. Si andemo alla Corona a Santa Margherita el capo è mio compare, ma no 'l sta mai a bottega, e sì el lassa che quel muso de màmera de Dorigo el faza el paron, ma mi no me piase quel so muso. Ma varda, revarda, no trovo el più galantomo, né el più magazen che gh’abbia bon vin, che mio compare Menegon ai Barri. Orsù, andé vualtri a far quel che v’ho ditto, che mi anelerò dall’Orese dal Capriccio per véder de cavarghe un po’ de moneazza, perché l’altro dì gh’ho tagiào le gambe al so nemigo. Orsù, andemo.</p>
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
@@ -521,15 +520,15 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Eh, sior Cinci, no v’affligì tant per non aver possud conuscer quella mascherina, che mi a’ ‘1 procurerò de saver chi l’è stada, ma a’ ‘1 me despiase ben de sto nego ci, che me desi, de sto bul: se a’ podissi darme almanch qualche segn, forsi che a’ rimedieria a la viltad della vostra fuga; compatim, vidi, se pari liberament.</p>
+            <p>Eh, sior Cinci, no v’affligì tant per non aver possud conuscer quella mascherina, che mi a’ 'l procurerò de saver chi l’è stada, ma a’ 'l me despiase ben de sto nego ci, che me desi, de sto bul: se a’ podissi darme almanch qualche segn, forsi che a’ rimedieria a la viltad della vostra fuga; compatim, vidi, se pari liberament.</p>
           </sp>
           <sp who="#cinzio">
             <speaker>CINZIO</speaker>
-            <p>Ah, sai perché ne fugii da quel bullo? Non perché temessi di sua bravura, ma per seguir il mio bene, benché nella fuga, per mio maggior dolore, l’abbia smarrito. Di questi se desideri che ti dia contezza, questa, dico, è una persona già avanzata negli anni: incanutisse sopra il crine l’età, armato di spido nello cimento, smonto il volto, aride le membra, e quasi che trema per tante armi che seco porta, ed in vero non saprei a chi potessi meglio assimigliarlo se non ad un gambaro pe’ ‘1 il suo fiammeggiante colore.</p>
+            <p>Ah, sai perché ne fugii da quel bullo? Non perché temessi di sua bravura, ma per seguir il mio bene, benché nella fuga, per mio maggior dolore, l’abbia smarrito. Di questi se desideri che ti dia contezza, questa, dico, è una persona già avanzata negli anni: incanutisse sopra il crine l’età, armato di spido nello cimento, smonto il volto, aride le membra, e quasi che trema per tante armi che seco porta, ed in vero non saprei a chi potessi meglio assimigliarlo se non ad un gambaro pe’ 'l il suo fiammeggiante colore.</p>
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Non più sior Cinci, me basta sol quest contrasigni: lu, sior, è el mazor pultrun che zappi terra, el fa un podi el brav perché el va compagna co certi banani, ma no ‘1 val miga un quattrin. Mi siguro, se però el ve pias, a’ ‘1 andrò a sfidar da sol a sol, e ghe dirò che el signur Cinci desidera de far duel, e così a’ scoprire la so codardia.</p>
+            <p>Non più sior Cinci, me basta sol quest contrasigni: lu, sior, è el mazor pultrun che zappi terra, el fa un podi el brav perché el va compagna co certi banani, ma no 'l val miga un quattrin. Mi siguro, se però el ve pias, a’ 'l andrò a sfidar da sol a sol, e ghe dirò che el signur Cinci desidera de far duel, e così a’ scoprire la so codardia.</p>
           </sp>
           <sp who="#cinzio">
             <speaker>CINZIO</speaker>
@@ -549,9 +548,9 @@
           <stage>Brighella solo.</stage>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Oh che bell’imbroi che è quest! El me patrù ama siora Rosaura come mascherina non conosuda e po el l’abboris senza maschera: a’ ‘1 bisogna certo cattar qualche industria, perché el me fa compassisi, sto me patruncin.</p> 
-            <p>Anca mi co giera zovenot a’ ‘1 me piasiva le putàzole, ma ades el me pias più i macherù, perché debot a’ no ho più dent, ma quest podi importa. </p>
-            <p>A’ ‘1 bisogna che a’ vaghi da sior Pantalun e che a’ ghe dighi com el sior Cinci a’ ‘1 vuol combatter da corp a corp, e po’ a’ ‘1 bisogna che me porti dalla siora Rosaura a raccontargli l'affan del me patrù, che no a’ ‘1 doma né dì né nott per le so bellezze, quand che l’è mascherada, perché a’ ‘1 no la conòs. Ma apunt la vien fuor de l’us: a’ vogi un podi sentir qui int’un cantò quel che la dis.</p>
+            <p>Oh che bell’imbroi che è quest! El me patrù ama siora Rosaura come mascherina non conosuda e po el l’abboris senza maschera: a’ 'l bisogna certo cattar qualche industria, perché el me fa compassisi, sto me patruncin.</p> 
+            <p>Anca mi co giera zovenot a’ 'l me piasiva le putàzole, ma ades el me pias più i macherù, perché debot a’ no ho più dent, ma quest podi importa. </p>
+            <p>A’ 'l bisogna che a’ vaghi da sior Pantalun e che a’ ghe dighi com el sior Cinci a’ 'l vuol combatter da corp a corp, e po’ a’ 'l bisogna che me porti dalla siora Rosaura a raccontargli l'affan del me patrù, che no a’ 'l doma né dì né nott per le so bellezze, quand che l’è mascherada, perché a’ 'l no la conòs. Ma apunt la vien fuor de l’us: a’ vogi un podi sentir qui int’un cantò quel che la dis.</p>
           </sp>
         </div>
         <div type="scene">
@@ -571,7 +570,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Eh siora patruncina, impromettìm de darme qualch cos de bel, che mi a’ farò tant che el sior Cinci el sii voster spus avanti che a’ ‘1 passi duman.</p>
+            <p>Eh siora patruncina, impromettìm de darme qualch cos de bel, che mi a’ farò tant che el sior Cinci el sii voster spus avanti che a’ 'l passi duman.</p>
           </sp>
           <sp who="#rosaura">
             <speaker>ROSAURA</speaker>
@@ -579,7 +578,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Tant'è: no occur alter se a’ voli che ve fagli el serviz co ‘1 va fiat, me content solament che a’ me fi’ un par d’abiti megiur de quest, che cert a’ v’impromet che el ve dagli le zattine.</p>
+            <p>Tant'è: no occur alter se a’ voli che ve fagli el serviz co 'l va fiat, me content solament che a’ me fi’ un par d’abiti megiur de quest, che cert a’ v’impromet che el ve dagli le zattine.</p>
           </sp>
           <sp who="#rosaura">
             <speaker>ROSAURA</speaker>
@@ -587,7 +586,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Avi da savìr, signura, che el sior Cinci el m’ha promes de spusarvi, non come vu, siora Rosaura, ma com mascherina non conossuda. Mi a’ farò così: a’ vi farò andar dinanz a lu mas cherada come che a’ gieri l’altra sira, che così a’ ‘1 se contenta de far, e si el m’ha zurad che si a’ ‘1 savise che la se fusse, che lu, per la parte sua, a’ ‘1 la turave subito per spusa.</p>
+            <p>Avi da savìr, signura, che el sior Cinci el m’ha promes de spusarvi, non come vu, siora Rosaura, ma com mascherina non conossuda. Mi a’ farò così: a’ vi farò andar dinanz a lu mas cherada come che a’ gieri l’altra sira, che così a’ 'l se contenta de far, e si el m’ha zurad che si a’ 'l savise che la se fusse, che lu, per la parte sua, a’ 'l la turave subito per spusa.</p>
           </sp>
           <sp who="#rosaura">
             <speaker>ROSAURA</speaker>
@@ -595,13 +594,11 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Vu, siora, avi dunca da far così: avi da venir medi co la maschera come v’ho dett e mi gli e dirò che so chi l’è; lu el me dirà che a’ ghe ‘1 diga, e mi ghe dirò che la è una bella zovenotta, ma che a’ vogio che el la spusi avanti che el la conussa; lu cert, dal grand amur, el dirà de sì, e così a’ sarò so spusa.</p>
+            <p>Vu, siora, avi dunca da far così: avi da venir medi co la maschera come v’ho dett e mi gli e dirò che so chi l’è; lu el me dirà che a’ ghe 'l diga, e mi ghe dirò che la è una bella zovenotta, ma che a’ vogio che el la spusi avanti che el la conussa; lu cert, dal grand amur, el dirà de sì, e così a’ sarò so spusa.</p>
           </sp>
           <sp who="#rosaura">
             <speaker>ROSAURA</speaker>
-            <p>Oh caro Brighella, sappi che Rosaura non saprà in che modo</p>
-            <p>maggiore ricompensare le sue obligazioni se non con il proprio</p>
-            <p>sangue.</p>
+            <p>Oh caro Brighella, sappi che Rosaura non saprà in che modo maggiore ricompensare le sue obligazioni se non con il proprio sangue.</p>
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
@@ -747,7 +744,7 @@
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
             <p>Abbi un po’ de pazienza, caro el me Nicolò, a tant che ciami</p>
-            <p>Spinettina e che ghe ‘1 daga, che po te pagherò, el me caro Nicolò, Nicolò, Nicolò.</p>
+            <p>Spinettina e che ghe 'l daga, che po te pagherò, el me caro Nicolò, Nicolò, Nicolò.</p>
           </sp>
         </div>
         <div type="scene">
@@ -767,7 +764,7 @@
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Averzi la bottega, che sior patria a’ ‘1 te manda el cest!</p>
+            <p>Averzi la bottega, che sior patria a’ 'l te manda el cest!</p>
           </sp>
           <sp who="#spinetta">
             <speaker>SPINETTA</speaker>
@@ -780,9 +777,9 @@
           <stage>Brighella solo.</stage>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Mi a’ no so che cos a’ ‘1 sii che no trovo el sior Pantalon: a’ son andà al magazin e all’ostarla ed al Redut, a’ son andà in Canaregi, ma no ‘1 catt'in vergù loch: a’ vogio batter un po’ alla porta della so Spinetta per veder se a’ ‘1 ghe fus.</p>
+            <p>Mi a’ no so che cos a’ 'l sii che no trovo el sior Pantalon: a’ son andà al magazin e all’ostarla ed al Redut, a’ son andà in Canaregi, ma no 'l catt'in vergù loch: a’ vogio batter un po’ alla porta della so Spinetta per veder se a’ 'l ghe fus.</p>
             <stage>(Brighella batte alla porta ma nessuno li rifonde)</stage>
-            <p>A’ ‘1 bisogna cert che a’ ‘1 sii andad a sulaz, e mi in sto tant andrò a far i fat me.</p>
+            <p>A’ 'l bisogna cert che a’ 'l sii andad a sulaz, e mi in sto tant andrò a far i fat me.</p>
           </sp>
         </div>
         <div type="scene">
@@ -840,7 +837,7 @@
           </sp>
           <sp who="#magazenier">
             <speaker>MAGAZENIER</speaker>
-            <p>Siorìa vostra, sior Pantalon, ve gieri desmentegào vu, sior, de vegnime a cattar e de saldar anca quel conteselo dell’altro dì e mi anzi stava a dir: cos’è mai del sior Pantalon che no ‘1 se lassa più veder? Anzi diseva a costosi: l’avéu forsi tratta mal? Arrecordéve che l’è un galantomo de tegnirghene conto, perché da stì tempi se ne trova può chi.</p>
+            <p>Siorìa vostra, sior Pantalon, ve gieri desmentegào vu, sior, de vegnime a cattar e de saldar anca quel conteselo dell’altro dì e mi anzi stava a dir: cos’è mai del sior Pantalon che no 'l se lassa più veder? Anzi diseva a costosi: l’avéu forsi tratta mal? Arrecordéve che l’è un galantomo de tegnirghene conto, perché da stì tempi se ne trova può chi.</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -876,7 +873,7 @@
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>Tanto de bocca ave parecciào, siora? Ohimèi, poveretto mi, la me magna certo anca i ossi! Ma sentirne un poco, caro sier bestiaza, dove séu stào fin adesso, che no se v’ha mai visto? Come stà i occhi, disé, caro el me fio verzene, v’ha ‘1 dà dei boni marobolani el cestariol? Disé, perché no l’avéu pagào quando el v’ha portà el cesto?</p>
+            <p>Tanto de bocca ave parecciào, siora? Ohimèi, poveretto mi, la me magna certo anca i ossi! Ma sentirne un poco, caro sier bestiaza, dove séu stào fin adesso, che no se v’ha mai visto? Come stà i occhi, disé, caro el me fio verzene, v’ha 'l dà dei boni marobolani el cestariol? Disé, perché no l’avéu pagào quando el v’ha portà el cesto?</p>
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
@@ -904,7 +901,7 @@
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Mi, sior, a’ ve ‘1 dirò, ma pianzì a fort a sentir un cas così</p>
+            <p>Mi, sior, a’ ve 'l dirò, ma pianzì a fort a sentir un cas così</p>
             <p>smacrimabile: gite giera, sior, a’ pianzì, caro sior, mo pianzì; caricar che a’ no si’ gnente comprassionevole!</p>
           </sp>
           <sp who="#pantalone">
@@ -913,7 +910,7 @@
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>No voli pianzer? A’ no ve ‘1 dirò miga, perché propri el fa vegnìr le lagrime rosse rosse co’ fa el brod de macheroni e si a’ no ‘1 credi, a’ domandéghe ‘1, dopo che a’ ‘1 avi sentì, a vostro fradel.</p>
+            <p>No voli pianzer? A’ no ve 'l dirò miga, perché propri el fa vegnìr le lagrime rosse rosse co’ fa el brod de macheroni e si a’ no 'l credi, a’ domandéghe 'l, dopo che a’ 'l avi sentì, a vostro fradel.</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -921,7 +918,7 @@
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Ah, sior, a’ ‘1 gh’era —oh caso acerbo!— in piazza cinque cani che i correva deter a una chizza, e mi a’ gh’ ho cria, e po, perché no i mi ha volsud obbedir, a’ gh’ ho dad delle legnade. Cinque contra uno, puttana cagna, cinque contra uno! Mo a’ no ho mi forsi fatto ben?</p>
+            <p>Ah, sior, a’ 'l gh’era —oh caso acerbo!— in piazza cinque cani che i correva deter a una chizza, e mi a’ gh’ ho cria, e po, perché no i mi ha volsud obbedir, a’ gh’ ho dad delle legnade. Cinque contra uno, puttana cagna, cinque contra uno! Mo a’ no ho mi forsi fatto ben?</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -958,7 +955,7 @@
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>Ti ‘1 tioravi, n’è vero ben mio, chi te ‘1 dasse? Mo vare che caro sbrodega: va’ mo a spender quei bezzi che ti ha refudào! Tioràvistu tre gazetine a tagiarmela po anca ben, siben che no la val tanto?</p>
+            <p>Ti 'l tioravi, n’è vero ben mio, chi te 'l dasse? Mo vare che caro sbrodega: va’ mo a spender quei bezzi che ti ha refudào! Tioràvistu tre gazetine a tagiarmela po anca ben, siben che no la val tanto?</p>
           </sp>
           <sp who="#luganegher">
             <speaker>LUGANEGHER</speaker>
@@ -995,7 +992,7 @@
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>Vustu che te la diga la veritàe? Che sento dalla scarsella vegnir un certo oderete che no ‘1 me piase...</p>
+            <p>Vustu che te la diga la veritàe? Che sento dalla scarsella vegnir un certo oderete che no 'l me piase...</p>
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
@@ -1004,8 +1001,7 @@
           <sp who="#pantalone">
             <speaker>PANTALONE %</speaker>
             <stage>(verso il luganegher) </stage>
-            <p>Vien qua, muso de seppa, te vedo a pianzer: te la veggio dar; ma sentì, caro ti, mi te darò po anca vinti soldi se la sarà</p>
-            <p>bona.</p>
+            <p>Vien qua, muso de seppa, te vedo a pianzer: te la veggio dar; ma sentì, caro ti, mi te darò po anca vinti soldi se la sarà bona.</p>
           </sp>
           <sp who="#luganegher">
             <speaker>LUGANEGHER</speaker>
@@ -1114,11 +1110,11 @@
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>Oh che bel dindiazo! Ma séntime, caro ti, nu averne ben magnào e ben bevùo e si no gh’ho gnianca un bezo da pagar el capo: vu, compare Mezzetin, avé da cavarve el zacco, che ghe ‘1 daremo per el debito vecchio e per el niovo.</p>
+            <p>Oh che bel dindiazo! Ma séntime, caro ti, nu averne ben magnào e ben bevùo e si no gh’ho gnianca un bezo da pagar el capo: vu, compare Mezzetin, avé da cavarve el zacco, che ghe 'l daremo per el debito vecchio e per el niovo.</p>
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Mi a’ ghe ‘1 darò volentier, ma no ‘1 lo vorrà, perché l’è vecchio e no ‘1 val miga do lire.</p>
+            <p>Mi a’ ghe 'l darò volentier, ma no 'l lo vorrà, perché l’è vecchio e no 'l val miga do lire.</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -1154,7 +1150,7 @@
           </sp>
           <stage>(il magazenier finge di prender il tabaro a Pantalone)</stage>
           <sp who="#pantalone">
-            <speaker>PANTALONE %</speaker>
+            <speaker>PANTALONE</speaker>
             <stage>(a parte) </stage>
             <p>Momoleto, Liguro, Varisco!</p>
             <stage>(ad alta voce) </stage>
@@ -1192,7 +1188,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Quest l’è podi, a’ disi pur —ades ho intes— che a’ ‘1 gh’ha fat andar de mal più de quatordes botte de vin, e cert si lu el vien quarelà alla Giustizia l’andrà all’Avogaria, opur in Picardia.</p>
+            <p>Quest l’è podi, a’ disi pur —ades ho intes— che a’ 'l gh’ha fat andar de mal più de quatordes botte de vin, e cert si lu el vien quarelà alla Giustizia l’andrà all’Avogaria, opur in Picardia.</p>
           </sp>
           <sp who="#rosaura">
             <speaker>ROSAURA</speaker>
@@ -1200,7 +1196,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>A’ lassi far a mi, cara signura, che farò tant che a’ procurerò col magazinier da salvarlo: a’ ho impromes al signur Cinci, me patrù, de andar a sfidarlo da sul a sul, ma a’ no ‘1 vogio miga far, perché cert si a’ ‘1 se ciment el resta mort.</p>
+            <p>A’ lassi far a mi, cara signura, che farò tant che a’ procurerò col magazinier da salvarlo: a’ ho impromes al signur Cinci, me patrù, de andar a sfidarlo da sul a sul, ma a’ no 'l vogio miga far, perché cert si a’ 'l se ciment el resta mort.</p>
           </sp>
           <sp who="#rosaura">
             <speaker>ROSAURA</speaker>
@@ -1241,7 +1237,7 @@
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Mi a’ no pos più cert, perché l’era un vin che el m’ha toccad le budello: a’ ‘1 bisogna cert che andem a dormir.</p>
+            <p>Mi a’ no pos più cert, perché l’era un vin che el m’ha toccad le budello: a’ 'l bisogna cert che andem a dormir.</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -1326,7 +1322,7 @@
           </sp>
           <sp who="#bedanna">
             <speaker>BEDANNA</speaker>
-            <p>Mi no so de sporco, mi so ben che l’è tutto brusi: lassane ‘1 véder ben.</p>
+            <p>Mi no so de sporco, mi so ben che l’è tutto brusi: lassane 'l véder ben.</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -1418,7 +1414,7 @@
           <stage>Mezzetino viene discorrendo fra sé e Pantalone in disparte ascolta quel che lui dice:</stage>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Va’ pur in malora, vece mal! Mi a’ no vogi star più co lu cert, perché mi andarò alla Avogaria: lu l’è el mazzur porch che zappi terra, siben che el fa el bui l’è un desgraziadaz e un pez de barù. Mi a’ confess che anca mi el me pias a far sto mester, ma co pens che a’ si vagli trop alla lunga a’ no magnerò più macherù cert, cotesta considerazione l’è quella che me met el cervel nel cò, e sì a’ digli intra de mi squomodo questa cosa sarà, che mi che son us a svegliarmi quando che sona mezz giorno e che me pias a magnar e bever co’ fa un porch e che un par mio, allevai dalla siura Simona, nostra mader, tra i matarazz più fini delle stalle, avezz a non mai lavorar, debbi far sta vit, tutto el zorn manezar arm, siben che in conscienza mi no dago mai a nissun. Questo no ‘1 farò mai, ma alla più drit ho risolt de andar al pais e de no star più co sto vece porch: a’ farò così, andarò alla Giustizia a darghe una squaquarela finché lu l’è andà a spas. A’ ‘1 me rincres po ben d’abbandonar la me cara Spinettina. Mi a’ cred cert che costò el sii mul, cert, cert.</p>
+            <p>Va’ pur in malora, vece mal! Mi a’ no vogi star più co lu cert, perché mi andarò alla Avogaria: lu l’è el mazzur porch che zappi terra, siben che el fa el bui l’è un desgraziadaz e un pez de barù. Mi a’ confess che anca mi el me pias a far sto mester, ma co pens che a’ si vagli trop alla lunga a’ no magnerò più macherù cert, cotesta considerazione l’è quella che me met el cervel nel cò, e sì a’ digli intra de mi squomodo questa cosa sarà, che mi che son us a svegliarmi quando che sona mezz giorno e che me pias a magnar e bever co’ fa un porch e che un par mio, allevai dalla siura Simona, nostra mader, tra i matarazz più fini delle stalle, avezz a non mai lavorar, debbi far sta vit, tutto el zorn manezar arm, siben che in conscienza mi no dago mai a nissun. Questo no 'l farò mai, ma alla più drit ho risolt de andar al pais e de no star più co sto vece porch: a’ farò così, andarò alla Giustizia a darghe una squaquarela finché lu l’è andà a spas. A’ 'l me rincres po ben d’abbandonar la me cara Spinettina. Mi a’ cred cert che costò el sii mul, cert, cert.</p>
           </sp>
         </div>
         <div type="scene">
@@ -1430,7 +1426,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Fermév, siur Pantalù, perdonégh sta volta, che no ‘1 farà più cert!</p>
+            <p>Fermév, siur Pantalù, perdonégh sta volta, che no 'l farà più cert!</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -1438,7 +1434,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Eh via, caro siur Pantalù, perdonégh, perché a’ ‘1 sarà stà mes su da qualchedun.</p>
+            <p>Eh via, caro siur Pantalù, perdonégh, perché a’ 'l sarà stà mes su da qualchedun.</p>
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
@@ -1482,7 +1478,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Tu ha, siura, l’ha tacad fogli al Ghet e po dop el volev mazzar el me paesan Mezzetin; mi a’ no so cos più far: a’ ho procuraci de parlar ai sbir accioché a’ f no ‘1 ciappi, ma a’ ved che sempr se va de mal in pez; se a’ no fem sì, metter anzi nu l’accord coi sbir, che i lo ciap per Farm e che i lo fazz star in presù almanch un par de mes, sino lu cert —compatirne, vidi, siura— l’andrà in Piccardia, e la s’arrecordi</p>
+            <p>Tu ha, siura, l’ha tacad fogli al Ghet e po dop el volev mazzar el me paesan Mezzetin; mi a’ no so cos più far: a’ ho procuraci de parlar ai sbir accioché a’ f no 'l ciappi, ma a’ ved che sempr se va de mal in pez; se a’ no fem sì, metter anzi nu l’accord coi sbir, che i lo ciap per Farm e che i lo fazz star in presù almanch un par de mes, sino lu cert —compatirne, vidi, siura— l’andrà in Piccardia, e la s’arrecordi</p>
             <p>che ex duobus malis, minus est eligendum.</p>
           </sp>
           <sp who="#rosaura">
@@ -1491,7 +1487,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Eh, cara siura Rosaura, a’ ‘1 bisogna cuntentarse così! Mi a’ i’ ho un podi de prissa, mettive su in sto tant la muretta, perché a’ ‘1 vien siur Cinci, accioché più a’ ‘1 se innamura, vedendo d’improvis quella che pur no ‘1 sa chi la se sipi. Vedi ‘1 apunt, breve un podi int’un cantù avant che a’ ‘1 ve vidda.</p>
+            <p>Eh, cara siura Rosaura, a’ 'l bisogna cuntentarse così! Mi a’ i’ ho un podi de prissa, mettive su in sto tant la muretta, perché a’ 'l vien siur Cinci, accioché più a’ 'l se innamura, vedendo d’improvis quella che pur no 'l sa chi la se sipi. Vedi 'l apunt, breve un podi int’un cantù avant che a’ 'l ve vidda.</p>
           </sp>
         </div>
         <div type="scene">
@@ -1631,7 +1627,9 @@
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
             <p>Se i è dai via mi voggio ballar, che tanto è i mi’ bezzi quanto che è i sói: ma senti, caro ti, èlli forsi conti da Malamoco che fa la guardia ai melloni?</p>
-            <p>10 @CAPO DE BALLO</p>
+          </sp>
+          <sp who="#capo_de_ballo">
+            <speaker>CAPO DE BALLO</speaker>
             <p>Mi no so tante istorie, mi ve digo, cara siora maschera, che i è dai via.</p>
           </sp>
           <sp who="#pantalone">
@@ -1675,8 +1673,7 @@
             <stage>(verso di Rosaura) </stage>
             <p>Eh, taci, caro mio bene...</p>
             <stage>(verso di Pantalone) </stage>
-            <p>Sappi che, per dar a divedere la mia bontà, io ti</p>
-            <p>concedo che facci due balli solamente, ma non più: m’intendi?</p>
+            <p>Sappi che, per dar a divedere la mia bontà, io ti concedo che facci due balli solamente, ma non più: m’intendi?</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -1735,7 +1732,7 @@
           <stage>Brighella solo.</stage>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Mi a’ no so mai a dov a’ ‘1 sii andà el sior Lan taluni mi a’ son vegnù qua al bai ma no ved né più bai né sior Cinci né la signura Rosaura, ma a’ me vogio ben infurmar com’ è passad el so nego ci col sior Cinci.</p>
+            <p>Mi a’ no so mai a dov a’ 'l sii andà el sior Lan taluni mi a’ son vegnù qua al bai ma no ved né più bai né sior Cinci né la signura Rosaura, ma a’ me vogio ben infurmar com’ è passad el so nego ci col sior Cinci.</p>
           </sp>
         </div>
         <div type="scene">
@@ -1759,7 +1756,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Me maravegh mi, siura, me bastava anch del doppi! Oh, com’è passad el negoci del sior Cinci? Perché a’ no ‘1 ved qua con vu?</p>
+            <p>Me maravegh mi, siura, me bastava anch del doppi! Oh, com’è passad el negoci del sior Cinci? Perché a’ no 'l ved qua con vu?</p>
           </sp>
           <sp who="#rosaura">
             <speaker>ROSAURA</speaker>
@@ -1767,7 +1764,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Oh, cos che me cunté, siura: mi a’ no so quand che quell’om benedet a’ ‘1 finirà de far più baronad. Ma a’ no vogio perder tempi a’ me vogio infurmar del fatt com l’è stad, e vu, siura, andé in ca', accioché se el veniss el siur Cinci no ‘1 ve ritrovas qui sula.</p>
+            <p>Oh, cos che me cunté, siura: mi a’ no so quand che quell’om benedet a’ 'l finirà de far più baronad. Ma a’ no vogio perder tempi a’ me vogio infurmar del fatt com l’è stad, e vu, siura, andé in ca', accioché se el veniss el siur Cinci no 'l ve ritrovas qui sula.</p>
           </sp>
           <sp who="#rosaura">
             <speaker>ROSAURA</speaker>
@@ -1791,7 +1788,7 @@
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>Se ti vuol che te diga la veritàe, credo che quel vin el gh’abbia la conza, perché me sento certi dolori in te ‘1 stomego e gh’ho anca un gran sonno.</p>
+            <p>Se ti vuol che te diga la veritàe, credo che quel vin el gh’abbia la conza, perché me sento certi dolori in te 'l stomego e gh’ho anca un gran sonno.</p>
           </sp>
           <stage>(Pantalone cadde per terra e rompe la pippa)</stage>
           <sp who="#mezzetino">
@@ -1806,7 +1803,7 @@
           <stage>(Mesettino s ’addormenta per terra; Pantalone si risveglia un poco poi dice)</stage>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>«Canto l’armi pietose e ‘1 capitano», ma no... «Donna, disse Satan, perché crudele verso di me ti mostri e inumanata»?</p>
+            <p>«Canto l’armi pietose e 'l capitano», ma no... «Donna, disse Satan, perché crudele verso di me ti mostri e inumanata»?</p>
           </sp>
           <stage>(di nuovo s’addormenta per terra)</stage>
         </div>
@@ -1834,7 +1831,7 @@
           </sp>
           <sp who="#brighella">
             <speaker>BRIGHELLA</speaker>
-            <p>Mi ho catad il mod de farlo riturnar in se stess, perché lu è persona ricca e pur el par un mendichi lu a’ 1’ è un dei primi cittadi e pur el se trà co la pleb più infam. A’ ‘1 bisogna far osi: lu, subit che a’ ‘1 se sarà svegiad, l’andrà cert a cattar la so Spinettina e sì l’anderà cert, e vu, sior, tolive deter un pez de legn e quand che lu el lo vederà el se tacherà a fuzir, perché el fa el brav sulament quand che l’è compagna e così, co ‘1 vederi a fuzir, procurerà con le belle e con le bone de dirgh che vu savivi che no ‘1 valeva un bez, perché l’è vece, ma che a’ no Favi volsud far mal perché a’ voli per vostra morosa so stola Rosaura, e disighe anche che vostra signoria a’ se’ stol del siur Duttur, che cert lu a’ ‘1 se contenterà che a’ sié so zender e sì anch a’ ‘1 ve darà della bona dot, tant più che a’ se’ persona ben nata, perché lu adess no ‘1 ve conoss negot.</p>
+            <p>Mi ho catad il mod de farlo riturnar in se stess, perché lu è persona ricca e pur el par un mendichi lu a’ 1’ è un dei primi cittadi e pur el se trà co la pleb più infam. A’ 'l bisogna far osi: lu, subit che a’ 'l se sarà svegiad, l’andrà cert a cattar la so Spinettina e sì l’anderà cert, e vu, sior, tolive deter un pez de legn e quand che lu el lo vederà el se tacherà a fuzir, perché el fa el brav sulament quand che l’è compagna e così, co 'l vederi a fuzir, procurerà con le belle e con le bone de dirgh che vu savivi che no 'l valeva un bez, perché l’è vece, ma che a’ no Favi volsud far mal perché a’ voli per vostra morosa so stola Rosaura, e disighe anche che vostra signoria a’ se’ stol del siur Duttur, che cert lu a’ 'l se contenterà che a’ sié so zender e sì anch a’ 'l ve darà della bona dot, tant più che a’ se’ persona ben nata, perché lu adess no 'l ve conoss negot.</p>
           </sp>
           <sp who="#cinzio">
             <speaker>CINZIO</speaker>
@@ -1854,7 +1851,7 @@
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Mi no ‘1 so miga, se no l’è stad qualche spirit macabreo, del rest mi a’ no so negotta.</p>
+            <p>Mi no 'l so miga, se no l’è stad qualche spirit macabreo, del rest mi a’ no so negotta.</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -1867,8 +1864,7 @@
           <stage>(Mezzetino si parte)</stage>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>Va’ pur, ma vien presto, che te aspetto qua. Mo l’è una gran cossa de mi: basta che qualchedun me veda che subito i scampa, gnianca se i vedesse el babào; co i me sente all’usmo i va via gitti gitti, co’ fa tanti</p>
-            <p>gatti, che tutti i trema co i vede sto baicoletto. </p>
+            <p>Va’ pur, ma vien presto, che te aspetto qua. Mo l’è una gran cossa de mi: basta che qualchedun me veda che subito i scampa, gnianca se i vedesse el babào; co i me sente all’usmo i va via gitti gitti, co’ fa tanti gatti, che tutti i trema co i vede sto baicoletto. </p>
             <stage>(verso la sua cinquedea)</stage>
             <p>Ma chi è sto sior garbato che vien in qua? Mi certo, si no fallo.. .oh, poveretto mi, che l’è quello che gh’ho tagiào i garettoli! Certo che el gì’ esser vegnìr qua per refarse! Compare Momoletto, dove séu? Oh poveretto mi, che i m’ ha lassào solo in le pettole: adesso adesso i me la fa far in cainello!</p>
           </sp>
@@ -1941,7 +1937,7 @@
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
             <stage>(verso Mezettin) </stage>
-            <p>M’avé lassào mi solo inte le pettole, compare Mezetin. Ma la ghe xe passarla ben a uno, perché no ‘1 voleva andar via de qua, e mi gh’ho tagiào el naso e un brazzo, ma l’è stào molto fortunào, che no l’abbia fenio da mazzar.</p>
+            <p>M’avé lassào mi solo inte le pettole, compare Mezetin. Ma la ghe xe passarla ben a uno, perché no 'l voleva andar via de qua, e mi gh’ho tagiào el naso e un brazzo, ma l’è stào molto fortunào, che no l’abbia fenio da mazzar.</p>
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
@@ -1953,7 +1949,7 @@
           </sp>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>A’ ‘1 cred pur tropp, a’ no ve descomodé miga, mi a’ no ho mai cattar! i nostri omen e sì a’ son andad per tutt dove che i suol pratticà.</p>
+            <p>A’ 'l cred pur tropp, a’ no ve descomodé miga, mi a’ no ho mai cattar! i nostri omen e sì a’ son andad per tutt dove che i suol pratticà.</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -1980,7 +1976,7 @@
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
             <p>Ghe andem, sior, ghe andem, siur... 
-              Ah, siur patrù, è ‘1 mat colù che a’ ‘1 voi che vagli via de qua?</p>
+              Ah, siur patrù, è 'l mat colù che a’ 'l voi che vagli via de qua?</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -1997,7 +1993,7 @@
           <stage>Resta Cinzio, sopragiunge Pantalone acompagnato da Mezzetino e Momoletto.</stage>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>Se’ qua ancora, sior liccapiatti? A zioghemo alle scondariole? Mi m’ho voleste fin adesso tior spasso con finzer d’andar via, ma vedo che la musica va troppo alla longa. Finilla, sior, e no ve ‘1 fé dir un’altra volta, perché adesso adesso ve volterò le ganasse co sto curadenti, e andéghe, che sarà meggio per vu, perché sento che me spuzzé da morto.</p>
+            <p>Se’ qua ancora, sior liccapiatti? A zioghemo alle scondariole? Mi m’ho voleste fin adesso tior spasso con finzer d’andar via, ma vedo che la musica va troppo alla longa. Finilla, sior, e no ve 'l fé dir un’altra volta, perché adesso adesso ve volterò le ganasse co sto curadenti, e andéghe, che sarà meggio per vu, perché sento che me spuzzé da morto.</p>
           </sp>
           <sp who="#cinzio">
             <speaker>CINZIO</speaker>
@@ -2020,7 +2016,7 @@
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>A pian, a pian, co chi parléu? Si parlé co mi vago via, caro sior, perché zà savé che non occorre che ve ‘1 staga a dir che mi ve veggio ben, caro visetto d’oro. Commàndella gniente, mio patron, in calle Dolera, che possa servirla, no? Servitor acutissimo.</p>
+            <p>A pian, a pian, co chi parléu? Si parlé co mi vago via, caro sior, perché zà savé che non occorre che ve 'l staga a dir che mi ve veggio ben, caro visetto d’oro. Commàndella gniente, mio patron, in calle Dolera, che possa servirla, no? Servitor acutissimo.</p>
           </sp>
           <sp who="#cinzio">
             <speaker>CINZIO</speaker>
@@ -2076,7 +2072,7 @@
           <stage>Mezzetino solo.</stage>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Oh, sem molto bravi: trenta i è scampaci contra nu do soli! Orsù, mi a’ no veggio perder temp, perché i dis che el temp a’ ‘1 val tant or: mi a’ vogio in sto tant andar a cattar la me cara Spinettina, per aspettar a cena el me car onorat patrun, el signur Pantalun, om verament bravo, ma anzi bravissim.</p>
+            <p>Oh, sem molto bravi: trenta i è scampaci contra nu do soli! Orsù, mi a’ no veggio perder temp, perché i dis che el temp a’ 'l val tant or: mi a’ vogio in sto tant andar a cattar la me cara Spinettina, per aspettar a cena el me car onorat patrun, el signur Pantalun, om verament bravo, ma anzi bravissim.</p>
           </sp>
         </div>
         <div type="scene">
@@ -2156,12 +2152,12 @@
           <stage>(Pantalone si prostra per terra)</stage>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
-            <p>Vu donca se’ sior Cinzio, mio amorevolissimo patron. Compatì, donca, anca mi, se ho usào certi tira indegni della mia e della vostra persona. Ma, caro sior Cinzio, si gh’avé dào la zatta, col so restante, a Rosaura, mia fiola, toméghela a dar un’altra volta, accioché veda anca so missier pare. È vero che fin adesso ho fatto una vita infame e, se andava troppo alla longa, anca mi so che saria andào a cattar l'ostaria dai tre palli, e però ve prometto de muàr vita, tanto più che ho visto che anca i mii omeni, insieme co Mezettin, i m’ha fatto una barca coll’andar dalla mia putta, che me credeva esser solo. Ma adesso cognosso che no gh’è più amighi e che quei che finze d’esser tutti vostri, i è po quei che ve minciona. Ma adesso vedo che ‘1 cielo me vuol ben, perché in mia vecchiezza el me dà un sostegno, che se’ vu, el mio caro sior zenero, che doppo la mia morte resterò patron assoluto de tutto el mio. E vu, sior Dottor, ve baso e v’abbrazzo, e vogio che da qua avanti siemo sempre più amighi che mai, tanto più</p>
+            <p>Vu donca se’ sior Cinzio, mio amorevolissimo patron. Compatì, donca, anca mi, se ho usào certi tira indegni della mia e della vostra persona. Ma, caro sior Cinzio, si gh’avé dào la zatta, col so restante, a Rosaura, mia fiola, toméghela a dar un’altra volta, accioché veda anca so missier pare. È vero che fin adesso ho fatto una vita infame e, se andava troppo alla longa, anca mi so che saria andào a cattar l'ostaria dai tre palli, e però ve prometto de muàr vita, tanto più che ho visto che anca i mii omeni, insieme co Mezettin, i m’ha fatto una barca coll’andar dalla mia putta, che me credeva esser solo. Ma adesso cognosso che no gh’è più amighi e che quei che finze d’esser tutti vostri, i è po quei che ve minciona. Ma adesso vedo che 'l cielo me vuol ben, perché in mia vecchiezza el me dà un sostegno, che se’ vu, el mio caro sior zenero, che doppo la mia morte resterò patron assoluto de tutto el mio. E vu, sior Dottor, ve baso e v’abbrazzo, e vogio che da qua avanti siemo sempre più amighi che mai, tanto più</p>
             <p>che vostro sior sto se degna de tior mia sta Rosaura per mugier. </p>
           </sp>
           <sp who="#dottore">
             <speaker>DOTTORE</speaker>
-            <p>Oh, el me car siur Pantalun, a’ pianz per l’allegrezza de veder che un om dad a tanti vizi pur al fin el se remetta nella voluntà del ciel, e se può ben dir, com a’ ‘1 dis Verzil dai Marù: Post nubila Phoebus, che dopp el nuvol della mala vita al riturna il splendor dell’emenda.</p>
+            <p>Oh, el me car siur Pantalun, a’ pianz per l’allegrezza de veder che un om dad a tanti vizi pur al fin el se remetta nella voluntà del ciel, e se può ben dir, com a’ 'l dis Verzil dai Marù: Post nubila Phoebus, che dopp el nuvol della mala vita al riturna il splendor dell’emenda.</p>
           </sp>
           <sp who="#pantalone">
             <speaker>PANTALONE</speaker>
@@ -2189,7 +2185,7 @@
           <stage>(Brighella risorge)</stage>
           <sp who="#mezzetino">
             <speaker>MEZZETINO</speaker>
-            <p>Ahu, ahu, ahu, povero Mezettin Boccal, sto de Madona Limona Saltarelli e de missier Trufaldin, om onorat tamquam becch comù! Me sprostro, tutto sstrizimante alle scarpe no no, alle siole del me patria, perché so che anca mi a’ ho fallad coll’andar dalla so cara Spinettina a targhe una sonadina: ma quest l’è stad un dessert di quel cieco Cupidino, ragazino, fantolino, picciolino, tirin dino. Ma a’ poss ben dir —se el me perdona— come a’ ‘1 dis una volta Neseca</p>
+            <p>Ahu, ahu, ahu, povero Mezettin Boccal, sto de Madona Limona Saltarelli e de missier Trufaldin, om onorat tamquam becch comù! Me sprostro, tutto sstrizimante alle scarpe no no, alle siole del me patria, perché so che anca mi a’ ho fallad coll’andar dalla so cara Spinettina a targhe una sonadina: ma quest l’è stad un dessert di quel cieco Cupidino, ragazino, fantolino, picciolino, tirin dino. Ma a’ poss ben dir —se el me perdona— come a’ 'l dis una volta Neseca</p>
             <p>filosofro: oh, oh, oh, oh, quam dulcis, quam suavis,  a’ no me ricord più...</p>
           </sp>
           <sp who="#pantalone">
