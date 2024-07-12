@@ -1280,7 +1280,9 @@
           <sp who="#capitano">
             <speaker>CAPITANO.</speaker>
             <p>E manco la vuo’ forni. </p>
-            <p>ASRSENIO.</p>
+          </sp>
+          <sp who="#arsenio">
+            <p>ARSENIO.</p>
             <p>Ho detto, che la donazione ha da essere di tutti i vostri beni.</p>
           </sp>
           <sp who="#capitano">
@@ -3462,7 +3464,7 @@
             <speaker>CAPITANO.</speaker>
             <p>Gioja mia. </p>
           </sp>
-          <stage>(Fa l’Elisa lo stesso, con ponersi più volte l’amano alla bocca).</stage>
+          <stage>(Fa l’Elisa lo stesso, con ponersi più volte la mano alla bocca).</stage>
           <sp who="#lelio">
             <speaker>LELIO.</speaker>
             <p>O Donna sopra tutt’altre sfacciata, ed infedele.</p>
@@ -3535,8 +3537,9 @@
           <sp who="#capitano">
             <speaker>CAPITANO.</speaker>
             <p>Ora mo vorria venì lo si Lello pe fa vedè quà prodezza a ssa Segnora. E che levorria fa…</p>
+			<stage>(S’accorge di Lelio, che si fa vedere) </stage>
+			<p>Uh mmalora, a tiempo a tiempo nata vota: e sso tre bote mo. Chisto mme tene le spie ncuollo.</p>
           </sp>
-          <stage>(S’accorge di Lelio, che si fa vedere) Uh mmalora, a tiempo a tiempo nata vota: e sso tre bote mo. Chisto mme tene le spie ncuollo.</stage>
           <sp who="#buontempo">
             <speaker>BUONTEMPO.</speaker>
             <p>Che dite, padrone?</p>
@@ -3592,8 +3595,9 @@
           <sp who="#lelio">
             <speaker>LELIO.</speaker>
             <p>Io sono il più...</p>
-          </sp>
-          <stage>(Ed in accorgendosi di Leandro, che per la somiglianza il crede Luigi, prende Leandro per mano, e ‘l porta in disparte da M. Manilio.) Oh, con vostra licenza. Luigi mio, fai tu, che ho io con questi occhi veduto? Sai come m’ha Elisa trattato.</stage>
+			<stage>(Ed in accorgendosi di Leandro, che per la somiglianza il crede Luigi, prende Leandro per mano, e ‘l porta in disparte da M. Manilio.) </stage>
+			<p>Oh, con vostra licenza. Luigi mio, fai tu, che ho io con questi occhi veduto? Sai come m’ha Elisa trattato.</p>
+		  </sp>
           <sp who="#leandro">
             <speaker>LEANDRO.</speaker>
             <p>Con chi parlate voi? </p>
