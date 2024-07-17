@@ -116,6 +116,12 @@
           </person>
         </listPerson>
       </particDesc>
+      <textClass>
+        <keywords>
+          <term>drama [comedy]</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <standOff>

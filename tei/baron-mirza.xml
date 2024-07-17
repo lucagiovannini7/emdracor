@@ -155,6 +155,12 @@
             <name>CHORUS</name>
           </personGrp>
         </listPerson>
+        <textClass>
+        <keywords>
+          <term>[tragedy]</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
       </particDesc>
     </profileDesc>
   </teiHeader>

@@ -66,6 +66,12 @@
           </personGrp>
         </listPerson>
       </particDesc>
+      <textClass>
+        <keywords>
+          <term>[tragedy]</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
     </profileDesc>
     <revisionDesc>
       <listChange>
