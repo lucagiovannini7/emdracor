@@ -41,12 +41,6 @@
       </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <textClass>
-        <keywords>
-          <term type="genreTitle">Comedy</term>
-        </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
-      </textClass>
       <particDesc>
         <listPerson>
           <person sex="MALE" xml:id="petrus">
@@ -93,13 +87,19 @@
           </person>
         </listPerson>
       </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <revisionDesc>
       <listChange>
         <change when="2022-11-22">(LG) conversion from source, editing.</change>
         <change when="2023-02-15">(LG) fix errors.</change>
         <change when="2023-04-04">(LG) added genre tag.</change>
-        <change when="2024-07-14>(LG) fixed textClass element </change>
+        <change when="2024-07-14">(LG) fixed textClass element </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
