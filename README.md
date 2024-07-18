@@ -1,6 +1,6 @@
 # EmDraCor (Early Modern Drama Corpus)
 
-Files and scripts related to my ongoing PhD project at the Universität Potsdam/Università di Padova (2021-).
+Files and scripts related to my ongoing PhD project at the Universität Potsdam/Università di Padova (2021-).<br>
 Working title: _Evolutive Dynamics in Early Modern European Drama: A Computational Approach_
 
 Contains the following folders:
