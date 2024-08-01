@@ -1282,7 +1282,7 @@
             <p>E manco la vuo’ forni. </p>
           </sp>
           <sp who="#arsenio">
-            <p>ARSENIO.</p>
+            <speaker>ARSENIO.</speaker>
             <p>Ho detto, che la donazione ha da essere di tutti i vostri beni.</p>
           </sp>
           <sp who="#capitano">
@@ -1709,7 +1709,7 @@
           </sp>
           <sp who="#simone">
             <speaker>SIMONE.</speaker>
-            <p>La nutrice messer sì.:.</p>
+            <p>La nutrice messer sì.</p>
           </sp>
         </div>
         <div type="scene">
@@ -1896,7 +1896,9 @@
           <sp who="#simone">
             <speaker>SIMONE.</speaker>
             <p>Dovevi tu andar dalla giustizia, e farla squartar più tosto, che farle commetter quello errore.</p>
-            <p>Mal.</p>
+	  </sp>
+	  <sp who="#alberto">
+	    <speaker>ALBERTO.</speaker>
             <p>E manca da casa? </p>
           </sp>
           <sp who="#orsolina">
@@ -1931,7 +1933,7 @@
           <stage>M. Manilio vecchio, e Leandro giovane.</stage>
           <sp who="#manilio">
             <speaker>MANILIO.</speaker>
-            <p>VEramente, Leandro, questo mi pare un di que’ casi stravaganti, e da rappresentarsi in commedia. Tutti e due trovarne in Raugia, ed aver colà novelle, nell’istesso tempo, tu di tuo padre, io di mio figliuolo, e che amendue sian qui. E ch’io il mio figliuol non conosca, così come tu non conosci tuo padre. Or piaccia à Dio, che ha condotti noi qui a salvamento, che troviam’essi e vivi, e sani.</p>
+            <p>Veramente, Leandro, questo mi pare un di que’ casi stravaganti, e da rappresentarsi in commedia. Tutti e due trovarne in Raugia, ed aver colà novelle, nell’istesso tempo, tu di tuo padre, io di mio figliuolo, e che amendue sian qui. E ch’io il mio figliuol non conosca, così come tu non conosci tuo padre. Or piaccia à Dio, che ha condotti noi qui a salvamento, che troviam’essi e vivi, e sani.</p>
           </sp>
           <sp who="#leandro">
             <speaker>LEANDRO.</speaker>
@@ -2208,7 +2210,9 @@
           <sp who="#manilio">
             <speaker>MANILIO.</speaker>
             <p>Deh, se vi muove a compassione un Padre afflitto, che si muor d’abbracciare un suo unico figliuolo, che ha desiderato vedere da tredici, e più anni; ditemi dov’è egli?</p>
-            <p>СAPITANO.</p>
+	  </sp>
+          <sp who="#capitano">
+            <speaker>СAPITANO.</speaker>
             <p>Ossoria è de Levuorno? </p>
           </sp>
           <sp who="#manilio">
@@ -2600,7 +2604,9 @@
           <sp who="#buontempo">
             <speaker>BUONTEMPO.</speaker>
             <p>Ma tu che fai mettere una sposa a letto meglio d’alcun’altra; e faresti cadere una torre; non che una donna supina, diffidi farla condescendere a nozze così vantaggiose per lei? </p>
-            <p>cap.</p>
+          </sp>
+          <sp who="#capitano">
+            <speaker>CAPITANO.</speaker>
             <p>E dincello, dincello. Vi ca chi è baleruso a na cosa, è baleruso ‘n tutto. Non faccio si mme…</p>
           </sp>
           <sp who="#caterina">
