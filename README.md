@@ -1,15 +1,14 @@
 # EmDraCor (Early Modern Drama Corpus)
 
-Files and scripts related to my ongoing PhD project at the Universität Potsdam/Università di Padova (2021-2024).<br>
-Working title: _Evolutive Dynamics in Early Modern European Drama: A Computational Approach_
+Files and scripts related to my PhD project developed between 2021 and 2024 at the Universities of Potsdam and Padova and defended in March 2025. See the related dissertation: _[Evolutive Dynamics in Early Modern European Drama: A Computational Approach](https://doi.org/10.25932/publishup-69516)_ (PDF)
 
-Contains the following folders:
+This repository contains the following folders:
 * `tei`: 150 early modern European plays, encoded in XML-TEI. This folder, together with the `corpus.xml` file, allows to (re)build the corpus on a Dockerised version of DraCor through [StableDraCor](https://github.com/dracor-org/stabledracor)
 * `scripts`: Python code for corpus building and analysis
 * `metadata`: tables and other useful files
 
 
-For more info see:
+Further info:
 
 🇩🇪 Giovannini, Luca (2024). ["Quantitative Ansätze zur Untersuchung des frühneuzeitlichen Dramas"](https://zenodo.org/records/10698266). In: _DHd2024 Book of Abstracts_. Universität Passau, 2024 (see [slides](https://plu.sh/dhd2024)).
 
